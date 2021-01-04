@@ -10,7 +10,7 @@ Notes:
 ```
 #!/bin/bash
 
-domain="ce-projects.nuwanjaliyagoda.com"
+domain="projects.ce.pdn.ac.lk"
 
 # --------------------------------
 echo "install the necessary softwares"
