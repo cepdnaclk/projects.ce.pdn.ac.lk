@@ -7,7 +7,8 @@ Notes:
 - You need root access to the server which runs  this script.
 - You need to have write access to this repository.
 
-```
+```shell
+
 #!/bin/bash
 
 domain="projects.ce.pdn.ac.lk"
