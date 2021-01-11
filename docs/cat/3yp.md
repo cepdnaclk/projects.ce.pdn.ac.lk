@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Final Year Projects
-nav_order: 2
-permalink: /fyp
+title: Unified Projects
+nav_order: 3
+permalink: /3yp
 has_children: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: project-fyp
+layout: project
 title: Pera Swarm
 nav_order: 1
 permalink: /fyp/e15/pera-swarm
@@ -9,4 +9,6 @@ grand_parent: Final Year Projects
 project_title: Mized reality based simulation platform for Swarm Robotics
 cover_url: https://cepdnaclk.github.io/projects/data/categories/fyp/cover_page.jpg
 description: ""
+contributors: [NuwanJ, DDilshani, luk3Sky]
+
 ---
