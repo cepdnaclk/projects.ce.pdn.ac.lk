@@ -7,6 +7,7 @@ layout: table_wrappers
 <html lang="{{ site.lang | default: 'en-US' }}">
 {% include project_head.html %}
 <body>
+    {% include project_navbar.html %}
 
     <div class="container">
         <div class="row">
@@ -20,7 +21,7 @@ layout: table_wrappers
                 <div class="">
                     <div>
                         <span class="px-3"><a href="./">Back</a></span>
-                        Started on
+                        Started on <span class="">{{ page.started_on }}</span>
                         <span class="px-3">Forks: <span class="">{{ page.forks }}</span></span>
                         <span class="px-3"> Watchers: <span class="">{{ page.watchers }}</span> </span>
                         <span class="px-3"> Stars: <span class="">{{ page.stars }}</span> </span>
