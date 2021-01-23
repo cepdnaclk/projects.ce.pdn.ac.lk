@@ -2,7 +2,7 @@
 layout: project_cat
 title: Computer Engineering Projects
 nav_order: 1
-permalink: /co227
+permalink: /co227/
 has_children: true
 num_projects: #
 parent: Home

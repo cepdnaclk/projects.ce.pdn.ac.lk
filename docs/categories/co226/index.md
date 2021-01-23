@@ -2,7 +2,7 @@
 layout: project_cat
 title: Database Projects
 nav_order: 1
-permalink: /co226
+permalink: /co226/
 has_children: true
 num_projects: #
 parent: Home

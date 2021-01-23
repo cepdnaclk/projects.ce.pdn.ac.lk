@@ -2,7 +2,7 @@
 layout: project_cat
 title: Final Year Projects
 nav_order: 1
-permalink: /4yp
+permalink: /4yp/
 has_children: true
 num_projects: #
 parent: Home
