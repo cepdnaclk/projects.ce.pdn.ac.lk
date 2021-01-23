@@ -7,4 +7,4 @@ has_children: true
 parent: Unified Projects
 ---
 
-# E15 Final Year Projects
+# E15 Unified Projects

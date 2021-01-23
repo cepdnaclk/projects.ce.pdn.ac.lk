@@ -1,6 +1,6 @@
 ---
 layout: project
-title: A GUI for control..
+title: A GUI for controlling and supervising multiple robots remotely
 permalink: /3yp/e15/A-GUI-for-controlling-and-supervising-multiple-robots-remotely
 has_children: false
 parent: E15 Unified Projects
