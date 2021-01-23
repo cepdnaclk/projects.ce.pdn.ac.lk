@@ -1,0 +1,81 @@
+---
+layout: table_wrappers
+---
+
+<!DOCTYPE html>
+
+<html lang="{{ site.lang | default: 'en-US' }}">
+{% include project_head.html %}
+<body>
+    <div id="app">
+        {% include project_navbar.html %}
+        {% include page_tree_builder.html pages=site.html_pages %}
+
+        <main class="py-1 p-1">
+            <div class="container">
+                <div class="row">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="../../">Home</a></li>
+                            <li class="breadcrumb-item"><a href="../">{{ page.parent }}</a></li>
+                            <li class="breadcrumb-item"><span>{{ page.batch }}</span></li>
+                        </ol>
+                    </nav>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <h3>{{ page.title }}</h3>
+
+                        <p>{{ page.description }}</p>
+                        <hr>
+                        <div class="p-1 d-none">
+                            Filter Projects by:
+
+                            <ul class="list-group">
+                                <li class="list-group-item p-1 align-items-center">
+                                    <a href="./e15" class="d-flex justify-content-between">
+                                        <span class="mx-2">eYY Batch</span>
+                                        <span class="mx-2 badge badge-secondary badge-pill">1</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <br><br>
+                    </div>
+
+                    <div class="col-md-9">
+
+                        {% if page.has_children == true and page.has_toc != false %}
+                        {%- assign children_list = pages_list | where: "parent", page.title | where: "grand_parent", page.parent -%}
+
+                        <div class="container p-3 mw-100">
+                            <div class="row">
+                                {% for child in children_list %}
+                                <div class="col-lg-3 col-md-6 d-flex">
+                                    <a class="btn" href="{{ child.url | absolute_url }}">
+                                        <div class="card h-100 m-0">
+                                            <img class="card-img-top" src="{{ page.default_thumb_image }}" alt="">
+                                            <div class="card-body p-0 m-1">
+
+                                                <p class="card-title">{{ child.title }}</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        {% endif %}
+
+                        <hr>
+                        {{ content }}
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>

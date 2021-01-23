@@ -1,0 +1,17 @@
+{
+    "code": "_repository code used for github repositories_",
+    "title":"_title to be shown_",
+    "images":{
+        "cover":"cover_page.jpg",
+        "thumbnail":"thumbnail.jpg"
+    },
+    "type": "COURSE|DEPARTMENT",
+    "description":"_provide a simple description in plain text, ~100 words_",
+    "filters": [
+        {
+           "organization":"cepdnaclk",
+           "filter":"^e\\d{2}-3yp-"
+        }
+    ],
+    "contact": "lecturer.name@eng.pdn.ac.lk"
+}
