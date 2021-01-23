@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: automatic fish tank control system
+title: computerized timetabling and attendance marking system
 nav_order: 1
-permalink: /3yp/e16/automatic-fish-tank-control-system
+permalink: /3yp/e16/computerized-timetabling-and-attendance-marking-system
 description: ""
 
 has_children: false

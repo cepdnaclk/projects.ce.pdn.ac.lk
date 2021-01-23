@@ -16,9 +16,13 @@ layout: table_wrappers
                 <div class="row">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="/">Home</a></li>
+                            {% if page.grand_parent %}
+                            <li class="breadcrumb-item"><a href="../../">{{ page.grand_parent }}</a></li>
                             <li class="breadcrumb-item"><a href="../">{{ page.parent }}</a></li>
-                            <li class="breadcrumb-item"><span>{{ page.batch }}</span></li>
+                            {% else %}
+                            <li class="breadcrumb-item"><a href="../">{{ page.parent }}</a></li>
+                            {% endif %}
+                            <li class="breadcrumb-item"><span>{{ page.title }}</span></li>
                         </ol>
                     </nav>
                 </div>
@@ -29,16 +33,19 @@ layout: table_wrappers
 
                         <p>{{ page.description }}</p>
                         <hr>
-                        <div class="p-1 d-none">
+                        <div class="p-1">
                             Filter Projects by:
 
                             <ul class="list-group">
+                                {% for batch in page.batches %}
                                 <li class="list-group-item p-1 align-items-center">
-                                    <a href="./e15" class="d-flex justify-content-between">
-                                        <span class="mx-2">eYY Batch</span>
-                                        <span class="mx-2 badge badge-secondary badge-pill">1</span>
+                                    <a href="./{{ batch }}" class="d-flex justify-content-between">
+                                        <span class="mx-2">{{ batch }} Batch</span>
+                                        <!--<span class="mx-2 badge badge-secondary badge-pill">1</span>-->
                                     </a>
                                 </li>
+
+                                {% endfor %}
                             </ul>
                         </div>
                         <br><br>
@@ -47,7 +54,7 @@ layout: table_wrappers
                     <div class="col-md-9">
 
                         {% if page.has_children == true and page.has_toc != false %}
-                        {%- assign children_list = pages_list | where: "parent", page.title | where: "grand_parent", page.parent -%}
+                        {%- assign children_list = pages_list | where: "grand_parent", page.title -%}
 
                         <div class="container p-3 mw-100">
                             <div class="row">
@@ -58,7 +65,7 @@ layout: table_wrappers
                                             <img class="card-img-top" src="{{ page.default_thumb_image }}" alt="">
                                             <div class="card-body p-0 m-1">
 
-                                                <p class="card-title">{{ child.title }}</p>
+                                                <p class="card-title">{{ child.title }} (eYY)</p>
                                             </div>
                                         </div>
                                     </a>
