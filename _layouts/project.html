@@ -10,11 +10,18 @@ layout: table_wrappers
     <div id="app">
         {% include project_navbar.html %}
         {% include page_tree_builder.html pages=site.html_pages %}
-        
+
         <main class="py-2 p-1">
             <div class="container">
                 <div class="row">
-                    {% include breadcrumb.html %}
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/">Home</a></li>
+                            <li class="breadcrumb-item"><a href="../">{{ page.grand_parent }}</a></li>
+                            <li class="breadcrumb-item"><a href="./">{{ page.parent }}</a></li>
+                            <li class="breadcrumb-item"><span>{{ page.title }}</span></li>
+                        </ol>
+                    </nav>
                 </div>
 
                 <div class="row">
