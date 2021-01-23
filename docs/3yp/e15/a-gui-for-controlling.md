@@ -5,12 +5,11 @@ permalink: /3yp/e15/A-GUI-for-controlling-and-supervising-multiple-robots-remote
 description: ""
 
 has_children: false
-parent: E15 Unified Projects
-grand_parent: Unified Projects
+parent: E15 Embedded Systems Projects
+grand_parent: Embedded Systems Projects
 
 cover_url: https://cepdnaclk.github.io/e15-3yp-A-GUI-for-controlling-and-supervising-multiple-robots-remotely/data/img_cover.jpg
 thumbnail_url: https://cepdnaclk.github.io/e15-3yp-A-GUI-for-controlling-and-supervising-multiple-robots-remotely/data/img_thumb.jpg
-
 
 repo_url: https://github.com/cepdnaclk/e15-3yp-A-GUI-for-controlling-and-supervising-multiple-robots-remotely
 page_url: https://cepdnaclk.github.io/e15-3yp-A-GUI-for-controlling-and-supervising-multiple-robots-remotely

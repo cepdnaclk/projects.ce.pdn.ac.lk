@@ -1,6 +1,6 @@
 ---
 layout: project_cat
-title: Unified Projects
+title: Embedded Systems Projects
 nav_order: 2
 permalink: /3yp/
 has_children: true
