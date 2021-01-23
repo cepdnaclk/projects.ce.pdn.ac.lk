@@ -1,17 +1,17 @@
 ---
 layout: default
-title: Unified Projects
+title: Final Year Projects
 nav_order: 1
-permalink: /3yp
+permalink: /4yp
 has_children: true
 num_projects: 12
 ---
 
 <div class="row">
     <div class="col-md-3">
-        <h3>3rd Year Embedded System Projects</h3>
+        <h3>Final Year Research Projects</h3>
 
-        <p></p>
+        <p>This section contains the Final Year Projects done by students as a part of CO421 &amp; CO 425 in their final year</p>
 
         <div class="p-1"><a href="../">Back</a>
             | {{ page.num_projects }} Projects<br>
@@ -36,12 +36,12 @@ num_projects: 12
         <div class="container p-3 mw-100">
             <div class="row">
                 <div class="col-lg-3 col-md-6 d-flex">
-                    <a class="btn" href="./e15/A-GUI-for-controlling-and-supervising-multiple-robots-remotely.html">
+                    <a class="btn" href="./e15/pera-swarm.html">
                         <div class="card h-100 m-0">
-                            <img class="card-img-top" src="https://cepdnaclk.github.io/projects/data/categories/unified/thumbnail.jpg" alt="">
+                            <img class="card-img-top" src="https://cepdnaclk.github.io/projects/data/categories/fyp/thumbnail.jpg" alt="">
                             <div class="card-body p-0 m-1">
 
-                                <p class="card-title">A GUI for control and supervising multiple robots remotely (e15)</p>
+                                <p class="card-title">Mixed Reality Simulator for Swarm Robotics (e15)</p>
                             </div>
                         </div>
                     </a>

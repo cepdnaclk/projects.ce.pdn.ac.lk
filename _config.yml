@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Pera Swarm Documentation
-description: Complete documentation for Pera Swarm project
-baseurl: "/" # the subpath of your site, e.g. /blog
+title: Projects | Department of Computer Engineering
+description: ""
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
@@ -28,7 +28,7 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 # include: ["docs/tests/"]
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/logo.png"
+logo: "/assets/images/crest.png"
 
 # Enable or disable the site search
 # Supports true (default) or false
@@ -62,7 +62,7 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Pera Swarm on GitHub": "//github.com/Pera-Swarm"
+  "Department Website": "https://ce.pdn.ac.lk"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
