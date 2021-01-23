@@ -6,41 +6,13 @@ permalink: /3yp
 has_children: true
 num_projects: 12
 parent: Home
+has_toc: true
 ---
 
 {% include page_tree_builder.html pages=site.html_pages %}
-<div class="row">
-    {% unless page.url == "/" %}
-    {% if page.parent %}
-    {%- for node in pages_list -%}
-    {%- if node.parent == nil -%}
-    {%- if page.parent == node.title or page.grand_parent == node.title -%}
-    {%- assign first_level_url = node.url | absolute_url -%}
-    {%- endif -%}
-    {%- if node.has_children -%}
-    {%- assign children_list = pages_list | where: "parent", node.title -%}
-    {%- for child in children_list -%}
-    {%- if page.url == child.url or page.parent == child.title -%}
-    {%- assign second_level_url = child.url | absolute_url -%}
-    {%- endif -%}
-    {%- endfor -%}
-    {%- endif -%}
-    {%- endif -%}
-    {%- endfor -%}
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            {% if page.grand_parent %}
-            <li class="breadcrumb-item"><a href="{{ first_level_url }}">{{ page.grand_parent }}</a></li>
-            <li class="breadcrumb-item"><a href="{{ second_level_url }}">{{ page.parent }}</a></li>
-            {% else %}
-            <li class="breadcrumb-item"><a href="{{ first_level_url }}">{{ page.parent }}</a></li>
-            {% endif %}
-            <li class="breadcrumb-item"><span>{{ page.title }}</span></li>
-        </ol>
-    </nav>
 
-    {% endif %}
-    {% endunless %}
+<div class="row">
+    {% include breadcrumb.html %}
 </div>
 
 <div class="row">
@@ -70,20 +42,8 @@ parent: Home
     </div>
 
     <div class="col-md-9">
-        {% if page.has_children == true and false %}
-        <hr>
-        <h2 class="text-delta">Table of contents</h2>
-        <ul>
-            {%- assign children_list = pages_list | where: "parent", page.title | where: "grand_parent", page.parent -%}
-            {% for child in children_list %}
-            <li>
-                <a href="{{ child.url | absolute_url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
-            </li>
-            {% endfor %}
-        </ul>
-        {% endif %}
-
         <div class="container p-3 mw-100">
+
             <div class="row">
                 <div class="col-lg-3 col-md-6 d-flex">
                     <a class="btn" href="./e15/A-GUI-for-controlling-and-supervising-multiple-robots-remotely.html">
