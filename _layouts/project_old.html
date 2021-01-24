@@ -23,63 +23,64 @@ layout: table_wrappers
                         </ol>
                     </nav>
                 </div>
+                <div class="container">
+                    <div class="row">
+                        <!-- Post Content Column -->
+                        <div class="col-lg-11">
+                            <!-- Title -->
+                            {% if page.title %}
+                            <h1 class="mt-4">{{ page.title }}</h1>
+                            {% endif %}
 
-                <div class="row">
-                    <!-- Post Content Column -->
-                    <div class="col-lg-11">
-                        <!-- Title -->
-                        {% if page.title %}
-                        <h1 class="mt-4">{{ page.title }}</h1>
-                        {% endif %}
+                            <!-- Preview Image -->
+                            <div class="">
+                                <img class="img-fluid rounded" src="{{ page.cover_url }}" alt="" >
+                            </div>
 
-                        <!-- Preview Image -->
-                        <div class="">
-                            <img class="img-fluid rounded" src="{{ page.cover_url }}" alt="" style="max-width:720px;">
-                        </div>
+                            <!-- Post Content -->
+                            <p class="lead">{{ page.description }}</p>
 
-                        <!-- Post Content -->
-                        <p class="lead">{{ page.description }}</p>
-
-                        <h3 class="pt-3">Team</h3>
-                        <ul>
-                            {% for member in page.team %}
+                            <h3 class="pt-3">Team</h3>
+                            <ul>
+                                {% for member in page.team %}
                                 <li>{{ member }}</li>
-                            {% endfor %}
-                        </ul>
+                                {% endfor %}
+                            </ul>
 
-                        <h3 class="pt-3">Supervisors</h3>
-                        <ul>
-                            {% for member in page.supervisors %}
+                            <h3 class="pt-3">Supervisors</h3>
+                            <ul>
+                                {% for member in page.supervisors %}
                                 <li>{{ member }}</li>
-                            {% endfor %}
-                        </ul>
+                                {% endfor %}
+                            </ul>
 
-                        <h3 class="pt-3">Description</h3>
-                        <div class="px-3">
-                            {{ content }}
+                            <h3 class="pt-3">Description</h3>
+                            <div class="px-3">
+                                {{ content }}
+                            </div>
+
+
+                            {% if page.has_publication %}
+                            <h3 class="pt-3">Publications:</h3>
+                            <div class="px-3">
+                                {{ page.publication}}
+                            </div>
+                            {% endif %}
+
                         </div>
-
-
-                        {% if page.has_publication %}
-                        <h3 class="pt-3">Publications:</h3>
-                        <div class="px-3">
-                            {{ page.publication}}
-                        </div>
-                        {% endif %}
+                        <!-- Sidebar Widgets Column -->
 
                     </div>
-                    <!-- Sidebar Widgets Column -->
-
                 </div>
             </div>
 
-            <footer class="mt-5 py-5 bg-dark">
-                <div class="container">
-                    <p class="m-2 text-center text-white"></p>
-                </div>
-            </footer>
-
         </main>
+
+        <footer class="mt-5 py-5 bg-dark">
+            <div class="container">
+                <p class="m-2 text-center text-white"></p>
+            </div>
+        </footer>
 
     </div>
 </body>
