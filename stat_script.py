@@ -9,6 +9,25 @@
 import requests
 import os
 from datetime import datetime
+import re, json
+import base64
+
+
+CATEGORIES={}
+url = 'https://api.github.com/repos/cepdnaclk/projects/git/blobs/2166c8eba0801b62b539a23576a7b6fc46e7f4f7'
+resp = requests.get(url)
+#print(resp)
+data = json.loads(resp.text)
+#print(data)
+#print(data['content'])
+
+message_bytes = base64.b64decode(data['content'])
+message = json.loads(message_bytes.decode('ascii'))
+
+for i in message:
+    CATEGORIES[message[i]['link']] = message[i]['name']
+    #print(message[i]['link'])
+print(CATEGORIES)
 
 ORGANIZATION = "cepdnaclk"
 PROJECTS = []
@@ -45,7 +64,7 @@ def inRange(x, minNumber, maxNumber):
         return False
 
 
-def writeHeader(category, batch, grand_parent, permalink, title):
+def writeHeader(category, batch, grand_parent, permalink, title,stars,forks,watch,date):
     s = """---
 layout: project_page
 title: """+title+"""
@@ -62,10 +81,10 @@ thumbnail_url: https://cepdnaclk.github.io/projects/data/categories/"""+category
 repo_url: #
 page_url: #
 
-forks: 0
-watchers: 0
-stars: 0
-started_on: yyyy-mm-dd
+forks: """+str(forks)+"""
+watchers: """+str(watch)+"""
+stars: """+str(stars)+"""
+started_on: """+date+"""
 
 ---
     """
@@ -108,8 +127,14 @@ if __name__ == "__main__":
                         path = "docs/uncategorized/"+filename+".md"
                         title = ' '.join(repoName[2:])
                         permalink = "/"+repoName[1]+"/" + repoName[0]+"/"+filename
+                        stars = jsonData[i]["stargazers_count"]
+                        forks = jsonData[i]["forks_count"]
+                        watch = jsonData[i]["watchers_count"]
+                        date = jsonData[i]["created_at"]
+
                         outputFile = open(path, "w+")
+                    
 
                         # TODO: update other parameters on header
-                        outputFile.write(writeHeader(repoName[1],repoName[0][1:], "Unified", permalink, title))
+                        outputFile.write(writeHeader(repoName[1],repoName[0][1:], "Unified", permalink, title,stars,forks,watch,date))
 print("END")
