@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: automatic fish tank control system
-permalink: /3yp/e16/automatic-fish-tank-control-system
+title: digital signage based user targeted advertising
+permalink: /3yp/e16/digital-signage-based-user-targeted-advertising
 description: ""
 
 has_children: false
@@ -14,10 +14,10 @@ thumbnail_url: https://cepdnaclk.github.io/projects/data/categories/3yp/thumbnai
 repo_url: #
 page_url: #
 
-forks: 3
-watchers: 0
-stars: 0
-started_on: 2020-10-17T05:41:17Z
+forks: 4
+watchers: 3
+stars: 3
+started_on: 2020-10-16T16:06:29Z
 
 ---
     

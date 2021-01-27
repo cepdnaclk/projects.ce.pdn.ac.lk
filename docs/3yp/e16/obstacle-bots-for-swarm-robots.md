@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: automatic fish tank control system
-permalink: /3yp/e16/automatic-fish-tank-control-system
+title: obstacle bots for swarm robots
+permalink: /3yp/e16/obstacle-bots-for-swarm-robots
 description: ""
 
 has_children: false
@@ -14,10 +14,10 @@ thumbnail_url: https://cepdnaclk.github.io/projects/data/categories/3yp/thumbnai
 repo_url: #
 page_url: #
 
-forks: 3
-watchers: 0
-stars: 0
-started_on: 2020-10-17T05:41:17Z
+forks: 2
+watchers: 1
+stars: 1
+started_on: 2020-10-16T14:08:11Z
 
 ---
     

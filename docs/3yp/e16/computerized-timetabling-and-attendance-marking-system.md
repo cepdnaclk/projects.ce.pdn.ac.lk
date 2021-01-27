@@ -1,22 +1,23 @@
 ---
 layout: project_page
 title: computerized timetabling and attendance marking system
-nav_order: 1
 permalink: /3yp/e16/computerized-timetabling-and-attendance-marking-system
 description: ""
 
 has_children: false
-parent: E16 Unified Projects
-grand_parent: Unified Projects
+parent: 16 Unified
+grand_parent: Unified
 
-cover_url: https://cepdnaclk.github.io/projects/data/categories/unified/cover_page.jpg
-thumbnail_url: https://cepdnaclk.github.io/projects/data/categories/unified/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/projects/data/categories/3yp/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/projects/data/categories/3yp/thumbnail.jpg
 
 repo_url: #
 page_url: #
 
-forks: 0
+forks: 3
 watchers: 0
 stars: 0
-started_on: yyyy-mm-dd
+started_on: 2020-10-18T03:40:36Z
+
 ---
+    

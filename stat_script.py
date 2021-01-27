@@ -124,7 +124,9 @@ if __name__ == "__main__":
                         filename = '-'.join(repoName[2:])
 
                         # TODO: update URLs
-                        path = "docs/uncategorized/"+filename+".md"
+                        # /3yp/e15
+                        path = "docs/"+repoName[1]+"/" + repoName[0]+"/"+filename+".md"
+                        #path = "docs/uncategorized/"+filename+".md"
                         title = ' '.join(repoName[2:])
                         permalink = "/"+repoName[1]+"/" + repoName[0]+"/"+filename
                         stars = jsonData[i]["stargazers_count"]

@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: automatic fish tank control system
-permalink: /3yp/e16/automatic-fish-tank-control-system
+title: smart infared shooting sport
+permalink: /3yp/e16/smart-infared-shooting-sport
 description: ""
 
 has_children: false
@@ -17,7 +17,7 @@ page_url: #
 forks: 3
 watchers: 0
 stars: 0
-started_on: 2020-10-17T05:41:17Z
+started_on: 2020-10-19T06:16:06Z
 
 ---
     

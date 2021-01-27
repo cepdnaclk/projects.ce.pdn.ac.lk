@@ -1,11 +1,11 @@
 ---
 layout: project_page
-title: automatic fish tank control system
-permalink: /3yp/e16/automatic-fish-tank-control-system
+title: sleep apnea detection
+permalink: /3yp/e14/sleep-apnea-detection
 description: ""
 
 has_children: false
-parent: 16 Unified
+parent: 14 Unified
 grand_parent: Unified
 
 cover_url: https://cepdnaclk.github.io/projects/data/categories/3yp/cover_page.jpg
@@ -14,10 +14,10 @@ thumbnail_url: https://cepdnaclk.github.io/projects/data/categories/3yp/thumbnai
 repo_url: #
 page_url: #
 
-forks: 3
+forks: 0
 watchers: 0
 stars: 0
-started_on: 2020-10-17T05:41:17Z
+started_on: 2020-10-25T04:49:39Z
 
 ---
     
