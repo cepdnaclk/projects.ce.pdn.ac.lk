@@ -6,7 +6,6 @@ description: ""
 permalink: /
 ---
 
-
 <!-- Jumbotron Header -->
 <header class="jumbotron my-2">
     <h1 class="d-none display-3">A Warm Welcome!</h1>
@@ -84,6 +83,7 @@ permalink: /
     </div>
 </div>
 
+<!--
 <h3 class="pt-3 pb-1">Department Projects</h3>
 <div class="row text-center my-4">
     <div class="col-lg-3 col-md-6 mb-2 d-flex">
@@ -96,4 +96,4 @@ permalink: /
             </div>
         </a>
     </div>
-</div>
+</div> -->
