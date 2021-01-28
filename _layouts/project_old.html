@@ -1,0 +1,86 @@
+---
+layout: table_wrappers
+---
+
+<!DOCTYPE html>
+
+<html lang="{{ site.lang | default: 'en-US' }}">
+{% include project_head.html %}
+<body>
+    <div id="app">
+        {% include project_navbar.html %}
+        {% include page_tree_builder.html pages=site.html_pages %}
+
+        <main class="py-2 p-1">
+            <div class="container-fluid py-2 px-5">
+                <div class="row">
+                    <nav aria-label="breadcrumb" style="width: 100%">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="../../">Home</a></li>
+                            <li class="breadcrumb-item"><a href="../">{{ page.grand_parent }}</a></li>
+                            <li class="breadcrumb-item"><a href="./">{{ page.parent }}</a></li>
+                            <!-- <li class="breadcrumb-item"><span>{{ page.title }}</span></li> -->
+                        </ol>
+                    </nav>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <!-- Post Content Column -->
+                        <div class="col-lg-11">
+                            <!-- Title -->
+                            {% if page.title %}
+                            <h1 class="mt-4">{{ page.title }}</h1>
+                            {% endif %}
+
+                            <!-- Preview Image -->
+                            <div class="">
+                                <img class="img-fluid rounded" src="{{ page.cover_url }}" alt="" >
+                            </div>
+
+                            <!-- Post Content -->
+                            <p class="lead">{{ page.description }}</p>
+
+                            <h3 class="pt-3">Team</h3>
+                            <ul>
+                                {% for member in page.team %}
+                                <li>{{ member }}</li>
+                                {% endfor %}
+                            </ul>
+
+                            <h3 class="pt-3">Supervisors</h3>
+                            <ul>
+                                {% for member in page.supervisors %}
+                                <li>{{ member }}</li>
+                                {% endfor %}
+                            </ul>
+
+                            <h3 class="pt-3">Description</h3>
+                            <div class="px-3">
+                                {{ content }}
+                            </div>
+
+
+                            {% if page.has_publication %}
+                            <h3 class="pt-3">Publications:</h3>
+                            <div class="px-3">
+                                {{ page.publication}}
+                            </div>
+                            {% endif %}
+
+                        </div>
+                        <!-- Sidebar Widgets Column -->
+
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="mt-5 py-5 bg-dark">
+            <div class="container">
+                <p class="m-2 text-center text-white"></p>
+            </div>
+        </footer>
+
+    </div>
+</body>

@@ -7,8 +7,8 @@ has_children: false
 parent: E15 Final Year Projects
 grand_parent: Final Year Projects
 
-cover_url: https://cepdnaclk.github.io/e15-fyp-mixed-reality-simulator-for-swarm-robotics/data/img_cover.jpg
-thumbnail_url: https://cepdnaclk.github.io/e15-fyp-mixed-reality-simulator-for-swarm-robotics/data/img_thumb.jpg
+cover_url: https://cepdnaclk.github.io/projects/data/categories/fyp/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/projects/data/categories/fyp/thumbnail.jpg
 
 description: ""
 forks: 3
