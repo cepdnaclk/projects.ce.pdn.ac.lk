@@ -18,6 +18,6 @@ forks: 3
 watchers: 0
 stars: 0
 started_on: 2020-10-19T11:26:27Z
-
 ---
-    
+In this project we are developing a water tank monitoring system for providing clean water and reduce the water wastage
+

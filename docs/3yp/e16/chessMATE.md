@@ -18,6 +18,6 @@ forks: 5
 watchers: 1
 stars: 1
 started_on: 2020-10-17T07:37:38Z
-
 ---
-    
+Smart Chess Platform
+

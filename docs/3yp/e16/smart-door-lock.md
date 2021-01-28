@@ -18,6 +18,6 @@ forks: 0
 watchers: 0
 stars: 0
 started_on: 2020-10-17T06:59:56Z
-
 ---
-    
+A project of third year students developing a smart door lock for the entrance.
+
