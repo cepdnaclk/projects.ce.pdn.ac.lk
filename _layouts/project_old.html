@@ -14,7 +14,7 @@ layout: table_wrappers
         <main class="py-2 p-1">
             <div class="container-fluid py-2 px-5">
                 <div class="row">
-                    <nav aria-label="breadcrumb" style="width: 100%">
+                    <nav aria-label="breadcrumb" class="w-100 mt-2">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="../../">Home</a></li>
                             <li class="breadcrumb-item"><a href="../">{{ page.grand_parent }}</a></li>
@@ -26,15 +26,21 @@ layout: table_wrappers
                 <div class="container">
                     <div class="row">
                         <!-- Post Content Column -->
-                        <div class="col-lg-11">
+                        <div class="container">
                             <!-- Title -->
                             {% if page.title %}
-                            <h1 class="mt-4">{{ page.title }}</h1>
+                            <h1 class="mt-2 title-case">{{ page.title }}</h1>
                             {% endif %}
+                        </div>
+                    </div>
 
-                            <!-- Preview Image -->
+                    <div class="row">
+
+                        <!-- Post Content Column -->
+                        <div class="col-md-10">
+                            <!-- Cover Image -->
                             <div class="">
-                                <img class="img-fluid rounded" src="{{ page.cover_url }}" alt="" >
+                                <img class="img-fluid w-100" src="{{ page.cover_url }}" alt="" >
                             </div>
 
                             <!-- Post Content -->
@@ -66,14 +72,15 @@ layout: table_wrappers
                                 {{ page.publication}}
                             </div>
                             {% endif %}
-
                         </div>
-                        <!-- Sidebar Widgets Column -->
 
+                        <!-- Sidebar Widgets Column -->
+                        <div class="col-md-1">
+                            &nbsp;
+                        </div>
                     </div>
                 </div>
             </div>
-
         </main>
 
         <footer class="mt-5 py-5 bg-dark">
