@@ -1,7 +1,6 @@
 ---
 layout: project_page
 title: computerized timetabling and attendance marking system
-nav_order: 1
 permalink: /3yp/e16/computerized-timetabling-and-attendance-marking-system
 description: ""
 
@@ -15,8 +14,10 @@ thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories
 repo_url: #
 page_url: #
 
-forks: 0
+forks: 3
 watchers: 0
 stars: 0
-started_on: yyyy-mm-dd
+started_on: 2020-10-18T03:40:36Z
+
 ---
+    

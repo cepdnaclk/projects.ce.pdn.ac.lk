@@ -9,6 +9,32 @@
 import requests
 import os
 from datetime import datetime
+import re, json
+import base64
+
+
+CATEGORIES={}
+# url = 'https://api.github.com/repos/cepdnaclk/projects/git/blobs/2166c8eba0801b62b539a23576a7b6fc46e7f4f7'
+# resp = requests.get(url)
+# #print(resp)
+# data = json.loads(resp.text)
+# #print(data)
+# #print(data['content'])
+#
+# message_bytes = base64.b64decode(data['content'])
+# message = json.loads(message_bytes.decode('ascii'))
+
+url = 'data/categories/index.json'
+with open(url, 'r') as f:
+    message = json.load(f)
+
+# message = resp.json()
+
+for i in message:
+    CATEGORIES[message[i]['link']] = message[i]['name']
+    #print(message[i]['link'])
+
+print(CATEGORIES)
 
 ORGANIZATION = "cepdnaclk"
 PROJECTS = []
@@ -45,7 +71,7 @@ def inRange(x, minNumber, maxNumber):
         return False
 
 
-def writeHeader(category, batch, grand_parent, permalink, title):
+def writeHeader(category, batch, grand_parent, permalink, title,stars,forks,watch,date):
     s = """---
 layout: project_page
 title: """+title+"""
@@ -53,19 +79,19 @@ permalink: """+permalink+"""
 description: ""
 
 has_children: false
-parent: """+batch+ " " + grand_parent + """
+parent: """+batch.upper()+ " " + grand_parent + """
 grand_parent: """+grand_parent+"""
 
-cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/3yp/data/categories/"""+category+"""/cover_page.jpg
-thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/3yp/data/categories/"""+category+"""/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+category+"""/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+category+"""/thumbnail.jpg
 
 repo_url: #
 page_url: #
 
-forks: 0
-watchers: 0
-stars: 0
-started_on: yyyy-mm-dd
+forks: """+str(forks)+"""
+watchers: """+str(watch)+"""
+stars: """+str(stars)+"""
+started_on: """+date+"""
 
 ---
     """
@@ -95,7 +121,7 @@ if __name__ == "__main__":
             break
 
         for i in range(len(jsonData)):
-            # print(i)
+            # print(jsonData[i]["name"])
             repoName = jsonData[i]["name"].strip().split("-")
             if repoName[0][0] == "e" and repoName[0][1:] != 'YY':
                 if repoName[1][1:] == "yp" and repoName[1][:1] != 'f':
@@ -105,11 +131,25 @@ if __name__ == "__main__":
                         filename = '-'.join(repoName[2:])
 
                         # TODO: update URLs
-                        path = "docs/uncategorized/"+filename+".md"
+                        # /3yp/e15
+                        path = "docs/"+repoName[1]+"/" + repoName[0]+"/"+filename+".md"
+                        #path = "docs/uncategorized/"+filename+".md"
                         title = ' '.join(repoName[2:])
                         permalink = "/"+repoName[1]+"/" + repoName[0]+"/"+filename
+                        stars = jsonData[i]["stargazers_count"]
+                        forks = jsonData[i]["forks_count"]
+                        watch = jsonData[i]["watchers_count"]
+                        date = jsonData[i]["created_at"]
+
+                        os.makedirs(os.path.dirname(path), exist_ok=True)
                         outputFile = open(path, "w+")
 
+                        if repoName[1] in CATEGORIES:
+                            grand_parent = CATEGORIES[repoName[1]]
+                        else:
+                            grand_parent = 'xxx'
+
                         # TODO: update other parameters on header
-                        outputFile.write(writeHeader(repoName[1],repoName[0][1:], "Unified", permalink, title))
+                        # writeHeader(category, batch, grand_parent, permalink, title,stars,forks,watch,date)
+                        outputFile.write(writeHeader(repoName[1],repoName[0], grand_parent, permalink, title,stars,forks,watch,date))
 print("END")

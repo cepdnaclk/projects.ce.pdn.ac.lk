@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: automated railway ticketing system
-permalink: /3yp/e16/automated-railway-ticketing-system
+title: digital signage based user targeted advertising
+permalink: /3yp/e16/digital-signage-based-user-targeted-advertising
 description: ""
 
 has_children: false
@@ -14,10 +14,10 @@ thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories
 repo_url: #
 page_url: #
 
-forks: 1
-watchers: 0
-stars: 0
-started_on: 2020-10-17T06:48:34Z
+forks: 5
+watchers: 3
+stars: 3
+started_on: 2020-10-16T16:06:29Z
 
 ---
     
