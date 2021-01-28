@@ -7,12 +7,12 @@ has_children: false
 parent: Exx Final Year Projects
 grand_parent: Final Year Projects
 
-cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/3yp/data/categories/fyp/cover_page.jpg
-thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/3yp/data/categories/fyp/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/fyp/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/fyp/thumbnail.jpg
 
-tags: [	Software and Systems ]
-team: [ Thilini Dahanayaka, Rajitha Ramanayake ]
-supervisors: [ Dr. Dhammika Elkaduwe, Dr. Isuru Nawinne ]
+tags: [Software and Systems]
+team: [Thilini Dahanayaka, Rajitha Ramanayake]
+supervisors: [Dr. Dhammika Elkaduwe, Dr. Isuru Nawinne]
 
 has_publication: false
 publication: ""
