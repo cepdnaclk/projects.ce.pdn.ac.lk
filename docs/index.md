@@ -34,7 +34,7 @@ permalink: /
     <div class="col-lg-3 col-md-6 mb-2 d-flex">
         <a class="btn" href="./3yp">
             <div class="card h-100">
-                <img class="card-img-top" src="https://cepdnaclk.github.io/projects/data/categories/unified/thumbnail.jpg" alt="">
+                <img class="card-img-top" src="https://cepdnaclk.github.io/projects/data/categories/3yp/thumbnail.jpg" alt="">
                 <div class="card-body">
                     <h5 class="card-title">Embedded Systems Projects</h5>
                 </div>

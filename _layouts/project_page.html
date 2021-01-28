@@ -19,16 +19,18 @@ layout: table_wrappers
                             <li class="breadcrumb-item"><a href="../../">Home</a></li>
                             <li class="breadcrumb-item"><a href="../">{{ page.grand_parent }}</a></li>
                             <li class="breadcrumb-item"><a href="./">{{ page.parent }}</a></li>
-                            <li class="breadcrumb-item"><span>{{ page.title }}</span></li>
+                            <li class="breadcrumb-item title-case"><span>{{ page.title }}</span></li>
                         </ol>
                     </nav>
                 </div>
 
                 <div class="container">
                     <div class="row">
-                        <h1 class="mt-2">{{ page.title }}</h1>
+                        <h1 class="mt-2 title-case">{{ page.title }}</h1>
                         <div class="container">
+                            {% if page.started_on != 'yyyy-mm-dd'  %}
                             Started on <span class="">{{ page.started_on }}</span>
+                            {% endif %}
                             <span class="px-3">Forks: <span class="">{{ page.forks }}</span></span>
                             <span class="px-3"> Watchers: <span class="">{{ page.watchers }}</span> </span>
                             <span class="px-3"> Stars: <span class="">{{ page.stars }}</span> </span>
@@ -54,7 +56,7 @@ layout: table_wrappers
                             <div class="row pt-3">
                                 <div class="col-md-6">
                                     <div class="card mb-3">
-                                        <a class="" href="{{ page.repo_url }}" target="_blank">
+                                        <a class="btn" href="{{ page.repo_url }}" target="_blank">
                                             <div class="row no-gutters">
                                                 <div class="col-md-4">
                                                     <img src="{{ "/assets/images/icon_repo.jpg" | absolute_url }}" class="card-img p-3" alt="...">
@@ -62,7 +64,7 @@ layout: table_wrappers
                                                 <div class="col-md-8">
                                                     <div class="card-body text-left">
                                                         <h5 class="card-title">Project Repository</h5>
-                                                        <p class="card-text"><small class="text-muted">Visit >> </small></p>
+                                                        <!-- <p class="card-text"><small class="text-muted">Visit >> </small></p> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -72,7 +74,7 @@ layout: table_wrappers
 
                                 <div class="col-md-6">
                                     <div class="card mb-3">
-                                        <a class="" href="{{ page.page_url }}" target="_blank">
+                                        <a class="btn" href="{{ page.page_url }}" target="_blank">
                                             <div class="row no-gutters">
                                                 <div class="col-md-4">
                                                     <img src="{{ "/assets/images/icon_page.jpg" | absolute_url }}" class="card-img p-3" alt="...">
@@ -80,7 +82,7 @@ layout: table_wrappers
                                                 <div class="col-md-8">
                                                     <div class="card-body text-left">
                                                         <h5 class="card-title">Project Page</h5>
-                                                        <p class="card-text"><small class="text-muted">Visit >> </small></p>
+                                                        <!-- <p class="card-text"><small class="text-muted">Visit >> </small></p> -->
                                                     </div>
                                                 </div>
                                             </div>
