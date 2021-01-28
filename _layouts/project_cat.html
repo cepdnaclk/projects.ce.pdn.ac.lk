@@ -44,7 +44,6 @@ layout: table_wrappers
                                         <!--<span class="mx-2 badge badge-secondary badge-pill">1</span>-->
                                     </a>
                                 </li>
-
                                 {% endfor %}
                             </ul>
                         </div>
@@ -59,12 +58,14 @@ layout: table_wrappers
                         <div class="container p-0 mw-100">
                             <div class="row">
                                 {% for child in children_list %}
-                                <div class="col-lg-3 col-md-6 d-flex" style="padding:0;">
-                                    <a class="btn p-1" href="{{ child.url | absolute_url }}">
+                                <div class="col-lg-3 col-md-6 d-flex m-0" style="padding: 10px 0;">
+                                    <a class="btn m-0" href="{{ child.url | absolute_url }}">
                                         <div class="card h-100 m-0">
                                             <img class="card-img-top" src="{{ page.default_thumb_image }}" alt="">
                                             <div class="card-body p-1 m-0">
-                                                <p class="card-title">{{ child.title }}</p>
+                                                <p class="card-title project-card-title">
+                                                    {{ child.title }}
+                                                </p>
                                             </div>
                                         </div>
                                     </a>
