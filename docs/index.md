@@ -26,7 +26,7 @@ permalink: /
             <div class="card h-100">
                 <img class="card-img-top" src="https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">Final Year Research Projects</h5>
+                    <h5 class="card-title">Final Year Projects</h5>
                 </div>
             </div>
         </a>

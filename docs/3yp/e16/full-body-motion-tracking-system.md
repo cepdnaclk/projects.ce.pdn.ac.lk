@@ -18,6 +18,6 @@ forks: 4
 watchers: 0
 stars: 0
 started_on: 2020-10-17T05:32:22Z
-
 ---
-    
+A game console based on a full-body motion tracking system
+

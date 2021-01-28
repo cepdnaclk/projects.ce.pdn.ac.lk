@@ -71,7 +71,7 @@ def inRange(x, minNumber, maxNumber):
         return False
 
 
-def writeHeader(category, batch, grand_parent, permalink, title,stars,forks,watch,date):
+def writeHeader(category,batch,grand_parent,permalink,title,description,stars,forks,watch,date):
     s = """---
 layout: project_page
 title: """+title+"""
@@ -92,9 +92,11 @@ forks: """+str(forks)+"""
 watchers: """+str(watch)+"""
 stars: """+str(stars)+"""
 started_on: """+date+"""
-
 ---
-    """
+"""+description+"""
+
+"""
+
     return s
 
 
@@ -135,6 +137,7 @@ if __name__ == "__main__":
                         path = "docs/"+repoName[1]+"/" + repoName[0]+"/"+filename+".md"
                         #path = "docs/uncategorized/"+filename+".md"
                         title = ' '.join(repoName[2:])
+
                         permalink = "/"+repoName[1]+"/" + repoName[0]+"/"+filename
                         stars = jsonData[i]["stargazers_count"]
                         forks = jsonData[i]["forks_count"]
@@ -144,6 +147,11 @@ if __name__ == "__main__":
                         os.makedirs(os.path.dirname(path), exist_ok=True)
                         outputFile = open(path, "w+")
 
+                        if jsonData[i]["description"]:
+                            desc = jsonData[i]["description"]
+                        else:
+                            desc = ''
+
                         if repoName[1] in CATEGORIES:
                             grand_parent = CATEGORIES[repoName[1]]
                         else:
@@ -151,5 +159,5 @@ if __name__ == "__main__":
 
                         # TODO: update other parameters on header
                         # writeHeader(category, batch, grand_parent, permalink, title,stars,forks,watch,date)
-                        outputFile.write(writeHeader(repoName[1],repoName[0], grand_parent, permalink, title,stars,forks,watch,date))
+                        outputFile.write(writeHeader(repoName[1],repoName[0],grand_parent,permalink,title,desc,stars,forks,watch,date))
 print("END")

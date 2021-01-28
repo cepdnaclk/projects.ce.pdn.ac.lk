@@ -18,6 +18,6 @@ forks: 2
 watchers: 0
 stars: 0
 started_on: 2020-10-21T10:22:20Z
-
 ---
-    
+Smart Vending Machine (3rd year unified project)
+

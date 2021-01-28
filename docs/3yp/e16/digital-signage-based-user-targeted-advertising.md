@@ -18,6 +18,6 @@ forks: 5
 watchers: 3
 stars: 3
 started_on: 2020-10-16T16:06:29Z
-
 ---
-    
+A novel approach for digital signage based user targeted advertising
+

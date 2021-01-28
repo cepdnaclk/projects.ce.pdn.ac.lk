@@ -18,6 +18,6 @@ forks: 0
 watchers: 0
 stars: 0
 started_on: 2020-10-20T05:44:52Z
-
 ---
-    
+Pera SAP-I (also known as Simple As Possible) is a minimalist computer designed from basic logic ICs. The project was started as a Course Project, 'CO221: Digital Design'. 
+

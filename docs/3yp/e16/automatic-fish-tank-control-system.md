@@ -18,6 +18,6 @@ forks: 3
 watchers: 0
 stars: 0
 started_on: 2020-10-17T05:41:17Z
-
 ---
-    
+This is a third-year project by a group of students. Here we are developing a fish tank controlling device with a web app.
+

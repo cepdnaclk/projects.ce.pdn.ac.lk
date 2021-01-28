@@ -18,6 +18,6 @@ forks: 2
 watchers: 1
 stars: 1
 started_on: 2020-10-16T14:08:11Z
-
 ---
-    
+Platform for swarm robots
+

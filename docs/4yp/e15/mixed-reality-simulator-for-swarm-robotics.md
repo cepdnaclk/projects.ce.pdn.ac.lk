@@ -1,7 +1,9 @@
 ---
 layout: project_page
-title: Pera Swarm
-permalink: /4yp/e15/pera-swarm
+title: mixed reality simulator for swarm robotics
+permalink: /4yp/e15/mixed-reality-simulator-for-swarm-robotics
+description: ""
+
 has_children: false
 parent: E15 Final Year Projects
 grand_parent: Final Year Projects
@@ -9,13 +11,13 @@ grand_parent: Final Year Projects
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg
 
-description: ""
-forks: 3
-watchers: 2
-stars: 1
+repo_url: #
+page_url: #
 
-repo_url: https://github.com/cepdnaclk/e15-fyp-mixed-reality-simulator-for-swarm-robotics
-page_url: https://cepdnaclk.github.io/e15-fyp-mixed-reality-simulator-for-swarm-robotics
-
-started_on: 2020-12-12
+forks: 1
+watchers: 0
+stars: 0
+started_on: 2020-11-18T14:45:03Z
 ---
+Mixed Reality based simulation platform for swarm robotics
+
