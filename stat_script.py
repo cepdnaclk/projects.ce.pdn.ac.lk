@@ -56,8 +56,8 @@ has_children: false
 parent: """+batch+ " " + grand_parent + """
 grand_parent: """+grand_parent+"""
 
-cover_url: https://cepdnaclk.github.io/projects/data/categories/"""+category+"""/cover_page.jpg
-thumbnail_url: https://cepdnaclk.github.io/projects/data/categories/"""+category+"""/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/3yp/data/categories/"""+category+"""/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/3yp/data/categories/"""+category+"""/thumbnail.jpg
 
 repo_url: #
 page_url: #
