@@ -7,12 +7,12 @@ has_children: false
 parent: Exx Final Year Projects
 grand_parent: Final Year Projects
 
-cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/fyp/cover_page.jpg
-thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/fyp/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg
 
-tags: [	 ]
-team: [ Pranavan Somaskandhan, Gihan Wijesinghe, Leshan Bashitha Wijegunawardana ]
-supervisors: [ Dr. Asitha Bandaranayake, Mr. D. S. Deegalla ]
+tags: []
+team: [Pranavan Somaskandhan, Gihan Wijesinghe, Leshan Bashitha Wijegunawardana]
+supervisors: [Dr. Asitha Bandaranayake, Mr. D. S. Deegalla]
 
 has_publication: false
 publication: ""
