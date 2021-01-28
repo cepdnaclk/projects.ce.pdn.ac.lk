@@ -1,7 +1,6 @@
 ---
 layout: project_page
 title: Pera Swarm
-nav_order: 1
 permalink: /4yp/e15/pera-swarm
 has_children: false
 parent: E15 Final Year Projects
@@ -19,5 +18,4 @@ repo_url: https://github.com/cepdnaclk/e15-fyp-mixed-reality-simulator-for-swarm
 page_url: https://cepdnaclk.github.io/e15-fyp-mixed-reality-simulator-for-swarm-robotics
 
 started_on: 2020-12-12
-
 ---

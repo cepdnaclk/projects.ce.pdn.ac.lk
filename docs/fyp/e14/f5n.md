@@ -1,19 +1,21 @@
 ---
 layout: project_page
-title: f5n
-nav_order: 1
-permalink: /4yp/e14/f5n
+title: F5N - A nanopore sequencing analysis toolkit for Android smartphones
+permalink: /4yp/e15/f5n
 has_children: false
 parent: E14 Final Year Projects
 grand_parent: Final Year Projects
 
-project_title: f5n
-cover_url: ###
+cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/fyp/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/fyp/thumbnail.jpg
+
 description: ""
-contributors: ###
-languages: ###
-forks: ##
-watchers: ###
-stars: ###
-started_on: ###
+forks: 0
+watchers: 0
+stars: 0
+
+cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/fyp/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/fyp/thumbnail.jpg
+
+started_on: yyyy-mm-dd
 ---

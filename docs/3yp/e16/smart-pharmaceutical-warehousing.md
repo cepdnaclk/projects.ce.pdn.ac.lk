@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: automated railway ticketing system
-permalink: /3yp/e16/automated-railway-ticketing-system
+title: smart pharmaceutical warehousing
+permalink: /3yp/e16/smart-pharmaceutical-warehousing
 description: ""
 
 has_children: false
@@ -15,9 +15,9 @@ repo_url: #
 page_url: #
 
 forks: 1
-watchers: 0
-stars: 0
-started_on: 2020-10-17T06:48:34Z
+watchers: 3
+stars: 3
+started_on: 2020-10-18T04:16:45Z
 
 ---
     
