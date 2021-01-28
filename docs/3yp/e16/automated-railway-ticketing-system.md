@@ -9,8 +9,8 @@ has_children: false
 parent: E16 Embedded Systems Projects
 grand_parent: Embedded Systems Projects
 
-cover_url: https://cepdnaclk.github.io/projects/data/categories/unified/cover_page.jpg
-thumbnail_url: https://cepdnaclk.github.io/projects/data/categories/unified/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/projects/data/categories/3yp/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/projects/data/categories/3yp/thumbnail.jpg
 
 repo_url: #
 page_url: #
