@@ -58,7 +58,7 @@ layout: table_wrappers
                         <div class="container p-0 mw-100">
                             <div class="row">
                                 {% for child in children_list %}
-                                <div class="col-lg-3 col-md-6 d-flex m-0" style="padding: 10px 0;">
+                                <div class="col-lg-3 col-md-6 col-sm-6 d-flex m-0" style="padding: 10px 0;">
                                     <a class="btn m-0" href="{{ child.url | absolute_url }}">
                                         <div class="card h-100 m-0">
                                             <img class="card-img-top" src="{{ page.default_thumb_image }}" alt="">
