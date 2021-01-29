@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: automated railway ticketing system
+title: Automated Railway Ticketing System
 permalink: /3yp/e16/automated-railway-ticketing-system
 description: ""
 
@@ -11,8 +11,8 @@ grand_parent: Embedded Systems Projects
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/3yp/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg
 
-repo_url: #
-page_url: #
+repo_url: https://github.com/cepdnaclk/e16-3yp-automated-railway-ticketing-system
+page_url: https://cepdnaclk.github.io/e16-3yp-automated-railway-ticketing-system
 
 forks: 1
 watchers: 0

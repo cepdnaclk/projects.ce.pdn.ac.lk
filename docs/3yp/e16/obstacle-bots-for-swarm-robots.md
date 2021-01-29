@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: obstacle bots for swarm robots
+title: Obstacle Bots For Swarm Robots
 permalink: /3yp/e16/obstacle-bots-for-swarm-robots
-description: ""
+description: "Platform for swarm robots"
 
 has_children: false
 parent: E16 Embedded Systems Projects
@@ -11,8 +11,8 @@ grand_parent: Embedded Systems Projects
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/3yp/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg
 
-repo_url: #
-page_url: #
+repo_url: https://github.com/cepdnaclk/e16-3yp-obstacle-bots-for-swarm-robots
+page_url: https://cepdnaclk.github.io/e16-3yp-obstacle-bots-for-swarm-robots
 
 forks: 2
 watchers: 1

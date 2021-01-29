@@ -1,23 +1,23 @@
 ---
 layout: project_page
-title: Hbft
-permalink: /4yp/e11/HBFT
-description: "A new Bredth First Traversal algorithm for large graphs "
+title: All Projects
+permalink: /4yp/e12/all-projects
+description: "Projects of batch E/12"
 
 has_children: false
-parent: E11 Final Year Projects
+parent: E12 Final Year Projects
 grand_parent: Final Year Projects
 
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg
 
-repo_url: https://github.com/cepdnaclk/e11-4yp-HBFT
+repo_url: https://github.com/cepdnaclk/e12-4yp-all-projects
 page_url: blank
 
 forks: 0
 watchers: 0
 stars: 0
-started_on: 2020-09-10T08:25:04Z
+started_on: 2020-11-12T10:54:04Z
 ---
-A new Bredth First Traversal algorithm for large graphs 
+Projects of batch E/12
 

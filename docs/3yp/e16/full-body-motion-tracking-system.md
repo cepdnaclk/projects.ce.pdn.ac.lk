@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: full body motion tracking system
+title: Full Body Motion Tracking System
 permalink: /3yp/e16/full-body-motion-tracking-system
-description: ""
+description: "A game console based on a full-body motion tracking system"
 
 has_children: false
 parent: E16 Embedded Systems Projects
@@ -11,8 +11,8 @@ grand_parent: Embedded Systems Projects
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/3yp/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg
 
-repo_url: #
-page_url: #
+repo_url: https://github.com/cepdnaclk/e16-3yp-full-body-motion-tracking-system
+page_url: https://cepdnaclk.github.io/e16-3yp-full-body-motion-tracking-system
 
 forks: 4
 watchers: 0

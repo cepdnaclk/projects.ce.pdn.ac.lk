@@ -3,6 +3,7 @@
         pip install requests
     AUTHORS:
         Gihan Jayatilake
+        Nuwan Jaliyagoda
         Akila Karunanayake
 '''
 
@@ -71,12 +72,12 @@ def inRange(x, minNumber, maxNumber):
         return False
 
 
-def writeHeader(category,batch,grand_parent,permalink,title,description,stars,forks,watch,date):
+def writeHeader(category,batch,grand_parent,permalink,title,description,stars,forks,watch,date,repo,page):
     s = """---
 layout: project_page
-title: """+title+"""
+title: """+title.title()+"""
 permalink: """+permalink+"""
-description: """+description+"""
+description: \""""+description+"""\"
 
 has_children: false
 parent: """+batch.upper()+ " " + grand_parent + """
@@ -85,8 +86,8 @@ grand_parent: """+grand_parent+"""
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+category+"""/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+category+"""/thumbnail.jpg
 
-repo_url: #
-page_url: #
+repo_url: """+repo+"""
+page_url: """+page+"""
 
 forks: """+str(forks)+"""
 watchers: """+str(watch)+"""
@@ -143,6 +144,12 @@ if __name__ == "__main__":
                         forks = jsonData[i]["forks_count"]
                         watch = jsonData[i]["watchers_count"]
                         date = jsonData[i]["created_at"]
+                        repo = "https://github.com/cepdnaclk/"+'-'.join(repoName)
+
+                        if jsonData[i]["has_pages"]:
+                            page = "https://cepdnaclk.github.io/"+'-'.join(repoName)
+                        else:
+                            page = "blank"
 
                         os.makedirs(os.path.dirname(path), exist_ok=True)
                         outputFile = open(path, "w+")
@@ -159,5 +166,5 @@ if __name__ == "__main__":
 
                         # TODO: update other parameters on header
                         # writeHeader(category, batch, grand_parent, permalink, title,stars,forks,watch,date)
-                        outputFile.write(writeHeader(repoName[1],repoName[0],grand_parent,permalink,title,desc,stars,forks,watch,date))
+                        outputFile.write(writeHeader(repoName[1],repoName[0],grand_parent,permalink,title,desc,stars,forks,watch,date,repo,page))
 print("END")

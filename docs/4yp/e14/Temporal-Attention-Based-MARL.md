@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Temporal Attention Based MARL
+title: Temporal Attention Based Marl
 permalink: /4yp/e14/Temporal-Attention-Based-MARL
 description: ""
 
@@ -11,8 +11,8 @@ grand_parent: Final Year Projects
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg
 
-repo_url: #
-page_url: #
+repo_url: https://github.com/cepdnaclk/e14-4yp-Temporal-Attention-Based-MARL
+page_url: blank
 
 forks: 0
 watchers: 0
