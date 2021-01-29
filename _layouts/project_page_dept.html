@@ -5,7 +5,7 @@ layout: table_wrappers
 <!DOCTYPE html>
 
 <html lang="{{ site.lang | default: 'en-US' }}">
-{% include project_head.html %}
+{% include head.html %}
 <body>
     <div id="app">
         {% include project_navbar.html %}
@@ -23,7 +23,7 @@ layout: table_wrappers
                     </nav>
                 </div>
 
-                <div class="container">
+                <div class="container" style="min-height: 60vh;">
                     <div class="row">
                         <h1 class="mt-2 title-case">{{ page.title }}</h1>
                     </div>
@@ -31,7 +31,7 @@ layout: table_wrappers
                     <div class="row">
 
                         <!-- Post Content Column -->
-                        <div class="col-md-10" style="min-height: 60vh;">
+                        <div class="col-md-10">
 
                             {{ content }}
 
@@ -46,11 +46,6 @@ layout: table_wrappers
             </div>
         </main>
 
-        <footer class="mt-5 py-5 bg-dark">
-            <div class="container">
-                <p class="m-2 text-center text-white"></p>
-            </div>
-        </footer>
-
+        {% include footer.html %}
     </div>
 </body>

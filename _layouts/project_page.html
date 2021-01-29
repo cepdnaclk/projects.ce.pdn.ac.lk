@@ -5,7 +5,7 @@ layout: table_wrappers
 <!DOCTYPE html>
 
 <html lang="{{ site.lang | default: 'en-US' }}">
-{% include project_head.html %}
+{% include head.html %}
 <body>
     <div id="app">
         {% include project_navbar.html %}
@@ -24,12 +24,12 @@ layout: table_wrappers
                     </nav>
                 </div>
 
-                <div class="container">
+                <div class="container" style="min-height: 60vh;">
                     <div class="row">
                         <h1 class="mt-2 title-case">{{ page.title }}</h1>
                         <div class="container">
                             {% if page.started_on != 'yyyy-mm-dd'  %}
-                            Started on <span class="">{{ page.started_on }}</span>
+                            Started: <span>{{ page.started_on }}</span>
                             {% endif %}
                             <span class="px-3">Forks: <span class="">{{ page.forks }}</span></span>
                             <span class="px-3"> Watchers: <span class="">{{ page.watchers }}</span> </span>
@@ -133,11 +133,6 @@ layout: table_wrappers
             </div>
         </main>
 
-        <footer class="mt-5 py-5 bg-dark">
-            <div class="container">
-                <p class="m-2 text-center text-white"></p>
-            </div>
-        </footer>
-
+        {% include footer.html %}
     </div>
 </body>

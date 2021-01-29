@@ -7,7 +7,7 @@ permalink: /contact
 ---
 
 <div class="p-5">
-    <h3>Documentation</h3>
+    <h3>Contact</h3>
 
     <p>This project is developed with the contribution of following developers. If you have any doubt about implementation or need to report about a bug or a suggestion, please feel free to contact one of them.</p>
 
