@@ -5,7 +5,7 @@ layout: table_wrappers
 <!DOCTYPE html>
 
 <html lang="{{ site.lang | default: 'en-US' }}">
-{% include project_head.html %}
+{% include head.html %}
 <body>
     <div id="app">
         {% include project_navbar.html %}
@@ -14,14 +14,9 @@ layout: table_wrappers
             <div class="container">
                 {{ content }}
             </div>
-
-            <footer class="d-none py-5 bg-dark">
-                <div class="container">
-                    <p class="m-2 text-center text-white">Copyright &copy; Your Website 2020</p>
-                </div>
-            </footer>
-
         </main>
+
+        {% include footer.html %}
     </div>
 </body>
 </html>

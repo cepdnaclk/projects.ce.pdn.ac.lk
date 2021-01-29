@@ -5,7 +5,7 @@ layout: table_wrappers
 <!DOCTYPE html>
 
 <html lang="{{ site.lang | default: 'en-US' }}">
-{% include project_head.html %}
+{% include head.html %}
 <body>
     <div id="app">
         {% include project_navbar.html %}
@@ -46,11 +46,6 @@ layout: table_wrappers
             </div>
         </main>
 
-        <footer class="mt-5 py-5 bg-dark">
-            <div class="container">
-                <p class="m-2 text-center text-white"></p>
-            </div>
-        </footer>
-
+        {% include footer.html %}
     </div>
 </body>

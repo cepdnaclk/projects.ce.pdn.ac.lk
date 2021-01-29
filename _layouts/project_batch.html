@@ -5,7 +5,7 @@ layout: table_wrappers
 <!DOCTYPE html>
 
 <html lang="{{ site.lang | default: 'en-US' }}">
-{% include project_head.html %}
+{% include head.html %}
 <body>
     <div id="app">
         {% include project_navbar.html %}
@@ -42,7 +42,7 @@ layout: table_wrappers
 
                         {% if page.has_children == true and page.has_toc != false %}
                         {%- assign children_list = pages_list | where: "parent", page.title | where: "grand_parent", page.parent -%}
-                        
+
                         {%- assign proj_list = children_list | sort: "title" -%}
 
                         <div class="container p-0 mw-100">
@@ -74,6 +74,8 @@ layout: table_wrappers
             </div>
 
         </main>
+
+        {% include footer.html %}
     </div>
 </body>
 </html>
