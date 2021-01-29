@@ -42,10 +42,13 @@ layout: table_wrappers
 
                         {% if page.has_children == true and page.has_toc != false %}
                         {%- assign children_list = pages_list | where: "parent", page.title | where: "grand_parent", page.parent -%}
+                        
+                        {%- assign proj_list = children_list | sort: "title" -%}
 
                         <div class="container p-0 mw-100">
                             <div class="row">
-                                {% for child in children_list %}
+                                {% for child in proj_list %}
+
                                 <div class="col-lg-3 col-md-6 col-sm-6 d-flex m-0" style="padding: 10px 0;">
                                     <a class="btn m-0" href="{{ child.url | absolute_url }}">
                                         <div class="card h-100 m-0">

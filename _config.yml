@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Projects | Department of Computer Engineering
 description: ""
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
@@ -116,6 +116,7 @@ ga_tracking:
 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
 plugins:
+  - jekyll-sitemap
   - jekyll-seo-tag
 
 kramdown:
