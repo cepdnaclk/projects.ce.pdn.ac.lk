@@ -12,9 +12,9 @@ layout: table_wrappers
         {% include page_tree_builder.html pages=site.html_pages %}
 
         <main class="py-1 p-1">
-            <div class="container">
+            <div class="container-fluid py-2 px-5">
                 <div class="row">
-                    <nav aria-label="breadcrumb">
+                    <nav aria-label="breadcrumb" class="w-100 mt-2">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="../../">Home</a></li>
                             <li class="breadcrumb-item"><a href="../">{{ page.parent }}</a></li>
@@ -31,14 +31,8 @@ layout: table_wrappers
                         <hr>
                         <div class="p-1 d-none">
                             Filter Projects by:
-
                             <ul class="list-group">
-                                <li class="list-group-item p-1 align-items-center">
-                                    <a href="./e15" class="d-flex justify-content-between">
-                                        <span class="mx-2">eYY Batch</span>
-                                        <span class="mx-2 badge badge-secondary badge-pill">1</span>
-                                    </a>
-                                </li>
+
                             </ul>
                         </div>
                         <br><br>
@@ -49,16 +43,17 @@ layout: table_wrappers
                         {% if page.has_children == true and page.has_toc != false %}
                         {%- assign children_list = pages_list | where: "parent", page.title | where: "grand_parent", page.parent -%}
 
-                        <div class="container p-3 mw-100">
+                        <div class="container p-0 mw-100">
                             <div class="row">
                                 {% for child in children_list %}
-                                <div class="col-lg-3 col-md-6 d-flex">
-                                    <a class="btn" href="{{ child.url | absolute_url }}">
+                                <div class="col-lg-3 col-md-6 col-sm-6 d-flex m-0" style="padding: 10px 0;">
+                                    <a class="btn m-0" href="{{ child.url | absolute_url }}">
                                         <div class="card h-100 m-0">
                                             <img class="card-img-top" src="{{ page.default_thumb_image }}" alt="">
-                                            <div class="card-body p-0 m-1">
-
-                                                <p class="card-title">{{ child.title }}</p>
+                                            <div class="card-body p-1 m-0">
+                                                <p class="card-title project-card-title">
+                                                    {{ child.title }}
+                                                </p>
                                             </div>
                                         </div>
                                     </a>

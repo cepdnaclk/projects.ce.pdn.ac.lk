@@ -2,6 +2,26 @@
 
 @charset "UTF-8";
 
+/*--------------------------------*/
+p, ul{
+    font-size: 12pt;
+}
+
+.project-card-title{
+    text-transform: capitalize;
+    font-size: 10pt;
+}
+
+.title-case{
+    text-transform: capitalize;
+}
+
+.w-100{
+    /*width: 100% !important;*/
+}
+/*--------------------------------*/
+
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

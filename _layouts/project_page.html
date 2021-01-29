@@ -12,133 +12,132 @@ layout: table_wrappers
         {% include page_tree_builder.html pages=site.html_pages %}
 
         <main class="py-2 p-1">
-            <div class="container">
+            <div class="container-fluid px-5">
                 <div class="row">
-                    <nav aria-label="breadcrumb">
+                    <nav aria-label="breadcrumb" class="w-100 mt-2">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="../../">Home</a></li>
                             <li class="breadcrumb-item"><a href="../">{{ page.grand_parent }}</a></li>
                             <li class="breadcrumb-item"><a href="./">{{ page.parent }}</a></li>
-                            <li class="breadcrumb-item"><span>{{ page.title }}</span></li>
+                            <li class="breadcrumb-item title-case"><span>{{ page.title }}</span></li>
                         </ol>
                     </nav>
                 </div>
 
-                <div class="row">
-                    <!-- Post Content Column -->
-                    <div class="col-lg-8">
-                        <!-- Title -->
-                        {% if page.title %}
-                        <h1 class="mt-4">{{ page.title }}</h1>
-                        {% endif %}
-                        <div class="">
-                            <div>
-                                <span class="px-3"><a href="./../">Back</a></span>
-                                Started on <span class="">{{ page.started_on }}</span>
-                                <span class="px-3">Forks: <span class="">{{ page.forks }}</span></span>
-                                <span class="px-3"> Watchers: <span class="">{{ page.watchers }}</span> </span>
-                                <span class="px-3"> Stars: <span class="">{{ page.stars }}</span> </span>
-                            </div>
+                <div class="container">
+                    <div class="row">
+                        <h1 class="mt-2 title-case">{{ page.title }}</h1>
+                        <div class="container">
+                            {% if page.started_on != 'yyyy-mm-dd'  %}
+                            Started on <span class="">{{ page.started_on }}</span>
+                            {% endif %}
+                            <span class="px-3">Forks: <span class="">{{ page.forks }}</span></span>
+                            <span class="px-3"> Watchers: <span class="">{{ page.watchers }}</span> </span>
+                            <span class="px-3"> Stars: <span class="">{{ page.stars }}</span> </span>
+
                             <hr>
                         </div>
-
-                        <!-- Preview Image -->
-                        <div class="">
-                            <img class="img-fluid rounded" src="{{ page.cover_url }}" alt="">
-                        </div>
-
-                        <hr>
-
-                        <!-- Post Content -->
-                        <p class="lead">{{ page.description }}</p>
-
-                        <hr>
-                        {{ content }}
-
-
-                        <div class="row pt-3">
-                            <div class="col-md-6">
-                                <div class="card mb-3">
-                                    <a class="" href="{{ page.repo_url }}" target="_blank">
-                                        <div class="row no-gutters">
-                                            <div class="col-md-4">
-                                                <img src="{{ "/assets/images/icon_repo.jpg" | absolute_url }}" class="card-img p-3" alt="...">
-                                            </div>
-                                            <div class="col-md-8">
-                                                <div class="card-body text-left">
-                                                    <h5 class="card-title">Project Repository</h5>
-                                                    <p class="card-text"><small class="text-muted">Visit >> </small></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="card mb-3">
-                                    <a class="" href="{{ page.page_url }}" target="_blank">
-                                        <div class="row no-gutters">
-                                            <div class="col-md-4">
-                                                <img src="{{ "/assets/images/icon_page.jpg" | absolute_url }}" class="card-img p-3" alt="...">
-                                            </div>
-                                            <div class="col-md-8">
-                                                <div class="card-body text-left">
-                                                    <h5 class="card-title">Project Page</h5>
-                                                    <p class="card-text"><small class="text-muted">Visit >> </small></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                    <!-- Sidebar Widgets Column -->
-                    <div class="col-md-4">
 
-                        <div class="card my-4 pb-3">
-                            <h5 class="card-header">Languages</h5>
-                            <div class="card-body">
-                                <ul class="list-unstyled mb-0">
-                                    {% for lang in page.languages %}
-                                    <li>{{ lang }}</li>
-                                    {% endfor %}
-                                </ul>
+                    <div class="row">
+
+                        <!-- Post Content Column -->
+                        <div class="col-md-10">
+                            <!-- Cover Image -->
+                            <div class="">
+                                <img class="img-fluid w-100" src="{{ page.cover_url }}" alt="">
+                            </div>
+
+                            <!-- Post Content -->
+                            <p class="lead">{{ page.description }}</p>
+
+                            <hr>
+                            {{ content }}
+
+                            <div class="row pt-3">
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="card mb-3">
+                                        <a class="btn" href="{{ page.repo_url }}" target="_blank">
+                                            <div class="row no-gutters">
+                                                <div class="col-md-4">
+                                                    <img src="{{ "/assets/images/icon_repo.jpg" | absolute_url }}" class="card-img p-3" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body text-left">
+                                                        <h5 class="card-title">Project Repository</h5>
+                                                        <!-- <p class="card-text"><small class="text-muted">Visit >> </small></p> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="card mb-3">
+                                        <a class="btn" href="{{ page.page_url }}" target="_blank">
+                                            <div class="row no-gutters">
+                                                <div class="col-md-4">
+                                                    <img src="{{ "/assets/images/icon_page.jpg" | absolute_url }}" class="card-img p-3" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body text-left">
+                                                        <h5 class="card-title">Project Page</h5>
+                                                        <!-- <p class="card-text"><small class="text-muted">Visit >> </small></p> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="card my-4">
-                            <h5 class="card-header">Contributors</h5>
-                            <div class="card-body">
-                                <ul class="list-unstyled mb-0">
-                                    {% for member in page.contributors %}
-                                    <li>
-                                        <div class="w3-container d-flex">
-                                            <img class="rounded-circle p-1 align-self-center"
-                                            alt="{{ member }}"
-                                            style="width: 48px; height: 48px;"
-                                            src="https://avatars0.githubusercontent.com/u/11540782?v=4">
-                                            <span class="align-self-center p-3">
-                                                <a href="#" target="_blank">{{ member }}</a>
-                                            </span>
-                                        </div>
-                                    </li>
-                                    {% endfor %}
-                                </ul>
+                        <!-- Sidebar Widgets Column -->
+                        <div class="col-md-1">
+
+                            <div class="card mb-4 pb-3 d-none">
+                                <h5 class="card-header">Languages</h5>
+                                <div class="card-body">
+                                    <ul class="list-unstyled mb-0">
+                                        {% for lang in page.languages %}
+                                        <li>{{ lang }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="card my-4 d-none">
+                                <h5 class="card-header">Contributors</h5>
+                                <div class="card-body">
+                                    <ul class="list-unstyled mb-0">
+                                        {% for member in page.contributors %}
+                                        <li>
+                                            <div class="w3-container d-flex">
+                                                <img class="rounded-circle p-1 align-self-center"
+                                                alt="{{ member }}"
+                                                style="width: 48px; height: 48px;"
+                                                src="https://avatars0.githubusercontent.com/u/11540782?v=4">
+                                                <span class="align-self-center p-3">
+                                                    <a href="#" target="_blank">{{ member }}</a>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <footer class="d-none py-5 bg-dark">
-                <div class="container">
-                    <p class="m-2 text-center text-white">Copyright &copy; Your Website 2020</p>
-                </div>
-            </footer>
-
         </main>
+
+        <footer class="mt-5 py-5 bg-dark">
+            <div class="container">
+                <p class="m-2 text-center text-white"></p>
+            </div>
+        </footer>
 
     </div>
 </body>
