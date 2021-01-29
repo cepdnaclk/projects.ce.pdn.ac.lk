@@ -18,7 +18,7 @@ layout: table_wrappers
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="../../">Home</a></li>
                             <li class="breadcrumb-item"><a href="../">{{ page.grand_parent }}</a></li>
-                            <li class="breadcrumb-item"><a href="./">{{ page.parent }}</a></li>
+                            <li class="breadcrumb-item"><a href="./">{{ page.parent | slice:0,3 }}</a></li>
                             <li class="breadcrumb-item title-case"><span>{{ page.title }}</span></li>
                         </ol>
                     </nav>
@@ -29,7 +29,7 @@ layout: table_wrappers
                         <h1 class="mt-2 title-case">{{ page.title }}</h1>
                         <div class="container">
                             {% if page.started_on != 'yyyy-mm-dd'  %}
-                            Started: <span>{{ page.started_on }}</span>
+                            Started: <span>{{ page.started_on  | date: '%B %d, %Y' }}</span>
                             {% endif %}
                             <span class="px-3">Forks: <span class="">{{ page.forks }}</span></span>
                             <span class="px-3"> Watchers: <span class="">{{ page.watchers }}</span> </span>
@@ -53,42 +53,26 @@ layout: table_wrappers
 
                             <div class="row pt-3">
                                 {% if page.repo_url != 'blank' %}
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="card mb-3">
-                                        <a class="btn border" href="{{ page.repo_url }}" target="_blank">
-                                            <div class="row no-gutters">
-                                                <div class="col-md-4">
-                                                    <img src="{{ "/assets/images/icon_repo.jpg" | absolute_url }}" class="card-img p-3" alt="...">
-                                                </div>
-                                                <div class="col-md-8">
-                                                    <div class="card-body text-left">
-                                                        <h5 class="card-title">Project Repository</h5>
-                                                        <!-- <p class="card-text"><small class="text-muted">Visit >> </small></p> -->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
+                                <div class="col-sm-6 col-md-6 col-lg-4 m-1">
+                                    <a class="btn border d-flex btn-card" href="{{ page.repo_url }}" target="_blank">
+                                        <div class="row d-flex">
+                                            <img src='{{ "/assets/images/icon_repo.png" | absolute_url }}'
+                                            class="card-img ml-3 p-1" alt="Project Repository" style="width: 50px; height: auto;">
+                                            <h5 class="card-title align-self-center m-0">Project Repository</h5>
+                                        </div>
+                                    </a>
                                 </div>
                                 {% endif %}
 
                                 {% if page.page_url != 'blank' %}
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="card mb-3">
-                                        <a class="btn" href="{{ page.page_url }}" target="_blank">
-                                            <div class="row no-gutters">
-                                                <div class="col-md-4">
-                                                    <img src="{{ "/assets/images/icon_page.jpg" | absolute_url }}" class="card-img p-3" alt="...">
-                                                </div>
-                                                <div class="col-md-8">
-                                                    <div class="card-body text-left">
-                                                        <h5 class="card-title">Project Page</h5>
-                                                        <!-- <p class="card-text"><small class="text-muted">Visit >> </small></p> -->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
+                                <div class="col-sm-6 col-md-6 col-lg-4 m-1">
+                                    <a class="btn border d-flex btn-card" href="{{ page.page_url }}" target="_blank">
+                                        <div class="row d-flex">
+                                            <img src='{{ "/assets/images/icon_page.png" | absolute_url }}'
+                                            class="card-img ml-3 p-1" alt="Project Page" style="width: 50px; height: auto;">
+                                            <h5 class="card-title align-self-center m-0">Project Page</h5>
+                                        </div>
+                                    </a>
                                 </div>
                                 {% endif %}
                             </div>
@@ -134,6 +118,9 @@ layout: table_wrappers
             </div>
         </main>
 
+        <div class="container pt-5">
+            <p class="text-center">Last Update: {{ site.time | date: '%B %d, %Y'  }}</p>
+        </div>
         {% include footer.html %}
     </div>
 </body>
