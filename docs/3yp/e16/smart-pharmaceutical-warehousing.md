@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: smart pharmaceutical warehousing
+title: Smart Pharmaceutical Warehousing
 permalink: /3yp/e16/smart-pharmaceutical-warehousing
-description: 
+description: ""
 
 has_children: false
 parent: E16 Embedded Systems Projects

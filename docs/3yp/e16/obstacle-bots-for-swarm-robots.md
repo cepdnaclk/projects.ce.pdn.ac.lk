@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: obstacle bots for swarm robots
+title: Obstacle Bots For Swarm Robots
 permalink: /3yp/e16/obstacle-bots-for-swarm-robots
-description: Platform for swarm robots
+description: "Platform for swarm robots"
 
 has_children: false
 parent: E16 Embedded Systems Projects

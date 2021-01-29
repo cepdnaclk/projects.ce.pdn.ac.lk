@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: computerized timetabling and attendance marking system
+title: Computerized Timetabling And Attendance Marking System
 permalink: /3yp/e16/computerized-timetabling-and-attendance-marking-system
-description: The idea is to create a modern attendance marking system that is suitable for today's world.In parallel with the attendance marking system,a fully-fledged time table managing and lecture reminding system is developed.
+description: "The idea is to create a modern attendance marking system that is suitable for today's world.In parallel with the attendance marking system,a fully-fledged time table managing and lecture reminding system is developed."
 
 has_children: false
 parent: E16 Embedded Systems Projects

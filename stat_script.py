@@ -75,9 +75,9 @@ def inRange(x, minNumber, maxNumber):
 def writeHeader(category,batch,grand_parent,permalink,title,description,stars,forks,watch,date,repo,page):
     s = """---
 layout: project_page
-title: """+title+"""
+title: """+title.title()+"""
 permalink: """+permalink+"""
-description: """+description+"""
+description: \""""+description+"""\"
 
 has_children: false
 parent: """+batch.upper()+ " " + grand_parent + """
@@ -145,7 +145,11 @@ if __name__ == "__main__":
                         watch = jsonData[i]["watchers_count"]
                         date = jsonData[i]["created_at"]
                         repo = "https://github.com/cepdnaclk/"+'-'.join(repoName)
-                        page = "https://cepdnaclk.github.io/"+'-'.join(repoName)
+
+                        if jsonData[i]["has_pages"]:
+                            page = "https://cepdnaclk.github.io/"+'-'.join(repoName)
+                        else:
+                            page = "blank"
 
                         os.makedirs(os.path.dirname(path), exist_ok=True)
                         outputFile = open(path, "w+")

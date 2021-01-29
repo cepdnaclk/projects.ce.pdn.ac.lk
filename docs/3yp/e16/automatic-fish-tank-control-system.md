@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: automatic fish tank control system
+title: Automatic Fish Tank Control System
 permalink: /3yp/e16/automatic-fish-tank-control-system
-description: This is a third-year project by a group of students. Here we are developing a fish tank controlling device with a web app.
+description: "This is a third-year project by a group of students. Here we are developing a fish tank controlling device with a web app."
 
 has_children: false
 parent: E16 Embedded Systems Projects

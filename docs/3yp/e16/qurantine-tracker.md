@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: qurantine tracker
+title: Qurantine Tracker
 permalink: /3yp/e16/qurantine-tracker
-description: 
+description: ""
 
 has_children: false
 parent: E16 Embedded Systems Projects

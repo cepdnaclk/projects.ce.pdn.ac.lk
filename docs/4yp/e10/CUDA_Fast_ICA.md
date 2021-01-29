@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: CUDA_Fast_ICA
+title: Cuda_Fast_Ica
 permalink: /4yp/e10/CUDA_Fast_ICA
-description: CUDA implementation of Fast-ICA in C++
+description: "CUDA implementation of Fast-ICA in C++"
 
 has_children: false
 parent: E10 Final Year Projects
@@ -12,7 +12,7 @@ cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp
 thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e10-4yp-CUDA_Fast_ICA
-page_url: https://cepdnaclk.github.io/e10-4yp-CUDA_Fast_ICA
+page_url: blank
 
 forks: 0
 watchers: 0

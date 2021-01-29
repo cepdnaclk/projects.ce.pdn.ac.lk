@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: waiterbot system
+title: Waiterbot System
 permalink: /3yp/e16/waiterbot-system
-description: WaiterBot System -  A system of interactive robots to deliver the orders in a restaurant.
+description: "WaiterBot System -  A system of interactive robots to deliver the orders in a restaurant."
 
 has_children: false
 parent: E16 Embedded Systems Projects

@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: smart door lock
+title: Smart Door Lock
 permalink: /3yp/e16/smart-door-lock
-description: A project of third year students developing a smart door lock for the entrance.
+description: "A project of third year students developing a smart door lock for the entrance."
 
 has_children: false
 parent: E16 Embedded Systems Projects

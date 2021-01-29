@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: smart pill manager
+title: Smart Pill Manager
 permalink: /3yp/e16/smart-pill-manager
-description: CO321 project repository by Group 7
+description: "CO321 project repository by Group 7"
 
 has_children: false
 parent: E16 Embedded Systems Projects

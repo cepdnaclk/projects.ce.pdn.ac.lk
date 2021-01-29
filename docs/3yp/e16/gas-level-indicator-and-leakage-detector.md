@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: gas level indicator and leakage detector
+title: Gas Level Indicator And Leakage Detector
 permalink: /3yp/e16/gas-level-indicator-and-leakage-detector
-description: A system for LP gas users and distributors
+description: "A system for LP gas users and distributors"
 
 has_children: false
 parent: E16 Embedded Systems Projects

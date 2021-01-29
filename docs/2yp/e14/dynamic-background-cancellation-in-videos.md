@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: dynamic background cancellation in videos
+title: Dynamic Background Cancellation In Videos
 permalink: /2yp/e14/dynamic-background-cancellation-in-videos
-description: Foreground estimation in dynamic background conditions using unsupervised learning techniques.
+description: "Foreground estimation in dynamic background conditions using unsupervised learning techniques."
 
 has_children: false
 parent: E14 Computer Engineering Projects
@@ -12,7 +12,7 @@ cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/2yp
 thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/2yp/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e14-2yp-dynamic-background-cancellation-in-videos
-page_url: https://cepdnaclk.github.io/e14-2yp-dynamic-background-cancellation-in-videos
+page_url: blank
 
 forks: 0
 watchers: 0

@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: smart vending machine
+title: Smart Vending Machine
 permalink: /3yp/e16/smart-vending-machine
-description: Smart Vending Machine (3rd year unified project)
+description: "Smart Vending Machine (3rd year unified project)"
 
 has_children: false
 parent: E16 Embedded Systems Projects

@@ -48,16 +48,14 @@ layout: table_wrappers
                                 <img class="img-fluid w-100" src="{{ page.cover_url }}" alt="">
                             </div>
 
-                            <!-- Post Content -->
-                            <p class="lead">{{ page.description }}</p>
-
                             <hr>
                             {{ content }}
 
                             <div class="row pt-3">
+                                {% if page.repo_url != 'blank' %}
                                 <div class="col-md-6 col-sm-6">
                                     <div class="card mb-3">
-                                        <a class="btn" href="{{ page.repo_url }}" target="_blank">
+                                        <a class="btn border" href="{{ page.repo_url }}" target="_blank">
                                             <div class="row no-gutters">
                                                 <div class="col-md-4">
                                                     <img src="{{ "/assets/images/icon_repo.jpg" | absolute_url }}" class="card-img p-3" alt="...">
@@ -72,7 +70,9 @@ layout: table_wrappers
                                         </a>
                                     </div>
                                 </div>
+                                {% endif %}
 
+                                {% if page.page_url != 'blank' %}
                                 <div class="col-md-6 col-sm-6">
                                     <div class="card mb-3">
                                         <a class="btn" href="{{ page.page_url }}" target="_blank">
@@ -90,6 +90,7 @@ layout: table_wrappers
                                         </a>
                                     </div>
                                 </div>
+                                {% endif %}
                             </div>
                         </div>
 
