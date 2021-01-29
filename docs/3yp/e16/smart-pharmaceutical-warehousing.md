@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: smart pharmaceutical warehousing
+title: Smart Pharmaceutical Warehousing
 permalink: /3yp/e16/smart-pharmaceutical-warehousing
 description: ""
 
@@ -11,8 +11,8 @@ grand_parent: Embedded Systems Projects
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/3yp/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg
 
-repo_url: #
-page_url: #
+repo_url: https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing
+page_url: https://cepdnaclk.github.io/e16-3yp-smart-pharmaceutical-warehousing
 
 forks: 1
 watchers: 3

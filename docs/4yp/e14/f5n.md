@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: f5n
+title: F5N
 permalink: /4yp/e14/f5n
-description: ""
+description: "Genopo a.k.a. F5N - A nanopore sequencing analysis toolkit for Android smartphones https://nanoporetech.com"
 
 has_children: false
 parent: E14 Final Year Projects
@@ -11,8 +11,8 @@ grand_parent: Final Year Projects
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg
 
-repo_url: #
-page_url: #
+repo_url: https://github.com/cepdnaclk/e14-4yp-f5n
+page_url: blank
 
 forks: 0
 watchers: 0

@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: finite element based structural non linear analysis
+title: Finite Element Based Structural Non Linear Analysis
 permalink: /2yp/e15/finite-element-based-structural-non-linear-analysis
 description: ""
 
@@ -11,8 +11,8 @@ grand_parent: Computer Engineering Projects
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/2yp/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/2yp/thumbnail.jpg
 
-repo_url: #
-page_url: #
+repo_url: https://github.com/cepdnaclk/e15-2yp-finite-element-based-structural-non-linear-analysis
+page_url: blank
 
 forks: 0
 watchers: 0

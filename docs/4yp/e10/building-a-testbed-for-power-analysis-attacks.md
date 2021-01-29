@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: building a testbed for power analysis attacks
+title: Building A Testbed For Power Analysis Attacks
 permalink: /4yp/e10/building-a-testbed-for-power-analysis-attacks
-description: ""
+description: "The A to Z of Building a Testbed for Power Analysis Attacks"
 
 has_children: false
 parent: E10 Final Year Projects
@@ -11,8 +11,8 @@ grand_parent: Final Year Projects
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg
 
-repo_url: #
-page_url: #
+repo_url: https://github.com/cepdnaclk/e10-4yp-building-a-testbed-for-power-analysis-attacks
+page_url: blank
 
 forks: 0
 watchers: 0
