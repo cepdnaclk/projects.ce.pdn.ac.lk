@@ -1,10 +1,10 @@
 ---
 layout: project_old
 title: Visual Designing Platform for Wireless Sensor Network
-permalink: /4yp/eXX/visual-designing-platform-for-wireless-sensor-network
+permalink: /4yp/e12/visual-designing-platform-for-wireless-sensor-network
 
 has_children: false
-parent: Exx Final Year Projects
+parent: E12 Final Year Projects
 grand_parent: Final Year Projects
 
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg

@@ -1,18 +1,18 @@
 ---
 layout: project_old
 title: Assembling an Optimal Cricket Team to Enhance the Winnability Using Machine Learning Techniques
-permalink: /4yp/eXX/assembling-an-optimal-cricket-team-to-enhance-the-winnability
+permalink: /4yp/e12/assembling-an-optimal-cricket-team-to-enhance-the-winnability
 
 has_children: false
-parent: Exx Final Year Projects
+parent: E12 Final Year Projects
 grand_parent: Final Year Projects
 
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg
 
-tags: []
-team: [Pranavan Somaskandhan, Gihan Wijesinghe, Leshan Bashitha Wijegunawardana]
-supervisors: [Dr. Asitha Bandaranayake, Mr. D. S. Deegalla]
+tags: [	 ]
+team: [ Pranavan Somaskandhan, Gihan Wijesinghe, Leshan Bashitha Wijegunawardana ]
+supervisors: [ Dr. Asitha Bandaranayake, Mr. D. S. Deegalla ]
 
 has_publication: false
 publication: ""

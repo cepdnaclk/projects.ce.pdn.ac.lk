@@ -1,10 +1,10 @@
 ---
 layout: project_old
 title: Implementing a Proven-secure and Cost-effective Countermeasure against the Compression Ratio Info-leak Mass Exploitation (CRIME) Attack
-permalink: /4yp/eXX/implementing-a-proven-secure-and-cost-effective-countermeasure
+permalink: /4yp/e12/implementing-a-proven-secure-and-cost-effective-countermeasure
 
 has_children: false
-parent: Exx Final Year Projects
+parent: E12 Final Year Projects
 grand_parent: Final Year Projects
 
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg

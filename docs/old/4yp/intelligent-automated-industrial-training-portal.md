@@ -1,10 +1,10 @@
 ---
 layout: project_old
 title: Intelligent Automated Industrial Training Portal
-permalink: /4yp/eXX/intelligent-automated-industrial-training-portal
+permalink: /4yp/e12/intelligent-automated-industrial-training-portal
 
 has_children: false
-parent: Exx Final Year Projects
+parent: E12 Final Year Projects
 grand_parent: Final Year Projects
 
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
