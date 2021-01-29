@@ -29,11 +29,11 @@ layout: table_wrappers
                         <h1 class="mt-2 title-case">{{ page.title }}</h1>
                         <div class="container">
                             {% if page.started_on != 'yyyy-mm-dd'  %}
-                            Started: <span>{{ page.started_on  | date: '%B %d, %Y' }}</span>
+                            <span class="px-3">Created: <i>{{ page.started_on  | date: '%B %d, %Y' }}</i></span>
                             {% endif %}
-                            <span class="px-3">Forks: <span class="">{{ page.forks }}</span></span>
-                            <span class="px-3"> Watchers: <span class="">{{ page.watchers }}</span> </span>
-                            <span class="px-3"> Stars: <span class="">{{ page.stars }}</span> </span>
+                            <span class="px-3">Forks: <i>{{ page.forks }}</i></span>
+                            <span class="px-3"> Watchers: <i>{{ page.watchers }}</i> </span>
+                            <span class="px-3"> Stars: <i>{{ page.stars }}</i> </span>
 
                             <hr>
                         </div>
