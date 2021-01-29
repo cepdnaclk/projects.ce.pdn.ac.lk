@@ -1,18 +1,18 @@
 ---
 layout: project_old
 title: Cache Switching in Multithreaded Embedded Systems
-permalink: /4yp/eXX/cache-switching-in-multithreaded-embedded-systems
+permalink: /4yp/e12/cache-switching-in-multithreaded-embedded-systems
 
 has_children: false
-parent: Exx Final Year Projects
+parent: E12 Final Year Projects
 grand_parent: Final Year Projects
 
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg
 
-tags: [Software and Systems]
-team: [Thilini Dahanayaka, Rajitha Ramanayake]
-supervisors: [Dr. Dhammika Elkaduwe, Dr. Isuru Nawinne]
+tags: [	Software and Systems ]
+team: [ Thilini Dahanayaka, Rajitha Ramanayake ]
+supervisors: [ Dr. Dhammika Elkaduwe, Dr. Isuru Nawinne ]
 
 has_publication: false
 publication: ""

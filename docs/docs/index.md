@@ -9,7 +9,7 @@ permalink: /docs
 <h3>Documentation</h3>
 <br>
 <ul style="font-size: larger">
-<li><a  href="https://github.com/cepdnaclk/projects.ce.pdn.ac.lk">Source Code</a></li>
+<li><a target="_blank" href="https://github.com/cepdnaclk/projects.ce.pdn.ac.lk">Source Code</a></li>
 
 <li><a href="/docs/deployment">Deployment Instructions</a></li>
 
