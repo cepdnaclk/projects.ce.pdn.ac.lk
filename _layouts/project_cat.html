@@ -54,14 +54,14 @@ layout: table_wrappers
                     </div>
 
                     <div class="col-md-9">
-
-                        {% if page.has_children == true and page.has_toc != false %}
-                        {%- assign children_list = pages_list | where: "grand_parent", page.title -%}
-
-                        {%- assign proj_list = children_list | sort: "parent" | reverse -%}
-
                         <div class="container p-0 mw-100">
                             <div class="row">
+                                {% if page.has_children == true and page.has_toc != false %}
+                                {%- assign batch_list = pages_list | where: "parent", page.title | reverse -%}
+
+                                {% for batch in batch_list %}
+                                {%- assign proj_list = pages_list | where: "parent", batch.title -%}
+
                                 {% for child in proj_list %}
                                 <div class="col-lg-3 col-md-6 col-sm-6 d-flex m-0" style="padding: 10px 0;">
                                     <a class="btn m-0" href="{{ child.url | absolute_url }}">
@@ -69,17 +69,19 @@ layout: table_wrappers
                                             <img class="card-img-top" src="{{ page.default_thumb_image }}" alt="">
                                             <div class="card-body p-1 m-0">
                                                 <p class="card-title project-card-title">
-                                                    {{ child.title }}
+                                                    {{ child.title }} ({{ batch.batch }})
                                                 </p>
                                             </div>
                                         </div>
                                     </a>
                                 </div>
+
                                 {% endfor %}
+                                {% endfor %}
+
+                                {% endif %}
                             </div>
                         </div>
-                        {% endif %}
-
                         <hr>
                         {{ content }}
                     </div>
