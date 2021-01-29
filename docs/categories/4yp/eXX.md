@@ -4,6 +4,7 @@ title: Exx Final Year Projects
 permalink: /4yp/eXX/
 has_children: true
 parent: Final Year Projects
+nav_exclude: true
 batch: eXX
 
 default_thumb_image: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg

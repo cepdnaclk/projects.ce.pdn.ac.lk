@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: automated railway ticketing system
+title: Automated Railway Ticketing System
 permalink: /3yp/e16/automated-railway-ticketing-system
-description: 
+description: ""
 
 has_children: false
 parent: E16 Embedded Systems Projects

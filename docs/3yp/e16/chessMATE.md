@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: chessMATE
+title: Chessmate
 permalink: /3yp/e16/chessMATE
-description: Smart Chess Platform
+description: "Smart Chess Platform"
 
 has_children: false
 parent: E16 Embedded Systems Projects

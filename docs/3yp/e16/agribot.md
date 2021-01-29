@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: agribot
+title: Agribot
 permalink: /3yp/e16/agribot
-description: Autonomous Agricultural Robot
+description: "Autonomous Agricultural Robot"
 
 has_children: false
 parent: E16 Embedded Systems Projects

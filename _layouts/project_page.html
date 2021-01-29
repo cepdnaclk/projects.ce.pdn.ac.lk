@@ -5,7 +5,7 @@ layout: table_wrappers
 <!DOCTYPE html>
 
 <html lang="{{ site.lang | default: 'en-US' }}">
-{% include project_head.html %}
+{% include head.html %}
 <body>
     <div id="app">
         {% include project_navbar.html %}
@@ -24,12 +24,12 @@ layout: table_wrappers
                     </nav>
                 </div>
 
-                <div class="container">
+                <div class="container" style="min-height: 60vh;">
                     <div class="row">
                         <h1 class="mt-2 title-case">{{ page.title }}</h1>
                         <div class="container">
                             {% if page.started_on != 'yyyy-mm-dd'  %}
-                            Started on <span class="">{{ page.started_on }}</span>
+                            Started: <span>{{ page.started_on }}</span>
                             {% endif %}
                             <span class="px-3">Forks: <span class="">{{ page.forks }}</span></span>
                             <span class="px-3"> Watchers: <span class="">{{ page.watchers }}</span> </span>
@@ -48,16 +48,14 @@ layout: table_wrappers
                                 <img class="img-fluid w-100" src="{{ page.cover_url }}" alt="">
                             </div>
 
-                            <!-- Post Content -->
-                            <p class="lead">{{ page.description }}</p>
-
                             <hr>
                             {{ content }}
 
                             <div class="row pt-3">
+                                {% if page.repo_url != 'blank' %}
                                 <div class="col-md-6 col-sm-6">
                                     <div class="card mb-3">
-                                        <a class="btn" href="{{ page.repo_url }}" target="_blank">
+                                        <a class="btn border" href="{{ page.repo_url }}" target="_blank">
                                             <div class="row no-gutters">
                                                 <div class="col-md-4">
                                                     <img src="{{ "/assets/images/icon_repo.jpg" | absolute_url }}" class="card-img p-3" alt="...">
@@ -72,7 +70,9 @@ layout: table_wrappers
                                         </a>
                                     </div>
                                 </div>
+                                {% endif %}
 
+                                {% if page.page_url != 'blank' %}
                                 <div class="col-md-6 col-sm-6">
                                     <div class="card mb-3">
                                         <a class="btn" href="{{ page.page_url }}" target="_blank">
@@ -90,6 +90,7 @@ layout: table_wrappers
                                         </a>
                                     </div>
                                 </div>
+                                {% endif %}
                             </div>
                         </div>
 
@@ -133,11 +134,6 @@ layout: table_wrappers
             </div>
         </main>
 
-        <footer class="mt-5 py-5 bg-dark">
-            <div class="container">
-                <p class="m-2 text-center text-white"></p>
-            </div>
-        </footer>
-
+        {% include footer.html %}
     </div>
 </body>

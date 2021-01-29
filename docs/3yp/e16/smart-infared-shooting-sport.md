@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: smart infared shooting sport
+title: Smart Infared Shooting Sport
 permalink: /3yp/e16/smart-infared-shooting-sport
-description: 
+description: ""
 
 has_children: false
 parent: E16 Embedded Systems Projects

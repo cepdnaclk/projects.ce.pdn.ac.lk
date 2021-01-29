@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: smart shopping cart with automatic bill system
+title: Smart Shopping Cart With Automatic Bill System
 permalink: /3yp/e16/smart-shopping-cart-with-automatic-bill-system
-description: 
+description: ""
 
 has_children: false
 parent: E16 Embedded Systems Projects

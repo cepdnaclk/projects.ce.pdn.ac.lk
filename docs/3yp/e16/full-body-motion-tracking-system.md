@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: full body motion tracking system
+title: Full Body Motion Tracking System
 permalink: /3yp/e16/full-body-motion-tracking-system
-description: A game console based on a full-body motion tracking system
+description: "A game console based on a full-body motion tracking system"
 
 has_children: false
 parent: E16 Embedded Systems Projects

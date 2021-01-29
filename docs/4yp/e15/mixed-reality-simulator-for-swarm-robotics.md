@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: mixed reality simulator for swarm robotics
+title: Mixed Reality Simulator For Swarm Robotics
 permalink: /4yp/e15/mixed-reality-simulator-for-swarm-robotics
-description: Mixed Reality based simulation platform for swarm robotics
+description: "Mixed Reality based simulation platform for swarm robotics"
 
 has_children: false
 parent: E15 Final Year Projects

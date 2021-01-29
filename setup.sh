@@ -1,3 +1,4 @@
 
 gem install just-the-docs
-bundle exec just-the-docs rake search:init
+gem install jekyll-sitemap
+bundle exec just-the-docs rake search:init jekyll-sitemap

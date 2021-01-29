@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: digital signage based user targeted advertising
+title: Digital Signage Based User Targeted Advertising
 permalink: /3yp/e16/digital-signage-based-user-targeted-advertising
-description: A novel approach for digital signage based user targeted advertising
+description: "A novel approach for digital signage based user targeted advertising"
 
 has_children: false
 parent: E16 Embedded Systems Projects

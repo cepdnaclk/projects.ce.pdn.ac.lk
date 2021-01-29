@@ -1,8 +1,8 @@
 ---
 layout: project_page
-title: smart payment system
+title: Smart Payment System
 permalink: /3yp/e16/smart-payment-system
-description: This is the 3rd year embedded system project
+description: "This is the 3rd year embedded system project"
 
 has_children: false
 parent: E16 Embedded Systems Projects
