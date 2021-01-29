@@ -1,17 +1,17 @@
 {
-   "code":"3yp",
-   "title":"Embedded Systems Projects",
-   "images":{
-      "cover":"cover_page.jpg",
-      "thumbnail":"thumbnail.jpg"
-   },
-   "type": "COURSE",
-   "description":"3rd year embedded systems project which is a combination of CO321, CO324 and CO325 courses",
-   "filters":[
-      {
-         "organization":"cepdnaclk",
-         "filter":"^e\\d{2}-3yp-"
-      }
-   ],
-   "contact":"lecturer.name@eng.pdn.ac.lk"
+  "code": "3yp",
+  "title": "Embedded Systems Projects",
+  "images": {
+    "cover": "cover_page.jpg",
+    "thumbnail": "thumbnail.jpg"
+  },
+  "type": "COURSE",
+  "description": "3rd year embedded systems project which is a combination of CO321, CO324 and CO325 courses",
+  "filters": [
+    {
+      "organization": "cepdnaclk",
+      "filter": "^e\\d{2}-3yp-"
+    }
+  ],
+  "contact": "lecturer.name@eng.pdn.ac.lk"
 }
