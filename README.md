@@ -1,46 +1,38 @@
-<p align="right">
-    <a href="https://badge.fury.io/rb/just-the-docs"><img src="https://badge.fury.io/rb/just-the-docs.svg" alt="Gem version"></a> <a href="https://github.com/pmarsceill/just-the-docs/actions?query=workflow%3A%22Master+branch+CI%22"><img src="https://github.com/pmarsceill/just-the-docs/workflows/Master%20branch%20CI/badge.svg" alt="Build status"></a>
-</p>
-<br><br>
-<p align="center">
-    <h1 align="center">Just the Docs</h1>
-    <p align="center">A modern, highly customizable, and responsive Jekyll theme for documentation with built-in search.<br>Easily hosted on GitHub Pages with few dependencies.</p>
-    <p align="center"><strong><a href="https://pmarsceill.github.io/just-the-docs/">See it in action!</a></strong></p>
-    <br><br><br>
-</p>
 
-![jtd](https://user-images.githubusercontent.com/896475/47384541-89053c80-d6d5-11e8-98dc-dba16e192de9.gif)
+# projects.ce.pdn.ac.lk
 
-## Usage
+This is the repository contains the source code for [https://projects.ce.pdn.ac.lk](https://projects.ce.pdn.ac.lk). The site is built by Jekyll Builder and hosted on GitHub pages.
 
-[View the documentation](https://pmarsceill.github.io/just-the-docs/) for usage information.
+Jekyll Builder theme is based on [pmarsceill/just-the-docs](https://github.com/pmarsceill/just-the-docs).
 
-## Contributing
+## Update the site
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/pmarsceill/just-the-docs. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Since the site is served as a static website, it is required to update the projects from time to time. (*TODO: Automate this process using GitHub Actions*)
 
-### Submitting code changes:
+Student projects on [github.com/cepdnaclk](https://github.com/cepdnaclk) can be added to this site using the python script found in the root folder. Run following instructions to run the script and make a pull request to the repository.
 
-- Open a [Pull Request](https://github.com/pmarsceill/just-the-docs/pulls)
-- Ensure all CI tests pass
-- Await code review
-- Bump the version number in `just-the-docs.gemspec` and `package.json` according to [semantic versioning](https://semver.org/).
+```
+pip install requests
+python stat_script.py
+```
 
-### Design and development principles of this theme:
+## Build Instructions
 
-1. As few dependencies as possible
-2. No build script needed
-3. First class mobile experience
-4. Make the content shine
+Currently, the site is built by GitHub itself once there is a pull request to the *main* branch.
 
-## Development
+If you are interested in build the site in a local environment, info on how to build can be found in [projects.ce.pdn.ac.lk/docs/deployment](https://projects.ce.pdn.ac.lk/docs/deployment). You can also use *setup.sh* and *run.sh* bash scripts in the root folder, if you have already installed the required software.
 
-To set up your environment to develop this theme, run `bundle install`.
+## Contact Info
 
-Your theme is set up just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+If you have any doubt about implementation or need to report a bug or a suggestion, please feel free to contact one of them.
 
-When the theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be released.
+### Coordinator
+- Proff. Roshan Ragel (<a href="mailto:roshanr@eng.pdn.ac.lk ">roshanr@eng.pdn.ac.lk </a>)
 
-## License
+### Developers
+- Nuwan Jaliyagoda (<a href="mailto:nuwanjaliyagoda@eng.pdn.ac.lk">nuwanjaliyagoda@eng.pdn.ac.lk</a> <a href="https://github.com/NuwanJ" target="_blank">GitHub: @NuwanJ</a> )
+- Akila Karunanayake (<a href="mailto:e17154@eng.pdn.ac.lk">e17154@eng.pdn.ac.lk</a> | <a href="https://github.com/Akilax0" target="_blank">GitHub: @Akilax0</a> ) </li>
 
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+### Contribute
+
+If you are willing to contribute to improving this website, please feel free to contact Prof. Roshan Ragel ([roshanr@eng.pdn.ac.lk](mailto:roshanr@eng.pdn.ac.lk))
