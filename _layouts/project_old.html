@@ -18,8 +18,8 @@ layout: table_wrappers
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="../../">Home</a></li>
                             <li class="breadcrumb-item"><a href="../">{{ page.grand_parent }}</a></li>
-                            <li class="breadcrumb-item"><a href="./">{{ page.parent }}</a></li>
-                            <!-- <li class="breadcrumb-item"><span>{{ page.title }}</span></li> -->
+                            <li class="breadcrumb-item"><a href="./">{{ page.parent | slice:0,3 }}</a></li>
+                            <li class="breadcrumb-item"><span>{{ page.title }}</span></li>
                         </ol>
                     </nav>
                 </div>

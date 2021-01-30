@@ -38,14 +38,21 @@ layout: table_wrappers
 
                             <ul class="list-group">
                                 {%- assign batch_array = pages_list | where: "parent", page.title | reverse -%}
+
                                 {% for item in batch_array %}
+
                                 {% if item.nav_exclude!= true %}
+                                {%- assign batch_projects = pages_list | where: "parent", item.title -%}
+
+                                {% if  batch_projects.size > 0 %}
                                 <li class="list-group-item p-1 align-items-center">
-                                    <a href="{{ item.permalink }}" class="d-flex justify-content-between">
-                                        <span class="mx-2">{{ item.batch }} Batch</span>
-                                        <!--<span class="mx-2 badge badge-secondary badge-pill">1</span>-->
+                                    <a href="{{ item.permalink }}" class="d-flex justify-content-between text-decoration-none">
+                                        <span class="mx-2">{{ item.title | slice:0,3 }} Batch</span>
+                                        <span class="mx-2">{{ batch_projects.size }}</span>
                                     </a>
                                 </li>
+                                {% endif %}
+
                                 {% endif %}
                                 {% endfor %}
                             </ul>

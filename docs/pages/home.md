@@ -5,22 +5,21 @@ nav_order: 1
 description: ""
 permalink: /
 has_children: true
+
+search_exclude: true
 ---
 
 {% include page_tree_builder.html pages=site.html_pages %}
 
 <!-- Jumbotron Header -->
 <header class="jumbotron my-2">
-    <h1 class="d-none display-3">A Warm Welcome!</h1>
     <p class="lead">
-        Welcome to the student project listing of the Department of Computer Engineering, University of
-        Peradeniya. This website contains the documentation, code and other multimedia resources for the
-        academic and extra curricular projects conducted by the students of the department.
+        Welcome to the student project listing of the Department of Computer Engineering, University of Peradeniya. This website contains the documentation, code and other multimedia resources for the academic and extra curricular projects conducted by the students of the department.
     </p>
 </header>
 
-<!-- Page Features -->
 
+<!-- Page Features -->
 <h3 class="pt-3 pb-1">Course Projects</h3>
 <div class="row text-center my-2">
     {% if page.has_children == true and page.has_toc != false %}
@@ -48,6 +47,7 @@ has_children: true
 
 </div>
 
+<!--
 <h3 class="pt-3 pb-1">Department Projects</h3>
 <div class="row text-center my-4">
     {% if page.has_children == true and page.has_toc != false %}
@@ -71,4 +71,4 @@ has_children: true
     </div>
     {% endif %}
 
-</div>
+</div> -->
