@@ -97,13 +97,15 @@ started_on: """+date+"""
 """+description+"""
 
 """
-
     return s
 
 
 if __name__ == "__main__":
     print("START")
     URL = urlOrganization()
+
+    # TODO: 
+    # Delete the files on docs/github_repos/
 
     r = requests.get(url=URL)
     j = r.json()
@@ -135,7 +137,7 @@ if __name__ == "__main__":
 
                         # TODO: update URLs
                         # /3yp/e15
-                        path = "docs/"+repoName[1]+"/" + repoName[0]+"/"+filename+".md"
+                        path = "docs/github_repos/"+repoName[1]+"/" + repoName[0]+"/"+filename+".md"
                         #path = "docs/uncategorized/"+filename+".md"
                         title = ' '.join(repoName[2:])
 

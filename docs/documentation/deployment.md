@@ -4,6 +4,9 @@ title: Deployment
 nav_order: 1
 description: ""
 permalink: /docs/deployment
+
+nav_exclude: true
+search_exclude: true
 ---
 
 ## Deployment Instructions

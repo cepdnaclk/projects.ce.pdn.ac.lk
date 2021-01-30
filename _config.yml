@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Projects - Department of Computer Engineering
+title: CE Projects - UoP
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://projects.ce.pdn.ac.lk" # the base hostname & protocol for your site, e.g. http://example.com
@@ -110,7 +110,7 @@ color_scheme: dark
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
-ga_tracking:
+ga_tracking: G-YR7F4DDP6Q
 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
 plugins:
