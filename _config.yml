@@ -34,6 +34,10 @@ exclude:
     "bin/",
     "README.md",
     "Rakefile",
+    "graphic_templates",
+    "*.py",
+    "*.sh",
+    "*.yml"
   ]
 
 # Regression tests
