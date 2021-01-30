@@ -29,7 +29,7 @@ layout: table_wrappers
                         <h1 class="mt-2 title-case">{{ page.title }}</h1>
                         <div class="container">
                             {% if page.started_on != 'yyyy-mm-dd'  %}
-                            <span class="px-3">Created: <i>{{ page.started_on  | date: '%B %d, %Y' }}</i></span>
+                            <span class="px-3">Created: <i>{{ page.started_on  | date: '%d-%m-%Y'}}</i></span>
                             {% endif %}
                             <span class="px-3">Forks: <i>{{ page.forks }}</i></span>
                             <span class="px-3"> Watchers: <i>{{ page.watchers }}</i> </span>
@@ -118,9 +118,6 @@ layout: table_wrappers
             </div>
         </main>
 
-        <div class="container pt-5">
-            <p class="text-center">Last Update: {{ site.time | date: '%B %d, %Y'  }}</p>
-        </div>
         {% include footer.html %}
     </div>
 </body>
