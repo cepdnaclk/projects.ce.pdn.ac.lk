@@ -15,15 +15,6 @@ import base64
 
 
 CATEGORIES={}
-# url = 'https://api.github.com/repos/cepdnaclk/projects/git/blobs/2166c8eba0801b62b539a23576a7b6fc46e7f4f7'
-# resp = requests.get(url)
-# #print(resp)
-# data = json.loads(resp.text)
-# #print(data)
-# #print(data['content'])
-#
-# message_bytes = base64.b64decode(data['content'])
-# message = json.loads(message_bytes.decode('ascii'))
 
 url = 'data/categories/index.json'
 with open(url, 'r') as f:
@@ -39,7 +30,7 @@ print(CATEGORIES)
 
 ORGANIZATION = "cepdnaclk"
 PROJECTS = []
-LOWERCASE = ['a','and','of','for']
+LOWERCASE = ['a','and','of','for','the','as','at','by','on','per','to','up','via','with','from']
 START_BATCH = 10
 END_BATCH = 16
 FIRST_YEAR = 2
@@ -76,7 +67,7 @@ def inRange(x, minNumber, maxNumber):
 def writeHeader(category,batch,grand_parent,permalink,title,description,stars,forks,watch,date,repo,page):
     s = """---
 layout: project_page
-title: """+title.title()+"""
+title: """+title+"""
 permalink: """+permalink+"""
 description: \""""+description+"""\"
 
@@ -84,8 +75,8 @@ has_children: false
 parent: """+batch.upper()+ " " + grand_parent + """
 grand_parent: """+grand_parent+"""
 
-cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+category+"""/cover_page.jpg
-thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+category+"""/thumbnail.jpg
+cover_url: /data/categories/"""+category+"""/cover_page.jpg
+thumbnail_url: /data/categories/"""+category+"""/thumbnail.jpg
 
 repo_url: """+repo+"""
 page_url: """+page+"""
@@ -105,23 +96,17 @@ if __name__ == "__main__":
     print("START")
     URL = urlOrganization()
 
-    # TODO: 
+    # TODO:
     # Delete the files on docs/github_repos/
 
     r = requests.get(url=URL)
     j = r.json()
-    # print(j)
-    # print("\n\n\n\n")
 
     for p in range(1, 1000):
 
         r = requests.get(url=urlOrganizationRepos(p))
         jsonData = r.json()
-        # print(urlOrganizationRepos(p))
-        # sleep(60)
 
-        # print(p, jsonData)
-        # print("\n\n\n")
 
         if len(jsonData) == 0:
             break
@@ -132,31 +117,29 @@ if __name__ == "__main__":
             if repoName[0][0] == "e" and repoName[0][1:] != 'YY':
                 #if repoName[1][1:] == "yp" and repoName[1][:1] != 'f':
                 if repoName[1] in CATEGORIES:
-                    print(repoName)
+                    # print(repoName)
                     if(repoName[1][:1]=='c'):
                         year = int(repoName[1][2])
                     else:
                         year = int(repoName[1][:1])
                     batch = int(repoName[0][1:])
-                    
+
                     if inRange(batch, START_BATCH, END_BATCH) and inRange(year, FIRST_YEAR, FINAL_YEAR):
                         filename = '-'.join(repoName[2:])
 
-                        # TODO: update URLs
-                        # /3yp/e15
                         path = "docs/github_repos/"+repoName[1]+"/" + repoName[0]+"/"+filename+".md"
                         #path = "docs/uncategorized/"+filename+".md"
                         title = []
                         title = ' '.join(repoName[2:]).split()
 
                         capitalized = title[0].capitalize()
-                        for i in range(1,len(title)):
-                            word = title[i]
+                        for j in range(1,len(title)):
+                            word = title[j]
                             if word not in LOWERCASE:
                                 capitalized = capitalized + " "+ word.capitalize()
                             else:
                                 capitalized = capitalized +" " + word
-                        print(capitalized)
+                        # print(capitalized)
 
                         permalink = "/"+repoName[1]+"/" + repoName[0]+"/"+filename
                         stars = jsonData[i]["stargazers_count"]
