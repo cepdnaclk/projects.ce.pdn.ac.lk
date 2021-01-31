@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>On Implementing eCK-secure Key Exchange Protocol for OpenSSL | CE Projects - UoP</title>
+  <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/assets/css/app.css">
+  <link rel="dns-prefetch" href="//fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+<title>On Implementing eCK-secure Key Exchange Protocol for OpenSSL | CE Projects - UoP</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="On Implementing eCK-secure Key Exchange Protocol for OpenSSL" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="/4yp/e12/on-implementing-eck-secure-key-exchange-protocol-for-openssl" />
+<meta property="og:url" content="/4yp/e12/on-implementing-eck-secure-key-exchange-protocol-for-openssl" />
+<meta property="og:site_name" content="CE Projects - UoP" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="On Implementing eCK-secure Key Exchange Protocol for OpenSSL" />
+<script type="application/ld+json">
+{"@type":"WebPage","url":"/4yp/e12/on-implementing-eck-secure-key-exchange-protocol-for-openssl","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/crest.png"}},"headline":"On Implementing eCK-secure Key Exchange Protocol for OpenSSL","@context":"https://schema.org"}</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YR7F4DDP6Q"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-YR7F4DDP6Q', { 'anonymize_ip': true });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="app">
+       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top_">
+   <div class="container">
+        <a class="navbar-brand" href="/">Projects - Department of Computer Engineering, University of Peradeniya </a>
+        <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+   <div class="collapse navbar-collapse" id="navbarResponsive">
+       <ul class="navbar-nav ml-auto">
+           <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+           </li>
+           <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+           </li>
+           <li class="nav-item">
+                <a class="nav-link" href="/docs">Documentation</a>
+           </li>
+           <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact</a>
+           </li>
+       </ul>
+   </div>
+</nav>
+       <main class="py-2 p-1">
+           <div class="container-fluid py-2 px-5">
+               <div class="row">
+                   <nav aria-label="breadcrumb" class="w-100 mt-2">
+                       <ol class="breadcrumb">
+                           <li class="breadcrumb-item"><a href="../../">Home</a></li>
+                           <li class="breadcrumb-item"><a href="../">Final Year Projects</a></li>
+                           <li class="breadcrumb-item"><a href="./">E12</a></li>
+                           <li class="breadcrumb-item"><span>On Implementing eCK-secure Key Exchange Protocol for OpenSSL</span></li>
+                       </ol>
+                   </nav>
+               </div>
+               <div class="container" style="min-height: 60vh;">
+                   <div class="row">
+                       <div class="container">
+                           <h1 class="mt-2 title-case">On Implementing eCK-secure Key Exchange Protocol for OpenSSL</h1>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-md-10">
+                           <div class="">
+                                <img class="img-fluid w-100" src="https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg" alt="" >
+                           </div>
+                           <p class="lead"></p>
+                           <h3 class="pt-3">Team</h3>
+                           <ul>
+                               <li>Seralahthan Vivekaananthan</li>
+                               <li>Nishen Peiris</li>
+                               <li>Chamith Shanaka</li>
+                           </ul>
+                           <h3 class="pt-3">Supervisors</h3>
+                           <ul>
+                               <li>Dr. Janaka Alawatugoda</li>
+                           </ul>
+                           <h3 class="pt-3">Description</h3>
+                           <div class="px-3">
+                               <p>Security models for two-party authenticated key exchange (AKE) protocols have developed over time to capture the security of AKE protocols even when the adversary learns certain secret values by some means (leakage due to weak random number generators, malware attacks, man-in-the-middle attacks, insider attacks etc). LaMacchia, Lauter and Mityagin presented a strong security model for AKE protocols, namely the extended Canetti–Krawczyk (eCK) model  (ProvSec 2007), addressing wide range of real-world attack scenarios. They constructed a protocol, known as the NAXOS protocol. In order to satisfy the definition of eCK security, the NAXOS protocol uses a hash function to combine the longterm and the ephemeral secret keys, which is widely known as NAXOS-trick. However, for protocols based on the NAXO-Strick, the way of leakage modelled in the eCK security model leads to an unnatural assumption of leak-free computation of the hash of the long-term secret key and the ephemeral secret key; because the eCK model allows the attacker to reveal ephemeral key while the NAXOS-trick computation output remains safe. In a recent work of Alawatugoda, Stebila and Boyd (IMA Cryptography and Coding 2015), a NAXOS- trick-free eCK-secure AKE protocol is presented, namely the protocol P1. In this work we implement the protocol P1 to be used with the widely-used cryptographic library, the OpenSSL library. OpenSSL implementations are widely used with the real-world security protocol suites, such as Security Socket Layer (SSL) and Transport Layer Security (TLS). As per best of our knowledge, this implementation is the first OpenSSL implementation of an eCK-secure key exchange protocol. Thus, we open up the direction to use the recent advancements of cryptography for real-world Internet communication.</p>
+                           </div>
+                           <h3 class="pt-3">Publications:</h3>
+                           <div class="px-3">
+                                Alawatugoda, J.; Seralathan, V.; Peiris, N.; Wickramasinghe, C. and Chuah, C.W. Implementation of an eCK-secure Key Exchange Protocol for OpenSSL. In International Journal on Advanced Science, Engineering and Information Technology, Volume 8, Issue 5, pages 2205-2210, INSIGHT – Indonesian Society for Knowledge and Human Development, 2018. Funding: H082
+                           </div>
+                       </div>
+                       <div class="col-md-1">
+                            &nbsp;
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </main>
+       <footer class="mt-5 pt-5 pb-2 bg-dark">
+   <div class="container">
+       <p class="m-2 text-center text-white">
+            Department of Comuputer Engineering - University of Peradeniya
+            <br>
+            <span style="color: #9f9b9b">Last Update: 30-01-2021</span>
+       </p>
+   </div>
+</footer>
+   </div>
+</body>
