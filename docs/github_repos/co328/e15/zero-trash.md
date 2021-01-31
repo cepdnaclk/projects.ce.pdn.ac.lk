@@ -2,22 +2,22 @@
 layout: project_page
 title: Zero Trash
 permalink: /co328/e15/zero-trash
-description: "Projects of batch E/12"
+description: "Zero Trash provides a communication platform between its users and garbage collectors which did not exist (at least not successfully) in Sri Lanka. This could have huge implications for both lessening the cost of collecting garbage and aiding in the recycling process, as well as ensuring that materials that would otherwise end up in a landfill are transported to the appropriate recycling centers. This will increase the income for garbage collectors while providing householders with an additional income."
 
 has_children: false
 parent: E15 Software Engineering Projects
 grand_parent: Software Engineering Projects
 
-cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/co328/cover_page.jpg
-thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/co328/thumbnail.jpg
+cover_url: /data/categories/co328/cover_page.jpg
+thumbnail_url: /data/categories/co328/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e15-co328-zero-trash
 page_url: https://cepdnaclk.github.io/e15-co328-zero-trash
 
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
-started_on: 2020-11-12T10:54:04Z
+started_on: 2020-12-26T12:08:09Z
 ---
-Projects of batch E/12
+Zero Trash provides a communication platform between its users and garbage collectors which did not exist (at least not successfully) in Sri Lanka. This could have huge implications for both lessening the cost of collecting garbage and aiding in the recycling process, as well as ensuring that materials that would otherwise end up in a landfill are transported to the appropriate recycling centers. This will increase the income for garbage collectors while providing householders with an additional income.
 
