@@ -16,14 +16,17 @@ function readLanguageData(repo_url) {
         count += 1;
         langList[lang] = usage;
       });
-      console.log(count);
 
       if (count > 0) {
         $(".langData").removeClass("d-none");
+
         $.each(langList, function (lang, usage) {
           var p = usage / total;
           var val = Math.round(p * 10000) / 100;
-          $("#langList").append(`<li>${lang} - ${val}%</li>`);
+
+          if (val >= 0.25) {
+            $("#langList").append(`<li>${lang} - ${val}%</li>`);
+          }
         });
       }
     },

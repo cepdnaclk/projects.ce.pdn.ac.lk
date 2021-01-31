@@ -76,7 +76,7 @@ layout: table_wrappers
                                             <img class="card-img-top" src="{{ page.default_thumb_image }}" alt="">
                                             <div class="card-body p-1 m-0">
                                                 <p class="card-title project-card-title">
-                                                    {{ child.title }} ({{ batch.batch }})
+                                                    {{ child.title }} ({{ child.parent | slice:0,3 }})
                                                 </p>
                                             </div>
                                         </div>
