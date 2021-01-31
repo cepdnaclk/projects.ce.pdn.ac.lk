@@ -1,23 +1,23 @@
 ---
 layout: project_page
-title: Mixed Reality Simulator For Swarm Robotics
+title: Mixed Reality Simulator for Swarm Robotics
 permalink: /4yp/e15/mixed-reality-simulator-for-swarm-robotics
-description: "Mixed Reality based simulation platform for swarm robotics"
+description: "The main objective of this project is to implement a mixed reality-based simulator application with an efficient and reliable architecture for allowing both physical and virtual robots to collaboratively run swarm intelligence based algorithms in real-time"
 
 has_children: false
 parent: E15 Final Year Projects
 grand_parent: Final Year Projects
 
-cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
-thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg
+cover_url: /data/categories/4yp/cover_page.jpg
+thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e15-4yp-mixed-reality-simulator-for-swarm-robotics
 page_url: https://cepdnaclk.github.io/e15-4yp-mixed-reality-simulator-for-swarm-robotics
 
-forks: 1
+forks: 0
 watchers: 0
 stars: 0
-started_on: 2020-11-18T14:45:03Z
+started_on: 2021-01-31T12:50:52Z
 ---
-Mixed Reality based simulation platform for swarm robotics
+The main objective of this project is to implement a mixed reality-based simulator application with an efficient and reliable architecture for allowing both physical and virtual robots to collaboratively run swarm intelligence based algorithms in real-time
 

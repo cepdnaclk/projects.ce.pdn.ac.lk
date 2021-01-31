@@ -50,6 +50,15 @@ p, ul{
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.tag{
+    padding: 2px 15px;
+    background-color: #e2e3e3;
+    margin: 2px 5px;
+    font-size: 12pt;
+    border-radius: 2px;
+    /* border: 1px solid gray; */
+}
 /*--------------------------------*/
 
 

@@ -39,17 +39,33 @@ layout: table_wrappers
                         </div>
                     </div>
 
-                    <div class="row">
+                    <!-- Cover Image -->
+                    <div class="pb-2">
+                        <img style="padding: 10px 30px;" class="img-fluid w-100" src="{{ page.cover_url }}" alt="">
+                    </div>
 
+                    <div class="row">
                         <!-- Post Content Column -->
-                        <div class="col-md-10">
-                            <!-- Cover Image -->
-                            <div class="">
-                                <img class="img-fluid w-100" src="{{ page.cover_url }}" alt="">
+                        <div class="col-md-8 col-lg-9">
+                            <div class="container d-none remoteData">
+                                <h3>Team</h3>
+                                <ul id="teamList">
+                                </ul>
+
+                                <h3>Supervisors</h3>
+                                <ul id="supervisorList">
+                                </ul>
+
                             </div>
 
-                            <hr>
-                            {{ content }}
+                            <div class="container">
+                                {% if page.description.size > 0 %}
+                                <h3 class="pt-3">Description</h3>
+                                <div style="font-size: 12pt;" id="descriptionText" class="px-3">
+                                    {{ content }}
+                                </div>
+                                {% endif %}
+                            </div>
 
                             <div class="row pt-3">
                                 {% if page.repo_url != 'blank' %}
@@ -76,18 +92,20 @@ layout: table_wrappers
                                 </div>
                                 {% endif %}
                             </div>
+
+                            <div class="container d-none remoteData pt-5">
+                                <span class="font-weight-bold">Tags:</span>
+                                <span id="tagList"></span>
+                            </div>
                         </div>
 
                         <!-- Sidebar Widgets Column -->
-                        <div class="col-md-1">
+                        <div class="col-md-4 col-lg-3">
 
-                            <div class="card mb-4 pb-3 d-none">
+                            <div class="card mb-4 pb-3 langData d-none">
                                 <h5 class="card-header">Languages</h5>
-                                <div class="card-body">
-                                    <ul class="list-unstyled mb-0">
-                                        {% for lang in page.languages %}
-                                        <li>{{ lang }}</li>
-                                        {% endfor %}
+                                <div class="card-body" style="font-size:9pt;">
+                                    <ul id="langList" class="list-unstyled mb-0">
                                     </ul>
                                 </div>
                             </div>
@@ -100,9 +118,9 @@ layout: table_wrappers
                                         <li>
                                             <div class="w3-container d-flex">
                                                 <img class="rounded-circle p-1 align-self-center"
-                                                alt="{{ member }}"
+                                                alt=""
                                                 style="width: 48px; height: 48px;"
-                                                src="https://avatars0.githubusercontent.com/u/11540782?v=4">
+                                                src="#">
                                                 <span class="align-self-center p-3">
                                                     <a href="#" target="_blank">{{ member }}</a>
                                                 </span>
@@ -120,4 +138,16 @@ layout: table_wrappers
 
         {% include footer.html %}
     </div>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            {% if page.page_url != 'blank' %}
+            readRemoteData('{{ page.page_url }}');
+            {% endif %}
+            readLanguageData('{{ page.repo_url }}');
+        });
+    </script>
+
+    <script type="text/javascript" src="{{ '/assets/js/project.js' | relative_url }}"></script>
 </body>
