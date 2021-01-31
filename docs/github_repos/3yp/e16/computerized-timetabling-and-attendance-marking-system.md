@@ -2,7 +2,7 @@
 layout: project_page
 title: Computerized Timetabling And Attendance Marking System
 permalink: /3yp/e16/computerized-timetabling-and-attendance-marking-system
-description: "The idea is to create a modern attendance marking system that is suitable for today's world.In parallel with the attendance marking system,a fully-fledged time table managing and lecture reminding system is developed."
+description: "A system for LP gas users and distributors"
 
 has_children: false
 parent: E16 Embedded Systems Projects
@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e16-3yp-computerized-timetabling-and-atten
 forks: 3
 watchers: 0
 stars: 0
-started_on: 2020-10-18T03:40:36Z
+started_on: 2020-10-17T08:18:33Z
 ---
-The idea is to create a modern attendance marking system that is suitable for today's world.In parallel with the attendance marking system,a fully-fledged time table managing and lecture reminding system is developed.
+A system for LP gas users and distributors
 

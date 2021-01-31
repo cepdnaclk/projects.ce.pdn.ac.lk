@@ -2,7 +2,7 @@
 layout: project_page
 title: Water Quality Monitoring And Usage Monitoring System
 permalink: /3yp/e16/water-quality-monitoring-and-usage-monitoring-system
-description: "In this project we are developing a water tank monitoring system for providing clean water and reduce the water wastage"
+description: "E/16/022 E/16/025 E/16/222 Third year project"
 
 has_children: false
 parent: E16 Embedded Systems Projects
@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e16-3yp-water-quality-monitoring-and-usage
 forks: 3
 watchers: 0
 stars: 0
-started_on: 2020-10-19T11:26:27Z
+started_on: 2020-10-17T15:19:25Z
 ---
-In this project we are developing a water tank monitoring system for providing clean water and reduce the water wastage
+E/16/022 E/16/025 E/16/222 Third year project
 

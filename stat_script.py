@@ -39,6 +39,7 @@ print(CATEGORIES)
 
 ORGANIZATION = "cepdnaclk"
 PROJECTS = []
+LOWERCASE = ['a','and','of','for']
 START_BATCH = 10
 END_BATCH = 16
 FIRST_YEAR = 2
@@ -129,9 +130,15 @@ if __name__ == "__main__":
             # print(jsonData[i]["name"])
             repoName = jsonData[i]["name"].strip().split("-")
             if repoName[0][0] == "e" and repoName[0][1:] != 'YY':
-                if repoName[1][1:] == "yp" and repoName[1][:1] != 'f':
+                #if repoName[1][1:] == "yp" and repoName[1][:1] != 'f':
+                if repoName[1] in CATEGORIES:
+                    print(repoName)
+                    if(repoName[1][:1]=='c'):
+                        year = int(repoName[1][2])
+                    else:
+                        year = int(repoName[1][:1])
                     batch = int(repoName[0][1:])
-                    year = int(repoName[1][:1])
+                    
                     if inRange(batch, START_BATCH, END_BATCH) and inRange(year, FIRST_YEAR, FINAL_YEAR):
                         filename = '-'.join(repoName[2:])
 
@@ -139,7 +146,17 @@ if __name__ == "__main__":
                         # /3yp/e15
                         path = "docs/github_repos/"+repoName[1]+"/" + repoName[0]+"/"+filename+".md"
                         #path = "docs/uncategorized/"+filename+".md"
-                        title = ' '.join(repoName[2:])
+                        title = []
+                        title = ' '.join(repoName[2:]).split()
+
+                        capitalized = title[0].capitalize()
+                        for i in range(1,len(title)):
+                            word = title[i]
+                            if word not in LOWERCASE:
+                                capitalized = capitalized + " "+ word.capitalize()
+                            else:
+                                capitalized = capitalized +" " + word
+                        print(capitalized)
 
                         permalink = "/"+repoName[1]+"/" + repoName[0]+"/"+filename
                         stars = jsonData[i]["stargazers_count"]
@@ -168,5 +185,5 @@ if __name__ == "__main__":
 
                         # TODO: update other parameters on header
                         # writeHeader(category, batch, grand_parent, permalink, title,stars,forks,watch,date)
-                        outputFile.write(writeHeader(repoName[1],repoName[0],grand_parent,permalink,title,desc,stars,forks,watch,date,repo,page))
+                        outputFile.write(writeHeader(repoName[1],repoName[0],grand_parent,permalink,capitalized,desc,stars,forks,watch,date,repo,page))
 print("END")

@@ -2,7 +2,7 @@
 layout: project_page
 title: Smart Vending Machine
 permalink: /3yp/e16/smart-vending-machine
-description: "Smart Vending Machine (3rd year unified project)"
+description: ""
 
 has_children: false
 parent: E16 Embedded Systems Projects
@@ -14,10 +14,10 @@ thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories
 repo_url: https://github.com/cepdnaclk/e16-3yp-smart-vending-machine
 page_url: https://cepdnaclk.github.io/e16-3yp-smart-vending-machine
 
-forks: 2
+forks: 1
 watchers: 0
 stars: 0
-started_on: 2020-10-21T10:22:20Z
+started_on: 2020-10-17T06:48:34Z
 ---
-Smart Vending Machine (3rd year unified project)
+
 
