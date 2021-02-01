@@ -34,14 +34,14 @@ layout: table_wrappers
                         </div>
                     </div>
 
-                    <div class="row">
+                    <!-- Cover Image -->
+                    <div class="pb-2">
+                        <img style="padding: 10px 30px;" class="img-fluid w-100" src="{{ page.cover_url }}" alt="">
+                    </div>
 
+                    <div class="row">
                         <!-- Post Content Column -->
-                        <div class="col-md-10">
-                            <!-- Cover Image -->
-                            <div class="">
-                                <img class="img-fluid w-100" src="{{ page.cover_url }}" alt="" >
-                            </div>
+                        <div class="col-md-8 col-lg-9">
 
                             <!-- Post Content -->
                             <p class="lead">{{ page.description }}</p>
@@ -72,10 +72,19 @@ layout: table_wrappers
                                 {{ page.publication}}
                             </div>
                             {% endif %}
+
+                            {% if page.tags.size > 0 %}
+                            <div class="container remoteData pt-5">
+                                <span class="font-weight-bold">Tags:</span>
+                                {% for tag in page.tags %}
+                                <span class='tag'>{{ tag }}</span>
+                                {% endfor %}
+                            </div>
+                            {% endif %}
                         </div>
 
                         <!-- Sidebar Widgets Column -->
-                        <div class="col-md-1">
+                        <div class="col-md-4 col-lg-3">
                             &nbsp;
                         </div>
                     </div>
