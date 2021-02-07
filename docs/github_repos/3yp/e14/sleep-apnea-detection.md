@@ -12,7 +12,7 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e14-3yp-sleep-apnea-detection
-page_url: blank
+page_url: https://cepdnaclk.github.io/e14-3yp-sleep-apnea-detection
 
 forks: 0
 watchers: 0
