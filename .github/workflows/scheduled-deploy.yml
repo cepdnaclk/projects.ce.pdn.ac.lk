@@ -1,11 +1,9 @@
 name: Build and Deploy
 
 on:
-  push:
-    branches: [main]
   schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron: "0 0 * * *"
+    # * 5.30 UTC, everyday (12.00 mid night in Sri Lanka)
+    - cron: "30 18 * * *"
 
 jobs:
   build:
