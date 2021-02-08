@@ -117,11 +117,12 @@ if __name__ == "__main__":
             if repoName[0][0] == "e" and repoName[0][1:] != 'YY':
                 #if repoName[1][1:] == "yp" and repoName[1][:1] != 'f':
                 if repoName[1] in CATEGORIES:
-                    # print(repoName)
+                    print(repoName[1])
                     if(repoName[1][:1]=='c'):
                         year = int(repoName[1][2])
                     else:
                         year = int(repoName[1][:1])
+
                     batch = int(repoName[0][1:])
 
                     if inRange(batch, START_BATCH, END_BATCH) and inRange(year, FIRST_YEAR, FINAL_YEAR):

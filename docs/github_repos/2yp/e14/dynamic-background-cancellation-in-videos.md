@@ -12,7 +12,7 @@ cover_url: /data/categories/2yp/cover_page.jpg
 thumbnail_url: /data/categories/2yp/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e14-2yp-dynamic-background-cancellation-in-videos
-page_url: blank
+page_url: https://cepdnaclk.github.io/e14-2yp-dynamic-background-cancellation-in-videos
 
 forks: 0
 watchers: 0
