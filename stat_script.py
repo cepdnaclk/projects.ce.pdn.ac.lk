@@ -104,6 +104,20 @@ started_on: """+date+"""
     return s
 
 
+def index_template(batch,tag,project,description):
+    template = """---
+layout: project_batch
+title: E"""+batch+""" """+project+"""
+permalink: /"""+tag+"""/e"""+batch+"""
+has_children: true
+parent: """+project+"""
+batch: e"""+batch+"""
+    
+default_thumb_image: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+tag+"""/thumbnail.jpg
+description: """+description
+
+    return template
+
 def md_file_write(CATEGORIES,MIN,MAX):
 
     for i in CATEGORIES:
@@ -113,26 +127,13 @@ def md_file_write(CATEGORIES,MIN,MAX):
 
         for batch in range(MIN,MAX+1):
 
-
-            template = """---
-            layout: project_batch
-            title: E"""+str(batch)+""" """+CATEGORIES[i]+"""
-            permalink: /"""+str(i)+"""/e"""+str(batch)+"""
-            has_children: true
-            parent: """+CATEGORIES[i]+"""
-            batch: e"""+str(batch)+"""
-
-            default_thumb_image: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+str(i)+"""/thumbnail.jpg
-            description: """+index_data.split("description: ",1)[1] 
-
-
             filename = 'e'+str(batch)
             path = "docs/categories/"+str(i)+"/"+filename+".md"
  
 
             os.makedirs(os.path.dirname(path), exist_ok=True)
             outputFile = open(path, "w+")
-            outputFile.write(template)
+            outputFile.write(index_template(str(batch),str(i),CATEGORIES[i],index_data.split("description: ",1)[1]))
 
 
 if __name__ == "__main__":
