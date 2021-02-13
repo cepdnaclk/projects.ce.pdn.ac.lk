@@ -160,7 +160,8 @@ if __name__ == "__main__":
 
         if len(jsonData) == 0:
             break
-
+            
+        #removed if condition for checking year and batch in range
         for i in range(len(jsonData)):
             # print(jsonData[i]["name"])
             repoName = jsonData[i]["name"].strip().split("-")
