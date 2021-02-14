@@ -8,8 +8,8 @@ has_children: false
 parent: E17 Database Projects
 grand_parent: Database Projects
 
-cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/co226/cover_page.jpg
-thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg
+cover_url: /data/categories/co226/cover_page.jpg
+thumbnail_url: /data/categories/co226/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e17-co226-business-to-business-database
 page_url: https://cepdnaclk.github.io/e17-co226-business-to-business-database

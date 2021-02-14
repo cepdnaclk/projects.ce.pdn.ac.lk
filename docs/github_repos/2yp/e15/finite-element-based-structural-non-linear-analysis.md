@@ -8,11 +8,11 @@ has_children: false
 parent: E15 Computer Engineering Projects
 grand_parent: Computer Engineering Projects
 
-cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/2yp/cover_page.jpg
-thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/2yp/thumbnail.jpg
+cover_url: /data/categories/2yp/cover_page.jpg
+thumbnail_url: /data/categories/2yp/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e15-2yp-finite-element-based-structural-non-linear-analysis
-page_url: https://cepdnaclk.github.io/e15-2yp-finite-element-based-structural-non-linear-analysis
+page_url: blank
 
 forks: 0
 watchers: 0
