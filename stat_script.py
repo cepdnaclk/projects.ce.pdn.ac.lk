@@ -48,10 +48,6 @@ END_BATCH = 16
 FIRST_YEAR = 2
 FINAL_YEAR = 4
 
-MIN = 10  
-MAX = 10
-
-
 def urlOrganization():
     return "https://api.github.com/orgs/{}".format(ORGANIZATION)
 
@@ -178,17 +174,7 @@ if __name__ == "__main__":
                         year = int(repoName[1][:1])
                     batch = int(repoName[0][1:])
 
-
-                    
-                    
                     BATCHES[repoName[1]].add(batch)
-
-                    '''
-                    if(batch<MIN):
-                        MIN = batch
-                    if(batch>MAX):
-                        MAX = batch
-                    '''
 
                     #if inRange(batch, START_BATCH, END_BATCH) and nRange(year, FIRST_YEAR, FINAL_YEAR):
                     filename = '-'.join(repoName[2:])
