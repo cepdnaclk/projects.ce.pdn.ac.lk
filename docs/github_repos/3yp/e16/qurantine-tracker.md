@@ -14,7 +14,7 @@ thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories
 repo_url: https://github.com/cepdnaclk/e16-3yp-qurantine-tracker
 page_url: https://cepdnaclk.github.io/e16-3yp-qurantine-tracker
 
-forks: 4
+forks: 5
 watchers: 0
 stars: 0
 started_on: 2020-10-17T05:53:43Z

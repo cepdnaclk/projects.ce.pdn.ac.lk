@@ -15,6 +15,7 @@ import base64
 
 
 CATEGORIES={}
+BATCHES = {}
 # url = 'https://api.github.com/repos/cepdnaclk/projects/git/blobs/2166c8eba0801b62b539a23576a7b6fc46e7f4f7'
 # resp = requests.get(url)
 # #print(resp)
@@ -33,12 +34,14 @@ with open(url, 'r') as f:
 
 for i in message:
     CATEGORIES[message[i]['link']] = message[i]['name']
+    BATCHES[message[i]['link']] = set()
     #print(message[i]['link'])
 
 print(CATEGORIES)
 
 ORGANIZATION = "cepdnaclk"
 PROJECTS = []
+
 LOWERCASE = ['a','and','of','for']
 START_BATCH = 10
 END_BATCH = 16
@@ -118,14 +121,14 @@ description: """+description
 
     return template
 
-def md_file_write(CATEGORIES,MIN,MAX):
+def md_file_write(CATEGORIES,BATCHES):
 
     for i in CATEGORIES:
         index = open("docs/categories/"+str(i)+"/index.md",'r')
         index_data = index.read()
 
 
-        for batch in range(MIN,MAX+1):
+        for batch in BATCHES[i]:
 
             filename = 'e'+str(batch)
             path = "docs/categories/"+str(i)+"/"+filename+".md"
@@ -176,11 +179,17 @@ if __name__ == "__main__":
                     batch = int(repoName[0][1:])
 
 
+                    
+                    
+                    BATCHES[repoName[1]].add(batch)
+
+                    '''
                     if(batch<MIN):
                         MIN = batch
                     if(batch>MAX):
                         MAX = batch
-                    
+                    '''
+
                     #if inRange(batch, START_BATCH, END_BATCH) and nRange(year, FIRST_YEAR, FINAL_YEAR):
                     filename = '-'.join(repoName[2:])
 
@@ -228,7 +237,10 @@ if __name__ == "__main__":
                         # TODO: update other parameters on header
                         # writeHeader(category, batch, grand_parent, permalink, title,stars,forks,watch,date)
                     outputFile.write(writeHeader(repoName[1],repoName[0],grand_parent,permalink,capitalized,desc,stars,forks,watch,date,repo,page))
-                    md_file_write(CATEGORIES,MIN,MAX)
+
+
+        print(BATCHES)
+        md_file_write(CATEGORIES,BATCHES)
 
 
                     
