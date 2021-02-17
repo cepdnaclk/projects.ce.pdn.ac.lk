@@ -17,7 +17,7 @@ search_exclude: true
 </ul>
 
 <ul style="font-size: larger">
-    <li><a href="/docs/how-to-add-a-course">How to add a Project ?</a></li>
+    <li><a href="/docs/how-to-add-a-project">How to add a Project ?</a></li>
     <li><a href="/docs/how-to-add-a-course">How to add a Course ?</a></li>
 </ul>
 
