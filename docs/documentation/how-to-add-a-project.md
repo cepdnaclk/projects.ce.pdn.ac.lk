@@ -38,8 +38,8 @@ Naming format of a project repository
 - eXX-CATEGORYTAG_TITLE
 
 CATEGORYTAG assigned as follows,
-<html>
-<style>
+(setq markdown-xhtml-header-content
+      "<style>
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -51,7 +51,8 @@ td, th {
   text-align: left;
   padding: 8px;
 }
-</style>
+</style>")
+
 <table>
   <tr>
     <th>Project Categories</th>
