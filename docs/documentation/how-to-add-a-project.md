@@ -14,7 +14,7 @@ search_exclude: true
 
 
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/hegEmohtppw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="600" src="https://www.youtube.com/embed/hegEmohtppw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
