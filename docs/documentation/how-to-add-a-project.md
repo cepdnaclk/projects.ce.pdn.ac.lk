@@ -13,23 +13,20 @@ search_exclude: true
 ### Instruction Video
 
 
-
 <iframe width="854" height="480" src="https://www.youtube.com/embed/hegEmohtppw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 
 ### Templates 
 
 - General Template
-    - [https://github.com/cepdnaclk/eYY-XXX-project-template]()
+    - [https://github.com/cepdnaclk/eYY-XXX-project-template](https://github.com/cepdnaclk/eYY-XXX-project-template){:target="_blank"}
 
 - Embedded Systems Project Template
-    -  [https://github.com/cepdnaclk/eYY-3yp-project-template]()
+    -  [https://github.com/cepdnaclk/eYY-3yp-project-template](https://github.com/cepdnaclk/eYY-3yp-project-template){:target="_blank"}
 
 
 - Final  Year Project Template
-    -  [https://github.com/cepdnaclk/eYY-4yp-project-template]()
-
+    -  [https://github.com/cepdnaclk/eYY-4yp-project-template](https://github.com/cepdnaclk/eYY-4yp-project-template){:target="_blank"}
 
 
 
@@ -44,7 +41,7 @@ CATEGORYTAG assigned as follows,
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 50%;
+  width: 100%;
 }
 
 td, th {
@@ -99,7 +96,6 @@ These projects will be automatically added into [https://projects.ce.pdn.ac.lk](
 
 ```
 {
-  "visibility": false,
   "title": "This is the title of the project",
   "team": [
     {
@@ -133,8 +129,13 @@ These projects will be automatically added into [https://projects.ce.pdn.ac.lk](
 }
 ```
 
-Once you filled this _index.json_ file, please verify the syntax is correct. (You can use [this](https://jsonlint.com/) tool). Then change the _'visibility'_ property of the above json to _true_.
+Once you filled this _index.json_ file, please verify the syntax is correct. (You can use [this](https://jsonlint.com/) tool).
 
 ### Page Theme
 
-A custom theme integrated with this GitHub Page, which is based on [github.com/cepdnaclk/eYY-project-theme](https://github.com/cepdnaclk/eYY-project-theme). If you like to remove this default theme, you can remove the file, _docs/\_config.yml_
+A custom theme integrated with this GitHub Page, which is based on [github.com/cepdnaclk/eYY-project-theme](https://github.com/cepdnaclk/eYY-project-theme). If you like to remove this default theme, you can remove the file, _docs/\_config.yml_ and use your own one.
+
+
+
+
+---
