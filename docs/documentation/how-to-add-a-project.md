@@ -12,11 +12,11 @@ search_exclude: true
 ## How to add a Project ?
 ### Instruction Video
 
-<br/>
+
 
 [![Instruction video](http://img.youtube.com/vi/hegEmohtppw/0.jpg)](http://www.youtube.com/watch?v=hegEmohtppw "")
 
-<br/>
+
 
 ### Templates 
 
@@ -47,7 +47,7 @@ CATEGORYTAG assigned as follows,
 | Computer Systems Engineering Projects |     co326     | 
 | Image Processing                      |     co543     | 
 
-<br/>
+
 
     
 
