@@ -25,7 +25,7 @@ search_exclude: true
     </li>
 </ul>
 
-<h4 class="pt-3">Developers</h4>
+<h4 class="pt-3">Developers / Maintainers</h4>
 <ul>
     <li>
         Nuwan Jaliyagoda
