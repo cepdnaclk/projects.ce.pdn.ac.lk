@@ -37,7 +37,7 @@ search_exclude: true
 
 Naming format of a project repository
 
-- eXX-CATEGORYTAG_TITLE
+- eXX-CATEGORYTAG-TITLE
 
 CATEGORYTAG assigned as follows,
 <style>
