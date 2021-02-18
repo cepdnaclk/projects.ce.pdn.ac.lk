@@ -82,7 +82,7 @@ td, th {
     <td>co543</td>
   </tr>
 </table>
-</html>
+
 <br/>
 
 ### Enable GitHub Pages
