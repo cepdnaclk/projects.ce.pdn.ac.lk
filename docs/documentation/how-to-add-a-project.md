@@ -38,6 +38,7 @@ Naming format of a project repository
 - eXX-CATEGORYTAG_TITLE
 
 CATEGORYTAG assigned as follows,
+<html>
 <style>
 table {
   font-family: arial, sans-serif;
@@ -81,7 +82,7 @@ td, th {
     <td>co543</td>
   </tr>
 </table>
-
+</html>
 <br/>
 
 ### Enable GitHub Pages
