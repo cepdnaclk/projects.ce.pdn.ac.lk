@@ -14,7 +14,7 @@ search_exclude: true
 
 
 
-[![Instruction video](http://img.youtube.com/vi/hegEmohtppw/0.jpg)](http://www.youtube.com/watch?v=hegEmohtppw "")
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/hegEmohtppw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -29,7 +29,7 @@ search_exclude: true
 - Final  Year Project Template
     - https://github.com/cepdnaclk/eYY-4yp-project-template
 
-<br/>
+
 
 ### Naming Convention
 
