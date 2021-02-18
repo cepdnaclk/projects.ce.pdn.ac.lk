@@ -92,7 +92,7 @@ You can put the things to be shown in GitHub pages into the _docs/_ folder. Both
 
 ### Special Configurations
 
-These projects will be automatically added into [https://projects.ce.pdn.ac.lk](). If you like to show more details about your project on this site, you can fill the parameters in the file, _/docs/index.json_
+These projects will be automatically added into [https://projects.ce.pdn.ac.lk](). If you like to show more details about your project on this site, you can fill the parameters in the file, _/docs/index.json_ (Note: Different templates may have different sets of parameters, as requested by the course coordinators)
 
 ```
 {
