@@ -38,18 +38,38 @@ Naming format of a project repository
 - eXX-CATEGORYTAG_TITLE
 
 CATEGORYTAG assigned as follows,
-|  Project Categories                   |      Tag    
-|---------------------------------------|:-------------:|
-|   Final Year Project                  |      4yp      |
-| Embedded Systems Project              |      3yp      | 
-| Software Engineering Project          |     co328     | 
-| Database Projects                     |     co226     |  
-| Computer Systems Engineering Projects |     co326     | 
-| Image Processing                      |     co543     | 
+<table>
+  <tr>
+    <th>Project Categories</th>
+    <th>Tag</th>
+  </tr>
+  <tr>
+    <td>Final Year Project</td>
+    <td>4yp</td>
+  </tr>
+  <tr>
+    <td>Embedded Systems Project</td>
+    <td>3yp</td>
+  </tr>
+  <tr>
+    <td>Software Engineering Project</td>
+    <td>co328</td>
+  </tr>
+  <tr>
+    <td>Database Projects</td>
+    <td>co226</td>
+  </tr>
+  <tr>
+    <td>Computer Systems Engineering Projects</td>
+    <td>co326</td>
+  </tr>
+  <tr>
+    <td>Image Processing</td>
+    <td>co543</td>
+  </tr>
+</table>
 
-
-
-    
+<br/>
 
 ### Enable GitHub Pages
 
