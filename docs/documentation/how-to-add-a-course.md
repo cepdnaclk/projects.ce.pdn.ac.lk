@@ -11,4 +11,8 @@ search_exclude: true
 
 ## How to add a Course ?
 
-This page is under construction. Please come back later.
+To add a course please contact us at 
+- [https://projects.ce.pdn.ac.lk/contact]()
+
+To change course details please make relevent changes at 
+- [https://docs.google.com/document/d/1qTtPf435akdtMPCJRqf3OPl48-VUkS6ffnjEK_NpbiQ/edit]()
