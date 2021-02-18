@@ -21,13 +21,15 @@ search_exclude: true
 ### Templates 
 
 - General Template
-    - https://github.com/cepdnaclk/eYY-XXX-project-template
+    - [https://github.com/cepdnaclk/eYY-XXX-project-template]()
 
 - Embedded Systems Project Template
-    - https://github.com/cepdnaclk/eYY-3yp-project-template
+    -  [https://github.com/cepdnaclk/eYY-3yp-project-template]()
+
 
 - Final  Year Project Template
-    - https://github.com/cepdnaclk/eYY-4yp-project-template
+    -  [https://github.com/cepdnaclk/eYY-4yp-project-template]()
+
 
 
 
