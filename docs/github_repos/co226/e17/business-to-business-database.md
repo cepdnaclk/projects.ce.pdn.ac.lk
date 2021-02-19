@@ -2,7 +2,7 @@
 layout: project_page
 title: Business To Business Database
 permalink: /co226/e17/business-to-business-database
-description: "Minima is a one-size-fits-all Jekyll theme for writers."
+description: "CO226 Project - Relational Database for B2B Online Trade Community - by: @Isuri-Devindi, @KavinduJayas, @Dr-Madhushan"
 
 has_children: false
 parent: E17 Database Projects (CO226)
@@ -12,12 +12,12 @@ cover_url: /data/categories/co226/cover_page.jpg
 thumbnail_url: /data/categories/co226/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e17-co226-business-to-business-database
-page_url: https://cepdnaclk.github.io/e17-co226-business-to-business-database
+page_url: blank
 
 forks: 0
 watchers: 0
 stars: 0
-started_on: 2020-11-17T18:45:30Z
+started_on: 2021-02-07T06:37:31Z
 ---
-Minima is a one-size-fits-all Jekyll theme for writers.
+CO226 Project - Relational Database for B2B Online Trade Community - by: @Isuri-Devindi, @KavinduJayas, @Dr-Madhushan
 

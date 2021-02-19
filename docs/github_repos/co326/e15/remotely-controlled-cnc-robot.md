@@ -2,7 +2,7 @@
 layout: project_page
 title: Remotely Controlled Cnc Robot
 permalink: /co326/e15/remotely-controlled-cnc-robot
-description: "A project of third year students developing a smart door lock for the entrance."
+description: "In this project, we hope to develop a CNC (Computer Numerical Control) based pick and place arm, which will help to try different wiring arrangements in a PLC rig and try experiments on it remotely."
 
 has_children: false
 parent: E15 Computer Systems Engineering Projects (CO326)
@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e15-co326-remotely-controlled-cnc-robot
 forks: 0
 watchers: 0
 stars: 0
-started_on: 2020-10-17T06:59:56Z
+started_on: 2020-10-20T06:21:59Z
 ---
-A project of third year students developing a smart door lock for the entrance.
+In this project, we hope to develop a CNC (Computer Numerical Control) based pick and place arm, which will help to try different wiring arrangements in a PLC rig and try experiments on it remotely.
 

@@ -247,8 +247,8 @@ if __name__ == "__main__":
                     title = ' '.join(repoName[2:]).split()
 
                     capitalized = title[0].capitalize()
-                    for i in range(1,len(title)):
-                        word = title[i]
+                    for ii in range(1,len(title)):
+                        word = title[ii]
                         if word not in LOWERCASE:
                             capitalized = capitalized + " "+ word.capitalize()
                         else:
