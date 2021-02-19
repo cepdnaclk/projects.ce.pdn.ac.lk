@@ -12,8 +12,19 @@ import os
 from datetime import datetime
 import re, json
 import base64
+import shutil
 
 CATEGORIES={}
+BATCHES = {}
+# url = 'https://api.github.com/repos/cepdnaclk/projects/git/blobs/2166c8eba0801b62b539a23576a7b6fc46e7f4f7'
+# resp = requests.get(url)
+# #print(resp)
+# data = json.loads(resp.text)
+# #print(data)
+# #print(data['content'])
+#
+# message_bytes = base64.b64decode(data['content'])
+# message = json.loads(message_bytes.decode('ascii'))
 
 url = 'data/categories/index.json'
 with open(url, 'r') as f:
@@ -23,15 +34,19 @@ with open(url, 'r') as f:
 
 for i in message:
     CATEGORIES[message[i]['link']] = message[i]['name']
+    BATCHES[message[i]['link']] = set()
+    #print(message[i]['link'])
 
 print(CATEGORIES)
 
 ORGANIZATION = "cepdnaclk"
 PROJECTS = []
-LOWERCASE = ['a','and','of','for','the','as','at','by','on','per','to','up','via','with','from']
 
-MIN = 100
-MAX = 0
+LOWERCASE = ['a','and','of','for','the','as','at','by','on','per','to','up','via','with','from']
+START_BATCH = 10
+END_BATCH = 16
+FIRST_YEAR = 2
+FINAL_YEAR = 4
 
 def urlOrganization():
     return "https://api.github.com/orgs/{}".format(ORGANIZATION)
@@ -80,7 +95,7 @@ started_on: """+date+"""
     return s
 
 
-def index_template(batch,tag,project,description):
+def batch_index_template(batch,tag,project,description):
     template = """---
 layout: project_batch
 title: E"""+batch+""" """+project+"""
@@ -94,24 +109,84 @@ description: """+description
 
     return template
 
-def md_batch_file_write(CATEGORIES,MIN,MAX):
-    print(MIN, MAX)
+def index_template(code,title,cover,thumbnail,ty,description,contact):
+    template = """---
+layout: project_cat
+title: """+title+"""
+nav_order: 3
+permalink: /"""+code+"""/
+has_children: true
+num_projects: #
+parent: Home
+has_toc: true
+default_thumb_image: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+code+"""/"""+thumbnail+"""
+description: """+description+"""
+---"""
+
+    return template
+
+def md_file_write(CATEGORIES,BATCHES):
 
     for i in CATEGORIES:
         index = open("docs/categories/"+str(i).rjust(2, '0')+"/index.md",'r')
         index_data = index.read()
-        print(i)
 
-        for batch in range(MIN,MAX+1):
-            filename = 'e'+str(batch)
+
+
+        for batch in BATCHES[i]:
+            batch_str = str(batch)
+            if batch < 10:
+                batch_str= '0'+batch_str
+            filename = 'e'+batch_str
+
             path = "docs/categories/"+str(i)+"/"+filename+".md"
             os.makedirs(os.path.dirname(path), exist_ok=True)
             outputFile = open(path, "w+")
-            outputFile.write(index_template(str(batch),str(i),CATEGORIES[i],index_data.split("description: ",1)[1]))
+            outputFile.write(batch_index_template(batch_str,str(i),CATEGORIES[i],index_data.split("description: ",1)[1]))
+
+def index_files(CATEGORIES):
+    for i in CATEGORIES:
+        index = open("data/categories/"+str(i)+"/index.json",'r')
+        index_data = index.read()
+        data = json.loads(index_data)
+
+        code =  data['code']
+        title = data['title']
+        cover = data['images']['cover']
+        thumbnail = data['images']['thumbnail']
+        ty = data['type']
+        description = data['description']
+        contact = data['contact']
+
+        path = "docs/categories/"+str(i)+"/index.md"
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        outputFile = open(path, "w+")
+        outputFile.write(index_template(code,title,cover,thumbnail,ty,description,contact))
+
+def del_docs_categories():
+
+    dir_path = "docs/categories/"
+
+    try:
+        shutil.rmtree(dir_path)
+    except OSError as e:
+        print("Error: %s : %s" % (dir_path, e.strerror))
+
+
+def del_docs_github_repos():
+
+    dir_path = "docs/github_repos/"
+
+    try:
+        shutil.rmtree(dir_path)
+    except OSError as e:
+        print("Error: %s : %s" % (dir_path, e.strerror))
 
 if __name__ == "__main__":
     print("START")
     URL = urlOrganization()
+    del_docs_categories()
+    del_docs_github_repos()
 
     # TODO:
     # Delete the files on docs/github_repos/
@@ -120,7 +195,6 @@ if __name__ == "__main__":
     j = r.json()
 
     for p in range(1, 1000):
-
         r = requests.get(url=urlOrganizationRepos(p))
         jsonData = r.json()
 
@@ -140,13 +214,9 @@ if __name__ == "__main__":
                     # else:
                     #     year = int(repoName[1][:1])
 
-                    batch = int(repoName[0][1:])
+                    BATCHES[repoName[1]].add(batch)
 
-                    if(batch<MIN):
-                        MIN = batch
-                    if(batch>MAX):
-                        MAX = batch
-
+                    #if inRange(batch, START_BATCH, END_BATCH) and nRange(year, FIRST_YEAR, FINAL_YEAR):
                     filename = '-'.join(repoName[2:])
 
                     path = "docs/github_repos/"+repoName[1]+"/" + repoName[0]+"/"+filename+".md"
@@ -193,5 +263,9 @@ if __name__ == "__main__":
                     # print('category not found:', jsonData[i]["name"])
 
     md_batch_file_write(CATEGORIES,MIN,MAX)
+
+        print(BATCHES)
+        index_files(CATEGORIES)
+        md_file_write(CATEGORIES,BATCHES)
 
 print("END")
