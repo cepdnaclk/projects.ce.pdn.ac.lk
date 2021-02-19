@@ -125,8 +125,11 @@ def md_file_write(CATEGORIES,BATCHES):
 
 
         for batch in BATCHES[i]:
-
-            filename = 'e'+str(batch)
+            if batch < 10:
+                filename = 'e0'+str(batch)
+            else:
+                filename = 'e'+str(batch)
+                
             path = "docs/categories/"+str(i)+"/"+filename+".md"
  
 
