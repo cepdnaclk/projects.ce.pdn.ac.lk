@@ -125,17 +125,17 @@ def md_file_write(CATEGORIES,BATCHES):
 
 
         for batch in BATCHES[i]:
+            batch_str = str(batch)
             if batch < 10:
-                filename = 'e0'+str(batch)
-            else:
-                filename = 'e'+str(batch)
-                
+                batch_str= '0'+batch_str
+            filename = 'e'+batch_str
+
             path = "docs/categories/"+str(i)+"/"+filename+".md"
  
 
             os.makedirs(os.path.dirname(path), exist_ok=True)
             outputFile = open(path, "w+")
-            outputFile.write(index_template(str(batch),str(i),CATEGORIES[i],index_data.split("description: ",1)[1]))
+            outputFile.write(index_template(batch_str,str(i),CATEGORIES[i],index_data.split("description: ",1)[1]))
 
 
 if __name__ == "__main__":
