@@ -5,77 +5,83 @@ layout: table_wrappers
 <!DOCTYPE html>
 
 <html lang="{{ site.lang | default: 'en-US' }}">
-{% include head.html %}
-<body>
+  {% include head.html %}
+  <body>
     <div id="app">
-        {% include project_navbar.html %}
-        {% include page_tree_builder.html pages=site.html_pages %}
+      {% include project_navbar.html %} {% include page_tree_builder.html
+      pages=site.html_pages %}
 
-        <main class="py-1 p-1">
-            <div class="container-fluid py-2 px-5">
-                <div class="row">
-                    <nav aria-label="breadcrumb" class="w-100 mt-2">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="../../">Home</a></li>
-                            <li class="breadcrumb-item"><a href="../">{{ page.parent }}</a></li>
-                            <li class="breadcrumb-item"><span>{{ page.title | slice:0,3 }}</span></li>
-                        </ol>
-                    </nav>
-                </div>
+      <main class="py-1 p-1">
+        <div class="container-fluid py-2 px-5">
+          <div class="row">
+            <nav aria-label="breadcrumb" class="w-100 mt-2">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../">Home</a></li>
+                <li class="breadcrumb-item">
+                  <a href="../">{{ page.parent }}</a>
+                </li>
+                <li class="breadcrumb-item">
+                  <span>{{ page.title | slice:0,3 }}</span>
+                </li>
+              </ol>
+            </nav>
+          </div>
 
-                <div class="row">
-                    <div class="col-md-3" style="min-height: 60vh;">
-                        <h3>{{ page.title }}</h3>
+          <div class="row">
+            <div class="col-md-3" style="min-height: 60vh;">
+              <h3>{{ page.title }}</h3>
 
-                        <p>{{ page.description }}</p>
-                        <hr>
-                        <div class="p-1 d-none">
-                            Filter Projects by:
-                            <ul class="list-group">
-
-                            </ul>
-                        </div>
-                        <br><br>
-                    </div>
-
-                    <div class="col-md-9">
-
-                        {% if page.has_children == true and page.has_toc != false %}
-                        {%- assign children_list = pages_list | where: "parent", page.title | where: "grand_parent", page.parent -%}
-
-                        {%- assign proj_list = children_list | sort: "title" -%}
-
-                        <div class="container p-0 mw-100">
-                            <div class="row">
-                                {% for child in proj_list %}
-
-                                <div class="col-lg-3 col-md-6 col-sm-6 d-flex m-0" style="padding: 10px 0;">
-                                    <a class="btn m-0" href="{{ child.url | absolute_url }}">
-                                        <div class="card h-100 m-0">
-                                            <img class="card-img-top" src="{{ page.default_thumb_image | realtive_url }}" alt="">
-                                            <div class="card-body p-1 m-0">
-                                                <p class="card-title project-card-title">
-                                                    {{ child.title }}
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                {% endfor %}
-                            </div>
-                        </div>
-                        {% endif %}
-
-                        <hr>
-                        {{ content }}
-                    </div>
-                </div>
-
+              <p>{{ page.description }}</p>
+              <hr />
+              <div class="p-1 d-none">
+                Filter Projects by:
+                <ul class="list-group"></ul>
+              </div>
+              <br /><br />
             </div>
 
-        </main>
+            <div class="col-md-9">
+              {% if page.has_children == true and page.has_toc != false %} {%-
+              assign children_list = pages_list | where: "parent", page.title |
+              where: "grand_parent", page.parent -%} {%- assign proj_list =
+              children_list | sort: "title" -%}
 
-        {% include footer.html %}
+              <div class="container p-0 mw-100">
+                <div class="row">
+                  {% for child in proj_list %}
+
+                  <div
+                    class="col-lg-3 col-md-6 col-sm-6 d-flex m-0"
+                    style="padding: 10px 0;"
+                  >
+                    <a class="btn m-0" href="{{ child.url | realtive_url }}">
+                      <div class="card h-100 m-0">
+                        <img
+                          class="card-img-top"
+                          src="{{ page.default_thumb_image | realtive_url }}"
+                          alt=""
+                        />
+                        <div class="card-body p-1 m-0">
+                          <p class="card-title project-card-title">
+                            {{ child.title }}
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+              {% endif %}
+
+              <hr />
+              {{ content }}
+            </div>
+          </div>
+        </div>
+      </main>
+
+      {% include footer.html %}
     </div>
-</body>
+  </body>
 </html>

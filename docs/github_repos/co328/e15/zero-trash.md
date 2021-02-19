@@ -8,8 +8,8 @@ has_children: false
 parent: E15 Software Engineering Projects (CO328)
 grand_parent: Software Engineering Projects (CO328)
 
-cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/co328/cover_page.jpg
-thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/co328/thumbnail.jpg
+cover_url: /data/categories/co328/cover_page.jpg
+thumbnail_url: /data/categories/co328/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e15-co328-zero-trash
 page_url: https://cepdnaclk.github.io/e15-co328-zero-trash

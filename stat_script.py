@@ -87,8 +87,8 @@ has_children: false
 parent: """+batch.upper()+ " " + grand_parent + """
 grand_parent: """+grand_parent+"""
 
-cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+category+"""/cover_page.jpg
-thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+category+"""/thumbnail.jpg
+cover_url: /data/categories/"""+category+"""/cover_page.jpg
+thumbnail_url: /data/categories/"""+category+"""/thumbnail.jpg
 
 repo_url: """+repo+"""
 page_url: """+page+"""
@@ -113,7 +113,7 @@ has_children: true
 parent: """+project+"""
 batch: e"""+batch+"""
 
-default_thumb_image: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+tag+"""/thumbnail.jpg
+default_thumb_image: /data/categories/"""+tag+"""/thumbnail.jpg
 description: """+description
 
     return template
@@ -128,7 +128,7 @@ has_children: true
 num_projects: #
 parent: Home
 has_toc: true
-default_thumb_image: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+code+"""/"""+thumbnail+"""
+default_thumb_image: /data/categories/"""+code+"""/"""+thumbnail+"""
 description: """+description+"""
 ---"""
 
