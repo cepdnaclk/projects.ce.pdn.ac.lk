@@ -12,6 +12,7 @@ import os
 from datetime import datetime
 import re, json
 import base64
+import shutil
 
 
 CATEGORIES={}
@@ -103,7 +104,7 @@ started_on: """+date+"""
     return s
 
 
-def index_template(batch,tag,project,description):
+def batch_index_template(batch,tag,project,description):
     template = """---
 layout: project_batch
 title: E"""+batch+""" """+project+"""
@@ -117,11 +118,28 @@ description: """+description
 
     return template
 
+def index_template(code,title,cover,thumbnail,ty,description,contact):
+    template = """---
+layout: project_cat
+title: """+title+"""
+nav_order: 3
+permalink: /"""+code+"""/
+has_children: true
+num_projects: #
+parent: Home
+has_toc: true
+default_thumb_image: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+code+"""/"""+thumbnail+"""
+description: """+description+"""
+---"""
+
+    return template
+
 def md_file_write(CATEGORIES,BATCHES):
 
     for i in CATEGORIES:
         index = open("docs/categories/"+str(i)+"/index.md",'r')
         index_data = index.read()
+        
 
 
         for batch in BATCHES[i]:
@@ -135,11 +153,39 @@ def md_file_write(CATEGORIES,BATCHES):
 
             os.makedirs(os.path.dirname(path), exist_ok=True)
             outputFile = open(path, "w+")
-            outputFile.write(index_template(batch_str,str(i),CATEGORIES[i],index_data.split("description: ",1)[1]))
+            outputFile.write(batch_index_template(batch_str,str(i),CATEGORIES[i],index_data.split("description: ",1)[1]))
+
+def index_files(CATEGORIES):
+    for i in CATEGORIES:
+        index = open("data/categories/"+str(i)+"/index.json",'r')
+        index_data = index.read()
+        data = json.loads(index_data)
+
+        code =  data['code']
+        title = data['title']
+        cover = data['images']['cover']
+        thumbnail = data['images']['thumbnail']
+        ty = data['type']
+        description = data['description']
+        contact = data['contact']
+
+        path = "docs/categories/"+str(i)+"/index.md"
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        outputFile = open(path, "w+")
+        outputFile.write(index_template(code,title,cover,thumbnail,ty,description,contact))
+
+def del_docs_categories():
+    
+    dir_path = "docs/categories/"
+
+    try:
+        shutil.rmtree(dir_path)
+    except OSError as e:
+        print("Error: %s : %s" % (dir_path, e.strerror))
 
 
 if __name__ == "__main__":
-    print("START")
+    print("START")   
     URL = urlOrganization()
 
     # TODO: 
@@ -229,8 +275,9 @@ if __name__ == "__main__":
 
 
         print(BATCHES)
+        del_docs_categories()
+        index_files(CATEGORIES)
         md_file_write(CATEGORIES,BATCHES)
 
 
-                    
 print("END")
