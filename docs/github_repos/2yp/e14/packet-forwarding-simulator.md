@@ -2,22 +2,22 @@
 layout: project_page
 title: Packet Forwarding Simulator
 permalink: /2yp/e14/packet-forwarding-simulator
-description: "Packet forwarding network simulator"
+description: ""
 
 has_children: false
-parent: E14 Computer Engineering Projects
-grand_parent: Computer Engineering Projects
+parent: E14 Computer Engineering Projects (CO227)
+grand_parent: Computer Engineering Projects (CO227)
 
 cover_url: /data/categories/2yp/cover_page.jpg
 thumbnail_url: /data/categories/2yp/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e14-2yp-packet-forwarding-simulator
-page_url: blank
+page_url: https://cepdnaclk.github.io/e14-2yp-packet-forwarding-simulator
 
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
-started_on: 2020-11-09T07:48:00Z
+started_on: 2020-10-17T06:48:34Z
 ---
-Packet forwarding network simulator
+
 

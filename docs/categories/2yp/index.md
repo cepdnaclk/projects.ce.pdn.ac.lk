@@ -1,6 +1,6 @@
 ---
 layout: project_cat
-title: Computer Engineering Projects
+title: Computer Engineering Projects (CO227)
 nav_order: 3
 permalink: /2yp/
 has_children: true

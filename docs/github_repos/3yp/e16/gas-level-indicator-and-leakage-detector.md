@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Gas Level Indicator and Leakage Detector
+title: Gas Level Indicator And Leakage Detector
 permalink: /3yp/e16/gas-level-indicator-and-leakage-detector
 description: "A system for LP gas users and distributors"
 

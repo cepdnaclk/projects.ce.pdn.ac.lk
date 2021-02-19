@@ -2,7 +2,7 @@
 layout: project_page
 title: Automatic Fish Tank Control System
 permalink: /3yp/e16/automatic-fish-tank-control-system
-description: "This is a third-year project by a group of students. Here we are developing a fish tank controlling device with a web app."
+description: "Smart Chess Platform"
 
 has_children: false
 parent: E16 Embedded Systems Projects
@@ -14,10 +14,10 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-3yp-automatic-fish-tank-control-system
 page_url: https://cepdnaclk.github.io/e16-3yp-automatic-fish-tank-control-system
 
-forks: 3
-watchers: 0
-stars: 0
-started_on: 2020-10-17T05:41:17Z
+forks: 5
+watchers: 1
+stars: 1
+started_on: 2020-10-17T07:37:38Z
 ---
-This is a third-year project by a group of students. Here we are developing a fish tank controlling device with a web app.
+Smart Chess Platform
 

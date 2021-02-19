@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: F5n_server
+title: F5N_Server
 permalink: /4yp/e14/f5n_server
 description: "This is a job server to distribute and keep track of f5n pipeline jobs to connected f5n clients"
 

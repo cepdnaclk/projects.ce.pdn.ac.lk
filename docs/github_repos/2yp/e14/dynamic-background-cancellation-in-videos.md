@@ -2,11 +2,11 @@
 layout: project_page
 title: Dynamic Background Cancellation In Videos
 permalink: /2yp/e14/dynamic-background-cancellation-in-videos
-description: "Foreground estimation in dynamic background conditions using unsupervised learning techniques."
+description: "Smart Chess Platform"
 
 has_children: false
-parent: E14 Computer Engineering Projects
-grand_parent: Computer Engineering Projects
+parent: E14 Computer Engineering Projects (CO227)
+grand_parent: Computer Engineering Projects (CO227)
 
 cover_url: /data/categories/2yp/cover_page.jpg
 thumbnail_url: /data/categories/2yp/thumbnail.jpg
@@ -14,10 +14,10 @@ thumbnail_url: /data/categories/2yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e14-2yp-dynamic-background-cancellation-in-videos
 page_url: https://cepdnaclk.github.io/e14-2yp-dynamic-background-cancellation-in-videos
 
-forks: 0
-watchers: 0
-stars: 0
-started_on: 2020-10-25T04:48:54Z
+forks: 5
+watchers: 1
+stars: 1
+started_on: 2020-10-17T07:37:38Z
 ---
-Foreground estimation in dynamic background conditions using unsupervised learning techniques.
+Smart Chess Platform
 
