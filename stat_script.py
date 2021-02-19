@@ -184,9 +184,21 @@ def del_docs_categories():
         print("Error: %s : %s" % (dir_path, e.strerror))
 
 
+def del_docs_github_repos():
+    
+    dir_path = "docs/github_repos/"
+
+    try:
+        shutil.rmtree(dir_path)
+    except OSError as e:
+        print("Error: %s : %s" % (dir_path, e.strerror))
+
+
 if __name__ == "__main__":
     print("START")   
     URL = urlOrganization()
+    del_docs_categories()
+    del_docs_github_repos()
 
     # TODO: 
     # Delete the files on docs/github_repos/
@@ -197,7 +209,6 @@ if __name__ == "__main__":
     # print("\n\n\n\n")
 
     for p in range(1, 1000):
-
         r = requests.get(url=urlOrganizationRepos(p))
         jsonData = r.json()
         # print(urlOrganizationRepos(p))
@@ -275,9 +286,7 @@ if __name__ == "__main__":
 
 
         print(BATCHES)
-        del_docs_categories()
         index_files(CATEGORIES)
         md_file_write(CATEGORIES,BATCHES)
-
 
 print("END")
