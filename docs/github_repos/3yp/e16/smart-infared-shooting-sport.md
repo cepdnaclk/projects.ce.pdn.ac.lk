@@ -2,7 +2,7 @@
 layout: project_page
 title: Smart Infared Shooting Sport
 permalink: /3yp/e16/smart-infared-shooting-sport
-description: "A project of third year students developing a smart door lock for the entrance."
+description: ""
 
 has_children: false
 parent: E16 Embedded Systems Projects
@@ -14,10 +14,10 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-3yp-smart-infared-shooting-sport
 page_url: https://cepdnaclk.github.io/e16-3yp-smart-infared-shooting-sport
 
-forks: 0
+forks: 3
 watchers: 0
 stars: 0
-started_on: 2020-10-17T06:59:56Z
+started_on: 2020-10-19T06:16:06Z
 ---
-A project of third year students developing a smart door lock for the entrance.
+
 
