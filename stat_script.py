@@ -108,7 +108,7 @@ def batch_index_template(batch,tag,project,description):
     template = """---
 layout: project_batch
 title: E"""+batch+""" """+project+"""
-permalink: /"""+tag+"""/e"""+batch+"""
+permalink: /"""+tag+"""/e"""+batch+"""/
 has_children: true
 parent: """+project+"""
 batch: e"""+batch+"""
