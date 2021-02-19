@@ -1,7 +1,7 @@
 ---
 layout: project_cat
 title: Embedded Systems Projects
-nav_order: 3
+nav_order: 2
 permalink: /3yp/
 has_children: true
 num_projects: #

@@ -5,11 +5,11 @@ permalink: /2yp/e14/packet-forwarding-simulator
 description: ""
 
 has_children: false
-parent: E14 Computer Engineering Projects
-grand_parent: Computer Engineering Projects
+parent: E14 Computer Engineering Projects (CO227)
+grand_parent: Computer Engineering Projects (CO227)
 
-cover_url: /data/categories/2yp/cover_page.jpg
-thumbnail_url: /data/categories/2yp/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/2yp/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/2yp/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e14-2yp-packet-forwarding-simulator
 page_url: https://cepdnaclk.github.io/e14-2yp-packet-forwarding-simulator

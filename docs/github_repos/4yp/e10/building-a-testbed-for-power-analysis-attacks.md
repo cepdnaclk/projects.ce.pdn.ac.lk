@@ -8,8 +8,8 @@ has_children: false
 parent: E10 Final Year Projects
 grand_parent: Final Year Projects
 
-cover_url: /data/categories/4yp/cover_page.jpg
-thumbnail_url: /data/categories/4yp/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e10-4yp-building-a-testbed-for-power-analysis-attacks
 page_url: https://cepdnaclk.github.io/e10-4yp-building-a-testbed-for-power-analysis-attacks

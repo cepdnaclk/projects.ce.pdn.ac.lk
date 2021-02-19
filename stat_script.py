@@ -14,6 +14,7 @@ import re, json
 import base64
 import shutil
 
+
 CATEGORIES={}
 BATCHES = {}
 # url = 'https://api.github.com/repos/cepdnaclk/projects/git/blobs/2166c8eba0801b62b539a23576a7b6fc46e7f4f7'
@@ -42,7 +43,7 @@ print(CATEGORIES)
 ORGANIZATION = "cepdnaclk"
 PROJECTS = []
 
-LOWERCASE = ['a','and','of','for','the','as','at','by','on','per','to','up','via','with','from']
+LOWERCASE = ['a','and','of','for']
 START_BATCH = 10
 END_BATCH = 16
 FIRST_YEAR = 2
@@ -56,15 +57,23 @@ def urlOrganizationRepos(pageNo):
     return "https://api.github.com/orgs/{}/repos?page={}".format(ORGANIZATION, pageNo)
 
 
-# def inRange(x, minNumber, maxNumber):
-#     if type(x) == str:
-#         x = int(x)
-#     if minNumber > maxNumber:
-#         minNumber, maxNumber = maxNumber, minNumber
-#     if minNumber <= x and maxNumber >= x:
-#         return True
-#     else:
-#         return False
+def initialize():
+    for batch in range(START_BATCH, END_BATCH+1):
+        temp = []
+        for year in range(FIRST_YEAR, FINAL_YEAR+1):
+            temp.append([])
+        PROJECTS.append(temp)
+
+
+def inRange(x, minNumber, maxNumber):
+    if type(x) == str:
+        x = int(x)
+    if minNumber > maxNumber:
+        minNumber, maxNumber = maxNumber, minNumber
+    if minNumber <= x and maxNumber >= x:
+        return True
+    else:
+        return False
 
 
 def writeHeader(category,batch,grand_parent,permalink,title,description,stars,forks,watch,date,repo,page):
@@ -78,8 +87,8 @@ has_children: false
 parent: """+batch.upper()+ " " + grand_parent + """
 grand_parent: """+grand_parent+"""
 
-cover_url: /data/categories/"""+category+"""/cover_page.jpg
-thumbnail_url: /data/categories/"""+category+"""/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+category+"""/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+category+"""/thumbnail.jpg
 
 repo_url: """+repo+"""
 page_url: """+page+"""
@@ -102,18 +111,18 @@ title: E"""+batch+""" """+project+"""
 permalink: /"""+tag+"""/e"""+batch+"""
 has_children: true
 parent: """+project+"""
-batch: e"""+batch.rjust(2, '0')+"""
+batch: e"""+batch+"""
 
-default_thumb_image: /data/categories/"""+tag+"""/thumbnail.jpg
+default_thumb_image: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+tag+"""/thumbnail.jpg
 description: """+description
 
     return template
 
-def index_template(code,title,cover,thumbnail,ty,description,contact):
+def index_template(id, code,title,cover,thumbnail,ty,description,contact):
     template = """---
 layout: project_cat
 title: """+title+"""
-nav_order: 3
+nav_order: """+str(id)+"""
 permalink: /"""+code+"""/
 has_children: true
 num_projects: #
@@ -128,10 +137,8 @@ description: """+description+"""
 def md_file_write(CATEGORIES,BATCHES):
 
     for i in CATEGORIES:
-        index = open("docs/categories/"+str(i).rjust(2, '0')+"/index.md",'r')
+        index = open("docs/categories/"+str(i)+"/index.md",'r')
         index_data = index.read()
-
-
 
         for batch in BATCHES[i]:
             batch_str = str(batch)
@@ -140,11 +147,14 @@ def md_file_write(CATEGORIES,BATCHES):
             filename = 'e'+batch_str
 
             path = "docs/categories/"+str(i)+"/"+filename+".md"
+
+
             os.makedirs(os.path.dirname(path), exist_ok=True)
             outputFile = open(path, "w+")
             outputFile.write(batch_index_template(batch_str,str(i),CATEGORIES[i],index_data.split("description: ",1)[1]))
 
 def index_files(CATEGORIES):
+    id=0
     for i in CATEGORIES:
         index = open("data/categories/"+str(i)+"/index.json",'r')
         index_data = index.read()
@@ -161,7 +171,8 @@ def index_files(CATEGORIES):
         path = "docs/categories/"+str(i)+"/index.md"
         os.makedirs(os.path.dirname(path), exist_ok=True)
         outputFile = open(path, "w+")
-        outputFile.write(index_template(code,title,cover,thumbnail,ty,description,contact))
+        id += 1
+        outputFile.write(index_template(id,code,title,cover,thumbnail,ty,description,contact))
 
 def del_docs_categories():
 
@@ -182,6 +193,7 @@ def del_docs_github_repos():
     except OSError as e:
         print("Error: %s : %s" % (dir_path, e.strerror))
 
+
 if __name__ == "__main__":
     print("START")
     URL = urlOrganization()
@@ -193,10 +205,17 @@ if __name__ == "__main__":
 
     r = requests.get(url=URL)
     j = r.json()
+    # print(j)
+    # print("\n\n\n\n")
 
     for p in range(1, 1000):
         r = requests.get(url=urlOrganizationRepos(p))
         jsonData = r.json()
+        # print(urlOrganizationRepos(p))
+        # sleep(60)
+
+        # print(p, jsonData)
+        # print("\n\n\n")
 
         if len(jsonData) == 0:
             break
@@ -205,21 +224,25 @@ if __name__ == "__main__":
         for i in range(len(jsonData)):
             # print(jsonData[i]["name"])
             repoName = jsonData[i]["name"].strip().split("-")
-
             if repoName[0][0] == "e" and repoName[0][1:] != 'YY':
+                #if repoName[1][1:] == "yp" and repoName[1][:1] != 'f':
                 if repoName[1] in CATEGORIES:
-                    # print(repoName)
-                    # if(repoName[1][:1]=='c'):
-                    #     year = int(repoName[1][2])
-                    # else:
-                    #     year = int(repoName[1][:1])
+                    print(repoName)
+                    if(repoName[1][:1]=='c'):
+                        year = int(repoName[1][2])
+                    else:
+                        year = int(repoName[1][:1])
+                    batch = int(repoName[0][1:])
 
                     BATCHES[repoName[1]].add(batch)
 
                     #if inRange(batch, START_BATCH, END_BATCH) and nRange(year, FIRST_YEAR, FINAL_YEAR):
                     filename = '-'.join(repoName[2:])
 
+                        # TODO: update URLs
+                        # /3yp/e15
                     path = "docs/github_repos/"+repoName[1]+"/" + repoName[0]+"/"+filename+".md"
+                        #path = "docs/uncategorized/"+filename+".md"
                     title = []
                     title = ' '.join(repoName[2:]).split()
 
@@ -257,12 +280,10 @@ if __name__ == "__main__":
                     else:
                         grand_parent = 'xxx'
 
+                        # TODO: update other parameters on header
+                        # writeHeader(category, batch, grand_parent, permalink, title,stars,forks,watch,date)
                     outputFile.write(writeHeader(repoName[1],repoName[0],grand_parent,permalink,capitalized,desc,stars,forks,watch,date,repo,page))
 
-                else:
-                    # print('category not found:', jsonData[i]["name"])
-
-    md_batch_file_write(CATEGORIES,MIN,MAX)
 
         print(BATCHES)
         index_files(CATEGORIES)

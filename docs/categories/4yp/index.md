@@ -1,7 +1,7 @@
 ---
 layout: project_cat
 title: Final Year Projects
-nav_order: 3
+nav_order: 1
 permalink: /4yp/
 has_children: true
 num_projects: #

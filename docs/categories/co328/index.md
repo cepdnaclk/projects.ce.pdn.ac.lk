@@ -1,7 +1,7 @@
 ---
 layout: project_cat
-title: Software Engineering Projects
-nav_order: 3
+title: Software Engineering Projects (CO328)
+nav_order: 6
 permalink: /co328/
 has_children: true
 num_projects: #
