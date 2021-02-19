@@ -197,7 +197,7 @@ def del_docs_github_repos():
 if __name__ == "__main__":
     print("START")
     URL = urlOrganization()
-    del_docs_categories()
+    # del_docs_categories()
     del_docs_github_repos()
 
     # TODO:
