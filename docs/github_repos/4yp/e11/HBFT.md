@@ -8,8 +8,8 @@ has_children: false
 parent: E11 Final Year Projects
 grand_parent: Final Year Projects
 
-cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
-thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg
+cover_url: /data/categories/4yp/cover_page.jpg
+thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e11-4yp-HBFT
 page_url: blank

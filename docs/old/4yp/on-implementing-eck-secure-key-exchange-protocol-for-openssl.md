@@ -8,7 +8,7 @@ parent: E12 Final Year Projects
 grand_parent: Final Year Projects
 
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
-thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg
+thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
 tags: [	Computer and Network Security ]
 team: [ Seralahthan Vivekaananthan, Nishen Peiris, Chamith Shanaka ]

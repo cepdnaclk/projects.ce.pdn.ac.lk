@@ -87,8 +87,8 @@ has_children: false
 parent: """+batch.upper()+ " " + grand_parent + """
 grand_parent: """+grand_parent+"""
 
-cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+category+"""/cover_page.jpg
-thumbnail_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+category+"""/thumbnail.jpg
+cover_url: /data/categories/"""+category+"""/cover_page.jpg
+thumbnail_url: /data/categories/"""+category+"""/thumbnail.jpg
 
 repo_url: """+repo+"""
 page_url: """+page+"""
@@ -108,27 +108,27 @@ def batch_index_template(batch,tag,project,description):
     template = """---
 layout: project_batch
 title: E"""+batch+""" """+project+"""
-permalink: /"""+tag+"""/e"""+batch+"""
+permalink: /"""+tag+"""/e"""+batch+"""/
 has_children: true
 parent: """+project+"""
 batch: e"""+batch+"""
-    
-default_thumb_image: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+tag+"""/thumbnail.jpg
+
+default_thumb_image: /data/categories/"""+tag+"""/thumbnail.jpg
 description: """+description
 
     return template
 
-def index_template(code,title,cover,thumbnail,ty,description,contact):
+def index_template(id, code,title,cover,thumbnail,ty,description,contact):
     template = """---
 layout: project_cat
 title: """+title+"""
-nav_order: 3
+nav_order: """+str(id)+"""
 permalink: /"""+code+"""/
 has_children: true
 num_projects: #
 parent: Home
 has_toc: true
-default_thumb_image: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/"""+code+"""/"""+thumbnail+"""
+default_thumb_image: /data/categories/"""+code+"""/"""+thumbnail+"""
 description: """+description+"""
 ---"""
 
@@ -139,8 +139,6 @@ def md_file_write(CATEGORIES,BATCHES):
     for i in CATEGORIES:
         index = open("docs/categories/"+str(i)+"/index.md",'r')
         index_data = index.read()
-        
-
 
         for batch in BATCHES[i]:
             batch_str = str(batch)
@@ -149,13 +147,14 @@ def md_file_write(CATEGORIES,BATCHES):
             filename = 'e'+batch_str
 
             path = "docs/categories/"+str(i)+"/"+filename+".md"
- 
+
 
             os.makedirs(os.path.dirname(path), exist_ok=True)
             outputFile = open(path, "w+")
             outputFile.write(batch_index_template(batch_str,str(i),CATEGORIES[i],index_data.split("description: ",1)[1]))
 
 def index_files(CATEGORIES):
+    id=0
     for i in CATEGORIES:
         index = open("data/categories/"+str(i)+"/index.json",'r')
         index_data = index.read()
@@ -172,10 +171,11 @@ def index_files(CATEGORIES):
         path = "docs/categories/"+str(i)+"/index.md"
         os.makedirs(os.path.dirname(path), exist_ok=True)
         outputFile = open(path, "w+")
-        outputFile.write(index_template(code,title,cover,thumbnail,ty,description,contact))
+        id += 1
+        outputFile.write(index_template(id,code,title,cover,thumbnail,ty,description,contact))
 
 def del_docs_categories():
-    
+
     dir_path = "docs/categories/"
 
     try:
@@ -185,7 +185,7 @@ def del_docs_categories():
 
 
 def del_docs_github_repos():
-    
+
     dir_path = "docs/github_repos/"
 
     try:
@@ -195,12 +195,12 @@ def del_docs_github_repos():
 
 
 if __name__ == "__main__":
-    print("START")   
+    print("START")
     URL = urlOrganization()
-    del_docs_categories()
+    # del_docs_categories()
     del_docs_github_repos()
 
-    # TODO: 
+    # TODO:
     # Delete the files on docs/github_repos/
 
     r = requests.get(url=URL)
@@ -219,7 +219,7 @@ if __name__ == "__main__":
 
         if len(jsonData) == 0:
             break
-            
+
         #removed if condition for checking year and batch in range
         for i in range(len(jsonData)):
             # print(jsonData[i]["name"])
@@ -247,8 +247,8 @@ if __name__ == "__main__":
                     title = ' '.join(repoName[2:]).split()
 
                     capitalized = title[0].capitalize()
-                    for i in range(1,len(title)):
-                        word = title[i]
+                    for ii in range(1,len(title)):
+                        word = title[ii]
                         if word not in LOWERCASE:
                             capitalized = capitalized + " "+ word.capitalize()
                         else:

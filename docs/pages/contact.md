@@ -20,12 +20,12 @@ search_exclude: true
 <h4 class="pt-3">Coordinators</h4>
 <ul>
     <li>
-        Proff. Roshan Ragel
+        Prof. Roshan Ragel
         (<a href="mailto:roshanr@eng.pdn.ac.lk ">roshanr@eng.pdn.ac.lk </a>)
     </li>
 </ul>
 
-<h4 class="pt-3">Developers</h4>
+<h4 class="pt-3">Developers / Maintainers</h4>
 <ul>
     <li>
         Nuwan Jaliyagoda

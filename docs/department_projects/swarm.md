@@ -7,7 +7,10 @@ has_children: false
 parent: Home
 project_type: DepartmentProject
 has_toc: true
-default_thumb_image: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/swarm/thumbnail.jpg
+default_thumb_image: ./data/categories/swarm/thumbnail.jpg
+
+link: https://pera-swarm.ce.pdn.ac.lk/
+
 ---
 
 This page is under constructions. Please come back later.

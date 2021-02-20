@@ -47,7 +47,6 @@ search_exclude: true
 
 </div>
 
-<!--
 <h3 class="pt-3 pb-1">Department Projects</h3>
 <div class="row text-center my-4">
     {% if page.has_children == true and page.has_toc != false %}
@@ -57,9 +56,9 @@ search_exclude: true
         <div class="row">
             {% for child in children_list %}
             <div class="col-lg-3 col-md-6 mb-2 d-flex">
-                <a class="btn" href="{{ child.permalink }}">
+                <a class="btn" href="{{ child.link }}" target="_blank">
                     <div class="card h-100">
-                        <img class="card-img-top" src="{{ child.default_thumb_image }}" alt="">
+                        <img class="card-img-top" src="{{ child.default_thumb_image | relative_url }}" alt="">
                         <div class="card-body">
                             <h5 class="card-title">{{ child.title }}</h5>
                         </div>
@@ -71,4 +70,4 @@ search_exclude: true
     </div>
     {% endif %}
 
-</div> -->
+</div>
