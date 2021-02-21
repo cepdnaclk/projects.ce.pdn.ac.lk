@@ -38,12 +38,7 @@ print(CATEGORIES)
 
 ORGANIZATION = "cepdnaclk"
 PROJECTS = []
-
 LOWERCASE = ['a', 'and', 'of', 'for', 'the', 'as', 'at', 'by', 'on', 'per', 'to', 'up', 'via', 'with', 'from' ]
-# START_BATCH = 10
-# END_BATCH = 16
-# FIRST_YEAR = 2
-# FINAL_YEAR = 4
 
 def urlOrganization():
     return "https://api.github.com/orgs/{}".format(ORGANIZATION)
@@ -51,15 +46,6 @@ def urlOrganization():
 
 def urlOrganizationRepos(pageNo):
     return "https://api.github.com/orgs/{}/repos?page={}".format(ORGANIZATION, pageNo)
-
-
-# def initialize():
-#     for batch in range(START_BATCH, END_BATCH + 1):
-#         temp = []
-#         for year in range(FIRST_YEAR, FINAL_YEAR + 1):
-#             temp.append([])
-#         PROJECTS.append(temp)
-
 
 def inRange(x, minNumber, maxNumber):
     if type(x) == str:
@@ -191,8 +177,8 @@ if __name__ == "__main__":
     print("START")
     URL = urlOrganization()
 
-    # No need to delete this, because this is always increasing ,
-    #     and some batch files were created manually
+    # No need to delete categpries files,
+    # because this is always increasing, and some batch files were created manually
     # del_docs_categories()
     del_docs_github_repos()
 
