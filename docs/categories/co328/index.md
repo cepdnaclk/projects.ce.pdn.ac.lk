@@ -4,7 +4,9 @@ title: Software Engineering Projects (CO328)
 nav_order: 6
 permalink: /co328/
 has_children: true
-num_projects: #
+
+code: co328
+type: COURSE
 parent: Home
 has_toc: true
 default_thumb_image: /data/categories/co328/thumbnail.jpg

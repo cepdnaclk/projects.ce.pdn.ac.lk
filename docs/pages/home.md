@@ -18,7 +18,6 @@ search_exclude: true
     </p>
 </header>
 
-
 <!-- Page Features -->
 <h3 class="pt-3 pb-1">Course Projects</h3>
 <div class="row text-center my-2">
@@ -28,8 +27,7 @@ search_exclude: true
     <div class="container p-0 mw-100">
         <div class="row">
             {% for child in children_list %}
-            {% if child.project_type != "DepartmentProject" %}
-            <div class="col-lg-3 col-md-6 mb-2 d-flex">
+            <div class="col-lg-3 col-md-6 mb-2 d-flex {{ child.type }}">
                 <a class="btn" href="{{ child.permalink }}">
                     <div class="card h-100">
                         <img class="card-img-top" src="{{ child.default_thumb_image }}" alt="">
@@ -39,7 +37,6 @@ search_exclude: true
                     </div>
                 </a>
             </div>
-            {% endif %}
             {% endfor %}
         </div>
     </div>
@@ -47,7 +44,7 @@ search_exclude: true
 
 </div>
 
-<h3 class="pt-3 pb-1">Department Projects</h3>
+<!-- <h3 class="pt-3 pb-1">Department Projects</h3>
 <div class="row text-center my-4">
     {% if page.has_children == true and page.has_toc != false %}
     {%- assign children_list = pages_list | where: "project_type", "DepartmentProject" -%}
@@ -70,4 +67,4 @@ search_exclude: true
     </div>
     {% endif %}
 
-</div>
+</div> -->

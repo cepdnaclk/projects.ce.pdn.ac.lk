@@ -4,7 +4,9 @@ title: Computer Systems Engineering Projects (CO326)
 nav_order: 5
 permalink: /co326/
 has_children: true
-num_projects: #
+
+code: co326
+type: COURSE
 parent: Home
 has_toc: true
 default_thumb_image: /data/categories/co326/thumbnail.jpg

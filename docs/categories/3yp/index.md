@@ -4,7 +4,9 @@ title: Embedded Systems Projects
 nav_order: 2
 permalink: /3yp/
 has_children: true
-num_projects: #
+
+code: 3yp
+type: GENERAL
 parent: Home
 has_toc: true
 default_thumb_image: /data/categories/3yp/thumbnail.jpg

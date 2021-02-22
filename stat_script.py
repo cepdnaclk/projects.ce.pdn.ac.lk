@@ -86,7 +86,7 @@ started_on: """ + date + """
     return s
 
 
-def batch_index_template(batch, tag, project, description):
+def batch_index_template(code, batch, tag, project, description):
     template = """---
 layout: project_batch
 title: E""" + batch + """ """ + project + """
@@ -94,20 +94,23 @@ permalink: /""" + tag + """/e""" + batch + """/
 has_children: true
 parent: """ + project + """
 batch: e""" + batch + """
+code: """ + code + """
 
 default_thumb_image: /data/categories/""" + tag + """/thumbnail.jpg
 description: """ + description
     return template
 
 
-def index_template(id, code, title, cover, thumbnail, ty, description, contact):
+def index_template(id, code, title, cover, thumbnail, description, contact, type):
     template = """---
 layout: project_cat
 title: """ + title + """
 nav_order: """ + str(id) + """
 permalink: /""" + code + """/
 has_children: true
-num_projects: #
+
+code: """ + code + """
+type: """ + type + """
 parent: Home
 has_toc: true
 default_thumb_image: /data/categories/""" + code + """/""" + thumbnail + """
@@ -132,7 +135,7 @@ def md_file_write(CATEGORIES, BATCHES):
             os.makedirs(os.path.dirname(path), exist_ok=True)
             outputFile = open(path, "w+")
             outputFile.write(
-                batch_index_template(batch_str, str(i), CATEGORIES[i], index_data.split("description: ", 1)[1]))
+                batch_index_template(str(i), batch_str, str(i), CATEGORIES[i], index_data.split("description: ", 1)[1]))
 
 
 def index_files(CATEGORIES):
@@ -146,15 +149,17 @@ def index_files(CATEGORIES):
         title = data['title']
         cover = data['images']['cover']
         thumbnail = data['images']['thumbnail']
-        ty = data['type']
         description = data['description']
         contact = data['contact']
+
+        # course project or general
+        categoryType = data['type']
 
         path = "docs/categories/" + str(i) + "/index.md"
         os.makedirs(os.path.dirname(path), exist_ok=True)
         outputFile = open(path, "w+")
         id += 1
-        outputFile.write(index_template(id, code, title, cover, thumbnail, ty, description, contact))
+        outputFile.write(index_template(id, code, title, cover, thumbnail, description, contact, categoryType))
 
 
 def del_docs_categories():
