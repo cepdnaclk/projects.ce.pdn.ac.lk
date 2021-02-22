@@ -4,7 +4,9 @@ title: Final Year Projects
 nav_order: 1
 permalink: /4yp/
 has_children: true
-num_projects: #
+
+code: 4yp
+type: GENERAL
 parent: Home
 has_toc: true
 default_thumb_image: /data/categories/4yp/thumbnail.jpg

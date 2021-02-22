@@ -4,7 +4,9 @@ title: Computer Engineering Projects (CO227)
 nav_order: 3
 permalink: /2yp/
 has_children: true
-num_projects: #
+
+code: 2yp
+type: GENERAL
 parent: Home
 has_toc: true
 default_thumb_image: /data/categories/2yp/thumbnail.jpg
