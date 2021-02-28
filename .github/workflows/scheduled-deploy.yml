@@ -4,6 +4,8 @@ on:
   schedule:
     # * 5.30 UTC, everyday (12.00 mid night in Sri Lanka)
     - cron: "30 18 * * *"
+  
+  workflow_dispatch:
 
 jobs:
   build:
