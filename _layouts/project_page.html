@@ -47,15 +47,15 @@ layout: table_wrappers
                     <div class="row">
                         <!-- Post Content Column -->
                         <div class="col-md-8 col-lg-9">
-                            <div class="container d-none remoteData">
+                            <div class="container d-none remoteDataTeam">
                                 <h3>Team</h3>
                                 <ul id="teamList">
                                 </ul>
-
+                            </div>
+                            <div class="container d-none remoteDataSupervisors">
                                 <h3>Supervisors</h3>
                                 <ul id="supervisorList">
                                 </ul>
-
                             </div>
 
                             <div class="container">
@@ -93,7 +93,7 @@ layout: table_wrappers
                                 {% endif %}
                             </div>
 
-                            <div class="container d-none remoteData pt-5">
+                            <div class="container d-none remoteDataTags pt-5">
                                 <span class="font-weight-bold">Tags:</span>
                                 <span id="tagList"></span>
                             </div>
@@ -101,7 +101,6 @@ layout: table_wrappers
 
                         <!-- Sidebar Widgets Column -->
                         <div class="col-md-4 col-lg-3 pt-3">
-
                             <div class="card mb-4 pb-3 langData d-none">
                                 <h5 class="card-header">Languages</h5>
                                 <div class="card-body" style="font-size:9pt;">

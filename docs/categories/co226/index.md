@@ -4,7 +4,9 @@ title: Database Projects (CO226)
 nav_order: 4
 permalink: /co226/
 has_children: true
-num_projects: #
+
+code: co226
+type: COURSE
 parent: Home
 has_toc: true
 default_thumb_image: /data/categories/co226/thumbnail.jpg
