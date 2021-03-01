@@ -2,8 +2,14 @@ name: Build and Deploy
 
 on:
   schedule:
-    # * 5.30 UTC, everyday (12.00 mid night in Sri Lanka)
-    - cron: "30 18 * * *"
+    # At 18:30 UTC on Sunday (12.00 mid night in Sri Lanka)
+    - cron: "30 18 * * 0"
+    
+    # At 18:30 UTC on everyday (12.00 mid night in Sri Lanka)
+    #- cron: "30 18 * * *"
+  
+  # Enables a button on Actions tab
+  workflow_dispatch:
 
 jobs:
   build:
