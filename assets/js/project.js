@@ -72,7 +72,8 @@ function readRemoteData(page_url) {
                     });
                 }
 
-                $("#descriptionText").html(`<p>${data.description}</p>`);
+                // Removed, since it is already provided
+                // $("#descriptionText").html(`<p>${data.description}</p>`);
             }
         },
     });

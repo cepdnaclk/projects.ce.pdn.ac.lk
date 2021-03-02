@@ -8,12 +8,12 @@ p, ul{
 }
 
 .project-card-title{
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     font-size: 10pt;
 }
 
 .title-case{
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
 .title-overflow{
@@ -53,8 +53,8 @@ p, ul{
 
 .tag{
     padding: 2px 15px;
-    background-color: #e2e3e3;
-    margin: 2px 5px;
+    background-color: #c4c4c4;
+    margin: 3px 5px !important;
     font-size: 12pt;
     border-radius: 2px;
     /* border: 1px solid gray; */

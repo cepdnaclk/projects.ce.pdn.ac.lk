@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: F5N
+title: F5n
 permalink: /4yp/e14/f5n
 description: "Genopo a.k.a. F5N - A nanopore sequencing analysis toolkit for Android smartphones https://nanoporetech.com"
 
