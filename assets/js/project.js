@@ -56,7 +56,7 @@ function readRemoteData(page_url) {
                     });
                 }
 
-                if(data.supervisors[0] != "Dr. Supervisor 1" ){
+                if(data.supervisors[0].name != "Dr. Supervisor 1" ){
                     $(".remoteDataSupervisors").removeClass("d-none");
                     $.each(data.supervisors, function (index, s) {
                         $("#supervisorList").append(

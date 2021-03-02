@@ -156,7 +156,6 @@ search_exclude: true
                 "email": "email@eng.pdn.ac.lk"
             }
             ],
-            "description": "This is a brief introduction of the project. You need to use plain text without any specific characters here",
             "tags": ["Web", "Embedded Systems"]
         }
     </code></pre>
