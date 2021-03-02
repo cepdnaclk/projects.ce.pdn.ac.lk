@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Mixed Reality Simulator For Swarm Robotics
+title: Mixed Reality Simulator for Swarm Robotics
 permalink: /4yp/e15/mixed-reality-simulator-for-swarm-robotics
 description: "The main objective of this project is to implement a mixed reality-based simulator application with an efficient and reliable architecture for allowing both physical and virtual robots to collaboratively run swarm intelligence based algorithms in real-time"
 

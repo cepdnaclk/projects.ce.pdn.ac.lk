@@ -61,7 +61,7 @@ def inRange(x, minNumber, maxNumber):
 def writeHeader(category, batch, grand_parent, permalink, title, description, stars, forks, watch, date, repo, page):
     s = """---
 layout: project_page
-title: """ + title.title() + """
+title: """ + title + """
 permalink: """ + permalink + """
 description: \"""" + description + """\"
 
