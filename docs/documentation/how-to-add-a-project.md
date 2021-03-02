@@ -40,6 +40,15 @@ search_exclude: true
             </a>
         </span>
     </li>
+
+    <li class="pt-2">Final Year Project Minimal Template
+        <br>
+        <span class="pl-5">
+            <a href="https://github.com/cepdnaclk/eYY-4yp-minimal-template/generate/" target="_blank">
+                https://github.com/cepdnaclk/eYY-4yp-minimal-template
+            </a>
+        </span>
+    </li>
 </ul>
 
 <span class="instruction">2. Select the *Owner* as <b>"cepdnaclk"</b></span>
@@ -101,13 +110,20 @@ search_exclude: true
 <span class="instruction">9. Now you can goto the repository and edit your GitHub page by editing the <b>/docs/README.md</b>.
     (The webpage shown in <i>https://cepdnaclk.github.io/{your-repository-name}</i>
     will be automatically generated. <a href="https://cepdnaclk.github.io/eYY-4yp-project-template/" target="_blank">[Example]</a>)
+    <br>
+    <span>Note: if you are using a <i>'Minimal'</i> template, you need to design this project page by your own,
+        by editing <b>/docs/index.html</b>
+    </span>
 </span>
 
-You can share your project's source code / implementations into this repository, by uploading them into the root folder of the repository.
+<span class="instruction">10.
+    You can share your project's source code / implementations into this repository, by uploading them into the root folder of the repository.
+</span>
 
-<span class="instruction">10. </span>
-These projects will be automatically added into [https://projects.ce.pdn.ac.lk](), with given title and description.
-If you like to show more details about your project on this site, you can fill the JSON file, <b>/docs/data/index.json</b> (Note: Different templates may have different sets of parameters, as requested by the course coordinators)
+<span class="instruction">11.
+    These projects will be automatically added into [https://projects.ce.pdn.ac.lk](), with given title and description.
+    If you like to show more details about your project on this site, you can fill the JSON file, <b>/docs/data/index.json</b> (Note: Different templates may have different sets of parameters, as requested by the course coordinators)
+</span>
 
 <div class="container">
     <pre><code class="json dracula">
@@ -156,7 +172,7 @@ NOTES:
 
     <li>
         If your followed all the given instructions correctly, your repository will be
-        automatically added to the department's project web site (Update once a week)
+        automatically added to the department's project web site (Update once a week - Sunday)
     </li>
 
     <li>
@@ -171,8 +187,10 @@ NOTES:
 
 ## Instructions - Fork your existing repository into <i>cepdnaclk</i>
 <br>
-<iframe width="854" height="480" src="https://www.youtube.com/embed/hegEmohtppw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
+<div class="video-container">
+    <iframe width="100%" src="https://www.youtube.com/embed/hegEmohtppw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+    </iframe>
+</div>
 
 ---
 
