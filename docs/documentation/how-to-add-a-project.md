@@ -107,7 +107,7 @@ You can share your project's source code / implementations into this repository,
 
 <span class="instruction">10. </span>
 These projects will be automatically added into [https://projects.ce.pdn.ac.lk](), with given title and description.
-If you like to show more details about your project on this site, you can fill the JSON file, <b>/docs/index.json</b> (Note: Different templates may have different sets of parameters, as requested by the course coordinators)
+If you like to show more details about your project on this site, you can fill the JSON file, <b>/docs/data/index.json</b> (Note: Different templates may have different sets of parameters, as requested by the course coordinators)
 
 <div class="container">
     <pre><code class="json dracula">

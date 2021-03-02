@@ -12,7 +12,7 @@ cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e15-4yp-project-name
-page_url: blank
+page_url: https://cepdnaclk.github.io/e15-4yp-project-name
 
 forks: 0
 watchers: 0
