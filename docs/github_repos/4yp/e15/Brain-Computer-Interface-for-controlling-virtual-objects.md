@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e15-4yp-Brain-Computer-Interface-for-contr
 forks: 0
 watchers: 0
 stars: 0
-started_on: 2021-03-04T18:01:19Z
+started_on: 2021-03-04T21:20:49Z
 ---
 Develop a Brain-Computer Interface for Controlling virtual objects using the self-paced mind intent of a person. Here we have developed a Real-time pipeline for recognizing thought patterns using machine learning techniques and feed into a virtual environment(unity engine) for controlling virtual objects.
 
