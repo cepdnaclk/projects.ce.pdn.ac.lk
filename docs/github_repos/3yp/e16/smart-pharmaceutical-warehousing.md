@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Smart Pharmaceutical Warehousing
+title: smart pharmaceutical warehousing
 permalink: /3yp/e16/smart-pharmaceutical-warehousing
 description: ""
 

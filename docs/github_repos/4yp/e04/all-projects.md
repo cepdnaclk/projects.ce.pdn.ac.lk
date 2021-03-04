@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: All Projects
+title: all projects
 permalink: /4yp/e04/all-projects
 description: "Projects of E/04 Batch"
 

@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Real Time Data Processing and Ai for Distributed Iot
+title: Real Time Data processing and AI for Distributed IoT
 permalink: /4yp/e15/Real-Time-Data-processing-and-AI-for-Distributed-IoT
 description: "To facilitate AI,ML computations and to enable real time processing at the edge,a novel approach is proposed base on computation distribution, vectorization, computation offloading, parallelization and federated learning techniques."
 

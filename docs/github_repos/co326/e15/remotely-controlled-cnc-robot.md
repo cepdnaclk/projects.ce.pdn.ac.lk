@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Remotely Controlled Cnc Robot
+title: remotely controlled cnc robot
 permalink: /co326/e15/remotely-controlled-cnc-robot
 description: "In this project, we hope to develop a CNC (Computer Numerical Control) based pick and place arm, which will help to try different wiring arrangements in a PLC rig and try experiments on it remotely."
 

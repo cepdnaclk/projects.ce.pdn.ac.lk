@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Gpsarsa Gaussian Process State Action Reward State Actios Based Sitnshop
+title: GPSARSA gaussian process state action reward state actios based SITNSHOP
 permalink: /3yp/e14/GPSARSA-gaussian-process-state-action-reward-state-actios-based-SITNSHOP
 description: "An web application(+mobile application) to advertise any kinds of shops and more additional features"
 

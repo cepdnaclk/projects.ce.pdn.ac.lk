@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Dynamic Background Cancellation In Videos
+title: dynamic background cancellation in videos
 permalink: /2yp/e14/dynamic-background-cancellation-in-videos
 description: "Foreground estimation in dynamic background conditions using unsupervised learning techniques."
 

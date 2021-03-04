@@ -47,7 +47,7 @@ function readRemoteData(page_url) {
                 // Show remoteData container
                 $(".remoteData").removeClass("d-none");
 
-                if(data.team[0] != "Team Member Name 1" ){
+                if(data.team[0].name != "Team Member Name 1" ){
                     $(".remoteDataTeam").removeClass("d-none");
                     $.each(data.team, function (index, member) {
                         $("#teamList").append(

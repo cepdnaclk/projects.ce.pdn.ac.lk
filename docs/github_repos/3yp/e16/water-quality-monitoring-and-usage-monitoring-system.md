@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Water Quality Monitoring and Usage Monitoring System
+title: water quality monitoring and usage monitoring system
 permalink: /3yp/e16/water-quality-monitoring-and-usage-monitoring-system
 description: "In this project we are developing a water tank monitoring system for providing clean water and reduce the water wastage"
 

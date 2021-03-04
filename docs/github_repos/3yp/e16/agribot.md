@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Agribot
+title: agribot
 permalink: /3yp/e16/agribot
 description: "Autonomous Agricultural Robot"
 

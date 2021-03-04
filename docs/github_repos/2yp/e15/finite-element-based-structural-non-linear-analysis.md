@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Finite Element Based Structural Non Linear Analysis
+title: finite element based structural non linear analysis
 permalink: /2yp/e15/finite-element-based-structural-non-linear-analysis
 description: ""
 

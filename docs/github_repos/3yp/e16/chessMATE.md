@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Chessmate
+title: chessMATE
 permalink: /3yp/e16/chessMATE
 description: "Smart Chess Platform"
 

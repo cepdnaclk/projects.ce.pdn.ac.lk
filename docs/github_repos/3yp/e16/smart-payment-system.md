@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Smart Payment System
+title: smart payment system
 permalink: /3yp/e16/smart-payment-system
 description: "This is the 3rd year embedded system project"
 
