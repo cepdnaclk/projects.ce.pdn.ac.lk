@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Smart Meeting Automaton
+title: smart meeting automaton
 permalink: /3yp/e16/smart-meeting-automaton
 description: "E/16/022 E/16/025 E/16/222 Third year project"
 

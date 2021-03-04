@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Smart Pill Manager
+title: smart pill manager
 permalink: /3yp/e16/smart-pill-manager
 description: "CO321 project repository by Group 7"
 

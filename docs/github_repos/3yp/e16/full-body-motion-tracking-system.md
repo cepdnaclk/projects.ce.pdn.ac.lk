@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Full Body Motion Tracking System
+title: full body motion tracking system
 permalink: /3yp/e16/full-body-motion-tracking-system
 description: "A game console based on a full-body motion tracking system"
 

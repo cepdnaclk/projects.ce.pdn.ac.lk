@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Hbft
+title: HBFT
 permalink: /4yp/e11/HBFT
 description: "A new Bredth First Traversal algorithm for large graphs "
 

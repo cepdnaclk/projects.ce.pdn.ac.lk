@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Smart Vending Machine
+title: smart vending machine
 permalink: /3yp/e16/smart-vending-machine
 description: "Smart Vending Machine (3rd year unified project)"
 

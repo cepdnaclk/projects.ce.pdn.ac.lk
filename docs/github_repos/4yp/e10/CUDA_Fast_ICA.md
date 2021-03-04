@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Cuda_fast_ica
+title: CUDA_Fast_ICA
 permalink: /4yp/e10/CUDA_Fast_ICA
 description: "CUDA implementation of Fast-ICA in C++"
 

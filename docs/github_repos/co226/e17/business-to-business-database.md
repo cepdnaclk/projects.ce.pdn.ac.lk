@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Business to Business Database
+title: business to business database
 permalink: /co226/e17/business-to-business-database
 description: "CO226 Project - Relational Database for B2B Online Trade Community - by: @Isuri-Devindi, @KavinduJayas, @Dr-Madhushan"
 

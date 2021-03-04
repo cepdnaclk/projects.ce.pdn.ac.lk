@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Digital Signage Based User Targeted Advertising
+title: digital signage based user targeted advertising
 permalink: /3yp/e16/digital-signage-based-user-targeted-advertising
 description: "A novel approach for digital signage based user targeted advertising"
 

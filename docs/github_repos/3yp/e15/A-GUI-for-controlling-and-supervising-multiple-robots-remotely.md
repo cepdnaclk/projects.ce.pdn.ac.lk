@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: A Gui for Controlling and Supervising Multiple Robots Remotely
+title: A GUI for controlling and supervising multiple robots remotely
 permalink: /3yp/e15/A-GUI-for-controlling-and-supervising-multiple-robots-remotely
 description: "The idea is to create a GUI platform where a user can give commands which is to be followed by some ground units in a remote location. The server can identify the starting locations of the robots and manipulate them to do the task in the most efficient way as possible."
 
