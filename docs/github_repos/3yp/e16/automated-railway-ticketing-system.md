@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Automated Railway Ticketing System
+title: automated railway ticketing system
 permalink: /3yp/e16/automated-railway-ticketing-system
 description: ""
 

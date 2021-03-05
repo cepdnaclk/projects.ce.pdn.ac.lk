@@ -2,12 +2,15 @@ name: Build and Deploy
 
 on:
   schedule:
-    # At 18:30 UTC on Sunday (12.00 mid night in Sri Lanka)
-    - cron: "30 18 * * 0"
-    
-    # At 18:30 UTC on everyday (12.00 mid night in Sri Lanka)
-    #- cron: "30 18 * * *"
-  
+    # # At 18:30 UTC on Sunday (12.00 mid night in Sri Lanka)
+    # - cron: "30 18 * * 0"
+
+    # At minute 0 past every two hours
+    - cron: "0 */2 * * *"
+
+    # # At 18:30 UTC on everyday (12.00 mid night in Sri Lanka)
+    # - cron: "30 18 * * *"
+
   # Enables a button on Actions tab
   workflow_dispatch:
 
@@ -19,7 +22,7 @@ jobs:
         uses: actions/checkout@master
         with:
           ref: main
-        
+
       - name: Set up Python 3.6
         uses: actions/setup-python@v2
         with:
@@ -30,14 +33,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          
+
       - name: Run the Python script
         run: |
           python stat_script.py
 
       - name: Commit and push into the main branch
         run: |
-          
+
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add --all

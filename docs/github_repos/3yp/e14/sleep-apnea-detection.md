@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Sleep Apnea Detection
+title: sleep apnea detection
 permalink: /3yp/e14/sleep-apnea-detection
 description: "Non intrusive method for detecting sleep apnea in infants."
 

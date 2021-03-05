@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Building A Testbed For Power Analysis Attacks
+title: building a testbed for power analysis attacks
 permalink: /4yp/e10/building-a-testbed-for-power-analysis-attacks
 description: "The A to Z of Building a Testbed for Power Analysis Attacks"
 

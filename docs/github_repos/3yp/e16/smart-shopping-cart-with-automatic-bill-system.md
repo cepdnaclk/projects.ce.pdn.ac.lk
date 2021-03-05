@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Smart Shopping Cart With Automatic Bill System
+title: smart shopping cart with automatic bill system
 permalink: /3yp/e16/smart-shopping-cart-with-automatic-bill-system
 description: ""
 

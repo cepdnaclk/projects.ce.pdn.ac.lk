@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Obstacle Bots For Swarm Robots
+title: obstacle bots for swarm robots
 permalink: /3yp/e16/obstacle-bots-for-swarm-robots
 description: "Platform for swarm robots"
 

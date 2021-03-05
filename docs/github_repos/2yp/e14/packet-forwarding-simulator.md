@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Packet Forwarding Simulator
+title: packet forwarding simulator
 permalink: /2yp/e14/packet-forwarding-simulator
 description: "Packet forwarding network simulator"
 

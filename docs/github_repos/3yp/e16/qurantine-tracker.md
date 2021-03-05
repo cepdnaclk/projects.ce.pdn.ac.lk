@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Qurantine Tracker
+title: qurantine tracker
 permalink: /3yp/e16/qurantine-tracker
 description: ""
 

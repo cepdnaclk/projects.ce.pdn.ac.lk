@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Temporal Attention Based Marl
+title: Temporal Attention Based MARL
 permalink: /4yp/e14/Temporal-Attention-Based-MARL
 description: ""
 

@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Smart Infared Shooting Sport
+title: smart infared shooting sport
 permalink: /3yp/e16/smart-infared-shooting-sport
 description: ""
 

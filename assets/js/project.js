@@ -47,7 +47,7 @@ function readRemoteData(page_url) {
                 // Show remoteData container
                 $(".remoteData").removeClass("d-none");
 
-                if(data.team[0] != "Team Member Name 1" ){
+                if(data.team[0].name != "Team Member Name 1" ){
                     $(".remoteDataTeam").removeClass("d-none");
                     $.each(data.team, function (index, member) {
                         $("#teamList").append(
@@ -56,7 +56,7 @@ function readRemoteData(page_url) {
                     });
                 }
 
-                if(data.supervisors[0] != "Dr. Supervisor 1" ){
+                if(data.supervisors[0].name != "Dr. Supervisor 1" ){
                     $(".remoteDataSupervisors").removeClass("d-none");
                     $.each(data.supervisors, function (index, s) {
                         $("#supervisorList").append(
@@ -72,7 +72,8 @@ function readRemoteData(page_url) {
                     });
                 }
 
-                $("#descriptionText").html(`<p>${data.description}</p>`);
+                // Removed, since it is already provided
+                // $("#descriptionText").html(`<p>${data.description}</p>`);
             }
         },
     });
