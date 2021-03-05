@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: Balancing An Inverted Pendulum Using A Neural Network
+title: balancing an inverted pendulum using a neural network
 permalink: /co542/e14/balancing-an-inverted-pendulum-using-a-neural-network
 description: "CO542 Project"
 
