@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e15-4yp-Optimizing-Mitochondria-Genome-Assembly-And-Annotation-With-Skim-Sequencing-Data
 page_url: https://cepdnaclk.github.io/e15-4yp-Optimizing-Mitochondria-Genome-Assembly-And-Annotation-With-Skim-Sequencing-Data
 
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: 2021-03-04T19:07:44Z
