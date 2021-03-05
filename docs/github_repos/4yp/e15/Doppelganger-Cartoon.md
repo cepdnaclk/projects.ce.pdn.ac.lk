@@ -2,7 +2,7 @@
 layout: project_page
 title: Doppelganger Cartoon
 permalink: /4yp/e15/Doppelganger-Cartoon
-description: ""
+description: "The objective of Doppelganger Cartoon is to create a machine learning model to find the best matching cartoon character for a  human image . This was implemented using three approaches: pre-trained model based approach, combined model (face + hair + gender) and classification model. "
 
 has_children: false
 parent: E15 Final Year Projects
@@ -19,5 +19,5 @@ watchers: 0
 stars: 0
 started_on: 2021-03-05T01:53:26Z
 ---
-
+The objective of Doppelganger Cartoon is to create a machine learning model to find the best matching cartoon character for a  human image . This was implemented using three approaches: pre-trained model based approach, combined model (face + hair + gender) and classification model. 
 
