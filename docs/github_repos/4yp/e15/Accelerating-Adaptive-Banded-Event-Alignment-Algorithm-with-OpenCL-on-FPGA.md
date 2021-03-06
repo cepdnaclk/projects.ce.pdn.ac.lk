@@ -21,4 +21,3 @@ started_on: 2021-03-04T15:44:28Z
 ---
 Effective utilization of OpenCL to map the Adaptive Banded Event Alignment(ABEA) algorithm to run eﬃciently on an FPGA.
 
-
