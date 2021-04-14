@@ -67,6 +67,16 @@ layout: table_wrappers
                                 {% endif %}
                             </div>
 
+                            <div id="publications" class="container d-none0">
+                                <h3 class="pt-3">Publications</h3>
+                                <ul id="publicationsUL"></ul>
+                            </div>
+
+                            <div id="youtubeVideo" class="container d-none">
+                                <h3 class="pt-3">Media</h3>
+                                <div id="youtubeVideoDiv" style="padding: 5px 30px;"></div>
+                            </div>
+
                             <div class="row pt-3">
                                 {% if page.repo_url != 'blank' %}
                                 <div class="col-sm-6 col-md-6 col-lg-4 m-1">
@@ -134,11 +144,8 @@ layout: table_wrappers
                 </div>
             </div>
         </main>
-
         {% include footer.html %}
     </div>
-
-
     <script type="text/javascript">
         $(document).ready(function () {
             {% if page.page_url != 'blank' %}
