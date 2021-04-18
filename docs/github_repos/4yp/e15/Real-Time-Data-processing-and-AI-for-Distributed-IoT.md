@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e15-4yp-Real-Time-Data-processing-and-AI-for-Distributed-IoT
 page_url: https://cepdnaclk.github.io/e15-4yp-Real-Time-Data-processing-and-AI-for-Distributed-IoT
 
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: 2021-03-04T15:53:50Z
