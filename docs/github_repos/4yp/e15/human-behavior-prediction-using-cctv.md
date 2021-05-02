@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e15-4yp-human-behavior-prediction-using-cctv
 page_url: https://cepdnaclk.github.io/e15-4yp-human-behavior-prediction-using-cctv
 
-forks: 1
+forks: 2
 watchers: 0
 stars: 0
 started_on: 2021-04-18T17:49:43Z
