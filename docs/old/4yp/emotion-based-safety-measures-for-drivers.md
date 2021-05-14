@@ -4,8 +4,8 @@ title: Emotion based safety measures for drivers
 permalink: /4yp/e12/emotion-based-safety-measures-for-drivers
 
 has_children: false
-parent: E12 Final Year Projects
-grand_parent: Final Year Projects
+parent: E12 Undergraduate Research Projects
+grand_parent: Undergraduate Research Projects
 
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg

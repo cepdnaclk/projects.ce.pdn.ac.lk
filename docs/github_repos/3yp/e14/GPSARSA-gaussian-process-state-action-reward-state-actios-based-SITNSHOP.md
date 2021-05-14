@@ -5,8 +5,8 @@ permalink: /3yp/e14/GPSARSA-gaussian-process-state-action-reward-state-actios-ba
 description: "An web application(+mobile application) to advertise any kinds of shops and more additional features"
 
 has_children: false
-parent: E14 Embedded Systems Projects
-grand_parent: Embedded Systems Projects
+parent: E14 Cyber-Physical Systems Projects
+grand_parent: Cyber-Physical Systems Projects
 
 cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg

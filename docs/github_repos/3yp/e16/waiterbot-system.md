@@ -5,8 +5,8 @@ permalink: /3yp/e16/waiterbot-system
 description: "WaiterBot System -  A system of interactive robots to deliver the orders in a restaurant."
 
 has_children: false
-parent: E16 Embedded Systems Projects
-grand_parent: Embedded Systems Projects
+parent: E16 Cyber-Physical Systems Projects
+grand_parent: Cyber-Physical Systems Projects
 
 cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg

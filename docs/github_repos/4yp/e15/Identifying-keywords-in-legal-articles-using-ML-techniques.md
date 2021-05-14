@@ -5,8 +5,8 @@ permalink: /4yp/e15/Identifying-keywords-in-legal-articles-using-ML-techniques
 description: "In Sri Lanka, it is vital need to implement a system to extract key information from legal document. This research focused on how to mine basic information from legal documents and how to apply machine learning techniques to extract keywords from documents."
 
 has_children: false
-parent: E15 Final Year Projects
-grand_parent: Final Year Projects
+parent: E15 Undergraduate Research Projects
+grand_parent: Undergraduate Research Projects
 
 cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg

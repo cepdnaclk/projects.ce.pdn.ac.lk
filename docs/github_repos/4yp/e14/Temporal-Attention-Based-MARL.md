@@ -5,8 +5,8 @@ permalink: /4yp/e14/Temporal-Attention-Based-MARL
 description: ""
 
 has_children: false
-parent: E14 Final Year Projects
-grand_parent: Final Year Projects
+parent: E14 Undergraduate Research Projects
+grand_parent: Undergraduate Research Projects
 
 cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg

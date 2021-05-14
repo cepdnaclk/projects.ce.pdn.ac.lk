@@ -5,8 +5,8 @@ permalink: /4yp/e15/anonymous-authentication
 description: "We propose three authentication protocols that allow a user to anonymously authenticate in a P2P environment. "
 
 has_children: false
-parent: E15 Final Year Projects
-grand_parent: Final Year Projects
+parent: E15 Undergraduate Research Projects
+grand_parent: Undergraduate Research Projects
 
 cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg

@@ -5,8 +5,8 @@ permalink: /2yp/e14/mabandit
 description: "A python based library which includes multi_arm_bandit and Bayesian_optimization_algorithms. The PYPI repository  can be found as mabandit 1.3"
 
 has_children: false
-parent: E14 Computer Engineering Projects (CO227)
-grand_parent: Computer Engineering Projects (CO227)
+parent: E14 Software Systems Projects
+grand_parent: Software Systems Projects
 
 cover_url: /data/categories/2yp/cover_page.jpg
 thumbnail_url: /data/categories/2yp/thumbnail.jpg

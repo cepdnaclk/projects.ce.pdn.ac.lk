@@ -4,8 +4,8 @@ title: Social Media Network for Farmers
 permalink: /4yp/e13/social-media-network-for-farmers
 
 has_children: false
-parent: E13 Final Year Projects
-grand_parent: Final Year Projects
+parent: E13 Undergraduate Research Projects
+grand_parent: Undergraduate Research Projects
 
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg

@@ -5,8 +5,8 @@ permalink: /3yp/e16/smart-pharmaceutical-warehousing
 description: ""
 
 has_children: false
-parent: E16 Embedded Systems Projects
-grand_parent: Embedded Systems Projects
+parent: E16 Cyber-Physical Systems Projects
+grand_parent: Cyber-Physical Systems Projects
 
 cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg

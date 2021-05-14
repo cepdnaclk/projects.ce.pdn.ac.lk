@@ -5,8 +5,8 @@ permalink: /4yp/e04/all-projects
 description: "Projects of E/04 Batch"
 
 has_children: false
-parent: E04 Final Year Projects
-grand_parent: Final Year Projects
+parent: E04 Undergraduate Research Projects
+grand_parent: Undergraduate Research Projects
 
 cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
