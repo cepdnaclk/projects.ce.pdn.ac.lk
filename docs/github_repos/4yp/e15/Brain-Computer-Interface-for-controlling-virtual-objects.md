@@ -5,8 +5,8 @@ permalink: /4yp/e15/Brain-Computer-Interface-for-controlling-virtual-objects
 description: "Develop a Brain-Computer Interface for Controlling virtual objects using the self-paced mind intent of a person. Here we have developed a Real-time pipeline for recognizing thought patterns using machine learning techniques and feed into a virtual environment(unity engine) for controlling virtual objects."
 
 has_children: false
-parent: E15 Final Year Projects
-grand_parent: Final Year Projects
+parent: E15 Undergraduate Research Projects
+grand_parent: Undergraduate Research Projects
 
 cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg

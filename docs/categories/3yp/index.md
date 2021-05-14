@@ -1,6 +1,6 @@
 ---
 layout: project_cat
-title: Embedded Systems Projects
+title: Cyber-Physical Systems Projects
 nav_order: 2
 permalink: /3yp/
 has_children: true
@@ -10,5 +10,5 @@ type: GENERAL
 parent: Home
 has_toc: true
 default_thumb_image: /data/categories/3yp/thumbnail.jpg
-description: 3rd year embedded systems project which is a combination of CO321, CO324 and CO325 courses
+description: Cyber-Physical Systems designed and implemented by 3rd year Computer Engineering Students as part of coursework. These projects contain modern embedded hardware and software, cloud-deployed web back-end/front-end software and modern networking and communication for integration
 ---

@@ -5,8 +5,8 @@ permalink: /4yp/e10/CUDA_Fast_ICA
 description: "CUDA implementation of Fast-ICA in C++"
 
 has_children: false
-parent: E10 Final Year Projects
-grand_parent: Final Year Projects
+parent: E10 Undergraduate Research Projects
+grand_parent: Undergraduate Research Projects
 
 cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg

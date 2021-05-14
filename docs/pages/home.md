@@ -18,53 +18,84 @@ search_exclude: true
     </p>
 </header>
 
-<!-- Page Features -->
-<h3 class="pt-3 pb-1">Course Projects</h3>
-<div class="row text-center my-2">
-    {% if page.has_children == true and page.has_toc != false %}
-    {%- assign children_list = pages_list | where: "parent", page.title -%}
+<div>
+    <h3 class="pt-3 pb-1">&nbsp;</h3>
+    <div class="row text-center my-2">
+        {% if page.has_children == true and page.has_toc != false %}
+        {%- assign children_list = pages_list | where: "parent", page.title -%}
 
-    <div class="container p-0 mw-100">
-        <div class="row">
-            {% for child in children_list %}
-            <div class="col-lg-3 col-md-6 mb-2 d-flex {{ child.type }}">
-                <a class="btn" href="{{ child.permalink }}">
-                    <div class="card h-100">
-                        <img class="card-img-top" src="{{ child.default_thumb_image }}" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">{{child.title}}</h5>
+        <div class="container p-0 mw-100">
+            <div class="row">
+                {% for child in children_list %}
+
+                {% if child.type == "GENERAL" %}
+                <div class="col-lg-3 col-md-6 mb-2 d-flex {{ child.type }}">
+                    <a class="btn" href="{{ child.permalink }}">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="{{ child.default_thumb_image }}" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">{{child.title}}</h5>
+                            </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-    {% endif %}
+                    </a>
+                </div>
+                {% endif %}
 
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <h3 class="pt-3 pb-1">Course-Specific Projects</h3>
+    <div class="row text-center my-2">
+        {% if page.has_children == true and page.has_toc != false %}
+        {%- assign children_list = pages_list | where: "parent", page.title -%}
+
+        <div class="container p-0 mw-100">
+            <div class="row">
+                {% for child in children_list %}
+
+                {% if child.type == "COURSE" %}
+                <div class="col-lg-3 col-md-6 mb-2 d-flex {{ child.type }}">
+                    <a class="btn" href="{{ child.permalink }}">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="{{ child.default_thumb_image }}" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">{{child.title}}</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                {% endif %}
+
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- <h3 class="pt-3 pb-1">Department Projects</h3>
+    <div class="row text-center my-4">
+        {% if page.has_children == true and page.has_toc != false %}
+        {%- assign children_list = pages_list | where: "project_type", "DepartmentProject" -%}
+
+        <div class="container p-0 mw-100">
+            <div class="row">
+                {% for child in children_list %}
+                <div class="col-lg-3 col-md-6 mb-2 d-flex">
+                    <a class="btn" href="{{ child.link }}" target="_blank">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="{{ child.default_thumb_image | relative_url }}" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ child.title }}</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+    </div> -->
 </div>
-
-<!-- <h3 class="pt-3 pb-1">Department Projects</h3>
-<div class="row text-center my-4">
-    {% if page.has_children == true and page.has_toc != false %}
-    {%- assign children_list = pages_list | where: "project_type", "DepartmentProject" -%}
-
-    <div class="container p-0 mw-100">
-        <div class="row">
-            {% for child in children_list %}
-            <div class="col-lg-3 col-md-6 mb-2 d-flex">
-                <a class="btn" href="{{ child.link }}" target="_blank">
-                    <div class="card h-100">
-                        <img class="card-img-top" src="{{ child.default_thumb_image | relative_url }}" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">{{ child.title }}</h5>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-    {% endif %}
-
-</div> -->

@@ -5,8 +5,8 @@ permalink: /2yp/e15/Pera-Knowledge-Portal
 description: "Pera Knowledge Portal is a web site that will allow visitors to do a full-text search on student project reports and thesis, developed using PHP and ElasticSearch"
 
 has_children: false
-parent: E15 Computer Engineering Projects (CO227)
-grand_parent: Computer Engineering Projects (CO227)
+parent: E15 Software Systems Projects
+grand_parent: Software Systems Projects
 
 cover_url: /data/categories/2yp/cover_page.jpg
 thumbnail_url: /data/categories/2yp/thumbnail.jpg

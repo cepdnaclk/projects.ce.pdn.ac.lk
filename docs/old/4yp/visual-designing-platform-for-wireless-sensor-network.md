@@ -4,8 +4,8 @@ title: Visual Designing Platform for Wireless Sensor Network
 permalink: /4yp/e12/visual-designing-platform-for-wireless-sensor-network
 
 has_children: false
-parent: E12 Final Year Projects
-grand_parent: Final Year Projects
+parent: E12 Undergraduate Research Projects
+grand_parent: Undergraduate Research Projects
 
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg

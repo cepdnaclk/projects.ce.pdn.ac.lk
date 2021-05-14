@@ -23,7 +23,7 @@ search_exclude: true
         </span>
     </li>
 
-    <li class="pt-2">Embedded Systems Project Template
+    <li class="pt-2">Cyber-Physical Systems Project Template
         <br>
         <span class="pl-5">
             <a href="https://github.com/cepdnaclk/eYY-3yp-project-template/generate/" target="_blank">
@@ -32,7 +32,7 @@ search_exclude: true
         </span>
     </li>
 
-    <li class="pt-2">Final Year Project Template
+    <li class="pt-2">Undergraduate Research Project Template
         <br>
         <span class="pl-5">
             <a href="https://github.com/cepdnaclk/eYY-4yp-project-template/generate/" target="_blank">
@@ -41,7 +41,7 @@ search_exclude: true
         </span>
     </li>
 
-    <li class="pt-2">Final Year Project Minimal Template
+    <li class="pt-2">Minimal Template
         <br>
         <span class="pl-5">
             <a href="https://github.com/cepdnaclk/eYY-4yp-minimal-template/generate/" target="_blank">
@@ -73,8 +73,8 @@ search_exclude: true
 
 |CATEGORY| Project / Course                     |
 | ----- | ------------------------------------- |
-| 4yp   | Final Year Project                    |
-| 3yp   | Embedded Systems Project              |
+| 4yp   | Undergraduate Research Project        |
+| 3yp   | Cyber-Physical Systems Project        |
 | co328 | Software Engineering Project          |
 | co226 | Database Projects                     |
 | co326 | Computer Systems Engineering Projects |

@@ -5,8 +5,8 @@ permalink: /4yp/e15/cricket-analysis
 description: "Data Mining System for Selecting a Winning ODI Cricket Team. This analysis on cricket includes analysis of the individual performance of players, the combined performance of players, frequent winning combinations, and outcome prediction of an ODI match."
 
 has_children: false
-parent: E15 Final Year Projects
-grand_parent: Final Year Projects
+parent: E15 Undergraduate Research Projects
+grand_parent: Undergraduate Research Projects
 
 cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg

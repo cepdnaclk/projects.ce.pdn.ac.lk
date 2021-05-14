@@ -5,8 +5,8 @@ permalink: /4yp/e15/Optimizing-Mitochondria-Genome-Assembly-And-Annotation-With-
 description: "This assembly is to find an efficient procedure to identify the optimal set of mitochondria genome data from skim sequencing data and assemble, annotate those data to form a complete mitochondria genome."
 
 has_children: false
-parent: E15 Final Year Projects
-grand_parent: Final Year Projects
+parent: E15 Undergraduate Research Projects
+grand_parent: Undergraduate Research Projects
 
 cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
