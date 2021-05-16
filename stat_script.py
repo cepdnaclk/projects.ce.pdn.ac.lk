@@ -172,7 +172,7 @@ def del_docs_categories():
 
 
 def del_docs_github_repos():
-    dir_path = "docs/github_repos/"
+    dir_path = "docs/github_projects/"
     try:
         shutil.rmtree(dir_path)
     except OSError as e:

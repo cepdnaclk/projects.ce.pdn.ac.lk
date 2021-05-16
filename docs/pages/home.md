@@ -29,7 +29,7 @@ search_exclude: true
                 {% for child in children_list %}
 
                 {% if child.type == "GENERAL" %}
-                <div class="col-lg-3 col-md-6 mb-2 d-flex {{ child.type }}">
+                <div class="col-lg-4 col-md-6 mb-2 d-flex {{ child.type }}">
                     <a class="btn" href="{{ child.permalink }}">
                         <div class="card h-100">
                             <img class="card-img-top" src="{{ child.default_thumb_image }}" alt="">
