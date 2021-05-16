@@ -12,7 +12,8 @@ search_exclude: true
 <h3>Documentation</h3>
 <br>
 <ul style="font-size: larger">
-    <li><a href="/docs/how-to-add-a-project">How to add a Project ?</a></li>
+    <li><a href="/docs/how-to-add-a-project">How to add a GitHub Project ?</a></li>
+    <li><a href="/docs/how-to-add-non-github-project">How to add a non-GitHub Project ?</a></li>
     <li><a href="/docs/how-to-add-a-course">How to add a Course ?</a></li>
 </ul>
 
