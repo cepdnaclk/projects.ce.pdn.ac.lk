@@ -1,6 +1,6 @@
 ---
 layout: project_old
-title: Biofeedback inputs for first person shooter games
+title: Biofeedback Inputs for First Person Shooter Games
 permalink: /4yp/e12/biofeedback-inputs-for-first-person-shooter-games
 
 has_children: false
