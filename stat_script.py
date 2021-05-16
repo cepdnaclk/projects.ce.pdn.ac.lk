@@ -213,7 +213,7 @@ if __name__ == "__main__":
                         batch = int(repoName[0][1:])
                         BATCHES[repoName[1]].add(batch)
                         filename = '-'.join(repoName[2:])
-                        path = "docs/github_repos/" + repoName[1] + "/" + repoName[0] + "/" + filename + ".md"
+                        path = "docs/github_projects/" + repoName[1] + "/" + repoName[0] + "/" + filename + ".md"
                         title = []
                         title = ' '.join(repoName[2:]).split()
 
