@@ -3,7 +3,7 @@ layout: default
 title: Contacts
 nav_order: 1
 description: ""
-permalink: /contact
+permalink: /contact/
 
 nav_exclude: true
 search_exclude: true

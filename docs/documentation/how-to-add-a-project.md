@@ -3,7 +3,7 @@ layout: default
 title: How to add a Project
 nav_order: 1
 description: ""
-permalink: /docs/how-to-add-a-project
+permalink: /docs/how-to-add-a-project/
 nav_exclude: true
 search_exclude: true
 ---

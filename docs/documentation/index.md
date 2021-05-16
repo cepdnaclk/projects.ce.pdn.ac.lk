@@ -3,7 +3,7 @@ layout: default
 title: Documentation
 nav_order: 1
 description: ""
-permalink: /docs
+permalink: /docs/
 
 nav_exclude: true
 search_exclude: true
