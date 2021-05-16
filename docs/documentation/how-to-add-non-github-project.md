@@ -3,7 +3,7 @@ layout: default
 title: How to add a Non-GitHub Project
 nav_order: 1
 description: ""
-permalink: /docs/how-to-add-non-github-project
+permalink: /docs/how-to-add-non-github-project/
 nav_exclude: true
 search_exclude: true
 ---

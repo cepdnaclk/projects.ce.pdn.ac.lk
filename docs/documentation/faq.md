@@ -3,7 +3,7 @@ layout: default
 title: FAQ
 nav_order: 1
 description: ""
-permalink: /docs/faq
+permalink: /docs/faq/
 
 nav_exclude: true
 search_exclude: true
