@@ -26,7 +26,7 @@ search_exclude: true
 <h3>Frequently Asked Questions</h3>
 <ul style="font-size: larger">
     <li>
-        <a href="./how-to-add-an-image/">How to add images to my GitHub page?</a>
+        <a href="/docs/faq/how-to-add-an-image/">How to add images to my GitHub page?</a>
     </li>
     <li>
         <a href="/docs/faq/how-to-configure-json/">How to configure the JSON file?</a>
