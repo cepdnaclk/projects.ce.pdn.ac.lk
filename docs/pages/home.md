@@ -12,14 +12,13 @@ search_exclude: true
 {% include page_tree_builder.html pages=site.html_pages %}
 
 <!-- Jumbotron Header -->
-<header class="jumbotron my-2">
+<header class="jumbotron my-2" style="margin: 30px!important;">
     <p class="lead">
         Welcome to the student project listing of the Department of Computer Engineering, University of Peradeniya. This website contains the documentation, code and other multimedia resources for the academic and extra curricular projects conducted by the students of the department.
     </p>
 </header>
 
 <div>
-    <h3 class="pt-3 pb-1">&nbsp;</h3>
     <div class="row text-center my-2">
         {% if page.has_children == true and page.has_toc != false %}
         {%- assign children_list = pages_list | where: "parent", page.title -%}
@@ -29,7 +28,7 @@ search_exclude: true
                 {% for child in children_list %}
 
                 {% if child.type == "GENERAL" %}
-                <div class="col-lg-4 col-md-6 mb-2 d-flex {{ child.type }}">
+                <div class="col-lg-4 col-md-6 mb-2 icon-box d-flex {{ child.type }}">
                     <a class="btn" href="{{ child.permalink }}">
                         <div class="card h-100">
                             <img class="card-img-top" src="{{ child.default_thumb_image }}" alt="">

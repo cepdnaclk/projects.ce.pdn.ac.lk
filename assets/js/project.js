@@ -84,12 +84,12 @@ function readRemoteData(page_url) {
                         // "url":"#"
 
                         if (
-                            pub.titke !== "Paper Title" &&
+                            pub.title !== "Paper Title" &&
                             pub.journal !== "Journal or Conference Name" &&
                             pub.description !== "Sample Description"
                         ) {
-                            $("#publicationsUL").append("<li><div>");
-                            $("#publicationsUL").append(
+                            $("#publicationsURL").append("<li><div>");
+                            $("#publicationsURL").append(
                                 "<a href='" +
                                 pub.url +
                                 "' target='_blank'>" +
@@ -98,10 +98,10 @@ function readRemoteData(page_url) {
                                 pub.journal +
                                 "<br>"
                             );
-                            $("#publicationsUL").append(
+                            $("#publicationsURL").append(
                                 "<small>" + pub.description + "</small>"
                             );
-                            $("#publicationsUL").append("</div></li>");
+                            $("#publicationsURL").append("</div></li>");
                         }
                     });
 
