@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: How to add a Project
 nav_order: 1
 description: ""

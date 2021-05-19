@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: How to add a Course
 nav_order: 4
 description: ""
