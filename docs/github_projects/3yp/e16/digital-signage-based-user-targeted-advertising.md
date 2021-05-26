@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e16-3yp-digital-signage-based-user-target
 page_url: https://cepdnaclk.github.io/e16-3yp-digital-signage-based-user-targeted-advertising
 
 forks: 4
-watchers: 3
-stars: 3
+watchers: 4
+stars: 4
 started_on: 2020-10-16T16:06:29Z
 ---
 A novel approach for digital signage based user targeted advertising
