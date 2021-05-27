@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e15-3yp-Smart-Monitoring-and-Automated-Controlling-System-for-an-Aquarium
 page_url: https://cepdnaclk.github.io/e15-3yp-Smart-Monitoring-and-Automated-Controlling-System-for-an-Aquarium
 
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: 2021-05-22T18:13:36Z
