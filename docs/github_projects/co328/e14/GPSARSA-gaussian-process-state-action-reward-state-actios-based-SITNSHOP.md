@@ -1,17 +1,17 @@
 ---
 layout: project_page
 title: GPSARSA gaussian process state action reward state actios based SITNSHOP
-permalink: /3yp/e14/GPSARSA-gaussian-process-state-action-reward-state-actios-based-SITNSHOP
+permalink: /co328/e14/GPSARSA-gaussian-process-state-action-reward-state-actios-based-SITNSHOP
 description: "An web application(+mobile application) to advertise any kinds of shops and more additional features"
 
 has_children: false
-parent: E14 Cyber-Physical Systems Projects
-grand_parent: Cyber-Physical Systems Projects
+parent: E14 Software Engineering Projects (CO328)
+grand_parent: Software Engineering Projects (CO328)
 
-cover_url: /data/categories/3yp/cover_page.jpg
-thumbnail_url: /data/categories/3yp/thumbnail.jpg
+cover_url: /data/categories/co328/cover_page.jpg
+thumbnail_url: /data/categories/co328/thumbnail.jpg
 
-repo_url: https://github.com/cepdnaclk/e14-3yp-GPSARSA-gaussian-process-state-action-reward-state-actios-based-SITNSHOP
+repo_url: https://github.com/cepdnaclk/e14-co328-GPSARSA-gaussian-process-state-action-reward-state-actios-based-SITNSHOP
 page_url: blank
 
 forks: 0
