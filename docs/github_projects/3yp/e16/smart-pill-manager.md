@@ -2,7 +2,7 @@
 layout: project_page
 title: smart pill manager
 permalink: /3yp/e16/smart-pill-manager
-description: "CO321 project repository by Group 7"
+description: "This project is about a device which we called a smart pill manager to help patients to get their medicine according to the given routine. "
 
 has_children: false
 parent: E16 Cyber-Physical Systems Projects
@@ -19,5 +19,5 @@ watchers: 1
 stars: 1
 started_on: 2020-10-16T14:38:30Z
 ---
-CO321 project repository by Group 7
+This project is about a device which we called a smart pill manager to help patients to get their medicine according to the given routine. 
 
