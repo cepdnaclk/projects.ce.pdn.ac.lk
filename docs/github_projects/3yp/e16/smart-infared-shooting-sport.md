@@ -2,7 +2,7 @@
 layout: project_page
 title: smart infared shooting sport
 permalink: /3yp/e16/smart-infared-shooting-sport
-description: "CO227 project repository by Group 8"
+description: "The purpose of this project was to design, build, and test an infrared shooting sport from the ground up to shoot farther in low cost and most importantly make it smart and updatable"
 
 has_children: false
 parent: E16 Cyber-Physical Systems Projects
@@ -19,5 +19,5 @@ watchers: 1
 stars: 1
 started_on: 2020-10-19T06:16:06Z
 ---
-CO227 project repository by Group 8
+The purpose of this project was to design, build, and test an infrared shooting sport from the ground up to shoot farther in low cost and most importantly make it smart and updatable
 
