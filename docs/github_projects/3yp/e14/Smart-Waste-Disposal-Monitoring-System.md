@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e14-3yp-Smart-Waste-Disposal-Monitoring-System
 page_url: https://cepdnaclk.github.io/e14-3yp-Smart-Waste-Disposal-Monitoring-System
 
-forks: 1
+forks: 0
 watchers: 0
 stars: 0
 started_on: 2021-06-02T14:29:02Z
