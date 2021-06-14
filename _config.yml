@@ -8,15 +8,11 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+
 title: CE Projects - UoP
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://projects.ce.pdn.ac.lk" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://projects.ce.pdn.ac.lk"
 
 permalink: pretty
 exclude:
@@ -40,18 +36,12 @@ exclude:
     "*.yml"
   ]
 
-# Regression tests
-# By default, the pages in /docs/tests are excluded when the ste is built.
-# To include them, comment-out the relevant line above.
-# Uncommenting the following line doesn't work - see https://github.com/jekyll/jekyll/issues/4791
-# include: ["docs/tests/"]
-
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/images/crest.png"
 
 # Enable or disable the site search
 # Supports true (default) or false
-search_enabled: false
+search_enabled: true
 search:
   # Split pages into sections that can be searched individually
   # Supports 1 - 6, default: 2
@@ -113,7 +103,6 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 color_scheme: dark
 
 # Google Analytics Tracking (optional)
-# e.g, UA-1234567-89
 ga_tracking: G-YR7F4DDP6Q
 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
