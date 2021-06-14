@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-page_title: Home - projects.ce.pdn.ac.lk
+page_title: Home | projects.ce.pdn.ac.lk
 
 nav_order: 1
 description: ""

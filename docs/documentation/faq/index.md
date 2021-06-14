@@ -1,6 +1,8 @@
 ---
 layout: post
 title: FAQ
+page_title: FAQ | projects.ce.pdn.ac.lk
+
 nav_order: 1
 description: ""
 permalink: /docs/faq/

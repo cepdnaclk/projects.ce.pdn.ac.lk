@@ -1,6 +1,8 @@
 ---
 layout: default
 title: About
+page_title: About - projects.ce.pdn.ac.lk
+
 nav_order: 1
 description: ""
 permalink: /about/

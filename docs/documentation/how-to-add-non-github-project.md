@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to add a Non-GitHub Project
+title: How to add a Non-GitHub Project | Docs
 nav_order: 1
 description: ""
 permalink: /docs/how-to-add-non-github-project/

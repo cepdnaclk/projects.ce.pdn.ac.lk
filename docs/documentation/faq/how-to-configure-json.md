@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FAQ | How to configure the JSON file
+title: FAQ | How to configure the JSON file | FAQ
 nav_order: 1
 description: ""
 permalink: /docs/faq/how-to-configure-json/

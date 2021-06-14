@@ -9,7 +9,7 @@
     {% endif %}
     {% endunless %}
 
-    {% page.page_title %}
+    {% if page.page_title %}
     <title>{{ page.page_title }}</title>
     {% else %}
     <title>{{ page.title }}</title>
