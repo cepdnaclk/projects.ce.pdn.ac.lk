@@ -9,7 +9,11 @@
     {% endif %}
     {% endunless %}
 
-    <title>{{ page.title }} - {{ site.title }}</title>
+    {% if page.page_title %}
+    <title>{{ page.page_title }}</title>
+    {% else %}
+    <title>{{ page.title }}</title>
+    {% endif %}
 
     <link rel="shortcut icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" type="image/x-icon">
 

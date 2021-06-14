@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FAQ | How to add an image
+title: How to add an image | FAQ
 nav_order: 1
 description: ""
 permalink: /docs/faq/how-to-add-an-image/

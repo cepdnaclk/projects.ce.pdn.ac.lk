@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Documentation
+page_title: Documentation | projects.ce.pdn.ac.lk
+
 nav_order: 1
 description: ""
 permalink: /docs/

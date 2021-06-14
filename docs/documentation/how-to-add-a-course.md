@@ -1,6 +1,7 @@
 ---
 layout: post
-title: How to add a Course
+title: How to add a Course | Docs
+
 nav_order: 4
 description: ""
 permalink: /docs/how-to-add-a-course/

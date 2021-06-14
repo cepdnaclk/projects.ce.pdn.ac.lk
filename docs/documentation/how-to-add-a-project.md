@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to add a Project
+title: How to add a Project | Docs
 nav_order: 1
 description: ""
 permalink: /docs/how-to-add-a-project/

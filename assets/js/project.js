@@ -70,7 +70,7 @@ function readRemoteData(page_url) {
                 if (data.tags.length > 0) {
                     $(".remoteDataTags").removeClass("d-none");
                     $.each(data.tags, function(index, tag) {
-                        $("#tagList").append(`<span class='tag'>${tag}</span> `);
+                        $("#tagList").append(`<span class='tag m-2'>${tag}</span> `);
                     });
                 }
 

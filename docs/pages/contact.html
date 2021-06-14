@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Contacts
+page_title: Contacts | projects.ce.pdn.ac.lk
+
 nav_order: 1
 description: ""
 permalink: /contact/
