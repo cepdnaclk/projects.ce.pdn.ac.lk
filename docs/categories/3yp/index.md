@@ -9,6 +9,8 @@ code: 3yp
 type: GENERAL
 parent: Home
 has_toc: true
+search_exclude: true
+
 default_thumb_image: /data/categories/3yp/thumbnail.jpg
 description: Cyber-Physical Systems designed and implemented by 3rd year Computer Engineering Students as part of coursework. These projects contain modern embedded hardware and software, cloud-deployed web back-end/front-end software and modern networking and communication for integration
 ---

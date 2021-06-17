@@ -81,7 +81,7 @@ watchers: """ + str(watch) + """
 stars: """ + str(stars) + """
 started_on: """ + date + """
 ---
-""" + description + """
+""" + description.replace("\"", "'") + """
 
 """
     return s
@@ -97,6 +97,7 @@ parent: """ + project + """
 batch: e""" + batch + """
 code: """ + code + """
 
+search_exclude: true
 default_thumb_image: /data/categories/""" + tag + """/thumbnail.jpg
 description: """ + description
     return template
@@ -114,6 +115,8 @@ code: """ + code + """
 type: """ + type + """
 parent: Home
 has_toc: true
+search_exclude: true
+
 default_thumb_image: /data/categories/""" + code + """/""" + thumbnail + """
 description: """ + description + """
 ---"""
@@ -251,7 +254,7 @@ if __name__ == "__main__":
                             page = "blank"
 
                         os.makedirs(os.path.dirname(path), exist_ok=True)
-                        outputFile = open(path, "w+")
+                        outputFile = open(path, "w+", encoding="utf-8")
 
                         if jsonData[i]["description"]:
                             desc = jsonData[i]["description"]

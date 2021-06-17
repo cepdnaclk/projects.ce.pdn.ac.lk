@@ -9,6 +9,8 @@ code: co542
 type: COURSE
 parent: Home
 has_toc: true
+search_exclude: true
+
 default_thumb_image: /data/categories/co542/thumbnail.jpg
 description: 
 ---
