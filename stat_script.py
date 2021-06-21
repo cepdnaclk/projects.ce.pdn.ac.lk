@@ -207,8 +207,8 @@ if __name__ == "__main__":
             break
 
         for i in range(len(jsonData)):
-            print(jsonData[i]["name"])
             repoName = jsonData[i]["name"].strip().split("-")
+            print(repoName)
 
             if repoName[0][0] == "e" and repoName[0][1:] != 'YY':
                 if repoName[1] in CATEGORIES:
@@ -239,7 +239,7 @@ if __name__ == "__main__":
                         #         # capitalized = capitalized + " " + word.capitalize()
                         #         capitalized = capitalized + " " + word
 
-                        print(capitalized)
+                        # print(capitalized)
 
                         permalink = "/" + repoName[1] + "/" + repoName[0] + "/" + filename
                         stars = jsonData[i]["stargazers_count"]

@@ -53,7 +53,7 @@ Note: Different templates may have different set of parameters, but you can use 
     <tr>
         <td>github_profile</td>
         <td>(Optional) The link to the GitHub profile of the student</td>
-        <td>github_profile": "https://github.com/HerathAB"</td>
+        <td>"github_profile": "https://github.com/HerathAB"</td>
     </tr>
 
     <tr>
