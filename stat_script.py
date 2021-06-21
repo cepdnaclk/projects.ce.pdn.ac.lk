@@ -210,7 +210,7 @@ if __name__ == "__main__":
             repoName = jsonData[i]["name"].strip().split("-")
             print(repoName)
 
-            if repoName[0][0] == "e" and repoName[0][1:] != 'YY':
+            if len(repoName)>1 and repoName[0][0] == "e" and repoName[0][1:] != 'YY':
                 if repoName[1] in CATEGORIES:
                     try:
                         batch = int(repoName[0][1:])
