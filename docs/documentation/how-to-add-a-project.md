@@ -59,9 +59,9 @@ search_exclude: true
     <p class="mb-0 px-5"><b>eYY-CATEGORY-TITLE</b></p>
 </blockquote>
 
-<dd><b>YY</b>: 2 digit batch number</dd>
-<dd><b>CATEGORY</b>: One of the following supported category tags</dd>
-<dd><b>TITLE</b>: A suitable name for your project</dd>
+- **YY**: 2 digit batch number
+- **CATEGORY**: One of the following supported category tags
+- **TITLE**: A suitable name for your project (You can use both capital and simple letters and eplace the spaces with '-')
 
 <br>
 <blockquote>
