@@ -61,11 +61,11 @@ search_exclude: true
 
 - **YY**: 2 digit batch number
 - **CATEGORY**: One of the following supported category tags
-- **TITLE**: A suitable name for your project (You can use both capital and simple letters and eplace the spaces with '-')
+- **TITLE**: A suitable name for your project (You can use both capital and simple letters, words can be seprated using '-')
 
 <br>
 <blockquote>
-    <span class="px-5">Ex: e15-4yp-project-name</span>
+    <span class="px-5">Ex > For E15 Final Year project:<br>e15-4yp-Project-Name</span> 
 </blockquote>
 
 <br>
