@@ -65,7 +65,8 @@ search_exclude: true
 
 <br>
 <blockquote>
-    <span class="px-5">Ex > For E15 Final Year project:<br>e15-4yp-Project-Name</span> 
+    Ex: For E15 Final Year project:
+    <span class="px-5">e15-4yp-Project-Name</span> 
 </blockquote>
 
 <br>
