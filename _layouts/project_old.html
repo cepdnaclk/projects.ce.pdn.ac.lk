@@ -50,25 +50,30 @@ layout: table_wrappers
                         <!-- Post Content -->
                         <p class="lead">{{ page.description }}</p>
 
+                        {% if page.team.size > 0 %}
                         <h3 class="pt-3">Team</h3>
                         <ul>
                             {% for member in page.team %}
                             <li>{{ member }}</li>
                             {% endfor %}
                         </ul>
+                        {% endif %}
 
+                        {% if page.supervisors.size > 0 %}
                         <h3 class="pt-3">Supervisors</h3>
                         <ul>
                             {% for member in page.supervisors %}
                             <li>{{ member }}</li>
                             {% endfor %}
                         </ul>
+                        {% endif %}
 
+                        {% if content.size > 10 %}
                         <h3 class="pt-3">Description</h3>
                         <div class="px-3">
                             {{ content }}
                         </div>
-
+                        {% endif %}
 
                         {% if page.has_publication %}
                         <h3 class="pt-3">Publications:</h3>
