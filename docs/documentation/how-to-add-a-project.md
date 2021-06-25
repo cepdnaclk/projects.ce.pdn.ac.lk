@@ -59,13 +59,14 @@ search_exclude: true
     <p class="mb-0 px-5"><b>eYY-CATEGORY-TITLE</b></p>
 </blockquote>
 
-<dd><b>YY</b>: 2 digit batch number</dd>
-<dd><b>CATEGORY</b>: One of the following supported category tags</dd>
-<dd><b>TITLE</b>: A suitable name for your project</dd>
+- **YY**: 2 digit batch number
+- **CATEGORY**: One of the following supported category tags
+- **TITLE**: A suitable name for your project (You can use both capital and simple letters, words can be seprated using '-')
 
 <br>
 <blockquote>
-    <span class="px-5">Ex: e15-4yp-project-name</span>
+    Ex: For E15 Final Year project:
+    <span class="px-5">e15-4yp-Project-Name</span> 
 </blockquote>
 
 <br>
@@ -78,8 +79,10 @@ search_exclude: true
 | co328 | Software Engineering Project          |
 | co226 | Database Projects                     |
 | co326 | Computer Systems Engineering Projects |
+| co502 | Advanced Computer Architecture        |
 | co543 | Image Processing                      |
 | co542 | Neural Networks                       |
+
 
 <br>
 
