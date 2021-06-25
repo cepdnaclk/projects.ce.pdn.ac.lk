@@ -79,9 +79,10 @@ search_exclude: true
 | co328 | Software Engineering Project          |
 | co226 | Database Projects                     |
 | co326 | Computer Systems Engineering Projects |
+| co502 | Advanced Computer Architecture        |
 | co543 | Image Processing                      |
 | co542 | Neural Networks                       |
-| co502 | Advanced Computer Architecture        |
+
 
 <br>
 
