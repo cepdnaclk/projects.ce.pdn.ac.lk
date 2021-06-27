@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-3yp-maker-mate
 page_url: blank
 
-forks: 1
+forks: 2
 watchers: 0
 stars: 0
 started_on: 2021-06-23T17:40:22Z
