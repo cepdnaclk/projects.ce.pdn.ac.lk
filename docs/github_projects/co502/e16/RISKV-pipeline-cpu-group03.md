@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: riskv pipeline cpu group03
-permalink: /co502/e16/riskv-pipeline-cpu-group03
+title: RISKV pipeline cpu group03
+permalink: /co502/e16/RISKV-pipeline-cpu-group03
 description: "CPU and memory system including cache memory implementation according to the RISK-V Instruction set"
 
 has_children: false
@@ -11,8 +11,8 @@ grand_parent: Advanced Computer Architecture (CO502)
 cover_url: /data/categories/co502/cover_page.jpg
 thumbnail_url: /data/categories/co502/thumbnail.jpg
 
-repo_url: https://github.com/cepdnaclk/e16-co502-riskv-pipeline-cpu-group03
-page_url: blank
+repo_url: https://github.com/cepdnaclk/e16-co502-RISKV-pipeline-cpu-group03
+page_url: https://cepdnaclk.github.io/e16-co502-RISKV-pipeline-cpu-group03
 
 forks: 0
 watchers: 0
