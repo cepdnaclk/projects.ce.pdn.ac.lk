@@ -1,6 +1,6 @@
 function readLanguageData(repo_url) {
     const repoURLComponents = repo_url.split("/");
-    const repoName = repoURLComponents[repoURLComponents.length - 2];
+    const repoName = repoURLComponents[repoURLComponents.length - 1];
     const url = `https://api.github.com/repos/cepdnaclk/${repoName}/languages`;
 
     $.ajax({
