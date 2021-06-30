@@ -12,5 +12,5 @@ has_toc: true
 search_exclude: true
 
 default_thumb_image: /data/categories/co542/thumbnail.jpg
-description: 
+description: This section contains projects conducted as a partial requirement to complete the course CO542 - Neural Networks and Fuzzy Systems
 ---

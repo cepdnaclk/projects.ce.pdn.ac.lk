@@ -5,8 +5,8 @@ permalink: /co326/e15/Remotely-Controlled-CNC-Robot
 description: "In this project, we hope to develop a CNC (Computer Numerical Control) based pick and place arm, which will help to try different wiring arrangements in a PLC rig and try experiments on it remotely."
 
 has_children: false
-parent: E15 Computer Systems Engineering Projects (CO326)
-grand_parent: Computer Systems Engineering Projects (CO326)
+parent: E15 Industrial Automation Projects (CO326)
+grand_parent: Industrial Automation Projects (CO326)
 
 cover_url: /data/categories/co326/cover_page.jpg
 thumbnail_url: /data/categories/co326/thumbnail.jpg
