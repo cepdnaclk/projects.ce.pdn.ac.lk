@@ -2,7 +2,7 @@
 layout: project_page
 title: Covid Tracer
 permalink: /3yp/e17/Covid-Tracer
-description: "Project on Fully Automated Covid19 Tracking System https://github.com/cepdnaclk/e17-3yp-Covid-Tracer/"
+description: "Fully Autonomous Covid19 Tracking System https://cepdnaclk.github.io/e17-3yp-Covid-Tracer"
 
 has_children: false
 parent: E17 Cyber-Physical Systems Projects
@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e17-3yp-Covid-Tracer
 forks: 0
 watchers: 0
 stars: 0
-started_on: 2021-06-22T07:04:16Z
+started_on: 2021-06-27T05:05:10Z
 ---
-Project on Fully Automated Covid19 Tracking System https://github.com/cepdnaclk/e17-3yp-Covid-Tracer/
+Fully Autonomous Covid19 Tracking System https://cepdnaclk.github.io/e17-3yp-Covid-Tracer
 
