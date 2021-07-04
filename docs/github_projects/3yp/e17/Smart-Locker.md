@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: smart home
-permalink: /3yp/e17/smart-home
+title: Smart Locker
+permalink: /3yp/e17/Smart-Locker
 description: ""
 
 has_children: false
@@ -11,13 +11,13 @@ grand_parent: Cyber-Physical Systems Projects
 cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 
-repo_url: https://github.com/cepdnaclk/e17-3yp-smart-home
-page_url: https://cepdnaclk.github.io/e17-3yp-smart-home
+repo_url: https://github.com/cepdnaclk/e17-3yp-Smart-Locker
+page_url: https://cepdnaclk.github.io/e17-3yp-Smart-Locker
 
-forks: 2
+forks: 3
 watchers: 0
 stars: 0
-started_on: 2021-07-02T15:17:34Z
+started_on: 2021-07-04T05:00:19Z
 ---
 
 

@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e17-3yp-remote-medical-diagnostics
 page_url: https://cepdnaclk.github.io/e17-3yp-remote-medical-diagnostics
 
 forks: 1
-watchers: 2
-stars: 2
+watchers: 1
+stars: 1
 started_on: 2021-06-22T06:16:21Z
 ---
 An online platform combined with a convenient medical diagnostic device where patients can meet doctors and get diagnosed at the comfort of their home.
