@@ -2,7 +2,7 @@
 layout: project_page
 title: Wild Life Tracker
 permalink: /3yp/e17/Wild-Life-Tracker
-description: "Wild life tracking system specially designed for researchers. A project by 3rd year undergraduates, @EsaraSithumal @hansa31 @LakshithaCS  of faculty of engineering university of peradeniya "
+description: "Wild life tracking system specially designed for researchers to study behaviors of wild animals remotely. "
 
 has_children: false
 parent: E17 Cyber-Physical Systems Projects
@@ -19,5 +19,5 @@ watchers: 0
 stars: 0
 started_on: 2021-06-24T10:01:57Z
 ---
-Wild life tracking system specially designed for researchers. A project by 3rd year undergraduates, @EsaraSithumal @hansa31 @LakshithaCS  of faculty of engineering university of peradeniya 
+Wild life tracking system specially designed for researchers to study behaviors of wild animals remotely. 
 
