@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e14-3yp-Automated-Attendance-system
 page_url: https://cepdnaclk.github.io/e14-3yp-Automated-Attendance-system
 
-forks: 1
+forks: 0
 watchers: 0
 stars: 0
 started_on: 2021-05-30T20:26:33Z
