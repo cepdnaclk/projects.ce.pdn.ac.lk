@@ -12,7 +12,7 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e17-3yp-Smart-Cradle
-page_url: blank
+page_url: https://cepdnaclk.github.io/e17-3yp-Smart-Cradle
 
 forks: 0
 watchers: 0
