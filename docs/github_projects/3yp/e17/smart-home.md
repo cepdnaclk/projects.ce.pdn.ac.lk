@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e17-3yp-smart-home
 page_url: https://cepdnaclk.github.io/e17-3yp-smart-home
 
 forks: 2
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: 2021-07-02T15:17:34Z
 ---
 
