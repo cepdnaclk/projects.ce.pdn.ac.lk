@@ -3,17 +3,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% unless site.plugins contains "jekyll-seo-tag" %}
-    {% if page.description %}
-    <meta name="Description" content="{{ page.description }}">
-    {% endif %}
-    {% endunless %}
+    {% unless site.plugins contains "jekyll-seo-tag" -%}
+    {% if page.description --%}
+    <meta name="description" content="{{ page.description }}">
+    {% else if page.title and page.sub_title -%}
+    <meta name="description" content="{{ page.title }} - {{ page.sub_title }}">
+    {% else if page.title -%}
+    <meta name="description" content="{{ page.title }}">
+    {% endif --%}
+    {% endunless --%}
 
-    {% if page.page_title %}
+    {% if page.page_title -%}
     <title>{{ page.page_title }}</title>
-    {% else %}
+    {% else -%}
     <title>{{ page.title }}</title>
-    {% endif %}
+    {% endif -%}
 
     <link rel="shortcut icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" type="image/x-icon">
 
@@ -21,22 +25,21 @@
     <link rel="stylesheet" href="{{ '/assets/css/app.css' | relative_url }}">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    {% seo %}
+    {% seo -%}
 
-    {% if site.ga_tracking != nil %}
+    {% if site.ga_tracking != nil -%}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
-        gtag('config', '{{ site.ga_tracking }}'{% unless site.ga_tracking_anonymize_ip == nil %}, { 'anonymize_ip': true }{% endunless %});
+        gtag('config', '{{ site.ga_tracking }}'{% unless site.ga_tracking_anonymize_ip == nil -%}, { 'anonymize_ip': true }{% endunless -%});
     </script>
-    {% endif %}
+    {% endif -%}
 
-    {% if site.search_enabled != false %}
+    {% if site.search_enabled != false -%}
     <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
-    {% endif %}
+    {% endif -%}
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>

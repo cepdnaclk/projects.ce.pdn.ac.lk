@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-3yp-smart-home
 page_url: https://cepdnaclk.github.io/e17-3yp-smart-home
 
-forks: 2
+forks: 3
 watchers: 1
 stars: 1
 started_on: 2021-07-02T15:17:34Z
