@@ -12,9 +12,9 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e17-3yp-smart-apartment-security-system
-page_url: blank
+page_url: https://cepdnaclk.github.io/e17-3yp-smart-apartment-security-system
 
-forks: 0
+forks: 3
 watchers: 0
 stars: 0
 started_on: 2021-06-28T04:27:07Z

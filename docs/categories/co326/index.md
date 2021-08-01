@@ -1,6 +1,6 @@
 ---
 layout: project_cat
-title: Computer Systems Engineering Projects (CO326)
+title: Industrial Automation Projects (CO326)
 nav_order: 5
 permalink: /co326/
 has_children: true

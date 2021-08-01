@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e16-3yp-agribot
 page_url: https://cepdnaclk.github.io/e16-3yp-agribot
 
 forks: 3
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: 2020-10-17T05:26:03Z
 ---
 Autonomous Agricultural Robot

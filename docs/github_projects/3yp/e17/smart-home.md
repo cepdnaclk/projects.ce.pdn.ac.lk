@@ -2,7 +2,7 @@
 layout: project_page
 title: smart home
 permalink: /3yp/e17/smart-home
-description: "Controling and monitoring home electric switches and sockets using the mobile phone  https://github.com/cepdnaclk/e17-3yp-smart-home"
+description: ""
 
 has_children: false
 parent: E17 Cyber-Physical Systems Projects
@@ -12,12 +12,12 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e17-3yp-smart-home
-page_url: blank
+page_url: https://cepdnaclk.github.io/e17-3yp-smart-home
 
-forks: 1
-watchers: 0
-stars: 0
-started_on: 2021-06-25T14:32:21Z
+forks: 3
+watchers: 1
+stars: 1
+started_on: 2021-07-02T15:17:34Z
 ---
-Controling and monitoring home electric switches and sockets using the mobile phone  https://github.com/cepdnaclk/e17-3yp-smart-home
+
 
