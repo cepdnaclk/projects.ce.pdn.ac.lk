@@ -20,3 +20,4 @@ stars: 3
 started_on: 2021-06-22T05:46:29Z
 ---
 The Remote Keyboard Tutoring System is a web-based system that can be attached to any (electronic) keyboard synthesizer through a MIDI connector. Once our system is connected to the keyboard, the user can interactively learn, play or teach in combination with the web application that we provide.
+
