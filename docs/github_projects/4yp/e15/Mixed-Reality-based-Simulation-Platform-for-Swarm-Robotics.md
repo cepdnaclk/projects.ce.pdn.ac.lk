@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e15-4yp-Mixed-Reality-based-Simulation-Platform-for-Swarm-Robotics
 page_url: https://cepdnaclk.github.io/e15-4yp-Mixed-Reality-based-Simulation-Platform-for-Swarm-Robotics
 
-forks: 1
+forks: 0
 watchers: 1
 stars: 1
 started_on: 2021-01-31T12:50:52Z
