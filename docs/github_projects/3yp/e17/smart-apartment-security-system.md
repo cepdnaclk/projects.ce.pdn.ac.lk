@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e17-3yp-smart-apartment-security-system
 page_url: https://cepdnaclk.github.io/e17-3yp-smart-apartment-security-system
 
 forks: 3
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: 2021-06-28T04:27:07Z
 ---
 Smart Apartment Security System is a security system which can be used for houses in an apartment.
