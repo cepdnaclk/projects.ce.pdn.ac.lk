@@ -2,7 +2,7 @@
 layout: project_page
 title: Smart Cradle
 permalink: /3yp/e17/Smart-Cradle
-description: ""
+description: "An automated cradle which is controlled by a mobile application."
 
 has_children: false
 parent: E17 Cyber-Physical Systems Projects
@@ -19,5 +19,5 @@ watchers: 0
 stars: 0
 started_on: 2021-06-22T09:15:35Z
 ---
-
+An automated cradle which is controlled by a mobile application.
 
