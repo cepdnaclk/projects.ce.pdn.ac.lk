@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e16-3yp-smart-payment-system
 page_url: https://cepdnaclk.github.io/e16-3yp-smart-payment-system
 
 forks: 5
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: 2020-10-17T05:53:43Z
 ---
 In a gaming center, they normally use coins to play games. When a customer comes, they have to buy coins from the cashier to use those as a paying method to the gaming machine. So we came up with a simple but efficient solution that will allow you to play any game inside a gaming center with a single tap. It is RFID based payment system.
