@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: Healthy Milk Collecting System
-permalink: /3yp/e17/Healthy-Milk-Collecting-System
+title: Milk Testing and Collecting System
+permalink: /3yp/e17/Milk-Testing-and-Collecting-System
 description: "cyber physical project to develop milk collecting process."
 
 has_children: false
@@ -11,8 +11,8 @@ grand_parent: Cyber-Physical Systems Projects
 cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 
-repo_url: https://github.com/cepdnaclk/e17-3yp-Healthy-Milk-Collecting-System
-page_url: https://cepdnaclk.github.io/e17-3yp-Healthy-Milk-Collecting-System
+repo_url: https://github.com/cepdnaclk/e17-3yp-Milk-Testing-and-Collecting-System
+page_url: https://cepdnaclk.github.io/e17-3yp-Milk-Testing-and-Collecting-System
 
 forks: 3
 watchers: 0
