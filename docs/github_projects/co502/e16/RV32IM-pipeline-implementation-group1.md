@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e16-co502-RV32IM-pipeline-implementation-
 page_url: https://cepdnaclk.github.io/e16-co502-RV32IM-pipeline-implementation-group1
 
 forks: 3
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: 2021-06-30T16:54:58Z
 ---
 This project is a pipeline implementation of RV32IM using verilog.
