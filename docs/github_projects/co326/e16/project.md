@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/co326/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-co326-project
 page_url: blank
 
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: 2021-10-20T08:45:54Z

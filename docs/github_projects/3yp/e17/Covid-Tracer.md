@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e17-3yp-Covid-Tracer
 page_url: https://cepdnaclk.github.io/e17-3yp-Covid-Tracer
 
 forks: 3
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: 2021-06-27T05:05:10Z
 ---
 Fully Autonomous Covid19 Tracking System https://cepdnaclk.github.io/e17-3yp-Covid-Tracer
