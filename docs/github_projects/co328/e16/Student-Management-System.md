@@ -12,7 +12,7 @@ cover_url: /data/categories/co328/cover_page.jpg
 thumbnail_url: /data/categories/co328/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e16-co328-Student-Management-System
-page_url: blank
+page_url: https://cepdnaclk.github.io/e16-co328-Student-Management-System
 
 forks: 1
 watchers: 0

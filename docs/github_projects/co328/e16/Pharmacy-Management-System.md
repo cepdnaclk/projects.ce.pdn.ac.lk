@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/co328/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-co328-Pharmacy-Management-System
 page_url: blank
 
-forks: 2
+forks: 3
 watchers: 0
 stars: 0
 started_on: 2021-10-28T10:54:44Z

@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/co326/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e15-co326-Remotely-Controlled-CNC-Robot
 page_url: https://cepdnaclk.github.io/e15-co326-Remotely-Controlled-CNC-Robot
 
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: 2020-10-20T06:21:59Z
