@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e16-3yp-smart-pill-manager
 page_url: https://cepdnaclk.github.io/e16-3yp-smart-pill-manager
 
 forks: 4
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: 2020-10-16T14:38:30Z
 ---
 This project is about a device which we called a smart pill manager to help patients to get their medicine according to the given routine. 
