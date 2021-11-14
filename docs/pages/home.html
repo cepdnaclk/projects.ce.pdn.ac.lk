@@ -30,10 +30,12 @@ search_exclude: true
                 {% for child in children_list %}
 
                 {% if child.type == "GENERAL" %}
-                <div class="col-lg-4 col-md-6 mb-2 icon-box d-flex {{ child.type }}">
+                <div class="col-lg-4 col-md-6 mb-1 icon-box d-flex {{ child.type }} img-hover-zoom-card">
                     <a class="btn" href="{{ child.permalink }}">
                         <div class="card h-100">
-                            <img class="card-img-top" src="{{ child.default_thumb_image }}" alt="">
+                            <div class="img-hover-zoom">
+                                <img class="card-img-top" src="{{ child.default_thumb_image }}" alt="{{child.title}}">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">{{child.title}}</h5>
                             </div>
@@ -58,10 +60,12 @@ search_exclude: true
                 {% for child in children_list %}
 
                 {% if child.type == "COURSE" %}
-                <div class="col-lg-3 col-md-6 mb-2 d-flex {{ child.type }}">
+                <div class="col-lg-3 col-md-6 mb-1 d-flex {{ child.type }} img-hover-zoom-card">
                     <a class="btn" href="{{ child.permalink }}">
                         <div class="card h-100">
-                            <img class="card-img-top" src="{{ child.default_thumb_image }}" alt="">
+                            <div class="img-hover-zoom">
+                                <img class="card-img-top" src="{{ child.default_thumb_image }}" alt="{{child.title}}">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">{{child.title}}</h5>
                             </div>
@@ -78,25 +82,25 @@ search_exclude: true
 
     <!-- <h3 class="pt-3 pb-1">Department Projects</h3>
     <div class="row text-center my-4">
-        {% if page.has_children == true and page.has_toc != false %}
-        {%- assign children_list = pages_list | where: "project_type", "DepartmentProject" -%}
+    {% if page.has_children == true and page.has_toc != false %}
+    {%- assign children_list = pages_list | where: "project_type", "DepartmentProject" -%}
 
-        <div class="container p-0 mw-100">
-            <div class="row">
-                {% for child in children_list %}
-                <div class="col-lg-3 col-md-6 mb-2 d-flex">
-                    <a class="btn" href="{{ child.link }}" target="_blank">
-                        <div class="card h-100">
-                            <img class="card-img-top" src="{{ child.default_thumb_image | relative_url }}" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">{{ child.title }}</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-        {% endif %}
-    </div> -->
+    <div class="container p-0 mw-100">
+    <div class="row">
+    {% for child in children_list %}
+    <div class="col-lg-3 col-md-6 mb-2 d-flex">
+    <a class="btn" href="{{ child.link }}" target="_blank">
+    <div class="card h-100">
+    <img class="card-img-top" src="{{ child.default_thumb_image | relative_url }}" alt="">
+    <div class="card-body">
+    <h5 class="card-title">{{ child.title }}</h5>
+</div>
+</div>
+</a>
+</div>
+{% endfor %}
+</div>
+</div>
+{% endif %}
+</div> -->
 </div>
