@@ -1,10 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 
 /*--------------------------------*/
 p, ul{
     font-size: 12pt;
+}
+
+.card{
+    border: 1px solid #d0d0d0 !important;
+}
+.img-hover-zoom-card {
+  overflow: hidden;
+}
+.img-hover-zoom {
+  overflow: hidden;
+}
+.img-hover-zoom-card img {
+  transition: transform .5s ease;
+}
+.img-hover-zoom-card:hover img {
+  transform: scale(1.1);
 }
 
 .icon-box{
