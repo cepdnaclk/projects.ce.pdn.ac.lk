@@ -1,0 +1,10 @@
+---
+layout: null
+permalink: "/api/all/"
+---
+{%- assign project_list = site.html_pages | where: "layout", "project_page" -%}
+[
+    {% for project in project_list -%}
+    {%- include api_project.html project=project -%}{% if forloop.last %}{% else %},{% endif %}
+    {% endfor -%}
+]

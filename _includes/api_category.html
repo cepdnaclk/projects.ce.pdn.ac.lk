@@ -1,0 +1,18 @@
+{
+    "title": "{{ category.title }}",
+    "code": "{{ category.code }}",
+    "type": "{{ category.type }}",
+    "description": "{{ category.description }}",
+    "page_url": "{{ site.url }}{{ category.permalink | strip }}",
+    "batches":{
+        {%- assign batch_list = pages_list | where: "parent", category.title -%}
+        {% for batch in batch_list -%}
+        "{{ batch.batch }}":{
+            {%- assign proj_list = pages_list | where: "parent", batch.title -%}
+            "page_url": "{{ site.url }}{{ batch.permalink | strip }}",
+            "project_count": "{{ proj_list.size }}"
+        }
+        {% if forloop.last %}{% else %},{% endif %}
+        {% endfor -%}
+    }
+}
