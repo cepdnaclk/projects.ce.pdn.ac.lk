@@ -1,0 +1,13 @@
+---
+layout: null
+permalink: "/api/categories/"
+---
+{% include page_tree_builder.html pages=site.html_pages -%}
+[
+    {%- assign children_list = pages_list | where: "parent", "Home" -%}
+
+    {% for category in children_list -%}
+    {% include api_category.html category=category %}
+    {% if forloop.last %}{% else %},{% endif %}
+    {% endfor -%}
+]

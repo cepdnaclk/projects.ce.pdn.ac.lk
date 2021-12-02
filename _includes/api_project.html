@@ -1,0 +1,19 @@
+{% assign cat = project.parent | split: " " %}
+{
+    "title": "{{ project.title }}",
+    "description": "{{ project.description }}",
+    "batch": "{{ cat[0] }}",
+    "category": "{{ project.grand_parent }}",
+    "project_url": "{{ site.url }}{{ project.permalink }}",
+    "cover_url": "{{ site.url }}{{ project.cover_url }}",
+    "thumbnail_url": "{{ site.url }}{{ project.thumbnail_url }}",
+    "repo_url": "{{ project.repo_url }}",
+    {% if project.page_url != "blank" %}
+    "page_url": "{{ project.page_url }}",
+    "data_url": "{{ project.page_url }}/data/index.json"
+    {% else %}
+    "page_url": "#",
+    "data_url": "#"
+    {% endif %}
+
+}
