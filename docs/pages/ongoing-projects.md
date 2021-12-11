@@ -8,7 +8,7 @@ navbar_active: Sitemap
     .badge{
         padding: 5px 15px;
         background-color: #74c3e6 !important;
-        border: 1px solid gray;
+        border: 1px solid rgb(61, 120, 190);
         font-size: 11pt !important;
     }
 
@@ -22,15 +22,17 @@ navbar_active: Sitemap
 ## Department Projects
 
 Here you can see the ongoing department projects here. If you are interested to contribute to those projects, please feel free to contact;
+- Prof. Roshan Ragel ( Email: roshanr [at] eng.pdn.ac.lk )
 - Dr. Isuru Nawinne ( Email: isurunawinne [at] eng.pdn.ac.lk )
-- Nuwan Jaliyagoda ( Email: nuwanjaliyagoda [at] eng.pdn.ac.lk / WhatsApp: 94 77 889 1312 )
+- Nuwan Jaliyagoda ( Email: nuwanjaliyagoda [at] eng.pdn.ac.lk / WhatsApp: +94 77 889 1312 )
+- Akila Karunanayake ( Email: e17154 [at] eng.pdn.ac.lk / WhatsApp: +94 77 452 1658 )
 
 Even if you don't have any technical knowledge, it is ok to join the projects. We can guide you to learn the technologies and get a good experience on the *"Computer Engineering"*.
 
 ---
 
 #### projects.ce.pdn.ac.lk
-Project Repository: [https://github.com/cepdnaclk/projects.ce.pdn.ac.lk](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk)
+GitHub Repository: [https://github.com/cepdnaclk/projects.ce.pdn.ac.lk](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk)
 
 - [Remaining Tasks](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/issues)
 - Web development and integration project
@@ -40,34 +42,37 @@ Project Repository: [https://github.com/cepdnaclk/projects.ce.pdn.ac.lk](https:/
 Looking for <span class="badge">Volunteers</span>
 
 #### people.ce.pdn.ac.lk
-Project Repository: [https://github.com/cepdnaclk/people.ce.pdn.ac.lk](https://github.com/cepdnaclk/people.ce.pdn.ac.lk)
+GitHub Repository: [https://github.com/cepdnaclk/people.ce.pdn.ac.lk](https://github.com/cepdnaclk/people.ce.pdn.ac.lk)
 
+- Profile pages for the department students and staff using GitHub pages
 - Web development and integration project
-- Ongoing project
+- Ongoing
 
 #### faq.ce.pdn.ac.lk
-Project Repository: [https://github.com/cepdnaclk/faq.ce.pdn.ac.lk](https://github.com/cepdnaclk/faq.ce.pdn.ac.lk)
+GitHub Repository: [https://github.com/cepdnaclk/faq.ce.pdn.ac.lk](https://github.com/cepdnaclk/faq.ce.pdn.ac.lk)
 
 - [Available Tasks](https://github.com/cepdnaclk/faq.ce.pdn.ac.lk/issues)
-- Web development project
+- The information console of the Department of Computer Engineering
+- Web Development project
 - Web and layout designs is ongoing
 
 Looking for <span class="badge">Content Writers</span>
 
 #### escal.ce.pdn.ac.lk
-Project Repository: [https://github.com/cepdnaclk/escal-new](https://github.com/cepdnaclk/escal-new)
+GitHub Repository: [https://github.com/cepdnaclk/escal-new](https://github.com/cepdnaclk/escal-new)
 
-- Web development project
+- The new website of the Embedded Systems and Computer Architecture Lab
+- Web Development project
 - Design & Development is ongoing
 
 Looking for <span class="badge">Maintainers</span> from every batch
 
 #### api.ce.pdn.ac.lk
-Project Repository: [https://github.com/cepdnaclk/api.ce.pdn.ac.lk/](https://github.com/cepdnaclk/api.ce.pdn.ac.lk/)
-[Available Tasks](https://github.com/cepdnaclk/api.ce.pdn.ac.lk/issues)
+GitHub Repository: [https://github.com/cepdnaclk/api.ce.pdn.ac.lk/](https://github.com/cepdnaclk/api.ce.pdn.ac.lk/)
 
+- [Available Tasks](https://github.com/cepdnaclk/api.ce.pdn.ac.lk/issues)
 - Integration / Automation Project
-- Have a few Web Development tasks too
+- Have a few Web Development tasks also
 - The purpose is to build a central data repository/APIs for the department
 
 Looking for <span class="badge">Volunteers</span>
@@ -88,17 +93,19 @@ Website: [https://pera-swarm.ce.pdn.ac.lk/](https://pera-swarm.ce.pdn.ac.lk/)
 Looking for <span class="badge">Volunteers</span>
 
 #### CE Smart Inventory Management System
-Project Repository: [https://github.com/cepdnaclk/smart-inventory-management-system](https://github.com/cepdnaclk/smart-inventory-management-system)
+GitHub Repository: [https://github.com/cepdnaclk/smart-inventory-management-system](https://github.com/cepdnaclk/smart-inventory-management-system)
 
 - [Available Tasks](https://github.com/cepdnaclk/smart-inventory-management-system/issues)
+- A smart inventory management system for the department
 - A few feature implementations are ongoing
+- Based on PHP Laravel framework
 
 Looking for <span class="badge">Volunteers</span>
 
 #### CE Events Calendar
-Project Repository: [https://github.com/cepdnaclk/events](https://github.com/cepdnaclk/events)
+GitHub Repository: [https://github.com/cepdnaclk/events](https://github.com/cepdnaclk/events)
 
-- The purpose to maintain a calendar
+- Upcoming events/conferences/webinars
 - Tasks:
     - Automate the event update
     - Implement Notification Channels
@@ -125,7 +132,7 @@ All the guides and mentoring will be provided by us.
 
 #### Department's Publication Repository
 - Main purpose is to develop a web repository which keeps the track of the department's publications
-- System designing and integration project
+- System Designing and Integration project
 - Available Tasks to be implemented
     - Publication Repository
     - Publications API
@@ -134,10 +141,13 @@ All the guides and mentoring will be provided by us.
 Looking for <span class="badge">Volunteers</span>
 
 #### ESCAL MakerSpace Wiki
-- Looking for volunteers
+GitHub Repository: [https://github.com/cepdnaclk/makerspace](https://github.com/cepdnaclk/makerspace)
+
+- A Wiki for the ESCAL MakerSpace Lab
+- Looking for volunteers/content writers
 - Web development project
 
-Looking for <span class="badge">Volunteers</span>
+Looking for <span class="badge">Volunteers</span>, <span class="badge">Content Writers</span>
 
 ---
-Last Update: 2021-12-08
+Last Update: 2021-12-11
