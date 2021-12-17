@@ -77,6 +77,11 @@ GitHub Repository: [https://github.com/cepdnaclk/api.ce.pdn.ac.lk/](https://gith
 
 Looking for <span class="badge">Volunteers</span>
 
+#### vision.ce.pdn.ac.lk
+GitHub Repository: [https://github.com/cepdnaclk/vision.ce.pdn.ac.lk/](https://github.com/cepdnaclk/vision.ce.pdn.ac.lk/)
+
+Looking for <span class="badge">Maintainers</span> from every batch
+
 #### Pera Swarm
 Project repositories: [https://github.com/pera-swarm](https://github.com/pera-swarm)
 Website: [https://pera-swarm.ce.pdn.ac.lk/](https://pera-swarm.ce.pdn.ac.lk/)
