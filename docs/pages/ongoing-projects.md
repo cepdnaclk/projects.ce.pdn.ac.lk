@@ -29,6 +29,9 @@ Here you can see the ongoing department projects here. If you are interested to 
 
 Even if you don't have any technical knowledge, it is ok to join the projects. We can guide you to learn the technologies and get a good experience on the *"Computer Engineering"*.
 
+
+<a href="https://drive.google.com/file/d/1MZB5VYSGdWubXHoyhGK39jcBa2i8xIem/view?usp=sharing" class="btn btn-lg btn-primary p-2" target="_blank">Introduction Presentation</a> <a href="https://docs.google.com/spreadsheets/d/1P-bN5QJ3V0ACXlo03uMLFZTQFS4a0qsOswSWnv90Yvg/edit?usp=sharing" class="btn btn-lg btn-primary p-2 mx-2" target="_blank">Join from  here</a>
+
 ---
 
 #### projects.ce.pdn.ac.lk
