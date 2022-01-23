@@ -169,7 +169,10 @@ function readRemoteData(page_url) {
                     if (media.type === "youtube" && media.url.length > 0) {
                         if (!(media.title == "" || media.url =="#")) {
                             // Show the title
-                            $("#youtubeVideoDiv").append("<h4>" + media.title + "</h4>");
+
+                            if(media.title != undefined ){
+                                $("#youtubeVideoDiv").append("<h4>" + media.title + "</h4>");
+                            }
 
                             $("#youtubeVideoDiv").append(
                                 "<div class='video-container'><iframe width='100%' src='" +
