@@ -39,6 +39,7 @@ GitHub Repository: [https://github.com/cepdnaclk/projects.ce.pdn.ac.lk](https://
 
 - [Remaining Tasks](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/issues)
 - Web development and integration project
+- Phase 1 completed
 - Required a volunteer/team to develop the search functionality.
 - There is a task to link the ongoing department projects to the site's home page.
 
@@ -49,7 +50,7 @@ GitHub Repository: [https://github.com/cepdnaclk/people.ce.pdn.ac.lk](https://gi
 
 - Profile pages for the department students and staff using GitHub pages
 - Web development and integration project
-- Ongoing
+- Phase 1 completed
 
 #### faq.ce.pdn.ac.lk
 GitHub Repository: [https://github.com/cepdnaclk/faq.ce.pdn.ac.lk](https://github.com/cepdnaclk/faq.ce.pdn.ac.lk)
@@ -70,6 +71,28 @@ GitHub Repository: [https://github.com/cepdnaclk/escal-new](https://github.com/c
 
 Looking for <span class="badge">Maintainers</span> from every batch
 
+
+#### Department's Publication Repository
+GitHub Repository: [https://github.com/cepdnaclk/publications](https://github.com/cepdnaclk/publications)
+- Main purpose is to develop a web repository which keeps the track of the department affiliated publications
+- System Designing and Integration project
+- [Available Tasks](https://github.com/cepdnaclk/publications/issues)
+    - Publication Repository
+    - Publications API
+    - Publications Widget
+
+Looking for <span class="badge">Volunteers</span>
+
+#### Department's Courses Web
+GitHub Repository: [https://github.com/cepdnaclk/courses](https://github.com/cepdnaclk/courses)
+- Main purpose is to develop a website to publish the courses offered by the department
+- System Designing and Integration project
+- [Available Tasks](https://github.com/cepdnaclk/courses/issues)
+    - Courses Web
+    - Courses API
+
+Looking for <span class="badge">Volunteers</span>
+
 #### api.ce.pdn.ac.lk
 GitHub Repository: [https://github.com/cepdnaclk/api.ce.pdn.ac.lk/](https://github.com/cepdnaclk/api.ce.pdn.ac.lk/)
 
@@ -79,11 +102,6 @@ GitHub Repository: [https://github.com/cepdnaclk/api.ce.pdn.ac.lk/](https://gith
 - The purpose is to build a central data repository/APIs for the department
 
 Looking for <span class="badge">Volunteers</span>
-
-#### vision.ce.pdn.ac.lk
-GitHub Repository: [https://github.com/cepdnaclk/vision.ce.pdn.ac.lk/](https://github.com/cepdnaclk/vision.ce.pdn.ac.lk/)
-
-Looking for <span class="badge">Maintainers</span> from every batch
 
 #### Pera Swarm
 Project repositories: [https://github.com/pera-swarm](https://github.com/pera-swarm)
@@ -123,6 +141,8 @@ GitHub Repository: [https://github.com/cepdnaclk/events](https://github.com/cepd
 Looking for <span class="badge">Volunteers</span>
 
 #### Pera Ride Project
+GitHub Organization: [https://github.com/peraride/](https://github.com/peraride/)
+
 - Bicycle lending system for the students of the University of Peradeniya, within university.
 - Ongoing Hardware Project
 - Available Tasks:
@@ -131,22 +151,6 @@ Looking for <span class="badge">Volunteers</span>
 
 Looking for <span class="badge">Volunteers</span>
 
----
-
-## New Projects
-
-Followings are the projects that will be started if there are new volunteers like to take the project.
-All the guides and mentoring will be provided by us.  
-
-#### Department's Publication Repository
-- Main purpose is to develop a web repository which keeps the track of the department's publications
-- System Designing and Integration project
-- Available Tasks to be implemented
-    - Publication Repository
-    - Publications API
-    - Publications Widget
-
-Looking for <span class="badge">Volunteers</span>
 
 #### ESCAL MakerSpace Wiki
 GitHub Repository: [https://github.com/cepdnaclk/makerspace](https://github.com/cepdnaclk/makerspace)
@@ -157,5 +161,12 @@ GitHub Repository: [https://github.com/cepdnaclk/makerspace](https://github.com/
 
 Looking for <span class="badge">Volunteers</span>, <span class="badge">Content Writers</span>
 
+
+#### vision.ce.pdn.ac.lk
+GitHub Repository: [https://github.com/cepdnaclk/vision.ce.pdn.ac.lk/](https://github.com/cepdnaclk/vision.ce.pdn.ac.lk/)
+
+<!-- Looking for <span class="badge">Maintainers</span> from every batch -->
+
+
 ---
-Last Update: 2021-12-11
+Last Update: 2022-01-23
