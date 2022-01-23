@@ -15,8 +15,9 @@ forward_url: #
 </head>
 <body style="padding: 25px 100px;">
     <!-- <meta http-equiv = "refresh" content = "0; url = {{ page.forward_url}}" /> -->
-    <p>Redirecting in <span id="timeout">15</span> seconds...<br><br>Please click <a href="{{ page.forward_url}}">here</a> if the browser is not automatically redirected.</p>
-    <br><br>
+     <!-- <p>Redirecting in <span id="timeout">15</span> seconds...<br><br>Please click <a href="{{ page.forward_url}}">here</a> if the browser is not automatically redirected.</p>
+    <br><br>-->
+    NOT AVAILABLE NOW
 </body>
 
 
@@ -25,7 +26,7 @@ forward_url: #
 <script type="text/javascript">
     const timeout = 10; // Can add a timeout
     var counter = 10;
-
+/*
     setInterval(()=>{
         counter = counter -1;
         document.getElementById("timeout").innerHTML = counter;
@@ -34,7 +35,7 @@ forward_url: #
             window.location.replace("{{ page.forward_url }}");
         }
     }, 1000);
-
+*/
 
 </script>
 
