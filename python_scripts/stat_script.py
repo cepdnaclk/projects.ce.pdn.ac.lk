@@ -26,7 +26,7 @@ BATCHES = {}
 # message_bytes = base64.b64decode(data['content'])
 # message = json.loads(message_bytes.decode('ascii'))
 
-url = 'data/categories/index.json'
+url = '../data/categories/index.json'
 with open(url, 'r') as f:
     message = json.load(f)
 
@@ -125,7 +125,7 @@ description: """ + description + """
 
 def md_file_write(CATEGORIES, BATCHES):
     for i in CATEGORIES:
-        index = open("docs/categories/" + str(i) + "/index.md", 'r')
+        index = open("../categories/" + str(i) + "/index.md", 'r')
         index_data = index.read()
 
         for batch in BATCHES[i]:
@@ -134,7 +134,7 @@ def md_file_write(CATEGORIES, BATCHES):
                 batch_str = '0' + batch_str
             filename = 'e' + batch_str
 
-            path = "docs/categories/" + str(i) + "/" + filename + ".md"
+            path = "../categories/" + str(i) + "/" + filename + ".md"
 
             os.makedirs(os.path.dirname(path), exist_ok=True)
             outputFile = open(path, "w+")
@@ -145,7 +145,7 @@ def md_file_write(CATEGORIES, BATCHES):
 def index_files(CATEGORIES):
     id = 0
     for i in CATEGORIES:
-        index = open("data/categories/" + str(i) + "/index.json", 'r')
+        index = open("../data/categories/" + str(i) + "/index.json", 'r')
         index_data = index.read()
         data = json.loads(index_data)
 
@@ -159,7 +159,7 @@ def index_files(CATEGORIES):
         # course project or general
         categoryType = data['type']
 
-        path = "docs/categories/" + str(i) + "/index.md"
+        path = "../categories/" + str(i) + "/index.md"
         os.makedirs(os.path.dirname(path), exist_ok=True)
         outputFile = open(path, "w+")
         id += 1
@@ -167,7 +167,7 @@ def index_files(CATEGORIES):
 
 
 def del_docs_categories():
-    dir_path = "docs/categories/"
+    dir_path = "../categories/"
     try:
         shutil.rmtree(dir_path)
     except OSError as e:
@@ -175,7 +175,7 @@ def del_docs_categories():
 
 
 def del_docs_github_repos():
-    dir_path = "docs/github_projects/"
+    dir_path = "../projects/github_projects/"
     try:
         shutil.rmtree(dir_path)
     except OSError as e:
@@ -216,7 +216,7 @@ if __name__ == "__main__":
                         batch = int(repoName[0][1:])
                         BATCHES[repoName[1]].add(batch)
                         filename = '-'.join(repoName[2:])
-                        path = "docs/github_projects/" + repoName[1] + "/" + repoName[0] + "/" + filename + ".md"
+                        path = "../projects/github_projects/" + repoName[1] + "/" + repoName[0] + "/" + filename + ".md"
                         title = []
                         title = ' '.join(repoName[2:]).split()
 

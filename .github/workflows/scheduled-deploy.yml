@@ -32,6 +32,7 @@ jobs:
 
       - name: Run the Python script
         run: |
+          cd ./python_scripts/
           python stat_script.py
 
       - name: Commit and push into the main branch
