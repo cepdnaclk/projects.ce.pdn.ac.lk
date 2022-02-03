@@ -69,20 +69,6 @@ search:
 # Enable or disable heading anchors
 heading_anchors: true
 
-# Aux links for the upper right navigation
-aux_links:
-  "Department Website": "https://ce.pdn.ac.lk"
-
-# Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: true
-
-# Sort order for navigation links
-# nav_sort: case_insensitive # default, equivalent to nil
-nav_sort: case_sensitive # Capital letters sorted before lowercase
-
-# Footer content
-# appears at the bottom of every page's main content
-
 # Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
