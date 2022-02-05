@@ -1,16 +1,21 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid px-5">
-        <a class="navbar-brand" href="#"></a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="main_nav">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end w-100">
+            {% if page.title != "Home" %}
+            <a class="navbar-brand" href="{{ '/' | relative_url }}">Student Projects - Department of Computer Engineering</a>
+            {%- endif -%}
 
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end w-100">
+                <!-- <li class="nav-item"> -->
+                    <!-- <a class="nav-link" href="{{ '/' | relative_url }}">Home</a> -->
+                <!-- </li> -->
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ '/' | relative_url }}">Home</a>
+                    <a class="nav-link" href="{{ '/search' | relative_url }}">Search</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ '/about' | relative_url }}">About</a>

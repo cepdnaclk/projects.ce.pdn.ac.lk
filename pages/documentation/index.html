@@ -15,7 +15,7 @@ search_exclude: true
     <div class="container px-3 pb-3">
         <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav" >
             <ol class="breadcrumb p-0 m-0">
-                <li class="breadcrumb-item"><a href="../../">Home</a></li>
+                <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
                 <li class="breadcrumb-item">
                     Documentation
                 </li>
@@ -28,14 +28,14 @@ search_exclude: true
     <div class="container pt-4">
         <h3>Documentation</h3>
         <ul>
-            <li><a href="/docs/how-to-add-a-project">How to add a GitHub Project ?</a></li>
-            <li><a href="/docs/how-to-add-non-github-project">How to add a non-GitHub Project ?</a></li>
-            <li><a href="/docs/how-to-add-a-course">How to add a Course ?</a></li>
+            <li><a href="{{'/docs/how-to-add-a-project' | absolute_url }}">How to add a GitHub Project ?</a></li>
+            <li><a href="{{'//docs/how-to-add-non-github-project' | absolute_url }}">How to add a non-GitHub Project ?</a></li>
+            <li><a href="{{'//docs/how-to-add-a-course' | absolute_url }}">How to add a Course ?</a></li>
         </ul>
 
         <ul>
             <li><a target="_blank" href="https://github.com/cepdnaclk/projects.ce.pdn.ac.lk">Source Code</a></li>
-            <li><a href="/docs/deployment">Deployment Instructions</a></li>
+            <li><a href="{{'//docs/deployment' | absolute_url }}">Deployment Instructions</a></li>
         </ul>
 
         <br>
@@ -43,10 +43,10 @@ search_exclude: true
         <h3>Frequently Asked Questions</h3>
         <ul>
             <li>
-                <a href="/docs/faq/how-to-add-an-image/">How to add images to my GitHub page?</a>
+                <a href="{{'//docs/faq/how-to-add-an-image/' | absolute_url }}">How to add images to my GitHub page?</a>
             </li>
             <li>
-                <a href="/docs/faq/how-to-configure-json/">How to configure the JSON file?</a>
+                <a href="{{'//docs/faq/how-to-configure-json/' | absolute_url }}">How to configure the JSON file?</a>
             </li>
         </ul>
 

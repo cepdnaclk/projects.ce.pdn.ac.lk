@@ -1,5 +1,5 @@
 ---
-layout: table_wrappers
+layout: default
 ---
 
 {% include project_navbar.html %}
@@ -9,9 +9,9 @@ layout: table_wrappers
     <div class="container-fluid">
         <div class="row px-2 py-2">
             <div class="container px-3 pb-3">
-                <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav" >
-                    <ol class="breadcrumb p-0 m-0">
-                        <li class="breadcrumb-item"><a href="../../">Home</a></li>
+                <nav aria-label="breadcrumb" class="w-100 mt-2">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
                         <li class="breadcrumb-item"><a href="../">{{ page.grand_parent }}</a></li>
                         <li class="breadcrumb-item"><a href="./">{{ page.parent | slice:0,3 }}</a></li>
                         <li class="breadcrumb-item"><span>{{ page.title }}</span></li>

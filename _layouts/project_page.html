@@ -10,7 +10,7 @@ layout: default
         <div class="row px-5 py-2">
             <nav aria-label="breadcrumb" class="w-100 mt-2">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="../../">Home</a></li>
+                    <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
                     <li class="breadcrumb-item"><a href="../">{{ page.grand_parent }}</a></li>
                     <li class="breadcrumb-item"><a href="./">{{ page.parent | slice:0,3 }}</a></li>
                     <li class="breadcrumb-item"><span>{{ page.title }}</span></li>
@@ -37,7 +37,7 @@ layout: default
 
                 <!-- Cover Image -->
                 <div class="pb-2">
-                    <img style="padding: 10px 50px;" class="img-fluid w-100" src="{{ page.cover_url }}" alt="">
+                    <img style="padding: 10px 50px;" class="img-fluid w-100" src="{{ page.cover_url | prepend: site.baseurl }}" alt="">
                 </div>
             </div>
 
@@ -176,6 +176,7 @@ layout: default
         {%- if page.page_url != 'blank' -%}
         readRemoteData('{{ page.page_url }}');
         {%- endif -%}
+        readAPIData('{{ page.permalink }}');
         readLanguageData('{{ page.repo_url }}');
     });
 </script>

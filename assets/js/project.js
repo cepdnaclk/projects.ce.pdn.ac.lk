@@ -1,3 +1,4 @@
+
 function readLanguageData(repo_url) {
     const repoURLComponents = repo_url.split("/");
     const repoName = repoURLComponents[repoURLComponents.length - 1];
@@ -33,20 +34,18 @@ function readLanguageData(repo_url) {
     });
 }
 
-function readRemoteData(page_url) {
-    const url = `${page_url}/data/index.json`;
+function readAPIData(url) {
 
     const apiBase = 'https://api.ce.pdn.ac.lk/projects/v1';
-    const pageName = page_url.replace('https://cepdnaclk.github.io/', '');
-    const projData = pageName.split('-');
+    const projData = url.split('/');
 
+    const projBatch = projData[2].toUpperCase();
     const projCat = projData[1];
-    const projBatch = projData[0].toUpperCase();
 
-    const projTitle = pageName.replace(`${projData[0]}-${projData[1]}-`, '');
+    const projTitle = url.replace(`${projData[1]}/${projData[2]}/`, '');
     const apiURL = `${apiBase}/${projCat}/${projBatch}/${projTitle}`;
 
-    // console.log(`${projData[0]}-${projData[1]}-`);
+    // console.log(`${projData[1]}-${projData[2]}-`);
     // console.log(projData);
 
     console.log('Fetch data from the API,', apiURL);
@@ -62,7 +61,7 @@ function readRemoteData(page_url) {
             // console.log(data.team);
 
             // Team Data
-            if (data.team[0] != "E/yy/xxx") {
+            if (data.team && data.team[0] != "E/yy/xxx") {
                 let teamCount = 0;
 
                 $.each(data.team, function(index, member) {
@@ -81,6 +80,11 @@ function readRemoteData(page_url) {
             }
         }
     });
+
+}
+
+function readRemoteData(page_url) {
+    const url = `${page_url}/data/index.json`;
 
     console.log('Fetch data from the project config,', url);
     $.ajax({

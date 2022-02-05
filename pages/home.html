@@ -51,10 +51,10 @@ search_exclude: true
 
                         {% if child.type == "GENERAL" %}
                         <div class="col-lg-4 col-md-6 mb-1 icon-box d-flex {{ child.type }} img-hover-zoom-card">
-                            <a class="btn" href="{{ child.permalink }}">
+                            <a class="btn" href="{{ child.permalink | prepend: site.baseurl}}">
                                 <div class="card h-100">
                                     <div class="img-hover-zoom">
-                                        <img class="card-img-top" src="{{ child.default_thumb_image }}" alt="{{child.title}}">
+                                        <img class="card-img-top" src="{{ child.default_thumb_image | prepend: site.baseurl }}" alt="{{child.title}}">
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">{{child.title}}</h5>
@@ -81,10 +81,10 @@ search_exclude: true
 
                         {% if child.type == "COURSE" %}
                         <div class="col-lg-3 col-md-6 mb-1 d-flex {{ child.type }} img-hover-zoom-card">
-                            <a class="btn" href="{{ child.permalink }}">
+                            <a class="btn" href="{{ child.permalink  | prepend: site.baseurl}}">
                                 <div class="card h-100">
                                     <div class="img-hover-zoom">
-                                        <img class="card-img-top" src="{{ child.default_thumb_image }}" alt="{{child.title}}">
+                                        <img class="card-img-top" src="{{ child.default_thumb_image | prepend: site.baseurl }}" alt="{{child.title}}">
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">{{child.title}}</h5>
