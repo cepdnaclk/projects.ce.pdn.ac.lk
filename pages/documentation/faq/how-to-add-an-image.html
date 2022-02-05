@@ -1,0 +1,72 @@
+---
+layout: post
+title: How to add an image | FAQ
+nav_order: 1
+description: ""
+permalink: /docs/faq/how-to-add-an-image/
+
+nav_exclude: true
+search_exclude: true
+---
+
+<div class="row">
+    <div class="container px-3 pb-3">
+        <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav" >
+            <ol class="breadcrumb p-0 m-0">
+                <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
+                <li class="breadcrumb-item"><a href="{{ '/docs' | relative_url }}">Documentation</a></li>
+                <li class="breadcrumb-item"><a href="{{ '/docs/faq' | relative_url }}">FAQ</a></li>
+                <li class="breadcrumb-item">
+                    How to add an image?
+                </li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="row px-5">
+    <div class="container pt-4">
+        <h3>FAQ: How to add an image?</h3>
+
+        When you are editing the _README.md_ file of the given repository templates, you may need to upload images.
+        You can use one of the following methods for it.
+
+        <h5>Option 1: Using MD image format</h5>
+
+        You can upload images to a folder inside your GitHub page folder (Ex: <i>/docs/images/</i>  &nbsp;folder) and add the relative URL of the image as below.
+
+        <pre><code class="md dracula">
+![Sample Image](./images/sample.png)
+Figure 1.1 Sample Image
+        </code></pre>
+
+        <h5>Option 2: Using HTML + Bootstrap CSS classes</h5>
+
+        You can upload images to a folder inside your GitHub page folder (Ex: <i>/docs/images/</i> folder) and add the relative URL of the image as below. You can also use any _Bootstrap-4_ CSS classes to format the image.
+
+<pre><code class="html dracula">
+&lt;div</span> <span class="na">class=</span><span class="s">"figure container"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;img</span> <span class="na">class=</span><span class="s">"mx-auto d-block"</span> <span class="na">src=</span><span class="s">"./images/sample.png"</span> <span class="na">alt=</span><span class="s">"Sample Image"</span> <span class="na">width=</span><span class="s">"128"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"caption text-center"</span><span class="nt">&gt;</span>Figure 1.1 Sample Image<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre>
+
+        <h5>Option 3: Using drag-and-drop upload</h5>
+
+        If you are editing the <i>/docs/README.md</i> in the GitHub web, you can just drag and drop the image into the text editor, and it will be automatically uploaded to GitHub CDN and provide you a link like below. You can use either <b>Option 1</b> or <b>Option 2</b> with this link.
+
+        <pre><code class="md dracula">
+![github](https://user-images.githubusercontent.com/11540782/118809291-0e6e1f00-b8c8-11eb-8bd7-66af735c50c5.png)
+        </code></pre>
+    </div>
+</div>
+
+<style>
+    h3, h4, h5{
+        padding-top: 12px!important;
+    }
+</style>
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>

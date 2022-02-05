@@ -13,7 +13,7 @@ search_exclude: true
         <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav" >
             <ol class="breadcrumb p-0 m-0">
                 <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
-                <li class="breadcrumb-item"><a href="{% link pages/documentation/index.html %}">Documentation</a></li>
+                <li class="breadcrumb-item"><a href="{{ '/docs' | relative_url }}">Documentation</a></li>
                 <li class="breadcrumb-item">
                     How to add a Project
                 </li>
@@ -139,7 +139,7 @@ search_exclude: true
         <p><span class="instruction">6. Click on the <strong>Create repository from template</strong> button.</span></p>
 
         <div class="container">
-            <img alt="instructions for step 2 to 6" src="/assets/images/docs/project_1.jpg" style="width:75%" class="img p-3 img-fluid img-thumbnail mx-auto" />
+            <img alt="instructions for step 2 to 6" src="{{'/assets/images/docs/project_1.jpg' | relative_url}}" style="width:75%" class="img p-3 img-fluid img-thumbnail mx-auto" />
         </div>
 
         <p><span class="instruction">7. Go to settings and scroll to the GitHub pages section.</span></p>
@@ -147,7 +147,7 @@ search_exclude: true
         <p><span class="instruction">8. Select branch as <strong>Main</strong> and Folder as  <strong>/docs</strong> and save.</span></p>
 
         <div class="container">
-            <img alt="instructions for step 7 to 8" src="/assets/images/docs/project_2.jpg" style="width:75%" class="img p-3 img-fluid img-thumbnail mx-auto" />
+            <img alt="instructions for step 7 to 8" src="{{'/assets/images/docs/project_2.jpg' | relative_url}}" style="width:75%" class="img p-3 img-fluid img-thumbnail mx-auto" />
         </div>
 
         <p><span class="instruction">9. Now you can goto the repository and edit your GitHub page by editing the <b>/docs/README.md</b>.
@@ -213,7 +213,7 @@ search_exclude: true
 
             <li>
                 If your followed all the given instructions correctly, your repository will be
-                automatically added to the department's project web site (Update once a week - Sunday)
+                automatically added to the department's project web site (Update daily)
             </li>
 
             <li>
@@ -235,10 +235,6 @@ search_exclude: true
     </div>
 </div>
 
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/default.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-
 <style>
     table {
         font-family: arial, sans-serif;
@@ -256,3 +252,7 @@ search_exclude: true
         padding-top: 12px!important;
     }
 </style>
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
