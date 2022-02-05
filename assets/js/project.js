@@ -36,6 +36,53 @@ function readLanguageData(repo_url) {
 function readRemoteData(page_url) {
     const url = `${page_url}/data/index.json`;
 
+    const apiBase = 'https://api.ce.pdn.ac.lk/projects/v1';
+    const pageName = page_url.replace('https://cepdnaclk.github.io/', '');
+    const projData = pageName.split('-');
+
+    const projCat = projData[1];
+    const projBatch = projData[0].toUpperCase();
+
+    const projTitle = pageName.replace(`${projData[0]}-${projData[1]}-`, '');
+    const apiURL = `${apiBase}/${projCat}/${projBatch}/${projTitle}`;
+
+    // console.log(`${projData[0]}-${projData[1]}-`);
+    // console.log(projData);
+
+    console.log('Fetch data from the API,', apiURL);
+    $.ajax({
+        type: "GET",
+        url: apiURL,
+        dataType: "json",
+        success: function(data) {
+
+            // Show remoteData container
+            $(".remoteData").removeClass("d-none");
+
+            // console.log(data.team);
+
+            // Team Data
+            if (data.team[0] != "E/yy/xxx") {
+                let teamCount = 0;
+
+                $.each(data.team, function(index, member) {
+                    if (index != "E/yy/xxx") {
+                        let memberData = teamCard(member.name, member.profile_url, member.profile_image);
+
+                        // console.log(memberData);
+                        $("#teamCards").append(memberData);
+                        teamCount++;
+                    }
+                });
+
+                if(teamCount>0){
+                    $(".remoteDataTeam_cards").removeClass("d-none");
+                }
+            }
+        }
+    });
+
+    console.log('Fetch data from the project config,', url);
     $.ajax({
         type: "GET",
         url: url,
@@ -45,83 +92,44 @@ function readRemoteData(page_url) {
             // Show remoteData container
             $(".remoteData").removeClass("d-none");
 
-            // Team Data
-            if (data.team[0].eNumber != "E/yy/xxx") {
-                let teamCount = 0;
-
-                $.each(data.team, function(index, member) {
-                    if (member.eNumber != "E/yy/xxx") {
-                        let memberData = '';
-                        memberData+=(`<li class="mb-4"><span>${member.eNumber}, ${member.name}</span><br>`);
-
-                        if(member.email != "mail@eng.pdn.ac.lk" && member.email != undefined){
-                            memberData+=(`<span class="mx-2"><a class="text-dark" href="mailto:${member.email}">
-                            <i class='fa fa-envelope mx-2' aria-hidden='true'></i>${member.email}
-                            </a></span>`);
-                        }
-
-                        if(member.github_profile != "#" && member.github_profile != undefined){
-                            memberData+=(`<span class="mx-2"><i class='fa fa-github mx-2' aria-hidden='true'></i>
-                            <a class="text-dark" target="_blank" href="${member.github_profile}">GitHub</a></span>`);
-                        }
-                        if(member.linkedin_profile != "#" && member.linkedin_profile != undefined){
-                            memberData+=(`<span class="mx-2"><i class='fa fa-linkedin mx-2' aria-hidden='true'></i>
-                            <a class="text-dark" target="_blank" href="${member.linkedin_profile}">Linkedin</a></span>`);
-                        }
-                        if(member.website != "#" && member.website != undefined){
-                            memberData+=(`<span class="mx-2"><i class='fa fa-globe mx-2' aria-hidden='true'></i>
-                            <a class="text-dark" target="_blank" href="${member.website}">Website</a></span>`);
-                        }
-
-                        memberData+= '</li>';
-                        $("#teamList").append(memberData);
-                        teamCount++;
-                    }
-                });
-
-                if(teamCount >0){
-                    $(".remoteDataTeam").removeClass("d-none");
-                }
-            }
-
             // Supervisor Data
-            if (data.supervisors[0].email != "email@eng.pdn.ac.lk") {
-                let supervisorCount = 0;
-
-                $.each(data.supervisors, function(index, supervisor) {
-                    if (supervisor.email != "email@eng.pdn.ac.lk") {
-                        let supervisorData = '';
-                        supervisorData +=(`<li class="mb-4"><span>${supervisor.name}</span><br>`);
-
-                        if(supervisor.email != "mail@eng.pdn.ac.lk" && supervisor.email != undefined){
-                            supervisorData +=(`<span class="mx-2"><a class="text-dark" href="mailto:${supervisor.email}">
-                            <i class='fa fa-envelope mx-2' aria-hidden='true'></i>${supervisor.email}
-                            </a></span>`);
-                        }
-
-                        if(supervisor.linkedin_profile != "#" && supervisor.linkedin_profile != undefined){
-                            supervisorData +=(`<span class="mx-2"><i class='fa fa-linkedin mx-2' aria-hidden='true'></i>
-                            <a class="text-dark" target="_blank" href="${supervisor.linkedin_profile}">Linkedin</a></span>`);
-                        }
-                        if(supervisor.website != "#" && supervisor.website != undefined){
-                            supervisorData +=(`<span class="mx-2"><i class='fa fa-globe mx-2' aria-hidden='true'></i>
-                            <a class="text-dark" target="_blank" href="${supervisor.website}">Website</a></span>`);
-                        }
-                        if(supervisor.researchgate_profile != "#" && supervisor.researchgate_profile != undefined){
-                            supervisorData +=(`<span class="mx-2"><i class='fab fa-researchgate"></i mx-2' aria-hidden='true'></i>
-                            <a class="text-dark" target="_blank" href="${supervisor.researchgate_profile}">Researchgate</a></span>`);
-                        }
-
-                        supervisorData+= '</li>';
-                        $("#supervisorList").append(supervisorData);
-                        supervisorCount++;
-                    }
-                });
-
-                if(supervisorCount >0){
-                    $(".remoteDataSupervisors").removeClass("d-none");
-                }
-            }
+            // if (data.supervisors[0].email != "email@eng.pdn.ac.lk") {
+            //     let supervisorCount = 0;
+            //
+            //     $.each(data.supervisors, function(index, supervisor) {
+            //         if (supervisor.email != "email@eng.pdn.ac.lk") {
+            //             let supervisorData = '';
+            //             supervisorData +=(`<li class="mb-4"><span>${supervisor.name}</span><br>`);
+            //
+            //             if(supervisor.email != "mail@eng.pdn.ac.lk" && supervisor.email != undefined){
+            //                 supervisorData +=(`<span class="mx-2"><a class="text-dark" href="mailto:${supervisor.email}">
+            //                 <i class='fa fa-envelope mx-2' aria-hidden='true'></i>${supervisor.email}
+            //                 </a></span>`);
+            //             }
+            //
+            //             if(supervisor.linkedin_profile != "#" && supervisor.linkedin_profile != undefined){
+            //                 supervisorData +=(`<span class="mx-2"><i class='fa fa-linkedin mx-2' aria-hidden='true'></i>
+            //                 <a class="text-dark" target="_blank" href="${supervisor.linkedin_profile}">Linkedin</a></span>`);
+            //             }
+            //             if(supervisor.website != "#" && supervisor.website != undefined){
+            //                 supervisorData +=(`<span class="mx-2"><i class='fa fa-globe mx-2' aria-hidden='true'></i>
+            //                 <a class="text-dark" target="_blank" href="${supervisor.website}">Website</a></span>`);
+            //             }
+            //             if(supervisor.researchgate_profile != "#" && supervisor.researchgate_profile != undefined){
+            //                 supervisorData +=(`<span class="mx-2"><i class='fab fa-researchgate"></i mx-2' aria-hidden='true'></i>
+            //                 <a class="text-dark" target="_blank" href="${supervisor.researchgate_profile}">Researchgate</a></span>`);
+            //             }
+            //
+            //             supervisorData+= '</li>';
+            //             $("#supervisorList").append(supervisorData);
+            //             supervisorCount++;
+            //         }
+            //     });
+            //
+            //     if(supervisorCount >0){
+            //         $(".remoteDataSupervisors").removeClass("d-none");
+            //     }
+            // }
 
             // Tag Data
             if (data.tags.length > 0) {
@@ -197,4 +205,22 @@ function readRemoteData(page_url) {
             // $("#descriptionText").html(`<p>${data.description}</p>`);
         }
     });
+}
+
+
+function teamCard(name, profile_url, avatar_url){
+    return `<div class="col-4 col-sm-3 col-md-2 col-lg-2 d-flex" style="padding: 3px;">
+    <div class="card p-1 flex-fill">
+    <div class="overflow-hidden">
+    <img class="card-img-top img-fluid" src="${avatar_url}" alt="Card image">
+    </div>
+    <div class="card-body p-0 d-flex flex-column">
+    <h4 class="profile-title card-title text-center pt-1">${name}</h4>
+    <p class="profile-text card-text text-center">E/15/140</p>
+    <div class="d-grid mt-auto px-2 pb-2">
+    <a href="${profile_url}" target="_blank" class="btn btn-sm btn-primary btn-block">See Profile</a>
+    </div>
+    </div>
+    </div>
+    </div>`
 }

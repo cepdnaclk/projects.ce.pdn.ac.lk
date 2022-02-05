@@ -5,17 +5,21 @@ layout: table_wrappers
 <!DOCTYPE html>
 
 <html lang="{{ site.lang | default: 'en-US' }}">
-{% include head.html %}
+
+<head>
+    {% include meta.html %}
+
+    {% include head.html %}
+
+    {% if site.ga_tracking != nil -%}
+    {%- include analytics.html -%}
+    {% endif -%}
+</head>
+
 <body>
     <div id="app">
-        {% include project_navbar.html %}
-
-        <main class="py-2 p-1">
-            <div class="container p-5"  style="min-height: 80vh;">
-                {{ content }}
-            </div>
-        </main>
-
+        <!-- <a href="#" id="toTopBtn" style="display: none;"></a> -->
+        {{ content }}
         {% include footer.html %}
     </div>
 </body>

@@ -1,173 +1,183 @@
 ---
-layout: table_wrappers
+layout: default
 ---
 
-<!DOCTYPE html>
+{% include project_navbar.html %}
+{% include page_tree_builder.html pages=site.html_pages %}
 
-<html lang="{{ site.lang | default: 'en-US' }}">
-{% include head.html %}
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<body>
-    <div id="app">
-        {% include project_navbar.html %}
-        {% include page_tree_builder.html pages=site.html_pages %}
+<main class="py-2 p-1">
+    <div class="container-fluid">
+        <div class="row px-5 py-2">
+            <nav aria-label="breadcrumb" class="w-100 mt-2">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="../../">Home</a></li>
+                    <li class="breadcrumb-item"><a href="../">{{ page.grand_parent }}</a></li>
+                    <li class="breadcrumb-item"><a href="./">{{ page.parent | slice:0,3 }}</a></li>
+                    <li class="breadcrumb-item"><span>{{ page.title }}</span></li>
+                </ol>
+            </nav>
+        </div>
 
-        <main class="py-2 p-1">
-            <div class="container-fluid">
-                <div class="row px-5 py-2">
-                    <nav aria-label="breadcrumb" class="w-100 mt-2">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="../../">Home</a></li>
-                            <li class="breadcrumb-item"><a href="../">{{ page.grand_parent }}</a></li>
-                            <li class="breadcrumb-item"><a href="./">{{ page.parent | slice:0,3 }}</a></li>
-                            <li class="breadcrumb-item"><span>{{ page.title }}</span></li>
-                        </ol>
-                    </nav>
+        <div class="row">
+            <!-- <div class="col-md-1 col-lg-1">&nbsp;</div> -->
+
+            <div class="col-sm-10 col-md-10 col-lg-9 mx-auto">
+                <div class="container px-3">
+                    <h1 class="mt-2">{{ page.title }}</h1>
+                    <div class="container">
+                        {% if page.started_on != 'yyyy-mm-dd'  %}
+                        <span class="px-3">Created: <i>{{ page.started_on  | date: '%d-%m-%Y'}}</i></span>
+                        {% endif %}
+                        <span class="px-3">Forks: <i>{{ page.forks }}</i></span>
+                        <span class="px-3"> Watchers: <i>{{ page.watchers }}</i> </span>
+                        <span class="px-3"> Stars: <i>{{ page.stars }}</i> </span>
+                        <hr>
+                    </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-md-1 col-lg-1">&nbsp;</div>
-
-                    <div class="col-md-10 col-lg-10">
-                        <div class="container px-3">
-                            <h1 class="mt-2">{{ page.title }}</h1>
-                            <div class="container">
-                                {% if page.started_on != 'yyyy-mm-dd'  %}
-                                <span class="px-3">Created: <i>{{ page.started_on  | date: '%d-%m-%Y'}}</i></span>
-                                {% endif %}
-                                <span class="px-3">Forks: <i>{{ page.forks }}</i></span>
-                                <span class="px-3"> Watchers: <i>{{ page.watchers }}</i> </span>
-                                <span class="px-3"> Stars: <i>{{ page.stars }}</i> </span>
-                                <hr>
-                            </div>
-                        </div>
-
-                        <!-- Cover Image -->
-                        <div class="pb-2">
-                            <img style="padding: 10px 50px;" class="img-fluid w-100" src="{{ page.cover_url }}" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-md-1 col-lg-1">&nbsp;</div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-1 col-lg-1">&nbsp;</div>
-
-                    <!-- Content Column -->
-                    <div class="col-md-8 col-lg-7">
-
-                        <!-- Post Content Column -->
-                        <div class="container d-none remoteDataTeam">
-                            <h3>Team</h3>
-                            <ul id="teamList">
-                            </ul>
-                        </div>
-
-                        <div class="container d-none remoteDataSupervisors">
-                            <h3>Supervisors</h3>
-                            <ul id="supervisorList">
-                            </ul>
-                        </div>
-
-                        <div class="container">
-                            {% if page.description.size > 0 %}
-                            <h3 class="pt-3">Description</h3>
-                            <div style="font-size: 12pt;" id="descriptionText" class="px-3">
-                                {{ content }}
-                            </div>
-                            {% endif %}
-                        </div>
-
-                        <div id="publications" class="container d-none">
-                            <h3 class="pt-3">Publications</h3>
-                            <ul id="publicationsURL"></ul>
-                        </div>
-
-                        <div id="youtubeVideo" class="container d-none">
-                            <h3 class="pt-3">Media</h3>
-                            <div id="youtubeVideoDiv" style="padding: 5px 30px;"></div>
-                        </div>
-
-                        <div class="row pt-3">
-                            {% if page.repo_url != 'blank' %}
-                            <div class="col-sm-6 col-md-6 col-lg-4 m-1">
-                                <a class="btn border d-flex btn-card" href="{{ page.repo_url }}" target="_blank">
-                                    <div class="row d-flex">
-                                        <img src='{{ "/assets/images/icon_repo.png" | absolute_url }}'
-                                        class="card-img ml-3 p-1" alt="Project Repository" style="width: 50px; height: auto;">
-                                        <h5 class="card-title align-self-center m-0">Project Repository</h5>
-                                    </div>
-                                </a>
-                            </div>
-                            {% endif %}
-
-                            {% if page.page_url != 'blank' %}
-                            <div class="col-sm-6 col-md-6 col-lg-4 m-1">
-                                <a class="btn border d-flex btn-card" href="{{ page.page_url }}" target="_blank">
-                                    <div class="row d-flex">
-                                        <img src='{{ "/assets/images/icon_page.png" | absolute_url }}'
-                                        class="card-img ml-3 p-1" alt="Project Page" style="width: 50px; height: auto;">
-                                        <h5 class="card-title align-self-center m-0">Project Page</h5>
-                                    </div>
-                                </a>
-                            </div>
-                            {% endif %}
-                        </div>
-
-                        <div class="container d-none remoteDataTags pt-5">
-                            <span class="font-weight-bold">Tags:</span>
-                            <span id="tagList"></span>
-                        </div>
-                    </div>
-
-                    <!-- Sidebar Widgets Column -->
-                    <div class="d-none d-lg-block col-lg-3 pt-3">
-                        <div class="card mb-4 pb-3 langData d-none">
-                            <h5 class="card-header">Languages</h5>
-                            <div class="card-body" style="font-size:9pt;">
-                                <ul id="langList" class="list-unstyled mb-0">
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="card my-4 d-none">
-                            <h5 class="card-header">Contributors</h5>
-                            <div class="card-body">
-                                <ul class="list-unstyled mb-0">
-                                    {% for member in page.contributors %}
-                                    <li>
-                                        <div class="w3-container d-flex">
-                                            <img class="rounded-circle p-1 align-self-center"
-                                            alt=""
-                                            style="width: 48px; height: 48px;"
-                                            src="#">
-                                            <span class="align-self-center p-3">
-                                                <a href="#" target="_blank">{{ member }}</a>
-                                            </span>
-                                        </div>
-                                    </li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-1 col-lg-1">&nbsp;</div>
+                <!-- Cover Image -->
+                <div class="pb-2">
+                    <img style="padding: 10px 50px;" class="img-fluid w-100" src="{{ page.cover_url }}" alt="">
                 </div>
             </div>
-        </main>
-        {% include footer.html %}
+
+            <!-- <div class="col-md-1 col-lg-1">&nbsp;</div> -->
+        </div>
+
+        <div class="row">
+            <!-- Content Column -->
+            <div class="container col-sm-12 col-md-10 col-lg-8 mx-auto">
+                <div class="row pt-3">
+                    <div class="container">
+                        {% if page.description.size > 0 %}
+                        <h3 class="pt-3">Description</h3>
+                        <div style="font-size: 12pt;" id="descriptionText" class="px-3">
+                            {{ content}}
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="container pt-3">
+                    <div class="row">
+                        {% if page.repo_url != 'blank' %}
+                        <div class="mb-3 col-6" style="max-width: 540px;">
+                            <div class="card btn-card m-1">
+                                <a class="text-decoration-none text-primary" href="{{ page.page_url }}" target="_blank">
+                                    <div class="row g-0">
+
+                                        <div class="col-md-3 d-flex align-items-center">
+                                            <img src='{{ "/assets/images/icon_repo.png" | absolute_url }}' class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-9 d-flex">
+                                            <div class="card-body d-flex align-items-center">
+                                                <h5 class="card-title">Project Repository</h5>
+                                                <!-- <p class="card-text"></p> -->
+                                                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        {% endif %}
+
+                        {% if page.page_url != 'blank' %}
+                        <div class="mb-3 col-6" style="max-width: 540px;">
+                            <div class="card btn-card m-1">
+                                <a class="text-decoration-none text-primary" href="{{ page.page_url }}" target="_blank">
+                                    <div class="row g-0">
+                                        <div class="col-md-3 d-flex align-items-center">
+                                            <img src='{{ "/assets/images/icon_page.png" | absolute_url }}' class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-9 d-flex">
+                                            <div class="card-body d-flex align-items-center">
+                                                <h5 class="card-title">Project Page</h5>
+                                                <!-- <p class="card-text"></p> -->
+                                                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="container remoteDataTeam_cards d-none pt-3">
+                    <h3>Team</h3>
+                    <div class="row" id="teamCards">
+
+                    </div>
+                </div>
+
+                <div class="container remoteDataSupervisors d-none pt-3">
+                    <h3>Supervisors</h3>
+                    <ul id="supervisorList">
+                    </ul>
+                </div>
+
+                <div id="publications" class="container d-none pt-3">
+                    <h3 class="pt-3">Publications</h3>
+                    <ul id="publicationsURL"></ul>
+                </div>
+
+                <div id="youtubeVideo" class="container d-none pt-3">
+                    <h3 class="pt-3">Media</h3>
+                    <div id="youtubeVideoDiv" style="padding: 5px 30px;"></div>
+                </div>
+
+                <div class="container d-none remoteDataTags pt-5">
+                    <span class="font-weight-bold">Tags:</span>
+                    <span id="tagList"></span>
+                </div>
+            </div>
+
+            {% comment %}
+            <!-- Sidebar Widgets Column -->
+            <div class="d-none d-lg-block col-lg-3 pt-3">
+                <div class="card mb-4 pb-3 langData d-none">
+                    <h5 class="card-header">Languages</h5>
+                    <div class="card-body" style="font-size:9pt;">
+                        <ul id="langList" class="list-unstyled mb-0">
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card my-4 d-none">
+                    <h5 class="card-header">Contributors</h5>
+                    <div class="card-body">
+                        <ul class="list-unstyled mb-0">
+                            {% for member in page.contributors %}
+                            <li>
+                                <div class="w3-container d-flex">
+                                    <img class="rounded-circle p-1 align-self-center"
+                                    alt=""
+                                    style="width: 48px; height: 48px;"
+                                    src="#">
+                                    <span class="align-self-center p-3">
+                                        <a href="#" target="_blank">{{ member }}</a>
+                                    </span>
+                                </div>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            {% endcomment %}
+        </div>
     </div>
+</main>
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-            {% if page.page_url != 'blank' %}
-            readRemoteData('{{ page.page_url }}');
-            {% endif %}
-            readLanguageData('{{ page.repo_url }}');
-        });
-    </script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        {%- if page.page_url != 'blank' -%}
+        readRemoteData('{{ page.page_url }}');
+        {%- endif -%}
+        readLanguageData('{{ page.repo_url }}');
+    });
+</script>
 
-    <script type="text/javascript" src="{{ '/assets/js/project.js' | relative_url }}"></script>
-</body>
+<script type="text/javascript" src="{{ '/assets/js/project.js' | relative_url }}"></script>
