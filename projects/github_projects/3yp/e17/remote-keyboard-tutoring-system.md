@@ -15,9 +15,9 @@ repo_url: https://github.com/cepdnaclk/e17-3yp-remote-keyboard-tutoring-system
 page_url: https://cepdnaclk.github.io/e17-3yp-remote-keyboard-tutoring-system
 
 forks: 0
-watchers: 3
-stars: 3
-started_on: 2021-06-22T05:46:29Z
+watchers: 2
+stars: 2
+started_on: 2022-02-07T04:07:22Z
 ---
 The Remote Keyboard Tutoring System is a web-based system that can be attached to any (electronic) keyboard synthesizer through a MIDI connector. Once our system is connected to the keyboard, the user can interactively learn, play or teach in combination with the web application that we provide.
 
