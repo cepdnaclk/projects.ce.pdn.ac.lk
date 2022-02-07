@@ -42,10 +42,10 @@ function readAPIData(url) {
     const projBatch = projData[2].toUpperCase();
     const projCat = projData[1];
 
-    const projTitle = url.replace(`${projData[1]}/${projData[2]}/`, '');
-    const apiURL = `${apiBase}/${projCat}/${projBatch}/${projTitle}`;
+    const projTitle = url.replace(`/${projData[1]}/${projData[2]}/`, '');
+    const apiURL = `${apiBase}/${projCat}/${projBatch}/${projTitle}/`;
 
-    // console.log(`${projData[1]}-${projData[2]}-`);
+    console.log(url, projCat, projBatch, projTitle);
     // console.log(projData);
 
     console.log('Fetch data from the API,', apiURL);
@@ -54,11 +54,8 @@ function readAPIData(url) {
         url: apiURL,
         dataType: "json",
         success: function(data) {
-
             // Show remoteData container
             $(".remoteData").removeClass("d-none");
-
-            // console.log(data.team);
 
             // Team Data
             if (data.team && data.team[0] != "E/yy/xxx") {
@@ -66,7 +63,7 @@ function readAPIData(url) {
 
                 $.each(data.team, function(index, member) {
                     if (index != "E/yy/xxx") {
-                        let memberData = teamCard(member.name, member.profile_url, member.profile_image);
+                        let memberData = teamCard(member.name, index, member.profile_url, member.profile_image);
 
                         // console.log(memberData);
                         $("#teamCards").append(memberData);
@@ -77,6 +74,26 @@ function readAPIData(url) {
                 if(teamCount>0){
                     $(".remoteDataTeam_cards").removeClass("d-none");
                 }
+            }
+
+            // Supervisor Data
+            if (data.supervisors && data.supervisors[0] != "E/yy/xxx") {
+                let supervisorsCount = Object.keys(data.supervisors).length;
+
+                if(supervisorsCount>0){
+                    $("#teamCards").append(divider());
+                    $(".remoteDataTeam_cards").removeClass("d-none");
+                }
+
+                $.each(data.supervisors, function(index, member) {
+                    if (index != "email@eng.pdn.ac.lk") {
+                        let memberData = teamCard(member.name, "", member.profile_url, member.profile_image);
+
+                        // console.log(memberData);
+                        $("#teamCards").append(memberData);
+                        supervisorsCount++;
+                    }
+                });
             }
         }
     });
@@ -212,19 +229,26 @@ function readRemoteData(page_url) {
 }
 
 
-function teamCard(name, profile_url, avatar_url){
-    return `<div class="col-4 col-sm-3 col-md-2 col-lg-2 d-flex" style="padding: 3px;">
+function teamCard(name, eNumber, profile_url, avatar_url){
+    let resp = `<div class="col-4 col-sm-3 col-md-2 col-lg-2 d-flex" style="padding: 3px;">
     <div class="card p-1 flex-fill">
     <div class="overflow-hidden">
-    <img class="card-img-top img-fluid" src="${avatar_url}" alt="Card image">
+    <img class="card-img-top img-fluid" src="${avatar_url}" alt="${name}">
     </div>
     <div class="card-body p-0 d-flex flex-column">
     <h4 class="profile-title card-title text-center pt-1">${name}</h4>
-    <p class="profile-text card-text text-center">E/15/140</p>
-    <div class="d-grid mt-auto px-2 pb-2">
-    <a href="${profile_url}" target="_blank" class="btn btn-sm btn-primary btn-block">See Profile</a>
-    </div>
-    </div>
-    </div>
-    </div>`
+    <p class="profile-text card-text text-center">${eNumber}</p>`;
+
+    if (profile_url != "#"){
+        resp += `<div class="d-grid mt-auto px-2 pb-2">
+            <a href="${profile_url}" target="_blank" class="btn btn-sm btn-primary btn-block">Profile</a>
+            </div>`;
+    }
+
+    resp += `</div></div></div>`
+
+    return resp;
+}
+function divider(){
+    return `<div class="d-flex vr" style="width:24px; padding: 3px;"></div>`
 }

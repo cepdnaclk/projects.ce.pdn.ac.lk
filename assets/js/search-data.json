@@ -1,5 +1,5 @@
 ---
-permalink: /assets/js/search-data-old.json
+permalink: /assets/js/search-data.json
 ---
 {
 {%- assign i = 0 -%}
@@ -35,6 +35,8 @@ permalink: /assets/js/search-data-old.json
             {%- capture url -%}{{ url | append: '#' | append: id }}{%- endcapture -%}
           {%- endif -%}
         {%- endif -%}
+
+
   {%- unless i == 0 -%},{%- endunless -%}
   "{{ i }}": {
     "doc": {{ page.title | jsonify }},

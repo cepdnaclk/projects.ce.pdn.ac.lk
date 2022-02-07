@@ -10,7 +10,7 @@ has_toc: true
 default_thumb_image: ./data/categories/swarm/thumbnail.jpg
 
 link: https://pera-swarm.ce.pdn.ac.lk/
-
+search_exclude: true
 ---
 
 This page is under constructions. Please come back later.

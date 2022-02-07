@@ -63,7 +63,7 @@ layout: default
                         {% if page.repo_url != 'blank' %}
                         <div class="mb-3 col-6" style="max-width: 540px;">
                             <div class="card btn-card m-1">
-                                <a class="text-decoration-none text-primary" href="{{ page.page_url }}" target="_blank">
+                                <a class="text-decoration-none text-primary" href="{{ page.repo_url }}" target="_blank">
                                     <div class="row g-0">
 
                                         <div class="col-md-3 d-flex align-items-center">
@@ -106,17 +106,15 @@ layout: default
                 </div>
 
                 <div class="container remoteDataTeam_cards d-none pt-3">
-                    <h3>Team</h3>
-                    <div class="row" id="teamCards">
-
-                    </div>
+                    <h3>Team / Supervisors</h3>
+                    <div class="row" id="teamCards"></div>
                 </div>
 
-                <div class="container remoteDataSupervisors d-none pt-3">
+                <!-- <div class="container remoteDataSupervisors d-none pt-3">
                     <h3>Supervisors</h3>
                     <ul id="supervisorList">
                     </ul>
-                </div>
+                </div> -->
 
                 <div id="publications" class="container d-none pt-3">
                     <h3 class="pt-3">Publications</h3>
@@ -151,7 +149,7 @@ layout: default
                         <ul class="list-unstyled mb-0">
                             {% for member in page.contributors %}
                             <li>
-                                <div class="w3-container d-flex">
+                                <div class="container d-flex">
                                     <img class="rounded-circle p-1 align-self-center"
                                     alt=""
                                     style="width: 48px; height: 48px;"

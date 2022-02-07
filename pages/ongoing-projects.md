@@ -3,6 +3,7 @@ layout: page
 title: "Ongoing Projects"
 permalink: /ongoing-projects/
 navbar_active: Sitemap
+search_exclude: true
 ---
 <style>
     .badge{
