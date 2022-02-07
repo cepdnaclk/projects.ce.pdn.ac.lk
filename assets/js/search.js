@@ -70,7 +70,7 @@ permalink: /assets/js/search.js
             this.field('content');
         });
 
-        const url = '{% link assets/js/zzzz-search-data.json %}';
+        const url = '{{ site.baseurl}}/assets/js/search-data.json';
         $.getJSON(url, function(data) {
 
             // console.log(data);
