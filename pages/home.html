@@ -11,7 +11,7 @@ has_children: true
 search_exclude: true
 ---
 
-{% include page_tree_builder.html pages=site.html_pages %}
+{%- include page_tree_builder.html pages=site.html_pages -%}
 
 <!-- Jumbotron Header -->
 <header class="blog-header py-3 px-3">
@@ -45,7 +45,7 @@ search_exclude: true
                 <div class="row">
                     <div class="col-md-10 mx-auto">
                         <div class="input-group">
-                            <input type="search" id="search-box" class="form-control form-control-lg" placeholder="Search" name="query" required />
+                            <input type="search" id="search-box" class="form-control form-control-lg" placeholder="Search projects by keywords..." name="query" required />
                             <button id="search-button" type="submit" class="btn btn-primary px-3 form-control-lg">
                                 <i class="fas fa-search"></i>
                             </button>
@@ -55,16 +55,17 @@ search_exclude: true
             </form>
         </div>
 
+        <hr>
         <div>
             <div class="row text-center my-2">
-                {% if page.has_children == true and page.has_toc != false %}
+                {%- if page.has_children == true and page.has_toc != false -%}
                 {%- assign children_list = pages_list | where: "parent", page.title -%}
 
                 <div class="container p-0 mw-100">
                     <div class="row">
-                        {% for child in children_list %}
+                        {%- for child in children_list -%}
 
-                        {% if child.type == "GENERAL" %}
+                        {%- if child.type == "GENERAL" -%}
                         <div class="col-lg-4 col-md-6 mb-1 icon-box d-flex {{ child.type }} img-hover-zoom-card">
                             <a class="btn" href="{{ child.permalink | prepend: site.baseurl}}">
                                 <div class="card h-100">
@@ -77,24 +78,23 @@ search_exclude: true
                                 </div>
                             </a>
                         </div>
-                        {% endif %}
+                        {%- endif -%}
 
-                        {% endfor %}
+                        {%- endfor -%}
                     </div>
                 </div>
-                {% endif %}
+                {%- endif -%}
             </div>
 
             <h3 class="pt-3 pb-1">Course-Specific Projects</h3>
             <div class="row text-center my-2">
-                {% if page.has_children == true and page.has_toc != false %}
+                {%- if page.has_children == true and page.has_toc != false -%}
                 {%- assign children_list = pages_list | where: "parent", page.title -%}
 
                 <div class="container p-0 mw-100">
                     <div class="row">
-                        {% for child in children_list %}
-
-                        {% if child.type == "COURSE" %}
+                        {%- for child in children_list -%}
+                        {%- if child.type == "COURSE" -%}
                         <div class="col-lg-3 col-md-6 mb-1 d-flex {{ child.type }} img-hover-zoom-card">
                             <a class="btn" href="{{ child.permalink  | prepend: site.baseurl}}">
                                 <div class="card h-100">
@@ -107,14 +107,12 @@ search_exclude: true
                                 </div>
                             </a>
                         </div>
-                        {% endif %}
-
-                        {% endfor %}
+                        {%- endif -%}
+                        {%- endfor -%}
                     </div>
                 </div>
-                {% endif %}
+                {%- endif -%}
             </div>
-
 
             <br>
             <h3 class="pt-3 pb-1">Recent Student Projects</h3>
@@ -122,7 +120,7 @@ search_exclude: true
                 {%- assign recent_list = site.data.projects_latest -%}
                 <div class="container p-0 mw-100">
                     <div class="row">
-                        {% for child in recent_list %}
+                        {%- for child in recent_list -%}
                         <div class="col-lg-3 col-md-6 col-sm-6 d-flex m-0 img-hover-zoom-card" style="padding: 10px 0;">
                             <a class="btn m-0" href="{{ child[1].project_url }}">
                                 <div class="card h-100 m-0">
@@ -138,7 +136,7 @@ search_exclude: true
                                 </div>
                             </a>
                         </div>
-                        {% endfor %}
+                        {%- endfor -%}
                     </div>
                 </div>
 
