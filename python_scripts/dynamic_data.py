@@ -54,12 +54,18 @@ def get_githubData():
                     print(projName)
 
                     proj_url = 'https://projects.ce.pdn.ac.lk/{}/{}/{}'.format(cat, batch.lower(), name)
+                    thumb_url = 'https://projects.ce.pdn.ac.lk/data/categories/{}/thumbnail.jpg'.format(cat)
+                    formattedName = " ".join(repoName[2:])
 
                     proj_data[projName] = {
+                        "projName": formattedName,
+                        "batch": batch.upper(),
+                        "category": CATEGORIES[cat]['name'],
                         "repo_url": jsonData[i]["html_url"],
                         "project_url": proj_url,
                         "page_url": jsonData[i]["homepage"],
                         "api_url": jsonData[i]["url"],
+                        "thumb_url": thumb_url,
                         "created_at": jsonData[i]["created_at"],
                         "updated_at": jsonData[i]["updated_at"],
                         "forks_count": jsonData[i]["forks_count"],

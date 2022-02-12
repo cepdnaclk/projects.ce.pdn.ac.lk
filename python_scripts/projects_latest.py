@@ -25,7 +25,7 @@ for key in sorted(updated_dict, reverse=True):
 
 
 # Only latest x projects will be saved here
-LATEST_PROJ_LIMIT = 5
+LATEST_PROJ_LIMIT = 8
 sliced_dict = dict(list(sorted_dict.items())[:LATEST_PROJ_LIMIT])
 
 # Write project data into file
