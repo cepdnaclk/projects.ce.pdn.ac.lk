@@ -1,4 +1,3 @@
-
 function readLanguageData(repo_url) {
     const repoURLComponents = repo_url.split("/");
     const repoName = repoURLComponents[repoURLComponents.length - 1];
@@ -26,7 +25,7 @@ function readLanguageData(repo_url) {
                     var val = Math.round(p * 10000) / 100;
 
                     if (val >= 0.25) {
-                        $("#langList").append(`<li>${lang} - ${val}%</li>`);
+                        $("#langList").append(`<span class='tag m-2'>${lang} - ${val}%</span>`);
                     }
                 });
             }
@@ -100,7 +99,7 @@ function readAPIData(url) {
 
 }
 
-function readRemoteData(page_url) {
+function readRemoteData(basepath, page_url) {
     const url = `${page_url}/data/index.json`;
 
     console.log('Fetch data from the project config,', url);
@@ -113,50 +112,11 @@ function readRemoteData(page_url) {
             // Show remoteData container
             $(".remoteData").removeClass("d-none");
 
-            // Supervisor Data
-            // if (data.supervisors[0].email != "email@eng.pdn.ac.lk") {
-            //     let supervisorCount = 0;
-            //
-            //     $.each(data.supervisors, function(index, supervisor) {
-            //         if (supervisor.email != "email@eng.pdn.ac.lk") {
-            //             let supervisorData = '';
-            //             supervisorData +=(`<li class="mb-4"><span>${supervisor.name}</span><br>`);
-            //
-            //             if(supervisor.email != "mail@eng.pdn.ac.lk" && supervisor.email != undefined){
-            //                 supervisorData +=(`<span class="mx-2"><a class="text-dark" href="mailto:${supervisor.email}">
-            //                 <i class='fa fa-envelope mx-2' aria-hidden='true'></i>${supervisor.email}
-            //                 </a></span>`);
-            //             }
-            //
-            //             if(supervisor.linkedin_profile != "#" && supervisor.linkedin_profile != undefined){
-            //                 supervisorData +=(`<span class="mx-2"><i class='fa fa-linkedin mx-2' aria-hidden='true'></i>
-            //                 <a class="text-dark" target="_blank" href="${supervisor.linkedin_profile}">Linkedin</a></span>`);
-            //             }
-            //             if(supervisor.website != "#" && supervisor.website != undefined){
-            //                 supervisorData +=(`<span class="mx-2"><i class='fa fa-globe mx-2' aria-hidden='true'></i>
-            //                 <a class="text-dark" target="_blank" href="${supervisor.website}">Website</a></span>`);
-            //             }
-            //             if(supervisor.researchgate_profile != "#" && supervisor.researchgate_profile != undefined){
-            //                 supervisorData +=(`<span class="mx-2"><i class='fab fa-researchgate"></i mx-2' aria-hidden='true'></i>
-            //                 <a class="text-dark" target="_blank" href="${supervisor.researchgate_profile}">Researchgate</a></span>`);
-            //             }
-            //
-            //             supervisorData+= '</li>';
-            //             $("#supervisorList").append(supervisorData);
-            //             supervisorCount++;
-            //         }
-            //     });
-            //
-            //     if(supervisorCount >0){
-            //         $(".remoteDataSupervisors").removeClass("d-none");
-            //     }
-            // }
-
             // Tag Data
             if (data.tags.length > 0) {
                 $(".remoteDataTags").removeClass("d-none");
                 $.each(data.tags, function(index, tag) {
-                    $("#tagList").append(`<span class='tag m-2'>${tag}</span> `);
+                    $("#tagList").append(`<a class="text-decoration-none text-dark" href="${basepath}/search/?query=${tag}"><span class='tag m-2'>${tag}</span></a> `);
                 });
             }
 
@@ -241,8 +201,8 @@ function teamCard(name, eNumber, profile_url, avatar_url){
 
     if (profile_url != "#"){
         resp += `<div class="d-grid mt-auto px-2 pb-2">
-            <a href="${profile_url}" target="_blank" class="btn btn-sm btn-primary btn-block">Profile</a>
-            </div>`;
+        <a href="${profile_url}" target="_blank" class="btn btn-sm btn-primary btn-block">Profile</a>
+        </div>`;
     }
 
     resp += `</div></div></div>`
