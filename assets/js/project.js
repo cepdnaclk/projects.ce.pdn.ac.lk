@@ -25,7 +25,7 @@ function readLanguageData(repo_url) {
                     var val = Math.round(p * 10000) / 100;
 
                     if (val >= 0.25) {
-                        $("#langList").append(`<span class='tag m-2'>${lang} - ${val}%</span>`);
+                        $("#langList").append(`<span class='tag m-2'>${lang} (${val}%)</span>`);
                     }
                 });
             }
