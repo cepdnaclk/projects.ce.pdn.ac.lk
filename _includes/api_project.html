@@ -1,3 +1,7 @@
+
+{%- assign github_data = site.data.projects | where: "repo_url", project.repo_url  -%}
+{%- assign github_info = github_data[0] -%}
+
 {% assign cat = project.parent | split: " " %}
 {
     "title": "{{ project.title }}",
@@ -8,12 +12,27 @@
     "cover_url": "{{ site.url }}{{ project.cover_url }}",
     "thumbnail_url": "{{ site.url }}{{ project.thumbnail_url }}",
     "repo_url": "{{ project.repo_url }}",
-    {% if project.page_url != "blank" %}
+    {%- if project.page_url != "blank" -%}
     "page_url": "{{ project.page_url }}",
     "data_url": "{{ project.page_url }}/data/index.json"
-    {% else %}
+    {%- else -%}
     "page_url": "#",
     "data_url": "#"
-    {% endif %}
-
+    {%- endif -%},
+    "github": {
+        "created_at": "{{ github_info.created_at | date: '%Y-%m-%d' }}",
+        "updated_at": "{{ github_info.updated_at | date: '%Y-%m-%d' }}",
+        "language": "{{ github_info.language }}",
+        "forks_count": "{{ github_info.forks_count }}",
+        "stars_count": "{{ github_info.stars_count }}",
+        "watchers_count": "{{ github_info.watchers_count }}",
+        "topics": [
+            {%- for topic in github_info.topics -%}
+            "{{ topic | strip }}"{%- if forloop.last -%}{%- else -%},{%- endif -%}
+            {%- endfor -%}
+        ],
+        "has_projects": "{{ github_info.has_projects }}",
+        "has_wiki": "{{ github_info.has_wiki }}",
+        "has_pages": "{{ github_info.has_pages }}"
+    }
 }

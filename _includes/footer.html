@@ -7,3 +7,8 @@
         </p>
     </div>
 </footer>
+
+
+{% if site.search_enabled != false -%}
+<script type="text/javascript" src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
+{% endif -%}

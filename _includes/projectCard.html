@@ -1,0 +1,14 @@
+<div class="col-lg-3 col-md-6 col-sm-6 d-flex m-0 img-hover-zoom-card" style="padding: 10px 0;">
+    <a class="btn m-0" href="{{ include.proj.url | realtive_url | prepend: site.baseurl }}">
+        <div class="card h-100 m-0">
+            <div class="img-hover-zoom">
+                <img class="card-img-top app-thumb-img" src="{{ include.proj.thumb | realtive_url | prepend: site.baseurl }}" alt="" />
+            </div>
+            <div class="card-body p-1 m-0">
+                <p class="card-title project-card-title">
+                    {{ include.proj.title }} ({{ include.proj.parent | slice:0,3 }})
+                </p>
+            </div>
+        </div>
+    </a>
+</div>

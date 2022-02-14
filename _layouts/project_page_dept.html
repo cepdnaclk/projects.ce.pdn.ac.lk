@@ -1,54 +1,43 @@
 ---
 layout: table_wrappers
 ---
+{% include project_navbar.html %}
+{% include page_tree_builder.html pages=site.html_pages %}
 
-<!DOCTYPE html>
+<main class="py-2 p-1">
+    <div class="container-fluid px-2">
+        <div class="row px-5 py-2">
+            <nav aria-label="breadcrumb" class="w-100 mt-2">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
+                    <li class="breadcrumb-item"><span>Department Projects</span></li>
+                    <li class="breadcrumb-item"><span>{{ page.title }}</span></li>
+                </ol>
+            </nav>
+        </div>
 
-<html lang="{{ site.lang | default: 'en-US' }}">
-{% include head.html %}
-<body>
-    <div id="app">
-        {% include project_navbar.html %}
-        {% include page_tree_builder.html pages=site.html_pages %}
+        <div class="row">
+            <div class="col-md-1 col-lg-1">&nbsp;</div>
 
-        <main class="py-2 p-1">
-            <div class="container-fluid px-2">
-                <div class="row px-5 py-2">
-                    <nav aria-label="breadcrumb" class="w-100 mt-2">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="../../">Home</a></li>
-                            <li class="breadcrumb-item"><span>Department Projects</span></li>
-                            <li class="breadcrumb-item"><span>{{ page.title }}</span></li>
-                        </ol>
-                    </nav>
+            <div class="col-md-10 col-lg-10">
+
+                <div class="container px-3">
+                    <h1 class="mt-2">{{ page.title }}</h1>
                 </div>
 
                 <div class="row">
-                    <div class="col-md-1 col-lg-1">&nbsp;</div>
-
-                    <div class="col-md-10 col-lg-10">
-
-                        <div class="container px-3">
-                            <h1 class="mt-2">{{ page.title }}</h1>
-                        </div>
-
-                        <div class="row">
-                            <!-- Post Content Column -->
-                            <div class="col-md-10 px-5">
-                                {{ content }}
-                            </div>
-
-                            <!-- Sidebar Widgets Column -->
-                            <div class="col-md-1">
-                                &nbsp;
-                            </div>
-                        </div>
+                    <!-- Post Content Column -->
+                    <div class="col-md-10 px-5">
+                        {{ content }}
                     </div>
-                    <div class="col-md-1 col-lg-1">&nbsp;</div>
+
+                    <!-- Sidebar Widgets Column -->
+                    <div class="col-md-1">
+                        &nbsp;
+                    </div>
                 </div>
             </div>
-        </main>
-
-        {% include footer.html %}
+            <div class="col-md-1 col-lg-1">&nbsp;</div>
+        </div>
     </div>
-</body>
+</main>

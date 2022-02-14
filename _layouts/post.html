@@ -1,30 +1,10 @@
 ---
-layout: table_wrappers
+layout: default
 ---
+{% include project_navbar.html %}
 
-<!DOCTYPE html>
-
-<html lang="{{ site.lang | default: 'en-US' }}">
-{% include head.html %}
-<body>
-    <div id="app">
-        {% include project_navbar.html %}
-
-        <main class="py-5 px-1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-1 col-sm-0 col-lg-2">&nbsp;</div>
-                    <div class="col-md-10 col-sm-12 col-lg-8">
-                        <div class="container p-3"  style="min-height: 80vh;">
-                            {{ content }}
-                        </div>
-                    </div>
-                    <div class="col-md-1 col-sm-0 col-lg-2">&nbsp;</div>
-                </div>
-            </div>
-        </main>
-
-        {% include footer.html %}
+<main class="py-2 p-1">
+    <div class="container"  style="min-height: 80vh;">
+        {{ content }}
     </div>
-</body>
-</html>
+</main>
