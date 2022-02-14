@@ -3,24 +3,21 @@
 
 This is the repository contains the source code for [https://projects.ce.pdn.ac.lk](https://projects.ce.pdn.ac.lk). The site is built by Jekyll Builder and hosted on GitHub pages.
 
-Jekyll Builder theme is based on [pmarsceill/just-the-docs](https://github.com/pmarsceill/just-the-docs).
-
 ## Update the site
-
-Since the site is served as a static website, it is required to update the projects from time to time. (*TODO: Automate this process using GitHub Actions*)
 
 Student projects on [github.com/cepdnaclk](https://github.com/cepdnaclk) can be added to this site using the python script found in the root folder. Run following instructions to run the script and make a pull request to the repository.
 
 ```
 pip install requests
-python stat_script.py
+cd ./python_scripts/
+python3 stat_script.py
 ```
 
 ## Build Instructions
 
 Currently, the site is built by GitHub itself once there is a pull request to the *main* branch.
 
-If you are interested in build the site in a local environment, info on how to build can be found in [projects.ce.pdn.ac.lk/docs/deployment](https://projects.ce.pdn.ac.lk/docs/deployment). You can also use *setup.sh* and *run.sh* bash scripts in the root folder, if you have already installed the required software.
+If you are interested in build the site in a local environment, info on how to build can be found in [projects.ce.pdn.ac.lk/docs/deployment](https://projects.ce.pdn.ac.lk/docs/deployment). You can also use *setup.sh* and *run.sh* bash scripts in the folder, */scripts*.
 
 ## Contact Info
 
