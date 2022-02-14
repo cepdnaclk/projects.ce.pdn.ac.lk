@@ -1,0 +1,147 @@
+---
+layout: default
+title: Home
+page_title: Home | projects.ce.pdn.ac.lk
+
+nav_order: 1
+description: "Welcome to the student project listing of the Department of Computer Engineering, University of Peradeniya. This website contains the documentation, code and other multimedia resources for the academic and extra curricular projects conducted by the students of the department."
+permalink: /
+has_children: true
+
+search_exclude: true
+---
+
+{%- include page_tree_builder.html pages=site.html_pages -%}
+
+<!-- Jumbotron Header -->
+<header class="blog-header py-3 px-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-2 pt-1">
+            <img class=" mx-auto d-block img-fluid" src="{{ '/assets/images/crest.png' | prepend: site.baseurl }}" alt="Logo">
+        </div>
+        <div class="col-8">
+            <a class="blog-header-logo text-white text-decoration-none" href="#">
+                Student Projects<br>
+                <small class="small">Department of Computer Engineering, University of Peradeniya, Sri Lanka</small>
+            </a>
+        </div>
+        <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="d-none btn btn-sm btn-outline-secondary" href="http://www.ce.pdn.ac.lk" target="_blank">Department Site</a>
+        </div>
+    </div>
+</header>
+{% include project_navbar.html %}
+
+<main class="py-2 p-1">
+    <div class="container p-5"  style="min-height: 80vh;">
+        <header class="jumbotron lead my-2 mb-5">
+            <p class="lead">
+                Welcome to the student project listing of the Department of Computer Engineering, University of Peradeniya. This website contains the documentation, code and other multimedia resources for the academic and extra curricular projects conducted by the students of the department.
+            </p>
+        </header>
+
+        <div class="container pb-5">
+            <form action="{{'/search/' | relative_url}}" method="get">
+                <div class="row">
+                    <div class="col-md-10 mx-auto">
+                        <div class="input-group">
+                            <input type="search" id="search-box" class="form-control form-control-lg" placeholder="Search projects by keywords..." name="query" required />
+                            <button id="search-button" type="submit" class="btn btn-primary px-3 form-control-lg">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <hr>
+        <div>
+            <div class="row text-center my-2">
+                {%- if page.has_children == true and page.has_toc != false -%}
+                {%- assign children_list = pages_list | where: "parent", page.title -%}
+
+                <div class="container p-0 mw-100">
+                    <div class="row">
+                        {%- for child in children_list -%}
+
+                        {%- if child.type == "GENERAL" -%}
+                        <div class="col-lg-4 col-md-6 mb-1 icon-box d-flex {{ child.type }} img-hover-zoom-card">
+                            <a class="btn" href="{{ child.permalink | prepend: site.baseurl}}">
+                                <div class="card h-100">
+                                    <div class="img-hover-zoom">
+                                        <img class="card-img-top" src="{{ child.default_thumb_image | prepend: site.baseurl }}" alt="{{child.title}}">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{child.title}}</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        {%- endif -%}
+
+                        {%- endfor -%}
+                    </div>
+                </div>
+                {%- endif -%}
+            </div>
+
+            <h3 class="pt-3 pb-1">Course-Specific Projects</h3>
+            <div class="row text-center my-2">
+                {%- if page.has_children == true and page.has_toc != false -%}
+                {%- assign children_list = pages_list | where: "parent", page.title -%}
+
+                <div class="container p-0 mw-100">
+                    <div class="row">
+                        {%- for child in children_list -%}
+                        {%- if child.type == "COURSE" -%}
+                        <div class="col-lg-3 col-md-6 mb-1 d-flex {{ child.type }} img-hover-zoom-card">
+                            <a class="btn" href="{{ child.permalink  | prepend: site.baseurl}}">
+                                <div class="card h-100">
+                                    <div class="img-hover-zoom">
+                                        <img class="card-img-top" src="{{ child.default_thumb_image | prepend: site.baseurl }}" alt="{{child.title}}">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{child.title}}</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        {%- endif -%}
+                        {%- endfor -%}
+                    </div>
+                </div>
+                {%- endif -%}
+            </div>
+
+            <br>
+            <h3 class="pt-3 pb-1">Recent Student Projects</h3>
+            <div class="row text-center my-2">
+                {%- assign recent_list = site.data.projects_latest -%}
+                <div class="container p-0 mw-100">
+                    <div class="row">
+                        {%- for child in recent_list -%}
+                        <div class="col-lg-3 col-md-6 col-sm-6 d-flex m-0 img-hover-zoom-card" style="padding: 10px 0;">
+                            <a class="btn m-0" href="{{ child[1].project_url }}">
+                                <div class="card h-100 m-0">
+                                    <div class="img-hover-zoom">
+                                        <img class="card-img-top app-thumb-img" src="{{ child[1].thumb_url }}" alt="" />
+                                    </div>
+                                    <div class="card-body p-1 m-0">
+                                        <p class="card-title project-card-title">
+                                            <b>{{ child[1].projName }} ({{ child[1].batch }})</b><br>
+                                            {{ child[1].updated_at | date: '%Y-%m-%d' }}
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        {%- endfor -%}
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</main>

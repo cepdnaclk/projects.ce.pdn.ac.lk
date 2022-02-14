@@ -1,0 +1,46 @@
+name: Collect Dynamic Data
+
+on:
+  schedule:
+    # # At 18:30 UTC on Sunday (12.00 mid night in Sri Lanka)
+    # - cron: "30 18 * * 0"
+
+    # # At 18:30 UTC on everyday (12.00 mid night in Sri Lanka)
+    - cron: "0 0 * * 0"
+
+  # Enables a button on Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@master
+        with:
+          ref: main
+
+      - name: Set up Python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run the Python script
+        run: |
+          cd ./python_scripts/
+          python dynamic_data.py
+          python projects_latest.py
+
+      - name: Commit and push into the main branch
+        run: |
+
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add --all
+          git commit -m "Dynamic data updated" || echo "No changes to commit"
+          git push

@@ -1,0 +1,20 @@
+---
+permalink: /assets/js/search-data.json
+---
+{% include page_tree_builder.html pages=site.html_pages %}
+{%- assign i = 0 -%}
+{%- assign pages_array = pages_list | where: "layout", "project_page" -%}
+{
+    {%- for page in pages_array -%}
+    {%- assign parts = page.content -%}
+    "{{ i }}": {
+        "doc": {{ page.title | jsonify }},
+        "title": {{ page.title | jsonify }},
+        "thumb": {{ page.thumbnail_url | jsonify }},
+        "content": {{ parts | replace: '</h', ' . </h' | replace: '<hr', ' . <hr' | replace: '</p', ' . </p' | replace: '<ul', ' . <ul' | replace: '</ul', ' . </ul' | replace: '<ol', ' . <ol' | replace: '</ol', ' . </ol' | replace: '</tr', ' . </tr' | replace: '<li', ' | <li' | replace: '</li', ' | </li' | replace: '</td', ' | </td' | replace: '<td', ' | <td' | replace: '</th', ' | </th' | replace: '<th', ' | <th' | strip_html | remove: 'Table of contents' | normalize_whitespace | replace: '. . .', '.' | replace: '. .', '.' | replace: '| |', '|' | append: ' ' | jsonify }},
+        "url": "{{ site.url }}{{ page.url | relative_url }}",
+        "relUrl": "{{ page.url }}"
+    }{% if forloop.last %}{% else %},{% endif %}
+    {%- assign i = i | plus: 1 -%}
+    {%- endfor -%}
+}
