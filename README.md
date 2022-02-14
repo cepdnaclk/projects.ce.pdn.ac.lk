@@ -13,7 +13,8 @@ Student projects on [github.com/cepdnaclk](https://github.com/cepdnaclk) can be 
 
 ```
 pip install requests
-python stat_script.py
+cd ./python_scripts
+python3 stat_script.py
 ```
 
 ## Build Instructions
