@@ -19,7 +19,7 @@ permalink: /assets/js/search.js
                 appendString += `
                 <div class="row d-flex">
                     <div class="col-12 col-sm-4 col-md-3 d-flex align-items-center p-2">
-                        <img class="m-1 img-fluid img-thumbnail align-self-center serach-img mx-auto my-auto" src="{{ site.baseurl }}/${item.thumb}" alt="Result Item Image">
+                        <img class="m-1 img-fluid img-thumbnail align-self-center serach-img mx-auto my-auto" src="{{ site.baseurl }}${item.thumb}" alt="Result Item Image">
                     </div>
                     <div class="col-12 col-sm-8 col-md-9 d-flex align-items-center">
                         <div class="container">
