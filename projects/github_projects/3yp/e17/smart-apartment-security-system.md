@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: smart apartment security system
-permalink: /3yp/e17/smart-apartment-security-system
+permalink: /3yp/e17/smart-apartment-security-system/
 description: "Smart Apartment Security System is a security system which can be used for houses in an apartment."
 
 has_children: false

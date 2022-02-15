@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: remote keyboard tutoring system
-permalink: /3yp/e17/remote-keyboard-tutoring-system
+permalink: /3yp/e17/remote-keyboard-tutoring-system/
 description: "The Remote Keyboard Tutoring System is a web-based system that can be attached to any (electronic) keyboard synthesizer through a MIDI connector. Once our system is connected to the keyboard, the user can interactively learn, play or teach in combination with the web application that we provide."
 
 has_children: false

@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Wireles SDN Ad hoc Network For Vehicular Communication
-permalink: /4yp/e15/Wireles-SDN-Ad-hoc-Network-For-Vehicular-Communication
+permalink: /4yp/e15/Wireles-SDN-Ad-hoc-Network-For-Vehicular-Communication/
 description: ""
 
 has_children: false

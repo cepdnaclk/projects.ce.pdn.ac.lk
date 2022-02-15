@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: cricket analysis
-permalink: /4yp/e15/cricket-analysis
+permalink: /4yp/e15/cricket-analysis/
 description: "Data Mining System for Selecting a Winning ODI Cricket Team. This analysis on cricket includes analysis of the individual performance of players, the combined performance of players, frequent winning combinations, and outcome prediction of an ODI match."
 
 has_children: false

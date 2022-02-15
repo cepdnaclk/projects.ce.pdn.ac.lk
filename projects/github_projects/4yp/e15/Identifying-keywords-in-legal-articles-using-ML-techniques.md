@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Identifying keywords in legal articles using ML techniques
-permalink: /4yp/e15/Identifying-keywords-in-legal-articles-using-ML-techniques
+permalink: /4yp/e15/Identifying-keywords-in-legal-articles-using-ML-techniques/
 description: "In Sri Lanka, it is vital need to implement a system to extract key information from legal document. This research focused on how to mine basic information from legal documents and how to apply machine learning techniques to extract keywords from documents."
 
 has_children: false

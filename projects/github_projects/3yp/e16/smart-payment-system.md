@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: smart payment system
-permalink: /3yp/e16/smart-payment-system
+permalink: /3yp/e16/smart-payment-system/
 description: "In a gaming center, they normally use coins to play games. When a customer comes, they have to buy coins from the cashier to use those as a paying method to the gaming machine. So we came up with a simple but efficient solution that will allow you to play any game inside a gaming center with a single tap. It is RFID based payment system."
 
 has_children: false

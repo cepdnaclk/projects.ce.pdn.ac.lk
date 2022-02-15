@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Intelligent Road Traffic Control System
-permalink: /3yp/e15/Intelligent-Road-Traffic-Control-System
+permalink: /3yp/e15/Intelligent-Road-Traffic-Control-System/
 description: "Vehicle travel across the world is increasing, especially in larger urban areas. It is a serious problem in traffic congestions in many major cities around the world and in these cities, it has become a nightmare for travelers. Intelligent control of traffic in the future will become a very important issue. Therefore, to better accommodation of this increasing demand, traffic control algorithms need to be simulated and optimized. "
 
 has_children: false

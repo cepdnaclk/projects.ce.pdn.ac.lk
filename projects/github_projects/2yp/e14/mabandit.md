@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: mabandit
-permalink: /2yp/e14/mabandit
+permalink: /2yp/e14/mabandit/
 description: "A python based library which includes multi_arm_bandit and Bayesian_optimization_algorithms. The PYPI repository  can be found as mabandit 1.3"
 
 has_children: false

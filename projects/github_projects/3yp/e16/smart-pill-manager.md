@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: smart pill manager
-permalink: /3yp/e16/smart-pill-manager
+permalink: /3yp/e16/smart-pill-manager/
 description: "This project is about a device which we called a smart pill manager to help patients to get their medicine according to the given routine. "
 
 has_children: false

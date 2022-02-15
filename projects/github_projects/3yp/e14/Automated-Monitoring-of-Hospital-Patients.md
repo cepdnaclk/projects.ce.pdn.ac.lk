@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Automated Monitoring of Hospital Patients
-permalink: /3yp/e14/Automated-Monitoring-of-Hospital-Patients
+permalink: /3yp/e14/Automated-Monitoring-of-Hospital-Patients/
 description: "This study develops a remote monitoring diagnostic framework to detect condition of patients in real-time which helps avoiding potential diseases.This system will be basically used in hospitals and medical centers. The proposed system has an embedded micro controller connected to a set of medical sensors (the sensors would differ according to the condition of the patient) and a wireless communication module (Bluetooth) . "
 
 has_children: false

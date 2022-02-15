@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: RISCV Pipeline CPU Implimentation Group2
-permalink: /co502/e16/RISCV-Pipeline-CPU-Implimentation-Group2
+permalink: /co502/e16/RISCV-Pipeline-CPU-Implimentation-Group2/
 description: "This is the RISC-V ISA implementation by Group 2"
 
 has_children: false

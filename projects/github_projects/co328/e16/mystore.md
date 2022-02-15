@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: mystore
-permalink: /co328/e16/mystore
+permalink: /co328/e16/mystore/
 description: ""
 
 has_children: false

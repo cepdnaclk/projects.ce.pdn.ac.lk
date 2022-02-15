@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Bus tracking system
-permalink: /3yp/e14/Bus-tracking-system
+permalink: /3yp/e14/Bus-tracking-system/
 description: "A lot of people do not like to travel in crowded buses. We would love to travel sitting, sleeping. It will be very useful if there is a system to know whether the next bus on our route is full or not, to know the location of that bus, to know whether there are any alternative buses on route and etc. So we came up with a solution which is an embedded system and huge network of various devices."
 
 has_children: false

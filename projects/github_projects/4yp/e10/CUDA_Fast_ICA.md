@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: CUDA_Fast_ICA
-permalink: /4yp/e10/CUDA_Fast_ICA
+permalink: /4yp/e10/CUDA_Fast_ICA/
 description: "CUDA implementation of Fast-ICA in C++"
 
 has_children: false

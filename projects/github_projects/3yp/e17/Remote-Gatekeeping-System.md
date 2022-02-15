@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Remote Gatekeeping System
-permalink: /3yp/e17/Remote-Gatekeeping-System
+permalink: /3yp/e17/Remote-Gatekeeping-System/
 description: "A system which manages human interactions securely with outsiders."
 
 has_children: false

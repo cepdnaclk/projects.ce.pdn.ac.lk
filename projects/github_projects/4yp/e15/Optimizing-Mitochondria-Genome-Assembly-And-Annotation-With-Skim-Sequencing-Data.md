@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Optimizing Mitochondria Genome Assembly And Annotation With Skim Sequencing Data
-permalink: /4yp/e15/Optimizing-Mitochondria-Genome-Assembly-And-Annotation-With-Skim-Sequencing-Data
+permalink: /4yp/e15/Optimizing-Mitochondria-Genome-Assembly-And-Annotation-With-Skim-Sequencing-Data/
 description: "This assembly is to find an efficient procedure to identify the optimal set of mitochondria genome data from skim sequencing data and assemble, annotate those data to form a complete mitochondria genome."
 
 has_children: false

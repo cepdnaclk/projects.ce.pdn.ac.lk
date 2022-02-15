@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Train Movement Tracking and Level Crossing Safety Control
-permalink: /3yp/e14/Train-Movement-Tracking-and-Level-Crossing-Safety-Control
+permalink: /3yp/e14/Train-Movement-Tracking-and-Level-Crossing-Safety-Control/
 description: "Our project is to built a monitoring system for railways. We intend to develop a system which can monitor all the trains from any where."
 
 has_children: false

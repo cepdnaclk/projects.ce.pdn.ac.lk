@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Smart Breathalyzer Test
-permalink: /3yp/e14/Smart-Breathalyzer-Test
+permalink: /3yp/e14/Smart-Breathalyzer-Test/
 description: "This project is mainly targeted for the Police Department in Sri Lanka. Our project is to innovate a digital alcohol meter equipment communicating with a secured database-system with a user friendly GUI."
 
 has_children: false

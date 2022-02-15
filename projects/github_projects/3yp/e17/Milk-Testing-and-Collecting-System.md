@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Milk Testing and Collecting System
-permalink: /3yp/e17/Milk-Testing-and-Collecting-System
+permalink: /3yp/e17/Milk-Testing-and-Collecting-System/
 description: "cyber physical project to develop milk collecting process."
 
 has_children: false

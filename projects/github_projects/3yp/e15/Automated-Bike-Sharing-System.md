@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Automated Bike Sharing System
-permalink: /3yp/e15/Automated-Bike-Sharing-System
+permalink: /3yp/e15/Automated-Bike-Sharing-System/
 description: "This project is about building an automated bike sharing system for university. This will be a convenient way for transportation inside the university premises."
 
 has_children: false

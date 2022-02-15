@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: building a testbed for power analysis attacks
-permalink: /4yp/e10/building-a-testbed-for-power-analysis-attacks
+permalink: /4yp/e10/building-a-testbed-for-power-analysis-attacks/
 description: "The A to Z of Building a Testbed for Power Analysis Attacks"
 
 has_children: false

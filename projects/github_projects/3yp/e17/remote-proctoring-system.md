@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: remote proctoring system
-permalink: /3yp/e17/remote-proctoring-system
+permalink: /3yp/e17/remote-proctoring-system/
 description: "A smart proctoring device which can be controlled remotely by an authorized person."
 
 has_children: false

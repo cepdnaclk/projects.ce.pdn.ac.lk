@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: An Efficient System For Waste Collection
-permalink: /3yp/e15/An-Efficient-System-For-Waste-Collection
+permalink: /3yp/e15/An-Efficient-System-For-Waste-Collection/
 description: "This Project aims to implement an Efficient Waste  Collection System in urban areas. Its is a very well known fact to the public that the waste collection in our country is done in a very primitive manner. "
 
 has_children: false

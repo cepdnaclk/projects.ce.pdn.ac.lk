@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: maker mate
-permalink: /3yp/e17/maker-mate
+permalink: /3yp/e17/maker-mate/
 description: "3rd year Embedded systems & Software project by @Thilini98, @thanujan96 and @DrMadhushan"
 
 has_children: false

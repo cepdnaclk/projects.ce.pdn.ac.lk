@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: anonymous authentication
-permalink: /4yp/e15/anonymous-authentication
+permalink: /4yp/e15/anonymous-authentication/
 description: "We propose three authentication protocols that allow a user to anonymously authenticate in a P2P environment. "
 
 has_children: false

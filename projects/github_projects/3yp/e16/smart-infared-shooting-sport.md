@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: smart infared shooting sport
-permalink: /3yp/e16/smart-infared-shooting-sport
+permalink: /3yp/e16/smart-infared-shooting-sport/
 description: "The purpose of this project was to design, build, and test an infrared shooting sport from the ground up to shoot farther in low cost and most importantly make it smart and updatable"
 
 has_children: false

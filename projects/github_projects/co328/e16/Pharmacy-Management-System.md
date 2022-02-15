@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Pharmacy Management System
-permalink: /co328/e16/Pharmacy-Management-System
+permalink: /co328/e16/Pharmacy-Management-System/
 description: ""
 
 has_children: false

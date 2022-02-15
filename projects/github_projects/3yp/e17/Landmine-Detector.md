@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Landmine Detector
-permalink: /3yp/e17/Landmine-Detector
+permalink: /3yp/e17/Landmine-Detector/
 description: "3rd Year Cyber-Physical Systems Project on detecting land mines."
 
 has_children: false

@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: agribot
-permalink: /3yp/e16/agribot
+permalink: /3yp/e16/agribot/
 description: "Autonomous Agricultural Robot"
 
 has_children: false

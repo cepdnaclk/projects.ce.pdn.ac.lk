@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Agriculture Monitoring and Control System
-permalink: /co326/e16/Agriculture-Monitoring-and-Control-System
+permalink: /co326/e16/Agriculture-Monitoring-and-Control-System/
 description: ""
 
 has_children: false

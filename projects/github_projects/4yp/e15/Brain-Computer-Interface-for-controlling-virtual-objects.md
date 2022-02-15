@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Brain Computer Interface for controlling virtual objects
-permalink: /4yp/e15/Brain-Computer-Interface-for-controlling-virtual-objects
+permalink: /4yp/e15/Brain-Computer-Interface-for-controlling-virtual-objects/
 description: "Develop a Brain-Computer Interface for Controlling virtual objects using the self-paced mind intent of a person. Here we have developed a Real-time pipeline for recognizing thought patterns using machine learning techniques and feed into a virtual environment(unity engine) for controlling virtual objects."
 
 has_children: false

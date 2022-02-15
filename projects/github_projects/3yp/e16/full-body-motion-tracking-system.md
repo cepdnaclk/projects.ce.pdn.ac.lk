@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: full body motion tracking system
-permalink: /3yp/e16/full-body-motion-tracking-system
+permalink: /3yp/e16/full-body-motion-tracking-system/
 description: "This is a online multiplayer first person shooter game that combines traditional multiplayer shooter gaming experience with virtual reality to create an ultimate immersive gaming experience."
 
 has_children: false

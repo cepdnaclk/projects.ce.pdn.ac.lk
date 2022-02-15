@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: balancing an inverted pendulum using a neural network
-permalink: /co542/e14/balancing-an-inverted-pendulum-using-a-neural-network
+permalink: /co542/e14/balancing-an-inverted-pendulum-using-a-neural-network/
 description: "CO542 Project"
 
 has_children: false

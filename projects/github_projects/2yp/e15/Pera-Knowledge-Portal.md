@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Pera Knowledge Portal
-permalink: /2yp/e15/Pera-Knowledge-Portal
+permalink: /2yp/e15/Pera-Knowledge-Portal/
 description: "Pera Knowledge Portal is a web site that will allow visitors to do a full-text search on student project reports and thesis, developed using PHP and ElasticSearch"
 
 has_children: false

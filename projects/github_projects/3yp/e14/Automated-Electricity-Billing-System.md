@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Automated Electricity Billing System
-permalink: /3yp/e14/Automated-Electricity-Billing-System
+permalink: /3yp/e14/Automated-Electricity-Billing-System/
 description: "    In present world embedded systems have become essential as every electronic and electrical day to day devices use the particular system for it's functionality.     Here our target is to achieve an automated and centralized electricity billing system with more security and efficiency.  Functionalities of the new system          * Accurate meter reading     * Can get update about the connection frequently     * Digital display for customers     * Customer can identify the trend of usage of the electricity"
 
 has_children: false

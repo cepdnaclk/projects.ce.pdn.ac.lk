@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Monitoring and Tracking System for Transportation of Pharmaceuticals
-permalink: /3yp/e15/Monitoring-and-Tracking-System-for-Transportation-of-Pharmaceuticals
+permalink: /3yp/e15/Monitoring-and-Tracking-System-for-Transportation-of-Pharmaceuticals/
 description: ""
 
 has_children: false

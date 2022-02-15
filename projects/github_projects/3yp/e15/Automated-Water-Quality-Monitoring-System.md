@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Automated Water Quality Monitoring System
-permalink: /3yp/e15/Automated-Water-Quality-Monitoring-System
+permalink: /3yp/e15/Automated-Water-Quality-Monitoring-System/
 description: " Fresh water is finite resource need for agriculture,industry and human existence. Therefore the quality of water is very important.The objective of this project is to develop automated water quality monitoring system by using continues measurements of pH and turbidity measurement.Normal process is water samples are normally collected at regular period and do the analysis and this ask for larger time consumption.But in this project we hope to offer fast and easy monitoring of pH and turbidity levels with IoT applications for continues maintenance of clean water"
 
 has_children: false

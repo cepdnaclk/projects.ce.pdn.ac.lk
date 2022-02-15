@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Health Watch
-permalink: /3yp/e15/Health-Watch
+permalink: /3yp/e15/Health-Watch/
 description: "Health Watch is a wrist band which monitors certain variables in the body, such as the heart rate, blood oxygen level and temperature"
 
 has_children: false

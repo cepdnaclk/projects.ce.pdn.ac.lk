@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Movie Review System
-permalink: /co328/e16/Movie-Review-System
+permalink: /co328/e16/Movie-Review-System/
 description: ""
 
 has_children: false

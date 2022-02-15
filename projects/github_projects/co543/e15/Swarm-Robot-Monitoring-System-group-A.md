@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Swarm Robot Monitoring System group A
-permalink: /co543/e15/Swarm-Robot-Monitoring-System-group-A
+permalink: /co543/e15/Swarm-Robot-Monitoring-System-group-A/
 description: "A swarm robotics systems consists of automation robots with local sensing and communication capabilities, lacking centralized control or access to global information, situated in a possibly unknown environment performing a collective action. Therefore, having centralized monitoring in addition to the distributed local sensing yields to a more robust system as a centralized monitoring system capable of performing global collective actions under a wide range of group sizes (scalability), despite the possible sudden loss of multiple agents (robustness), and under unknown and dynamic circumstances (flexibility)."
 
 has_children: false

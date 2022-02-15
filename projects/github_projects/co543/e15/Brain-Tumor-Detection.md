@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Brain Tumor Detection
-permalink: /co543/e15/Brain-Tumor-Detection
+permalink: /co543/e15/Brain-Tumor-Detection/
 description: ""
 
 has_children: false

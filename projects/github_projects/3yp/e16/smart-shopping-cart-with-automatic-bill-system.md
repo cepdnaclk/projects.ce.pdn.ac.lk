@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: smart shopping cart with automatic bill system
-permalink: /3yp/e16/smart-shopping-cart-with-automatic-bill-system
+permalink: /3yp/e16/smart-shopping-cart-with-automatic-bill-system/
 description: "This project is about smart shopping system.The overall project comprises of a smart shopping cart which is capable of automatic billing.To manage the carts inside the shopping area  we introduce a desktop app for the supermarket management .We also introduced a mobile app and a web app which synchronises with the shopping cart  makes the shopping experience smarter."
 
 has_children: false

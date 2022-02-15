@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Smart Mirror
-permalink: /3yp/e15/Smart-Mirror
+permalink: /3yp/e15/Smart-Mirror/
 description: "This is an automated mirror which will identify a user and the display the to-do list of that relevant user. Further more this mirror can display the weather and the news too...."
 
 has_children: false

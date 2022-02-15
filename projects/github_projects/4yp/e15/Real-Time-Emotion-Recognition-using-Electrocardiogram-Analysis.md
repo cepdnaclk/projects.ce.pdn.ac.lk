@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Real Time Emotion Recognition using Electrocardiogram Analysis
-permalink: /4yp/e15/Real-Time-Emotion-Recognition-using-Electrocardiogram-Analysis
+permalink: /4yp/e15/Real-Time-Emotion-Recognition-using-Electrocardiogram-Analysis/
 description: "Emotion recognition is a powerful and very useful technique in the modern world in almost every field including healthcare, entertainment, automotive industry etc. The main objective of this project is to implement a real time model, which can recognise an extended range of emotions with a higher accuracy using ECG signals to recognize sudden and complex emotional changes of humans. While identifying human emotions, identifying emotions of animal subjects is equally important since it will help to understand their perspectives, needs and problems related to their physical and mental well-being while safeguarding their welfare. Therefore, a preliminary analysis to identify similarities and differences between human and animal emotion recognition is done."
 
 has_children: false
