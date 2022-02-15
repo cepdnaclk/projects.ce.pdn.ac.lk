@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Swarm Robot Monitoring System group B
-permalink: /co543/e15/Swarm-Robot-Monitoring-System-group-B
+permalink: /co543/e15/Swarm-Robot-Monitoring-System-group-B/
 description: "localization of robots, identifying  the boundary of arena and distance calculation with image processing(openCV python)"
 
 has_children: false

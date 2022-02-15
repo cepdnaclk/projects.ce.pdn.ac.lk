@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: remote medical diagnostics
-permalink: /3yp/e17/remote-medical-diagnostics
+permalink: /3yp/e17/remote-medical-diagnostics/
 description: "An online platform combined with a convenient medical diagnostic device where patients can meet doctors and get diagnosed at the comfort of their home."
 
 has_children: false

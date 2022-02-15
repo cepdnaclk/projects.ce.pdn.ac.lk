@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: River water level and speed monitoring and alert system
-permalink: /3yp/e14/River-water-level-and-speed-monitoring-and-alert-system
+permalink: /3yp/e14/River-water-level-and-speed-monitoring-and-alert-system/
 description: "This is a system that will monitor the water levels of a river/lake/stream and predicts the occurrence of a flood and generate an alert accordingly. This system would not only measure the water level but also the water velocity in order to give a better prediction of the risky situations."
 
 has_children: false

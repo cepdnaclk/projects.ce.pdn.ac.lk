@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Networked and Automated Weather Monitoring and Alerting System
-permalink: /3yp/e14/Networked-and-Automated-Weather-Monitoring-and-Alerting-System
+permalink: /3yp/e14/Networked-and-Automated-Weather-Monitoring-and-Alerting-System/
 description: "In this unified project we develop a system that can be used to collect information from much many places allover Sri Lanka using an embedded system kept in those locations."
 
 has_children: false

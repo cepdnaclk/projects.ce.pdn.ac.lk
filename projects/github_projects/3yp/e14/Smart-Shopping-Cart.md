@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Smart Shopping Cart
-permalink: /3yp/e14/Smart-Shopping-Cart
+permalink: /3yp/e14/Smart-Shopping-Cart/
 description: "Trolleys are used in supermarket by customers in the modern world. but they remain in the same state without many improvements. Our target is to develop a smart trolley which satisfies all needful of customers.  "
 
 has_children: false

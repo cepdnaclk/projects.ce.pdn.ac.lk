@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: ipb
-permalink: /4yp/e14/ipb
+permalink: /4yp/e14/ipb/
 description: "Intelligence Preparation of Battlefield or IPB as it is more commonly known is a Command and staff tool that allows systematic, continuous analysis of the enemy and the battlefield environment to be carried out and which presents the results in a graphical form"
 
 has_children: false

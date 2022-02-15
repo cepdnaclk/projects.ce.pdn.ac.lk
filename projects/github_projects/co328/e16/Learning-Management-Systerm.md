@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Learning Management Systerm
-permalink: /co328/e16/Learning-Management-Systerm
+permalink: /co328/e16/Learning-Management-Systerm/
 description: "CO328 Software Engineering Group Project. "
 
 has_children: false

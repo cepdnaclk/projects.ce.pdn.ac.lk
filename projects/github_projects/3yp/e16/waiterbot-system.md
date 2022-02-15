@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: waiterbot system
-permalink: /3yp/e16/waiterbot-system
+permalink: /3yp/e16/waiterbot-system/
 description: "The main idea of this project is to develop a system of robots and a smart ordering system for a restaurant.  Current system in restaurants, the traditional menu card ordering and waiters can be replaced with the WaiterBot system. The WaiterBot system contains main 4 parts. The WaiterBots( Main hardware component for delivery of food items), mobile application(to place orders and make payments), web application(for the management of the entire system) and the desktop application(for operation of the robots and handling the orders)."
 
 has_children: false

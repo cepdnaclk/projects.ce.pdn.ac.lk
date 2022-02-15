@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Fire Detection and Alert System
-permalink: /3yp/e15/Fire-Detection-and-Alert-System
+permalink: /3yp/e15/Fire-Detection-and-Alert-System/
 description: "In Sri Lanka also fire incidents have caused many life and property damages. In our project, we try to implement a practical solution to alert people before fire getting spread out so that people can minimize the damage caused by fire."
 
 has_children: false

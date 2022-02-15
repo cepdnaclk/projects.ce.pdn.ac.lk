@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: packet forwarding simulator
-permalink: /2yp/e14/packet-forwarding-simulator
+permalink: /2yp/e14/packet-forwarding-simulator/
 description: "Packet forwarding network simulator"
 
 has_children: false

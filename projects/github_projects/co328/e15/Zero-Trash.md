@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Zero Trash
-permalink: /co328/e15/Zero-Trash
+permalink: /co328/e15/Zero-Trash/
 description: "Zero Trash provides a communication platform between its users and garbage collectors which did not exist (at least not successfully) in Sri Lanka. This could have huge implications for both lessening the cost of collecting garbage and aiding in the recycling process, as well as ensuring that materials that would otherwise end up in a landfill are transported to the appropriate recycling centers. This will increase the income for garbage collectors while providing householders with an additional income."
 
 has_children: false

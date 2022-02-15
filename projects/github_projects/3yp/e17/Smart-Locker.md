@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Smart Locker
-permalink: /3yp/e17/Smart-Locker
+permalink: /3yp/e17/Smart-Locker/
 description: ""
 
 has_children: false

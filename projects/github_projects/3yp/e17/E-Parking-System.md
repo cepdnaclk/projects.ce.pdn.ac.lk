@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: E Parking System
-permalink: /3yp/e17/E-Parking-System
+permalink: /3yp/e17/E-Parking-System/
 description: "An autonomous system for assigning and managing parking spots and payments in a car park. https://cepdnaclk.github.io/e17-3yp-E-Parking-System/"
 
 has_children: false

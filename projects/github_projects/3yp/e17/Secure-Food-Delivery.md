@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Secure Food Delivery
-permalink: /3yp/e17/Secure-Food-Delivery
+permalink: /3yp/e17/Secure-Food-Delivery/
 description: "Secure Food Delivery is a system that will help users to get delivered their ordered foods securely. Also, it will privilege for sellers to gain their success by growing the trust in users' minds."
 
 has_children: false

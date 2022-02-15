@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: RV32IM pipeline implementation group3
-permalink: /co502/e16/RV32IM-pipeline-implementation-group3
+permalink: /co502/e16/RV32IM-pipeline-implementation-group3/
 description: "CPU and memory system including cache memory implementation according to the RISC-V Instruction set"
 
 has_children: false

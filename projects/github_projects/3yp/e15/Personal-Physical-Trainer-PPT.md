@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Personal Physical Trainer PPT
-permalink: /3yp/e15/Personal-Physical-Trainer-PPT
+permalink: /3yp/e15/Personal-Physical-Trainer-PPT/
 description: "Personal Physical Trainer is an innovation for physiotherapy. It creates an environment where the patients would be more willing to engage in physiotherapy   as well as it makes sure that patient would do the correct movements. This also allows the therapist to monitor the progress of his/hers patient and whether the patient carries out the necessary exercises."
 
 has_children: false

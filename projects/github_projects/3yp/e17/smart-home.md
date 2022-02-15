@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: smart home
-permalink: /3yp/e17/smart-home
+permalink: /3yp/e17/smart-home/
 description: ""
 
 has_children: false

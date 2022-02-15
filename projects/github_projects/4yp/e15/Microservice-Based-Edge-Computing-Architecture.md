@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Microservice Based Edge Computing Architecture
-permalink: /4yp/e15/Microservice-Based-Edge-Computing-Architecture
+permalink: /4yp/e15/Microservice-Based-Edge-Computing-Architecture/
 description: ""
 
 has_children: false

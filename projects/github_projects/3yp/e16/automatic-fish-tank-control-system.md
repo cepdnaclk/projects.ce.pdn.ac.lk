@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: automatic fish tank control system
-permalink: /3yp/e16/automatic-fish-tank-control-system
+permalink: /3yp/e16/automatic-fish-tank-control-system/
 description: "This is a third-year project by a group of students. Here we are developing a fish tank controlling device with a web app."
 
 has_children: false

@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Automated Greenhouse Fertilizing System
-permalink: /3yp/e14/Automated-Greenhouse-Fertilizing-System
+permalink: /3yp/e14/Automated-Greenhouse-Fertilizing-System/
 description: " This project aims to calculate the component(N , K , P) levels which are responsible for the growth of the plant in a real time basis and maintain the component level which is required for the relevant plant. Using this system we can increase the lifetime of a plant and can get the maximum harvest out of the plant."
 
 has_children: false

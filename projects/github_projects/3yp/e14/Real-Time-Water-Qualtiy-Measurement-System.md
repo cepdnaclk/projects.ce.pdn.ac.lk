@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Real Time Water Qualtiy Measurement System
-permalink: /3yp/e14/Real-Time-Water-Qualtiy-Measurement-System
+permalink: /3yp/e14/Real-Time-Water-Qualtiy-Measurement-System/
 description: "The system consists of several sensors located in remote locations to measure the water quality real time."
 
 has_children: false

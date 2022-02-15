@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: finite element based structural non linear analysis
-permalink: /2yp/e15/finite-element-based-structural-non-linear-analysis
+permalink: /2yp/e15/finite-element-based-structural-non-linear-analysis/
 description: ""
 
 has_children: false

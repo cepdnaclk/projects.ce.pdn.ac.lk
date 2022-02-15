@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Footwear Shop System
-permalink: /co328/e16/Footwear-Shop-System
+permalink: /co328/e16/Footwear-Shop-System/
 description: "E16_3rd year - Software Engineering Project (CO328)"
 
 has_children: false

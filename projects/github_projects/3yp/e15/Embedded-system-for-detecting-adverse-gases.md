@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Embedded system for detecting adverse gases
-permalink: /3yp/e15/Embedded-system-for-detecting-adverse-gases
+permalink: /3yp/e15/Embedded-system-for-detecting-adverse-gases/
 description: "As we all know Kandy is the most polluted city in Sri Lanka. It's air has been polluted three times than the air in Colombo. There are many solutions have been taken in order to reduce the air pollution in city Kandy. But the thing is that non of them could not show better performance in giving solution for that problem. So that from our project we hope to provide most important information which may be significant when finding solutions for that problem. We may implement an embedded system from which temperature,humidity, and toxic gases (CO,CO2,NO2) may be measured using relavant sensors and from these measurements it will show locations and time where air pollution is high in Kandy city."
 
 has_children: false

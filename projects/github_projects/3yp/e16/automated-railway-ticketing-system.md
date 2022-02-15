@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: automated railway ticketing system
-permalink: /3yp/e16/automated-railway-ticketing-system
+permalink: /3yp/e16/automated-railway-ticketing-system/
 description: "The project is to replace currently available manual methods by an 'Automated Method'. To check the entrance & exit, an automatic gate & a swipe card has introduced. Class will be updated using introduced 'Handheld Device'. In this project we have introduced online banking facilities as well. we hope to develop this project further. To see all the activities, the 'User Portal' has introduced.    "
 
 has_children: false

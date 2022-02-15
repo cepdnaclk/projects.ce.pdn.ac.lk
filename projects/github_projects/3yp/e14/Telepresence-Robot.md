@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Telepresence Robot
-permalink: /3yp/e14/Telepresence-Robot
+permalink: /3yp/e14/Telepresence-Robot/
 description: "A telepresence robot is a mobile, remote-controlled device that enables a person to be virtually present and to interact in a remote place. This project will be based upon developing such a robot for the department. With the use of interactive elements such as high definition audio and video, the robot will allow users (students/staff) to collaborate in person and remotely."
 
 has_children: false

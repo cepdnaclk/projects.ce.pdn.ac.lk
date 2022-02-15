@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: dark arts algorithms for low light image enhancement and interpretation
-permalink: /4yp/e14/dark-arts-algorithms-for-low-light-image-enhancement-and-interpretation
+permalink: /4yp/e14/dark-arts-algorithms-for-low-light-image-enhancement-and-interpretation/
 description: "Dark arts: Algorithms for enhancement and interpretation of low light images"
 
 has_children: false

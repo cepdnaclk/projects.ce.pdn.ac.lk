@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Automated Book Management System Automated Book Carrying Robot
-permalink: /3yp/e15/Automated-Book-Management-System-Automated-Book-Carrying-Robot
+permalink: /3yp/e15/Automated-Book-Management-System-Automated-Book-Carrying-Robot/
 description: "In libraries, We have planned to implement a book carrying robot to help the workers. Our embedded system will have Arduino, IR sensors, DC motors, power batteries and voltage regulator etc."
 
 has_children: false

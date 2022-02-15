@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Mixed Reality based Simulation Platform for Swarm Robotics
-permalink: /4yp/e15/Mixed-Reality-based-Simulation-Platform-for-Swarm-Robotics
+permalink: /4yp/e15/Mixed-Reality-based-Simulation-Platform-for-Swarm-Robotics/
 description: "The main objective of this project is to implement a mixed reality-based simulator application with an efficient and reliable architecture for allowing both physical and virtual robots to collaboratively run swarm intelligence based algorithms in real-time"
 
 has_children: false

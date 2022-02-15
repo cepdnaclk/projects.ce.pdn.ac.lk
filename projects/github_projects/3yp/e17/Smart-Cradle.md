@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Smart Cradle
-permalink: /3yp/e17/Smart-Cradle
+permalink: /3yp/e17/Smart-Cradle/
 description: "An automated cradle which is controlled by a mobile application."
 
 has_children: false

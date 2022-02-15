@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: RV32IM NoC implementation
-permalink: /co502/e16/RV32IM-NoC-implementation
+permalink: /co502/e16/RV32IM-NoC-implementation/
 description: ""
 
 has_children: false

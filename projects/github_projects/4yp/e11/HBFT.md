@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: HBFT
-permalink: /4yp/e11/HBFT
+permalink: /4yp/e11/HBFT/
 description: "A new Bredth First Traversal algorithm for large graphs "
 
 has_children: false

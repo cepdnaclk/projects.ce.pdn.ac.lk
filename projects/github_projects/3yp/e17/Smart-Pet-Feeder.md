@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Smart Pet Feeder
-permalink: /3yp/e17/Smart-Pet-Feeder
+permalink: /3yp/e17/Smart-Pet-Feeder/
 description: "Smart Pet Feeder is a product that helps you to take care of your pets. It will help you to build the relationship with your pet better and better even you are not in the home. Have you ever been worried about your pet's meals when you are away from your pet? Smart pet feeder provide the platform to come up with this problem"
 
 has_children: false

@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Project Publication Platform
-permalink: /co328/e16/Project-Publication-Platform
+permalink: /co328/e16/Project-Publication-Platform/
 description: "Website based platform for inventors and students to publish their projects and attract investment to continue their projects to the production stage."
 
 has_children: false

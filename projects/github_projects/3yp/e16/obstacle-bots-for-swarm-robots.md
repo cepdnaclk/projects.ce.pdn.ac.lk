@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: obstacle bots for swarm robots
-permalink: /3yp/e16/obstacle-bots-for-swarm-robots
+permalink: /3yp/e16/obstacle-bots-for-swarm-robots/
 description: "Obstacle bots for the existing swarm research project of the  Department of Computer Engineering, University of Peradeniya. Robots are localized with an overhead camera set up in order to create very challenging patterns using movements in a self-created potential surface with collision-avoiding algorithms on optimized stochastic gradient descent and particle repulsion theory."
 
 has_children: false

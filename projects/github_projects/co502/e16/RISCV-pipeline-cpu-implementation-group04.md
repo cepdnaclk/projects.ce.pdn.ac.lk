@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: RISCV pipeline cpu implementation group04
-permalink: /co502/e16/RISCV-pipeline-cpu-implementation-group04
+permalink: /co502/e16/RISCV-pipeline-cpu-implementation-group04/
 description: "This is Advance Computer Architecture project of implementing Piplined Proccesor according to the RISC-V Instruction set"
 
 has_children: false

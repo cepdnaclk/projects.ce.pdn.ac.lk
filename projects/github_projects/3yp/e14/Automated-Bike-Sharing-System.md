@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Automated Bike Sharing System
-permalink: /3yp/e14/Automated-Bike-Sharing-System
+permalink: /3yp/e14/Automated-Bike-Sharing-System/
 description: "As the most of the universities have wide area of land, transportation within the university causes time waste, accidents, congestion because of using the private vehicles, parking problems and the energy consumption related to the mobility of workers and students of the universities. The bicycle sharing programs have received increasing attention in recent years with initiatives to increase bike usage,better meet the demand of a more mobile public and lessen the environmental impacts of our transportation activities. So the project aims to introduce automated bike sharing system to minimize above impacts while evaluating the mobility patterns of academic campuses and assessing the energy consumption and pollutant emissions produced by the universities."
 
 has_children: false

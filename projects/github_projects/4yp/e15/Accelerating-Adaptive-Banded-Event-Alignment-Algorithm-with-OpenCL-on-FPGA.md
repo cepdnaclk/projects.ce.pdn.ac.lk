@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Accelerating Adaptive Banded Event Alignment Algorithm with OpenCL on FPGA
-permalink: /4yp/e15/Accelerating-Adaptive-Banded-Event-Alignment-Algorithm-with-OpenCL-on-FPGA
+permalink: /4yp/e15/Accelerating-Adaptive-Banded-Event-Alignment-Algorithm-with-OpenCL-on-FPGA/
 description: "Effective utilization of OpenCL to map the Adaptive Banded Event Alignment(ABEA) algorithm to run eﬃciently on an FPGA."
 
 has_children: false

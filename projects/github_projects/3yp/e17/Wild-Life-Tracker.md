@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Wild Life Tracker
-permalink: /3yp/e17/Wild-Life-Tracker
+permalink: /3yp/e17/Wild-Life-Tracker/
 description: "Wild life tracking system specially designed for researchers to study behaviors of wild animals remotely. "
 
 has_children: false

@@ -63,7 +63,7 @@ def writeHeader(category, batch, grand_parent, permalink, title, description, st
     s = """---
 layout: project_page
 title: """ + title + """
-permalink: """ + permalink + """
+permalink: """ + permalink + """/
 description: \"""" + description + """\"
 
 has_children: false

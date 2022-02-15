@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: f5n_server
-permalink: /4yp/e14/f5n_server
+permalink: /4yp/e14/f5n_server/
 description: "This is a job server to distribute and keep track of f5n pipeline jobs to connected f5n clients"
 
 has_children: false

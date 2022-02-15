@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Covid Tracer
-permalink: /3yp/e17/Covid-Tracer
+permalink: /3yp/e17/Covid-Tracer/
 description: "Fully Autonomous Covid19 Tracking System https://cepdnaclk.github.io/e17-3yp-Covid-Tracer"
 
 has_children: false

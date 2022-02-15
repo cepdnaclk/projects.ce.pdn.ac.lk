@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Swarm Robot Monitoring System group C
-permalink: /co543/e15/Swarm-Robot-Monitoring-System-group-C
+permalink: /co543/e15/Swarm-Robot-Monitoring-System-group-C/
 description: "Localization of multiple robots in real time, Video restoration at the presence of noise due to lighting conditions and degradation due to motion blur."
 
 has_children: false

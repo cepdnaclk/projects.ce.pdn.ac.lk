@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Automatic Speed Trap
-permalink: /3yp/e14/Automatic-Speed-Trap
+permalink: /3yp/e14/Automatic-Speed-Trap/
 description: "In this project we are expected to track the vehicle speed and if there any vehicle that travelling with more than maximum speed allowed, take a clear photo of the specific vehicle and send that to authorities to take further action."
 
 has_children: false

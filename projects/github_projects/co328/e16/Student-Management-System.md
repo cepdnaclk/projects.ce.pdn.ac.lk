@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Student Management System
-permalink: /co328/e16/Student-Management-System
+permalink: /co328/e16/Student-Management-System/
 description: ""
 
 has_children: false
