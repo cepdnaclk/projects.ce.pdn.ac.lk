@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e17-co328-Analysis-Tool-for-Industrial-Im
 page_url: https://cepdnaclk.github.io/e17-co328-Analysis-Tool-for-Industrial-Images
 
 forks: 1
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: 2022-02-23T07:09:01Z
 ---
 An analysis tool for increasing the performance of an injection mold maintenance device which uses image processing techniques to identify stuck plastic particles on molds. 
