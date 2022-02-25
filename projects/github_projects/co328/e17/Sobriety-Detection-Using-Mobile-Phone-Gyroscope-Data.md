@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: sobriety detection using mobile phone gyroscope data
-permalink: /co328/e17/sobriety-detection-using-mobile-phone-gyroscope-data/
+title: Sobriety Detection Using Mobile Phone Gyroscope Data
+permalink: /co328/e17/Sobriety-Detection-Using-Mobile-Phone-Gyroscope-Data/
 description: "An intelligent smartphone application that will help minimize risks of drunk-driving accidents by tracking gyroscope data to identify sobriety levels in real-time and continuously authenticating users."
 
 has_children: false
@@ -11,7 +11,7 @@ grand_parent: Software Engineering Projects (CO328)
 cover_url: /data/categories/co328/cover_page.jpg
 thumbnail_url: /data/categories/co328/thumbnail.jpg
 
-repo_url: https://github.com/cepdnaclk/e17-co328-sobriety-detection-using-mobile-phone-gyroscope-data
+repo_url: https://github.com/cepdnaclk/e17-co328-Sobriety-Detection-Using-Mobile-Phone-Gyroscope-Data
 page_url: blank
 
 forks: 0
