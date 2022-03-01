@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/co328/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-co328-Visualization-of-Teacher-Student-Activities
 page_url: blank
 
-forks: 2
+forks: 3
 watchers: 0
 stars: 0
 started_on: 2022-02-28T03:52:32Z
