@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/co328/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-co328-Oral-Cavity-Region-Detection
 page_url: blank
 
-forks: 1
+forks: 3
 watchers: 0
 stars: 0
 started_on: 2022-02-25T17:45:14Z
