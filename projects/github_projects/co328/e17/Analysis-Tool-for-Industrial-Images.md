@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/co328/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-co328-Analysis-Tool-for-Industrial-Images
 page_url: https://cepdnaclk.github.io/e17-co328-Analysis-Tool-for-Industrial-Images
 
-forks: 2
+forks: 3
 watchers: 2
 stars: 2
 started_on: 2022-02-23T07:09:01Z
