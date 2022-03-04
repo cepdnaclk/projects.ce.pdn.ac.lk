@@ -2,7 +2,7 @@
 layout: project_page
 title: History of Music
 permalink: /co328/e17/History-of-Music/
-description: "The project "History of Music" this is a ML based project. In this project we expect to build a model to express how a piece of music evolved from various genres."
+description: "The project 'History of Music' this is a ML based project. In this project we expect to build a model to express how a piece of music evolved from various genres."
 
 has_children: false
 parent: E17 Software Engineering Projects (CO328)
