@@ -2,7 +2,7 @@
 layout: project_page
 title: Sobriety Detection Using Mobile Phone Gyroscope Data
 permalink: /co328/e17/Sobriety-Detection-Using-Mobile-Phone-Gyroscope-Data/
-description: "An intelligent smartphone application that will help minimize risks of drunk-driving accidents by tracking gyroscope data to identify sobriety levels in real-time and continuously authenticating users."
+description: "An intelligent API which is capable of passively tracking gyroscopic data to classify sobriety level in real-time that will help minimize risks of drunk-riding accidents for e-scooter sharing systems."
 
 has_children: false
 parent: E17 Software Engineering Projects (CO328)
@@ -19,5 +19,5 @@ watchers: 0
 stars: 0
 started_on: 2022-02-24T11:34:23Z
 ---
-An intelligent smartphone application that will help minimize risks of drunk-driving accidents by tracking gyroscope data to identify sobriety levels in real-time and continuously authenticating users.
+An intelligent API which is capable of passively tracking gyroscopic data to classify sobriety level in real-time that will help minimize risks of drunk-riding accidents for e-scooter sharing systems.
 
