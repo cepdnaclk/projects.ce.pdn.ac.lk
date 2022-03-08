@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: ContactTracingApp
-permalink: /co328/e17/ContactTracingApp/
+title: Automated_Computerised_System
+permalink: /co328/e17/Automated_Computerised_System/
 description: ""
 
 has_children: false
@@ -11,13 +11,13 @@ grand_parent: Software Engineering Projects (CO328)
 cover_url: /data/categories/co328/cover_page.jpg
 thumbnail_url: /data/categories/co328/thumbnail.jpg
 
-repo_url: https://github.com/cepdnaclk/e17-co328-ContactTracingApp
-page_url: https://cepdnaclk.github.io/e17-co328-ContactTracingApp
+repo_url: https://github.com/cepdnaclk/e17-co328-Automated_Computerised_System
+page_url: blank
 
-forks: 3
-watchers: 2
-stars: 2
-started_on: 2022-03-03T04:29:25Z
+forks: 0
+watchers: 1
+stars: 1
+started_on: 2022-03-08T04:56:33Z
 ---
 
 
