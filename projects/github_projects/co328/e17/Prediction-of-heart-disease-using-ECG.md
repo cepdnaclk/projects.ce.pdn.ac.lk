@@ -2,7 +2,7 @@
 layout: project_page
 title: Prediction of heart disease using ECG
 permalink: /co328/e17/Prediction-of-heart-disease-using-ECG/
-description: "A software for predicting heart diseases mainly including myocardial infarctions using ECG data"
+description: "A software application for predicting potential heart diseases using ECG data"
 
 has_children: false
 parent: E17 Software Engineering Projects (CO328)
@@ -19,5 +19,5 @@ watchers: 0
 stars: 0
 started_on: 2022-03-04T16:06:17Z
 ---
-A software for predicting heart diseases mainly including myocardial infarctions using ECG data
+A software application for predicting potential heart diseases using ECG data
 
