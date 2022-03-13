@@ -35,6 +35,7 @@ jobs:
           cd ./python_scripts/
           python dynamic_data.py
           python projects_latest.py
+          python projects_popular.py
 
       - name: Commit and push into the main branch
         run: |

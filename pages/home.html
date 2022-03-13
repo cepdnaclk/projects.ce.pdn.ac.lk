@@ -45,7 +45,7 @@ search_exclude: true
                 <div class="row">
                     <div class="col-md-10 mx-auto">
                         <div class="input-group">
-                            <input type="search" id="search-box" class="form-control form-control-lg" placeholder="Search projects by keywords..." name="query" required />
+                            <input type="search" id="search-box" class="form-control form-control-lg" placeholder="Search projects..." name="query" required />
                             <button id="search-button" type="submit" class="btn btn-primary px-3 form-control-lg">
                                 <i class="fas fa-search"></i>
                             </button>
@@ -115,7 +115,10 @@ search_exclude: true
             </div>
 
             <br>
-            <h3 class="pt-3 pb-1">Recent Student Projects</h3>
+            <h3 class="pt-3 pb-1">
+                Recent Student Projects
+                <sup><i class="fa fa-info-circle" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="right" title="The most recent projects were selected based on the last commit date the project's GitHub Repository"></i></sup>
+            </h3>
             <div class="row text-center my-2">
                 {%- assign recent_list = site.data.projects_latest -%}
                 <div class="container p-0 mw-100">
@@ -131,6 +134,41 @@ search_exclude: true
                                         <p class="card-title project-card-title">
                                             <b>{{ child[1].projName }} ({{ child[1].batch }})</b><br>
                                             {{ child[1].updated_at | date: '%Y-%m-%d' }}
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        {%- endfor -%}
+                    </div>
+                </div>
+
+            </div>
+
+            <br>
+            <h3 class="pt-3 pb-1">
+                Most Popular Projects
+                <sup><i class="fa fa-info-circle" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="right" title="The popularity was calculated based on the number of forks, stars, and watchers."></i></sup>
+            </h3>
+            <div class="row text-center my-2">
+                {%- assign recent_list = site.data.projects_popular -%}
+                <div class="container p-0 mw-100">
+                    <div class="row">
+                        {%- for child in recent_list -%}
+                        <div class="col-lg-3 col-md-6 col-sm-6 d-flex m-0 img-hover-zoom-card" style="padding: 10px 0;">
+                            <a class="btn m-0" href="{{ child[1].project_url }}">
+                                <div class="card h-100 m-0">
+                                    <div class="img-hover-zoom">
+                                        <img class="card-img-top app-thumb-img" src="{{ child[1].thumb_url }}" alt="" />
+                                    </div>
+                                    <div class="card-body p-1 m-0">
+                                        <p class="card-title project-card-title">
+                                            <b>{{ child[1].projName }} ({{ child[1].batch }})</b>
+                                        </p>
+                                        <p class="text-muted small">
+                                            Stars: {{ child[1].stars_count }} |
+                                            Forks: {{ child[1].forks_count }} |
+                                            Watchers: {{ child[1].watchers_count }}
                                         </p>
                                     </div>
                                 </div>
