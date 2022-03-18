@@ -12,9 +12,9 @@ cover_url: /data/categories/co328/cover_page.jpg
 thumbnail_url: /data/categories/co328/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e17-co328-Research-profiles-of-academic-staff
-page_url: blank
+page_url: https://cepdnaclk.github.io/e17-co328-Research-profiles-of-academic-staff
 
-forks: 2
+forks: 3
 watchers: 0
 stars: 0
 started_on: 2022-03-17T17:51:49Z
