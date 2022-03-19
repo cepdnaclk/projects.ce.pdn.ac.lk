@@ -1,0 +1,71 @@
+---
+layout: post
+title: How this works | Docs
+nav_order: 2
+description: ""
+permalink: /docs/how-this-works/
+
+nav_exclude: true
+search_exclude: true
+---
+
+<div class="row">
+    <div class="container px-3 pb-3">
+        <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav" >
+            <ol class="breadcrumb p-0 m-0">
+                <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
+                <li class="breadcrumb-item"><a href="{{ '/docs' | relative_url }}">Documentation</a></li>
+                <li class="breadcrumb-item">
+                    How this works?
+                </li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="row px-5">
+    <div class="container pt-4">
+        <h3>How this works?</h3>
+
+        <div class="card text-dark bg-light m-3">
+            <div class="card-body">
+                In summary, this website is completely based on technologies provided by <i><a href="https://github.com/">GitHub</a></i>. The site is hosted in <i><a href="https://pages.github.com/">GitHub Pages</a></i> site and the content is updated by a <i><a href="https://github.com/features/actions/">GitHub Actions</a></i> daily.
+            </div>
+        </div>
+
+        <p>
+            We have created a few HTML page templates (you can see them from <a href="https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/tree/main/_layouts">here</a>) based on the templating language known as <a href="https://shopify.github.io/liquid/">Liquid Syntax</a>:
+            <ul>
+                <li>Home page</li>
+                <li>Course page</li>
+                <li>Batch page</li>
+                <li>Project page</li>
+            </ul>
+        </p>
+
+        <p>
+            Students will use a naming convention (<a href="{{ '/docs/how-to-add-a-project/' | relative_url }}">this way</a>) to name their projects in the Department's GitHub organization, <a href="https://github.com/cepdnaclk">cepdnaclk</a>.
+        </p>
+
+        <p>
+            We have written a <i><a href="https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/blob/main/python_scripts/stat_script.py">Python Script</a></i> to call the <a href="https://docs.github.com/en/rest">GitHub REST APIs</a>, and it will fetch the details of the public repositories in the organization. Then the script will filter and categorize the projects under <i>courses</i> or <i>specific academic projects</i>, and save them as MD files with YML header, containing the details about each and every project.
+        </p>
+
+        <p>
+            This Python script will be executed by <a href="https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/blob/main/.github/workflows/scheduled-deploy.yml">this</a> GitHub Action, which will be triggered daily (optionally, we can trigger it manually from <a href="https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/actions/workflows/scheduled-deploy.yml">here</a>). Then the Python script will create files for each project in the repository, and at the end of the <i>GitHub Action</i>, the changes will be committed into the <a href="https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/">projects.ce.pdn.ac.lk</a> repository.
+        </p>
+
+        <p>
+            Once the content was committed, <i>Github</i> will build the <i>GitHub Pages</i> site using the <i>Page Build</i> action. It will convert the data into HTML files based on the templates previously defined. The <i>Liquid syntax</i> will do some pre-processing of the data. At the end of that, the site can be accessed through <i>GitHub Pages</i>, from the link, <a href="https://cepdnaclk.github.io/projects.ce.pdn.ac.lk">https://cepdnaclk.github.io/projects.ce.pdn.ac.lk</a>.
+        </p>
+
+        <p>
+            We have assigned a <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages">CNAME record</a> for that path, so you can visit the GitHub pages site through the subdomain, <a href="https://projects.ce.pdn.ac.lk">projects.ce.pdn.ac.lk</a>.
+        </p>
+
+        <div class="card text-dark bg-light m-3">
+            <div class="card-body">
+                Apart from the previously mentioned behaviors, the site interact with the data sources other than the <i>GitHub REST API</i> to obtain the information. Students can manually provide the project details such as Team, Supervisor details through a config file. Also, the people details will be obtained from the "People API" in <a href="https://api.ce.pdn.ac.lk">https://api.ce.pdn.ac.lk</a>.
+            </div></div>
+        </div>
+    </div>
