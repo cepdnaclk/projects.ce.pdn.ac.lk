@@ -65,23 +65,24 @@ permalink: /assets/js/search.js
         var idx = lunr(function () {
             this.field('id');
             this.field('title', { boost: 10 });
-            this.field('categories', { boost: 5 });
             this.field('tags', { boost: 5 });
+            this.field('team', { boost: 5 });
+            this.field('supervisors', { boost: 5 });
             this.field('content');
         });
 
         const url = '{{ site.baseurl}}/assets/js/search-data.json';
         $.getJSON(url, function(data) {
 
-            // console.log(data);
+            console.log(data);
 
             for (var key in data) { // Add the data to lunr
                 idx.add({
                     'id': key,
                     'title': data[key].title,
-                    'doc': data[key].doc,
-                    'thumbnail': data[key].thumbnail_url,
-                    'content': data[key].content
+                    'content': data[key].content,
+                    'team': data[key].team || '',
+                    'supervisors': data[key].supervisors || '',
                 });
 
                 var results = idx.search(searchTerm); // Get lunr to perform a search

@@ -12,6 +12,16 @@ permalink: /assets/js/search-data.json
         "title": {{ page.title | jsonify }},
         "thumb": {{ page.thumbnail_url | jsonify }},
         "content": {{ parts | replace: '</h', ' . </h' | replace: '<hr', ' . <hr' | replace: '</p', ' . </p' | replace: '<ul', ' . <ul' | replace: '</ul', ' . </ul' | replace: '<ol', ' . <ol' | replace: '</ol', ' . </ol' | replace: '</tr', ' . </tr' | replace: '<li', ' | <li' | replace: '</li', ' | </li' | replace: '</td', ' | </td' | replace: '<td', ' | <td' | replace: '</th', ' | </th' | replace: '<th', ' | <th' | strip_html | remove: 'Table of contents' | normalize_whitespace | replace: '. . .', '.' | replace: '. .', '.' | replace: '| |', '|' | append: ' ' | jsonify }},
+
+        {%- assign repo_index = page.repo_url | replace: "https://github.com/cepdnaclk/", ""   -%}
+        "index": "{{ repo_index }}",
+        {% if site.data.projects[repo_index] %}
+        {%- assign api_data = site.data.projects[repo_index] -%}
+            "team": "{% for t in api_data['team'] %}{{t[1].name}} {{t[1].email}} {% endfor %}",
+            "supervisors": "{% for s in api_data['supervisors'] %}{{s[1].name}} {{s[1].email}} {% endfor %}",
+            "tags": "{% for tag in api_data['tags'] %}{{tag}} {% endfor %}",
+        {% endif %}
+
         "url": "{{ site.url }}{{ page.url | relative_url }}",
         "relUrl": "{{ page.url }}"
     }{% if forloop.last %}{% else %},{% endif %}
