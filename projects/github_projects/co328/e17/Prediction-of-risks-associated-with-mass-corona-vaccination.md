@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/co328/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-co328-Prediction-of-risks-associated-with-mass-corona-vaccination
 page_url: https://cepdnaclk.github.io/e17-co328-Prediction-of-risks-associated-with-mass-corona-vaccination
 
-forks: 2
+forks: 1
 watchers: 0
 stars: 0
 started_on: 2022-02-26T02:32:21Z
