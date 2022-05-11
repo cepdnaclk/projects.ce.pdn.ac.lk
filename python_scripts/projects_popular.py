@@ -21,6 +21,8 @@ for p in projects:
     # Calculate the score based on weights, and round to 3 digits
     score = round(stars*0.5 + watchers*0.3 + forks*0.2, 3)
     projects[p]['popularity_score'] = float(score)
+    
+    projects[p]['project_url'] = projects[p]['project_url'].replace("https://projects.ce.pdn.ac.lk", "")
 
     # Only consider the projects with positive scores
     if(score>0):

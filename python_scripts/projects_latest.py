@@ -18,6 +18,7 @@ for p in projects:
     updated = projects[p]['updated_at']
     projects[p]['name'] = p
     updated_dict[updated] = projects[p]
+    updated_dict[updated]['project_url'] = updated_dict[updated]['project_url'].replace("https://projects.ce.pdn.ac.lk", "")
 
 # Final dict
 for key in sorted(updated_dict, reverse=True):

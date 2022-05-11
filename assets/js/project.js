@@ -25,7 +25,7 @@ function readLanguageData(repo_url) {
                     var val = Math.round(p * 10000) / 100;
 
                     if (val >= 0.25) {
-                        $("#langList").append(`<span class='tag m-2'>${lang} (${val}%)</span>`);
+                        $("#langList").append(`<span class='badge bg-secondary m-1'>${lang} (${val}%)</span>`);
                     }
                 });
             }
@@ -116,7 +116,7 @@ function readRemoteData(basepath, page_url) {
             if (data.tags.length > 0) {
                 $(".remoteDataTags").removeClass("d-none");
                 $.each(data.tags, function(index, tag) {
-                    $("#tagList").append(`<a class="text-decoration-none text-dark" href="${basepath}/search/?query=${tag}"><span class='tag m-2'>${tag}</span></a> `);
+                    $("#tagList").append(`<a class="text-decoration-none text-dark pb-2" href="${basepath}/search/?query=${tag}"><span class='badge bg-secondary m-1'>${tag}</span></a> `);
                 });
             }
 
@@ -196,7 +196,7 @@ function teamCard(name, eNumber, profile_url, avatar_url){
     <img class="card-img-top img-fluid" src="${avatar_url}" alt="${name}">
     </div>
     <div class="card-body p-0 d-flex flex-column">
-    <h4 class="profile-title card-title text-center pt-1">${name}</h4>
+    <h4 class="profile-title card-title text-center pt-1 text-wrap">${name}</h4>
     <p class="profile-text card-text text-center">${eNumber}</p>`;
 
     if (profile_url != "#"){
