@@ -2,15 +2,15 @@
 layout: project_cat
 title: Software Systems Projects
 nav_order: 3
-permalink: /2yp/
+permalink: /co227/
 has_children: true
 
-code: 2yp
+code: co227
 type: GENERAL
 parent: Home
 has_toc: true
 search_exclude: true
 
-default_thumb_image: /data/categories/2yp/thumbnail.jpg
+default_thumb_image: /data/categories/co227/thumbnail.jpg
 description: Software systems designed and developed by second year Computer Engineering Students as part of coursework
 ---

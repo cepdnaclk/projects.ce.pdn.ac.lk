@@ -75,7 +75,7 @@ layout: default
                             <a class="btn m-0" href="{{ child.url | realtive_url | prepend: site.baseurl }}">
                                 <div class="card h-100 m-0">
                                     <div class="img-hover-zoom">
-                                        <img class="card-img-top app-thumb-img" src="{{ page.default_thumb_image | realtive_url | prepend: site.baseurl }}" alt="" />
+                                        <img class="card-img-top app-thumb-img" src="{{ child.thumbnail_url | realtive_url | prepend: site.baseurl }}" alt="" />
                                     </div>
                                     <div class="card-body p-1 m-0">
                                         <p class="card-title project-card-title">
