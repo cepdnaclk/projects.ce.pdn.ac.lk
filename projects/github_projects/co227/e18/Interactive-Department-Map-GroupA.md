@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/co227/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-co227-Interactive-Department-Map-GroupA
 page_url: blank
 
-forks: 1
+forks: 3
 watchers: 0
 stars: 0
 started_on: 2022-06-03T04:27:33Z
