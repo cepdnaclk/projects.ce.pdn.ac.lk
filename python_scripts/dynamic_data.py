@@ -91,40 +91,40 @@ def get_githubData():
     return proj_data
 
 # Update Project Data ----------------------------------------------------------
-# projects_gh = get_githubData()
-# projects_api = requests.get('https://api.ce.pdn.ac.lk/projects/v1/all/').json()
-# projects = {}
-# sorted_projects = {}
-#
-# # print(json.dumps(projects_gh, indent = 4))
-#
-# # merge with the data from the API site
-# for p in projects_gh:
-#     proj = projects_gh[p]
-#
-#     if (p in projects_api):
-#         p_api = projects_api[p]
-#         proj['description'] = p_api['description']
-#         proj['category'] = p_api['category']
-#         proj['project_url'] = p_api['project_url']
-#         proj['repo_url'] = p_api['repo_url']
-#         proj['page_url'] = p_api['page_url']
-#
-#         proj['team'] = p_api['team'] if ('team' in p_api) else {}
-#         proj['supervisors'] = p_api['supervisors'] if ('supervisors' in p_api) else {}
-#         proj['tags'] = p_api['tags'] if ('tags' in p_api) else {}
-#
-#     projects[p] = proj
-#
-# # Sort the projects data
-# for key in sorted(projects):
-#     sorted_projects[key] = projects[key]
-#
-# # Write project data into file
-# filename = "../_data/projects.json"
-# os.makedirs(os.path.dirname(filename), exist_ok=True)
-# with open(filename, "w") as f:
-#     f.write(json.dumps(sorted_projects, indent = 4))
+projects_gh = get_githubData()
+projects_api = requests.get('https://api.ce.pdn.ac.lk/projects/v1/all/').json()
+projects = {}
+sorted_projects = {}
+
+# print(json.dumps(projects_gh, indent = 4))
+
+# merge with the data from the API site
+for p in projects_gh:
+    proj = projects_gh[p]
+
+    if (p in projects_api):
+        p_api = projects_api[p]
+        proj['description'] = p_api['description']
+        proj['category'] = p_api['category']
+        proj['project_url'] = p_api['project_url']
+        proj['repo_url'] = p_api['repo_url']
+        proj['page_url'] = p_api['page_url']
+
+        proj['team'] = p_api['team'] if ('team' in p_api) else {}
+        proj['supervisors'] = p_api['supervisors'] if ('supervisors' in p_api) else {}
+        proj['tags'] = p_api['tags'] if ('tags' in p_api) else {}
+
+    projects[p] = proj
+
+# Sort the projects data
+for key in sorted(projects):
+    sorted_projects[key] = projects[key]
+
+# Write project data into file
+filename = "../_data/projects.json"
+os.makedirs(os.path.dirname(filename), exist_ok=True)
+with open(filename, "w") as f:
+    f.write(json.dumps(sorted_projects, indent = 4))
 
 # Update Tag Data --------------------------------------------------------------
 tags = get_tagData()
