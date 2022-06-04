@@ -1,33 +1,192 @@
 {
-    "e16-3yp-agribot": {
-        "projName": "agribot",
+    "e16-3yp-chessMATE": {
+        "projName": "chessMATE",
         "batch": "E16",
         "category": {
             "title": "Cyber-Physical Systems Projects",
             "code": "3yp",
             "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
         },
-        "repo_url": "https://github.com/cepdnaclk/e16-3yp-agribot",
-        "project_url": "/3yp/e16/agribot/",
-        "page_url": "https://cepdnaclk.github.io/e16-3yp-agribot",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-agribot",
+        "repo_url": "https://github.com/cepdnaclk/e16-3yp-chessMATE",
+        "project_url": "/3yp/e16/chessMATE/",
+        "page_url": "https://cepdnaclk.github.io/e16-3yp-chessMATE",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-chessMATE",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-        "created_at": "2020-10-17T05:26:03Z",
-        "updated_at": "2022-03-03T14:13:04Z",
-        "forks_count": 4,
-        "stars_count": 3,
-        "watchers_count": 3,
-        "language": "Java",
+        "created_at": "2020-10-17T07:37:38Z",
+        "updated_at": "2021-09-30T18:06:54Z",
+        "forks_count": 6,
+        "stars_count": 2,
+        "watchers_count": 2,
+        "language": "Dart",
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
         "has_pages": true,
-        "description": "Autonomous Agricultural Robot",
-        "team": {},
-        "supervisors": {},
-        "tags": {},
-        "name": "e16-3yp-agribot",
-        "popularity_score": 3.2
+        "description": "The project \u201cchessMATE\u201d provides the grand usual chess board experience through an online platform. Chess is one of the most popular and oldest board games and most chess players are more likely to play chess on a physical chessboard rather than on a mobile or desktop screen. Project chessMATE resolves the main issues faced by the online chess players by providing an electronically powered chessboard and mobile app so that distant players can connect and play on actual chessboards. Game live streaming option and chess tutorials are included in the mobile app. Board vs board, app vs board and app vs app are the available game modes in chessMATE.",
+        "team": {
+            "E/16/012": {
+                "name": "Isurika De Silva",
+                "email": "e16012@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E16/012",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16012.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/012/"
+            },
+            "E/16/069": {
+                "name": "Damsy De Silva",
+                "email": "e16069@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E16/069",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16069.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/069/"
+            },
+            "E/16/070": {
+                "name": "Chaminie De Silva",
+                "email": "e16070@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "https://www.linkedin.com/in/chaminie-de-silva-04b809213/",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E16/070",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16070.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/070/"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk ": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            },
+            "ziyanm@eng.pdn.ac.lk ": {
+                "name": "Mr. Ziyan Maraikar",
+                "email": "ziyanm@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/ziyan-maraikar/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/ziyan-maraikar.png",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/ziyanm",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/ziyan-maraikar-15539818a",
+                "researchgate": "https://www.researchgate.net/profile/Ziyan-Maraikar-2",
+                "google_scholar": "https://scholar.google.com.au/citations?user=5xf_7TAAAAAJ&hl=en"
+            }
+        },
+        "tags": [
+            "Web",
+            "Embedded Systems"
+        ],
+        "name": "e16-3yp-chessMATE",
+        "popularity_score": 2.8
+    },
+    "e17-3yp-remote-medical-diagnostics": {
+        "projName": "remote medical diagnostics",
+        "batch": "E17",
+        "category": {
+            "title": "Cyber-Physical Systems Projects",
+            "code": "3yp",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e17-3yp-remote-medical-diagnostics",
+        "project_url": "/3yp/e17/remote-medical-diagnostics/",
+        "page_url": "https://cepdnaclk.github.io/e17-3yp-remote-medical-diagnostics",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e17-3yp-remote-medical-diagnostics",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+        "created_at": "2021-06-22T06:16:21Z",
+        "updated_at": "2021-10-29T10:07:34Z",
+        "forks_count": 3,
+        "stars_count": 3,
+        "watchers_count": 3,
+        "language": "TypeScript",
+        "topics": [
+            "covid-19",
+            "health",
+            "medical",
+            "nodejs",
+            "reactjs",
+            "real-time",
+            "remote-diagnostic",
+            "webapp"
+        ],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "An online platform combined with a convenient medical diagnostic device where patients can meet doctors and get diagnosed at the comfort of their home.",
+        "team": {
+            "E/17/134": {
+                "name": "Kavindu Jayasooriya",
+                "email": "e17134@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/KavinduJayas",
+                "linkedin": "https://www.linkedin.com/in/kavindu-jayasooriya/",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E17/134",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17134.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/134/"
+            },
+            "E/17/318": {
+                "name": "Udith Senanayake",
+                "email": "e17318@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E17/318",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17318.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/318/"
+            },
+            "E/17/207": {
+                "name": "Pasindu Marasinghe",
+                "email": "e17207@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E17/207",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17207.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/207/"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            },
+            "mahanamaw@eng.pdn.ac.lk": {
+                "name": "Dr. Mahanama Wickramasinghe",
+                "email": "mahanamaw@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/mahanama-wickramasinghe/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/mahanama",
+                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
+            }
+        },
+        "tags": [
+            "Web",
+            "Embedded Systems"
+        ],
+        "name": "e17-3yp-remote-medical-diagnostics",
+        "popularity_score": 3.0
     },
     "e17-3yp-maker-mate": {
         "projName": "maker mate",
@@ -119,6 +278,156 @@
         ],
         "name": "e17-3yp-maker-mate",
         "popularity_score": 3.0
+    },
+    "e17-3yp-E-Parking-System": {
+        "projName": "E Parking System",
+        "batch": "E17",
+        "category": {
+            "title": "Cyber-Physical Systems Projects",
+            "code": "3yp",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e17-3yp-E-Parking-System",
+        "project_url": "/3yp/e17/E-Parking-System/",
+        "page_url": "https://cepdnaclk.github.io/e17-3yp-E-Parking-System",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e17-3yp-E-Parking-System",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+        "created_at": "2021-06-22T07:46:02Z",
+        "updated_at": "2021-11-05T02:07:22Z",
+        "forks_count": 3,
+        "stars_count": 3,
+        "watchers_count": 3,
+        "language": "JavaScript",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "An autonomous system for assigning and managing parking spots and payments in a car park. https://cepdnaclk.github.io/e17-3yp-E-Parking-System/",
+        "team": {
+            "E/17/018": {
+                "name": "Imesh Balasuriya",
+                "email": "e17018@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/ImeshBalasuriya/",
+                "linkedin": "https://www.linkedin.com/in/imesh-balasuriya/",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E17/018",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17018.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/018/"
+            },
+            "E/17/251": {
+                "name": "Sandun Sanjaya Perera",
+                "email": "e17251@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E17/251",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17251.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/251/"
+            },
+            "E/17/296": {
+                "name": "Ravisha Hasangi Rupasinghe",
+                "email": "e17296@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E17/296",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17296.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/296/"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            },
+            "mahanamaw@eng.pdn.ac.lk": {
+                "name": "Dr. Mahanama Wickramasinghe",
+                "email": "mahanamaw@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/mahanama-wickramasinghe/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/mahanama",
+                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
+            }
+        },
+        "tags": [
+            "Web",
+            "Embedded Systems"
+        ],
+        "name": "e17-3yp-E-Parking-System",
+        "popularity_score": 3.0
+    },
+    "e16-co326-Agriculture-Monitoring-and-Control-System": {
+        "projName": "Agriculture Monitoring and Control System",
+        "batch": "E16",
+        "category": {
+            "title": "Industrial Automation Projects (CO326)",
+            "code": "co326",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co326/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e16-co326-Agriculture-Monitoring-and-Control-System",
+        "project_url": "/co326/e16/Agriculture-Monitoring-and-Control-System/",
+        "page_url": "#",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-co326-Agriculture-Monitoring-and-Control-System",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
+        "created_at": "2021-10-20T08:45:54Z",
+        "updated_at": "2022-03-03T14:09:39Z",
+        "forks_count": 27,
+        "stars_count": 1,
+        "watchers_count": 1,
+        "language": "Python",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "description": "",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e16-co326-Agriculture-Monitoring-and-Control-System",
+        "popularity_score": 6.2
+    },
+    "e16-3yp-agribot": {
+        "projName": "agribot",
+        "batch": "E16",
+        "category": {
+            "title": "Cyber-Physical Systems Projects",
+            "code": "3yp",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e16-3yp-agribot",
+        "project_url": "/3yp/e16/agribot/",
+        "page_url": "https://cepdnaclk.github.io/e16-3yp-agribot",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-agribot",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+        "created_at": "2020-10-17T05:26:03Z",
+        "updated_at": "2022-03-03T14:13:04Z",
+        "forks_count": 4,
+        "stars_count": 3,
+        "watchers_count": 3,
+        "language": "Java",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "Autonomous Agricultural Robot",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e16-3yp-agribot",
+        "popularity_score": 3.2
     },
     "e16-3yp-smart-pharmaceutical-warehousing": {
         "projName": "smart pharmaceutical warehousing",
@@ -245,314 +554,5 @@
         ],
         "name": "e17-co328-Skim-Sequencing-Analysis",
         "popularity_score": 3.0
-    },
-    "e17-3yp-E-Parking-System": {
-        "projName": "E Parking System",
-        "batch": "E17",
-        "category": {
-            "title": "Cyber-Physical Systems Projects",
-            "code": "3yp",
-            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e17-3yp-E-Parking-System",
-        "project_url": "/3yp/e17/E-Parking-System/",
-        "page_url": "https://cepdnaclk.github.io/e17-3yp-E-Parking-System",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e17-3yp-E-Parking-System",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-        "created_at": "2021-06-22T07:46:02Z",
-        "updated_at": "2021-11-05T02:07:22Z",
-        "forks_count": 3,
-        "stars_count": 3,
-        "watchers_count": 3,
-        "language": "JavaScript",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "An autonomous system for assigning and managing parking spots and payments in a car park. https://cepdnaclk.github.io/e17-3yp-E-Parking-System/",
-        "team": {
-            "E/17/018": {
-                "name": "Imesh Balasuriya",
-                "email": "e17018@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/ImeshBalasuriya/",
-                "linkedin": "https://www.linkedin.com/in/imesh-balasuriya/",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E17/018",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17018.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/018/"
-            },
-            "E/17/251": {
-                "name": "Sandun Sanjaya Perera",
-                "email": "e17251@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E17/251",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17251.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/251/"
-            },
-            "E/17/296": {
-                "name": "Ravisha Hasangi Rupasinghe",
-                "email": "e17296@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E17/296",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17296.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/296/"
-            }
-        },
-        "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            },
-            "mahanamaw@eng.pdn.ac.lk": {
-                "name": "Dr. Mahanama Wickramasinghe",
-                "email": "mahanamaw@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/mahanama-wickramasinghe/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/mahanama",
-                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
-            }
-        },
-        "tags": [
-            "Web",
-            "Embedded Systems"
-        ],
-        "name": "e17-3yp-E-Parking-System",
-        "popularity_score": 3.0
-    },
-    "e17-3yp-remote-medical-diagnostics": {
-        "projName": "remote medical diagnostics",
-        "batch": "E17",
-        "category": {
-            "title": "Cyber-Physical Systems Projects",
-            "code": "3yp",
-            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e17-3yp-remote-medical-diagnostics",
-        "project_url": "/3yp/e17/remote-medical-diagnostics/",
-        "page_url": "https://cepdnaclk.github.io/e17-3yp-remote-medical-diagnostics",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e17-3yp-remote-medical-diagnostics",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-        "created_at": "2021-06-22T06:16:21Z",
-        "updated_at": "2021-10-29T10:07:34Z",
-        "forks_count": 3,
-        "stars_count": 3,
-        "watchers_count": 3,
-        "language": "TypeScript",
-        "topics": [
-            "covid-19",
-            "health",
-            "medical",
-            "nodejs",
-            "reactjs",
-            "real-time",
-            "remote-diagnostic",
-            "webapp"
-        ],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "An online platform combined with a convenient medical diagnostic device where patients can meet doctors and get diagnosed at the comfort of their home.",
-        "team": {
-            "E/17/134": {
-                "name": "Kavindu Jayasooriya",
-                "email": "e17134@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/KavinduJayas",
-                "linkedin": "https://www.linkedin.com/in/kavindu-jayasooriya/",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E17/134",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17134.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/134/"
-            },
-            "E/17/318": {
-                "name": "Udith Senanayake",
-                "email": "e17318@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E17/318",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17318.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/318/"
-            },
-            "E/17/207": {
-                "name": "Pasindu Marasinghe",
-                "email": "e17207@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E17/207",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17207.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/207/"
-            }
-        },
-        "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            },
-            "mahanamaw@eng.pdn.ac.lk": {
-                "name": "Dr. Mahanama Wickramasinghe",
-                "email": "mahanamaw@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/mahanama-wickramasinghe/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/mahanama",
-                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
-            }
-        },
-        "tags": [
-            "Web",
-            "Embedded Systems"
-        ],
-        "name": "e17-3yp-remote-medical-diagnostics",
-        "popularity_score": 3.0
-    },
-    "e16-3yp-chessMATE": {
-        "projName": "chessMATE",
-        "batch": "E16",
-        "category": {
-            "title": "Cyber-Physical Systems Projects",
-            "code": "3yp",
-            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e16-3yp-chessMATE",
-        "project_url": "/3yp/e16/chessMATE/",
-        "page_url": "https://cepdnaclk.github.io/e16-3yp-chessMATE",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-chessMATE",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-        "created_at": "2020-10-17T07:37:38Z",
-        "updated_at": "2021-09-30T18:06:54Z",
-        "forks_count": 6,
-        "stars_count": 2,
-        "watchers_count": 2,
-        "language": "Dart",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "The project \u201cchessMATE\u201d provides the grand usual chess board experience through an online platform. Chess is one of the most popular and oldest board games and most chess players are more likely to play chess on a physical chessboard rather than on a mobile or desktop screen. Project chessMATE resolves the main issues faced by the online chess players by providing an electronically powered chessboard and mobile app so that distant players can connect and play on actual chessboards. Game live streaming option and chess tutorials are included in the mobile app. Board vs board, app vs board and app vs app are the available game modes in chessMATE.",
-        "team": {
-            "E/16/012": {
-                "name": "Isurika De Silva",
-                "email": "e16012@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E16/012",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16012.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/012/"
-            },
-            "E/16/069": {
-                "name": "Damsy De Silva",
-                "email": "e16069@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E16/069",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16069.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/069/"
-            },
-            "E/16/070": {
-                "name": "Chaminie De Silva",
-                "email": "e16070@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "https://www.linkedin.com/in/chaminie-de-silva-04b809213/",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E16/070",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16070.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/070/"
-            }
-        },
-        "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk ": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            },
-            "ziyanm@eng.pdn.ac.lk ": {
-                "name": "Mr. Ziyan Maraikar",
-                "email": "ziyanm@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/ziyan-maraikar/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/ziyan-maraikar.png",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/ziyanm",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/ziyan-maraikar-15539818a",
-                "researchgate": "https://www.researchgate.net/profile/Ziyan-Maraikar-2",
-                "google_scholar": "https://scholar.google.com.au/citations?user=5xf_7TAAAAAJ&hl=en"
-            }
-        },
-        "tags": [
-            "Web",
-            "Embedded Systems"
-        ],
-        "name": "e16-3yp-chessMATE",
-        "popularity_score": 2.8
-    },
-    "e16-co326-Agriculture-Monitoring-and-Control-System": {
-        "projName": "Agriculture Monitoring and Control System",
-        "batch": "E16",
-        "category": {
-            "title": "Industrial Automation Projects (CO326)",
-            "code": "co326",
-            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co326/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e16-co326-Agriculture-Monitoring-and-Control-System",
-        "project_url": "/co326/e16/Agriculture-Monitoring-and-Control-System/",
-        "page_url": "#",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-co326-Agriculture-Monitoring-and-Control-System",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
-        "created_at": "2021-10-20T08:45:54Z",
-        "updated_at": "2022-03-03T14:09:39Z",
-        "forks_count": 27,
-        "stars_count": 1,
-        "watchers_count": 1,
-        "language": "Python",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": false,
-        "description": "",
-        "team": {},
-        "supervisors": {},
-        "tags": {},
-        "name": "e16-co326-Agriculture-Monitoring-and-Control-System",
-        "popularity_score": 6.2
     }
 }
