@@ -1,45 +1,96 @@
 ---
-layout: table_wrappers
+layout: page
 ---
-{% include project_navbar.html %}
-{% include page_tree_builder.html pages=site.html_pages %}
 
-<main class="py-2 p-1">
-    <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top cd-top--fade-out" data-abc="true"
-    style="display: none;"></a>
+<main class="py-1 p-1">
+    <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top cd-top--fade-out bottomButtons" data-abc="true" style="display: none;"></a>
 
-    <div class="container-fluid px-2">
-        <div class="row px-5 py-2">
-            <nav aria-label="breadcrumb" class="w-100 mt-2">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
-                    <li class="breadcrumb-item"><span>Department Projects</span></li>
-                    <li class="breadcrumb-item"><span>{{ page.title }}</span></li>
-                </ol>
-            </nav>
-        </div>
+    <a href="{{ page.gh_page | prepend: 'https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/tree/main/' }}" id="editBtn" class="cd-top text-replace js-cd-top cd-top cd-top--fade-out bottomButtons"
+    style="display: none;" target="_blank"></a>
 
+    <div class="container-fluid py-2 px-2">
         <div class="row">
-            <div class="col-md-1 col-lg-1">&nbsp;</div>
+            <div class="container px-3 pb-3">
+                <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav" >
+                    <ol class="breadcrumb p-0 m-0">
+                        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
+                        <li class="breadcrumb-item"><a href="{{ '/department-projects/' | relative_url }}">Department Projects</a></li>
+                        <li class="breadcrumb-item"><span>{{ page.title }}</span></li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
 
-            <div class="col-md-10 col-lg-10">
-
-                <div class="container px-3">
-                    <h1 class="mt-2">{{ page.title }}</h1>
+    <div class="container py-2">
+        <div class="row" style="min-height: 100vh;">
+            <div class="col-md-10 col-lg-10 mx-auto">
+                <div class="row">
+                    <div class="col-sm-8 col-md-6 col-lg-6 col-xl-4">
+                        <img class="img-fluid w-100" src="{{ page.thumb_image | prepend: site.baseurl }}" alt="{{ page.title }}">
+                    </div>
+                    <div class="col d-flex">
+                        <h1 class="mt-2 align-self-end">{{ page.title }}</h1>
+                        <p>{{ page.caption }}</p>
+                    </div>
                 </div>
+                <hr>
 
                 <div class="row">
-                    <!-- Post Content Column -->
-                    <div class="col-md-10 px-5">
+                    <div class="col-md-10 px-5 pb-5">
                         {{ content }}
                     </div>
-
-                    <!-- Sidebar Widgets Column -->
-                    <div class="col-md-1">
-                        &nbsp;
-                    </div>
                 </div>
+
+                <!-- Related Student Projects -->
+                {%- assign proj_count = page.projects | size -%}
+                {%- if proj_count > 0 -%}
+                <div class="row pt-3">
+                    <h3>Related Student Projects</h3>
+                    <ul class="list-unstyled">
+                        {%- for proj in page.projects -%}
+                        <li>
+                            <i class="fa fa-link me-2"></i>
+                            <a href="{{ proj }}" target="_blank">{{ proj }}</a>
+                        </li>
+                        {%- endfor -%}
+                    </ul>
+                </div>
+                {%- endif -%}
+
+                <!-- Related Repositories -->
+                {%- assign repo_count = page.repositories | size -%}
+                {%- if repo_count > 0 -%}
+                <div class="row pt-3">
+                    <h3>Related GitHub Repositories</h3>
+                    <ul class="list-unstyled">
+                        {%- for repo in page.repositories -%}
+                        <li>
+                            <i class="fab fa-github me-2"></i>
+                            <a href="{{ repo }}" target="_blank">{{ repo }}</a>
+                        </li>
+                        {%- endfor -%}
+                    </ul>
+                </div>
+                {%- endif -%}
+
+                <!-- Links -->
+                {%- assign link_count = page.links | size -%}
+                {%- if link_count > 0 -%}
+                <div class="row pt-3">
+                    <h3>Links</h3>
+                    <ul class="list-unstyled">
+                        {%- for link in page.links -%}
+                        <li>
+                            <i class="fa fa-link me-2"></i>
+                            <a href="{{ link.url }}" target="_blank">{{ link.title }}</a>
+                        </li>
+                        {%- endfor -%}
+                    </ul>
+                </div>
+                {%- endif -%}
             </div>
+
             <div class="col-md-1 col-lg-1">&nbsp;</div>
         </div>
     </div>

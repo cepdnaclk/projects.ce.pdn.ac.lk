@@ -1,35 +1,7 @@
 ---
-layout: table_wrappers
+layout: default
 ---
+{% include project_navbar.html %}
+{% include page_tree_builder.html pages=site.html_pages %}
 
-<!DOCTYPE html>
-
-<html lang="{{ site.lang | default: 'en-US' }}">
-
-<head>
-    {% include meta.html %}
-
-    {% include head.html %}
-
-    {% if site.ga_tracking != nil -%}
-    {%- include analytics.html -%}
-    {% endif -%}
-</head>
-
-<body>
-    <div id="app">
-        <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top cd-top--fade-out" data-abc="true"
-            style="display: none;"></a>
-
-        {% include project_navbar.html %}
-
-        <main class="py-2 p-1">
-            <div class="container p-5"  style="min-height: 80vh;">
-                {{ content }}
-            </div>
-        </main>
-
-        {% include footer.html %}
-    </div>
-</body>
-</html>
+{{ content }}
