@@ -2,7 +2,7 @@
 layout: project_page
 title: Smart Inventory Management System Group5
 permalink: /co227/e18/Smart-Inventory-Management-System-Group5/
-description: "A scheduled reminder for technical officers(#76) and resource scheduling(#78) are the tasks that will be developed by the team for the Smart Inventory Management System for Department MakerSpace Lab"
+description: "A scheduled reminder for technical officers(#76) and resource scheduling(#78) for the Department MakerSpace Lab"
 
 has_children: false
 parent: E18 Software Systems Projects
@@ -19,5 +19,5 @@ watchers: 0
 stars: 0
 started_on: 2022-06-02T16:57:54Z
 ---
-A scheduled reminder for technical officers(#76) and resource scheduling(#78) are the tasks that will be developed by the team for the Smart Inventory Management System for Department MakerSpace Lab
+A scheduled reminder for technical officers(#76) and resource scheduling(#78) for the Department MakerSpace Lab
 
