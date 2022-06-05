@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/co227/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-co227-Molding-Machine-Dashboard
 page_url: blank
 
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: 2022-06-04T17:57:45Z
