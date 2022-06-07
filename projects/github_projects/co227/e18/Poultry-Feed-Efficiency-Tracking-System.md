@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e18-co227-Poultry-Feed-Efficiency-Trackin
 page_url: blank
 
 forks: 0
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: 2022-06-05T11:32:57Z
 ---
 Poultry Feed Efficiency Tracking  System
