@@ -86,6 +86,7 @@ search_exclude: true
                 {%- endif -%}
             </div>
 
+            <!-- Course-Specific Projects -->
             <h3 class="pt-3 pb-1">Course-Specific Projects</h3>
             <div class="row text-center my-2">
                 {%- if page.has_children == true and page.has_toc != false -%}
@@ -114,7 +115,35 @@ search_exclude: true
                 {%- endif -%}
             </div>
 
+            <!-- Other Department Projects -->
+            <h3 class="pt-3 pb-1">Other Department Projects</h3>
+            <div class="row text-center my-2">
+                {%- if page.has_children == true and page.has_toc != false -%}
+                {%- assign dept_projects = pages_list | where: "layout", "project_page_dept" -%}
+
+                <div class="container p-0 mw-100">
+                    <div class="row">
+                        {%- for child in dept_projects -%}
+                        <div class="col-lg-3 col-md-6 mb-1 d-flex {{ child.type }} img-hover-zoom-card">
+                            <a class="btn" href="{{ child.permalink | prepend: site.baseurl}}">
+                                <div class="card h-100">
+                                    <div class="img-hover-zoom">
+                                        <img class="card-img-top" src="{{ child.thumb_image | prepend: site.baseurl }}" alt="{{child.title}}">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{child.title}}</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        {%- endfor -%}
+                    </div>
+                </div>
+                {%- endif -%}
+            </div>
+
             <br>
+            <!-- Recent Student Projects -->
             <h3 class="pt-3 pb-1">
                 Recent Student Projects
                 <sup><i class="fa fa-info-circle" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="right" title="The most recent projects were selected based on the last commit date the project's GitHub Repository"></i></sup>
@@ -146,6 +175,7 @@ search_exclude: true
             </div>
 
             <br>
+            <!-- Most Popular Projects -->
             <h3 class="pt-3 pb-1">
                 Most Popular Projects
                 <sup><i class="fa fa-info-circle" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="right" title="The popularity was calculated based on the number of forks, stars, and watchers."></i></sup>
