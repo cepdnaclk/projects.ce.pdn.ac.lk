@@ -12,7 +12,7 @@ cover_url: /data/categories/co227/cover_page.jpg
 thumbnail_url: /data/categories/co227/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e18-co227-Interactive-Department-Map-GroupA
-page_url: blank
+page_url: https://cepdnaclk.github.io/e18-co227-Interactive-Department-Map-GroupA
 
 forks: 3
 watchers: 0
