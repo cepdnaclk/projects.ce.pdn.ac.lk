@@ -22,4 +22,14 @@ links:
     - { title: 'GitHub Organization', url: 'https://github.com/Pera-Swarm'}
 ---
 
-This page is under constructions. Please come back later.
+Pera-swarm is a project initiated by the *Department of Computer Engineering* in 2018, focused on developing a *Swarm of Robots* with a remotely accessible testbed, which allows users to remotely connect to the Robot Testbed and execute experiments remotely.
+
+As for now, the project comes up with several milestones, including
+- 10 general-purpose [Swarm Robots](https://github.com/Pera-Swarm/hardware){:target="_blank"}
+- A novel [Framework](https://pera-swarm.ce.pdn.ac.lk/projects/mr-environment-for-swarm-robotics-simulations/){:target="_blank"} which supports mixed reality for the swarm robotics experiments
+- A high-level programming framework for [Swarm Behavior Modeling](https://pera-swarm.ce.pdn.ac.lk/projects/programming-framework-for-robot-swarms/){:target="_blank"} and programming
+- Remotely configurable obstacle setup with [ObstacleBots](https://pera-swarm.ce.pdn.ac.lk/projects/obstacle-bots-for-swarm-robots/){:target="_blank"}
+
+And we are looking for volunteers and researchers to expand the robot swarm with more hardware robots with newer functionalities and software-based solutions to address the Swarm Robotics related problems.
+
+For the details, feel free to contact [Dr. Isuru Nawinne](https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/){:target="_blank"} and [Prof. Roshan Ragel](https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/){:target="_blank"}.
