@@ -27,7 +27,7 @@ Pera-swarm is a project initiated by the *Department of Computer Engineering* in
 
 As for now, the project comes up with several milestones, including
 - 10 general-purpose [Swarm Robots](https://github.com/Pera-Swarm/hardware){:target="_blank"}
-- A novel [Framework](https://pera-swarm.ce.pdn.ac.lk/projects/mr-environment-for-swarm-robotics-simulations/){:target="_blank"} which supports mixed reality for the swarm robotics experiments
+- A novel [Framework](https://pera-swarm.ce.pdn.ac.lk/projects/mr-environment-for-swarm-robotics-simulations/){:target="_blank"} that supports mixed reality for the swarm robotics experiments
 - A high-level programming framework for [Swarm Behavior Modeling](https://pera-swarm.ce.pdn.ac.lk/projects/programming-framework-for-robot-swarms/){:target="_blank"} and programming
 - Remotely configurable obstacle setup with [ObstacleBots](https://pera-swarm.ce.pdn.ac.lk/projects/obstacle-bots-for-swarm-robots/){:target="_blank"}
 
