@@ -1699,10 +1699,14 @@
     "e14-co227-dynamic-background-cancellation-in-videos": {
         "projName": "dynamic background cancellation in videos",
         "batch": "E14",
-        "category": "Software Systems Projects",
+        "category": {
+            "title": "Software Systems Projects",
+            "code": "co227",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co227/"
+        },
         "repo_url": "https://github.com/cepdnaclk/e14-co227-dynamic-background-cancellation-in-videos",
-        "project_url": "https://projects.ce.pdn.ac.lk/co227/e14/dynamic-background-cancellation-in-videos",
-        "page_url": "http://teambitecode.com/projects/foreground-estimation",
+        "project_url": "https://projects.ce.pdn.ac.lk/co227/e14/dynamic-background-cancellation-in-videos/",
+        "page_url": "https://cepdnaclk.github.io/e14-co227-dynamic-background-cancellation-in-videos",
         "api_url": "https://api.github.com/repos/cepdnaclk/e14-co227-dynamic-background-cancellation-in-videos",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
         "created_at": "2020-10-25T04:48:54Z",
@@ -1716,15 +1720,23 @@
         ],
         "has_projects": true,
         "has_wiki": true,
-        "has_pages": true
+        "has_pages": true,
+        "description": "Foreground estimation in dynamic background conditions using unsupervised learning techniques.",
+        "team": {},
+        "supervisors": {},
+        "tags": {}
     },
     "e14-co227-multi-arm-bandit-python-library": {
         "projName": "multi arm bandit python library",
         "batch": "E14",
-        "category": "Software Systems Projects",
+        "category": {
+            "title": "Software Systems Projects",
+            "code": "co227",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co227/"
+        },
         "repo_url": "https://github.com/cepdnaclk/e14-co227-multi-arm-bandit-python-library",
-        "project_url": "https://projects.ce.pdn.ac.lk/co227/e14/multi-arm-bandit-python-library",
-        "page_url": "https://pypi.python.org/pypi/mabandit/1.3",
+        "project_url": "https://projects.ce.pdn.ac.lk/co227/e14/multi-arm-bandit-python-library/",
+        "page_url": "#",
         "api_url": "https://api.github.com/repos/cepdnaclk/e14-co227-multi-arm-bandit-python-library",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
         "created_at": "2020-05-14T18:43:15Z",
@@ -1736,15 +1748,23 @@
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
-        "has_pages": false
+        "has_pages": false,
+        "description": "A python based library which includes multi_arm_bandit and Bayesian_optimization_algorithms. The PYPI repository  can be found as mabandit 1.3",
+        "team": {},
+        "supervisors": {},
+        "tags": {}
     },
     "e14-co227-packet-forwarding-simulator": {
         "projName": "packet forwarding simulator",
         "batch": "E14",
-        "category": "Software Systems Projects",
+        "category": {
+            "title": "Software Systems Projects",
+            "code": "co227",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co227/"
+        },
         "repo_url": "https://github.com/cepdnaclk/e14-co227-packet-forwarding-simulator",
-        "project_url": "https://projects.ce.pdn.ac.lk/co227/e14/packet-forwarding-simulator",
-        "page_url": null,
+        "project_url": "https://projects.ce.pdn.ac.lk/co227/e14/packet-forwarding-simulator/",
+        "page_url": "#",
         "api_url": "https://api.github.com/repos/cepdnaclk/e14-co227-packet-forwarding-simulator",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
         "created_at": "2020-11-09T07:48:00Z",
@@ -1756,7 +1776,11 @@
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
-        "has_pages": false
+        "has_pages": false,
+        "description": "Packet forwarding network simulator",
+        "team": {},
+        "supervisors": {},
+        "tags": {}
     },
     "e14-co328-GPSARSA-gaussian-process-state-action-reward-state-actios-based-SITNSHOP": {
         "projName": "GPSARSA gaussian process state action reward state actios based SITNSHOP",
@@ -5318,10 +5342,14 @@
     "e15-co227-finite-element-based-structural-non-linear-analysis": {
         "projName": "finite element based structural non linear analysis",
         "batch": "E15",
-        "category": "Software Systems Projects",
+        "category": {
+            "title": "Software Systems Projects",
+            "code": "co227",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co227/"
+        },
         "repo_url": "https://github.com/cepdnaclk/e15-co227-finite-element-based-structural-non-linear-analysis",
-        "project_url": "https://projects.ce.pdn.ac.lk/co227/e15/finite-element-based-structural-non-linear-analysis",
-        "page_url": null,
+        "project_url": "https://projects.ce.pdn.ac.lk/co227/e15/finite-element-based-structural-non-linear-analysis/",
+        "page_url": "https://cepdnaclk.github.io/e15-co227-finite-element-based-structural-non-linear-analysis",
         "api_url": "https://api.github.com/repos/cepdnaclk/e15-co227-finite-element-based-structural-non-linear-analysis",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
         "created_at": "2020-09-10T08:08:29Z",
@@ -5333,7 +5361,11 @@
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
-        "has_pages": true
+        "has_pages": true,
+        "description": "",
+        "team": {},
+        "supervisors": {},
+        "tags": {}
     },
     "e15-co326-Remotely-Controlled-CNC-Robot": {
         "projName": "Remotely Controlled CNC Robot",
@@ -10612,6 +10644,26 @@
             "Embedded Systems"
         ]
     },
+    "e18-co227-Augmented-Reality-Guidance-System": {
+        "projName": "Augmented Reality Guidance System",
+        "batch": "E18",
+        "category": "Software Systems Projects",
+        "repo_url": "https://github.com/cepdnaclk/e18-co227-Augmented-Reality-Guidance-System",
+        "project_url": "https://projects.ce.pdn.ac.lk/co227/e18/Augmented-Reality-Guidance-System",
+        "page_url": null,
+        "api_url": "https://api.github.com/repos/cepdnaclk/e18-co227-Augmented-Reality-Guidance-System",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
+        "created_at": "2022-06-05T05:54:02Z",
+        "updated_at": "2022-06-05T10:33:01Z",
+        "forks_count": 2,
+        "stars_count": 1,
+        "watchers_count": 1,
+        "language": null,
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": false
+    },
     "e18-co227-Automated-Notification-System-for-Examinations": {
         "projName": "Automated Notification System for Examinations",
         "batch": "E18",
@@ -10683,7 +10735,7 @@
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
         "created_at": "2022-06-03T04:27:33Z",
         "updated_at": "2022-06-03T07:58:18Z",
-        "forks_count": 1,
+        "forks_count": 3,
         "stars_count": 0,
         "watchers_count": 0,
         "language": "JavaScript",
@@ -10734,11 +10786,35 @@
         },
         "repo_url": "https://github.com/cepdnaclk/e18-co227-Molding-Machine-Dashboard",
         "project_url": "https://projects.ce.pdn.ac.lk/co227/e18/Molding-Machine-Dashboard/",
-        "page_url": "https://cepdnaclk.github.io/e18-co227-Molding-Machine-Dashboard",
+        "page_url": "#",
         "api_url": "https://api.github.com/repos/cepdnaclk/e18-co227-Molding-Machine-Dashboard",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
-        "created_at": "2022-06-02T07:49:05Z",
-        "updated_at": "2022-06-02T08:31:16Z",
+        "created_at": "2022-06-04T17:57:45Z",
+        "updated_at": "2022-06-04T17:57:45Z",
+        "forks_count": 1,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "description": "CO227 Group project on Molding Machine Dashboard",
+        "team": {},
+        "supervisors": {},
+        "tags": {}
+    },
+    "e18-co227-Poultry-Feed-Efficiency-Tracking-System": {
+        "projName": "Poultry Feed Efficiency Tracking System",
+        "batch": "E18",
+        "category": "Software Systems Projects",
+        "repo_url": "https://github.com/cepdnaclk/e18-co227-Poultry-Feed-Efficiency-Tracking-System",
+        "project_url": "https://projects.ce.pdn.ac.lk/co227/e18/Poultry-Feed-Efficiency-Tracking-System",
+        "page_url": null,
+        "api_url": "https://api.github.com/repos/cepdnaclk/e18-co227-Poultry-Feed-Efficiency-Tracking-System",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
+        "created_at": "2022-06-05T11:32:57Z",
+        "updated_at": "2022-06-05T11:32:57Z",
         "forks_count": 0,
         "stars_count": 0,
         "watchers_count": 0,
@@ -10746,11 +10822,7 @@
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
-        "has_pages": true,
-        "description": "Molding Machine Dashboard",
-        "team": {},
-        "supervisors": {},
-        "tags": {}
+        "has_pages": false
     },
     "e18-co227-Smart-Inventory-Management-System-Group-13": {
         "projName": "Smart Inventory Management System Group 13",
@@ -10803,7 +10875,7 @@
         "has_projects": true,
         "has_wiki": true,
         "has_pages": false,
-        "description": "A scheduled reminder for technical officers(#76) and resource scheduling(#78) are the tasks that will be developed by the team for the Smart Inventory Management System for Department MakerSpace Lab",
+        "description": "A scheduled reminder for technical officers(#76) and resource scheduling(#78) for the Department MakerSpace Lab",
         "team": {},
         "supervisors": {},
         "tags": {}
