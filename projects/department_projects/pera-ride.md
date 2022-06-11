@@ -2,6 +2,7 @@
 layout: project_page_dept
 title: Pera Ride
 caption: ""
+nav_order: 2
 permalink: /pera-ride/
 gh_page: "projects/department_projects/pera-ride.md"
 thumb_image: "https://user-images.githubusercontent.com/11540782/172063597-f8755ee1-b8ce-420c-8ba6-6714054365f7.jpg"

@@ -22,14 +22,14 @@ has_children: false
         </div>
     </div>
 
-    <div class="container-fluid py-2 px-5">
+    <div class="container py-2 px-5">
         <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top cd-top--fade-out" data-abc="true"
         style="display: none;"></a>
 
-        <div class="container px-5" style="min-height: 80vh">
+        <div class="container" style="min-height: 80vh">
             <div class="row pt-4">
                 {% include page_tree_builder.html pages=site.html_pages -%}
-                {%- assign projects = pages_list | where: "layout", "project_page_dept" | reverse -%}
+                {%- assign projects = pages_list | where: "layout", "project_page_dept" -%}
                 {%- for proj in projects -%}
                 {%- if proj.title != "Dummy Project" -%}
 

@@ -2,6 +2,7 @@
 layout: project_page_dept
 title: Pera Swarm
 caption: ""
+nav_order: 1
 permalink: /pera-swarm/
 gh_page: "projects/department_projects/pera-swarm.md"
 thumb_image: "https://user-images.githubusercontent.com/11540782/172063705-d475357f-09d8-4f9b-8d6a-f675e5b7d21f.jpg"
