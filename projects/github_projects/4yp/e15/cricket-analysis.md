@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e15-4yp-cricket-analysis
 page_url: https://cepdnaclk.github.io/e15-4yp-cricket-analysis
 
-forks: 2
+forks: 3
 watchers: 0
 stars: 0
 started_on: 2021-03-05T07:10:35Z
