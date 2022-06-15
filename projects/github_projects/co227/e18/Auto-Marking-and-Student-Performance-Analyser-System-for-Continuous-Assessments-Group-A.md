@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/co227/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-co227-Auto-Marking-and-Student-Performance-Analyser-System-for-Continuous-Assessments-Group-A
 page_url: https://cepdnaclk.github.io/e18-co227-Auto-Marking-and-Student-Performance-Analyser-System-for-Continuous-Assessments-Group-A
 
-forks: 2
+forks: 3
 watchers: 0
 stars: 0
 started_on: 2022-06-06T11:01:28Z
