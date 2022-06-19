@@ -2,7 +2,7 @@
 layout: project_page
 title: Smart Inventory Management System Group C
 permalink: /co227/e18/Smart-Inventory-Management-System-Group-C/
-description: "Manage multiple roles for Smart Inventory Management System"
+description: "Component ordering in Smart Inventory Management System"
 
 has_children: false
 parent: E18 Software Systems Projects
@@ -19,5 +19,5 @@ watchers: 0
 stars: 0
 started_on: 2022-06-07T04:23:17Z
 ---
-Manage multiple roles for Smart Inventory Management System
+Component ordering in Smart Inventory Management System
 
