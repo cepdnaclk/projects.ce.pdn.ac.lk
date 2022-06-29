@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/co328/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-co328-ContactTracingApp
 page_url: https://cepdnaclk.github.io/e17-co328-ContactTracingApp
 
-forks: 3
+forks: 4
 watchers: 2
 stars: 2
 started_on: 2022-03-03T04:29:25Z
