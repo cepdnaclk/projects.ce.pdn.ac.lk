@@ -2,7 +2,7 @@
 layout: project_page
 title: Image Data Handling System for Research Group B
 permalink: /co227/e18/Image-Data-Handling-System-for-Research-Group-B/
-description: "Software system with graphical user interfaces to handle research data"
+description: "A mobile application to capture the oral cavity images and upload them. These images can be later used to test an AI based Oral Cavity Region Detection tool."
 
 has_children: false
 parent: E18 Software Systems Projects
@@ -19,5 +19,5 @@ watchers: 1
 stars: 1
 started_on: 2022-06-06T09:48:42Z
 ---
-Software system with graphical user interfaces to handle research data
+A mobile application to capture the oral cavity images and upload them. These images can be later used to test an AI based Oral Cavity Region Detection tool.
 
