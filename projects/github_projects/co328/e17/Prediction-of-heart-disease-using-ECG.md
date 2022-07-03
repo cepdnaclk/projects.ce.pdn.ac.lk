@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/co328/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-co328-Prediction-of-heart-disease-using-ECG
 page_url: https://cepdnaclk.github.io/e17-co328-Prediction-of-heart-disease-using-ECG
 
-forks: 3
+forks: 4
 watchers: 0
 stars: 0
 started_on: 2022-03-04T16:06:17Z
