@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e16-3yp-smart-vending-machine
 page_url: https://cepdnaclk.github.io/e16-3yp-smart-vending-machine
 
 forks: 5
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: 2020-10-21T10:22:20Z
 ---
 Smart Vending Machine (3rd-year unified project) This is a 3rd-year project Developed by a group of students to address the problems faced in traditional vending and help consumers have a relatively safer and easier to handle and access. This Smart Vending machine is connected to the cloud to make sure every transaction is Live A web application is devoted to helping the consumers see what they want and can order the items they want to buy The web application is very interactive where the users can sign up and make an interactive accounts where they can do changes and track their buying habits
