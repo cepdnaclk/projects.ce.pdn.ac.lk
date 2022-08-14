@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e15-4yp-Identifying-keywords-in-legal-art
 page_url: https://cepdnaclk.github.io/e15-4yp-Identifying-keywords-in-legal-articles-using-ML-techniques
 
 forks: 1
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: 2021-03-05T05:21:31Z
 ---
 In Sri Lanka, it is vital need to implement a system to extract key information from legal document. This research focused on how to mine basic information from legal documents and how to apply machine learning techniques to extract keywords from documents.
