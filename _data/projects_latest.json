@@ -1,4 +1,36 @@
 {
+    "e16-co502-RV32IM-NoC-implementation": {
+        "projName": "RV32IM NoC implementation",
+        "batch": "E16",
+        "category": {
+            "title": "Advanced Computer Architecture (CO502)",
+            "code": "co502",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co502/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e16-co502-RV32IM-NoC-implementation",
+        "project_url": "/co502/e16/RV32IM-NoC-implementation/",
+        "page_url": "https://cepdnaclk.github.io/e16-co502-RV32IM-NoC-implementation",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-co502-RV32IM-NoC-implementation",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
+        "created_at": "2021-10-18T12:21:49Z",
+        "updated_at": "2022-08-18T15:04:31Z",
+        "forks_count": 1,
+        "stars_count": 1,
+        "watchers_count": 1,
+        "language": "Verilog",
+        "topics": [
+            "noc",
+            "riscv"
+        ],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e16-co502-RV32IM-NoC-implementation"
+    },
     "e15-4yp-Identifying-keywords-in-legal-articles-using-ML-techniques": {
         "projName": "Identifying keywords in legal articles using ML techniques",
         "batch": "E15",
@@ -523,94 +555,5 @@
             "Automated Tools"
         ],
         "name": "e18-co227-Auto-Marking-and-Student-Performance-Analyser-System-for-Continuous-Assessments-Group-B"
-    },
-    "e18-co227-Interactive-Department-Map-GroupA": {
-        "projName": "Interactive Department Map GroupA",
-        "batch": "E18",
-        "category": {
-            "title": "Software Systems Projects",
-            "code": "co227",
-            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co227/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e18-co227-Interactive-Department-Map-GroupA",
-        "project_url": "/co227/e18/Interactive-Department-Map-GroupA/",
-        "page_url": "https://cepdnaclk.github.io/e18-co227-Interactive-Department-Map-GroupA",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e18-co227-Interactive-Department-Map-GroupA",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
-        "created_at": "2022-06-03T04:27:33Z",
-        "updated_at": "2022-08-04T02:04:48Z",
-        "forks_count": 3,
-        "stars_count": 3,
-        "watchers_count": 3,
-        "language": "JavaScript",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "An up to date web-based map  of the department, which includes the Labs, Resources, and Staff room details, and links to relevant information",
-        "team": {
-            "E/18/354": {
-                "name": "Ruchira Tharaka",
-                "email": "e18354@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/RuchiraTharaka",
-                "linkedin": "https://www.linkedin.com/in/ruchira-tharaka-51423b212/",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/354",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18354.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/354/"
-            },
-            "E/18/318": {
-                "name": "Piyumali Sandunika",
-                "email": "e18318@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/PiyumaliSandunika",
-                "linkedin": "https://www.linkedin.com/in/piyumali-sandunika-08b239203/",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/318",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18318.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/318/"
-            },
-            "E/18/327": {
-                "name": "Chamara Dilshan",
-                "email": "e18327@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/327",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18327.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/327/"
-            }
-        },
-        "supervisors": {
-            "nuwanjaliyagoda@eng.pdn.ac.lk": {
-                "name": "Nuwan Jaliyagoda",
-                "email": "nuwanjaliyagoda@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/140",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/temporary-academic-staff/nuwan.jpg",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/nuwanjaliyagoda",
-                "website": "#",
-                "linkedin": "#",
-                "researchgate": "#",
-                "google_scholar": "#"
-            },
-            "dilshanik@eng.pdn.ac.lk": {
-                "name": "Dilshani Karunarathna",
-                "email": "dilshanik@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/173",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/temporary-academic-staff/dilshani.jpg",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/dilshanik",
-                "website": "#",
-                "linkedin": "#",
-                "researchgate": "#",
-                "google_scholar": "#"
-            }
-        },
-        "tags": [
-            "Web-based Application",
-            "Interactive Map"
-        ],
-        "name": "e18-co227-Interactive-Department-Map-GroupA"
     }
 }
