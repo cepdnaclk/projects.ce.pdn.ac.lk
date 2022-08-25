@@ -2,7 +2,7 @@
 layout: project_page
 title: Hardware Cache Switching with Operating System Context Switches
 permalink: /4yp/e16/Hardware-Cache-Switching-with-Operating-System-Context-Switches/
-description: "An operating system performs a context switch when it suspends one kernel-level thread and activates a different thread. Typically, data stored in the cache memory are lost in such events. This project aims to explore the advantages of maintaining multiple small "cache-storage-cores" and switching to the appropriate one during a context switch. We will use a RISC-V CPU with a suitable embedded operating system and a custom-built cache for the FPGA-based experiments"
+description: "An operating system performs a context switch when it suspends one kernel-level thread and activates a different thread. Typically, data stored in the cache memory are lost in such events. This project aims to explore the advantages of maintaining multiple small 'cache-storage-cores' and switching to the appropriate one during a context switch. We will use a RISC-V CPU with a suitable embedded operating system and a custom-built cache for the FPGA-based experiments"
 
 has_children: false
 parent: E16 Undergraduate Research Projects

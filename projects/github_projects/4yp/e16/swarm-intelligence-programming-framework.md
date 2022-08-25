@@ -2,7 +2,7 @@
 layout: project_page
 title: swarm intelligence programming framework
 permalink: /4yp/e16/swarm-intelligence-programming-framework/
-description: "This particular project will focus on building a high-level programming and compiler framework which can be used to "write" or "draw" algorithms and convert them into low-level code. The framework will support multiple different types of robot hardware (both real and virtual)."
+description: "This particular project will focus on building a high-level programming and compiler framework which can be used to 'write' or 'draw' algorithms and convert them into low-level code. The framework will support multiple different types of robot hardware (both real and virtual)."
 
 has_children: false
 parent: E16 Undergraduate Research Projects

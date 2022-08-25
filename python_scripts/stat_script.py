@@ -208,11 +208,12 @@ if __name__ == "__main__":
 
         for i in range(len(jsonData)):
             repoName = jsonData[i]["name"].strip().split("-")
-            print(repoName)
 
             if len(repoName)>1 and repoName[0][0] == "e" and repoName[0][1:] != 'YY':
                 if repoName[1] in CATEGORIES:
                     try:
+                        print(jsonData[i]["name"])
+
                         batch = int(repoName[0][1:])
                         BATCHES[repoName[1]].add(batch)
                         filename = '-'.join(repoName[2:])
@@ -257,7 +258,7 @@ if __name__ == "__main__":
                         outputFile = open(path, "w+", encoding="utf-8")
 
                         if jsonData[i]["description"]:
-                            desc = jsonData[i]["description"]
+                            desc = jsonData[i]["description"].replace("\"", "'")
                         else:
                             desc = ''
 
