@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e15-4yp-sports-action-recognition
 page_url: https://cepdnaclk.github.io/e15-4yp-sports-action-recognition
 
-forks: 1
+forks: 2
 watchers: 1
 stars: 1
 started_on: 2021-03-02T04:00:38Z
