@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e16-4yp-post-quantum-cryptographic-scheme
 page_url: https://cepdnaclk.github.io/e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices
 
 forks: 3
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: 2022-07-25T10:06:29Z
 ---
 This project proposes the use of plain lattices with learning with errors problem to implement a cryptographic scheme which can run on classical computers and provides security against quantum based attacks. We are proposing key sizes for efficient operations and implement a lattice trapdoor function. Also we will improve current random oracle based model in to a standard model. 
