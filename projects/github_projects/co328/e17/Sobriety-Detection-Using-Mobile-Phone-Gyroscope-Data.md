@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e17-co328-Sobriety-Detection-Using-Mobile
 page_url: https://cepdnaclk.github.io/e17-co328-Sobriety-Detection-Using-Mobile-Phone-Gyroscope-Data
 
 forks: 3
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: 2022-02-24T11:34:23Z
 ---
 An intelligent API which is capable of passively tracking gyroscopic data to classify sobriety level in real-time that will help minimize risks of drunk-riding accidents for e-scooter sharing systems.
