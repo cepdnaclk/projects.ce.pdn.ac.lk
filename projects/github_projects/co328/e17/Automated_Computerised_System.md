@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/co328/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-co328-Automated_Computerised_System
 page_url: https://cepdnaclk.github.io/e17-co328-Automated_Computerised_System
 
-forks: 2
+forks: 3
 watchers: 1
 stars: 1
 started_on: 2022-03-08T04:56:33Z
