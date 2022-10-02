@@ -1,4 +1,103 @@
 {
+    "e15-4yp-Doppelganger-Cartoon": {
+        "projName": "Doppelganger Cartoon",
+        "batch": "E15",
+        "category": {
+            "title": "Undergraduate Research Projects",
+            "code": "4yp",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/4yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e15-4yp-Doppelganger-Cartoon",
+        "project_url": "/4yp/e15/Doppelganger-Cartoon/",
+        "page_url": "https://cepdnaclk.github.io/e15-4yp-Doppelganger-Cartoon",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e15-4yp-Doppelganger-Cartoon",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+        "created_at": "2021-05-01T07:49:46Z",
+        "updated_at": "2022-09-29T09:57:04Z",
+        "forks_count": 0,
+        "stars_count": 1,
+        "watchers_count": 1,
+        "language": null,
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "The objective of Doppelganger Cartoon is to create a machine learning model to find the best matching cartoon character for a human image . This was implemented using three approaches: pre-trained model based approach, combined model (face + hair + gender) and classification model.",
+        "team": {
+            "E/15/065": {
+                "name": "De Silva K.G.P.M.",
+                "email": "e15065@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/PrasadM96",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E15/065",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15065.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/065/"
+            },
+            "E/15/076": {
+                "name": "Dileka J.H.S.",
+                "email": "e15076@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/sandushi",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E15/076",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15076.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/076/"
+            },
+            "E/15/220": {
+                "name": "Maliththa K.H.H.",
+                "email": "e15220@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/khhm",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E15/220",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15220.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/220/"
+            }
+        },
+        "supervisors": {
+            "asithab@eng.pdn.ac.lk": {
+                "name": "Dr. Asitha Bandaranayake",
+                "email": "asithab@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/asitha-bandaranayake/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/asitha-bandaranayake.jpg",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/asithab",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/asithab/",
+                "researchgate": "https://www.researchgate.net/profile/Asitha-Bandaranayake-3",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=sf6MaF4AAAAJ"
+            },
+            "dsdeegalla@pdn.ac.lk": {
+                "name": "Mr. Sampath Deegalla",
+                "email": "dsdeegalla@pdn.ac.lk",
+                "profile_url": "#",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
+                "api_url": "#",
+                "website": "#",
+                "linkedin": "#",
+                "researchgate": "#",
+                "google_scholar": "#"
+            },
+            "#": {
+                "name": "Mr. Ishan Gammampila",
+                "email": "#",
+                "profile_url": "#",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
+                "api_url": "#",
+                "website": "#",
+                "linkedin": "#",
+                "researchgate": "#",
+                "google_scholar": "#"
+            }
+        },
+        "tags": [
+            "Final Year Projects"
+        ],
+        "name": "e15-4yp-Doppelganger-Cartoon"
+    },
     "e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices": {
         "projName": "post quantum cryptographic schemes based on plain lattices",
         "batch": "E16",
@@ -14,7 +113,7 @@
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
         "created_at": "2022-07-25T10:06:29Z",
         "updated_at": "2022-09-21T11:26:00Z",
-        "forks_count": 3,
+        "forks_count": 4,
         "stars_count": 2,
         "watchers_count": 2,
         "language": "C++",
@@ -472,123 +571,5 @@
         "supervisors": {},
         "tags": {},
         "name": "e16-3yp-smart-pharmaceutical-warehousing"
-    },
-    "e16-4yp-Enhancing-Video-Game-Experience-With-Brain-Computer-Interface": {
-        "projName": "Enhancing Video Game Experience With Brain Computer Interface",
-        "batch": "E16",
-        "category": {
-            "title": "Undergraduate Research Projects",
-            "code": "4yp",
-            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/4yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e16-4yp-Enhancing-Video-Game-Experience-With-Brain-Computer-Interface",
-        "project_url": "/4yp/e16/Enhancing-Video-Game-Experience-With-Brain-Computer-Interface/",
-        "page_url": "https://cepdnaclk.github.io/e16-4yp-Enhancing-Video-Game-Experience-With-Brain-Computer-Interface",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-4yp-Enhancing-Video-Game-Experience-With-Brain-Computer-Interface",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2022-07-23T19:18:08Z",
-        "updated_at": "2022-08-08T15:55:46Z",
-        "forks_count": 2,
-        "stars_count": 1,
-        "watchers_count": 1,
-        "language": "Jupyter Notebook",
-        "topics": [
-            "eeg",
-            "eeg-classification",
-            "game",
-            "nueral-networks"
-        ],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "Developing a video game interface that uses the brain-computer interface (BCI) based on electroencephalography (EEG).",
-        "team": {
-            "E/16/012": {
-                "name": "Isurika Adikari",
-                "email": "e16012@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E16/012",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16012.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/012/"
-            },
-            "E/16/081": {
-                "name": "J.M.Praveen Dhananjaya",
-                "email": "e16081@eng.pdn.ac.lk",
-                "website": "https://sites.google.com/view/praveen-dhananjaya",
-                "github": "https://github.com/praveendhananjaya",
-                "linkedin": "https://www.linkedin.com/in/praveen-dhananjaya-55816015a",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E16/081",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16081.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/081/"
-            },
-            "E/16/200": {
-                "name": "Sumudu Liyanage",
-                "email": "e16200@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/sumuduliyanage",
-                "linkedin": "https://www.linkedin.com/in/sumudu-liyanage",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E16/200",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16200.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/200/"
-            }
-        },
-        "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            },
-            "roshanr@eng.pdn.ac.lk": {
-                "name": "Prof. Roshan G. Ragel",
-                "email": "roshanr@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/roshan-ragel/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/roshan-ragel.jpg",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/roshanr",
-                "website": "http://roshan.ragel.net/",
-                "linkedin": "https://www.linkedin.com/in/roshanragel/",
-                "researchgate": "https://www.researchgate.net/profile/Roshan-Ragel",
-                "google_scholar": "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
-            },
-            "mahanamaw@eng.pdn.ac.lk": {
-                "name": "Dr. Mahanama Wickramasinghe",
-                "email": "mahanamaw@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/mahanama-wickramasinghe/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/mahanama",
-                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
-            },
-            "theekshanadis@eng.pdn.ac.lk": {
-                "name": "Mr. Theekshana Dissanayake",
-                "email": "theekshanadis@eng.pdn.ac.lk",
-                "profile_url": "#",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
-                "api_url": "#",
-                "website": "#",
-                "linkedin": "#",
-                "researchgate": "#",
-                "google_scholar": "#"
-            }
-        },
-        "tags": [
-            "EEG",
-            "Signal Processing",
-            "Neural Network",
-            "brain computer interface"
-        ],
-        "name": "e16-4yp-Enhancing-Video-Game-Experience-With-Brain-Computer-Interface"
     }
 }
