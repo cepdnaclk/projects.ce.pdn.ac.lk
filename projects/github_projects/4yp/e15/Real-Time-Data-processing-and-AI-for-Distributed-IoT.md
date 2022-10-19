@@ -11,8 +11,8 @@ grand_parent: Undergraduate Research Projects
 cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
-repo_url: 
-page_url: 
+repo_url: 'blank'
+page_url: 'blank'
 
 forks: 1
 watchers: 0
