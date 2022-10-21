@@ -9,47 +9,53 @@ html {
 }
 
 body {
-    transition:all 3s;
+    transition: all 3s;
 }
 
-p, ul{
+p,
+ul {
     font-size: 12pt;
 }
 
-.card{
+.card {
     border: 1px solid #d0d0d0 !important;
 }
+
 .img-hover-zoom-card {
     overflow: hidden;
 }
+
 .img-hover-zoom {
     overflow: hidden;
 }
+
 .img-hover-zoom-card img {
     transition: transform .5s ease;
 }
+
 .img-hover-zoom-card:hover img {
     transform: scale(1.1);
 }
 
-.icon-box{
-    padding-left: 5px!important;
-    padding-right: 5px!important;
+.icon-box {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
 }
 
-.project-card-title{
+.project-card-title {
     /* text-transform: capitalize; */
     font-size: 10pt;
 }
 
-.title-case{
+.title-case {
     /* text-transform: capitalize; */
 }
 
-.title-overflow{
+.title-overflow {
     text-overflow: ellipsis !important;
     overflow: hidden;
 }
+
 .title-overflow:hover {
     overflow: visible;
 }
@@ -57,6 +63,7 @@ p, ul{
 .btn-card:hover {
     font-size: 10pt !important;
 }
+
 .btn-card:hover {
     background: #dfdfdf !important;
 }
@@ -64,7 +71,7 @@ p, ul{
 .video-container {
     overflow: hidden;
     position: relative;
-    width:95%;
+    width: 95%;
 }
 
 .video-container::after {
@@ -81,7 +88,7 @@ p, ul{
     height: 100%;
 }
 
-.highlighter-rouge{
+.highlighter-rouge {
     border: 1px solid gray;
     margin: 20px;
     padding: 10px;
@@ -107,7 +114,7 @@ p, ul{
     background: #555;
 }
 
-.tag{
+.tag {
     padding: 2px 15px;
     background-color: #c4c4c4;
     margin: 3px 5px !important;
@@ -119,29 +126,32 @@ p, ul{
 .vh-50 {
     min-height: 50vh !important;
 }
+
 .vh-75 {
     min-height: 75vh !important;
 }
 
-.breadcrumb-nav{
+.breadcrumb-nav {
     background-color: #e9ecef !important;
 }
 
-.breadcrumb-item a{
+.breadcrumb-item a {
     text-decoration: none !important;
 }
-.breadcrumb-item a:hover{
+
+.breadcrumb-item a:hover {
     text-decoration: underline !important;
 }
 
-.nav-item{
+.nav-item {
     padding: 1px 16px;
 }
 
-.profile-title{
+.profile-title {
     font-size: 0.9em !important;
 }
-.profile-text{
+
+.profile-text {
     font-size: 1em !important;
 }
 
@@ -152,28 +162,36 @@ p, ul{
 }
 
 
+.footer-link {
+    color: #6c757d !important;
+    transition: all 0.2s ease-in;
+}
+
+.footer-link:hover {
+    color: #0d6efd !important;
+}
+
+
 #toTopBtn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 97;
-  padding: 21px;
-  background-color: #0d6efd !important;
-  background: url('https://projects.ce.pdn.ac.lk/assets/images/cd-top-arrow.svg')
-    no-repeat center 50%;
-  background-color: hsla(5, 76%, 62%, 0.8);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 97;
+    padding: 21px;
+    background-color: #0d6efd !important;
+    background: url('https://projects.ce.pdn.ac.lk/assets/images/cd-top-arrow.svg') no-repeat center 50%;
+    background-color: hsla(5, 76%, 62%, 0.8);
 }
 
 #editBtn {
-  position: fixed;
-  bottom: 20px;
-  right: 70px;
-  z-index: 98;
-  padding: 21px;
-  background-color: #0dfc5e !important;
-  background: url('https://projects.ce.pdn.ac.lk/assets/images/cd-top-edit.svg')
-    no-repeat center 50%;
-  background-color: hsla(5, 76%, 62%, 0.8);
+    position: fixed;
+    bottom: 20px;
+    right: 70px;
+    z-index: 98;
+    padding: 21px;
+    background-color: #0dfc5e !important;
+    background: url('https://projects.ce.pdn.ac.lk/assets/images/cd-top-edit.svg') no-repeat center 50%;
+    background-color: hsla(5, 76%, 62%, 0.8);
 }
 
 .js .cd-top--fade-out {
@@ -192,21 +210,19 @@ p, ul{
 }
 
 .cd-top {
-  position: fixed;
-  bottom: 20px;
-  bottom: var(--cd-back-to-top-margin);
-  right: 20px;
-  right: var(--cd-back-to-top-margin);
-  display: inline-block;
-  height: 40px;
-  height: var(--cd-back-to-top-size);
-  width: 40px;
-  width: var(--cd-back-to-top-size);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05) !important;
-  background-color: hsla(
-    var(--cd-color-3-h),
-    var(--cd-color-3-s),
-    var(--cd-color-3-l),
-    0.8
-  );
+    position: fixed;
+    bottom: 20px;
+    bottom: var(--cd-back-to-top-margin);
+    right: 20px;
+    right: var(--cd-back-to-top-margin);
+    display: inline-block;
+    height: 40px;
+    height: var(--cd-back-to-top-size);
+    width: 40px;
+    width: var(--cd-back-to-top-size);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05) !important;
+    background-color: hsla(var(--cd-color-3-h),
+            var(--cd-color-3-s),
+            var(--cd-color-3-l),
+            0.8);
 }
