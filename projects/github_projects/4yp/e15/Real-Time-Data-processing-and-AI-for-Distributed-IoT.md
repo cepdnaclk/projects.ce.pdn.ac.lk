@@ -11,7 +11,7 @@ grand_parent: Undergraduate Research Projects
 cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
-repo_url: https://github.com/cepdnaclk/e15-4yp-Real-Time-Data-processing-and-AI-for-Distributed-IoT
+repo_url: blank
 page_url: blank
 
 forks: 1
