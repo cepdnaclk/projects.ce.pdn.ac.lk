@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e14-4yp-ipb
 page_url: https://cepdnaclk.github.io/e14-4yp-ipb
 
 forks: 0
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: 2021-02-28T07:09:31Z
 ---
 Intelligence Preparation of Battlefield or IPB as it is more commonly known is a Command and staff tool that allows systematic, continuous analysis of the enemy and the battlefield environment to be carried out and which presents the results in a graphical form
