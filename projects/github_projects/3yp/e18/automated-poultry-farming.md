@@ -12,7 +12,7 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e18-3yp-automated-poultry-farming
-page_url: blank
+page_url: https://cepdnaclk.github.io/e18-3yp-automated-poultry-farming
 
 forks: 3
 watchers: 0
