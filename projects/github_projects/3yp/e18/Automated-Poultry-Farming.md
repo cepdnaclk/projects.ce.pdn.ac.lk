@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: automated poultry farming
-permalink: /3yp/e18/automated-poultry-farming/
+title: Automated Poultry Farming
+permalink: /3yp/e18/Automated-Poultry-Farming/
 description: "This is about our automated poultry feeding system which mimics the roll of real life poultry farmer"
 
 has_children: false
@@ -11,8 +11,8 @@ grand_parent: Cyber-Physical Systems Projects
 cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 
-repo_url: https://github.com/cepdnaclk/e18-3yp-automated-poultry-farming
-page_url: https://cepdnaclk.github.io/e18-3yp-automated-poultry-farming
+repo_url: https://github.com/cepdnaclk/e18-3yp-Automated-Poultry-Farming
+page_url: https://cepdnaclk.github.io/e18-3yp-Automated-Poultry-Farming
 
 forks: 3
 watchers: 0

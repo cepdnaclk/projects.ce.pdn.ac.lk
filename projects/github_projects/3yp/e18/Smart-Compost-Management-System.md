@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-3yp-Smart-Compost-Management-System
 page_url: https://cepdnaclk.github.io/e18-3yp-Smart-Compost-Management-System
 
-forks: 2
+forks: 3
 watchers: 0
 stars: 0
 started_on: 2022-10-31T09:08:01Z

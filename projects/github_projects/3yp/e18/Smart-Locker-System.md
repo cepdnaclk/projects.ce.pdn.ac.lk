@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: Smart Access Control System
-permalink: /3yp/e18/Smart-Access-Control-System/
+title: Smart Locker System
+permalink: /3yp/e18/Smart-Locker-System/
 description: ""
 
 has_children: false
@@ -11,13 +11,13 @@ grand_parent: Cyber-Physical Systems Projects
 cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 
-repo_url: https://github.com/cepdnaclk/e18-3yp-Smart-Access-Control-System
-page_url: https://cepdnaclk.github.io/e18-3yp-Smart-Access-Control-System
+repo_url: https://github.com/cepdnaclk/e18-3yp-Smart-Locker-System
+page_url: https://cepdnaclk.github.io/e18-3yp-Smart-Locker-System
 
-forks: 3
+forks: 0
 watchers: 0
 stars: 0
-started_on: 2022-10-30T07:21:54Z
+started_on: 2022-11-02T06:43:17Z
 ---
 
 
