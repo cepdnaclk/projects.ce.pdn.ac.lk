@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-3yp-Smart-Locker-System
 page_url: https://cepdnaclk.github.io/e18-3yp-Smart-Locker-System
 
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: 2022-11-02T06:43:17Z
