@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e17-co326-Smart-Building
 page_url: https://cepdnaclk.github.io/e17-co326-Smart-Building
 
 forks: 49
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: 2022-06-30T00:12:23Z
 ---
 
