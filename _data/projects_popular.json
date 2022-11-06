@@ -1,67 +1,33 @@
 {
-    "e16-co326-Agriculture-Monitoring-and-Control-System": {
-        "projName": "Agriculture Monitoring and Control System",
-        "batch": "E16",
+    "e17-co326-Smart-Building": {
+        "projName": "Smart Building",
+        "batch": "E17",
         "category": {
             "title": "Industrial Automation Projects (CO326)",
             "code": "co326",
             "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co326/"
         },
-        "repo_url": "https://github.com/cepdnaclk/e16-co326-Agriculture-Monitoring-and-Control-System",
-        "project_url": "/co326/e16/Agriculture-Monitoring-and-Control-System/",
-        "page_url": "#",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-co326-Agriculture-Monitoring-and-Control-System",
+        "repo_url": "https://github.com/cepdnaclk/e17-co326-Smart-Building",
+        "project_url": "/co326/e17/Smart-Building/",
+        "page_url": "https://cepdnaclk.github.io/e17-co326-Smart-Building",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e17-co326-Smart-Building",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
-        "created_at": "2021-10-20T08:45:54Z",
-        "updated_at": "2022-03-03T14:09:39Z",
-        "forks_count": 28,
+        "created_at": "2022-06-30T00:12:23Z",
+        "updated_at": "2022-11-06T03:32:35Z",
+        "forks_count": 49,
         "stars_count": 1,
         "watchers_count": 1,
-        "language": "Python",
+        "language": "Jupyter Notebook",
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
-        "has_pages": false,
+        "has_pages": true,
         "description": "",
         "team": {},
         "supervisors": {},
         "tags": {},
-        "name": "e16-co326-Agriculture-Monitoring-and-Control-System",
-        "popularity_score": 6.4
-    },
-    "e16-3yp-smart-pharmaceutical-warehousing": {
-        "projName": "smart pharmaceutical warehousing",
-        "batch": "E16",
-        "category": {
-            "title": "Cyber-Physical Systems Projects",
-            "code": "3yp",
-            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing",
-        "project_url": "/3yp/e16/smart-pharmaceutical-warehousing/",
-        "page_url": "https://cepdnaclk.github.io/e16-3yp-smart-pharmaceutical-warehousing",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-        "created_at": "2020-10-18T04:16:45Z",
-        "updated_at": "2022-10-24T10:23:01Z",
-        "forks_count": 6,
-        "stars_count": 8,
-        "watchers_count": 8,
-        "language": "JavaScript",
-        "topics": [
-            "agv",
-            "robot-arm",
-            "warehouse"
-        ],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "In this project, we are trying to address this issue by developing a fully automated warehouse management that will minimize the drawbacks while improving efficiency and profitability. We are implementing a warehouse management system which consists two types of robots; robots arms to handle loading/unloading of goods, automated guided vehicles to transport goods inside the warehouse. Also, an online shopping portal to make the purchases from the warehouse.",
-        "team": {},
-        "supervisors": {},
-        "tags": {},
-        "name": "e16-3yp-smart-pharmaceutical-warehousing",
-        "popularity_score": 7.6
+        "name": "e17-co326-Smart-Building",
+        "popularity_score": 10.6
     },
     "e17-3yp-maker-mate": {
         "projName": "maker mate",
@@ -154,72 +120,103 @@
         "name": "e17-3yp-maker-mate",
         "popularity_score": 3.0
     },
-    "e17-3yp-remote-medical-diagnostics": {
-        "projName": "remote medical diagnostics",
-        "batch": "E17",
+    "e16-3yp-smart-pharmaceutical-warehousing": {
+        "projName": "smart pharmaceutical warehousing",
+        "batch": "E16",
         "category": {
             "title": "Cyber-Physical Systems Projects",
             "code": "3yp",
             "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
         },
-        "repo_url": "https://github.com/cepdnaclk/e17-3yp-remote-medical-diagnostics",
-        "project_url": "/3yp/e17/remote-medical-diagnostics/",
-        "page_url": "https://cepdnaclk.github.io/e17-3yp-remote-medical-diagnostics",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e17-3yp-remote-medical-diagnostics",
+        "repo_url": "https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing",
+        "project_url": "/3yp/e16/smart-pharmaceutical-warehousing/",
+        "page_url": "https://cepdnaclk.github.io/e16-3yp-smart-pharmaceutical-warehousing",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-        "created_at": "2021-06-22T06:16:21Z",
-        "updated_at": "2021-10-29T10:07:34Z",
-        "forks_count": 3,
-        "stars_count": 3,
-        "watchers_count": 3,
-        "language": "TypeScript",
+        "created_at": "2020-10-18T04:16:45Z",
+        "updated_at": "2022-10-24T10:23:01Z",
+        "forks_count": 6,
+        "stars_count": 8,
+        "watchers_count": 8,
+        "language": "JavaScript",
         "topics": [
-            "covid-19",
-            "health",
-            "medical",
-            "nodejs",
-            "reactjs",
-            "real-time",
-            "remote-diagnostic",
-            "webapp"
+            "agv",
+            "robot-arm",
+            "warehouse"
         ],
         "has_projects": true,
         "has_wiki": true,
         "has_pages": true,
-        "description": "An online platform combined with a convenient medical diagnostic device where patients can meet doctors and get diagnosed at the comfort of their home.",
+        "description": "In this project, we are trying to address this issue by developing a fully automated warehouse management that will minimize the drawbacks while improving efficiency and profitability. We are implementing a warehouse management system which consists two types of robots; robots arms to handle loading/unloading of goods, automated guided vehicles to transport goods inside the warehouse. Also, an online shopping portal to make the purchases from the warehouse.",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e16-3yp-smart-pharmaceutical-warehousing",
+        "popularity_score": 7.6
+    },
+    "e16-co502-RV32IM-pipeline-implementation-group1": {
+        "projName": "RV32IM pipeline implementation group1",
+        "batch": "E16",
+        "category": {
+            "title": "Advanced Computer Architecture (CO502)",
+            "code": "co502",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co502/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e16-co502-RV32IM-pipeline-implementation-group1",
+        "project_url": "/co502/e16/RV32IM-pipeline-implementation-group1/",
+        "page_url": "https://cepdnaclk.github.io/e16-co502-RV32IM-pipeline-implementation-group1",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-co502-RV32IM-pipeline-implementation-group1",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
+        "created_at": "2021-06-30T16:54:58Z",
+        "updated_at": "2022-11-04T08:09:32Z",
+        "forks_count": 3,
+        "stars_count": 3,
+        "watchers_count": 3,
+        "language": "Verilog",
+        "topics": [
+            "computer-architecture",
+            "pipeline",
+            "risc-v",
+            "rv32im",
+            "verilog"
+        ],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "The objective of this project was to design and implement a 5 stage pipeline CPU to support the RISC-V instruction architecture. This pipeline CPU supports the entire RV32IM ISA which contains 45 instructions. The designed pipeline CPU was implemented using behavioral modeling in verilogHDL and icarus Verilog was used compile and simulate. gtkWave was used to observe the behavior.",
         "team": {
-            "E/17/134": {
-                "name": "Kavindu Jayasooriya",
-                "email": "e17134@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/KavinduJayas",
-                "linkedin": "https://www.linkedin.com/in/kavindu-jayasooriya/",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E17/134",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17134.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/134/"
+            "E/16/276": {
+                "name": "Buddhi Perera",
+                "email": "e16276@eng.pdn.ac.lk",
+                "website": "https://buddhiperera.me/",
+                "github": "https://github.com/buddhiheshan",
+                "linkedin": "https://www.linkedin.com/in/buddhi-perera/",
+                "researchgate": "https://www.researchgate.net/profile/Buddhi-Perera-2",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E16/276",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16276.png",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/276/"
             },
-            "E/17/318": {
-                "name": "Udith Senanayake",
-                "email": "e17318@eng.pdn.ac.lk",
+            "E/16/069": {
+                "name": "Damsy De Silva",
+                "email": "e16069@eng.pdn.ac.lk",
                 "website": "",
                 "github": "",
                 "linkedin": "",
                 "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E17/318",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17318.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/318/"
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E16/069",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16069.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/069/"
             },
-            "E/17/207": {
-                "name": "Pasindu Marasinghe",
-                "email": "e17207@eng.pdn.ac.lk",
-                "website": "https://pasindumarasinghe.live",
-                "github": "https://github.com/pasindumarasinghe",
+            "E/16/094": {
+                "name": "Shirly Ekanayake",
+                "email": "e16094@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
                 "linkedin": "",
                 "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E17/207",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17207.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/207/"
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E16/094",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16094.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/094/"
             }
         },
         "supervisors": {
@@ -247,41 +244,12 @@
             }
         },
         "tags": [
-            "Web",
-            "Embedded Systems"
+            "Computer Architecture",
+            "RISC-V",
+            "RV32IM"
         ],
-        "name": "e17-3yp-remote-medical-diagnostics",
+        "name": "e16-co502-RV32IM-pipeline-implementation-group1",
         "popularity_score": 3.0
-    },
-    "e17-co326-Smart-Building": {
-        "projName": "Smart Building",
-        "batch": "E17",
-        "category": {
-            "title": "Industrial Automation Projects (CO326)",
-            "code": "co326",
-            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co326/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e17-co326-Smart-Building",
-        "project_url": "/co326/e17/Smart-Building/",
-        "page_url": "https://cepdnaclk.github.io/e17-co326-Smart-Building",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e17-co326-Smart-Building",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
-        "created_at": "2022-06-30T00:12:23Z",
-        "updated_at": "2022-10-13T09:59:30Z",
-        "forks_count": 47,
-        "stars_count": 0,
-        "watchers_count": 0,
-        "language": "Jupyter Notebook",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "",
-        "team": {},
-        "supervisors": {},
-        "tags": {},
-        "name": "e17-co326-Smart-Building",
-        "popularity_score": 9.4
     },
     "e16-3yp-smart-pill-manager": {
         "projName": "smart pill manager",
@@ -377,6 +345,36 @@
         ],
         "name": "e16-3yp-smart-pill-manager",
         "popularity_score": 3.2
+    },
+    "e16-co326-Agriculture-Monitoring-and-Control-System": {
+        "projName": "Agriculture Monitoring and Control System",
+        "batch": "E16",
+        "category": {
+            "title": "Industrial Automation Projects (CO326)",
+            "code": "co326",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co326/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e16-co326-Agriculture-Monitoring-and-Control-System",
+        "project_url": "/co326/e16/Agriculture-Monitoring-and-Control-System/",
+        "page_url": "#",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-co326-Agriculture-Monitoring-and-Control-System",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
+        "created_at": "2021-10-20T08:45:54Z",
+        "updated_at": "2022-03-03T14:09:39Z",
+        "forks_count": 28,
+        "stars_count": 1,
+        "watchers_count": 1,
+        "language": "Python",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "description": "",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e16-co326-Agriculture-Monitoring-and-Control-System",
+        "popularity_score": 6.4
     },
     "e16-3yp-agribot": {
         "projName": "agribot",
