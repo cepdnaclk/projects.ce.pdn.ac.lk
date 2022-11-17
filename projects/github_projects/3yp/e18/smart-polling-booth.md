@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e18-3yp-smart-polling-booth
 page_url: https://cepdnaclk.github.io/e18-3yp-smart-polling-booth
 
 forks: 0
-watchers: 1
-stars: 1
+watchers: 0
+stars: 0
 started_on: 2022-10-30T17:34:36Z
 ---
 Smart polling booth
