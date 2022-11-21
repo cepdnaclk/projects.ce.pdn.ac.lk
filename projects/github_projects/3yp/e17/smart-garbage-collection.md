@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e17-3yp-smart-garbage-collection
 page_url: https://cepdnaclk.github.io/e17-3yp-smart-garbage-collection
 
 forks: 3
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: 2021-06-23T19:36:57Z
 ---
 Smart garbage collection system provides a platform to manage garbage collecting in a large area with proper coordination between the responsible authorities and the workers assigned to collect garbage while utilizing the available resources effectively. And also general public who are in need of a proper system to dispose garbage will be benefited by the system. The system can be implemented in cities, and any large public areas and it will make a high positive impact on public health & environment as well. 
