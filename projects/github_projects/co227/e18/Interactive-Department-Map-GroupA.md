@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e18-co227-Interactive-Department-Map-Grou
 page_url: https://cepdnaclk.github.io/e18-co227-Interactive-Department-Map-GroupA
 
 forks: 3
-watchers: 3
-stars: 3
+watchers: 4
+stars: 4
 started_on: 2022-06-03T04:27:33Z
 ---
 An up to date web-based map  of the department, which includes the Labs, Resources, and Staff room details, and links to relevant information

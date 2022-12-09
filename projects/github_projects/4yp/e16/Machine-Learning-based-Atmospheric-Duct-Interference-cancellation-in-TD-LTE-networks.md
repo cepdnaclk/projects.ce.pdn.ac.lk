@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e16-4yp-Machine-Learning-based-Atmospheri
 page_url: https://cepdnaclk.github.io/e16-4yp-Machine-Learning-based-Atmospheric-Duct-Interference-cancellation-in-TD-LTE-networks
 
 forks: 2
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: 2022-07-25T05:45:11Z
 ---
 The aim of the project is to find a method to overcome the problem which is caused by the atmospheric duct to 4G LTE networks. In order to do that we are aiming to build two ML-based models which can predict the duct interference and the other one to minimize such interference.

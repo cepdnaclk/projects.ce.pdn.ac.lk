@@ -2,7 +2,7 @@
 layout: project_page
 title: Auto Marking and Student Performance Analyser System for Continuous Assessments Group B
 permalink: /co227/e18/Auto-Marking-and-Student-Performance-Analyser-System-for-Continuous-Assessments-Group-B/
-description: "Auto Marking and Student Performance Analyser System for Continuous Assessments"
+description: ""
 
 has_children: false
 parent: E18 Software Systems Projects
@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e18-co227-Auto-Marking-and-Student-Perform
 forks: 0
 watchers: 0
 stars: 0
-started_on: 2022-06-06T10:45:18Z
+started_on: 2022-12-07T11:15:46Z
 ---
-Auto Marking and Student Performance Analyser System for Continuous Assessments
+
 

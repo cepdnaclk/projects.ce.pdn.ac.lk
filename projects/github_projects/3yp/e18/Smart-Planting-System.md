@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e18-3yp-Smart-Planting-System
 page_url: https://cepdnaclk.github.io/e18-3yp-Smart-Planting-System
 
 forks: 3
-watchers: 2
-stars: 2
+watchers: 5
+stars: 5
 started_on: 2022-11-01T05:50:00Z
 ---
 A smart indoor pot for planting and managing the plant.

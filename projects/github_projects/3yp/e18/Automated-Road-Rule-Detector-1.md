@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: Smart Access Control System
-permalink: /3yp/e18/Smart-Access-Control-System/
+title: Automated Road Rule Detector 1
+permalink: /3yp/e18/Automated-Road-Rule-Detector-1/
 description: ""
 
 has_children: false
@@ -11,13 +11,13 @@ grand_parent: Cyber-Physical Systems Projects
 cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 
-repo_url: https://github.com/cepdnaclk/e18-3yp-Smart-Access-Control-System
-page_url: https://cepdnaclk.github.io/e18-3yp-Smart-Access-Control-System
+repo_url: https://github.com/cepdnaclk/e18-3yp-Automated-Road-Rule-Detector-1
+page_url: blank
 
-forks: 3
+forks: 0
 watchers: 0
 stars: 0
-started_on: 2022-10-30T07:21:54Z
+started_on: 2022-11-28T19:04:32Z
 ---
 
 
