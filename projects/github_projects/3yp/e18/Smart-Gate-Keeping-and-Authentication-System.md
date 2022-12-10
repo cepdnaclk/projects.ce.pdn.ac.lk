@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e18-3yp-Smart-Gate-Keeping-and-Authentica
 page_url: https://cepdnaclk.github.io/e18-3yp-Smart-Gate-Keeping-and-Authentication-System
 
 forks: 3
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: 2022-10-30T18:37:29Z
 ---
 Smart Gate Keeping and Authentication System

@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-3yp-Health-Watch-with-Emergency-Detection
 page_url: https://cepdnaclk.github.io/e18-3yp-Health-Watch-with-Emergency-Detection
 
-forks: 2
+forks: 3
 watchers: 3
 stars: 3
 started_on: 2022-10-31T20:08:30Z
