@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e18-3yp-smart-pet-collar
 page_url: https://cepdnaclk.github.io/e18-3yp-smart-pet-collar
 
 forks: 5
-watchers: 2
-stars: 2
+watchers: 3
+stars: 3
 started_on: 2022-10-29T17:43:00Z
 ---
 
