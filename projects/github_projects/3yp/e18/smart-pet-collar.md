@@ -2,7 +2,7 @@
 layout: project_page
 title: smart pet collar
 permalink: /3yp/e18/smart-pet-collar/
-description: "Smart Pet Collar - 3rd Year Project"
+description: "Smart Pet Collar - 3rd Year Project (Department of Computer Engineering, University of Peradeniya.)"
 
 has_children: false
 parent: E18 Cyber-Physical Systems Projects
@@ -19,5 +19,5 @@ watchers: 3
 stars: 3
 started_on: 2022-10-29T17:43:00Z
 ---
-Smart Pet Collar - 3rd Year Project
+Smart Pet Collar - 3rd Year Project (Department of Computer Engineering, University of Peradeniya.)
 
