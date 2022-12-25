@@ -1,1 +1,661 @@
-{}
+{
+    "e18-3yp-Patient-Monitoring-System-for-Ambulances": {
+        "projName": "Patient Monitoring System for Ambulances",
+        "batch": "E18",
+        "category": {
+            "title": "Cyber-Physical Systems Projects",
+            "code": "3yp",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e18-3yp-Patient-Monitoring-System-for-Ambulances",
+        "project_url": "/3yp/e18/Patient-Monitoring-System-for-Ambulances/",
+        "page_url": "https://cepdnaclk.github.io/e18-3yp-Patient-Monitoring-System-for-Ambulances",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e18-3yp-Patient-Monitoring-System-for-Ambulances",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+        "created_at": "2022-11-02T05:14:38Z",
+        "updated_at": "2022-12-25T12:45:04Z",
+        "forks_count": 3,
+        "stars_count": 3,
+        "watchers_count": 3,
+        "language": "Dart",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "This is an IoT based real time patient monitoring device along with the ambulance location tracking system.",
+        "team": {
+            "E/18/022": {
+                "name": "Didula Induwara",
+                "email": "e18022@eng.pdn.ac.lk",
+                "website": "https://sites.google.com/view/didula-induwara/home",
+                "github": "https://github.com/Didula98",
+                "linkedin": "https://www.linkedin.com/in/didula-induwara-885054243/",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/022",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18022.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/022/"
+            },
+            "E/18/318": {
+                "name": "Piyumali Sandunika",
+                "email": "e18318@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/PiyumaliSandunika",
+                "linkedin": "https://www.linkedin.com/in/piyumali-sandunika-08b239203/",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/318",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18318.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/318/"
+            },
+            "E/18/354": {
+                "name": "Ruchira Tharaka",
+                "email": "e18354@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/RuchiraTharaka",
+                "linkedin": "https://www.linkedin.com/in/ruchira-tharaka-51423b212/",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/354",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18354.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/354/"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            },
+            "mahanamaw@eng.pdn.ac.lk": {
+                "name": "Dr. Mahanama Wickramasinghe",
+                "email": "mahanamaw@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/mahanama-wickramasinghe/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/mahanama",
+                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
+            }
+        },
+        "tags": [
+            "Web",
+            "Embedded Systems"
+        ],
+        "name": "e18-3yp-Patient-Monitoring-System-for-Ambulances"
+    },
+    "e15-3yp-Smart-Monitoring-and-Automated-Controlling-System-for-an-Aquarium": {
+        "projName": "Smart Monitoring and Automated Controlling System for an Aquarium",
+        "batch": "E15",
+        "category": {
+            "title": "Cyber-Physical Systems Projects",
+            "code": "3yp",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e15-3yp-Smart-Monitoring-and-Automated-Controlling-System-for-an-Aquarium",
+        "project_url": "/3yp/e15/Smart-Monitoring-and-Automated-Controlling-System-for-an-Aquarium/",
+        "page_url": "https://cepdnaclk.github.io/e15-3yp-Smart-Monitoring-and-Automated-Controlling-System-for-an-Aquarium",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e15-3yp-Smart-Monitoring-and-Automated-Controlling-System-for-an-Aquarium",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+        "created_at": "2021-05-22T18:13:36Z",
+        "updated_at": "2022-12-22T17:17:05Z",
+        "forks_count": 0,
+        "stars_count": 1,
+        "watchers_count": 1,
+        "language": null,
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": " In almost all the aquariums, the filtering of water is done manually by the operating officers. But by using this system, filtering of the aquarium's water can be done automatically which would increase the efficiency of an aquarium's working routine. Filtering of water can be done by measuring and analyzing the oxygen level of water so that there will be a sufficient amount of oxygen for the survival of aquatic animals and plants. Even though the system will be operated automatically, the user or the owner of the aquarium could check the aquarium's filtering process anytime he/she want as there is a web page connected to this system which is updating automatically when all the filtering activities are happening.",
+        "team": {
+            "E/15/362": {
+                "name": "K.A.H.P. Thilakarathna",
+                "email": "e15362@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/hasiniThilakarathn4",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E15/362",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15362.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/362/"
+            },
+            "E/15/081": {
+                "name": "S.L.I. Dinuwanthi",
+                "email": "e15081@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/Imalshadinu",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E15/081",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15081.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/081/"
+            },
+            "E/15/345": {
+                "name": "D.V. Sripadi",
+                "email": "e15345@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/Vidwa",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E15/345",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15345.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/345/"
+            }
+        },
+        "supervisors": {
+            "roshanr@eng.pdn.ac.lk": {
+                "name": "Prof. Roshan G. Ragel",
+                "email": "roshanr@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/roshan-ragel/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/roshan-ragel.jpg",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/roshanr",
+                "website": "http://roshan.ragel.net/",
+                "linkedin": "https://www.linkedin.com/in/roshanragel/",
+                "researchgate": "https://www.researchgate.net/profile/Roshan-Ragel",
+                "google_scholar": "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
+            },
+            "isurunawinne@eng.pdn.ac.lk": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            }
+        },
+        "tags": [
+            "Web",
+            "Embedded Systems"
+        ],
+        "name": "e15-3yp-Smart-Monitoring-and-Automated-Controlling-System-for-an-Aquarium"
+    },
+    "e18-3yp-Automated-Mini-Greenhouse-Monitoring-And-Control-System": {
+        "projName": "Automated Mini Greenhouse Monitoring And Control System",
+        "batch": "E18",
+        "category": {
+            "title": "Cyber-Physical Systems Projects",
+            "code": "3yp",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e18-3yp-Automated-Mini-Greenhouse-Monitoring-And-Control-System",
+        "project_url": "/3yp/e18/Automated-Mini-Greenhouse-Monitoring-And-Control-System/",
+        "page_url": "https://cepdnaclk.github.io/e18-3yp-Automated-Mini-Greenhouse-Monitoring-And-Control-System",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e18-3yp-Automated-Mini-Greenhouse-Monitoring-And-Control-System",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+        "created_at": "2022-10-31T08:08:01Z",
+        "updated_at": "2022-12-22T09:07:15Z",
+        "forks_count": 3,
+        "stars_count": 2,
+        "watchers_count": 2,
+        "language": "HTML",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "Automated mini-greenhouse monitoring and control system",
+        "team": {
+            "E/18/118": {
+                "name": "Haritha Gunarathna",
+                "email": "e18118@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/118",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18118.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/118/"
+            },
+            "E/18/149": {
+                "name": "Ishta Jayakody",
+                "email": "e18149@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/149",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18149.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/149/"
+            },
+            "E/18/398": {
+                "name": "Nimuthu Wijerathne",
+                "email": "e18398@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/398",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18398.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/398/"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            },
+            "mahanamaw@eng.pdn.ac.lk": {
+                "name": "Dr. Mahanama Wickramasinghe",
+                "email": "mahanamaw@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/mahanama-wickramasinghe/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/mahanama",
+                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
+            }
+        },
+        "tags": [
+            "Web",
+            "Embedded Systems"
+        ],
+        "name": "e18-3yp-Automated-Mini-Greenhouse-Monitoring-And-Control-System"
+    },
+    "e18-3yp-Smart-Gate-Keeping-and-Authentication-System": {
+        "projName": "Smart Gate Keeping and Authentication System",
+        "batch": "E18",
+        "category": {
+            "title": "Cyber-Physical Systems Projects",
+            "code": "3yp",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e18-3yp-Smart-Gate-Keeping-and-Authentication-System",
+        "project_url": "/3yp/e18/Smart-Gate-Keeping-and-Authentication-System/",
+        "page_url": "https://cepdnaclk.github.io/e18-3yp-Smart-Gate-Keeping-and-Authentication-System",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e18-3yp-Smart-Gate-Keeping-and-Authentication-System",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+        "created_at": "2022-10-30T18:37:29Z",
+        "updated_at": "2022-12-22T09:06:02Z",
+        "forks_count": 3,
+        "stars_count": 2,
+        "watchers_count": 2,
+        "language": "JavaScript",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "Smart Gate Keeping and Authentication System",
+        "team": {
+            "E/18/068": {
+                "name": "Devinda G.C.",
+                "email": "e18068@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/chirandevinda",
+                "linkedin": "https://www.linkedin.com/in/chiran-devinda-3a1a3023a/",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/068",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18068.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/068/"
+            },
+            "E/18/330": {
+                "name": "Sewwandi H.R.",
+                "email": "e18330@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/330",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18330.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/330/"
+            },
+            "E/18/368": {
+                "name": "Uduwanage H.U.",
+                "email": "e18368@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/368",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18368.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/368/"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            },
+            "mahanamaw@eng.pdn.ac.lk": {
+                "name": "Dr. Mahanama Wickramasinghe",
+                "email": "mahanamaw@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/mahanama-wickramasinghe/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/mahanama",
+                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
+            }
+        },
+        "tags": [
+            "Web",
+            "Embedded Systems"
+        ],
+        "name": "e18-3yp-Smart-Gate-Keeping-and-Authentication-System"
+    },
+    "e18-3yp-smart-safety-helmet": {
+        "projName": "smart safety helmet",
+        "batch": "E18",
+        "category": {
+            "title": "Cyber-Physical Systems Projects",
+            "code": "3yp",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e18-3yp-smart-safety-helmet",
+        "project_url": "/3yp/e18/smart-safety-helmet/",
+        "page_url": "https://cepdnaclk.github.io/e18-3yp-smart-safety-helmet",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e18-3yp-smart-safety-helmet",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+        "created_at": "2022-10-30T18:13:40Z",
+        "updated_at": "2022-12-21T17:14:21Z",
+        "forks_count": 3,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": "JavaScript",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "Smart safety helmet for large scale construction sites",
+        "team": {
+            "E/18/028": {
+                "name": "Jeewanth Udeshika",
+                "email": "e18028@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/JeewanthaUdeshika",
+                "linkedin": "https://www.linkedin.com/in/jeewantha-udeshika-89a1b1197/",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/028",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18028.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/028/"
+            },
+            "E/18/173": {
+                "name": "Ishan Kasthuripitiya",
+                "email": "e18173@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/173",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18173.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/173/"
+            },
+            "E/18/285": {
+                "name": "Tharindu Ranasinghe",
+                "email": "e18285@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/TharinduChamod",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/285",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18285.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/285/"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            },
+            "mahanamaw@eng.pdn.ac.lk": {
+                "name": "Dr. Mahanama Wickramasinghe",
+                "email": "mahanamaw@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/mahanama-wickramasinghe/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/mahanama",
+                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
+            }
+        },
+        "tags": [
+            "Web",
+            "Embedded Systems"
+        ],
+        "name": "e18-3yp-smart-safety-helmet"
+    },
+    "e18-3yp-Smart-Planting-System": {
+        "projName": "Smart Planting System",
+        "batch": "E18",
+        "category": {
+            "title": "Cyber-Physical Systems Projects",
+            "code": "3yp",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e18-3yp-Smart-Planting-System",
+        "project_url": "/3yp/e18/Smart-Planting-System/",
+        "page_url": "https://cepdnaclk.github.io/e18-3yp-Smart-Planting-System",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e18-3yp-Smart-Planting-System",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+        "created_at": "2022-11-01T05:50:00Z",
+        "updated_at": "2022-12-21T16:20:04Z",
+        "forks_count": 3,
+        "stars_count": 4,
+        "watchers_count": 4,
+        "language": "Makefile",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "A smart indoor pot for planting and managing the plant.",
+        "team": {
+            "E/18/154": {
+                "name": "Chamudi Jayasumana",
+                "email": "e18154@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/154",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18154.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/154/"
+            },
+            "E/18/349": {
+                "name": "Anushanga Pavith",
+                "email": "e18349@eng.pdn.ac.lk",
+                "website": "https://bit.ly/anushangapavith",
+                "github": "https://github.com/AnushangaPavith",
+                "linkedin": "www.linkedin.com/in/anushanga-pavith-72764a19b",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/349",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18349.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/349/"
+            },
+            "E/18/327": {
+                "name": "Chamara Dilshan",
+                "email": "e18327@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/ChamaraDilshan",
+                "linkedin": "https://www.linkedin.com/in/chamara-dilshan-senevirathna-062170216",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/327",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18327.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/327/"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            },
+            "mahanamaw@eng.pdn.ac.lk": {
+                "name": "Dr. Mahanama Wickramasinghe",
+                "email": "mahanamaw@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/mahanama-wickramasinghe/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/mahanama",
+                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
+            }
+        },
+        "tags": [
+            "Web",
+            "Embedded Systems",
+            "Mobile app",
+            "Plants"
+        ],
+        "name": "e18-3yp-Smart-Planting-System"
+    },
+    "e18-3yp-Health-Watch-with-Emergency-Detection": {
+        "projName": "Health Watch with Emergency Detection",
+        "batch": "E18",
+        "category": {
+            "title": "Cyber-Physical Systems Projects",
+            "code": "3yp",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e18-3yp-Health-Watch-with-Emergency-Detection",
+        "project_url": "/3yp/e18/Health-Watch-with-Emergency-Detection/",
+        "page_url": "https://cepdnaclk.github.io/e18-3yp-Health-Watch-with-Emergency-Detection",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e18-3yp-Health-Watch-with-Emergency-Detection",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+        "created_at": "2022-10-31T20:08:30Z",
+        "updated_at": "2022-12-20T12:18:23Z",
+        "forks_count": 3,
+        "stars_count": 2,
+        "watchers_count": 2,
+        "language": "Dart",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "Health watch to detect emergency situations",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e18-3yp-Health-Watch-with-Emergency-Detection"
+    },
+    "e18-3yp-smart-pet-collar": {
+        "projName": "smart pet collar",
+        "batch": "E18",
+        "category": {
+            "title": "Cyber-Physical Systems Projects",
+            "code": "3yp",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e18-3yp-smart-pet-collar",
+        "project_url": "/3yp/e18/smart-pet-collar/",
+        "page_url": "https://cepdnaclk.github.io/e18-3yp-smart-pet-collar",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e18-3yp-smart-pet-collar",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+        "created_at": "2022-10-29T17:43:00Z",
+        "updated_at": "2022-12-19T01:58:11Z",
+        "forks_count": 5,
+        "stars_count": 3,
+        "watchers_count": 3,
+        "language": "JavaScript",
+        "topics": [
+            "embedded-systems",
+            "network-security",
+            "web",
+            "web-design"
+        ],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "Smart Pet Collar - 3rd Year Project (Department of Computer Engineering, University of Peradeniya.)",
+        "team": {
+            "E/18/181": {
+                "name": "Konara K.M.S.L",
+                "email": "e18181@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/181",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18181.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/181/"
+            },
+            "E/18/297": {
+                "name": "Rathnayake R.M.P.P.",
+                "email": "e18297@eng.pdn.ac.lk",
+                "website": "https://piumal1999.medium.com/",
+                "github": "https://github.com/Piumal1999",
+                "linkedin": "https://www.linkedin.com/in/piumal1999/",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/297",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18297.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/297/"
+            },
+            "E/18/402": {
+                "name": "Wimalasiri K.H.C.T",
+                "email": "e18402@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/chathurawimalasiri",
+                "linkedin": "https://www.linkedin.com/in/chathura-wimalasiri-b0637b1a1",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/402",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18402.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/402/"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            },
+            "mahanamaw@eng.pdn.ac.lk": {
+                "name": "Dr. Mahanama Wickramasinghe",
+                "email": "mahanamaw@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/mahanama-wickramasinghe/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/mahanama",
+                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
+            }
+        },
+        "tags": [
+            "Web",
+            "Embedded Systems"
+        ],
+        "name": "e18-3yp-smart-pet-collar"
+    }
+}
