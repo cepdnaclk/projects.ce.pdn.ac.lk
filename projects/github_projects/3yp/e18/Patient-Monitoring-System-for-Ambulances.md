@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e18-3yp-Patient-Monitoring-System-for-Amb
 page_url: https://cepdnaclk.github.io/e18-3yp-Patient-Monitoring-System-for-Ambulances
 
 forks: 3
-watchers: 2
-stars: 2
+watchers: 3
+stars: 3
 started_on: 2022-11-02T05:14:38Z
 ---
 This is an IoT based real time patient monitoring device along with the ambulance location tracking system.
