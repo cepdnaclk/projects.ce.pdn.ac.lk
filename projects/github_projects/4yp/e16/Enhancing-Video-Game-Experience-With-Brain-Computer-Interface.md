@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e16-4yp-Enhancing-Video-Game-Experience-W
 page_url: https://cepdnaclk.github.io/e16-4yp-Enhancing-Video-Game-Experience-With-Brain-Computer-Interface
 
 forks: 2
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: 2022-07-23T19:18:08Z
 ---
 Developing a video game interface that uses the brain-computer interface (BCI) based on electroencephalography (EEG).
