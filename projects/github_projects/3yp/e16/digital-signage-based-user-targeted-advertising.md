@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e16-3yp-digital-signage-based-user-target
 page_url: https://cepdnaclk.github.io/e16-3yp-digital-signage-based-user-targeted-advertising
 
 forks: 2
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: 2022-02-15T19:03:21Z
 ---
 

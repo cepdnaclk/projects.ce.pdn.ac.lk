@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e18-3yp-Automated-Road-Rule-Detector
 page_url: https://cepdnaclk.github.io/e18-3yp-Automated-Road-Rule-Detector
 
 forks: 4
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: 2022-11-01T17:34:36Z
 ---
 
