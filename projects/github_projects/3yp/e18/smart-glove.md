@@ -2,7 +2,7 @@
 layout: project_page
 title: smart glove
 permalink: /3yp/e18/smart-glove/
-description: "Project of Hand held device; Smart Glove for mute people"
+description: "This project is basically targeting the differently abled people like mute people because most of the people in the community cannot understand the sign language. Smart glove can be used to convert sign language into text. Those converted messages can be seen through a mobile app and vice versa voice messages can be converted to sign images."
 
 has_children: false
 parent: E18 Cyber-Physical Systems Projects
@@ -19,5 +19,5 @@ watchers: 0
 stars: 0
 started_on: 2022-10-31T05:28:19Z
 ---
-Project of Hand held device; Smart Glove for mute people
+This project is basically targeting the differently abled people like mute people because most of the people in the community cannot understand the sign language. Smart glove can be used to convert sign language into text. Those converted messages can be seen through a mobile app and vice versa voice messages can be converted to sign images.
 
