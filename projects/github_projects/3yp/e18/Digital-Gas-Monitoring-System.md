@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e18-3yp-Digital-Gas-Monitoring-System
 page_url: https://cepdnaclk.github.io/e18-3yp-Digital-Gas-Monitoring-System
 
 forks: 4
-watchers: 2
-stars: 2
+watchers: 1
+stars: 1
 started_on: 2022-11-27T07:21:47Z
 ---
 A system to monitor the gas

@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e18-3yp-Road-Traffic-Ecosystem
 page_url: https://cepdnaclk.github.io/e18-3yp-Road-Traffic-Ecosystem
 
 forks: 2
-watchers: 2
-stars: 2
+watchers: 1
+stars: 1
 started_on: 2022-10-29T19:55:31Z
 ---
 Road Traffic Ecosystem

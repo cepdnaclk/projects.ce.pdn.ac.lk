@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e18-3yp-non-invaisve-glucose-meter
 page_url: https://cepdnaclk.github.io/e18-3yp-non-invaisve-glucose-meter
 
 forks: 1
-watchers: 2
-stars: 2
+watchers: 1
+stars: 1
 started_on: 2022-10-29T15:21:48Z
 ---
 This project contains an embedded system designed to monitor blood glucose levels non-invasively.

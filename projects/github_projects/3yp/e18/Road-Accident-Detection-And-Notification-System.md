@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e18-3yp-Road-Accident-Detection-And-Notif
 page_url: https://cepdnaclk.github.io/e18-3yp-Road-Accident-Detection-And-Notification-System
 
 forks: 3
-watchers: 2
-stars: 2
+watchers: 1
+stars: 1
 started_on: 2022-10-30T14:55:54Z
 ---
 
