@@ -1,4 +1,92 @@
 {
+    "e15-4yp-sports-action-recognition": {
+        "projName": "sports action recognition",
+        "batch": "E15",
+        "category": {
+            "title": "Undergraduate Research Projects",
+            "code": "4yp",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/4yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e15-4yp-sports-action-recognition",
+        "project_url": "/4yp/e15/sports-action-recognition/",
+        "page_url": "https://cepdnaclk.github.io/e15-4yp-sports-action-recognition",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e15-4yp-sports-action-recognition",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+        "created_at": "2021-03-02T04:00:38Z",
+        "updated_at": "2023-02-11T07:06:07Z",
+        "forks_count": 2,
+        "stars_count": 3,
+        "watchers_count": 3,
+        "language": null,
+        "topics": [
+            "action-quality-assessment",
+            "computer-vision",
+            "final-year-project",
+            "human-action-recognition",
+            "openpose",
+            "vision"
+        ],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "This includes a novel method to measure the quality of the actions performed in Olympic weightlifting using human action recognition in videos. Human action recognition is a well-studied problem in computer vision and on the other hand action quality assessment is researched and experimented comparatively low. This is due to the lack of datasets that can be used to assess the quality of actions. In this research, we introduce a method to assess player techniques in weightlifting by using skeleton-based human action recognition. Furthermore, we introduce a new video dataset for action recognition in weightlifting which is annotated to frame level. We intended to develop a viable automated scoring system through action recognition that would be beneficial in the sports industry. ",
+        "team": {
+            "E/15/154": {
+                "name": "Chamin Jayasooriya",
+                "email": "e15154@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/chamin96",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E15/154",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15154.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/154/"
+            },
+            "E/15/179": {
+                "name": "Anandi Karunaratne",
+                "email": "e15179@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/AnandiKarunaratne",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E15/179",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15179.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/179/"
+            }
+        },
+        "supervisors": {
+            "rajithae03@gmail.com": {
+                "name": "Dr. Rajitha Navarathna",
+                "email": "rajithae03@gmail.com",
+                "profile_url": "#",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
+                "api_url": "#",
+                "website": "#",
+                "linkedin": "#",
+                "researchgate": "#",
+                "google_scholar": "#"
+            },
+            "sampath@eng.pdn.ac.lk": {
+                "name": "Mr. Sampath Deegalla",
+                "email": "sampath@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/sampath-deegalla/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/sampath-deegalla.jpg",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/sampath",
+                "website": "https://www.sites.google.com/site/dsdeegalla/",
+                "linkedin": "https://www.linkedin.com/in/dsdeegalla",
+                "researchgate": "https://www.researchgate.net/profile/Sampath-Deegalla-2",
+                "google_scholar": "https://scholar.google.com/citations?user=QDoeGtYAAAAJ&hl=en"
+            }
+        },
+        "tags": [
+            "Final Year Projects",
+            "Human Action Recognition",
+            "Computer Vision",
+            "Openpose",
+            "Action Quality Assessment"
+        ],
+        "name": "e15-4yp-sports-action-recognition"
+    },
     "e18-3yp-Digital-Gas-Monitoring-System": {
         "projName": "Digital Gas Monitoring System",
         "batch": "E18",
@@ -504,98 +592,5 @@
             "Embedded Systems"
         ],
         "name": "e18-3yp-Road-Accident-Detection-And-Notification-System"
-    },
-    "e18-3yp-Road-Traffic-Ecosystem": {
-        "projName": "Road Traffic Ecosystem",
-        "batch": "E18",
-        "category": {
-            "title": "Cyber-Physical Systems Projects",
-            "code": "3yp",
-            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e18-3yp-Road-Traffic-Ecosystem",
-        "project_url": "/3yp/e18/Road-Traffic-Ecosystem/",
-        "page_url": "https://cepdnaclk.github.io/e18-3yp-Road-Traffic-Ecosystem",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e18-3yp-Road-Traffic-Ecosystem",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-        "created_at": "2022-10-29T19:55:31Z",
-        "updated_at": "2023-01-31T20:46:05Z",
-        "forks_count": 2,
-        "stars_count": 1,
-        "watchers_count": 1,
-        "language": "Jupyter Notebook",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "Road Traffic Ecosystem",
-        "team": {
-            "E/18/058": {
-                "name": "De Alwis K.K.M.",
-                "email": "e18058@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/058",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18058.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/058/"
-            },
-            "E/18/128": {
-                "name": "Hariharan R.",
-                "email": "e18128@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/128",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18128.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/128/"
-            },
-            "E/18/168": {
-                "name": "Karan R.",
-                "email": "e18168@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/168",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18168.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/168/"
-            }
-        },
-        "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            },
-            "mahanamaw@eng.pdn.ac.lk": {
-                "name": "Dr. Mahanama Wickramasinghe",
-                "email": "mahanamaw@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/mahanama-wickramasinghe/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/mahanama",
-                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
-            }
-        },
-        "tags": [
-            "Object Detection",
-            "Machine Learning",
-            "Mobile Application",
-            "Cloud",
-            "Web",
-            "Embedded Systems"
-        ],
-        "name": "e18-3yp-Road-Traffic-Ecosystem"
     }
 }
