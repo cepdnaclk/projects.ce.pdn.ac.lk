@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-4yp-Smart-Agriculture-Use-of-Computer-Vision-ML-and-IoT-to-Improve-Crop-Productivity
 page_url: https://cepdnaclk.github.io/e16-4yp-Smart-Agriculture-Use-of-Computer-Vision-ML-and-IoT-to-Improve-Crop-Productivity
 
-forks: 1
+forks: 2
 watchers: 0
 stars: 0
 started_on: 2022-07-23T13:28:33Z
