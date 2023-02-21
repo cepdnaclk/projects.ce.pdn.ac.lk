@@ -2,7 +2,7 @@
 layout: project_page
 title: Using Computer Vision and Agent Based Modelling to Explore the Human Elephant Conflict
 permalink: /4yp/e16/Using-Computer-Vision-and-Agent-Based-Modelling-to-Explore-the-Human-Elephant-Conflict/
-description: "This project proposes the use of satellite images and Geographic Information System (GIS) data to identify elephant habitats and elephant corridors and their deterioration. Then to apply an Agent Based Modelling to model elephant behavior with relation to decaying forest cover and increasing human development."
+description: "The initial stage of this work focuses on creating a segmented image from a given satellite image with different classes. In the second stage, these images should be converted to an ABM-friendly format. At the final stage, they can be used to simulate the real-world environment with related agents using a suitable Agent-based model. "
 
 has_children: false
 parent: E16 Undergraduate Research Projects
@@ -19,5 +19,5 @@ watchers: 0
 stars: 0
 started_on: 2022-07-20T14:26:58Z
 ---
-This project proposes the use of satellite images and Geographic Information System (GIS) data to identify elephant habitats and elephant corridors and their deterioration. Then to apply an Agent Based Modelling to model elephant behavior with relation to decaying forest cover and increasing human development.
+The initial stage of this work focuses on creating a segmented image from a given satellite image with different classes. In the second stage, these images should be converted to an ABM-friendly format. At the final stage, they can be used to simulate the real-world environment with related agents using a suitable Agent-based model. 
 
