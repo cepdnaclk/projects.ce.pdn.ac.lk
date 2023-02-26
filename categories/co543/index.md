@@ -11,6 +11,8 @@ parent: Home
 has_toc: true
 search_exclude: true
 
+readmore: "#"
+
 default_thumb_image: /data/categories/co543/thumbnail.jpg
 description: This section contains projects conducted as a partial requirement to complete the course CO543 - Image Processing
 ---
