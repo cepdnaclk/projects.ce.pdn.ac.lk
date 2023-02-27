@@ -39,7 +39,9 @@ print(CATEGORIES)
 
 ORGANIZATION = "cepdnaclk"
 PROJECTS = []
-LOWERCASE = ['a', 'and', 'of', 'for', 'the', 'as', 'at', 'by', 'on', 'per', 'to', 'up', 'via', 'with', 'from' ]
+LOWERCASE = ['a', 'and', 'of', 'for', 'the', 'as', 'at',
+             'by', 'on', 'per', 'to', 'up', 'via', 'with', 'from']
+
 
 def urlOrganization():
     return "https://api.github.com/orgs/{}".format(ORGANIZATION)
@@ -47,6 +49,7 @@ def urlOrganization():
 
 def urlOrganizationRepos(pageNo):
     return "https://api.github.com/orgs/{}/repos?page={}".format(ORGANIZATION, pageNo)
+
 
 def inRange(x, minNumber, maxNumber):
     if type(x) == str:
@@ -87,7 +90,7 @@ started_on: """ + date + """
     return s
 
 
-def batch_index_template(code, batch, tag, project, description):
+def batch_index_template(code, batch, tag, project, description, readmore_link='#'):
     template = """---
 layout: project_batch
 title: E""" + batch + """ """ + project + """
@@ -97,13 +100,16 @@ parent: """ + project + """
 batch: e""" + batch + """
 code: """ + code + """
 
+readmore: \"""" + readmore_link + """\"
+
 search_exclude: true
 default_thumb_image: /data/categories/""" + tag + """/thumbnail.jpg
-description: """ + description
+description: """ + description + """
+---"""
     return template
 
 
-def index_template(id, code, title, cover, thumbnail, description, contact, type):
+def index_template(id, code, title, cover, thumbnail, description, contact, type, readmore_link="#"):
     template = """---
 layout: project_cat
 title: """ + title + """
@@ -117,6 +123,8 @@ parent: Home
 has_toc: true
 search_exclude: true
 
+readmore: \"""" + readmore_link + """\"
+
 default_thumb_image: /data/categories/""" + code + """/""" + thumbnail + """
 description: """ + description + """
 ---"""
@@ -125,8 +133,12 @@ description: """ + description + """
 
 def md_file_write(CATEGORIES, BATCHES):
     for i in CATEGORIES:
-        index = open("../categories/" + str(i) + "/index.md", 'r')
+        index = open("../data/categories/" + str(i) + "/index.json", 'r')
         index_data = index.read()
+        data = json.loads(index_data)
+
+        description = data['description']
+        readmore_link = data['readmore'] if ('readmore' in data) else '#'
 
         for batch in BATCHES[i]:
             batch_str = str(batch)
@@ -138,8 +150,8 @@ def md_file_write(CATEGORIES, BATCHES):
 
             os.makedirs(os.path.dirname(path), exist_ok=True)
             outputFile = open(path, "w+")
-            outputFile.write(
-                batch_index_template(str(i), batch_str, str(i), CATEGORIES[i], index_data.split("description: ", 1)[1]))
+            outputFile.write(batch_index_template(str(i), batch_str, str(
+                i), CATEGORIES[i], description, readmore_link))
 
 
 def index_files(CATEGORIES):
@@ -158,12 +170,14 @@ def index_files(CATEGORIES):
 
         # course project or general
         categoryType = data['type']
+        readmore_link = data['readmore'] if ('readmore' in data) else '#'
 
         path = "../categories/" + str(i) + "/index.md"
         os.makedirs(os.path.dirname(path), exist_ok=True)
         outputFile = open(path, "w+")
         id += 1
-        outputFile.write(index_template(id, code, title, cover, thumbnail, description, contact, categoryType))
+        outputFile.write(index_template(id, code, title, cover,
+                         thumbnail, description, contact, categoryType, readmore_link))
 
 
 def del_docs_categories():
@@ -209,7 +223,7 @@ if __name__ == "__main__":
         for i in range(len(jsonData)):
             repoName = jsonData[i]["name"].strip().split("-")
 
-            if len(repoName)>1 and repoName[0][0] == "e" and repoName[0][1:] != 'YY':
+            if len(repoName) > 1 and repoName[0][0] == "e" and repoName[0][1:] != 'YY':
                 if repoName[1] in CATEGORIES:
                     try:
                         print(jsonData[i]["name"])
@@ -217,7 +231,9 @@ if __name__ == "__main__":
                         batch = int(repoName[0][1:])
                         BATCHES[repoName[1]].add(batch)
                         filename = '-'.join(repoName[2:])
-                        path = "../projects/github_projects/" + repoName[1] + "/" + repoName[0] + "/" + filename + ".md"
+                        path = "../projects/github_projects/" + \
+                            repoName[1] + "/" + repoName[0] + \
+                            "/" + filename + ".md"
                         title = []
                         title = ' '.join(repoName[2:]).split()
 
@@ -242,15 +258,18 @@ if __name__ == "__main__":
 
                         # print(capitalized)
 
-                        permalink = "/" + repoName[1] + "/" + repoName[0] + "/" + filename
+                        permalink = "/" + repoName[1] + \
+                            "/" + repoName[0] + "/" + filename
                         stars = jsonData[i]["stargazers_count"]
                         forks = jsonData[i]["forks_count"]
                         watch = jsonData[i]["watchers_count"]
                         date = jsonData[i]["created_at"]
-                        repo = "https://github.com/cepdnaclk/" + '-'.join(repoName)
+                        repo = "https://github.com/cepdnaclk/" + \
+                            '-'.join(repoName)
 
                         if jsonData[i]["has_pages"]:
-                            page = "https://cepdnaclk.github.io/" + '-'.join(repoName)
+                            page = "https://cepdnaclk.github.io/" + \
+                                '-'.join(repoName)
                         else:
                             page = "blank"
 
@@ -258,7 +277,8 @@ if __name__ == "__main__":
                         outputFile = open(path, "w+", encoding="utf-8")
 
                         if jsonData[i]["description"]:
-                            desc = jsonData[i]["description"].replace("\"", "'")
+                            desc = jsonData[i]["description"].replace(
+                                "\"", "'")
                         else:
                             desc = ''
 
@@ -271,10 +291,10 @@ if __name__ == "__main__":
                             writeHeader(repoName[1], repoName[0], grand_parent, permalink, capitalized, desc, stars, forks, watch, date, repo, page))
 
                     except Exception as e:
-                        print("\tAn exception occurred on", jsonData[i]["name"])
+                        print("\tAn exception occurred on",
+                              jsonData[i]["name"])
                         print(e.__class__, "occurred.")
                         print(traceback.format_exc())
-
 
         print(BATCHES)
         index_files(CATEGORIES)

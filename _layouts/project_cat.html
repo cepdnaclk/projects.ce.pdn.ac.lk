@@ -9,7 +9,7 @@ layout: default
     <div class="container-fluid py-2 px-2">
         <div class="row">
             <div class="container px-3 pb-3">
-                <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav" >
+                <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav">
                     <ol class="breadcrumb p-0 m-0">
                         {% if page.grand_parent %}
                         <li class="breadcrumb-item">
@@ -35,6 +35,11 @@ layout: default
                 <h3>{{ page.title }}</h3>
 
                 <p>{{ page.description }}</p>
+
+                {%- if page.readmore != "#" -%}
+                <p class="text-end"><a target="_blank" href="{{ page.readmore }}">Read more &gt;</a></p>
+                {%- endif -%}
+
                 <hr />
                 <div class="p-1">
                     Filter Projects by:
@@ -49,7 +54,8 @@ layout: default
                         {% if batch_projects.size > 0 %}
 
                         <li class="list-group-item p-1 align-items-center">
-                            <a  href="{{ item.permalink | prepend: site.baseurl }}" class="d-flex justify-content-between text-decoration-none">
+                            <a href="{{ item.permalink | prepend: site.baseurl }}"
+                                class="d-flex justify-content-between text-decoration-none">
                                 <span class="mx-2">{{ item.title | slice:0,3 }} Batch</span>
                                 <span class="mx-2">{{ batch_projects.size }}</span>
                             </a>
@@ -59,7 +65,7 @@ layout: default
                         {% endfor %}
                     </ul>
                 </div>
-                <br/><br/>
+                <br /><br />
             </div>
 
             <div class="col-md-9" style="min-height: 60vh;">
@@ -75,7 +81,9 @@ layout: default
                             <a class="btn m-0" href="{{ child.url | realtive_url | prepend: site.baseurl }}">
                                 <div class="card h-100 m-0">
                                     <div class="img-hover-zoom">
-                                        <img class="card-img-top app-thumb-img" src="{{ child.thumbnail_url | realtive_url | prepend: site.baseurl }}" alt="" />
+                                        <img class="card-img-top app-thumb-img"
+                                            src="{{ child.thumbnail_url | realtive_url | prepend: site.baseurl }}"
+                                            alt="" />
                                     </div>
                                     <div class="card-body p-1 m-0">
                                         <p class="card-title project-card-title">

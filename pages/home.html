@@ -4,7 +4,9 @@ title: Home
 page_title: Home | projects.ce.pdn.ac.lk
 
 nav_order: 1
-description: "Welcome to the student project listing of the Department of Computer Engineering, University of Peradeniya. This website contains the documentation, code and other multimedia resources for the academic and extra curricular projects conducted by the students of the department."
+description: "Welcome to the student project listing of the Department of Computer Engineering, University of
+Peradeniya. This website contains the documentation, code and other multimedia resources for the academic and extra
+curricular projects conducted by the students of the department."
 permalink: /
 has_children: true
 
@@ -17,7 +19,8 @@ search_exclude: true
 <header class="blog-header py-3 px-3">
     <div class="row flex-nowrap justify-content-between align-items-center">
         <div class="col-2 pt-1">
-            <img class=" mx-auto d-block img-fluid" src="{{ '/assets/images/crest.png' | prepend: site.baseurl }}" alt="Logo">
+            <img class=" mx-auto d-block img-fluid" src="{{ '/assets/images/crest.png' | prepend: site.baseurl }}"
+                alt="Logo">
         </div>
         <div class="col-8">
             <a class="blog-header-logo text-white text-decoration-none" href="#">
@@ -26,17 +29,20 @@ search_exclude: true
             </a>
         </div>
         <div class="col-2 d-flex justify-content-end align-items-center">
-            <a class="d-none btn btn-sm btn-outline-secondary" href="http://www.ce.pdn.ac.lk" target="_blank">Department Site</a>
+            <a class="d-none btn btn-sm btn-outline-secondary" href="http://www.ce.pdn.ac.lk" target="_blank">Department
+                Site</a>
         </div>
     </div>
 </header>
 {% include project_navbar.html %}
 
 <main class="py-2 p-1">
-    <div class="container p-5"  style="min-height: 80vh;">
+    <div class="container p-5" style="min-height: 80vh;">
         <header class="jumbotron lead my-2 mb-5">
             <p class="lead">
-                Welcome to the student project listing of the Department of Computer Engineering, University of Peradeniya. This website contains the documentation, code and other multimedia resources for the academic and extra curricular projects conducted by the students of the department.
+                Welcome to the student project listing of the Department of Computer Engineering, University of
+                Peradeniya. This website contains the documentation, code and other multimedia resources for the
+                academic and extra curricular projects conducted by the students of the department.
             </p>
         </header>
 
@@ -45,7 +51,8 @@ search_exclude: true
                 <div class="row">
                     <div class="col-md-10 mx-auto">
                         <div class="input-group">
-                            <input type="search" id="search-box" class="form-control form-control-lg" placeholder="Search projects..." name="query" required />
+                            <input type="search" id="search-box" class="form-control form-control-lg"
+                                placeholder="Search projects..." name="query" required />
                             <button id="search-button" type="submit" class="btn btn-primary px-3 form-control-lg">
                                 <i class="fas fa-search"></i>
                             </button>
@@ -70,7 +77,9 @@ search_exclude: true
                             <a class="btn" href="{{ child.permalink | prepend: site.baseurl}}">
                                 <div class="card h-100">
                                     <div class="img-hover-zoom">
-                                        <img class="card-img-top" src="{{ child.default_thumb_image | prepend: site.baseurl }}" alt="{{child.title}}">
+                                        <img class="card-img-top"
+                                            src="{{ child.default_thumb_image | prepend: site.baseurl }}"
+                                            alt="{{child.title}}">
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">{{child.title}}</h5>
@@ -100,7 +109,9 @@ search_exclude: true
                             <a class="btn" href="{{ child.permalink  | prepend: site.baseurl}}">
                                 <div class="card h-100">
                                     <div class="img-hover-zoom">
-                                        <img class="card-img-top" src="{{ child.default_thumb_image | prepend: site.baseurl }}" alt="{{child.title}}">
+                                        <img class="card-img-top"
+                                            src="{{ child.default_thumb_image | prepend: site.baseurl }}"
+                                            alt="{{child.title}}">
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">{{child.title}}</h5>
@@ -128,7 +139,8 @@ search_exclude: true
                             <a class="btn" href="{{ child.permalink | prepend: site.baseurl}}">
                                 <div class="card h-100">
                                     <div class="img-hover-zoom">
-                                        <img class="card-img-top" src="{{ child.thumb_image | prepend: site.baseurl }}" alt="{{child.title}}">
+                                        <img class="card-img-top" src="{{ child.thumb_image | prepend: site.baseurl }}"
+                                            alt="{{child.title}}">
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">{{child.title}}</h5>
@@ -146,7 +158,8 @@ search_exclude: true
             <!-- Recent Student Projects -->
             <h3 class="pt-3 pb-1">
                 Recent Student Projects
-                <sup><i class="fa fa-info-circle" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="right" title="The most recent projects were selected based on the last commit date the project's GitHub Repository"></i></sup>
+                <sup><i class="fa fa-info-circle" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="right"
+                        title="The most recent projects were selected based on the last commit date the project's GitHub Repository"></i></sup>
             </h3>
             <div class="row text-center my-2">
                 {%- assign recent_list = site.data.projects_latest -%}
@@ -178,7 +191,8 @@ search_exclude: true
             <!-- Most Popular Projects -->
             <h3 class="pt-3 pb-1">
                 Most Popular Projects
-                <sup><i class="fa fa-info-circle" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="right" title="The popularity was calculated based on the number of forks, stars, and watchers."></i></sup>
+                <sup><i class="fa fa-info-circle" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="right"
+                        title="The popularity was calculated based on the number of forks, stars, and watchers."></i></sup>
             </h3>
             <div class="row text-center my-2">
                 {%- assign recent_list = site.data.projects_popular -%}
