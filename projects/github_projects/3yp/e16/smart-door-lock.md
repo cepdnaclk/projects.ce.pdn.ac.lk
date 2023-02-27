@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-3yp-smart-door-lock
 page_url: https://cepdnaclk.github.io/e16-3yp-smart-door-lock
 
-forks: 4
+forks: 5
 watchers: 2
 stars: 2
 started_on: 2020-10-17T06:59:56Z
