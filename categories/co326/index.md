@@ -1,7 +1,7 @@
 ---
 layout: project_cat
 title: Industrial Automation Projects (CO326)
-nav_order: 5
+nav_order: 6
 permalink: /co326/
 has_children: true
 

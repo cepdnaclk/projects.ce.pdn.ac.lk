@@ -1,7 +1,7 @@
 ---
 layout: project_cat
 title: Neural Networks Projects (CO542)
-nav_order: 8
+nav_order: 9
 permalink: /co542/
 has_children: true
 
