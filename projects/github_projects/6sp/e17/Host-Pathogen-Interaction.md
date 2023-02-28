@@ -1,18 +1,18 @@
 ---
 layout: project_page
 title: Host Pathogen Interaction
-permalink: /co328/e17/Host-Pathogen-Interaction/
+permalink: /6sp/e17/Host-Pathogen-Interaction/
 description: "Building the software for analyzing the microbiome data using machine learning technics. the application provides the GUI for the user they can easily analyze the data without any other programming knowledge developed by  @piriyaraj @varnaraj @thanujan @rilwan292"
 
 has_children: false
-parent: E17 Software Engineering Projects (CO328)
-grand_parent: Software Engineering Projects (CO328)
+parent: E17 Sixth Semester Projects
+grand_parent: Sixth Semester Projects
 
-cover_url: /data/categories/co328/cover_page.jpg
-thumbnail_url: /data/categories/co328/thumbnail.jpg
+cover_url: /data/categories/6sp/cover_page.jpg
+thumbnail_url: /data/categories/6sp/thumbnail.jpg
 
-repo_url: https://github.com/cepdnaclk/e17-co328-Host-Pathogen-Interaction
-page_url: https://cepdnaclk.github.io/e17-co328-Host-Pathogen-Interaction
+repo_url: https://github.com/cepdnaclk/e17-6sp-Host-Pathogen-Interaction
+page_url: https://cepdnaclk.github.io/e17-6sp-Host-Pathogen-Interaction
 
 forks: 5
 watchers: 0
