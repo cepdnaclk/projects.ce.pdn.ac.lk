@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-3yp-Weather-Analytics-And-Travel-Path-Guider
 page_url: https://cepdnaclk.github.io/e18-3yp-Weather-Analytics-And-Travel-Path-Guider
 
-forks: 2
+forks: 3
 watchers: 0
 stars: 0
 started_on: 2022-10-31T13:08:01Z
