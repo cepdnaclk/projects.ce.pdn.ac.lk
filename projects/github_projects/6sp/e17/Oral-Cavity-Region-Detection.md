@@ -1,18 +1,18 @@
 ---
 layout: project_page
 title: Oral Cavity Region Detection
-permalink: /co328/e17/Oral-Cavity-Region-Detection/
+permalink: /6sp/e17/Oral-Cavity-Region-Detection/
 description: "This project contains a web-based application that can be used to upload images of the oral cavity and identify the known regions which are normal. "
 
 has_children: false
-parent: E17 Software Engineering Projects (CO328)
-grand_parent: Software Engineering Projects (CO328)
+parent: E17 Sixth Semester Projects
+grand_parent: Sixth Semester Projects
 
-cover_url: /data/categories/co328/cover_page.jpg
-thumbnail_url: /data/categories/co328/thumbnail.jpg
+cover_url: /data/categories/6sp/cover_page.jpg
+thumbnail_url: /data/categories/6sp/thumbnail.jpg
 
-repo_url: https://github.com/cepdnaclk/e17-co328-Oral-Cavity-Region-Detection
-page_url: https://cepdnaclk.github.io/e17-co328-Oral-Cavity-Region-Detection
+repo_url: https://github.com/cepdnaclk/e17-6sp-Oral-Cavity-Region-Detection
+page_url: https://cepdnaclk.github.io/e17-6sp-Oral-Cavity-Region-Detection
 
 forks: 5
 watchers: 0
