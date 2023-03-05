@@ -221,80 +221,87 @@ if __name__ == "__main__":
             break
 
         for i in range(len(jsonData)):
-            repoName = jsonData[i]["name"].strip().split("-")
+            try:
+                repoName = jsonData[i]["name"].strip().split("-")
 
-            if len(repoName) > 1 and repoName[0][0] == "e" and repoName[0][1:] != 'YY':
-                if repoName[1] in CATEGORIES:
-                    try:
-                        print(jsonData[i]["name"])
+                if len(repoName) > 1 and repoName[0][0] == "e" and repoName[0][1:] != 'YY':
+                    if repoName[1] in CATEGORIES:
+                        try:
+                            print(jsonData[i]["name"])
 
-                        batch = int(repoName[0][1:])
-                        BATCHES[repoName[1]].add(batch)
-                        filename = '-'.join(repoName[2:])
-                        path = "../projects/github_projects/" + \
-                            repoName[1] + "/" + repoName[0] + \
-                            "/" + filename + ".md"
-                        title = []
-                        title = ' '.join(repoName[2:]).split()
+                            batch = int(repoName[0][1:])
+                            BATCHES[repoName[1]].add(batch)
+                            filename = '-'.join(repoName[2:])
+                            path = "../projects/github_projects/" + \
+                                repoName[1] + "/" + repoName[0] + \
+                                "/" + filename + ".md"
+                            title = []
+                            title = ' '.join(repoName[2:]).split()
 
-                        # TODO: move this into a separate function
+                            # TODO: move this into a separate function
 
-                        capitalized = ' '.join(repoName[2:])
-                        # capitalized = "" # title[0].capitalize()
-                        # for ii in range(0, len(title)):
-                        #     word = title[ii]
-                        #
-                        #     if word == word.upper():
-                        #         # already in upper case
-                        #         capitalized = capitalized + " " + word
-                        #
-                        #     elif word in LOWERCASE:
-                        #         # and, for, a kind of words
-                        #         capitalized = capitalized + " " + word
-                        #
-                        #     else:
-                        #         # capitalized = capitalized + " " + word.capitalize()
-                        #         capitalized = capitalized + " " + word
+                            capitalized = ' '.join(repoName[2:])
+                            # capitalized = "" # title[0].capitalize()
+                            # for ii in range(0, len(title)):
+                            #     word = title[ii]
+                            #
+                            #     if word == word.upper():
+                            #         # already in upper case
+                            #         capitalized = capitalized + " " + word
+                            #
+                            #     elif word in LOWERCASE:
+                            #         # and, for, a kind of words
+                            #         capitalized = capitalized + " " + word
+                            #
+                            #     else:
+                            #         # capitalized = capitalized + " " + word.capitalize()
+                            #         capitalized = capitalized + " " + word
 
-                        # print(capitalized)
+                            # print(capitalized)
 
-                        permalink = "/" + repoName[1] + \
-                            "/" + repoName[0] + "/" + filename
-                        stars = jsonData[i]["stargazers_count"]
-                        forks = jsonData[i]["forks_count"]
-                        watch = jsonData[i]["watchers_count"]
-                        date = jsonData[i]["created_at"]
-                        repo = "https://github.com/cepdnaclk/" + \
-                            '-'.join(repoName)
-
-                        if jsonData[i]["has_pages"]:
-                            page = "https://cepdnaclk.github.io/" + \
+                            permalink = "/" + repoName[1] + \
+                                "/" + repoName[0] + "/" + filename
+                            stars = jsonData[i]["stargazers_count"]
+                            forks = jsonData[i]["forks_count"]
+                            watch = jsonData[i]["watchers_count"]
+                            date = jsonData[i]["created_at"]
+                            repo = "https://github.com/cepdnaclk/" + \
                                 '-'.join(repoName)
-                        else:
-                            page = "blank"
 
-                        os.makedirs(os.path.dirname(path), exist_ok=True)
-                        outputFile = open(path, "w+", encoding="utf-8")
+                            if jsonData[i]["has_pages"]:
+                                page = "https://cepdnaclk.github.io/" + \
+                                    '-'.join(repoName)
+                            else:
+                                page = "blank"
 
-                        if jsonData[i]["description"]:
-                            desc = jsonData[i]["description"].replace(
-                                "\"", "'")
-                        else:
-                            desc = ''
+                            os.makedirs(os.path.dirname(path), exist_ok=True)
+                            outputFile = open(path, "w+", encoding="utf-8")
 
-                        if repoName[1] in CATEGORIES:
-                            grand_parent = CATEGORIES[repoName[1]]
-                        else:
-                            grand_parent = 'xxx'
+                            if jsonData[i]["description"]:
+                                desc = jsonData[i]["description"].replace(
+                                    "\"", "'")
+                            else:
+                                desc = ''
 
-                        outputFile.write(
-                            writeHeader(repoName[1], repoName[0], grand_parent, permalink, capitalized, desc, stars, forks, watch, date, repo, page))
+                            if repoName[1] in CATEGORIES:
+                                grand_parent = CATEGORIES[repoName[1]]
+                            else:
+                                grand_parent = 'xxx'
 
-                    except Exception as e:
-                        print("\tAn exception occurred on",
-                              jsonData[i]["name"])
-                        print(e.__class__, "occurred.")
-                        print(traceback.format_exc())
+                            outputFile.write(
+                                writeHeader(repoName[1], repoName[0], grand_parent, permalink, capitalized, desc, stars, forks, watch, date, repo, page))
+
+                        except Exception as e:
+                            print("\tAn exception occurred on",
+                                  jsonData[i]["name"])
+                            print(e.__class__, "occurred.")
+                            print(traceback.format_exc())
+            except Exception as e:
+                # TODO: Notify in the Discord Channel with message
+                print("An exception occurred with: ")
+                print(jsonData[i]["name"])
+                print(e)
+                print("----------------------------")
 
         print(BATCHES)
         index_files(CATEGORIES)
