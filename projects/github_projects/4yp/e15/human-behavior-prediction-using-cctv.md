@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: human behavior prediction using cctv
+title: Adaptive people movement and action prediction using CCTV to control appliances
 permalink: /4yp/e15/human-behavior-prediction-using-cctv/
 description: "In a domestic environment, people's behavior is often routine. They move place to place in a house while activating different domestic appliances and lights. On the other hand, CCTV is becoming a common surveillance system installed in many houses and buildings. A correctly trained adaptive system can predict the behavior and perform control actions automatically. In this research project, it is intended to develop an adaptive training system using CCTV video streams for controlling appliances. "
 
