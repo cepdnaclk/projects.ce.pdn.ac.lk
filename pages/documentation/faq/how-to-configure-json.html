@@ -11,7 +11,7 @@ search_exclude: true
 
 <div class="row">
     <div class="container px-3 pb-3">
-        <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav" >
+        <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav">
             <ol class="breadcrumb p-0 m-0">
                 <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
                 <li class="breadcrumb-item"><a href="{{ '/docs' | relative_url }}">Documentation</a></li>
@@ -28,11 +28,15 @@ search_exclude: true
     <div class="container pt-4">
         <h3>FAQ: How to configure the JSON file?</h3>
 
-        <p>When you are creating a GitHub repository to be shown on this site, you need to place a specific JSON file in the URL, <i><b>https://cepdnaclk.github.io/{your-repository-name}/data/index.json</b></i>, to provide a few details.</p>
+        <p>When you are creating a GitHub repository to be shown on this site, you need to place a specific JSON file in
+            the URL, <i><b>https://cepdnaclk.github.io/{your-repository-name}/data/index.json</b></i>, to provide a few
+            details.</p>
 
         <p>You can follow the guidelines in the below table to fill the JSON file provided in the template.</p>
 
-        <p>Note: Different templates may have different set of parameters, but you can use any of the below in your <i>index.json</i> file.</p>
+        <p>Note: Different templates may have different set of parameters, but you can use any of the below in your
+            <i>index.json</i> file.
+        </p>
 
         <table class="table table-responsive">
             <thead class="thead-light">
@@ -50,7 +54,8 @@ search_exclude: true
 
             <tr>
                 <td>name</td>
-                <td>Name (Applicable for both <i>team</i> and <i>supervisor</i> groups)</td>
+                <td>Name (Applicable for both <i>team</i> and <i>supervisor</i> groups. For the supervisors, please make
+                    sure to use the organizational email address)</td>
                 <td>"name": "Herath A.B."</td>
             </tr>
 
@@ -67,24 +72,6 @@ search_exclude: true
             </tr>
 
             <tr>
-                <td>github_profile</td>
-                <td>(Optional) The link to the GitHub profile of the student</td>
-                <td>"github_profile": "https://github.com/HerathAB"</td>
-            </tr>
-
-            <tr>
-                <td>linkedin_profile</td>
-                <td>(Optional) The link to the Linkedin profile of the student/supervisor</td>
-                <td>"linkedin_profile": "https://www.linkedin.com/in/herath-a-b/"</td>
-            </tr>
-
-            <tr>
-                <td>researchgate_profile</td>
-                <td>(Optional) The link to the Researchgate profile of the student/supervisor</td>
-                <td>"researchgate_profile": "https://www.researchgate.net/profile/Roshan-Ragel"</td>
-            </tr>
-
-            <tr>
                 <td>tags</td>
                 <td>(Optional) Add some tags, separated by commas</td>
                 <td>"tags": [Machine learning and Data Mining, Final Year Project]</td>
@@ -96,7 +83,9 @@ search_exclude: true
         <br>
         <h3>Publications configurations</h3>
 
-        <p>If your project has some publications, you can fill them using the following template. You can include more than one publication, by following the correct <i>JSON list syntax</i> as below. If you haven’t any, keep it default or remove it from the index.json file.</p>
+        <p>If your project has some publications, you can fill them using the following template. You can include more
+            than one publication, by following the correct <i>JSON list syntax</i> as below. If you haven’t any, keep it
+            default or remove it from the index.json file.</p>
 
         <pre><code class="json dracula">
 "publications": [
@@ -143,9 +132,11 @@ search_exclude: true
         <br>
         <h3>Media Configuration</h3>
 
-        <p>If you are interested in embedding a video with your project, you can use the following template to define them.</p>
+        <p>If you are interested in embedding a video with your project, you can use the following template to define
+            them.</p>
 
-        <p>You can include more than one media, by following correct <i>JSON list syntax</i> as below. If you haven't any, keep it default or remove it from the index.json file.</p>
+        <p>You can include more than one media, by following correct <i>JSON list syntax</i> as below. If you haven't
+            any, keep it default or remove it from the index.json file.</p>
 
 
         <pre><code class="json dracula">
@@ -190,8 +181,10 @@ search_exclude: true
 </div>
 
 <style>
-    h3, h4, h5{
-        padding-top: 12px!important;
+    h3,
+    h4,
+    h5 {
+        padding-top: 12px !important;
     }
 </style>
 
