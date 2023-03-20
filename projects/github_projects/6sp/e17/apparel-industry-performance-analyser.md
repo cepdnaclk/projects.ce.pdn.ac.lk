@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e17-6sp-apparel-industry-performance-anal
 page_url: https://cepdnaclk.github.io/e17-6sp-apparel-industry-performance-analyser
 
 forks: 3
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: 2022-03-01T03:21:06Z
 ---
 A tool for data visualization and performance optimization of the production process of apparel industry.
