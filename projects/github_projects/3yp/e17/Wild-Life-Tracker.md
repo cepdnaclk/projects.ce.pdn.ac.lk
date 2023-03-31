@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e17-3yp-Wild-Life-Tracker
 page_url: https://cepdnaclk.github.io/e17-3yp-Wild-Life-Tracker
 
 forks: 3
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: 2021-06-24T10:01:57Z
 ---
 Wild life tracking system specially designed for researchers to study behaviors of wild animals remotely. 
