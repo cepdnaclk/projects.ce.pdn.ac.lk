@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: banking management system
-permalink: /co328/e15/banking-management-system/
+title: Banking Management System
+permalink: /co328/e15/Banking-Management-System/
 description: "Banking management system customized for 'Sanasa Society Bank'"
 
 has_children: false
@@ -11,7 +11,7 @@ grand_parent: Software Engineering Projects (CO328)
 cover_url: /data/categories/co328/cover_page.jpg
 thumbnail_url: /data/categories/co328/thumbnail.jpg
 
-repo_url: https://github.com/cepdnaclk/e15-co328-banking-management-system
+repo_url: https://github.com/cepdnaclk/e15-co328-Banking-Management-System
 page_url: blank
 
 forks: 0
