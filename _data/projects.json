@@ -3680,17 +3680,21 @@
             "OpenCL"
         ]
     },
-    "e15-4yp-Adaptive-people-movement-and-action-prediction-using-CCTV": {
-        "projName": "Adaptive people movement and action prediction using CCTV",
+    "e15-4yp-Adaptive-People-Movement-And-Action-Prediction-Using-CCTV": {
+        "projName": "Adaptive People Movement And Action Prediction Using CCTV",
         "batch": "E15",
-        "category": "Undergraduate Research Projects",
-        "repo_url": "https://github.com/cepdnaclk/e15-4yp-Adaptive-people-movement-and-action-prediction-using-CCTV",
-        "project_url": "https://projects.ce.pdn.ac.lk/4yp/e15/Adaptive-people-movement-and-action-prediction-using-CCTV",
-        "page_url": null,
-        "api_url": "https://api.github.com/repos/cepdnaclk/e15-4yp-Adaptive-people-movement-and-action-prediction-using-CCTV",
+        "category": {
+            "title": "Undergraduate Research Projects",
+            "code": "4yp",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/4yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e15-4yp-Adaptive-People-Movement-And-Action-Prediction-Using-CCTV",
+        "project_url": "https://projects.ce.pdn.ac.lk/4yp/e15/Adaptive-People-Movement-And-Action-Prediction-Using-CCTV/",
+        "page_url": "https://cepdnaclk.github.io/e15-4yp-Adaptive-People-Movement-And-Action-Prediction-Using-CCTV",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e15-4yp-Adaptive-People-Movement-And-Action-Prediction-Using-CCTV",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
         "created_at": "2021-04-18T17:49:43Z",
-        "updated_at": "2023-03-26T06:46:37Z",
+        "updated_at": "2023-04-01T16:06:10Z",
         "forks_count": 2,
         "stars_count": 0,
         "watchers_count": 0,
@@ -3698,7 +3702,63 @@
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
-        "has_pages": true
+        "has_pages": true,
+        "description": "In a domestic environment, people's behavior is often routine. They move place to place in a house while activating different domestic appliances and lights. On the other hand, CCTV is becoming a common surveillance system installed in many houses and buildings. A correctly trained adaptive system can predict the behavior and perform control actions automatically. In this research project, it is intended to develop an adaptive training system using CCTV video streams for controlling appliances. ",
+        "team": {
+            "E/15/265": {
+                "name": "Risith Perera",
+                "email": "risithperera@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/RisithPerera",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E15/265",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15265.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/265/"
+            },
+            "E/15/347": {
+                "name": "Isuru Sudasinghe",
+                "email": "isuru.sudasinghe@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/IsuruSudasinghe",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E15/347",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15347.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/347/"
+            },
+            "E/15/010": {
+                "name": "Ruchika Alwis",
+                "email": "e15010@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/RuchikaAlwis",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E15/010",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15010.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/010/"
+            }
+        },
+        "supervisors": {
+            "kamalanath@eng.pdn.ac.lk  ": {
+                "name": "Dr. Eng. Kamalanath Samarakoon",
+                "email": "kamalanath@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/kamalanath-samarakoon/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/kamalanath-samarakoon.png",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/kamalanath",
+                "website": "http://kamalanath.samarakoon.info/",
+                "linkedin": "https://www.linkedin.com/in/kamalanath-samarakoon-7188549/",
+                "researchgate": "https://www.researchgate.net/profile/Kamalanath-Samarakoon",
+                "google_scholar": "https://scholar.google.com/citations?user=DsG-K0sAAAAJ&hl=en"
+            }
+        },
+        "tags": [
+            "Final Year Projects",
+            "Yolo",
+            "OpenPose",
+            "MTCNN",
+            "Person Reidentification"
+        ]
     },
     "e15-4yp-Brain-Computer-Interface-for-controlling-virtual-objects": {
         "projName": "Brain Computer Interface for controlling virtual objects",
@@ -4309,7 +4369,7 @@
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
         "created_at": "2021-03-04T19:07:44Z",
         "updated_at": "2021-11-15T17:38:56Z",
-        "forks_count": 1,
+        "forks_count": 2,
         "stars_count": 0,
         "watchers_count": 0,
         "language": null,
@@ -5151,10 +5211,10 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e15-4yp-sports-action-recognition",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
         "created_at": "2021-03-02T04:00:38Z",
-        "updated_at": "2023-02-11T07:06:07Z",
+        "updated_at": "2023-03-27T11:30:32Z",
         "forks_count": 2,
-        "stars_count": 3,
-        "watchers_count": 3,
+        "stars_count": 4,
+        "watchers_count": 4,
         "language": null,
         "topics": [
             "action-quality-assessment",
@@ -5394,6 +5454,34 @@
             "CNC"
         ]
     },
+    "e15-co328-Banking-Management-System": {
+        "projName": "Banking Management System",
+        "batch": "E15",
+        "category": {
+            "title": "Software Engineering Projects (CO328)",
+            "code": "co328",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co328/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e15-co328-Banking-Management-System",
+        "project_url": "https://projects.ce.pdn.ac.lk/co328/e15/Banking-Management-System/",
+        "page_url": "#",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e15-co328-Banking-Management-System",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co328/thumbnail.jpg",
+        "created_at": "2023-03-26T06:05:21Z",
+        "updated_at": "2023-04-01T16:07:23Z",
+        "forks_count": 0,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": "Java",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "description": "Banking management system customized for 'Sanasa Society Bank'",
+        "team": {},
+        "supervisors": {},
+        "tags": {}
+    },
     "e15-co328-Zero-Trash": {
         "projName": "Zero Trash",
         "batch": "E15",
@@ -5457,26 +5545,6 @@
         "tags": [
             "Web"
         ]
-    },
-    "e15-co328-banking-management-system": {
-        "projName": "banking management system",
-        "batch": "E15",
-        "category": "Software Engineering Projects (CO328)",
-        "repo_url": "https://github.com/cepdnaclk/e15-co328-banking-management-system",
-        "project_url": "https://projects.ce.pdn.ac.lk/co328/e15/banking-management-system",
-        "page_url": null,
-        "api_url": "https://api.github.com/repos/cepdnaclk/e15-co328-banking-management-system",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co328/thumbnail.jpg",
-        "created_at": "2023-03-26T06:05:21Z",
-        "updated_at": "2023-03-26T06:09:57Z",
-        "forks_count": 0,
-        "stars_count": 0,
-        "watchers_count": 0,
-        "language": "Java",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": false
     },
     "e15-co543-Brain-Tumor-Detection": {
         "projName": "Brain Tumor Detection",
@@ -6845,10 +6913,10 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-smart-shopping-cart-with-automatic-bill-system",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
         "created_at": "2020-10-16T19:16:02Z",
-        "updated_at": "2022-07-17T03:40:07Z",
+        "updated_at": "2023-04-02T08:12:15Z",
         "forks_count": 4,
-        "stars_count": 1,
-        "watchers_count": 1,
+        "stars_count": 2,
+        "watchers_count": 2,
         "language": "Dart",
         "topics": [
             "app",
@@ -7723,7 +7791,7 @@
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
         "created_at": "2022-07-23T18:00:10Z",
         "updated_at": "2023-02-20T18:26:26Z",
-        "forks_count": 6,
+        "forks_count": 7,
         "stars_count": 2,
         "watchers_count": 2,
         "language": "Jupyter Notebook",
@@ -8291,10 +8359,10 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e16-4yp-Virtual-Patient-Simulator-for-Skill-Training-in-Dentistry",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
         "created_at": "2022-07-24T05:19:48Z",
-        "updated_at": "2023-02-20T09:04:07Z",
-        "forks_count": 3,
-        "stars_count": 0,
-        "watchers_count": 0,
+        "updated_at": "2023-03-27T20:01:35Z",
+        "forks_count": 4,
+        "stars_count": 1,
+        "watchers_count": 1,
         "language": "JavaScript",
         "topics": [
             "artificial-intelligence",
@@ -10471,10 +10539,10 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e17-3yp-Wild-Life-Tracker",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
         "created_at": "2021-06-24T10:01:57Z",
-        "updated_at": "2023-02-24T20:39:57Z",
+        "updated_at": "2023-03-31T06:53:37Z",
         "forks_count": 3,
-        "stars_count": 1,
-        "watchers_count": 1,
+        "stars_count": 2,
+        "watchers_count": 2,
         "language": "HTML",
         "topics": [],
         "has_projects": true,
@@ -12057,10 +12125,10 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e17-6sp-Oral-Cavity-Region-Detection",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/6sp/thumbnail.jpg",
         "created_at": "2022-02-25T17:45:14Z",
-        "updated_at": "2023-03-04T06:01:49Z",
+        "updated_at": "2023-04-02T16:52:24Z",
         "forks_count": 5,
-        "stars_count": 0,
-        "watchers_count": 0,
+        "stars_count": 1,
+        "watchers_count": 1,
         "language": "Jupyter Notebook",
         "topics": [],
         "has_projects": true,
@@ -12803,6 +12871,62 @@
         "has_wiki": true,
         "has_pages": false,
         "description": "Relational database with user interfaces for a car rental company",
+        "team": {},
+        "supervisors": {},
+        "tags": {}
+    },
+    "e17-co502-RV32IM-pipeline-implementation-group2": {
+        "projName": "RV32IM pipeline implementation group2",
+        "batch": "E17",
+        "category": {
+            "title": "Advanced Computer Architecture (CO502)",
+            "code": "co502",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co502/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e17-co502-RV32IM-pipeline-implementation-group2",
+        "project_url": "https://projects.ce.pdn.ac.lk/co502/e17/RV32IM-pipeline-implementation-group2/",
+        "page_url": "https://cepdnaclk.github.io/e17-co502-RV32IM-pipeline-implementation-group2",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e17-co502-RV32IM-pipeline-implementation-group2",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
+        "created_at": "2023-03-30T09:03:37Z",
+        "updated_at": "2023-03-30T09:03:37Z",
+        "forks_count": 0,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "This project is about implementing a RISC-V CPU with a RV32IM pipeline implementation using VERILOG_HDL.",
+        "team": {},
+        "supervisors": {},
+        "tags": {}
+    },
+    "e17-co502-RV32IM-pipeline-implemntation-group1": {
+        "projName": "RV32IM pipeline implemntation group1",
+        "batch": "E17",
+        "category": {
+            "title": "Advanced Computer Architecture (CO502)",
+            "code": "co502",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co502/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e17-co502-RV32IM-pipeline-implemntation-group1",
+        "project_url": "https://projects.ce.pdn.ac.lk/co502/e17/RV32IM-pipeline-implemntation-group1/",
+        "page_url": "https://cepdnaclk.github.io/e17-co502-RV32IM-pipeline-implemntation-group1",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e17-co502-RV32IM-pipeline-implemntation-group1",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
+        "created_at": "2023-03-30T09:10:10Z",
+        "updated_at": "2023-03-30T09:10:10Z",
+        "forks_count": 0,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "",
         "team": {},
         "supervisors": {},
         "tags": {}
@@ -13679,10 +13803,10 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e18-3yp-Smart-Gate-Keeping-and-Authentication-System",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
         "created_at": "2022-10-30T18:37:29Z",
-        "updated_at": "2023-01-18T03:10:08Z",
+        "updated_at": "2023-03-30T02:14:14Z",
         "forks_count": 3,
-        "stars_count": 3,
-        "watchers_count": 3,
+        "stars_count": 4,
+        "watchers_count": 4,
         "language": "JavaScript",
         "topics": [],
         "has_projects": true,
@@ -16353,6 +16477,262 @@
             "Mobile development",
             "Flutter",
             "Firebase"
+        ]
+    },
+    "e18-co502-RV32IM-Pipeline-Implementation-Group-06-": {
+        "projName": "RV32IM Pipeline Implementation Group 06 ",
+        "batch": "E18",
+        "category": {
+            "title": "Advanced Computer Architecture (CO502)",
+            "code": "co502",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co502/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e18-co502-RV32IM-Pipeline-Implementation-Group-06-",
+        "project_url": "https://projects.ce.pdn.ac.lk/co502/e18/RV32IM-Pipeline-Implementation-Group-06-/",
+        "page_url": "https://cepdnaclk.github.io/e18-co502-RV32IM-Pipeline-Implementation-Group-06-",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e18-co502-RV32IM-Pipeline-Implementation-Group-06-",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
+        "created_at": "2023-03-30T07:53:12Z",
+        "updated_at": "2023-03-30T07:53:12Z",
+        "forks_count": 1,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "",
+        "team": {},
+        "supervisors": {},
+        "tags": {}
+    },
+    "e18-co502-RV32IM-Pipeline-Implementation-Group4": {
+        "projName": "RV32IM Pipeline Implementation Group4",
+        "batch": "E18",
+        "category": {
+            "title": "Advanced Computer Architecture (CO502)",
+            "code": "co502",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co502/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e18-co502-RV32IM-Pipeline-Implementation-Group4",
+        "project_url": "https://projects.ce.pdn.ac.lk/co502/e18/RV32IM-Pipeline-Implementation-Group4/",
+        "page_url": "https://cepdnaclk.github.io/e18-co502-RV32IM-Pipeline-Implementation-Group4",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e18-co502-RV32IM-Pipeline-Implementation-Group4",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
+        "created_at": "2023-03-30T07:47:12Z",
+        "updated_at": "2023-04-01T04:25:16Z",
+        "forks_count": 3,
+        "stars_count": 1,
+        "watchers_count": 1,
+        "language": null,
+        "topics": [
+            "computer-architecture",
+            "risc-v",
+            "verilog"
+        ],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "Single-cycle MIPS-like processor with a memory subsystem including a cache.",
+        "team": {
+            "E/18/077": {
+                "name": "Nipun Dharmarathne",
+                "email": "e18077@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/NipunDharmarathne",
+                "linkedin": "https://lk.linkedin.com/in/nipun-dharmarathne-92a9191ba",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/077",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18077.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/077/"
+            },
+            "E/18/397": {
+                "name": "Shamod Wijerathne",
+                "email": "e18397@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/ShamodGeevinda",
+                "linkedin": "https://www.linkedin.com/in/shamod-geevinda/",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/397",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18397.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/397/"
+            },
+            "E/18/402": {
+                "name": "Chathura Wimalasiri",
+                "email": "e18402@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/chathurawimalasiri",
+                "linkedin": "https://www.linkedin.com/in/chathura-wimalasiri-b0637b1a1",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/402",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18402.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/402/"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            },
+            "mahanamaw@eng.pdn.ac.lk": {
+                "name": "Dr. Mahanama Wickramasinghe",
+                "email": "mahanamaw@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/mahanama-wickramasinghe/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/mahanama",
+                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
+            }
+        },
+        "tags": [
+            "Computer Architecture",
+            "RISC-V",
+            "Verilog"
+        ]
+    },
+    "e18-co502-RV32IM-pipeline-implementation-group03": {
+        "projName": "RV32IM pipeline implementation group03",
+        "batch": "E18",
+        "category": {
+            "title": "Advanced Computer Architecture (CO502)",
+            "code": "co502",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co502/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e18-co502-RV32IM-pipeline-implementation-group03",
+        "project_url": "https://projects.ce.pdn.ac.lk/co502/e18/RV32IM-pipeline-implementation-group03/",
+        "page_url": "#",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e18-co502-RV32IM-pipeline-implementation-group03",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
+        "created_at": "2023-03-30T08:26:06Z",
+        "updated_at": "2023-04-02T09:48:31Z",
+        "forks_count": 2,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "",
+        "team": {},
+        "supervisors": {},
+        "tags": {}
+    },
+    "e18-co502-RV32IM-pipeline-implementation-group05": {
+        "projName": "RV32IM pipeline implementation group05",
+        "batch": "E18",
+        "category": {
+            "title": "Advanced Computer Architecture (CO502)",
+            "code": "co502",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co502/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e18-co502-RV32IM-pipeline-implementation-group05",
+        "project_url": "https://projects.ce.pdn.ac.lk/co502/e18/RV32IM-pipeline-implementation-group05/",
+        "page_url": "#",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e18-co502-RV32IM-pipeline-implementation-group05",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
+        "created_at": "2023-03-30T07:51:18Z",
+        "updated_at": "2023-03-30T07:51:18Z",
+        "forks_count": 1,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "description": "Building a basic RV32IM  pipeline",
+        "team": {},
+        "supervisors": {},
+        "tags": {}
+    },
+    "e18-co502-RV32IM-pipeline-implementation-group7": {
+        "projName": "RV32IM pipeline implementation group7",
+        "batch": "E18",
+        "category": {
+            "title": "Advanced Computer Architecture (CO502)",
+            "code": "co502",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co502/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e18-co502-RV32IM-pipeline-implementation-group7",
+        "project_url": "https://projects.ce.pdn.ac.lk/co502/e18/RV32IM-pipeline-implementation-group7/",
+        "page_url": "https://cepdnaclk.github.io/e18-co502-RV32IM-pipeline-implementation-group7",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e18-co502-RV32IM-pipeline-implementation-group7",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
+        "created_at": "2023-03-30T08:29:52Z",
+        "updated_at": "2023-03-30T08:43:15Z",
+        "forks_count": 0,
+        "stars_count": 1,
+        "watchers_count": 1,
+        "language": null,
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "This Git repository contains the implementation of a RISC32IM processor pipeline using Verilog. The pipeline includes stages for instruction fetch, decode, execute, memory access, and write-back. The implementation includes a testbench for verification.",
+        "team": {
+            "E/18/073": {
+                "name": "Tharindu Dhananjaya",
+                "email": "e18073@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/dhananjayawmt",
+                "linkedin": "https://www.linkedin.com/in/dhananjaya-weerasinghe-35711b1a5/",
+                "researchgate": "https://www.researchgate.net/profile/Tharindu-Dhananjaya-4",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/073",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18073.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/073/"
+            },
+            "E/18/214": {
+                "name": "Kushan Manahara",
+                "email": "e18214@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/KushanManahara",
+                "linkedin": "http://www.linkedin.com/in/kushan-manahara",
+                "researchgate": "https://www.researchgate.net/profile/Kushan-Manahara",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E18/214",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18214.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/214/"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            },
+            "mahanamaw@eng.pdn.ac.lk": {
+                "name": "Dr. Mahanama Wickramasinghe",
+                "email": "mahanamaw@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/mahanama-wickramasinghe/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/mahanama",
+                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
+            }
+        },
+        "tags": [
+            "RV32IM",
+            "RISC-V",
+            "Computer Architecture",
+            "Verilog"
         ]
     }
 }
