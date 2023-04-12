@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/co326/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-co326-laboratory-environment-monitoring
 page_url: https://cepdnaclk.github.io/e18-co326-laboratory-environment-monitoring
 
-forks: 1
+forks: 3
 watchers: 1
 stars: 1
 started_on: 2023-04-08T16:30:39Z
