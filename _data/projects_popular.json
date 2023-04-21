@@ -1,33 +1,93 @@
 {
-    "e17-co326-Smart-Building": {
-        "projName": "Smart Building",
-        "batch": "E17",
+    "e16-3yp-chessMATE": {
+        "projName": "chessMATE",
+        "batch": "E16",
         "category": {
-            "title": "Industrial Automation Projects (CO326)",
-            "code": "co326",
-            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co326/"
+            "title": "Cyber-Physical Systems Projects",
+            "code": "3yp",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
         },
-        "repo_url": "https://github.com/cepdnaclk/e17-co326-Smart-Building",
-        "project_url": "/co326/e17/Smart-Building/",
-        "page_url": "https://cepdnaclk.github.io/e17-co326-Smart-Building",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e17-co326-Smart-Building",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
-        "created_at": "2022-06-30T00:12:23Z",
-        "updated_at": "2022-11-06T03:32:35Z",
-        "forks_count": 50,
-        "stars_count": 1,
-        "watchers_count": 1,
-        "language": "Jupyter Notebook",
+        "repo_url": "https://github.com/cepdnaclk/e16-3yp-chessMATE",
+        "project_url": "/3yp/e16/chessMATE/",
+        "page_url": "https://cepdnaclk.github.io/e16-3yp-chessMATE",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-chessMATE",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+        "created_at": "2020-10-17T07:37:38Z",
+        "updated_at": "2023-01-13T18:23:15Z",
+        "forks_count": 7,
+        "stars_count": 3,
+        "watchers_count": 3,
+        "language": "Dart",
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
         "has_pages": true,
-        "description": "",
-        "team": {},
-        "supervisors": {},
-        "tags": {},
-        "name": "e17-co326-Smart-Building",
-        "popularity_score": 10.8
+        "description": "The project \u201cchessMATE\u201d provides the grand usual chess board experience through an online platform. Chess is one of the most popular and oldest board games and most chess players are more likely to play chess on a physical chessboard rather than on a mobile or desktop screen. Project chessMATE resolves the main issues faced by the online chess players by providing an electronically powered chessboard and mobile app so that distant players can connect and play on actual chessboards. Game live streaming option and chess tutorials are included in the mobile app. Board vs board, app vs board and app vs app are the available game modes in chessMATE.",
+        "team": {
+            "E/16/012": {
+                "name": "Isurika De Silva",
+                "email": "e16012@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E16/012",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16012.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/012/"
+            },
+            "E/16/069": {
+                "name": "Damsy De Silva",
+                "email": "e16069@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E16/069",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16069.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/069/"
+            },
+            "E/16/070": {
+                "name": "Chaminie De Silva",
+                "email": "e16070@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "https://www.linkedin.com/in/chaminie-de-silva-04b809213/",
+                "researchgate": "",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E16/070",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16070.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/070/"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk ": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            },
+            "ziyanm@eng.pdn.ac.lk ": {
+                "name": "Mr. Ziyan Maraikar",
+                "email": "ziyanm@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/ziyan-maraikar/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/ziyan-maraikar.png",
+                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/ziyanm",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/ziyan-maraikar-15539818a",
+                "researchgate": "https://www.researchgate.net/profile/Ziyan-Maraikar-2",
+                "google_scholar": "https://scholar.google.com.au/citations?user=5xf_7TAAAAAJ&hl=en"
+            }
+        },
+        "tags": [
+            "Web",
+            "Embedded Systems"
+        ],
+        "name": "e16-3yp-chessMATE",
+        "popularity_score": 3.8
     },
     "e16-3yp-agribot": {
         "projName": "agribot",
@@ -59,69 +119,6 @@
         "name": "e16-3yp-agribot",
         "popularity_score": 4.2
     },
-    "e16-3yp-smart-infared-shooting-sport": {
-        "projName": "smart infared shooting sport",
-        "batch": "E16",
-        "category": {
-            "title": "Cyber-Physical Systems Projects",
-            "code": "3yp",
-            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e16-3yp-smart-infared-shooting-sport",
-        "project_url": "/3yp/e16/smart-infared-shooting-sport/",
-        "page_url": "https://cepdnaclk.github.io/e16-3yp-smart-infared-shooting-sport",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-smart-infared-shooting-sport",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-        "created_at": "2020-10-19T06:16:06Z",
-        "updated_at": "2023-01-13T18:21:56Z",
-        "forks_count": 3,
-        "stars_count": 4,
-        "watchers_count": 4,
-        "language": "Dart",
-        "topics": [
-            "co321",
-            "co324"
-        ],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "The purpose of this project was to design, build, and test an infrared shooting sport from the ground up to shoot farther in low cost and most importantly make it smart and updatable",
-        "team": {},
-        "supervisors": {},
-        "tags": {},
-        "name": "e16-3yp-smart-infared-shooting-sport",
-        "popularity_score": 3.8
-    },
-    "e16-co326-Agriculture-Monitoring-and-Control-System": {
-        "projName": "Agriculture Monitoring and Control System",
-        "batch": "E16",
-        "category": {
-            "title": "Industrial Automation Projects (CO326)",
-            "code": "co326",
-            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co326/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e16-co326-Agriculture-Monitoring-and-Control-System",
-        "project_url": "/co326/e16/Agriculture-Monitoring-and-Control-System/",
-        "page_url": "#",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-co326-Agriculture-Monitoring-and-Control-System",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
-        "created_at": "2021-10-20T08:45:54Z",
-        "updated_at": "2022-03-03T14:09:39Z",
-        "forks_count": 28,
-        "stars_count": 1,
-        "watchers_count": 1,
-        "language": "Python",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": false,
-        "description": "",
-        "team": {},
-        "supervisors": {},
-        "tags": {},
-        "name": "e16-co326-Agriculture-Monitoring-and-Control-System",
-        "popularity_score": 6.4
-    },
     "e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices": {
         "projName": "post quantum cryptographic schemes based on plain lattices",
         "batch": "E16",
@@ -136,10 +133,10 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
         "created_at": "2022-07-25T10:06:29Z",
-        "updated_at": "2023-04-12T22:39:55Z",
-        "forks_count": 4,
-        "stars_count": 5,
-        "watchers_count": 5,
+        "updated_at": "2023-04-18T12:01:45Z",
+        "forks_count": 5,
+        "stars_count": 6,
+        "watchers_count": 6,
         "language": "C++",
         "topics": [
             "cryptography",
@@ -231,131 +228,7 @@
             "Plain Lattices"
         ],
         "name": "e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
-        "popularity_score": 4.8
-    },
-    "e16-3yp-smart-pharmaceutical-warehousing": {
-        "projName": "smart pharmaceutical warehousing",
-        "batch": "E16",
-        "category": {
-            "title": "Cyber-Physical Systems Projects",
-            "code": "3yp",
-            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing",
-        "project_url": "/3yp/e16/smart-pharmaceutical-warehousing/",
-        "page_url": "https://cepdnaclk.github.io/e16-3yp-smart-pharmaceutical-warehousing",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-        "created_at": "2020-10-18T04:16:45Z",
-        "updated_at": "2023-03-13T19:40:13Z",
-        "forks_count": 6,
-        "stars_count": 12,
-        "watchers_count": 12,
-        "language": "JavaScript",
-        "topics": [
-            "agv",
-            "robot-arm",
-            "warehouse"
-        ],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "In this project, we are trying to address this issue by developing a fully automated warehouse management that will minimize the drawbacks while improving efficiency and profitability. We are implementing a warehouse management system which consists two types of robots; robots arms to handle loading/unloading of goods, automated guided vehicles to transport goods inside the warehouse. Also, an online shopping portal to make the purchases from the warehouse.",
-        "team": {},
-        "supervisors": {},
-        "tags": {},
-        "name": "e16-3yp-smart-pharmaceutical-warehousing",
-        "popularity_score": 10.8
-    },
-    "e16-3yp-chessMATE": {
-        "projName": "chessMATE",
-        "batch": "E16",
-        "category": {
-            "title": "Cyber-Physical Systems Projects",
-            "code": "3yp",
-            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e16-3yp-chessMATE",
-        "project_url": "/3yp/e16/chessMATE/",
-        "page_url": "https://cepdnaclk.github.io/e16-3yp-chessMATE",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-chessMATE",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-        "created_at": "2020-10-17T07:37:38Z",
-        "updated_at": "2023-01-13T18:23:15Z",
-        "forks_count": 7,
-        "stars_count": 3,
-        "watchers_count": 3,
-        "language": "Dart",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "The project \u201cchessMATE\u201d provides the grand usual chess board experience through an online platform. Chess is one of the most popular and oldest board games and most chess players are more likely to play chess on a physical chessboard rather than on a mobile or desktop screen. Project chessMATE resolves the main issues faced by the online chess players by providing an electronically powered chessboard and mobile app so that distant players can connect and play on actual chessboards. Game live streaming option and chess tutorials are included in the mobile app. Board vs board, app vs board and app vs app are the available game modes in chessMATE.",
-        "team": {
-            "E/16/012": {
-                "name": "Isurika De Silva",
-                "email": "e16012@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E16/012",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16012.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/012/"
-            },
-            "E/16/069": {
-                "name": "Damsy De Silva",
-                "email": "e16069@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E16/069",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16069.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/069/"
-            },
-            "E/16/070": {
-                "name": "Chaminie De Silva",
-                "email": "e16070@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "https://www.linkedin.com/in/chaminie-de-silva-04b809213/",
-                "researchgate": "",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/students/E16/070",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16070.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/070/"
-            }
-        },
-        "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk ": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            },
-            "ziyanm@eng.pdn.ac.lk ": {
-                "name": "Mr. Ziyan Maraikar",
-                "email": "ziyanm@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk//staff/academic/ziyan-maraikar/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/ziyan-maraikar.png",
-                "api_url": "http://api.ce.pdn.ac.lk/people/v1/staff/ziyanm",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/ziyan-maraikar-15539818a",
-                "researchgate": "https://www.researchgate.net/profile/Ziyan-Maraikar-2",
-                "google_scholar": "https://scholar.google.com.au/citations?user=5xf_7TAAAAAJ&hl=en"
-            }
-        },
-        "tags": [
-            "Web",
-            "Embedded Systems"
-        ],
-        "name": "e16-3yp-chessMATE",
-        "popularity_score": 3.8
+        "popularity_score": 5.8
     },
     "e16-3yp-smart-pill-manager": {
         "projName": "smart pill manager",
@@ -451,5 +324,132 @@
         ],
         "name": "e16-3yp-smart-pill-manager",
         "popularity_score": 4.0
+    },
+    "e16-3yp-smart-pharmaceutical-warehousing": {
+        "projName": "smart pharmaceutical warehousing",
+        "batch": "E16",
+        "category": {
+            "title": "Cyber-Physical Systems Projects",
+            "code": "3yp",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing",
+        "project_url": "/3yp/e16/smart-pharmaceutical-warehousing/",
+        "page_url": "https://cepdnaclk.github.io/e16-3yp-smart-pharmaceutical-warehousing",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+        "created_at": "2020-10-18T04:16:45Z",
+        "updated_at": "2023-03-13T19:40:13Z",
+        "forks_count": 6,
+        "stars_count": 12,
+        "watchers_count": 12,
+        "language": "JavaScript",
+        "topics": [
+            "agv",
+            "robot-arm",
+            "warehouse"
+        ],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "In this project, we are trying to address this issue by developing a fully automated warehouse management that will minimize the drawbacks while improving efficiency and profitability. We are implementing a warehouse management system which consists two types of robots; robots arms to handle loading/unloading of goods, automated guided vehicles to transport goods inside the warehouse. Also, an online shopping portal to make the purchases from the warehouse.",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e16-3yp-smart-pharmaceutical-warehousing",
+        "popularity_score": 10.8
+    },
+    "e16-3yp-smart-infared-shooting-sport": {
+        "projName": "smart infared shooting sport",
+        "batch": "E16",
+        "category": {
+            "title": "Cyber-Physical Systems Projects",
+            "code": "3yp",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/3yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e16-3yp-smart-infared-shooting-sport",
+        "project_url": "/3yp/e16/smart-infared-shooting-sport/",
+        "page_url": "https://cepdnaclk.github.io/e16-3yp-smart-infared-shooting-sport",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-smart-infared-shooting-sport",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+        "created_at": "2020-10-19T06:16:06Z",
+        "updated_at": "2023-01-13T18:21:56Z",
+        "forks_count": 3,
+        "stars_count": 4,
+        "watchers_count": 4,
+        "language": "Dart",
+        "topics": [
+            "co321",
+            "co324"
+        ],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "The purpose of this project was to design, build, and test an infrared shooting sport from the ground up to shoot farther in low cost and most importantly make it smart and updatable",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e16-3yp-smart-infared-shooting-sport",
+        "popularity_score": 3.8
+    },
+    "e17-co326-Smart-Building": {
+        "projName": "Smart Building",
+        "batch": "E17",
+        "category": {
+            "title": "Industrial Automation Projects (CO326)",
+            "code": "co326",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co326/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e17-co326-Smart-Building",
+        "project_url": "/co326/e17/Smart-Building/",
+        "page_url": "https://cepdnaclk.github.io/e17-co326-Smart-Building",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e17-co326-Smart-Building",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
+        "created_at": "2022-06-30T00:12:23Z",
+        "updated_at": "2022-11-06T03:32:35Z",
+        "forks_count": 50,
+        "stars_count": 1,
+        "watchers_count": 1,
+        "language": "Jupyter Notebook",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e17-co326-Smart-Building",
+        "popularity_score": 10.8
+    },
+    "e16-co326-Agriculture-Monitoring-and-Control-System": {
+        "projName": "Agriculture Monitoring and Control System",
+        "batch": "E16",
+        "category": {
+            "title": "Industrial Automation Projects (CO326)",
+            "code": "co326",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co326/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e16-co326-Agriculture-Monitoring-and-Control-System",
+        "project_url": "/co326/e16/Agriculture-Monitoring-and-Control-System/",
+        "page_url": "#",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-co326-Agriculture-Monitoring-and-Control-System",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
+        "created_at": "2021-10-20T08:45:54Z",
+        "updated_at": "2022-03-03T14:09:39Z",
+        "forks_count": 28,
+        "stars_count": 1,
+        "watchers_count": 1,
+        "language": "Python",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "description": "",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e16-co326-Agriculture-Monitoring-and-Control-System",
+        "popularity_score": 6.4
     }
 }
