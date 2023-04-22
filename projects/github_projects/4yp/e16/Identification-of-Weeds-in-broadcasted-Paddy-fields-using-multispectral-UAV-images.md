@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e16-4yp-Identification-of-Weeds-in-broadc
 page_url: https://cepdnaclk.github.io/e16-4yp-Identification-of-Weeds-in-broadcasted-Paddy-fields-using-multispectral-UAV-images
 
 forks: 1
-watchers: 2
-stars: 2
+watchers: 3
+stars: 3
 started_on: 2022-07-24T18:51:00Z
 ---
 Develop a model to Identify paddy crops and weeds by images taken from UAV (unmanned aerial vehicle) and develop a desktop application as user interface
