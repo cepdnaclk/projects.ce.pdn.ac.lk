@@ -1,4 +1,36 @@
 {
+    "e16-4yp-Identification-of-Weeds-in-broadcasted-Paddy-fields-using-multispectral-UAV-images": {
+        "projName": "Identification of Weeds in broadcasted Paddy fields using multispectral UAV images",
+        "batch": "E16",
+        "category": {
+            "title": "Undergraduate Research Projects",
+            "code": "4yp",
+            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/4yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e16-4yp-Identification-of-Weeds-in-broadcasted-Paddy-fields-using-multispectral-UAV-images",
+        "project_url": "/4yp/e16/Identification-of-Weeds-in-broadcasted-Paddy-fields-using-multispectral-UAV-images/",
+        "page_url": "https://cepdnaclk.github.io/e16-4yp-Identification-of-Weeds-in-broadcasted-Paddy-fields-using-multispectral-UAV-images",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-4yp-Identification-of-Weeds-in-broadcasted-Paddy-fields-using-multispectral-UAV-images",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+        "created_at": "2022-07-24T18:51:00Z",
+        "updated_at": "2023-04-22T09:47:44Z",
+        "forks_count": 1,
+        "stars_count": 3,
+        "watchers_count": 3,
+        "language": "Python",
+        "topics": [
+            "agriculture",
+            "machine-learning"
+        ],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "Develop a model to Identify paddy crops and weeds by images taken from UAV (unmanned aerial vehicle) and develop a desktop application as user interface",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e16-4yp-Identification-of-Weeds-in-broadcasted-Paddy-fields-using-multispectral-UAV-images"
+    },
     "e18-co502-RV32IM-pipeline-implementation-group03": {
         "projName": "RV32IM pipeline implementation group03",
         "batch": "E18",
@@ -677,34 +709,5 @@
             "Final Year Projects"
         ],
         "name": "e16-4yp-neuromorphic-architecture"
-    },
-    "e17-co502-RV32IM-pipeline-implementation-group2": {
-        "projName": "RV32IM pipeline implementation group2",
-        "batch": "E17",
-        "category": {
-            "title": "Advanced Computer Architecture (CO502)",
-            "code": "co502",
-            "api_url": "http://api.ce.pdn.ac.lk/projects/v1/co502/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e17-co502-RV32IM-pipeline-implementation-group2",
-        "project_url": "/co502/e17/RV32IM-pipeline-implementation-group2/",
-        "page_url": "https://cepdnaclk.github.io/e17-co502-RV32IM-pipeline-implementation-group2",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e17-co502-RV32IM-pipeline-implementation-group2",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
-        "created_at": "2023-03-30T09:03:37Z",
-        "updated_at": "2023-04-06T01:04:03Z",
-        "forks_count": 0,
-        "stars_count": 0,
-        "watchers_count": 0,
-        "language": "Verilog",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "This project is about implementing a RISC-V CPU with a RV32IM pipeline implementation using VERILOG_HDL.",
-        "team": {},
-        "supervisors": {},
-        "tags": {},
-        "name": "e17-co502-RV32IM-pipeline-implementation-group2"
     }
 }
