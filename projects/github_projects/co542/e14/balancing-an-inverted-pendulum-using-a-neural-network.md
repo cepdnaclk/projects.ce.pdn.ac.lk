@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e14-co542-balancing-an-inverted-pendulum-
 page_url: blank
 
 forks: 0
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: 2021-02-18T07:06:12Z
 ---
 CO542 Project
