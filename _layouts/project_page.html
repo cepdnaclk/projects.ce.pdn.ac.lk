@@ -3,13 +3,12 @@ layout: default
 ---
 
 {% include project_navbar.html %}
-{% include page_tree_builder.html pages=site.html_pages %}
 
-<main class="py-1 p-1">
+<main class="py-1 p-1" style="min-height: 80vh;">
     <div class="container-fluid py-2 px-2">
         <div class="row">
             <div class="container px-3 pb-3">
-                <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav" >
+                <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav">
                     <ol class="breadcrumb p-0 m-0">
                         <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
                         <li class="breadcrumb-item"><a href="../../">{{ page.grand_parent }}</a></li>
@@ -26,8 +25,8 @@ layout: default
             <div class="col-sm-12 col-lg-11 col-xl-10 mx-auto">
                 <div class="container">
                     <h1 class="mt-2">{{ page.title }}</h1>
-                    {% if page.started_on != 'yyyy-mm-dd'  %}
-                    <span class="px-3">Created: <i>{{ page.started_on  | date: '%d-%m-%Y'}}</i></span>
+                    {% if page.started_on != 'yyyy-mm-dd' %}
+                    <span class="px-3">Created: <i>{{ page.started_on | date: '%d-%m-%Y'}}</i></span>
                     {% endif %}
                     <span class="px-3">Forks: <i>{{ page.forks }}</i></span>
                     <span class="px-3"> Watchers: <i>{{ page.watchers }}</i> </span>
@@ -64,7 +63,8 @@ layout: default
                                     <div class="row g-0">
 
                                         <div class="col-md-3 d-flex align-items-center">
-                                            <img src='{{ "/assets/images/icon_repo.png" | relative_url }}' class="img-fluid rounded-start" alt="...">
+                                            <img src='{{ "/assets/images/icon_repo.png" | relative_url }}'
+                                                class="img-fluid rounded-start" alt="...">
                                         </div>
                                         <div class="col-md-9 d-flex">
                                             <div class="card-body d-flex align-items-center">
@@ -85,7 +85,8 @@ layout: default
                                 <a class="text-decoration-none text-primary" href="{{ page.page_url }}" target="_blank">
                                     <div class="row g-0">
                                         <div class="col-md-3 d-flex align-items-center">
-                                            <img src='{{ "/assets/images/icon_page.png" | relative_url }}' class="img-fluid rounded-start" alt="...">
+                                            <img src='{{ "/assets/images/icon_page.png" | relative_url }}'
+                                                class="img-fluid rounded-start" alt="...">
                                         </div>
                                         <div class="col-md-9 d-flex">
                                             <div class="card-body d-flex align-items-center">
@@ -134,9 +135,9 @@ layout: default
 
 <script type="text/javascript">
     $(document).ready(function () {
-        {%- if page.page_url != 'blank' -%}
-        readRemoteData('{{ site.baseurl }}','{{ page.page_url }}');
-        {%- endif -%}
+        {% if page.page_url != 'blank' %}
+        readRemoteData('{{ site.baseurl }}', '{{ page.page_url }}');
+        {% endif %}
         readAPIData('{{ page.permalink }}');
         readLanguageData('{{ page.repo_url }}');
     });
