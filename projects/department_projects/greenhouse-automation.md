@@ -1,6 +1,6 @@
 ---
 layout: project_page_dept
-title: Greenhouse Automation
+title: Smart Greenhouse Automation
 caption: ""
 nav_order: 1
 permalink: /greenhouse-automation/
