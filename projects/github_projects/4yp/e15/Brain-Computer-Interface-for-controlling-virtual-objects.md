@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e15-4yp-Brain-Computer-Interface-for-cont
 page_url: https://cepdnaclk.github.io/e15-4yp-Brain-Computer-Interface-for-controlling-virtual-objects
 
 forks: 1
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: 2021-03-04T21:20:49Z
 ---
 Develop a Brain-Computer Interface for Controlling virtual objects using the self-paced mind intent of a person. Here we have developed a Real-time pipeline for recognizing thought patterns using machine learning techniques and feed into a virtual environment(unity engine) for controlling virtual objects.
