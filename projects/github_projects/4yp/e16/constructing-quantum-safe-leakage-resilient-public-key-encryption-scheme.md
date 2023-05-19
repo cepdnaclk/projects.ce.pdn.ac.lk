@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-4yp-constructing-quantum-safe-leakage-resilient-public-key-encryption-scheme
 page_url: https://cepdnaclk.github.io/e16-4yp-constructing-quantum-safe-leakage-resilient-public-key-encryption-scheme
 
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: 2022-07-25T11:39:06Z
