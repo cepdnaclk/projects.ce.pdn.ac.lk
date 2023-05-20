@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs
 page_url: https://cepdnaclk.github.io/e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs
 
-forks: 1
+forks: 2
 watchers: 1
 stars: 1
 started_on: 2023-05-19T16:39:40Z
