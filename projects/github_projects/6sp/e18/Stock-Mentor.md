@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-6sp-Stock-Mentor
 page_url: blank
 
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: 2023-05-20T11:29:06Z

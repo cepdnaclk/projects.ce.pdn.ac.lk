@@ -12,7 +12,7 @@ cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e17-4yp-Acceleration-of-deep-neural-network-based-nanopore-super-accuracy-basecalling
-page_url: blank
+page_url: https://cepdnaclk.github.io/e17-4yp-Acceleration-of-deep-neural-network-based-nanopore-super-accuracy-basecalling
 
 forks: 1
 watchers: 0
