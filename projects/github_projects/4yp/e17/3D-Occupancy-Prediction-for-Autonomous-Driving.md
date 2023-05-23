@@ -2,7 +2,7 @@
 layout: project_page
 title: 3D Occupancy Prediction for Autonomous Driving
 permalink: /4yp/e17/3D-Occupancy-Prediction-for-Autonomous-Driving/
-description: ""
+description: "3D scene understanding and reasoning is crucial for a vision-based autonomous driving model. In this work, we mainly focus on building an End-to-End autonomous driving architecture with 3D occupancy prediction that'll help downstream vision and driving tasks."
 
 has_children: false
 parent: E17 Undergraduate Research Projects
@@ -19,5 +19,5 @@ watchers: 0
 stars: 0
 started_on: 2023-05-18T07:26:12Z
 ---
-
+3D scene understanding and reasoning is crucial for a vision-based autonomous driving model. In this work, we mainly focus on building an End-to-End autonomous driving architecture with 3D occupancy prediction that'll help downstream vision and driving tasks.
 
