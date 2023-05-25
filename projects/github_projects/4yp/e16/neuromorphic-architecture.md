@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-4yp-neuromorphic-architecture
 page_url: https://cepdnaclk.github.io/e16-4yp-neuromorphic-architecture
 
-forks: 2
+forks: 3
 watchers: 3
 stars: 3
 started_on: 2022-07-15T06:53:14Z

@@ -2,7 +2,7 @@
 layout: project_page
 title: Digital Twin
 permalink: /6sp/e18/Digital-Twin/
-description: ""
+description: "Create a simulated environment replicating all the features of a real-world setting, designed for discovering answers to ambiguous inquiries."
 
 has_children: false
 parent: E18 Sixth Semester Projects
@@ -19,5 +19,5 @@ watchers: 0
 stars: 0
 started_on: 2023-05-22T10:11:10Z
 ---
-
+Create a simulated environment replicating all the features of a real-world setting, designed for discovering answers to ambiguous inquiries.
 
