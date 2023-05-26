@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e18-3yp-smart-safety-helmet
 page_url: https://cepdnaclk.github.io/e18-3yp-smart-safety-helmet
 
 forks: 3
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: 2022-10-30T18:13:40Z
 ---
 Smart safety helmet for large scale construction sites
