@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e17-4yp-3D-Occupancy-Prediction-for-Auton
 page_url: https://cepdnaclk.github.io/e17-4yp-3D-Occupancy-Prediction-for-Autonomous-Driving
 
 forks: 0
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: 2023-05-18T07:26:12Z
 ---
 3D scene understanding and reasoning is crucial for a vision-based autonomous driving model. In this work, we mainly focus on building an End-to-End autonomous driving architecture with 3D occupancy prediction that'll help downstream vision and driving tasks.
