@@ -12,7 +12,7 @@ cover_url: /data/categories/6sp/cover_page.jpg
 thumbnail_url: /data/categories/6sp/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e18-6sp-Stock-Mentor
-page_url: blank
+page_url: https://cepdnaclk.github.io/e18-6sp-Stock-Mentor
 
 forks: 1
 watchers: 0

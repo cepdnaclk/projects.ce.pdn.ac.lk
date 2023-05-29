@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-6sp-Optical-Character-Recognition-and-Translation-from-Sinhala-to-Tamil-for-Printed-Documents
 page_url: blank
 
-forks: 1
+forks: 2
 watchers: 0
 stars: 0
 started_on: 2023-05-22T12:08:20Z
