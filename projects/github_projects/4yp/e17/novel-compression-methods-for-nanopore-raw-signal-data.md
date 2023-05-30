@@ -12,7 +12,7 @@ cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e17-4yp-novel-compression-methods-for-nanopore-raw-signal-data
-page_url: blank
+page_url: https://cepdnaclk.github.io/e17-4yp-novel-compression-methods-for-nanopore-raw-signal-data
 
 forks: 1
 watchers: 0

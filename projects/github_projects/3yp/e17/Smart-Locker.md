@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e17-3yp-Smart-Locker
 page_url: https://cepdnaclk.github.io/e17-3yp-Smart-Locker
 
 forks: 5
-watchers: 3
-stars: 3
+watchers: 2
+stars: 2
 started_on: 2021-07-04T05:00:19Z
 ---
 

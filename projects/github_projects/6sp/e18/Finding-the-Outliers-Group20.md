@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-6sp-Finding-the-Outliers-Group20
 page_url: blank
 
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: 2023-05-25T17:11:09Z
