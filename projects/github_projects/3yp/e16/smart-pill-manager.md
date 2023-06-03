@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-3yp-smart-pill-manager
 page_url: https://cepdnaclk.github.io/e16-3yp-smart-pill-manager
 
-forks: 4
+forks: 3
 watchers: 4
 stars: 4
 started_on: 2020-10-16T14:38:30Z
