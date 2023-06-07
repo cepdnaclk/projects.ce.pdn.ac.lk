@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/co326/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-co326-Smart-Cooling-System-for-a-Machinery-Room-Group5
 page_url: https://cepdnaclk.github.io/e18-co326-Smart-Cooling-System-for-a-Machinery-Room-Group5
 
-forks: 1
+forks: 2
 watchers: 0
 stars: 0
 started_on: 2023-05-25T06:25:47Z
