@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-6sp-Machine-Learning-for-Weather-Forecasting
 page_url: https://cepdnaclk.github.io/e18-6sp-Machine-Learning-for-Weather-Forecasting
 
-forks: 1
+forks: 2
 watchers: 0
 stars: 0
 started_on: 2023-06-07T07:35:59Z
