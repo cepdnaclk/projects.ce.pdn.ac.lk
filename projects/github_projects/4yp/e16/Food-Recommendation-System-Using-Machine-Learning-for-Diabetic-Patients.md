@@ -15,8 +15,8 @@ repo_url: https://github.com/cepdnaclk/e16-4yp-Food-Recommendation-System-Using-
 page_url: https://cepdnaclk.github.io/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients
 
 forks: 8
-watchers: 2
-stars: 2
+watchers: 3
+stars: 3
 started_on: 2022-07-23T18:00:10Z
 ---
 Recommend proper foods for diabetic patients in the context of nutrition and food characteristics by developing a machine learning based intelligent mobile application
