@@ -1,7 +1,7 @@
 ---
 layout: project_cat
 title: Image Processing Projects (CO543)
-nav_order: 8
+nav_order: 9
 permalink: /co543/
 has_children: true
 
