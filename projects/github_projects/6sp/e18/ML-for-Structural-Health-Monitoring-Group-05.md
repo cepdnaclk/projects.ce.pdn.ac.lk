@@ -12,9 +12,9 @@ cover_url: /data/categories/6sp/cover_page.jpg
 thumbnail_url: /data/categories/6sp/thumbnail.jpg
 
 repo_url: https://github.com/cepdnaclk/e18-6sp-ML-for-Structural-Health-Monitoring-Group-05
-page_url: blank
+page_url: https://cepdnaclk.github.io/e18-6sp-ML-for-Structural-Health-Monitoring-Group-05
 
-forks: 1
+forks: 3
 watchers: 0
 stars: 0
 started_on: 2023-06-09T04:02:52Z

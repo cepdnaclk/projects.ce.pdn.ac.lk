@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-6sp-Automatically-categorizing-Sinhala-news-items-from-selected-news-sources
 page_url: https://cepdnaclk.github.io/e18-6sp-Automatically-categorizing-Sinhala-news-items-from-selected-news-sources
 
-forks: 2
+forks: 3
 watchers: 0
 stars: 0
 started_on: 2023-06-04T09:32:46Z

@@ -2,7 +2,7 @@
 layout: project_page
 title: Price Prediction in Stock Market
 permalink: /6sp/e18/Price-Prediction-in-Stock-Market/
-description: ""
+description: "The purpose of this project is to develop a machine learning and AI-based solution for predicting the high, low, and close values of stocks or indices in the next trading day. We leverage the power of LSTM (Long Short-Term Memory) models to analyze sequential data and provide accurate predictions. Our application can be applied to various stocks an"
 
 has_children: false
 parent: E18 Sixth Semester Projects
@@ -19,5 +19,5 @@ watchers: 0
 stars: 0
 started_on: 2023-05-24T18:14:40Z
 ---
-
+The purpose of this project is to develop a machine learning and AI-based solution for predicting the high, low, and close values of stocks or indices in the next trading day. We leverage the power of LSTM (Long Short-Term Memory) models to analyze sequential data and provide accurate predictions. Our application can be applied to various stocks an
 
