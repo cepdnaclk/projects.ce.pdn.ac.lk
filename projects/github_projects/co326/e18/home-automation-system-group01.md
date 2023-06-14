@@ -14,7 +14,7 @@ thumbnail_url: /data/categories/co326/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-co326-home-automation-system-group01
 page_url: https://cepdnaclk.github.io/e18-co326-home-automation-system-group01
 
-forks: 2
+forks: 3
 watchers: 0
 stars: 0
 started_on: 2023-05-25T18:20:25Z
