@@ -63,26 +63,26 @@ except OSError as e:
 
 # -----------------------------------------------------------------------------------
 # Download the repository data
-# repo_dict = {}
-# for p in range(1, 1000):
-#     url = "https://api.github.com/orgs/{}/repos?per_page={}&page={}".format(
-#         ORGANIZATION, RESULTS_PER_PAGE, p)
-#     response = requests.get(url)
+repo_dict = {}
+for p in range(1, 1000):
+    url = "https://api.github.com/orgs/{}/repos?per_page={}&page={}".format(
+        ORGANIZATION, RESULTS_PER_PAGE, p)
+    response = requests.get(url)
 
-#     if response.status_code == 200:
-#         jsonData = response.json()
-#         if len(jsonData) == 0:
-#             break
+    if response.status_code == 200:
+        jsonData = response.json()
+        if len(jsonData) == 0:
+            break
 
-#         for repo in jsonData:
-#             repo_dict[repo['name']] = repo
+        for repo in jsonData:
+            repo_dict[repo['name']] = repo
 
-#     else:
-#         # TODO: Test
-#         errorMsg = "An exception occurred while getting data from GitHub: {}".format(
-#             reponse.status_code)
-#         print(">> Error:", errorMsg)
-#         notify.warning(errorMsg)
+    else:
+        # TODO: Test
+        errorMsg = "An exception occurred while getting data from GitHub: {}".format(
+            reponse.status_code)
+        print(">> Error:", errorMsg)
+        notify.warning(errorMsg)
 
 # -----------------------------------------------------------------------------------
 # Write the repository data to a local source
@@ -93,8 +93,8 @@ except OSError as e:
 
 # -----------------------------------------------------------------------------------
 # Read the repository data from a local source
-with open('./__cache/repos.json', 'r') as f:
-    repo_dict = json.load(f)
+# with open('./__cache/repos.json', 'r') as f:
+#     repo_dict = json.load(f)
 
 
 # -----------------------------------------------------------------------------------
@@ -111,7 +111,7 @@ for k in repo_dict:
 
         # Exclude duplicated / self-forked repositories
         if str(r_name[-1]).isdigit() and "-".join(r_name[:-1]) in repo_dict:
-            print(">> Error: {} is a duplicate repository".format(r['name']))
+            print(">> Error: Duplicate repository | {}".format(r['name']))
             isExcludedRepo = True
 
         # General eligibility check to be a Student Project
@@ -167,7 +167,7 @@ for k in repo_dict:
 
             else:
                 print(
-                    ">> Error: {} is not belonged to a category".format(r['name']))
+                    ">> Error: Not belonged to a category | {}".format(r['name']))
 
     except Exception as e:
         # TODO: Test
