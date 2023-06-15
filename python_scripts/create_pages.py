@@ -63,48 +63,56 @@ except OSError as e:
 
 # -----------------------------------------------------------------------------------
 # Download the repository data
-repo_list = []
-for p in range(1, 1000):
-    url = "https://api.github.com/orgs/{}/repos?per_page={}&page={}".format(
-        ORGANIZATION, RESULTS_PER_PAGE, p)
-    response = requests.get(url)
+# repo_dict = {}
+# for p in range(1, 1000):
+#     url = "https://api.github.com/orgs/{}/repos?per_page={}&page={}".format(
+#         ORGANIZATION, RESULTS_PER_PAGE, p)
+#     response = requests.get(url)
 
-    if response.status_code == 200:
-        jsonData = response.json()
-        if len(jsonData) == 0:
-            break
+#     if response.status_code == 200:
+#         jsonData = response.json()
+#         if len(jsonData) == 0:
+#             break
 
-        repo_list.extend(jsonData)
-    else:
-        # TODO: Test
-        errorMsg = "An exception occurred while getting data from GitHub: {}".format(
-            reponse.status_code)
-        print(">> Error:", errorMsg)
-        notify.warning(errorMsg)
+#         for repo in jsonData:
+#             repo_dict[repo['name']] = repo
 
-# # -----------------------------------------------------------------------------------
-# # Write the repository data to a local source
+#     else:
+#         # TODO: Test
+#         errorMsg = "An exception occurred while getting data from GitHub: {}".format(
+#             reponse.status_code)
+#         print(">> Error:", errorMsg)
+#         notify.warning(errorMsg)
+
+# -----------------------------------------------------------------------------------
+# Write the repository data to a local source
 # cache_file_path = "./__cache/repos.json"
 # os.makedirs(os.path.dirname(cache_file_path), exist_ok=True)
 # with open(cache_file_path, "w") as f:
-#     json.dump(repo_list, f, indent=4)
+#     json.dump(repo_dict, f, indent=4)
 
-# # -----------------------------------------------------------------------------------
-# # Read the repository data from a local source
-# with open('./__cache/repos.json', 'r') as f:
-#     repo_list = json.load(f)
+# -----------------------------------------------------------------------------------
+# Read the repository data from a local source
+with open('./__cache/repos.json', 'r') as f:
+    repo_dict = json.load(f)
 
 
 # -----------------------------------------------------------------------------------
 # Iterate through the repositories in the GitHub
 count = 0
-for r in repo_list:
+for k in repo_dict:
+    r = repo_dict[k]
+
     try:
         r_name = r['name'].strip().split('-')
 
+        # Exclude the repository by definition
         isExcludedRepo = r['name'] in excludedReposList
 
-        # TODO: exclude duplicated repos
+        # Exclude duplicated / self-forked repositories
+        if str(r_name[-1]).isdigit() and "-".join(r_name[:-1]) in repo_dict:
+            print(">> Error: {} is a duplicate repository".format(r['name']))
+            isExcludedRepo = True
 
         # General eligibility check to be a Student Project
         if r_name[0][0] == 'e' and r_name[0][1:].isdigit() and len(r_name) > 2 and not isExcludedRepo:
