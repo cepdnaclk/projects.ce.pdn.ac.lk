@@ -1,3 +1,11 @@
+'''
+REQUIREMENTS:
+    pip install requests
+
+AUTHORS:
+    Nuwan Jaliyagoda
+'''
+
 import requests
 import os
 import json
@@ -18,7 +26,8 @@ for p in projects:
     updated = projects[p]['updated_at']
     projects[p]['name'] = p
     updated_dict[updated] = projects[p]
-    updated_dict[updated]['project_url'] = updated_dict[updated]['project_url'].replace("https://projects.ce.pdn.ac.lk", "")
+    updated_dict[updated]['project_url'] = updated_dict[updated]['project_url'].replace(
+        "https://projects.ce.pdn.ac.lk", "")
 
 # Final dict
 for key in sorted(updated_dict, reverse=True):
@@ -33,4 +42,4 @@ sliced_dict = dict(list(sorted_dict.items())[:LATEST_PROJ_LIMIT])
 filename = "../_data/projects_latest.json"
 os.makedirs(os.path.dirname(filename), exist_ok=True)
 with open(filename, "w") as f:
-    f.write(json.dumps(sliced_dict, indent = 4))
+    f.write(json.dumps(sliced_dict, indent=4))

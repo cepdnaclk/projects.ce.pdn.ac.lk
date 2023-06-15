@@ -1,6 +1,10 @@
-# REQUIREMENTS ------------
-# pip install requests pytz
-# -------------------------
+'''
+REQUIREMENTS:
+    pip install requests
+
+AUTHORS:
+    Nuwan Jaliyagoda
+'''
 
 import requests
 import json

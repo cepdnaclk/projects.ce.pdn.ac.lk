@@ -17,13 +17,18 @@ import yaml
 
 from notifications import Notifications
 
-notify = Notifications("projects.ce.pdn.ac.lk", "Daily")
+notify = Notifications("projects.ce.pdn.ac.lk",
+                       "Daily_Site_python_scripts\__pycache__Builder")
 
 CATEGORIES = {}
 BATCHES = {}
 ORGANIZATION = "cepdnaclk"
 RESULTS_PER_PAGE = 100
-
+excludedReposList = [
+    "e03-final-year-projects",
+    "e04-final-year-projects",
+    "e05-final-year-projects"
+]
 projects = []
 
 print("START")
@@ -58,41 +63,48 @@ except OSError as e:
 
 # -----------------------------------------------------------------------------------
 # Download the repository data
-# repo_list = []
-# for p in range(1, 1000):
-#     url = "https://api.github.com/orgs/{}/repos?per_page={}&page={}".format(
-#         ORGANIZATION, RESULTS_PER_PAGE, p)
-#     response = requests.get(url)
+repo_list = []
+for p in range(1, 1000):
+    url = "https://api.github.com/orgs/{}/repos?per_page={}&page={}".format(
+        ORGANIZATION, RESULTS_PER_PAGE, p)
+    response = requests.get(url)
 
-#     if response.status_code == 200:
-#         jsonData = response.json()
-#         if len(jsonData) == 0:
-#             break
+    if response.status_code == 200:
+        jsonData = response.json()
+        if len(jsonData) == 0:
+            break
 
-#         repo_list.extend(jsonData)
-#     else:
-#         # TODO: Handle error
-#         print(">> ERROR :", reponse.status_code)
+        repo_list.extend(jsonData)
+    else:
+        # TODO: Test
+        errorMsg = "An exception occurred while getting data from GitHub: {}".format(
+            reponse.status_code)
+        print(">> Error:", errorMsg)
+        notify.warning(errorMsg)
 
 # # -----------------------------------------------------------------------------------
 # # Write the repository data to a local source
-# with open("./__cache/repos.json", "w") as f:
+# cache_file_path = "./__cache/repos.json"
+# os.makedirs(os.path.dirname(cache_file_path), exist_ok=True)
+# with open(cache_file_path, "w") as f:
 #     json.dump(repo_list, f, indent=4)
 
-# -----------------------------------------------------------------------------------
-# Read the repository data from a local source
-with open('./__cache/repos.json', 'r') as f:
-    repo_list = json.load(f)
-# -----------------------------------------------------------------------------------
+# # -----------------------------------------------------------------------------------
+# # Read the repository data from a local source
+# with open('./__cache/repos.json', 'r') as f:
+#     repo_list = json.load(f)
 
+
+# -----------------------------------------------------------------------------------
 # Iterate through the repositories in the GitHub
 count = 0
 for r in repo_list:
     try:
         r_name = r['name'].strip().split('-')
+        isExcludedRepo = r['name'] in excludedReposList
 
-        # General eligibility check to be a Student Project 
-        if r_name[0][0] == 'e' and r_name[0][1:].isdigit() and len(r_name) > 2:
+        # General eligibility check to be a Student Project
+        if r_name[0][0] == 'e' and r_name[0][1:].isdigit() and len(r_name) > 2 and not isExcludedRepo:
 
             batch = "e{:02}".format(int(r_name[0][1:]))
             cat = r_name[1].lower()
@@ -130,7 +142,7 @@ for r in repo_list:
                 }
                 description = desc.replace("\"", "'")
 
-                # Write the project file 
+                # Write the project file
                 path = "../projects/github_projects/{}/{}/{}.md".format(
                     cat, batch, filename)
                 os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -143,7 +155,8 @@ for r in repo_list:
                 BATCHES[cat].add(batch)
 
             else:
-                print(">> Error: {} is not belonged to a category".format(r['name']))
+                print(
+                    ">> Error: {} is not belonged to a category".format(r['name']))
 
     except Exception as e:
         # TODO: Test
@@ -154,7 +167,7 @@ for r in repo_list:
 print(">> Created {} repositories".format(count))
 
 # -----------------------------------------------------------------------------------
-# Generate the index files 
+# Generate the index files
 
 id = 0
 for cat in sorted(BATCHES):
@@ -178,7 +191,7 @@ for cat in sorted(BATCHES):
     }
     id += 1
 
-    # Write the category index file 
+    # Write the category index file
     try:
         print(">> Write category index for", cat)
         path = "../categories/" + str(cat) + "/index.md"
@@ -189,8 +202,8 @@ for cat in sorted(BATCHES):
             f.write('---\n')
 
     except Exception as e:
-        # TODO: Test
-        errorMsg = "An exception occurred while writing index file for {}".format(cat)
+        errorMsg = "An exception occurred while writing index file for {}".format(
+            cat)
         print(">> Error:", errorMsg, str(e))
         notify.warning(errorMsg, str(e))
 
@@ -210,9 +223,9 @@ for cat in sorted(BATCHES):
             'description': cat_data['description'],
         }
 
-        # Write the batch file 
+        # Write the batch file
         try:
-            print("\t", batch)
+            # print("\t", batch)
             path = "../categories/{}/{}.md".format(cat_data['code'], batch)
             os.makedirs(os.path.dirname(path), exist_ok=True)
             with open(path, "w") as f2:
@@ -221,8 +234,8 @@ for cat in sorted(BATCHES):
                 f2.write('---\n')
 
         except Exception as e:
-            # TODO: test
-            errorMsg = "An exception occurred while writing index file for {}/{}".format(cat, batch)
+            errorMsg = "An exception occurred while writing index file for {}/{}".format(
+                cat, batch)
             print(">> Error:", errorMsg, str(e))
             notify.warning(errorMsg, str(e))
 
