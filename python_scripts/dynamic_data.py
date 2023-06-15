@@ -1,3 +1,11 @@
+'''
+REQUIREMENTS:
+    pip install requests
+
+AUTHORS:
+    Nuwan Jaliyagoda
+'''
+
 import requests
 import os
 import json
@@ -6,11 +14,12 @@ import json
 # The get_githubData() function call will be limited by the GitHub API's hourly quota.
 # More: https://docs.github.com/en/rest/overview/resources-in-the-rest-api#rate-limiting
 
+
 def get_tagData():
     tags_source = "https://api.ce.pdn.ac.lk/projects/v1/filter/tags/"
 
     req_tags = requests.get(tags_source)
-    if req_tags.status_code==200:
+    if req_tags.status_code == 200:
         tag_data = json.loads(req_tags.text)
 
         # print(json.dumps(tag_data, indent = 4))
@@ -19,12 +28,13 @@ def get_tagData():
         for tag in tag_data:
             proj_count = len(tag_data[tag])
 
-            if(proj_count>1):
+            if (proj_count > 1):
                 print(tag, proj_count)
 
         return tag_data
     else:
         return {}
+
 
 def get_categories():
     CATEGORIES = {}
@@ -33,6 +43,7 @@ def get_categories():
         data = json.load(f)
 
     return data
+
 
 def get_githubData():
 
@@ -45,7 +56,7 @@ def get_githubData():
         # print(url)
         jsonData = requests.get(url).json()
 
-        if("message" in jsonData):
+        if ("message" in jsonData):
             print(jsonData['message'])
             return {}
 
@@ -55,7 +66,7 @@ def get_githubData():
         for i in range(len(jsonData)):
             repoName = jsonData[i]["name"].strip().split("-")
 
-            if len(repoName)>1 and repoName[0][0] == "e" and repoName[0][1:] != 'YY':
+            if len(repoName) > 1 and repoName[0][0] == "e" and repoName[0][1:] != 'YY':
                 if repoName[1] in CATEGORIES:
                     batch = repoName[0]
                     cat = repoName[1]
@@ -63,8 +74,10 @@ def get_githubData():
                     projName = jsonData[i]["name"]
                     print(projName)
 
-                    proj_url = 'https://projects.ce.pdn.ac.lk/{}/{}/{}'.format(cat, batch.lower(), name)
-                    thumb_url = 'https://projects.ce.pdn.ac.lk/data/categories/{}/thumbnail.jpg'.format(cat)
+                    proj_url = 'https://projects.ce.pdn.ac.lk/{}/{}/{}'.format(
+                        cat, batch.lower(), name)
+                    thumb_url = 'https://projects.ce.pdn.ac.lk/data/categories/{}/thumbnail.jpg'.format(
+                        cat)
                     formattedName = " ".join(repoName[2:])
 
                     proj_data[projName] = {
@@ -90,6 +103,7 @@ def get_githubData():
 
     return proj_data
 
+
 # Update Project Data ----------------------------------------------------------
 projects_gh = get_githubData()
 projects_api = requests.get('https://api.ce.pdn.ac.lk/projects/v1/all/').json()
@@ -111,7 +125,8 @@ for p in projects_gh:
         proj['page_url'] = p_api['page_url']
 
         proj['team'] = p_api['team'] if ('team' in p_api) else {}
-        proj['supervisors'] = p_api['supervisors'] if ('supervisors' in p_api) else {}
+        proj['supervisors'] = p_api['supervisors'] if (
+            'supervisors' in p_api) else {}
         proj['tags'] = p_api['tags'] if ('tags' in p_api) else {}
 
     projects[p] = proj
@@ -124,7 +139,7 @@ for key in sorted(projects):
 filename = "../_data/projects.json"
 os.makedirs(os.path.dirname(filename), exist_ok=True)
 with open(filename, "w") as f:
-    f.write(json.dumps(sorted_projects, indent = 4))
+    f.write(json.dumps(sorted_projects, indent=4))
 
 # Update Tag Data --------------------------------------------------------------
 tags = get_tagData()
@@ -132,4 +147,4 @@ tags = get_tagData()
 filename = "../_data/tags.json"
 os.makedirs(os.path.dirname(filename), exist_ok=True)
 with open(filename, "w") as f:
-    f.write(json.dumps(tags, indent = 4))
+    f.write(json.dumps(tags, indent=4))
