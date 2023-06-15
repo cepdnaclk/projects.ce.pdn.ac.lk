@@ -18,7 +18,7 @@ import yaml
 from notifications import Notifications
 
 notify = Notifications("projects.ce.pdn.ac.lk",
-                       "Daily_Site_python_scripts\__pycache__Builder")
+                       "Daily_Site_Builder")
 
 CATEGORIES = {}
 BATCHES = {}
@@ -101,7 +101,10 @@ count = 0
 for r in repo_list:
     try:
         r_name = r['name'].strip().split('-')
+
         isExcludedRepo = r['name'] in excludedReposList
+
+        # TODO: exclude duplicated repos
 
         # General eligibility check to be a Student Project
         if r_name[0][0] == 'e' and r_name[0][1:].isdigit() and len(r_name) > 2 and not isExcludedRepo:
