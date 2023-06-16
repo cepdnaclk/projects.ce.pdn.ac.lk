@@ -1,7 +1,7 @@
 ---
 layout: project_cat
 title: Database Projects (CO226)
-nav_order: '3'
+nav_order: '4'
 permalink: /co226/
 has_children: true
 code: co226

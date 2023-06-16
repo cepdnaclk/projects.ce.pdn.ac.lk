@@ -1,7 +1,7 @@
 ---
 layout: project_cat
 title: Advanced Computer Architecture (CO502)
-nav_order: '7'
+nav_order: '8'
 permalink: /co502/
 has_children: true
 code: co502
