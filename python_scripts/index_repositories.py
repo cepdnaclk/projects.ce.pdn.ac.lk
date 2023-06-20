@@ -17,8 +17,7 @@ import yaml
 
 from notifications import Notifications
 
-notify = Notifications("projects.ce.pdn.ac.lk",
-                       "Daily_Site_Builder")
+notify = Notifications("projects.ce.pdn.ac.lk", "Daily_Site_Builder")
 
 CATEGORIES = {}
 BATCHES = {}
@@ -129,8 +128,7 @@ for k in repo_dict:
                 cat_cover = CATEGORIES[cat]['images']['cover']
                 cat_thumb = CATEGORIES[cat]['images']['thumbnail']
 
-                gh_page = "https://cepdnaclk.github.io/{}".format(
-                    r['name']) if r["has_pages"] else 'blank'
+                gh_page = "https://cepdnaclk.github.io/{}".format(r['name']) if r["has_pages"] else 'blank'
                 desc = r["description"].strip().replace(
                     "\"", "'") if r["description"] else ''
 
@@ -234,9 +232,7 @@ for cat in sorted(BATCHES):
             'description': cat_data['description'],
         }
 
-        # Write the batch file
         try:
-            # print("\t", batch)
             path = "../categories/{}/{}.md".format(cat_data['code'], batch)
             os.makedirs(os.path.dirname(path), exist_ok=True)
             with open(path, "w") as f2:
