@@ -14,7 +14,7 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-3yp-obstacle-bots-for-swarm-robots
 page_url: https://cepdnaclk.github.io/e16-3yp-obstacle-bots-for-swarm-robots
-forks: 2
+forks: 3
 watchers: 2
 stars: 2
 started_on: '2020-10-16T14:08:11Z'
