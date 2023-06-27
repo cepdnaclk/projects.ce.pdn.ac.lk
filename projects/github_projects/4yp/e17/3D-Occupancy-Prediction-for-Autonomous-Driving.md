@@ -13,7 +13,7 @@ cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-4yp-3D-Occupancy-Prediction-for-Autonomous-Driving
 page_url: https://cepdnaclk.github.io/e17-4yp-3D-Occupancy-Prediction-for-Autonomous-Driving
-forks: 0
+forks: 1
 watchers: 1
 stars: 1
 started_on: '2023-05-18T07:26:12Z'
