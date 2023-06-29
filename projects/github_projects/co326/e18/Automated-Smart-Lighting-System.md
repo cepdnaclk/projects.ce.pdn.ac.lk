@@ -12,7 +12,7 @@ cover_url: /data/categories/co326/cover_page.jpg
 thumbnail_url: /data/categories/co326/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-co326-Automated-Smart-Lighting-System
 page_url: https://cepdnaclk.github.io/e18-co326-Automated-Smart-Lighting-System
-forks: 2
+forks: 3
 watchers: 0
 stars: 0
 started_on: '2023-06-12T19:15:34Z'
