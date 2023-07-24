@@ -13,7 +13,7 @@ cover_url: /data/categories/6sp/cover_page.jpg
 thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-6sp-Handwritten_Essay_Marking_Software
 page_url: https://cepdnaclk.github.io/e18-6sp-Handwritten_Essay_Marking_Software
-forks: 2
+forks: 3
 watchers: 0
 stars: 0
 started_on: '2023-06-08T05:48:58Z'

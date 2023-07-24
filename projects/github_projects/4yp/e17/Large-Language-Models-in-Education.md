@@ -11,7 +11,7 @@ cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-4yp-Large-Language-Models-in-Education
 page_url: https://cepdnaclk.github.io/e17-4yp-Large-Language-Models-in-Education
-forks: 3
+forks: 4
 watchers: 1
 stars: 1
 started_on: '2023-05-22T03:01:36Z'

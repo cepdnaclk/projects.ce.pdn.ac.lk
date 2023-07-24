@@ -14,8 +14,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-3yp-remote-keyboard-tutoring-system
 page_url: https://cepdnaclk.github.io/e17-3yp-remote-keyboard-tutoring-system
 forks: 1
-watchers: 4
-stars: 4
+watchers: 3
+stars: 3
 started_on: '2022-02-07T04:07:22Z'
 ---
 
