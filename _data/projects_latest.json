@@ -1,206 +1,96 @@
 {
-    "e18-6sp-Handwritten_Essay_Marking_Software": {
-        "projName": "Handwritten_Essay_Marking_Software",
-        "batch": "E18",
-        "category": {
-            "title": "Sixth Semester Projects",
-            "code": "6sp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/6sp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e18-6sp-Handwritten_Essay_Marking_Software",
-        "project_url": "/6sp/e18/Handwritten_Essay_Marking_Software/",
-        "page_url": "https://cepdnaclk.github.io/e18-6sp-Handwritten_Essay_Marking_Software",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e18-6sp-Handwritten_Essay_Marking_Software",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/6sp/thumbnail.jpg",
-        "created_at": "2023-06-08T05:48:58Z",
-        "updated_at": "2023-06-18T11:17:49Z",
-        "forks_count": 3,
-        "stars_count": 0,
-        "watchers_count": 0,
-        "language": "JavaScript",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "Handwritten Essay Marking Software is a powerful Tool to grade students\u2019 handwritten essays by providing more consistent and objective grading. Automates manual grading by using Optical Character Recognition (OCR), Natural Language Processing (NLP), Machine Learning Model.",
-        "team": {},
-        "supervisors": {},
-        "tags": {},
-        "name": "e18-6sp-Handwritten_Essay_Marking_Software"
-    },
-    "e18-co326-Water-Quality-Monitoring-System": {
-        "projName": "Water Quality Monitoring System",
-        "batch": "E18",
-        "category": "Industrial Automation Projects (CO326)",
-        "repo_url": "https://github.com/cepdnaclk/e18-co326-Water-Quality-Monitoring-System",
-        "project_url": "/co326/e18/Water-Quality-Monitoring-System",
-        "page_url": "",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e18-co326-Water-Quality-Monitoring-System",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
-        "created_at": "2023-06-18T04:07:47Z",
-        "updated_at": "2023-06-18T04:30:49Z",
-        "forks_count": 1,
-        "stars_count": 0,
-        "watchers_count": 0,
-        "language": "C++",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": false,
-        "has_pages": false,
-        "name": "e18-co326-Water-Quality-Monitoring-System"
-    },
-    "e15-4yp-Adaptive-people-movement-and-action-prediction-using-CCTV-to-control-appliances": {
-        "projName": "Adaptive people movement and action prediction using CCTV to control appliances",
-        "batch": "E15",
-        "category": {
-            "title": "Undergraduate Research Projects",
-            "code": "4yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e15-4yp-Adaptive-people-movement-and-action-prediction-using-CCTV-to-control-appliances",
-        "project_url": "/4yp/e15/Adaptive-people-movement-and-action-prediction-using-CCTV-to-control-appliances/",
-        "page_url": "https://cepdnaclk.github.io/e15-4yp-Adaptive-people-movement-and-action-prediction-using-CCTV-to-control-appliances",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e15-4yp-Adaptive-people-movement-and-action-prediction-using-CCTV-to-control-appliances",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2021-04-18T17:49:43Z",
-        "updated_at": "2023-06-16T05:50:36Z",
-        "forks_count": 2,
-        "stars_count": 0,
-        "watchers_count": 0,
-        "language": "Python",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "In a domestic environment, people's behavior is often routine. They move place to place in a house while activating different domestic appliances and lights. On the other hand, CCTV is becoming a common surveillance system installed in many houses and buildings. A correctly trained adaptive system can predict the behavior and perform control actions automatically. In this research project, it is intended to develop an adaptive training system using CCTV video streams for controlling appliances.",
-        "team": {
-            "E/15/265": {
-                "name": "Risith Perera",
-                "email": "risithperera@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/RisithPerera",
-                "linkedin": "https://www.linkedin.com/in/risith/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E15/265",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15265.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/265/"
-            },
-            "E/15/347": {
-                "name": "Isuru Sudasinghe",
-                "email": "isuru.sudasinghe@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/IsuruSudasinghe",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E15/347",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15347.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/347/"
-            },
-            "E/15/010": {
-                "name": "Ruchika Alwis",
-                "email": "e15010@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/RuchikaAlwis",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E15/010",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15010.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/010/"
-            }
-        },
-        "supervisors": {
-            "kamalanath@eng.pdn.ac.lk  ": {
-                "name": "Dr. Eng. Kamalanath Samarakoon",
-                "email": "kamalanath@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/kamalanath-samarakoon/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/kamalanath-samarakoon.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/kamalanath",
-                "website": "http://kamalanath.samarakoon.info/",
-                "linkedin": "https://www.linkedin.com/in/kamalanath-samarakoon-7188549/",
-                "researchgate": "https://www.researchgate.net/profile/Kamalanath-Samarakoon",
-                "google_scholar": "https://scholar.google.com/citations?user=DsG-K0sAAAAJ&hl=en"
-            }
-        },
-        "tags": [
-            "Final Year Projects",
-            "Yolo",
-            "OpenPose",
-            "MTCNN",
-            "Person Reidentification"
-        ],
-        "name": "e15-4yp-Adaptive-people-movement-and-action-prediction-using-CCTV-to-control-appliances"
-    },
-    "e17-co226-business-to-business-database": {
-        "projName": "business to business database",
-        "batch": "E17",
+    "e19-co226-Online-Learning-Platform": {
+        "projName": "Online Learning Platform",
+        "batch": "E19",
         "category": {
             "title": "Database Projects (CO226)",
             "code": "co226",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/"
         },
-        "repo_url": "https://github.com/cepdnaclk/e17-co226-business-to-business-database",
-        "project_url": "/co226/e17/business-to-business-database/",
-        "page_url": "https://cepdnaclk.github.io/e17-co226-business-to-business-database",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e17-co226-business-to-business-database",
+        "repo_url": "https://github.com/cepdnaclk/e19-co226-Online-Learning-Platform",
+        "project_url": "/co226/e19/Online-Learning-Platform/",
+        "page_url": "#",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e19-co226-Online-Learning-Platform",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
-        "created_at": "2021-02-07T06:37:31Z",
-        "updated_at": "2023-06-15T10:53:32Z",
+        "created_at": "2023-07-23T09:28:19Z",
+        "updated_at": "2023-07-23T18:23:39Z",
         "forks_count": 0,
         "stars_count": 0,
         "watchers_count": 0,
-        "language": null,
+        "language": "Java",
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
+        "has_pages": false,
+        "description": "",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e19-co226-Online-Learning-Platform"
+    },
+    "e19-co226-database-management-system-for-a-restaurant": {
+        "projName": "database management system for a restaurant",
+        "batch": "E19",
+        "category": {
+            "title": "Database Projects (CO226)",
+            "code": "co226",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e19-co226-database-management-system-for-a-restaurant",
+        "project_url": "/co226/e19/database-management-system-for-a-restaurant/",
+        "page_url": "https://cepdnaclk.github.io/e19-co226-database-management-system-for-a-restaurant",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e19-co226-database-management-system-for-a-restaurant",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
+        "created_at": "2023-07-23T14:37:54Z",
+        "updated_at": "2023-07-23T15:34:13Z",
+        "forks_count": 1,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": "JavaScript",
+        "topics": [
+            "co226-projects",
+            "e19-co226-projects"
+        ],
+        "has_projects": true,
+        "has_wiki": true,
         "has_pages": true,
-        "description": "CO226 Project - Relational Database for B2B Online Trade Community - by: @Isuri-Devindi, @KavinduJayas, @Dr-Madhushan",
+        "description": "A restaurant database system to simplify customer data management, enhancing service and personalization. It tracks menu inventory, staff schedules, and reservations seamlessly, revolutionizing restaurant operations. Elevate the customer experience with our comprehensive solution.",
         "team": {
-            "E/17/194": {
-                "name": "Madhushan R.",
-                "email": "e17194@eng.pdn.ac.lk",
-                "website": "https://drmadhushan.github.io",
-                "github": "https://www.github.com/DrMadhushan",
-                "linkedin": "https://www.linkedin.com/in/madhushan-ramalingam",
-                "researchgate": "https://www.researchgate.net/profile/Madhushan-Ramalingam-2",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/194",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17194.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/194/"
-            },
-            "E/17/058": {
-                "name": "Devindi G.A.I",
-                "email": "e17058@eng.pdn.ac.lk",
-                "website": "https://isuridevindi.github.io/",
-                "github": "https://github.com/isuridevindi",
-                "linkedin": "https://linkedin.com/in/isuri-devindi-b8602a206",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/058",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17058.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/058/"
-            },
-            "E/17/134": {
-                "name": "Jayasooriya J.A.K.D",
-                "email": "e17134@eng.pdn.ac.lk",
+            "E/19/008": {
+                "name": "Adhikari R.A.J.C.",
+                "email": "e19008@eng.pdn.ac.lk",
                 "website": "",
-                "github": "https://github.com/KavinduJayas",
-                "linkedin": "https://www.linkedin.com/in/kavindu-jayasooriya/",
+                "github": "https://github.com/chandula00",
+                "linkedin": "https://www.linkedin.com/in/janith-chandula-adhikari-5543a5223",
                 "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/134",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17134.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/134/"
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/008",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19008.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/008/"
+            },
+            "E/19/009": {
+                "name": "Adikari A.M.K.M.",
+                "email": "e19009@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/009",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19009.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/009/"
+            },
+            "E/19/063": {
+                "name": "Dassanayake D.M.G.S.",
+                "email": "e19063@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/063",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19063.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/063/"
             }
         },
         "supervisors": {
-            "sampath@eng.pdn.ac.lk": {
-                "name": "Mr. Sampath Deegalla",
-                "email": "sampath@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/sampath-deegalla/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/sampath-deegalla.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/sampath",
-                "website": "https://www.sites.google.com/site/dsdeegalla/",
-                "linkedin": "https://www.linkedin.com/in/dsdeegalla",
-                "researchgate": "https://www.researchgate.net/profile/Sampath-Deegalla-2",
-                "google_scholar": "https://scholar.google.com/citations?user=QDoeGtYAAAAJ&hl=en"
-            },
             "manjula.sandirigama@eng.pdn.ac.lk": {
                 "name": "Dr. Manjula Sandirigama",
                 "email": "manjula.sandirigama@eng.pdn.ac.lk",
@@ -213,36 +103,94 @@
                 "google_scholar": "https://scholar.google.com/citations?hl=en&user=qpmlrL0AAAAJ"
             }
         },
-        "tags": [
-            "DBMS",
-            "MySQL"
-        ],
-        "name": "e17-co226-business-to-business-database"
+        "tags": {},
+        "name": "e19-co226-database-management-system-for-a-restaurant"
     },
-    "e18-co326-Automated-Smart-Lighting-System": {
-        "projName": "Automated Smart Lighting System",
-        "batch": "E18",
+    "e19-co225-In-Patient-Management-System-For-a-Hospital": {
+        "projName": "In Patient Management System For a Hospital",
+        "batch": "E19",
+        "category": "Software Construction Projects (CO225)",
+        "repo_url": "https://github.com/cepdnaclk/e19-co225-In-Patient-Management-System-For-a-Hospital",
+        "project_url": "/co225/e19/In-Patient-Management-System-For-a-Hospital",
+        "page_url": "https://cepdnaclk.github.io/e19-co225-In-Patient-Management-System-For-a-Hospital/",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e19-co225-In-Patient-Management-System-For-a-Hospital",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co225/thumbnail.jpg",
+        "created_at": "2023-05-26T06:50:51Z",
+        "updated_at": "2023-07-23T11:01:58Z",
+        "forks_count": 9,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": "JavaScript",
+        "topics": [
+            "java",
+            "react",
+            "spring-boot"
+        ],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "name": "e19-co225-In-Patient-Management-System-For-a-Hospital"
+    },
+    "e17-4yp-os-initiated-cache-switching-to-minimize-performance-loss-in-context-switches": {
+        "projName": "os initiated cache switching to minimize performance loss in context switches",
+        "batch": "E17",
         "category": {
-            "title": "Industrial Automation Projects (CO326)",
-            "code": "co326",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co326/"
+            "title": "Undergraduate Research Projects",
+            "code": "4yp",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
         },
-        "repo_url": "https://github.com/cepdnaclk/e18-co326-Automated-Smart-Lighting-System",
-        "project_url": "/co326/e18/Automated-Smart-Lighting-System/",
-        "page_url": "https://cepdnaclk.github.io/e18-co326-Automated-Smart-Lighting-System",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e18-co326-Automated-Smart-Lighting-System",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
-        "created_at": "2023-06-12T19:15:34Z",
-        "updated_at": "2023-06-15T03:52:58Z",
+        "repo_url": "https://github.com/cepdnaclk/e17-4yp-os-initiated-cache-switching-to-minimize-performance-loss-in-context-switches",
+        "project_url": "/4yp/e17/os-initiated-cache-switching-to-minimize-performance-loss-in-context-switches/",
+        "page_url": "https://cepdnaclk.github.io/e17-4yp-os-initiated-cache-switching-to-minimize-performance-loss-in-context-switches",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e17-4yp-os-initiated-cache-switching-to-minimize-performance-loss-in-context-switches",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+        "created_at": "2023-05-22T05:55:34Z",
+        "updated_at": "2023-07-22T16:15:58Z",
         "forks_count": 1,
         "stars_count": 0,
         "watchers_count": 0,
-        "language": "C++",
+        "language": "Verilog",
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
         "has_pages": true,
-        "description": "An automated smart lighting system is a network of interconnected lighting fixtures that can be controlled remotely using advanced technologies.  This system will offer various benefits, including energy efficiency and convenience.",
+        "description": "OS-initiated cache switching to minimize performance loss in context switches",
+        "team": {},
+        "supervisors": {},
+        "tags": [
+            "Final Year Projects"
+        ],
+        "name": "e17-4yp-os-initiated-cache-switching-to-minimize-performance-loss-in-context-switches"
+    },
+    "e18-6sp-Disease-Monitoring-in-dairy-industry": {
+        "projName": "Disease Monitoring in dairy industry",
+        "batch": "E18",
+        "category": {
+            "title": "Sixth Semester Projects",
+            "code": "6sp",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/6sp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e18-6sp-Disease-Monitoring-in-dairy-industry",
+        "project_url": "/6sp/e18/Disease-Monitoring-in-dairy-industry/",
+        "page_url": "https://cepdnaclk.github.io/e18-6sp-Disease-Monitoring-in-dairy-industry",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e18-6sp-Disease-Monitoring-in-dairy-industry",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/6sp/thumbnail.jpg",
+        "created_at": "2023-06-04T12:42:39Z",
+        "updated_at": "2023-07-18T09:30:05Z",
+        "forks_count": 3,
+        "stars_count": 1,
+        "watchers_count": 1,
+        "language": "Jupyter Notebook",
+        "topics": [
+            "agriculture",
+            "dairy",
+            "machine-learning",
+            "webapp"
+        ],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "Automated Dairy Disease Monitoring using machine learning to predict Subclinical Mastitis (SCM) positivity based on milk quality data. Web application for easy data input and analysis. Improve herd management and cow health.",
         "team": {
             "E/18/154": {
                 "name": "Chamudi Jayasumana",
@@ -279,161 +227,138 @@
             }
         },
         "supervisors": {
-            "kamalanath@eng.pdn.ac.lk": {
-                "name": "Dr. Eng. Kamalanath Samarakoon",
-                "email": "kamalanath@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/kamalanath-samarakoon/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/kamalanath-samarakoon.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/kamalanath",
-                "website": "http://kamalanath.samarakoon.info/",
-                "linkedin": "https://www.linkedin.com/in/kamalanath-samarakoon-7188549/",
-                "researchgate": "https://www.researchgate.net/profile/Kamalanath-Samarakoon",
-                "google_scholar": "https://scholar.google.com/citations?user=DsG-K0sAAAAJ&hl=en"
+            "damayanthiherath@eng.pdn.ac.lk": {
+                "name": "Dr. Damayanthi Herath",
+                "email": "damayanthiherath@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/damayanthi-herath/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/damayanthi-herath.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/damayanthiherath",
+                "website": "https://damayanthiherath.wordpress.com/",
+                "linkedin": "https://www.linkedin.com/in/damayanthi-herath/",
+                "researchgate": "https://www.researchgate.net/profile/Damayanthi-Herath",
+                "google_scholar": "https://scholar.google.com/citations?user=G2jUV5IAAAAJ&hl=en"
             }
         },
         "tags": [
-            "Automation",
-            "Embedded Systems",
-            "MQTT",
-            "SCADA",
-            "PlatformIO"
+            "Machine Learning",
+            "Angriculture",
+            "Web app"
         ],
-        "name": "e18-co326-Automated-Smart-Lighting-System"
+        "name": "e18-6sp-Disease-Monitoring-in-dairy-industry"
     },
-    "e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices": {
-        "projName": "post quantum cryptographic schemes based on plain lattices",
-        "batch": "E16",
+    "e18-3yp-Road-Accident-Detection-And-Notification-System": {
+        "projName": "Road Accident Detection And Notification System",
+        "batch": "E18",
         "category": {
-            "title": "Undergraduate Research Projects",
-            "code": "4yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+            "title": "Cyber-Physical Systems Projects",
+            "code": "3yp",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
         },
-        "repo_url": "https://github.com/cepdnaclk/e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
-        "project_url": "/4yp/e16/post-quantum-cryptographic-schemes-based-on-plain-lattices/",
-        "page_url": "https://cepdnaclk.github.io/e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2022-07-25T10:06:29Z",
-        "updated_at": "2023-06-14T17:01:09Z",
-        "forks_count": 5,
-        "stars_count": 7,
-        "watchers_count": 7,
-        "language": "C++",
-        "topics": [
-            "cryptography",
-            "lattice-based-crypto",
-            "learning-with-errors",
-            "post-quantum-cryptography",
-            "public-key-cryptography",
-            "random-oracle-model"
-        ],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "This project proposes the use of plain lattices with learning with errors problem to implement a cryptographic scheme which can run on classical computers and provides security against quantum based attacks. We are proposing key sizes for efficient operations and implement a lattice trapdoor function. Also we will improve current random oracle based model in to a standard model.",
-        "team": {
-            "E/16/049": {
-                "name": "Harshana Bandara",
-                "email": "e16049@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/049",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16049.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/049/"
-            },
-            "E/16/134": {
-                "name": "Yasitha Herath",
-                "email": "e16134@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/134",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16134.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/134/"
-            },
-            "E/16/388": {
-                "name": "Thushara Weerasundara",
-                "email": "e16388@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/388",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16388.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/388/"
-            }
-        },
-        "supervisors": {
-            "qinyi.li@griffith.edu.au": {
-                "name": "Dr. Qinyi Li",
-                "email": "qinyi.li@griffith.edu.au",
-                "profile_url": "#",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
-                "api_url": "#",
-                "website": "#",
-                "linkedin": "#",
-                "researchgate": "#",
-                "google_scholar": "#"
-            },
-            "alawatugoda@eng.pdn.ac.lk": {
-                "name": "Dr. Janaka Alawatugoda",
-                "email": "alawatugoda@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/janaka-alawatugoda/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/janaka-alawatugoda.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/alawatugoda",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/janaka-alawatugoda-53294034/",
-                "researchgate": "https://www.researchgate.net/profile/Janaka-Alawatugoda-2",
-                "google_scholar": "https://scholar.google.com/citations?user=TJWRzj4AAAAJ&hl=en"
-            },
-            "roshanr@eng.pdn.ac.lk": {
-                "name": "Prof. Roshan G. Ragel",
-                "email": "roshanr@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/roshan-ragel.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/roshanr",
-                "website": "http://roshan.ragel.net/",
-                "linkedin": "https://www.linkedin.com/in/roshanragel/",
-                "researchgate": "https://www.researchgate.net/profile/Roshan-Ragel",
-                "google_scholar": "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
-            }
-        },
-        "tags": [
-            "Cryptography",
-            "Post Quantum Cryptography",
-            "Learning with erros",
-            "Lattice based cryptography",
-            "Plain Lattices"
-        ],
-        "name": "e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices"
-    },
-    "e17-4yp-Large-Language-Models-in-Education": {
-        "projName": "Large Language Models in Education",
-        "batch": "E17",
-        "category": {
-            "title": "Undergraduate Research Projects",
-            "code": "4yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e17-4yp-Large-Language-Models-in-Education",
-        "project_url": "/4yp/e17/Large-Language-Models-in-Education/",
-        "page_url": "https://cepdnaclk.github.io/e17-4yp-Large-Language-Models-in-Education",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e17-4yp-Large-Language-Models-in-Education",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2023-05-22T03:01:36Z",
-        "updated_at": "2023-06-13T09:42:10Z",
-        "forks_count": 4,
-        "stars_count": 1,
-        "watchers_count": 1,
-        "language": null,
+        "repo_url": "https://github.com/cepdnaclk/e18-3yp-Road-Accident-Detection-And-Notification-System",
+        "project_url": "/3yp/e18/Road-Accident-Detection-And-Notification-System/",
+        "page_url": "https://cepdnaclk.github.io/e18-3yp-Road-Accident-Detection-And-Notification-System",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e18-3yp-Road-Accident-Detection-And-Notification-System",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+        "created_at": "2022-10-30T14:55:54Z",
+        "updated_at": "2023-07-16T19:24:07Z",
+        "forks_count": 3,
+        "stars_count": 2,
+        "watchers_count": 2,
+        "language": "JavaScript",
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
         "has_pages": true,
-        "description": "The project targets to explore the use of Large Language models in education and develop an intelligent tutor.",
+        "description": "",
+        "team": {
+            "E/18/203": {
+                "name": "Shehan Madhusanka",
+                "email": "e18203@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/sheiiz",
+                "linkedin": "https://www.linkedin.com/in/shehan-madhusanka-b7663b229",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/203",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18203.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/203/"
+            },
+            "E/18/264": {
+                "name": "Madhushan Nanayakkara",
+                "email": "e18264@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/madushannanayakkara",
+                "linkedin": "https://www.linkedin.com/in/madhushan-nanayakkara-b558871b3/",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/264",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18264.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/264/"
+            },
+            "E/18/375": {
+                "name": "Akitha Pathirana",
+                "email": "e18375@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/375",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18375.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/375/"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            },
+            "mahanamaw@eng.pdn.ac.lk": {
+                "name": "Dr. Mahanama Wickramasinghe",
+                "email": "mahanamaw@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/mahanama-wickramasinghe/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/mahanama",
+                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
+            }
+        },
+        "tags": [
+            "Web",
+            "Embedded Systems"
+        ],
+        "name": "e18-3yp-Road-Accident-Detection-And-Notification-System"
+    },
+    "e17-6sp-Greenhouse-Monitoring-System": {
+        "projName": "Greenhouse Monitoring System",
+        "batch": "E17",
+        "category": {
+            "title": "Sixth Semester Projects",
+            "code": "6sp",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/6sp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e17-6sp-Greenhouse-Monitoring-System",
+        "project_url": "/6sp/e17/Greenhouse-Monitoring-System/",
+        "page_url": "https://cepdnaclk.github.io/e17-6sp-Greenhouse-Monitoring-System",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e17-6sp-Greenhouse-Monitoring-System",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/6sp/thumbnail.jpg",
+        "created_at": "2022-02-22T10:59:18Z",
+        "updated_at": "2023-07-16T10:42:22Z",
+        "forks_count": 4,
+        "stars_count": 2,
+        "watchers_count": 2,
+        "language": "JavaScript",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "Greenhouse Monitoring System provides a platform to manage the Greenhouse by tracking the phases of plant harvest, identifying any plant disorder and tracking the plant growth by using the image spectral data of plants. The system is basically considered the key problems plant diseases, huge harvest wastage and unnecessary expensive maintenance in a greenhouse. So this system will make a high positive impact on maximizing the harvest and reduce maintenance cost in Greenhouses.",
         "team": {
             "E/17/297": {
                 "name": "Rupasinghe T.T.V.N.",
@@ -470,42 +395,20 @@
             }
         },
         "supervisors": {
-            "damayanthiherath@eng.pdn.ac.lk": {
-                "name": "Dr. Damayanthi Herath",
-                "email": "damayanthiherath@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/damayanthi-herath/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/damayanthi-herath.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/damayanthiherath",
-                "website": "https://damayanthiherath.wordpress.com/",
-                "linkedin": "https://www.linkedin.com/in/damayanthi-herath/",
-                "researchgate": "https://www.researchgate.net/profile/Damayanthi-Herath",
-                "google_scholar": "https://scholar.google.com/citations?user=G2jUV5IAAAAJ&hl=en"
-            },
-            "roshanr@eng.pdn.ac.lk": {
-                "name": "Prof. Roshan G. Ragel",
-                "email": "roshanr@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/roshan-ragel.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/roshanr",
-                "website": "http://roshan.ragel.net/",
-                "linkedin": "https://www.linkedin.com/in/roshanragel/",
-                "researchgate": "https://www.researchgate.net/profile/Roshan-Ragel",
-                "google_scholar": "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
-            },
-            "isurunawinne@eng.pdn.ac.lk": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+            "asithab@eng.pdn.ac.lk": {
+                "name": "Dr. Asitha Bandaranayake",
+                "email": "asithab@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/asitha-bandaranayake/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/asitha-bandaranayake.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/asithab",
                 "website": "",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+                "linkedin": "https://www.linkedin.com/in/asithab/",
+                "researchgate": "https://www.researchgate.net/profile/Asitha-Bandaranayake-3",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=sf6MaF4AAAAJ"
             },
-            "gshasiri@gmail.com": {
-                "name": "Dr. Shamane Siriwardhana",
-                "email": "gshasiri@gmail.com",
+            "prabhathg@gmail.com": {
+                "name": "Mr. Prabhath Gunathilake",
+                "email": "prabhathg@gmail.com",
                 "profile_url": "#",
                 "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
                 "api_url": "#",
@@ -516,40 +419,36 @@
             }
         },
         "tags": [
-            "Final Year Projects",
-            "Large Language Models",
-            "Natural Language Processing",
-            "Education"
+            "Web",
+            "Embedded Systems"
         ],
-        "name": "e17-4yp-Large-Language-Models-in-Education"
+        "name": "e17-6sp-Greenhouse-Monitoring-System"
     },
-    "e18-6sp-Automatically-categorizing-Sinhala-news-items-from-selected-news-sources": {
-        "projName": "Automatically categorizing Sinhala news items from selected news sources",
-        "batch": "E18",
-        "category": {
-            "title": "Sixth Semester Projects",
-            "code": "6sp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/6sp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e18-6sp-Automatically-categorizing-Sinhala-news-items-from-selected-news-sources",
-        "project_url": "/6sp/e18/Automatically-categorizing-Sinhala-news-items-from-selected-news-sources/",
-        "page_url": "https://cepdnaclk.github.io/e18-6sp-Automatically-categorizing-Sinhala-news-items-from-selected-news-sources",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e18-6sp-Automatically-categorizing-Sinhala-news-items-from-selected-news-sources",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/6sp/thumbnail.jpg",
-        "created_at": "2023-06-04T09:32:46Z",
-        "updated_at": "2023-06-13T09:06:07Z",
-        "forks_count": 3,
-        "stars_count": 0,
-        "watchers_count": 0,
-        "language": "Jupyter Notebook",
-        "topics": [],
+    "e19-co225-student-results-management-system-webapp": {
+        "projName": "student results management system webapp",
+        "batch": "E19",
+        "category": "Software Construction Projects (CO225)",
+        "repo_url": "https://github.com/cepdnaclk/e19-co225-student-results-management-system-webapp",
+        "project_url": "/co225/e19/student-results-management-system-webapp",
+        "page_url": "",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e19-co225-student-results-management-system-webapp",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co225/thumbnail.jpg",
+        "created_at": "2023-05-26T04:10:11Z",
+        "updated_at": "2023-07-15T18:22:44Z",
+        "forks_count": 0,
+        "stars_count": 3,
+        "watchers_count": 3,
+        "language": "Vue",
+        "topics": [
+            "java",
+            "mysql-database",
+            "spring-boot",
+            "vuejs",
+            "web-application"
+        ],
         "has_projects": true,
         "has_wiki": true,
-        "has_pages": true,
-        "description": "Automated classification of Sinhala news from chosen sources using ML and NLP techniques.",
-        "team": {},
-        "supervisors": {},
-        "tags": {},
-        "name": "e18-6sp-Automatically-categorizing-Sinhala-news-items-from-selected-news-sources"
+        "has_pages": false,
+        "name": "e19-co225-student-results-management-system-webapp"
     }
 }
