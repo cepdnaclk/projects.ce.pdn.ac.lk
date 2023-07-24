@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: Adaptive People Movement And Action Prediction Using CCTV
-permalink: /4yp/e15/Adaptive-People-Movement-And-Action-Prediction-Using-CCTV/
+title: Adaptive people movement and action prediction using CCTV to control appliances
+permalink: /4yp/e15/Adaptive-people-movement-and-action-prediction-using-CCTV-to-control-appliances/
 description: In a domestic environment, people's behavior is often routine. They move
   place to place in a house while activating different domestic appliances and lights.
   On the other hand, CCTV is becoming a common surveillance system installed in many
@@ -14,8 +14,8 @@ parent: E15 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
 cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
-repo_url: https://github.com/cepdnaclk/e15-4yp-Adaptive-People-Movement-And-Action-Prediction-Using-CCTV
-page_url: https://cepdnaclk.github.io/e15-4yp-Adaptive-People-Movement-And-Action-Prediction-Using-CCTV
+repo_url: https://github.com/cepdnaclk/e15-4yp-Adaptive-people-movement-and-action-prediction-using-CCTV-to-control-appliances
+page_url: https://cepdnaclk.github.io/e15-4yp-Adaptive-people-movement-and-action-prediction-using-CCTV-to-control-appliances
 forks: 2
 watchers: 0
 stars: 0

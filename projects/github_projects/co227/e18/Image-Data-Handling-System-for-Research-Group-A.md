@@ -12,7 +12,7 @@ cover_url: /data/categories/co227/cover_page.jpg
 thumbnail_url: /data/categories/co227/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-co227-Image-Data-Handling-System-for-Research-Group-A
 page_url: https://cepdnaclk.github.io/e18-co227-Image-Data-Handling-System-for-Research-Group-A
-forks: 5
+forks: 6
 watchers: 1
 stars: 1
 started_on: '2022-06-07T05:11:10Z'

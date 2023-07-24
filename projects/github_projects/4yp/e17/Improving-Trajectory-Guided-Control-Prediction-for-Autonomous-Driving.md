@@ -2,7 +2,9 @@
 layout: project_page
 title: Improving Trajectory Guided Control Prediction for Autonomous Driving
 permalink: /4yp/e17/Improving-Trajectory-Guided-Control-Prediction-for-Autonomous-Driving/
-description: ''
+description: In this project we first are trying to identify the issues in the TCP
+  architecture and to improve its accuracy. Carla Simulator will be used to test the
+  accuracy of our models.
 has_children: false
 parent: E17 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -16,3 +18,4 @@ stars: 0
 started_on: '2023-05-16T11:40:57Z'
 ---
 
+In this project we first are trying to identify the issues in the TCP architecture and to improve its accuracy. Carla Simulator will be used to test the accuracy of our models.

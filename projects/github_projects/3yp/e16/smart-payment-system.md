@@ -15,8 +15,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-3yp-smart-payment-system
 page_url: https://cepdnaclk.github.io/e16-3yp-smart-payment-system
 forks: 6
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: '2020-10-17T05:53:43Z'
 ---
 
