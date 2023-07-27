@@ -6,8 +6,8 @@ description: The Baby Development Tracking System is a mobile application design
   to assist parents, guardians, public health midwives (PHMs), and doctors in tracking
   and managing the development of babies from 0 to 5 years old.
 has_children: false
-parent: E19 Software Construction Projects (CO225)
-grand_parent: Software Construction Projects (CO225)
+parent: E19 Software Constructions Projects (CO225)
+grand_parent: Software Constructions Projects (CO225)
 cover_url: /data/categories/co225/cover_page.jpg
 thumbnail_url: /data/categories/co225/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co225-Baby-Developement-Tracking-System-Mobileapplication
