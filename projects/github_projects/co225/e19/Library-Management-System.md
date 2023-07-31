@@ -10,8 +10,8 @@ grand_parent: Software Constructions Projects (CO225)
 cover_url: /data/categories/co225/cover_page.jpg
 thumbnail_url: /data/categories/co225/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co225-Library-Management-System
-page_url: blank
-forks: 4
+page_url: https://cepdnaclk.github.io/e19-co225-Library-Management-System
+forks: 3
 watchers: 0
 stars: 0
 started_on: '2023-05-25T13:39:35Z'

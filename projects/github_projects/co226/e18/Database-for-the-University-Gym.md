@@ -10,7 +10,7 @@ cover_url: /data/categories/co226/cover_page.jpg
 thumbnail_url: /data/categories/co226/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-co226-Database-for-the-University-Gym
 page_url: blank
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: '2023-05-20T09:34:11Z'
