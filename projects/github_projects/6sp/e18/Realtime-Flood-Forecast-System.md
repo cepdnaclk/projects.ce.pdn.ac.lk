@@ -14,8 +14,8 @@ thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-6sp-Realtime-Flood-Forecast-System
 page_url: https://cepdnaclk.github.io/e18-6sp-Realtime-Flood-Forecast-System
 forks: 4
-watchers: 1
-stars: 1
+watchers: 0
+stars: 0
 started_on: '2023-05-19T08:44:09Z'
 ---
 
