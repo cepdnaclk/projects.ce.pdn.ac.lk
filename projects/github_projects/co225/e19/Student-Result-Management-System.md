@@ -9,7 +9,7 @@ grand_parent: Software Constructions Projects (CO225)
 cover_url: /data/categories/co225/cover_page.jpg
 thumbnail_url: /data/categories/co225/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-CO225-Student-Result-Management-System
-page_url: blank
+page_url: https://cepdnaclk.github.io/e19-CO225-Student-Result-Management-System
 forks: 1
 watchers: 0
 stars: 0

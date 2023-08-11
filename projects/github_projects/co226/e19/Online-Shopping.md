@@ -9,8 +9,8 @@ grand_parent: Database Projects (CO226)
 cover_url: /data/categories/co226/cover_page.jpg
 thumbnail_url: /data/categories/co226/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co226-Online-Shopping
-page_url: blank
-forks: 0
+page_url: https://cepdnaclk.github.io/e19-co226-Online-Shopping
+forks: 1
 watchers: 1
 stars: 1
 started_on: '2023-06-28T00:13:21Z'
