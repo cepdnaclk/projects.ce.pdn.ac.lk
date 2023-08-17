@@ -12,7 +12,7 @@ cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-4yp-flexible-glove-for-real-time-tracking-and-analysis-of-hand-and-finger-movements
 page_url: https://cepdnaclk.github.io/e17-4yp-flexible-glove-for-real-time-tracking-and-analysis-of-hand-and-finger-movements
-forks: 1
+forks: 2
 watchers: 0
 stars: 0
 started_on: '2023-05-21T17:09:57Z'
