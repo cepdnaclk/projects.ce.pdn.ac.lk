@@ -11,7 +11,7 @@ cover_url: /data/categories/co502/cover_page.jpg
 thumbnail_url: /data/categories/co502/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-co502-RV32IM-Pipeline-Implementation-Group1
 page_url: https://cepdnaclk.github.io/e17-co502-RV32IM-Pipeline-Implementation-Group1
-forks: 1
+forks: 3
 watchers: 0
 stars: 0
 started_on: '2023-08-17T16:34:18Z'
