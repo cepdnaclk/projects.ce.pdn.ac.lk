@@ -7994,7 +7994,7 @@
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
         "created_at": "2022-07-23T18:00:10Z",
         "updated_at": "2023-07-07T16:24:09Z",
-        "forks_count": 8,
+        "forks_count": 9,
         "stars_count": 4,
         "watchers_count": 4,
         "language": "Jupyter Notebook",
@@ -12063,10 +12063,10 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e17-4yp-Comprehensive-ECG-analysis-with-Deep-Learning-on-GPU-accelerators",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
         "created_at": "2023-05-22T06:53:41Z",
-        "updated_at": "2023-06-22T19:39:35Z",
+        "updated_at": "2023-08-15T08:53:27Z",
         "forks_count": 3,
-        "stars_count": 0,
-        "watchers_count": 0,
+        "stars_count": 1,
+        "watchers_count": 1,
         "language": "Jupyter Notebook",
         "topics": [],
         "has_projects": true,
@@ -13095,11 +13095,11 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e17-4yp-flexible-glove-for-real-time-tracking-and-analysis-of-hand-and-finger-movements",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
         "created_at": "2023-05-21T17:09:57Z",
-        "updated_at": "2023-06-11T13:25:41Z",
-        "forks_count": 1,
+        "updated_at": "2023-08-17T06:28:50Z",
+        "forks_count": 2,
         "stars_count": 0,
         "watchers_count": 0,
-        "language": null,
+        "language": "C++",
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
@@ -15172,6 +15172,94 @@
         "supervisors": {},
         "tags": {}
     },
+    "e17-co502-RV32IM-Pipeline-Implementation-Group1": {
+        "projName": "RV32IM Pipeline Implementation Group1",
+        "batch": "E17",
+        "category": {
+            "title": "Advanced Computer Architecture (CO502)",
+            "code": "co502",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co502/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e17-co502-RV32IM-Pipeline-Implementation-Group1",
+        "project_url": "https://projects.ce.pdn.ac.lk/co502/e17/RV32IM-Pipeline-Implementation-Group1/",
+        "page_url": "https://cepdnaclk.github.io/e17-co502-RV32IM-Pipeline-Implementation-Group1",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e17-co502-RV32IM-Pipeline-Implementation-Group1",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
+        "created_at": "2023-08-17T16:34:18Z",
+        "updated_at": "2023-08-17T16:42:22Z",
+        "forks_count": 3,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "An in-order 5-stage pipelined RISC-V CPU implementation consisting of the RV32I base ISA and the M-extension for multiplication/division operations.",
+        "team": {
+            "E/17/018": {
+                "name": "Imesh Balasuriya",
+                "email": "e17018@eng.pdn.ac.lk",
+                "website": "https://www.imesh.tech",
+                "github": "https://github.com/ImeshBalasuriya/",
+                "linkedin": "https://www.linkedin.com/in/imesh-balasuriya/",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/018",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17018.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/018/"
+            },
+            "E/17/091": {
+                "name": "Adithya Gallage",
+                "email": "e17091@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/091",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17091.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/091/"
+            },
+            "E/17/296": {
+                "name": "Ravisha Rupasinghe",
+                "email": "e17296@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/296",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17296.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/296/"
+            },
+            "E/17/342": {
+                "name": "Tharmapalan Thanujan",
+                "email": "e17342@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/342",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17342.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/342/"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            }
+        },
+        "tags": [
+            "RISC-V",
+            "Computer Architecture"
+        ]
+    },
     "e17-co502-RV32IM-pipeline-implementation-group2": {
         "projName": "RV32IM pipeline implementation group2",
         "batch": "E17",
@@ -16100,10 +16188,10 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e18-3yp-Smart-Gate-Keeping-and-Authentication-System",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
         "created_at": "2022-10-30T18:37:29Z",
-        "updated_at": "2023-04-02T22:13:47Z",
+        "updated_at": "2023-08-20T10:56:43Z",
         "forks_count": 3,
-        "stars_count": 3,
-        "watchers_count": 3,
+        "stars_count": 2,
+        "watchers_count": 2,
         "language": "JavaScript",
         "topics": [],
         "has_projects": true,
@@ -18123,7 +18211,7 @@
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/6sp/thumbnail.jpg",
         "created_at": "2023-05-22T12:08:20Z",
         "updated_at": "2023-06-08T23:54:06Z",
-        "forks_count": 3,
+        "forks_count": 4,
         "stars_count": 0,
         "watchers_count": 0,
         "language": "JavaScript",
@@ -22793,20 +22881,20 @@
         },
         "repo_url": "https://github.com/cepdnaclk/e19-co226-Auction-Website",
         "project_url": "https://projects.ce.pdn.ac.lk/co226/e19/Auction-Website/",
-        "page_url": "#",
+        "page_url": "https://cepdnaclk.github.io/e19-co226-Auction-Website",
         "api_url": "https://api.github.com/repos/cepdnaclk/e19-co226-Auction-Website",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
         "created_at": "2023-07-28T14:31:42Z",
-        "updated_at": "2023-08-06T17:06:51Z",
-        "forks_count": 1,
+        "updated_at": "2023-08-17T10:40:12Z",
+        "forks_count": 2,
         "stars_count": 0,
         "watchers_count": 0,
-        "language": "Java",
+        "language": "JavaScript",
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
-        "has_pages": false,
-        "description": "",
+        "has_pages": true,
+        "description": "Online Auction Website supports for multi customers and multi auctioneers",
         "team": {},
         "supervisors": {},
         "tags": {}
@@ -22838,6 +22926,84 @@
         "team": {},
         "supervisors": {},
         "tags": {}
+    },
+    "e19-co226-Database-for-Bank-Management-System": {
+        "projName": "Database for Bank Management System",
+        "batch": "E19",
+        "category": {
+            "title": "Database Projects (CO226)",
+            "code": "co226",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e19-co226-Database-for-Bank-Management-System",
+        "project_url": "https://projects.ce.pdn.ac.lk/co226/e19/Database-for-Bank-Management-System/",
+        "page_url": "https://cepdnaclk.github.io/e19-co226-Database-for-Bank-Management-System",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e19-co226-Database-for-Bank-Management-System",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
+        "created_at": "2023-08-15T02:06:55Z",
+        "updated_at": "2023-08-15T16:46:46Z",
+        "forks_count": 0,
+        "stars_count": 1,
+        "watchers_count": 1,
+        "language": "PHP",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "The purpose of this database is to store, manage, and retrieve information about banking transactions, account holders, and financial statistics.",
+        "team": {
+            "E/19/366": {
+                "name": "Senevirathne W.A.M.P.",
+                "email": "e19366@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/366",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19366.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/366/"
+            },
+            "E/18/059": {
+                "name": "De Silva D.M",
+                "email": "e18059@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/059",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18059.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/059/"
+            },
+            "E/19/074": {
+                "name": "Dharmarathne B.A.M.I.E.",
+                "email": "e19074@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/074",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19074.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/074/"
+            }
+        },
+        "supervisors": {
+            "manjula.sandirigama@eng.pdn.ac.lk": {
+                "name": "Dr. Manjula Sandirigama",
+                "email": "manjula.sandirigama@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/manjula-sandirigama/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/manjula-sandirigama.png",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/manjula.sandirigama",
+                "website": "",
+                "linkedin": "https://lk.linkedin.com/in/manjula-sandirigama-0622784",
+                "researchgate": "",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=qpmlrL0AAAAJ"
+            }
+        },
+        "tags": [
+            "DBMS",
+            "MySQL",
+            "E19"
+        ]
     },
     "e19-co226-Database-for-Cricket-Statistics": {
         "projName": "Database for Cricket Statistics",
@@ -23015,7 +23181,7 @@
         },
         "repo_url": "https://github.com/cepdnaclk/e19-co226-Flight-Management-System",
         "project_url": "https://projects.ce.pdn.ac.lk/co226/e19/Flight-Management-System/",
-        "page_url": "#",
+        "page_url": "https://cepdnaclk.github.io/e19-co226-Flight-Management-System",
         "api_url": "https://api.github.com/repos/cepdnaclk/e19-co226-Flight-Management-System",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
         "created_at": "2023-08-06T17:08:19Z",
@@ -23027,11 +23193,74 @@
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
-        "has_pages": false,
+        "has_pages": true,
         "description": "",
-        "team": {},
-        "supervisors": {},
-        "tags": {}
+        "team": {
+            "E/19/426": {
+                "name": "Weerasinghe P.M.",
+                "email": "e19426@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/426",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19426.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/426/"
+            },
+            "E/19/310": {
+                "name": "Ranage R.D.P.R.",
+                "email": "e19310@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/310",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19310.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/310/"
+            },
+            "E/19/453": {
+                "name": "Withanaarachchi W.A.A.M.T.",
+                "email": "e19453@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/AkashMuthumal",
+                "linkedin": "https://www.linkedin.com/in/akash-withanaarachchi-185006245",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/453",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19453.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/453/"
+            }
+        },
+        "supervisors": {
+            "manjula.sandirigama@eng.pdn.ac.lk": {
+                "name": "Dr. Manjula Sandirigama",
+                "email": "manjula.sandirigama@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/manjula-sandirigama/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/manjula-sandirigama.png",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/manjula.sandirigama",
+                "website": "",
+                "linkedin": "https://lk.linkedin.com/in/manjula-sandirigama-0622784",
+                "researchgate": "",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=qpmlrL0AAAAJ"
+            },
+            "kamalanath@eng.pdn.ac.lk": {
+                "name": "Dr. Eng. Kamalanath Samarakoon",
+                "email": "kamalanath@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/kamalanath-samarakoon/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/kamalanath-samarakoon.png",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/kamalanath",
+                "website": "http://kamalanath.samarakoon.info/",
+                "linkedin": "https://www.linkedin.com/in/kamalanath-samarakoon-7188549/",
+                "researchgate": "https://www.researchgate.net/profile/Kamalanath-Samarakoon",
+                "google_scholar": "https://scholar.google.com/citations?user=DsG-K0sAAAAJ&hl=en"
+            }
+        },
+        "tags": [
+            "Web",
+            "HTML",
+            "CSS",
+            "PHP",
+            "Flight Management"
+        ]
     },
     "e19-co226-Medical-Clinic-Manager": {
         "projName": "Medical Clinic Manager",
@@ -23122,29 +23351,29 @@
         },
         "tags": {}
     },
-    "e19-co226-Online-Grocerry-Shop": {
-        "projName": "Online Grocerry Shop",
+    "e19-co226-Online-Grocery-Shop": {
+        "projName": "Online Grocery Shop",
         "batch": "E19",
         "category": {
             "title": "Database Projects (CO226)",
             "code": "co226",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/"
         },
-        "repo_url": "https://github.com/cepdnaclk/e19-co226-Online-Grocerry-Shop",
-        "project_url": "https://projects.ce.pdn.ac.lk/co226/e19/Online-Grocerry-Shop/",
-        "page_url": "#",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e19-co226-Online-Grocerry-Shop",
+        "repo_url": "https://github.com/cepdnaclk/e19-co226-Online-Grocery-Shop",
+        "project_url": "https://projects.ce.pdn.ac.lk/co226/e19/Online-Grocery-Shop/",
+        "page_url": "https://cepdnaclk.github.io/e19-co226-Online-Grocery-Shop",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e19-co226-Online-Grocery-Shop",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
         "created_at": "2023-08-11T04:15:30Z",
-        "updated_at": "2023-08-13T11:01:50Z",
-        "forks_count": 2,
+        "updated_at": "2023-08-14T00:49:11Z",
+        "forks_count": 3,
         "stars_count": 0,
         "watchers_count": 0,
         "language": "PHP",
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
-        "has_pages": false,
+        "has_pages": true,
         "description": "",
         "team": {},
         "supervisors": {},
@@ -23164,12 +23393,25 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e19-co226-Online-Learning-Platform",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
         "created_at": "2023-07-23T09:28:19Z",
-        "updated_at": "2023-08-11T15:04:16Z",
+        "updated_at": "2023-08-15T16:21:36Z",
         "forks_count": 3,
         "stars_count": 0,
         "watchers_count": 0,
         "language": "JavaScript",
-        "topics": [],
+        "topics": [
+            "co226-projects",
+            "e19-co226",
+            "e19-co226-projects",
+            "html",
+            "java",
+            "javascript",
+            "mysql",
+            "nodejs",
+            "react",
+            "react-router",
+            "springboot",
+            "tailwindcss"
+        ],
         "has_projects": true,
         "has_wiki": true,
         "has_pages": true,
@@ -23210,17 +23452,6 @@
             }
         },
         "supervisors": {
-            "kamalanath@eng.pdn.ac.lk": {
-                "name": "Dr. Eng. Kamalanath Samarakoon",
-                "email": "kamalanath@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/kamalanath-samarakoon/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/kamalanath-samarakoon.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/kamalanath",
-                "website": "http://kamalanath.samarakoon.info/",
-                "linkedin": "https://www.linkedin.com/in/kamalanath-samarakoon-7188549/",
-                "researchgate": "https://www.researchgate.net/profile/Kamalanath-Samarakoon",
-                "google_scholar": "https://scholar.google.com/citations?user=DsG-K0sAAAAJ&hl=en"
-            },
             "manjula.sandirigama@eng.pdn.ac.lk": {
                 "name": "Dr. Manjula Sandirigama",
                 "email": "manjula.sandirigama@eng.pdn.ac.lk",
@@ -23412,7 +23643,7 @@
         },
         "repo_url": "https://github.com/cepdnaclk/e19-co226-Online-Student-Registration-System",
         "project_url": "https://projects.ce.pdn.ac.lk/co226/e19/Online-Student-Registration-System/",
-        "page_url": "#",
+        "page_url": "https://cepdnaclk.github.io/e19-co226-Online-Student-Registration-System",
         "api_url": "https://api.github.com/repos/cepdnaclk/e19-co226-Online-Student-Registration-System",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
         "created_at": "2023-08-07T17:37:57Z",
@@ -23424,10 +23655,67 @@
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
-        "has_pages": false,
+        "has_pages": true,
         "description": "",
-        "team": {},
-        "supervisors": {},
+        "team": {
+            "E/19/096": {
+                "name": "E.M.C.Y.B.Ekanayake",
+                "email": "e19096@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/096",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19096.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/096/"
+            },
+            "E/19/100": {
+                "name": "E.P.S.G.Ellewela",
+                "email": "e19100@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/100",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19100.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/100/"
+            },
+            "E/19/495": {
+                "name": "A.G.D.C.Thilakarathne",
+                "email": "e19495@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/495",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19495.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/495/"
+            }
+        },
+        "supervisors": {
+            "manjula.sandirigama@eng.pdn.ac.lk": {
+                "name": "Dr. Manjula Sandirigama",
+                "email": "manjula.sandirigama@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/manjula-sandirigama/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/manjula-sandirigama.png",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/manjula.sandirigama",
+                "website": "",
+                "linkedin": "https://lk.linkedin.com/in/manjula-sandirigama-0622784",
+                "researchgate": "",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=qpmlrL0AAAAJ"
+            },
+            "kamalanath@eng.pdn.ac.lk": {
+                "name": "Dr. Eng. Kamalanath Samarakoon",
+                "email": "kamalanath@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/kamalanath-samarakoon/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/kamalanath-samarakoon.png",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/kamalanath",
+                "website": "http://kamalanath.samarakoon.info/",
+                "linkedin": "https://www.linkedin.com/in/kamalanath-samarakoon-7188549/",
+                "researchgate": "https://www.researchgate.net/profile/Kamalanath-Samarakoon",
+                "google_scholar": "https://scholar.google.com/citations?user=DsG-K0sAAAAJ&hl=en"
+            }
+        },
         "tags": {}
     },
     "e19-co226-Warehouse-Management-System": {
@@ -23574,7 +23862,7 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e19-co226-database-management-system-for-a-restaurant",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
         "created_at": "2023-07-23T14:37:54Z",
-        "updated_at": "2023-08-09T10:13:18Z",
+        "updated_at": "2023-08-16T02:40:22Z",
         "forks_count": 3,
         "stars_count": 2,
         "watchers_count": 2,
@@ -23692,49 +23980,6 @@
         "team": {},
         "supervisors": {},
         "tags": {}
-    },
-    "e19-co227-A-demonstration-project": {
-        "projName": "A demonstration project",
-        "batch": "E19",
-        "category": {
-            "title": "Software Systems Projects",
-            "code": "co227",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e19-co227-A-demonstration-project",
-        "project_url": "https://projects.ce.pdn.ac.lk/co227/e19/A-demonstration-project/",
-        "page_url": "https://cepdnaclk.github.io/e19-co227-A-demonstration-project",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e19-co227-A-demonstration-project",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
-        "created_at": "2023-08-11T04:12:08Z",
-        "updated_at": "2023-08-11T05:03:04Z",
-        "forks_count": 0,
-        "stars_count": 0,
-        "watchers_count": 0,
-        "language": null,
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "",
-        "team": {
-            "E/15/140": {
-                "name": "Nuwan",
-                "email": "nuwanjaliyagoda@eng.pdn.ac.lk",
-                "website": "https://nuwanjaliyagoda.com/",
-                "github": "https://github.com/NuwanJ",
-                "linkedin": "https://www.linkedin.com/in/nuwan-jaliyagoda/",
-                "researchgate": "https://www.researchgate.net/profile/Nuwan-Jaliyagoda",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E15/140",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15140.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/140/"
-            }
-        },
-        "supervisors": {},
-        "tags": [
-            "Test",
-            "GitHub"
-        ]
     },
     "e19-co227-practice": {
         "projName": "practice",
