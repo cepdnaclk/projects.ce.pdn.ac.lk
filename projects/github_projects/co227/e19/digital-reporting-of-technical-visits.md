@@ -10,7 +10,7 @@ grand_parent: Software Systems Projects
 cover_url: /data/categories/co227/cover_page.jpg
 thumbnail_url: /data/categories/co227/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co227-digital-reporting-of-technical-visits
-page_url: blank
+page_url: https://cepdnaclk.github.io/e19-co227-digital-reporting-of-technical-visits
 forks: 3
 watchers: 0
 stars: 0
