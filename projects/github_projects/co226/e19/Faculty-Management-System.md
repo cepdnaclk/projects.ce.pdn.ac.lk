@@ -12,7 +12,7 @@ grand_parent: Database Projects (CO226)
 cover_url: /data/categories/co226/cover_page.jpg
 thumbnail_url: /data/categories/co226/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co226-Faculty-Management-System
-page_url: blank
+page_url: https://cepdnaclk.github.io/e19-co226-Faculty-Management-System
 forks: 0
 watchers: 0
 stars: 0
