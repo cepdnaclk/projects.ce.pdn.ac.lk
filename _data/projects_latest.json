@@ -1,198 +1,41 @@
 {
-    "e18-3yp-Smart-Gate-Keeping-and-Authentication-System": {
-        "projName": "Smart Gate Keeping and Authentication System",
-        "batch": "E18",
-        "category": {
-            "title": "Cyber-Physical Systems Projects",
-            "code": "3yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e18-3yp-Smart-Gate-Keeping-and-Authentication-System",
-        "project_url": "/3yp/e18/Smart-Gate-Keeping-and-Authentication-System/",
-        "page_url": "https://cepdnaclk.github.io/e18-3yp-Smart-Gate-Keeping-and-Authentication-System",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e18-3yp-Smart-Gate-Keeping-and-Authentication-System",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-        "created_at": "2022-10-30T18:37:29Z",
-        "updated_at": "2023-08-20T10:56:43Z",
-        "forks_count": 3,
-        "stars_count": 2,
-        "watchers_count": 2,
-        "language": "JavaScript",
+    "e19-co227-Leaf-Colour-Quantifier": {
+        "projName": "Leaf Colour Quantifier",
+        "batch": "E19",
+        "category": "Software Systems Projects",
+        "repo_url": "https://github.com/cepdnaclk/e19-co227-Leaf-Colour-Quantifier",
+        "project_url": "/co227/e19/Leaf-Colour-Quantifier",
+        "page_url": null,
+        "api_url": "https://api.github.com/repos/cepdnaclk/e19-co227-Leaf-Colour-Quantifier",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
+        "created_at": "2023-08-27T11:18:58Z",
+        "updated_at": "2023-08-27T18:30:15Z",
+        "forks_count": 0,
+        "stars_count": 1,
+        "watchers_count": 1,
+        "language": "Python",
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
         "has_pages": true,
-        "description": "This is a system that controls the access of persons to various premises.   It has a highly accurate attendance recording system and a data management system connected that is connected the hardware system.",
-        "team": {
-            "E/18/068": {
-                "name": "Devinda G.C.",
-                "email": "e18068@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/chirandevinda",
-                "linkedin": "https://www.linkedin.com/in/chiran-devinda-3a1a3023a/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/068",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18068.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/068/"
-            },
-            "E/18/330": {
-                "name": "Sewwandi H.R.",
-                "email": "e18330@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/RoshilaHatharasinghe",
-                "linkedin": "https://www.linkedin.com/in/roshila-hatharasinghe-978591213/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/330",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18330.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/330/"
-            },
-            "E/18/368": {
-                "name": "Uduwanage H.U.",
-                "email": "e18368@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/368",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18368.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/368/"
-            }
-        },
-        "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            },
-            "mahanamaw@eng.pdn.ac.lk": {
-                "name": "Dr. Mahanama Wickramasinghe",
-                "email": "mahanamaw@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/mahanama-wickramasinghe/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/mahanama",
-                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
-            }
-        },
-        "tags": [
-            "Web",
-            "Embedded Systems"
-        ],
-        "name": "e18-3yp-Smart-Gate-Keeping-and-Authentication-System"
+        "name": "e19-co227-Leaf-Colour-Quantifier"
     },
-    "e17-co502-RV32IM-Pipeline-Implementation-Group1": {
-        "projName": "RV32IM Pipeline Implementation Group1",
-        "batch": "E17",
-        "category": {
-            "title": "Advanced Computer Architecture (CO502)",
-            "code": "co502",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co502/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e17-co502-RV32IM-Pipeline-Implementation-Group1",
-        "project_url": "/co502/e17/RV32IM-Pipeline-Implementation-Group1/",
-        "page_url": "https://cepdnaclk.github.io/e17-co502-RV32IM-Pipeline-Implementation-Group1",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e17-co502-RV32IM-Pipeline-Implementation-Group1",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
-        "created_at": "2023-08-17T16:34:18Z",
-        "updated_at": "2023-08-17T16:42:22Z",
-        "forks_count": 3,
-        "stars_count": 0,
-        "watchers_count": 0,
-        "language": null,
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "An in-order 5-stage pipelined RISC-V CPU implementation consisting of the RV32I base ISA and the M-extension for multiplication/division operations.",
-        "team": {
-            "E/17/018": {
-                "name": "Imesh Balasuriya",
-                "email": "e17018@eng.pdn.ac.lk",
-                "website": "https://www.imesh.tech",
-                "github": "https://github.com/ImeshBalasuriya/",
-                "linkedin": "https://www.linkedin.com/in/imesh-balasuriya/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/018",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17018.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/018/"
-            },
-            "E/17/091": {
-                "name": "Adithya Gallage",
-                "email": "e17091@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/091",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17091.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/091/"
-            },
-            "E/17/296": {
-                "name": "Ravisha Rupasinghe",
-                "email": "e17296@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/296",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17296.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/296/"
-            },
-            "E/17/342": {
-                "name": "Tharmapalan Thanujan",
-                "email": "e17342@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/342",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17342.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/342/"
-            }
-        },
-        "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            }
-        },
-        "tags": [
-            "RISC-V",
-            "Computer Architecture"
-        ],
-        "name": "e17-co502-RV32IM-Pipeline-Implementation-Group1"
-    },
-    "e19-co226-Auction-Website": {
-        "projName": "Auction Website",
+    "e19-co227-Online-Retail-System": {
+        "projName": "Online Retail System",
         "batch": "E19",
         "category": {
-            "title": "Database Projects (CO226)",
-            "code": "co226",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/"
+            "title": "Software Systems Projects",
+            "code": "co227",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/"
         },
-        "repo_url": "https://github.com/cepdnaclk/e19-co226-Auction-Website",
-        "project_url": "/co226/e19/Auction-Website/",
-        "page_url": "https://cepdnaclk.github.io/e19-co226-Auction-Website",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e19-co226-Auction-Website",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
-        "created_at": "2023-07-28T14:31:42Z",
-        "updated_at": "2023-08-17T10:40:12Z",
-        "forks_count": 2,
+        "repo_url": "https://github.com/cepdnaclk/e19-co227-Online-Retail-System",
+        "project_url": "/co227/e19/Online-Retail-System/",
+        "page_url": "https://cepdnaclk.github.io/e19-co227-Online-Retail-System",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e19-co227-Online-Retail-System",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
+        "created_at": "2023-08-22T07:04:51Z",
+        "updated_at": "2023-08-27T14:32:53Z",
+        "forks_count": 1,
         "stars_count": 0,
         "watchers_count": 0,
         "language": "JavaScript",
@@ -200,86 +43,57 @@
         "has_projects": true,
         "has_wiki": true,
         "has_pages": true,
-        "description": "Online Auction Website supports for multi customers and multi auctioneers",
-        "team": {},
-        "supervisors": {},
-        "tags": {},
-        "name": "e19-co226-Auction-Website"
-    },
-    "e17-4yp-flexible-glove-for-real-time-tracking-and-analysis-of-hand-and-finger-movements": {
-        "projName": "flexible glove for real time tracking and analysis of hand and finger movements",
-        "batch": "E17",
-        "category": {
-            "title": "Undergraduate Research Projects",
-            "code": "4yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e17-4yp-flexible-glove-for-real-time-tracking-and-analysis-of-hand-and-finger-movements",
-        "project_url": "/4yp/e17/flexible-glove-for-real-time-tracking-and-analysis-of-hand-and-finger-movements/",
-        "page_url": "https://cepdnaclk.github.io/e17-4yp-flexible-glove-for-real-time-tracking-and-analysis-of-hand-and-finger-movements",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e17-4yp-flexible-glove-for-real-time-tracking-and-analysis-of-hand-and-finger-movements",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2023-05-21T17:09:57Z",
-        "updated_at": "2023-08-17T06:28:50Z",
-        "forks_count": 2,
-        "stars_count": 0,
-        "watchers_count": 0,
-        "language": "C++",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "This research proposes a flexible glove embedded with 9-axis IMUs for real-time tracking and analysis of hand movements, revolutionizing remote training in various fields.",
+        "description": "This is a Online retail system . Users can act as Customers or Store Owners. Customers can add and remove items from their cart and simulate payment. Store Owners can add and remove items.",
         "team": {
-            "E/17/065": {
-                "name": "Kanishka Dilhan",
-                "email": "e17065@eng.pdn.ac.lk",
+            "E/19/413": {
+                "name": "Viduranga G.G.N.",
+                "email": "e19413@eng.pdn.ac.lk",
                 "website": "",
                 "github": "",
                 "linkedin": "",
                 "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/065",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17065.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/065/"
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/413",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19413.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/413/"
             },
-            "E/17/212": {
-                "name": "Dananjaya Morais",
-                "email": "e17212@eng.pdn.ac.lk",
+            "E/19/170": {
+                "name": "K.N.N.JAYAWARDHANA",
+                "email": "e19170@eng.pdn.ac.lk",
                 "website": "",
                 "github": "",
                 "linkedin": "",
                 "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/212",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17212.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/212/"
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/170",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19170.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/170/"
             },
-            "E/17/312": {
-                "name": "Ishini Udara",
-                "email": "e17312@eng.pdn.ac.lk",
+            "E/19/349": {
+                "name": "Sandaruwan K.G.S.T",
+                "email": "e19349@eng.pdn.ac.lk",
                 "website": "",
                 "github": "",
                 "linkedin": "",
                 "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/312",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17312.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/312/"
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/349",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19349.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/349/"
+            },
+            "E/19/193": {
+                "name": "Kaushalya N.V.K.",
+                "email": "e19193@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/193",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19193.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/193/"
             }
         },
         "supervisors": {
-            "roshanr@pdn.ac.lk": {
-                "name": "Prof. Roshan G. Ragel",
-                "email": "roshanr@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/roshan-ragel.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/roshanr",
-                "website": "http://roshan.ragel.net/",
-                "linkedin": "https://www.linkedin.com/in/roshanragel/",
-                "researchgate": "https://www.researchgate.net/profile/Roshan-Ragel",
-                "google_scholar": "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
-            },
-            "titus@eng.pdn.ac.lk": {
-                "name": "Dr. Titus Jayarathne",
-                "email": "titus@eng.pdn.ac.lk",
+            "damithas@eng.pdn.ac.lk": {
+                "name": "Damitha Senevirathne",
+                "email": "damithas@eng.pdn.ac.lk",
                 "profile_url": "#",
                 "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
                 "api_url": "#",
@@ -290,37 +104,66 @@
             }
         },
         "tags": [
-            "Final Year Projects"
+            "Online Retail System"
         ],
-        "name": "e17-4yp-flexible-glove-for-real-time-tracking-and-analysis-of-hand-and-finger-movements"
+        "name": "e19-co227-Online-Retail-System"
     },
-    "e19-co226-database-management-system-for-a-restaurant": {
-        "projName": "database management system for a restaurant",
+    "e19-co227-Empowering-Counselors-and-Students-through-Interactive-Web-and-Mobile-App": {
+        "projName": "Empowering Counselors and Students through Interactive Web and Mobile App",
         "batch": "E19",
         "category": {
-            "title": "Database Projects (CO226)",
-            "code": "co226",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/"
+            "title": "Software Systems Projects",
+            "code": "co227",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/"
         },
-        "repo_url": "https://github.com/cepdnaclk/e19-co226-database-management-system-for-a-restaurant",
-        "project_url": "/co226/e19/database-management-system-for-a-restaurant/",
-        "page_url": "https://cepdnaclk.github.io/e19-co226-database-management-system-for-a-restaurant",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e19-co226-database-management-system-for-a-restaurant",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
-        "created_at": "2023-07-23T14:37:54Z",
-        "updated_at": "2023-08-16T02:40:22Z",
+        "repo_url": "https://github.com/cepdnaclk/e19-co227-Empowering-Counselors-and-Students-through-Interactive-Web-and-Mobile-App",
+        "project_url": "/co227/e19/Empowering-Counselors-and-Students-through-Interactive-Web-and-Mobile-App/",
+        "page_url": "#",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e19-co227-Empowering-Counselors-and-Students-through-Interactive-Web-and-Mobile-App",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
+        "created_at": "2023-08-22T02:20:46Z",
+        "updated_at": "2023-08-27T13:35:55Z",
+        "forks_count": 4,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": "Dart",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "description": "Introducing Bloomi: Your all-in-one app for seamless student-counselor communication. Easily schedule appointments, access resources, and join workshops. Counselors can efficiently manage appointments and track progress. Open-source and highly secure, Bloomi redefines educational counseling. Join the revolution today!",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e19-co227-Empowering-Counselors-and-Students-through-Interactive-Web-and-Mobile-App"
+    },
+    "e19-co227-digital-reporting-of-technical-visits": {
+        "projName": "digital reporting of technical visits",
+        "batch": "E19",
+        "category": {
+            "title": "Software Systems Projects",
+            "code": "co227",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e19-co227-digital-reporting-of-technical-visits",
+        "project_url": "/co227/e19/digital-reporting-of-technical-visits/",
+        "page_url": "https://cepdnaclk.github.io/e19-co227-digital-reporting-of-technical-visits",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e19-co227-digital-reporting-of-technical-visits",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
+        "created_at": "2023-08-21T11:11:17Z",
+        "updated_at": "2023-08-26T21:09:17Z",
         "forks_count": 3,
-        "stars_count": 2,
-        "watchers_count": 2,
-        "language": "JavaScript",
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": "C++",
         "topics": [
-            "co226-projects",
-            "e19-co226-projects"
+            "co227",
+            "e19-co227"
         ],
         "has_projects": true,
         "has_wiki": true,
         "has_pages": true,
-        "description": "A restaurant database system to simplify customer data management, enhancing service and personalization. It tracks menu inventory, staff schedules, and reservations seamlessly, revolutionizing restaurant operations. Elevate the customer experience with our comprehensive solution.",
+        "description": "VisitLog: Seamless site-visit reports in a snap. Technicians log repairs, troubleshooting & maintenance. Verified by clients for total transparency",
         "team": {
             "E/19/008": {
                 "name": "Adhikari R.A.J.C.",
@@ -334,7 +177,7 @@
                 "profile_url": "https://people.ce.pdn.ac.lk/students/e19/008/"
             },
             "E/19/009": {
-                "name": "Adikari A.M.K.M.",
+                "name": "Adhikari A.M.K.M.",
                 "email": "e19009@eng.pdn.ac.lk",
                 "website": "",
                 "github": "",
@@ -354,250 +197,17 @@
                 "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/063",
                 "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19063.jpg",
                 "profile_url": "https://people.ce.pdn.ac.lk/students/e19/063/"
-            }
-        },
-        "supervisors": {
-            "manjula.sandirigama@eng.pdn.ac.lk": {
-                "name": "Dr. Manjula Sandirigama",
-                "email": "manjula.sandirigama@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/manjula-sandirigama/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/manjula-sandirigama.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/manjula.sandirigama",
-                "website": "",
-                "linkedin": "https://lk.linkedin.com/in/manjula-sandirigama-0622784",
-                "researchgate": "",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=qpmlrL0AAAAJ"
-            }
-        },
-        "tags": {},
-        "name": "e19-co226-database-management-system-for-a-restaurant"
-    },
-    "e19-co226-Database-for-Bank-Management-System": {
-        "projName": "Database for Bank Management System",
-        "batch": "E19",
-        "category": {
-            "title": "Database Projects (CO226)",
-            "code": "co226",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e19-co226-Database-for-Bank-Management-System",
-        "project_url": "/co226/e19/Database-for-Bank-Management-System/",
-        "page_url": "https://cepdnaclk.github.io/e19-co226-Database-for-Bank-Management-System",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e19-co226-Database-for-Bank-Management-System",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
-        "created_at": "2023-08-15T02:06:55Z",
-        "updated_at": "2023-08-15T16:46:46Z",
-        "forks_count": 0,
-        "stars_count": 1,
-        "watchers_count": 1,
-        "language": "PHP",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "The purpose of this database is to store, manage, and retrieve information about banking transactions, account holders, and financial statistics.",
-        "team": {
-            "E/19/366": {
-                "name": "Senevirathne W.A.M.P.",
-                "email": "e19366@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/366",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19366.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/366/"
             },
-            "E/18/059": {
-                "name": "De Silva D.M",
-                "email": "e18059@eng.pdn.ac.lk",
+            "E/19/324": {
+                "name": "Rathnayake R.M.B.D.K.",
+                "email": "e19324@eng.pdn.ac.lk",
                 "website": "",
                 "github": "",
                 "linkedin": "",
                 "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/059",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18059.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/059/"
-            },
-            "E/19/074": {
-                "name": "Dharmarathne B.A.M.I.E.",
-                "email": "e19074@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/074",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19074.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/074/"
-            }
-        },
-        "supervisors": {
-            "manjula.sandirigama@eng.pdn.ac.lk": {
-                "name": "Dr. Manjula Sandirigama",
-                "email": "manjula.sandirigama@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/manjula-sandirigama/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/manjula-sandirigama.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/manjula.sandirigama",
-                "website": "",
-                "linkedin": "https://lk.linkedin.com/in/manjula-sandirigama-0622784",
-                "researchgate": "",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=qpmlrL0AAAAJ"
-            }
-        },
-        "tags": [
-            "DBMS",
-            "MySQL",
-            "E19"
-        ],
-        "name": "e19-co226-Database-for-Bank-Management-System"
-    },
-    "e19-co226-Online-Learning-Platform": {
-        "projName": "Online Learning Platform",
-        "batch": "E19",
-        "category": {
-            "title": "Database Projects (CO226)",
-            "code": "co226",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e19-co226-Online-Learning-Platform",
-        "project_url": "/co226/e19/Online-Learning-Platform/",
-        "page_url": "https://cepdnaclk.github.io/e19-co226-Online-Learning-Platform",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e19-co226-Online-Learning-Platform",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
-        "created_at": "2023-07-23T09:28:19Z",
-        "updated_at": "2023-08-15T16:21:36Z",
-        "forks_count": 3,
-        "stars_count": 0,
-        "watchers_count": 0,
-        "language": "JavaScript",
-        "topics": [
-            "co226-projects",
-            "e19-co226",
-            "e19-co226-projects",
-            "html",
-            "java",
-            "javascript",
-            "mysql",
-            "nodejs",
-            "react",
-            "react-router",
-            "springboot",
-            "tailwindcss"
-        ],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "LearnEdge is an innovative Online Learning Platform, empowering learners worldwide and connecting educational institutions globally.",
-        "team": {
-            "E/19/095": {
-                "name": "Edirisinghe E.M.L.K.",
-                "email": "e19095@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/lakshithaKaveen",
-                "linkedin": "https://www.linkedin.com/in/lakshitha-edirisinghe-128633244/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/095",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19095.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/095/"
-            },
-            "E/19/253": {
-                "name": "Narasinghe N.K.B.I.U.",
-                "email": "e19253@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/253",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19253.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/253/"
-            },
-            "E/19/306": {
-                "name": "Rajakaruna M.M.P.N.",
-                "email": "e19306@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/306",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19306.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/306/"
-            }
-        },
-        "supervisors": {
-            "manjula.sandirigama@eng.pdn.ac.lk": {
-                "name": "Dr. Manjula Sandirigama",
-                "email": "manjula.sandirigama@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/manjula-sandirigama/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/manjula-sandirigama.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/manjula.sandirigama",
-                "website": "",
-                "linkedin": "https://lk.linkedin.com/in/manjula-sandirigama-0622784",
-                "researchgate": "",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=qpmlrL0AAAAJ"
-            }
-        },
-        "tags": [
-            "DBMS"
-        ],
-        "name": "e19-co226-Online-Learning-Platform"
-    },
-    "e17-4yp-Comprehensive-ECG-analysis-with-Deep-Learning-on-GPU-accelerators": {
-        "projName": "Comprehensive ECG analysis with Deep Learning on GPU accelerators",
-        "batch": "E17",
-        "category": {
-            "title": "Undergraduate Research Projects",
-            "code": "4yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e17-4yp-Comprehensive-ECG-analysis-with-Deep-Learning-on-GPU-accelerators",
-        "project_url": "/4yp/e17/Comprehensive-ECG-analysis-with-Deep-Learning-on-GPU-accelerators/",
-        "page_url": "https://cepdnaclk.github.io/e17-4yp-Comprehensive-ECG-analysis-with-Deep-Learning-on-GPU-accelerators",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e17-4yp-Comprehensive-ECG-analysis-with-Deep-Learning-on-GPU-accelerators",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2023-05-22T06:53:41Z",
-        "updated_at": "2023-08-15T08:53:27Z",
-        "forks_count": 3,
-        "stars_count": 1,
-        "watchers_count": 1,
-        "language": "Jupyter Notebook",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "Objective: Developing a GPU accelerated Deep Learning algorithm for ECG analysis which works like the MUSE ECG system and optimizing it as an open-source, portable, and low-power GPU alternative, capable of providing comprehensive analysis.",
-        "team": {
-            "E/17/006": {
-                "name": "Alahakoon A.M.H.H",
-                "email": "e17006@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/006",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17006.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/006/"
-            },
-            "E/17/242": {
-                "name": "Perera C.R.M",
-                "email": "e17242@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/242",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17242.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/242/"
-            },
-            "E/17/338": {
-                "name": "Srimal R.M.L.C",
-                "email": "e17338@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/338",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17338.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/338/"
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/324",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19324.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/324/"
             }
         },
         "supervisors": {
@@ -611,18 +221,82 @@
                 "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
                 "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
                 "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            },
-            "mahanamaw@eng.pdn.ac.lk": {
-                "name": "Dr. Mahanama Wickramasinghe",
-                "email": "mahanamaw@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/mahanama-wickramasinghe/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
+            }
+        },
+        "tags": {},
+        "name": "e19-co227-digital-reporting-of-technical-visits"
+    },
+    "e19-co227-Plants-disease-dataset-collection-in-SriLanka": {
+        "projName": "Plants disease dataset collection in SriLanka",
+        "batch": "E19",
+        "category": {
+            "title": "Software Systems Projects",
+            "code": "co227",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e19-co227-Plants-disease-dataset-collection-in-SriLanka",
+        "project_url": "/co227/e19/Plants-disease-dataset-collection-in-SriLanka/",
+        "page_url": "https://cepdnaclk.github.io/e19-co227-Plants-disease-dataset-collection-in-SriLanka",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e19-co227-Plants-disease-dataset-collection-in-SriLanka",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
+        "created_at": "2023-08-25T15:46:48Z",
+        "updated_at": "2023-08-25T16:36:13Z",
+        "forks_count": 0,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "Let's work together to make plant disease information more accessible and contribute to healthier crops and ecosystems!",
+        "team": {
+            "E/19/007": {
+                "name": "Thulasitharan Achsuthan",
+                "email": "e19007@eng.pdn.ac.lk",
                 "website": "",
-                "linkedin": "https://www.linkedin.com/in/mahanama",
-                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/007",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19007.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/007/"
             },
+            "E/19/069": {
+                "name": "Delini Sellar",
+                "email": "e19069@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/069",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19069.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/069/"
+            },
+            "E/19/134": {
+                "name": "Murugadas Harnan",
+                "email": "e19134@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/134",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19134.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/134/"
+            },
+            "E/19/174": {
+                "name": "Shanthakumar Jegatheesan",
+                "email": "e19174@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/174",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19174.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/174/"
+            }
+        },
+        "supervisors": {
             "roshanr@eng.pdn.ac.lk": {
                 "name": "Prof. Roshan G. Ragel",
                 "email": "roshanr@eng.pdn.ac.lk",
@@ -633,22 +307,96 @@
                 "linkedin": "https://www.linkedin.com/in/roshanragel/",
                 "researchgate": "https://www.researchgate.net/profile/Roshan-Ragel",
                 "google_scholar": "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
-            },
-            "vajira@simula.no": {
-                "name": "Dr. Vajira Thambawita",
-                "email": "vajira@simula.no",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/visiting-research-fellows/",
-                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/fellows/vajira-thambawita.jpg",
-                "api_url": "#",
-                "website": "#",
-                "linkedin": "https://lk.linkedin.com/in/vlbthambawita",
-                "researchgate": "https://www.researchgate.net/profile/Vajira-Thambawita-2",
-                "google_scholar": "#"
             }
         },
-        "tags": [
-            "Final Year Projects"
-        ],
-        "name": "e17-4yp-Comprehensive-ECG-analysis-with-Deep-Learning-on-GPU-accelerators"
+        "tags": {},
+        "name": "e19-co227-Plants-disease-dataset-collection-in-SriLanka"
+    },
+    "e19-co227-Inventory-Management-System-of-Agricultural-Biotechnology-Centre": {
+        "projName": "Inventory Management System of Agricultural Biotechnology Centre",
+        "batch": "E19",
+        "category": {
+            "title": "Software Systems Projects",
+            "code": "co227",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e19-co227-Inventory-Management-System-of-Agricultural-Biotechnology-Centre",
+        "project_url": "/co227/e19/Inventory-Management-System-of-Agricultural-Biotechnology-Centre/",
+        "page_url": "#",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e19-co227-Inventory-Management-System-of-Agricultural-Biotechnology-Centre",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
+        "created_at": "2023-08-24T11:07:04Z",
+        "updated_at": "2023-08-25T14:20:41Z",
+        "forks_count": 0,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": "JavaScript",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "description": "",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e19-co227-Inventory-Management-System-of-Agricultural-Biotechnology-Centre"
+    },
+    "e17-co502-RV32IM-and-PipelineProcessor-and-Extention-Group_3": {
+        "projName": "RV32IM and PipelineProcessor and Extention Group_3",
+        "batch": "E17",
+        "category": {
+            "title": "Advanced Computer Architecture (CO502)",
+            "code": "co502",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co502/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e17-co502-RV32IM-and-PipelineProcessor-and-Extention-Group_3",
+        "project_url": "/co502/e17/RV32IM-and-PipelineProcessor-and-Extention-Group_3/",
+        "page_url": "#",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e17-co502-RV32IM-and-PipelineProcessor-and-Extention-Group_3",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
+        "created_at": "2023-08-22T08:08:55Z",
+        "updated_at": "2023-08-24T05:47:33Z",
+        "forks_count": 0,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "description": "",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e17-co502-RV32IM-and-PipelineProcessor-and-Extention-Group_3"
+    },
+    "e19-co227-Automatic-IC-Testing": {
+        "projName": "Automatic IC Testing",
+        "batch": "E19",
+        "category": {
+            "title": "Software Systems Projects",
+            "code": "co227",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e19-co227-Automatic-IC-Testing",
+        "project_url": "/co227/e19/Automatic-IC-Testing/",
+        "page_url": "#",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e19-co227-Automatic-IC-Testing",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
+        "created_at": "2023-08-24T03:09:46Z",
+        "updated_at": "2023-08-24T03:09:47Z",
+        "forks_count": 0,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "description": "",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e19-co227-Automatic-IC-Testing"
     }
 }
