@@ -13,7 +13,7 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-3yp-Road-Traffic-Ecosystem
 page_url: https://cepdnaclk.github.io/e18-3yp-Road-Traffic-Ecosystem
-forks: 2
+forks: 3
 watchers: 1
 stars: 1
 started_on: '2022-10-29T19:55:31Z'
