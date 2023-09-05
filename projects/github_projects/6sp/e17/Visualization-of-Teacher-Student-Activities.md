@@ -12,8 +12,8 @@ thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-6sp-Visualization-of-Teacher-Student-Activities
 page_url: https://cepdnaclk.github.io/e17-6sp-Visualization-of-Teacher-Student-Activities
 forks: 4
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2022-02-28T03:52:32Z'
 ---
 
