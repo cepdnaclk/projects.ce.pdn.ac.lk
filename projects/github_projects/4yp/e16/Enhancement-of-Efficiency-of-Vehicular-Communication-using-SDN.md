@@ -11,8 +11,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-4yp-Enhancement-of-Efficiency-of-Vehicular-Communication-using-SDN
 page_url: https://cepdnaclk.github.io/e16-4yp-Enhancement-of-Efficiency-of-Vehicular-Communication-using-SDN
 forks: 0
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2022-07-25T15:28:37Z'
 ---
 
