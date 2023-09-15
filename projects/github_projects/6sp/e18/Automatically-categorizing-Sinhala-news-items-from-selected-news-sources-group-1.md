@@ -11,7 +11,7 @@ cover_url: /data/categories/6sp/cover_page.jpg
 thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-6sp-Automatically-categorizing-Sinhala-news-items-from-selected-news-sources-group-1
 page_url: blank
-forks: 1
+forks: 2
 watchers: 0
 stars: 0
 started_on: '2023-06-12T13:44:14Z'
