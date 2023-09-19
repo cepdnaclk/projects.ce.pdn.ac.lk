@@ -2,7 +2,8 @@
 layout: project_page
 title: digital signage content management system
 permalink: /co227/e19/digital-signage-content-management-system/
-description: ''
+description: Modern Digital Signage Content Management System for the IT Center of
+  University of Peradeniya
 has_children: false
 parent: E19 Software Systems Projects
 grand_parent: Software Systems Projects
@@ -16,3 +17,4 @@ stars: 0
 started_on: '2023-08-22T14:10:11Z'
 ---
 
+Modern Digital Signage Content Management System for the IT Center of University of Peradeniya
