@@ -15,8 +15,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-3yp-smart-shopping-cart
 page_url: https://cepdnaclk.github.io/e17-3yp-smart-shopping-cart
 forks: 6
-watchers: 3
-stars: 3
+watchers: 2
+stars: 2
 started_on: '2021-06-24T10:46:06Z'
 ---
 
