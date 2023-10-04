@@ -12,8 +12,8 @@ thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-6sp-AI-generated-bug-reports-Group14
 page_url: blank
 forks: 1
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2023-06-07T14:20:14Z'
 ---
 
