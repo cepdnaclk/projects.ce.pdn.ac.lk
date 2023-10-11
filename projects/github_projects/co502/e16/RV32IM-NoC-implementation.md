@@ -10,7 +10,7 @@ cover_url: /data/categories/co502/cover_page.jpg
 thumbnail_url: /data/categories/co502/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-co502-RV32IM-NoC-implementation
 page_url: https://cepdnaclk.github.io/e16-co502-RV32IM-NoC-implementation
-forks: 1
+forks: 2
 watchers: 1
 stars: 1
 started_on: '2021-10-18T12:21:49Z'
