@@ -15410,7 +15410,7 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e17-co502-RV32IM-and-PipelineProcessor-and-Extention-Group_3",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
         "created_at": "2023-08-22T08:08:55Z",
-        "updated_at": "2023-09-19T07:02:23Z",
+        "updated_at": "2023-11-04T05:03:38Z",
         "forks_count": 2,
         "stars_count": 0,
         "watchers_count": 0,
@@ -18374,10 +18374,10 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e18-6sp-Optical-Character-Recognition-and-Translation-from-Sinhala-to-Tamil-for-Printed-Documents",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/6sp/thumbnail.jpg",
         "created_at": "2023-05-22T12:08:20Z",
-        "updated_at": "2023-06-08T23:54:06Z",
+        "updated_at": "2023-11-04T15:45:07Z",
         "forks_count": 4,
-        "stars_count": 0,
-        "watchers_count": 0,
+        "stars_count": 1,
+        "watchers_count": 1,
         "language": "JavaScript",
         "topics": [],
         "has_projects": true,
@@ -23888,10 +23888,10 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e19-co226-Online-Learning-Platform",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
         "created_at": "2023-07-23T09:28:19Z",
-        "updated_at": "2023-08-15T16:21:36Z",
+        "updated_at": "2023-10-31T12:10:40Z",
         "forks_count": 3,
-        "stars_count": 0,
-        "watchers_count": 0,
+        "stars_count": 1,
+        "watchers_count": 1,
         "language": "JavaScript",
         "topics": [
             "co226-projects",
@@ -24610,9 +24610,74 @@
         "has_wiki": true,
         "has_pages": true,
         "description": "A web based software to handle requests to the ACES Project Fund.",
-        "team": {},
-        "supervisors": {},
-        "tags": {}
+        "team": {
+            "E/19/111": {
+                "name": "Mewan Dimalsha",
+                "email": "e19111@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/mewanDimalsha",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/111",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19111.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/111/"
+            },
+            "E/19/210": {
+                "name": "Jaliya Kumarasiri",
+                "email": "e19210@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/jali-k",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/210",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19210.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/210/"
+            },
+            "E/19/224": {
+                "name": "Sandamini Madhurasinghe",
+                "email": "e19224@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/224",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19224.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/224/"
+            },
+            "E/19/249": {
+                "name": "Sayumi Muthukumarana",
+                "email": "e19249@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/249",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19249.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/249/"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            }
+        },
+        "tags": [
+            "19",
+            "CO227",
+            "227",
+            "software systems",
+            "Fund requests",
+            "MERN",
+            "web development"
+        ]
     },
     "e19-co227-Automatic-IC-Testing-Application-Using-FPGA": {
         "projName": "Automatic IC Testing Application Using FPGA",
