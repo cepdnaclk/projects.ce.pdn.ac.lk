@@ -14,8 +14,8 @@ thumbnail_url: /data/categories/co226/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co226-Medical-Clinic-Manager
 page_url: https://cepdnaclk.github.io/e19-co226-Medical-Clinic-Manager
 forks: 3
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: '2023-07-25T16:16:36Z'
 ---
 

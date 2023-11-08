@@ -12,8 +12,8 @@ thumbnail_url: /data/categories/co227/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co227-Training-Management-System
 page_url: https://cepdnaclk.github.io/e19-co227-Training-Management-System
 forks: 4
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2023-09-01T07:05:15Z'
 ---
 
