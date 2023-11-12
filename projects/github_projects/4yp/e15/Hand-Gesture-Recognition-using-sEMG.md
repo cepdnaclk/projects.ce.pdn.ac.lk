@@ -13,8 +13,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e15-4yp-Hand-Gesture-Recognition-using-sEMG
 page_url: https://cepdnaclk.github.io/e15-4yp-Hand-Gesture-Recognition-using-sEMG
 forks: 0
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2021-02-28T06:36:44Z'
 ---
 

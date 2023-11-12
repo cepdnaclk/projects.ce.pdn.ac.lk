@@ -10,9 +10,9 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-3yp-Pera-Swarm-Modular-Robots
 page_url: https://cepdnaclk.github.io/e19-3yp-Pera-Swarm-Modular-Robots
-forks: 0
-watchers: 0
-stars: 0
+forks: 1
+watchers: 1
+stars: 1
 started_on: '2023-11-08T11:04:56Z'
 ---
 
