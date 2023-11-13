@@ -14,8 +14,8 @@ thumbnail_url: /data/categories/co225/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co225-Baby-Developing-Tracking-System-Web-Application
 page_url: https://cepdnaclk.github.io/e19-co225-Baby-Developing-Tracking-System-Web-Application
 forks: 9
-watchers: 3
-stars: 3
+watchers: 4
+stars: 4
 started_on: '2023-05-27T01:54:39Z'
 ---
 
