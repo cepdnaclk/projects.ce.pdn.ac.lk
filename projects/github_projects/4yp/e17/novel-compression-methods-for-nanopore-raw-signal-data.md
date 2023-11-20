@@ -2,7 +2,7 @@
 layout: project_page
 title: novel compression methods for nanopore raw signal data
 permalink: /4yp/e17/novel-compression-methods-for-nanopore-raw-signal-data/
-description: ''
+description: Novel Compression Methods for Nanopore Raw Compression Data
 has_children: false
 parent: E17 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -16,3 +16,4 @@ stars: 0
 started_on: '2023-05-22T10:51:11Z'
 ---
 
+Novel Compression Methods for Nanopore Raw Compression Data
