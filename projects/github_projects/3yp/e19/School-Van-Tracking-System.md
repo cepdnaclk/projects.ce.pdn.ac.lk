@@ -10,7 +10,7 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-3yp-School-Van-Tracking-System
 page_url: https://cepdnaclk.github.io/e19-3yp-School-Van-Tracking-System
-forks: 1
+forks: 2
 watchers: 0
 stars: 0
 started_on: '2023-11-19T03:08:26Z'
