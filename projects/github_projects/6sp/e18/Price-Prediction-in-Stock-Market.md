@@ -15,8 +15,8 @@ thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-6sp-Price-Prediction-in-Stock-Market
 page_url: https://cepdnaclk.github.io/e18-6sp-Price-Prediction-in-Stock-Market
 forks: 4
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2023-05-24T18:14:40Z'
 ---
 
