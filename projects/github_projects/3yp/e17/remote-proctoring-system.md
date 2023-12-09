@@ -11,7 +11,7 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-3yp-remote-proctoring-system
 page_url: https://cepdnaclk.github.io/e17-3yp-remote-proctoring-system
-forks: 7
+forks: 8
 watchers: 0
 stars: 0
 started_on: '2021-06-22T11:08:57Z'
