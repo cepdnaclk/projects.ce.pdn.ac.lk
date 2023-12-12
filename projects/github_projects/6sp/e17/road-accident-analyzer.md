@@ -18,8 +18,8 @@ thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-6sp-road-accident-analyzer
 page_url: https://cepdnaclk.github.io/e17-6sp-road-accident-analyzer
 forks: 3
-watchers: 3
-stars: 3
+watchers: 2
+stars: 2
 started_on: '2022-02-26T18:25:09Z'
 ---
 
