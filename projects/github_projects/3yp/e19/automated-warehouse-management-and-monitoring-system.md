@@ -10,7 +10,7 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-3yp-automated-warehouse-management-and-monitoring-system
 page_url: https://cepdnaclk.github.io/e19-3yp-automated-warehouse-management-and-monitoring-system
-forks: 0
+forks: 4
 watchers: 0
 stars: 0
 started_on: '2023-11-19T12:10:16Z'

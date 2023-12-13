@@ -20,7 +20,7 @@ cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-4yp-an-artificial-intelligence-inspired-zero-trust-model-in-decentralized-edge-environment
 page_url: https://cepdnaclk.github.io/e16-4yp-an-artificial-intelligence-inspired-zero-trust-model-in-decentralized-edge-environment
-forks: 4
+forks: 3
 watchers: 1
 stars: 1
 started_on: '2022-07-21T15:20:06Z'
