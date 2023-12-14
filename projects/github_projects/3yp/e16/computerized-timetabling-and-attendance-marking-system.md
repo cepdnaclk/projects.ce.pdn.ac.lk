@@ -18,7 +18,7 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-3yp-computerized-timetabling-and-attendance-marking-system
 page_url: https://cepdnaclk.github.io/e16-3yp-computerized-timetabling-and-attendance-marking-system
-forks: 3
+forks: 4
 watchers: 1
 stars: 1
 started_on: '2020-10-18T03:40:36Z'
