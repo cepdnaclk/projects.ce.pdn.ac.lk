@@ -13,9 +13,9 @@ cover_url: /data/categories/co326/cover_page.jpg
 thumbnail_url: /data/categories/co326/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-CO326-Smart-Soil-Moisture-Controlling-System
 page_url: blank
-forks: 3
-watchers: 0
-stars: 0
+forks: 4
+watchers: 1
+stars: 1
 started_on: '2023-05-27T18:33:42Z'
 ---
 
