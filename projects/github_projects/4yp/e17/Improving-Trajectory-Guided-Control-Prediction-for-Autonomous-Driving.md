@@ -12,9 +12,9 @@ cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-4yp-Improving-Trajectory-Guided-Control-Prediction-for-Autonomous-Driving
 page_url: https://cepdnaclk.github.io/e17-4yp-Improving-Trajectory-Guided-Control-Prediction-for-Autonomous-Driving
-forks: 0
-watchers: 0
-stars: 0
+forks: 1
+watchers: 1
+stars: 1
 started_on: '2023-05-16T11:40:57Z'
 ---
 
