@@ -2,7 +2,8 @@
 layout: project_page
 title: GPU Acceleration for Deep Learning based Comprehensive ECG analysis
 permalink: /4yp/e18/GPU-Acceleration-for-Deep-Learning-based-Comprehensive-ECG-analysis/
-description: ''
+description: In this project we aim to develop  a GPU accelerated Deep Learning algorithm
+  for ECG analysis which works like the MUSE ECG system
 has_children: false
 parent: E18 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -16,3 +17,4 @@ stars: 0
 started_on: '2024-01-04T02:30:38Z'
 ---
 
+In this project we aim to develop  a GPU accelerated Deep Learning algorithm for ECG analysis which works like the MUSE ECG system
