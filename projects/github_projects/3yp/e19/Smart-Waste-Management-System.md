@@ -2,7 +2,11 @@
 layout: project_page
 title: Smart Waste Management System
 permalink: /3yp/e19/Smart-Waste-Management-System/
-description: Third year Cyber-Physical Systems Project
+description: Smart Waste Management System that aims to make the process of waste
+  collection more efficient. The system utilizes waste bins and manages them through
+  mobile and web applications. With the help of the system, users can easily check
+  the status of the bins and follow a schedule for waste collection based on the bin's
+  status.
 has_children: false
 parent: E19 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
@@ -16,4 +20,4 @@ stars: 4
 started_on: '2023-11-15T12:26:56Z'
 ---
 
-Third year Cyber-Physical Systems Project
+Smart Waste Management System that aims to make the process of waste collection more efficient. The system utilizes waste bins and manages them through mobile and web applications. With the help of the system, users can easily check the status of the bins and follow a schedule for waste collection based on the bin's status.
