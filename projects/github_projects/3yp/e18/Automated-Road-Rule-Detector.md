@@ -14,7 +14,7 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-3yp-Automated-Road-Rule-Detector
 page_url: https://cepdnaclk.github.io/e18-3yp-Automated-Road-Rule-Detector
-forks: 3
+forks: 4
 watchers: 2
 stars: 2
 started_on: '2022-11-01T17:34:36Z'
