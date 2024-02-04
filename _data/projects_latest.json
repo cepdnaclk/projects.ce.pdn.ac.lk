@@ -1,4 +1,231 @@
 {
+    "e15-4yp-sports-action-recognition": {
+        "projName": "sports action recognition",
+        "batch": "E15",
+        "category": {
+            "title": "Undergraduate Research Projects",
+            "code": "4yp",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e15-4yp-sports-action-recognition",
+        "project_url": "/4yp/e15/sports-action-recognition/",
+        "page_url": "https://cepdnaclk.github.io/e15-4yp-sports-action-recognition",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e15-4yp-sports-action-recognition",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+        "created_at": "2021-03-02T04:00:38Z",
+        "updated_at": "2024-02-03T18:41:55Z",
+        "forks_count": 2,
+        "stars_count": 7,
+        "watchers_count": 7,
+        "language": null,
+        "topics": [
+            "action-quality-assessment",
+            "computer-vision",
+            "final-year-project",
+            "human-action-recognition",
+            "openpose",
+            "vision"
+        ],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "This includes a novel method to measure the quality of the actions performed in Olympic weightlifting using human action recognition in videos. Human action recognition is a well-studied problem in computer vision and on the other hand action quality assessment is researched and experimented comparatively low. This is due to the lack of datasets that can be used to assess the quality of actions. In this research, we introduce a method to assess player techniques in weightlifting by using skeleton-based human action recognition. Furthermore, we introduce a new video dataset for action recognition in weightlifting which is annotated to frame level. We intended to develop a viable automated scoring system through action recognition that would be beneficial in the sports industry.",
+        "team": {
+            "E/15/154": {
+                "name": "Chamin Jayasooriya",
+                "email": "e15154@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/chamin96",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E15/154",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15154.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/154/"
+            },
+            "E/15/179": {
+                "name": "Anandi Karunaratne",
+                "email": "e15179@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/AnandiKarunaratne",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E15/179",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15179.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/179/"
+            }
+        },
+        "supervisors": {
+            "rajithae03@gmail.com": {
+                "name": "Dr. Rajitha Navarathna",
+                "email": "rajithae03@gmail.com",
+                "profile_url": "#",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
+                "api_url": "#",
+                "website": "#",
+                "linkedin": "#",
+                "researchgate": "#",
+                "google_scholar": "#"
+            },
+            "sampath@eng.pdn.ac.lk": {
+                "name": "Mr. Sampath Deegalla",
+                "email": "sampath@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/sampath-deegalla/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/sampath-deegalla.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/sampath",
+                "website": "https://www.sites.google.com/site/dsdeegalla/",
+                "linkedin": "https://www.linkedin.com/in/dsdeegalla",
+                "researchgate": "https://www.researchgate.net/profile/Sampath-Deegalla-2",
+                "google_scholar": "https://scholar.google.com/citations?user=QDoeGtYAAAAJ&hl=en"
+            }
+        },
+        "tags": [
+            "Final Year Projects",
+            "Human Action Recognition",
+            "Computer Vision",
+            "Openpose",
+            "Action Quality Assessment"
+        ],
+        "name": "e15-4yp-sports-action-recognition"
+    },
+    "e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs": {
+        "projName": "Neuromorphic NoC Architecture for SNNs",
+        "batch": "E17",
+        "category": {
+            "title": "Undergraduate Research Projects",
+            "code": "4yp",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs",
+        "project_url": "/4yp/e17/Neuromorphic-NoC-Architecture-for-SNNs/",
+        "page_url": "https://cepdnaclk.github.io/e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+        "created_at": "2023-05-19T16:39:40Z",
+        "updated_at": "2024-02-01T04:04:16Z",
+        "forks_count": 4,
+        "stars_count": 5,
+        "watchers_count": 5,
+        "language": "Verilog",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "This project aims to develop a novel neuromorphic NoC architecture based on RISC-V ISA to support spiking neural network applications, and test it on FPGA.",
+        "team": {
+            "E/17/018": {
+                "name": "Imesh Balasuriya",
+                "email": "e17018@eng.pdn.ac.lk",
+                "website": "https://www.imesh.tech",
+                "github": "https://github.com/ImeshBalasuriya/",
+                "linkedin": "https://www.linkedin.com/in/imesh-balasuriya/",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/018",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17018.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/018/"
+            },
+            "E/17/154": {
+                "name": "Akila Karunanayake",
+                "email": "e17154@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/Akilax0",
+                "linkedin": "https://www.linkedin.com/in/akila-karunanayake-978bba211/",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/154",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17154.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/154/"
+            },
+            "E/17/286": {
+                "name": "Tharindu Rathnayake",
+                "email": "e17286@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/286",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17286.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/286/"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            },
+            "mahanamaw@eng.pdn.ac.lk": {
+                "name": "Dr. Mahanama Wickramasinghe",
+                "email": "mahanamaw@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/mahanama-wickramasinghe/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/mahanama",
+                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
+            },
+            "roshanr@eng.pdn.ac.lk": {
+                "name": "Prof. Roshan G. Ragel",
+                "email": "roshanr@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/roshan-ragel.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/roshanr",
+                "website": "http://roshan.ragel.net/",
+                "linkedin": "https://www.linkedin.com/in/roshanragel/",
+                "researchgate": "https://www.researchgate.net/profile/Roshan-Ragel",
+                "google_scholar": "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
+            },
+            "isurud@ee.pdn.ac.lk": {
+                "name": "Dr. Isuru Dasanayake",
+                "email": "isurud@ee.pdn.ac.lk",
+                "profile_url": "#",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
+                "api_url": "#",
+                "website": "#",
+                "linkedin": "#",
+                "researchgate": "#",
+                "google_scholar": "#"
+            }
+        },
+        "tags": [
+            "Final Year Projects"
+        ],
+        "name": "e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs"
+    },
+    "e18-4yp-Automated-Medical-Image-Annotation-For-Dataset-Building": {
+        "projName": "Automated Medical Image Annotation For Dataset Building",
+        "batch": "E18",
+        "category": {
+            "title": "Undergraduate Research Projects",
+            "code": "4yp",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e18-4yp-Automated-Medical-Image-Annotation-For-Dataset-Building",
+        "project_url": "/4yp/e18/Automated-Medical-Image-Annotation-For-Dataset-Building/",
+        "page_url": "#",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e18-4yp-Automated-Medical-Image-Annotation-For-Dataset-Building",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+        "created_at": "2024-02-01T03:36:41Z",
+        "updated_at": "2024-02-01T03:40:54Z",
+        "forks_count": 0,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "description": "",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e18-4yp-Automated-Medical-Image-Annotation-For-Dataset-Building"
+    },
     "e19-3yp-Attendance-Monitoring-and-Access-Authentication-with-Face-Recognition": {
         "projName": "Attendance Monitoring and Access Authentication with Face Recognition",
         "batch": "E19",
@@ -214,7 +441,7 @@
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
         "created_at": "2023-11-08T16:36:15Z",
         "updated_at": "2024-01-27T14:26:34Z",
-        "forks_count": 4,
+        "forks_count": 5,
         "stars_count": 0,
         "watchers_count": 0,
         "language": "Makefile",
@@ -484,279 +711,5 @@
             "Final Year Projects"
         ],
         "name": "e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients"
-    },
-    "e16-4yp-Hardware-Cache-Switching-with-Operating-System-Context-Switches": {
-        "projName": "Hardware Cache Switching with Operating System Context Switches",
-        "batch": "E16",
-        "category": {
-            "title": "Undergraduate Research Projects",
-            "code": "4yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e16-4yp-Hardware-Cache-Switching-with-Operating-System-Context-Switches",
-        "project_url": "/4yp/e16/Hardware-Cache-Switching-with-Operating-System-Context-Switches/",
-        "page_url": "https://cepdnaclk.github.io/e16-4yp-Hardware-Cache-Switching-with-Operating-System-Context-Switches",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-4yp-Hardware-Cache-Switching-with-Operating-System-Context-Switches",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2022-07-01T15:01:10Z",
-        "updated_at": "2024-01-25T12:46:52Z",
-        "forks_count": 4,
-        "stars_count": 1,
-        "watchers_count": 1,
-        "language": "Verilog",
-        "topics": [
-            "computer-architecture",
-            "operating-systems",
-            "systems-on-chip-design"
-        ],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "An operating system performs a context switch when it suspends one kernel-level thread and activates a different thread. Typically, data stored in the cache memory are lost in such events. This project aims to explore the advantages of maintaining multiple small 'cache-storage-cores' and switching to the appropriate one during a context switch. We will use a RISC-V CPU with a suitable embedded operating system and a custom-built cache for the FPGA-based experiments",
-        "team": {
-            "E/16/222": {
-                "name": "Wshva Madushnaka",
-                "email": "e16222@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/222",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16222.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/222/"
-            },
-            "E/16/332": {
-                "name": "Randika Viraj",
-                "email": "e16332@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/Randikaviraj",
-                "linkedin": "https://www.linkedin.com/in/Randikaviraj",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/332",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16332.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/332/"
-            }
-        },
-        "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            },
-            "mahanamaw@eng.pdn.ac.lk": {
-                "name": "Dr. Mahanama Wickramasinghe",
-                "email": "mahanamaw@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/mahanama-wickramasinghe/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/mahanama",
-                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
-            },
-            "roshanr@eng.pdn.ac.lk": {
-                "name": "Prof. Roshan G. Ragel",
-                "email": "roshanr@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/roshan-ragel.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/roshanr",
-                "website": "http://roshan.ragel.net/",
-                "linkedin": "https://www.linkedin.com/in/roshanragel/",
-                "researchgate": "https://www.researchgate.net/profile/Roshan-Ragel",
-                "google_scholar": "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
-            },
-            "haris.javaid@amd.com": {
-                "name": "Dr. Haris Javaid",
-                "email": "haris.javaid@amd.com",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/visiting-research-fellows/",
-                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/fellows/Haris-Javaid.jpeg",
-                "api_url": "#",
-                "website": "#",
-                "linkedin": "https://sg.linkedin.com/in/haris-javaid-30799121",
-                "researchgate": "#",
-                "google_scholar": "https://scholar.google.com/citations?user=ld4MAbgAAAAJ&hl=en"
-            }
-        },
-        "tags": [
-            "Computer Architecture, Operating Systems, Systems-on-chip design"
-        ],
-        "name": "e16-4yp-Hardware-Cache-Switching-with-Operating-System-Context-Switches"
-    },
-    "e16-3yp-smart-door-lock": {
-        "projName": "smart door lock",
-        "batch": "E16",
-        "category": {
-            "title": "Cyber-Physical Systems Projects",
-            "code": "3yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e16-3yp-smart-door-lock",
-        "project_url": "/3yp/e16/smart-door-lock/",
-        "page_url": "https://cepdnaclk.github.io/e16-3yp-smart-door-lock",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-smart-door-lock",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-        "created_at": "2020-10-17T06:59:56Z",
-        "updated_at": "2024-01-24T17:36:26Z",
-        "forks_count": 5,
-        "stars_count": 4,
-        "watchers_count": 4,
-        "language": "JavaScript",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "This is a solution which can be used by the advanced security system users at their entrances. This Smart door lock consists of three main security features, RFID sensor, Fingerprint sensor and Face recognition. The collected data is sent to a database and the updated unlocking records will be displayed at the door. In addition, two IR sensors are placed on either side of the door to check the entrance of only one person at a time. All the records of authorized/unauthorized data will be available on the web application and three different admin roles are introduced to manage the web application.",
-        "team": {
-            "E/16/086": {
-                "name": "Dharmathilaka A.L.V.H.",
-                "email": "e16086@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/086",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16086.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/086/"
-            },
-            "E/16/156": {
-                "name": "Jayathilaka H.A.D.T.T.",
-                "email": "e16156@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/156",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16156.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/156/"
-            },
-            "E/16/223": {
-                "name": "Madushanki K.H.H.C",
-                "email": "e16223@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/223",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16223.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/223/"
-            }
-        },
-        "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            },
-            "ziyanm@eng.pdn.ac.lk": {
-                "name": "Mr. Ziyan Maraikar",
-                "email": "ziyanm@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/ziyan-maraikar/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/ziyan-maraikar.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/ziyanm",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/ziyan-maraikar-15539818a",
-                "researchgate": "https://www.researchgate.net/profile/Ziyan-Maraikar-2",
-                "google_scholar": "https://scholar.google.com.au/citations?user=5xf_7TAAAAAJ&hl=en"
-            }
-        },
-        "tags": [
-            "Web",
-            "Embedded Systems",
-            "Smart Door Lock"
-        ],
-        "name": "e16-3yp-smart-door-lock"
-    },
-    "e16-4yp-an-artificial-intelligence-inspired-zero-trust-model-in-decentralized-edge-environment": {
-        "projName": "an artificial intelligence inspired zero trust model in decentralized edge environment",
-        "batch": "E16",
-        "category": {
-            "title": "Undergraduate Research Projects",
-            "code": "4yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e16-4yp-an-artificial-intelligence-inspired-zero-trust-model-in-decentralized-edge-environment",
-        "project_url": "/4yp/e16/an-artificial-intelligence-inspired-zero-trust-model-in-decentralized-edge-environment/",
-        "page_url": "https://cepdnaclk.github.io/e16-4yp-an-artificial-intelligence-inspired-zero-trust-model-in-decentralized-edge-environment",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-4yp-an-artificial-intelligence-inspired-zero-trust-model-in-decentralized-edge-environment",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2022-07-21T15:20:06Z",
-        "updated_at": "2024-01-23T08:52:54Z",
-        "forks_count": 3,
-        "stars_count": 2,
-        "watchers_count": 2,
-        "language": "Jupyter Notebook",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "When moving from web 2.0 to web 3.0, decentralized network architecture became an essential network architecture with a large set of important use cases such as IOT edge environments, decentralized applications (DApps) and decentralized transaction systems. Because of this decentality, the ability of dividing devices into two sets (internal and external) went away and introduced a new set of  security vulnerabilities because of their fuzzy network boundary. To address these vulnerabilities, Zero Trust Architecture (ZTA), \u201cNever trust, always verify\u201d is introduced. In this research project, our goal is to develop a dynamic authentication/ authorization security solution for a decentralized edge environment with the help of machine learning techniques.",
-        "team": {
-            "E/16/242": {
-                "name": "A.V.S.S.A. Munasinghe",
-                "email": "e16242@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/242",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16242.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/242/"
-            },
-            "E/16/286": {
-                "name": "M.G.N.H. Piyarathna",
-                "email": "e16286@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/Nuwan-Harshakumara-Piyarathna",
-                "linkedin": "https://www.linkedin.com/in/nuwanharsha/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/286",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16286.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/286/"
-            },
-            "E/16/399": {
-                "name": "D.G.K.E. Wijerathne",
-                "email": "e16399@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/399",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16399.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/399/"
-            }
-        },
-        "supervisors": {
-            "upuljm@eng.pdn.ac.lk": {
-                "name": "Dr. Upul Jayasinghe",
-                "email": "upuljm@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/upul/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/upul-jayasinghe.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/upuljm",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/upuljm/",
-                "researchgate": "https://www.researchgate.net/profile/Upul-Jayasinghe",
-                "google_scholar": "https://scholar.google.ch/citations?user=9nBn4b0AAAAJ"
-            }
-        },
-        "tags": [
-            "Final Year Projects",
-            "ZTA",
-            "Trust",
-            "Machine Learning",
-            "Edge Computing"
-        ],
-        "name": "e16-4yp-an-artificial-intelligence-inspired-zero-trust-model-in-decentralized-edge-environment"
     }
 }
