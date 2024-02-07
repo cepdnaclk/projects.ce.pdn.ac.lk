@@ -13,8 +13,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-4yp-Multimodal-Emotion-Prediction-Using-Reinforcement-Learning
 page_url: https://cepdnaclk.github.io/e18-4yp-Multimodal-Emotion-Prediction-Using-Reinforcement-Learning
 forks: 0
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2024-02-05T08:01:55Z'
 ---
 

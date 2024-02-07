@@ -15,8 +15,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-4yp-Machine-Vision-For-Quality-Inspection
 page_url: https://cepdnaclk.github.io/e18-4yp-Machine-Vision-For-Quality-Inspection
 forks: 3
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2024-01-03T08:29:31Z'
 ---
 

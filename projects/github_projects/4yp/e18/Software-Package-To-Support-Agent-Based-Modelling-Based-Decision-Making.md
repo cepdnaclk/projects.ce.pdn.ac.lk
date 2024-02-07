@@ -11,8 +11,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-4yp-Software-Package-To-Support-Agent-Based-Modelling-Based-Decision-Making
 page_url: https://cepdnaclk.github.io/e18-4yp-Software-Package-To-Support-Agent-Based-Modelling-Based-Decision-Making
 forks: 3
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2024-01-03T17:03:22Z'
 ---
 
