@@ -12,8 +12,8 @@ thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-6sp-Prediction-of-heart-disease-using-ECG
 page_url: https://cepdnaclk.github.io/e17-6sp-Prediction-of-heart-disease-using-ECG
 forks: 4
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2022-03-04T16:06:17Z'
 ---
 
