@@ -1,243 +1,4 @@
 {
-    "e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices": {
-        "projName": "post quantum cryptographic schemes based on plain lattices",
-        "batch": "E16",
-        "category": {
-            "title": "Undergraduate Research Projects",
-            "code": "4yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
-        "project_url": "/4yp/e16/post-quantum-cryptographic-schemes-based-on-plain-lattices/",
-        "page_url": "https://cepdnaclk.github.io/e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2022-07-25T10:06:29Z",
-        "updated_at": "2023-12-29T21:18:59Z",
-        "forks_count": 5,
-        "stars_count": 8,
-        "watchers_count": 8,
-        "language": "C++",
-        "topics": [
-            "cryptography",
-            "lattice-based-crypto",
-            "learning-with-errors",
-            "post-quantum-cryptography",
-            "public-key-cryptography",
-            "random-oracle-model"
-        ],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "This project proposes the use of plain lattices with learning with errors problem to implement a cryptographic scheme which can run on classical computers and provides security against quantum based attacks. We are proposing key sizes for efficient operations and implement a lattice trapdoor function. Also we will improve current random oracle based model in to a standard model.",
-        "team": {
-            "E/16/049": {
-                "name": "Harshana Bandara",
-                "email": "e16049@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/049",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16049.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/049/"
-            },
-            "E/16/134": {
-                "name": "Yasitha Herath",
-                "email": "e16134@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/134",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16134.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/134/"
-            },
-            "E/16/388": {
-                "name": "Thushara Weerasundara",
-                "email": "e16388@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/388",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16388.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/388/"
-            }
-        },
-        "supervisors": {
-            "qinyi.li@griffith.edu.au": {
-                "name": "Dr. Qinyi Li",
-                "email": "qinyi.li@griffith.edu.au",
-                "profile_url": "#",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
-                "api_url": "#",
-                "website": "#",
-                "linkedin": "#",
-                "researchgate": "#",
-                "google_scholar": "#"
-            },
-            "alawatugoda@eng.pdn.ac.lk": {
-                "name": "Dr. Janaka Alawatugoda",
-                "email": "alawatugoda@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/janaka-alawatugoda/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/janaka-alawatugoda.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/alawatugoda",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/janaka-alawatugoda-53294034/",
-                "researchgate": "https://www.researchgate.net/profile/Janaka-Alawatugoda-2",
-                "google_scholar": "https://scholar.google.com/citations?user=TJWRzj4AAAAJ&hl=en"
-            },
-            "roshanr@eng.pdn.ac.lk": {
-                "name": "Prof. Roshan G. Ragel",
-                "email": "roshanr@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/roshan-ragel.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/roshanr",
-                "website": "http://roshan.ragel.net/",
-                "linkedin": "https://www.linkedin.com/in/roshanragel/",
-                "researchgate": "https://www.researchgate.net/profile/Roshan-Ragel",
-                "google_scholar": "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
-            }
-        },
-        "tags": [
-            "Cryptography",
-            "Post Quantum Cryptography",
-            "Learning with erros",
-            "Lattice based cryptography",
-            "Plain Lattices"
-        ],
-        "name": "e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
-        "popularity_score": 7.4
-    },
-    "e16-co326-Agriculture-Monitoring-and-Control-System": {
-        "projName": "Agriculture Monitoring and Control System",
-        "batch": "E16",
-        "category": {
-            "title": "Industrial Automation Projects (CO326)",
-            "code": "co326",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co326/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e16-co326-Agriculture-Monitoring-and-Control-System",
-        "project_url": "/co326/e16/Agriculture-Monitoring-and-Control-System/",
-        "page_url": "#",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-co326-Agriculture-Monitoring-and-Control-System",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
-        "created_at": "2021-10-20T08:45:54Z",
-        "updated_at": "2022-03-03T14:09:39Z",
-        "forks_count": 28,
-        "stars_count": 1,
-        "watchers_count": 1,
-        "language": "Python",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": false,
-        "description": "",
-        "team": {},
-        "supervisors": {},
-        "tags": {},
-        "name": "e16-co326-Agriculture-Monitoring-and-Control-System",
-        "popularity_score": 6.4
-    },
-    "e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients": {
-        "projName": "Food Recommendation System Using Machine Learning for Diabetic Patients",
-        "batch": "E16",
-        "category": {
-            "title": "Undergraduate Research Projects",
-            "code": "4yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
-        "project_url": "/4yp/e16/Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients/",
-        "page_url": "https://cepdnaclk.github.io/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2022-07-23T18:00:10Z",
-        "updated_at": "2024-03-25T22:09:53Z",
-        "forks_count": 9,
-        "stars_count": 14,
-        "watchers_count": 14,
-        "language": "Jupyter Notebook",
-        "topics": [
-            "diabetes",
-            "food-recommendation",
-            "machine-learning",
-            "nutrients"
-        ],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "Recommend proper foods for diabetic patients in the context of nutrition and food characteristics by developing a machine learning based intelligent mobile application",
-        "team": {
-            "E/16/083": {
-                "name": "Dhanushka S.M.V.",
-                "email": "e16083@eng.pdn.ac.lk",
-                "website": "https://studentambassadors.microsoft.com/en-US/profile/154961",
-                "github": "https://github.com/viradhanus",
-                "linkedin": "https://www.linkedin.com/in/viradhanus/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/083",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16083.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/083/"
-            },
-            "E/16/394": {
-                "name": "Wijayasinghe S.D.D.D.",
-                "email": "e16394@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/394",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16394.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/394/"
-            },
-            "E/16/396": {
-                "name": "Wijekoon W.M.T.S.",
-                "email": "e16396@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/396",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16396.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/396/"
-            }
-        },
-        "supervisors": {
-            "sampath@eng.pdn.ac.lk": {
-                "name": "Mr. Sampath Deegalla",
-                "email": "sampath@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/sampath-deegalla/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/sampath-deegalla.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/sampath",
-                "website": "https://www.sites.google.com/site/dsdeegalla/",
-                "linkedin": "https://www.linkedin.com/in/dsdeegalla",
-                "researchgate": "https://www.researchgate.net/profile/Sampath-Deegalla-2",
-                "google_scholar": "https://scholar.google.com/citations?user=QDoeGtYAAAAJ&hl=en"
-            },
-            "nadeeshaa@eng.pdn.ac.lk": {
-                "name": "Mrs. Nadeesha Adikari",
-                "email": "nadeeshaa@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/nadeesha-adikari/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/nadeesha-adikari.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/nadeeshaa",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/nadeesha-adikari-48864961/",
-                "researchgate": "https://www.researchgate.net/profile/Nadeesha-Adikari",
-                "google_scholar": ""
-            }
-        },
-        "tags": [
-            "Machine Learning",
-            "Diabetes",
-            "Food Recommendation",
-            "Nutrients",
-            "Final Year Projects"
-        ],
-        "name": "e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
-        "popularity_score": 13.0
-    },
     "e16-3yp-smart-pharmaceutical-warehousing": {
         "projName": "smart pharmaceutical warehousing",
         "batch": "E16",
@@ -421,6 +182,210 @@
         "name": "e15-4yp-sports-action-recognition",
         "popularity_score": 6.0
     },
+    "e16-co326-Agriculture-Monitoring-and-Control-System": {
+        "projName": "Agriculture Monitoring and Control System",
+        "batch": "E16",
+        "category": {
+            "title": "Industrial Automation Projects (CO326)",
+            "code": "co326",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co326/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e16-co326-Agriculture-Monitoring-and-Control-System",
+        "project_url": "/co326/e16/Agriculture-Monitoring-and-Control-System/",
+        "page_url": "#",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-co326-Agriculture-Monitoring-and-Control-System",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
+        "created_at": "2021-10-20T08:45:54Z",
+        "updated_at": "2022-03-03T14:09:39Z",
+        "forks_count": 28,
+        "stars_count": 1,
+        "watchers_count": 1,
+        "language": "Python",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "description": "",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e16-co326-Agriculture-Monitoring-and-Control-System",
+        "popularity_score": 6.4
+    },
+    "e17-co326-Smart-Building": {
+        "projName": "Smart Building",
+        "batch": "E17",
+        "category": {
+            "title": "Industrial Automation Projects (CO326)",
+            "code": "co326",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co326/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e17-co326-Smart-Building",
+        "project_url": "/co326/e17/Smart-Building/",
+        "page_url": "https://cepdnaclk.github.io/e17-co326-Smart-Building",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e17-co326-Smart-Building",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
+        "created_at": "2022-06-30T00:12:23Z",
+        "updated_at": "2022-11-06T03:32:35Z",
+        "forks_count": 48,
+        "stars_count": 1,
+        "watchers_count": 1,
+        "language": "Jupyter Notebook",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e17-co326-Smart-Building",
+        "popularity_score": 10.4
+    },
+    "e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices": {
+        "projName": "post quantum cryptographic schemes based on plain lattices",
+        "batch": "E16",
+        "category": {
+            "title": "Undergraduate Research Projects",
+            "code": "4yp",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
+        "project_url": "/4yp/e16/post-quantum-cryptographic-schemes-based-on-plain-lattices/",
+        "page_url": "https://cepdnaclk.github.io/e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+        "created_at": "2022-07-25T10:06:29Z",
+        "updated_at": "2023-12-29T21:18:59Z",
+        "forks_count": 5,
+        "stars_count": 8,
+        "watchers_count": 8,
+        "language": "C++",
+        "topics": [
+            "cryptography",
+            "lattice-based-crypto",
+            "learning-with-errors",
+            "post-quantum-cryptography",
+            "public-key-cryptography",
+            "random-oracle-model"
+        ],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "This project proposes the use of plain lattices with learning with errors problem to implement a cryptographic scheme which can run on classical computers and provides security against quantum based attacks. We are proposing key sizes for efficient operations and implement a lattice trapdoor function. Also we will improve current random oracle based model in to a standard model.",
+        "team": {
+            "E/16/049": {
+                "name": "Harshana Bandara",
+                "email": "e16049@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/049",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16049.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/049/"
+            },
+            "E/16/134": {
+                "name": "Yasitha Herath",
+                "email": "e16134@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/134",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16134.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/134/"
+            },
+            "E/16/388": {
+                "name": "Thushara Weerasundara",
+                "email": "e16388@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/388",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16388.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/388/"
+            }
+        },
+        "supervisors": {
+            "qinyi.li@griffith.edu.au": {
+                "name": "Dr. Qinyi Li",
+                "email": "qinyi.li@griffith.edu.au",
+                "profile_url": "#",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
+                "api_url": "#",
+                "website": "#",
+                "linkedin": "#",
+                "researchgate": "#",
+                "google_scholar": "#"
+            },
+            "alawatugoda@eng.pdn.ac.lk": {
+                "name": "Dr. Janaka Alawatugoda",
+                "email": "alawatugoda@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/janaka-alawatugoda/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/janaka-alawatugoda.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/alawatugoda",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/janaka-alawatugoda-53294034/",
+                "researchgate": "https://www.researchgate.net/profile/Janaka-Alawatugoda-2",
+                "google_scholar": "https://scholar.google.com/citations?user=TJWRzj4AAAAJ&hl=en"
+            },
+            "roshanr@eng.pdn.ac.lk": {
+                "name": "Prof. Roshan G. Ragel",
+                "email": "roshanr@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/roshan-ragel.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/roshanr",
+                "website": "http://roshan.ragel.net/",
+                "linkedin": "https://www.linkedin.com/in/roshanragel/",
+                "researchgate": "https://www.researchgate.net/profile/Roshan-Ragel",
+                "google_scholar": "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
+            }
+        },
+        "tags": [
+            "Cryptography",
+            "Post Quantum Cryptography",
+            "Learning with erros",
+            "Lattice based cryptography",
+            "Plain Lattices"
+        ],
+        "name": "e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
+        "popularity_score": 7.4
+    },
+    "e16-4yp-Identification-of-Weeds-in-broadcasted-Paddy-fields-using-multispectral-UAV-images": {
+        "projName": "Identification of Weeds in broadcasted Paddy fields using multispectral UAV images",
+        "batch": "E16",
+        "category": {
+            "title": "Undergraduate Research Projects",
+            "code": "4yp",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e16-4yp-Identification-of-Weeds-in-broadcasted-Paddy-fields-using-multispectral-UAV-images",
+        "project_url": "/4yp/e16/Identification-of-Weeds-in-broadcasted-Paddy-fields-using-multispectral-UAV-images/",
+        "page_url": "https://cepdnaclk.github.io/e16-4yp-Identification-of-Weeds-in-broadcasted-Paddy-fields-using-multispectral-UAV-images",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-4yp-Identification-of-Weeds-in-broadcasted-Paddy-fields-using-multispectral-UAV-images",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+        "created_at": "2022-07-24T18:51:00Z",
+        "updated_at": "2024-03-28T10:44:22Z",
+        "forks_count": 2,
+        "stars_count": 7,
+        "watchers_count": 7,
+        "language": "Python",
+        "topics": [
+            "agriculture",
+            "machine-learning"
+        ],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "Develop a model to Identify paddy crops and weeds by images taken from UAV (unmanned aerial vehicle) and develop a desktop application as user interface",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e16-4yp-Identification-of-Weeds-in-broadcasted-Paddy-fields-using-multispectral-UAV-images",
+        "popularity_score": 6.0
+    },
     "e16-co502-RV32IM-pipeline-implementation-group1": {
         "projName": "RV32IM pipeline implementation group1",
         "batch": "E16",
@@ -518,67 +483,102 @@
         "name": "e16-co502-RV32IM-pipeline-implementation-group1",
         "popularity_score": 14.4
     },
-    "e17-co326-Smart-Building": {
-        "projName": "Smart Building",
-        "batch": "E17",
-        "category": {
-            "title": "Industrial Automation Projects (CO326)",
-            "code": "co326",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co326/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e17-co326-Smart-Building",
-        "project_url": "/co326/e17/Smart-Building/",
-        "page_url": "https://cepdnaclk.github.io/e17-co326-Smart-Building",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e17-co326-Smart-Building",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
-        "created_at": "2022-06-30T00:12:23Z",
-        "updated_at": "2022-11-06T03:32:35Z",
-        "forks_count": 48,
-        "stars_count": 1,
-        "watchers_count": 1,
-        "language": "Jupyter Notebook",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "",
-        "team": {},
-        "supervisors": {},
-        "tags": {},
-        "name": "e17-co326-Smart-Building",
-        "popularity_score": 10.4
-    },
-    "e16-4yp-Identification-of-Weeds-in-broadcasted-Paddy-fields-using-multispectral-UAV-images": {
-        "projName": "Identification of Weeds in broadcasted Paddy fields using multispectral UAV images",
+    "e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients": {
+        "projName": "Food Recommendation System Using Machine Learning for Diabetic Patients",
         "batch": "E16",
         "category": {
             "title": "Undergraduate Research Projects",
             "code": "4yp",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
         },
-        "repo_url": "https://github.com/cepdnaclk/e16-4yp-Identification-of-Weeds-in-broadcasted-Paddy-fields-using-multispectral-UAV-images",
-        "project_url": "/4yp/e16/Identification-of-Weeds-in-broadcasted-Paddy-fields-using-multispectral-UAV-images/",
-        "page_url": "https://cepdnaclk.github.io/e16-4yp-Identification-of-Weeds-in-broadcasted-Paddy-fields-using-multispectral-UAV-images",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-4yp-Identification-of-Weeds-in-broadcasted-Paddy-fields-using-multispectral-UAV-images",
+        "repo_url": "https://github.com/cepdnaclk/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
+        "project_url": "/4yp/e16/Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients/",
+        "page_url": "https://cepdnaclk.github.io/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2022-07-24T18:51:00Z",
-        "updated_at": "2024-03-28T10:44:22Z",
-        "forks_count": 2,
-        "stars_count": 7,
-        "watchers_count": 7,
-        "language": "Python",
+        "created_at": "2022-07-23T18:00:10Z",
+        "updated_at": "2024-04-12T11:11:32Z",
+        "forks_count": 10,
+        "stars_count": 13,
+        "watchers_count": 13,
+        "language": "Jupyter Notebook",
         "topics": [
-            "agriculture",
-            "machine-learning"
+            "diabetes",
+            "food-recommendation",
+            "machine-learning",
+            "nutrients"
         ],
         "has_projects": true,
         "has_wiki": true,
         "has_pages": true,
-        "description": "Develop a model to Identify paddy crops and weeds by images taken from UAV (unmanned aerial vehicle) and develop a desktop application as user interface",
-        "team": {},
-        "supervisors": {},
-        "tags": {},
-        "name": "e16-4yp-Identification-of-Weeds-in-broadcasted-Paddy-fields-using-multispectral-UAV-images",
-        "popularity_score": 6.0
+        "description": "Recommend proper foods for diabetic patients in the context of nutrition and food characteristics by developing a machine learning based intelligent mobile application",
+        "team": {
+            "E/16/083": {
+                "name": "Dhanushka S.M.V.",
+                "email": "e16083@eng.pdn.ac.lk",
+                "website": "https://studentambassadors.microsoft.com/en-US/profile/154961",
+                "github": "https://github.com/viradhanus",
+                "linkedin": "https://www.linkedin.com/in/viradhanus/",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/083",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16083.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/083/"
+            },
+            "E/16/394": {
+                "name": "Wijayasinghe S.D.D.D.",
+                "email": "e16394@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/394",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16394.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/394/"
+            },
+            "E/16/396": {
+                "name": "Wijekoon W.M.T.S.",
+                "email": "e16396@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/396",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16396.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/396/"
+            }
+        },
+        "supervisors": {
+            "sampath@eng.pdn.ac.lk": {
+                "name": "Mr. Sampath Deegalla",
+                "email": "sampath@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/sampath-deegalla/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/sampath-deegalla.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/sampath",
+                "website": "https://www.sites.google.com/site/dsdeegalla/",
+                "linkedin": "https://www.linkedin.com/in/dsdeegalla",
+                "researchgate": "https://www.researchgate.net/profile/Sampath-Deegalla-2",
+                "google_scholar": "https://scholar.google.com/citations?user=QDoeGtYAAAAJ&hl=en"
+            },
+            "nadeeshaa@eng.pdn.ac.lk": {
+                "name": "Mrs. Nadeesha Adikari",
+                "email": "nadeeshaa@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/nadeesha-adikari/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/nadeesha-adikari.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/nadeeshaa",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/nadeesha-adikari-48864961/",
+                "researchgate": "https://www.researchgate.net/profile/Nadeesha-Adikari",
+                "google_scholar": ""
+            }
+        },
+        "tags": [
+            "Machine Learning",
+            "Diabetes",
+            "Food Recommendation",
+            "Nutrients",
+            "Final Year Projects"
+        ],
+        "name": "e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
+        "popularity_score": 12.4
     }
 }
