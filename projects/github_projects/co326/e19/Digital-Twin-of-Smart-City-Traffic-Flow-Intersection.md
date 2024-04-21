@@ -2,9 +2,7 @@
 layout: project_page
 title: Digital Twin of Smart City Traffic Flow Intersection
 permalink: /co326/e19/Digital-Twin-of-Smart-City-Traffic-Flow-Intersection/
-description: SmartCityDigitalTwin is a comprehensive repository houses the codebase
-  and resources dedicated to the development of an innovative digital twin system
-  tailored for smart city management
+description: Digital Twin of Smart City Traffic Flow Intersection
 has_children: false
 parent: E19 Industrial Automation Projects (CO326)
 grand_parent: Industrial Automation Projects (CO326)
@@ -15,7 +13,7 @@ page_url: blank
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2024-04-04T19:02:32Z'
+started_on: '2024-04-20T18:57:47Z'
 ---
 
-SmartCityDigitalTwin is a comprehensive repository houses the codebase and resources dedicated to the development of an innovative digital twin system tailored for smart city management
+Digital Twin of Smart City Traffic Flow Intersection
