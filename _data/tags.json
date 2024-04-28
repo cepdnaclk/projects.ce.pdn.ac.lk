@@ -742,19 +742,6 @@
     ],
     "CSS": [
         {
-            "title": "Flight Management System",
-            "category": {
-                "code": "co226",
-                "title": "Database Projects (CO226)",
-                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/"
-            },
-            "project_url": "https://projects.ce.pdn.ac.lk/co226/e19/Flight-Management-System/",
-            "repo_url": "https://github.com/cepdnaclk/e19-co226-Flight-Management-System",
-            "page_url": "https://cepdnaclk.github.io/e19-co226-Flight-Management-System",
-            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/E19/Flight-Management-System/"
-        },
-        {
             "title": "Banking Management System",
             "category": {
                 "code": "co328",
@@ -766,6 +753,19 @@
             "page_url": "https://cepdnaclk.github.io/e15-co328-Banking-Management-System",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co328/thumbnail.jpg",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co328/E15/Banking-Management-System/"
+        },
+        {
+            "title": "Flight Management System",
+            "category": {
+                "code": "co226",
+                "title": "Database Projects (CO226)",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/co226/e19/Flight-Management-System/",
+            "repo_url": "https://github.com/cepdnaclk/e19-co226-Flight-Management-System",
+            "page_url": "https://cepdnaclk.github.io/e19-co226-Flight-Management-System",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/E19/Flight-Management-System/"
         }
     ],
     "Cloud": [
@@ -2827,6 +2827,32 @@
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/E18/Development-of-an-Image-Capturing-Unit-for-Remote-Monitoring/"
         },
         {
+            "title": "Movie Review System",
+            "category": {
+                "code": "co328",
+                "title": "Software Engineering Projects (CO328)",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co328/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/co328/e16/Movie-Review-System/",
+            "repo_url": "https://github.com/cepdnaclk/e16-co328-Movie-Review-System",
+            "page_url": "https://cepdnaclk.github.io/e16-co328-Movie-Review-System",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co328/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co328/E16/Movie-Review-System/"
+        },
+        {
+            "title": "Project Publication Platform",
+            "category": {
+                "code": "co328",
+                "title": "Software Engineering Projects (CO328)",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co328/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/co328/e16/Project-Publication-Platform/",
+            "repo_url": "https://github.com/cepdnaclk/e16-co328-Project-Publication-Platform",
+            "page_url": "https://cepdnaclk.github.io/e16-co328-Project-Publication-Platform",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co328/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co328/E16/Project-Publication-Platform/"
+        },
+        {
             "title": "Automated Smart Lighting System",
             "category": {
                 "code": "co326",
@@ -2864,45 +2890,6 @@
             "page_url": "https://cepdnaclk.github.io/e15-co326-Remotely-Controlled-CNC-Robot",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co326/E15/Remotely-Controlled-CNC-Robot/"
-        },
-        {
-            "title": "Movie Review System",
-            "category": {
-                "code": "co328",
-                "title": "Software Engineering Projects (CO328)",
-                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co328/"
-            },
-            "project_url": "https://projects.ce.pdn.ac.lk/co328/e16/Movie-Review-System/",
-            "repo_url": "https://github.com/cepdnaclk/e16-co328-Movie-Review-System",
-            "page_url": "https://cepdnaclk.github.io/e16-co328-Movie-Review-System",
-            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co328/thumbnail.jpg",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co328/E16/Movie-Review-System/"
-        },
-        {
-            "title": "Project Publication Platform",
-            "category": {
-                "code": "co328",
-                "title": "Software Engineering Projects (CO328)",
-                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co328/"
-            },
-            "project_url": "https://projects.ce.pdn.ac.lk/co328/e16/Project-Publication-Platform/",
-            "repo_url": "https://github.com/cepdnaclk/e16-co328-Project-Publication-Platform",
-            "page_url": "https://cepdnaclk.github.io/e16-co328-Project-Publication-Platform",
-            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co328/thumbnail.jpg",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co328/E16/Project-Publication-Platform/"
-        },
-        {
-            "title": "Dental Management system",
-            "category": {
-                "code": "co328",
-                "title": "Software Engineering Projects (CO328)",
-                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co328/"
-            },
-            "project_url": "https://projects.ce.pdn.ac.lk/co328/e19/Dental-Management-system/",
-            "repo_url": "https://github.com/cepdnaclk/e19-CO328-Dental-Management-system",
-            "page_url": "https://cepdnaclk.github.io/e19-CO328-Dental-Management-system",
-            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co328/thumbnail.jpg",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co328/E19/Dental-Management-system/"
         },
         {
             "title": "Number Plate Recognition system",
@@ -3500,6 +3487,19 @@
             "page_url": "https://cepdnaclk.github.io/e17-4yp-Large-Language-Models-in-Education",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/E17/Large-Language-Models-in-Education/"
+        },
+        {
+            "title": "Low Complexity Algorithm for Arrhythmia Detection",
+            "category": {
+                "code": "4yp",
+                "title": "Undergraduate Research Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/4yp/e17/Low-Complexity-Algorithm-for-Arrhythmia-Detection/",
+            "repo_url": "https://github.com/cepdnaclk/e17-4yp-Low-Complexity-Algorithm-for-Arrhythmia-Detection",
+            "page_url": "https://cepdnaclk.github.io/e17-4yp-Low-Complexity-Algorithm-for-Arrhythmia-Detection",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/E17/Low-Complexity-Algorithm-for-Arrhythmia-Detection/"
         },
         {
             "title": "Music Emotion Recognition",
@@ -5609,6 +5609,19 @@
     ],
     "MySQL": [
         {
+            "title": "Banking Management System",
+            "category": {
+                "code": "co328",
+                "title": "Software Engineering Projects (CO328)",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co328/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/co328/e15/Banking-Management-System/",
+            "repo_url": "https://github.com/cepdnaclk/e15-co328-Banking-Management-System",
+            "page_url": "https://cepdnaclk.github.io/e15-co328-Banking-Management-System",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co328/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co328/E15/Banking-Management-System/"
+        },
+        {
             "title": "Database for Bank Management System",
             "category": {
                 "code": "co226",
@@ -5633,19 +5646,6 @@
             "page_url": "https://cepdnaclk.github.io/e17-co226-business-to-business-database",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/E17/business-to-business-database/"
-        },
-        {
-            "title": "Banking Management System",
-            "category": {
-                "code": "co328",
-                "title": "Software Engineering Projects (CO328)",
-                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co328/"
-            },
-            "project_url": "https://projects.ce.pdn.ac.lk/co328/e15/Banking-Management-System/",
-            "repo_url": "https://github.com/cepdnaclk/e15-co328-Banking-Management-System",
-            "page_url": "https://cepdnaclk.github.io/e15-co328-Banking-Management-System",
-            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co328/thumbnail.jpg",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co328/E15/Banking-Management-System/"
         },
         {
             "title": "Baby Developing Tracking System Web Application",
@@ -8778,32 +8778,6 @@
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/E14/ipb/"
         },
         {
-            "title": "E Commerce Website",
-            "category": {
-                "code": "co226",
-                "title": "Database Projects (CO226)",
-                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/"
-            },
-            "project_url": "https://projects.ce.pdn.ac.lk/co226/e19/E-Commerce-Website/",
-            "repo_url": "https://github.com/cepdnaclk/e19-co226-E-Commerce-Website",
-            "page_url": "https://cepdnaclk.github.io/e19-co226-E-Commerce-Website",
-            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/E19/E-Commerce-Website/"
-        },
-        {
-            "title": "Flight Management System",
-            "category": {
-                "code": "co226",
-                "title": "Database Projects (CO226)",
-                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/"
-            },
-            "project_url": "https://projects.ce.pdn.ac.lk/co226/e19/Flight-Management-System/",
-            "repo_url": "https://github.com/cepdnaclk/e19-co226-Flight-Management-System",
-            "page_url": "https://cepdnaclk.github.io/e19-co226-Flight-Management-System",
-            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/E19/Flight-Management-System/"
-        },
-        {
             "title": "Movie Review System",
             "category": {
                 "code": "co328",
@@ -8843,17 +8817,30 @@
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co328/E15/Zero-Trash/"
         },
         {
-            "title": "Dental Management system",
+            "title": "E Commerce Website",
             "category": {
-                "code": "co328",
-                "title": "Software Engineering Projects (CO328)",
-                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co328/"
+                "code": "co226",
+                "title": "Database Projects (CO226)",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/"
             },
-            "project_url": "https://projects.ce.pdn.ac.lk/co328/e19/Dental-Management-system/",
-            "repo_url": "https://github.com/cepdnaclk/e19-CO328-Dental-Management-system",
-            "page_url": "https://cepdnaclk.github.io/e19-CO328-Dental-Management-system",
-            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co328/thumbnail.jpg",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co328/E19/Dental-Management-system/"
+            "project_url": "https://projects.ce.pdn.ac.lk/co226/e19/E-Commerce-Website/",
+            "repo_url": "https://github.com/cepdnaclk/e19-co226-E-Commerce-Website",
+            "page_url": "https://cepdnaclk.github.io/e19-co226-E-Commerce-Website",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/E19/E-Commerce-Website/"
+        },
+        {
+            "title": "Flight Management System",
+            "category": {
+                "code": "co226",
+                "title": "Database Projects (CO226)",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/co226/e19/Flight-Management-System/",
+            "repo_url": "https://github.com/cepdnaclk/e19-co226-Flight-Management-System",
+            "page_url": "https://cepdnaclk.github.io/e19-co226-Flight-Management-System",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co226/E19/Flight-Management-System/"
         },
         {
             "title": "Library Management System Web App",
