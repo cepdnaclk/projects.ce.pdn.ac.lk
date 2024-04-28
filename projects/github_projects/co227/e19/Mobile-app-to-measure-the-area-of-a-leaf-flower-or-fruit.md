@@ -2,7 +2,7 @@
 layout: project_page
 title: Mobile app to measure the area of a leaf flower or fruit
 permalink: /co227/e19/Mobile-app-to-measure-the-area-of-a-leaf-flower-or-fruit/
-description: ''
+description: Short semester project.
 has_children: false
 parent: E19 Software Systems Projects
 grand_parent: Software Systems Projects
@@ -16,3 +16,4 @@ stars: 0
 started_on: '2023-08-31T11:15:39Z'
 ---
 
+Short semester project.

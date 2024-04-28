@@ -12,8 +12,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-4yp-Oxford-Nanopore-Technology-based-Pipeline-for-RNA-Seq-Data-Analysis
 page_url: https://cepdnaclk.github.io/e18-4yp-Oxford-Nanopore-Technology-based-Pipeline-for-RNA-Seq-Data-Analysis
 forks: 1
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2024-02-11T07:07:09Z'
 ---
 
