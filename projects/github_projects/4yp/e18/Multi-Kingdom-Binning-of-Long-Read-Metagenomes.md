@@ -2,7 +2,7 @@
 layout: project_page
 title: Multi Kingdom Binning of Long Read Metagenomes
 permalink: /4yp/e18/Multi-Kingdom-Binning-of-Long-Read-Metagenomes/
-description: ''
+description: A tool for refining long-reads binning  using kingdom level information
 has_children: false
 parent: E18 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -16,3 +16,4 @@ stars: 1
 started_on: '2024-01-13T14:26:37Z'
 ---
 
+A tool for refining long-reads binning  using kingdom level information
