@@ -9,7 +9,7 @@ grand_parent: Machine Learning Projects (CO544)
 cover_url: /data/categories/co544/cover_page.jpg
 thumbnail_url: /data/categories/co544/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co544-Crop-Recommendation-System
-page_url: blank
+page_url: https://cepdnaclk.github.io/e19-co544-Crop-Recommendation-System
 forks: 1
 watchers: 1
 stars: 1
