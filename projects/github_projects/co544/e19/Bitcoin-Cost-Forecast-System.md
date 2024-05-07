@@ -11,8 +11,8 @@ parent: E19 Machine Learning Projects (CO544)
 grand_parent: Machine Learning Projects (CO544)
 cover_url: /data/categories/co544/cover_page.jpg
 thumbnail_url: /data/categories/co544/thumbnail.jpg
-repo_url: https://github.com/cepdnaclk/e19-CO544-Bitcoin-Cost-Forecast-System
-page_url: https://cepdnaclk.github.io/e19-CO544-Bitcoin-Cost-Forecast-System
+repo_url: https://github.com/cepdnaclk/e19-co544-Bitcoin-Cost-Forecast-System
+page_url: https://cepdnaclk.github.io/e19-co544-Bitcoin-Cost-Forecast-System
 forks: 3
 watchers: 1
 stars: 1
