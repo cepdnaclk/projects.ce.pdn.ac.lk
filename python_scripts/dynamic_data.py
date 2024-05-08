@@ -131,6 +131,12 @@ for p in projects_gh:
 
     if (p in projects_api):
         p_api = projects_api[p]
+
+        # replace \u2019 with ' in description
+        p_api['description'] = p_api['description'].replace('\u2019', "'")
+        # remove emojis from description
+        p_api['description'] = p_api['description'].encode('ascii', 'ignore').decode('ascii')
+        
         proj['description'] = p_api['description']
         proj['category'] = p_api['category']
         proj['project_url'] = p_api['project_url']
