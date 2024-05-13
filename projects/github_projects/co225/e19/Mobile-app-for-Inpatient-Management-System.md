@@ -10,7 +10,7 @@ cover_url: /data/categories/co225/cover_page.jpg
 thumbnail_url: /data/categories/co225/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co225-Mobile-app-for-Inpatient-Management-System
 page_url: https://cepdnaclk.github.io/e19-co225-Mobile-app-for-Inpatient-Management-System
-forks: 1
+forks: 2
 watchers: 0
 stars: 0
 started_on: '2023-05-25T15:30:34Z'

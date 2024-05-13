@@ -16,8 +16,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-4yp-Hardware-Cache-Switching-with-Operating-System-Context-Switches
 page_url: https://cepdnaclk.github.io/e16-4yp-Hardware-Cache-Switching-with-Operating-System-Context-Switches
 forks: 5
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: '2022-07-01T15:01:10Z'
 ---
 
