@@ -1,18 +1,18 @@
 ---
 layout: project_page
-title: Concentration Difficulty Prediction Model
-permalink: /co544/e19/Concentration-Difficulty-Prediction-Model/
+title: Online Shoppers Purchasing Intention
+permalink: /co544/e19/Online-Shoppers-Purchasing-Intention/
 description: ''
 has_children: false
 parent: E19 Machine Learning Projects (CO544)
 grand_parent: Machine Learning Projects (CO544)
 cover_url: /data/categories/co544/cover_page.jpg
 thumbnail_url: /data/categories/co544/thumbnail.jpg
-repo_url: https://github.com/cepdnaclk/e19-co544-Concentration-Difficulty-Prediction-Model
+repo_url: https://github.com/cepdnaclk/e19-CO544-Online-Shoppers-Purchasing-Intention
 page_url: blank
-forks: 4
+forks: 0
 watchers: 0
 stars: 0
-started_on: '2024-04-25T14:47:16Z'
+started_on: '2024-04-25T13:09:38Z'
 ---
 
