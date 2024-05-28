@@ -10,7 +10,7 @@ cover_url: /data/categories/co544/cover_page.jpg
 thumbnail_url: /data/categories/co544/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-CO544-Online-Shoppers-Purchasing-Intention
 page_url: blank
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: '2024-04-25T13:09:38Z'
