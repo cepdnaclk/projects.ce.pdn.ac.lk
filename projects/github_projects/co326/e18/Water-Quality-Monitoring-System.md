@@ -15,8 +15,8 @@ thumbnail_url: /data/categories/co326/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-co326-Water-Quality-Monitoring-System
 page_url: https://cepdnaclk.github.io/e18-co326-Water-Quality-Monitoring-System
 forks: 3
-watchers: 1
-stars: 1
+watchers: 0
+stars: 0
 started_on: '2023-06-18T04:07:47Z'
 ---
 
