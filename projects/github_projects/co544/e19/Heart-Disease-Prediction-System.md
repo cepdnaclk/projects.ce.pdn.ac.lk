@@ -11,7 +11,7 @@ cover_url: /data/categories/co544/cover_page.jpg
 thumbnail_url: /data/categories/co544/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co544-Heart-Disease-Prediction-System
 page_url: https://cepdnaclk.github.io/e19-co544-Heart-Disease-Prediction-System
-forks: 1
+forks: 2
 watchers: 0
 stars: 0
 started_on: '2024-04-25T13:15:38Z'
