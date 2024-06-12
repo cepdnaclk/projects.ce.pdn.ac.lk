@@ -11,7 +11,7 @@ cover_url: /data/categories/co225/cover_page.jpg
 thumbnail_url: /data/categories/co225/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co225-Library-Management-System
 page_url: https://cepdnaclk.github.io/e19-co225-Library-Management-System
-forks: 3
+forks: 4
 watchers: 2
 stars: 2
 started_on: '2023-05-25T13:39:35Z'

@@ -17,8 +17,8 @@ thumbnail_url: /data/categories/co227/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-co227-Poultry-Feed-Efficiency-Tracking-System
 page_url: blank
 forks: 8
-watchers: 3
-stars: 3
+watchers: 4
+stars: 4
 started_on: '2022-06-05T11:32:57Z'
 ---
 
