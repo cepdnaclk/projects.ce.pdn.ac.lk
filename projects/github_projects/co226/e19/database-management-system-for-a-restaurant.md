@@ -13,7 +13,7 @@ cover_url: /data/categories/co226/cover_page.jpg
 thumbnail_url: /data/categories/co226/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co226-database-management-system-for-a-restaurant
 page_url: https://cepdnaclk.github.io/e19-co226-database-management-system-for-a-restaurant
-forks: 3
+forks: 4
 watchers: 2
 stars: 2
 started_on: '2023-07-23T14:37:54Z'

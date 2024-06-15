@@ -13,7 +13,7 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-3yp-impact-tracker
 page_url: https://cepdnaclk.github.io/e19-3yp-impact-tracker
-forks: 1
+forks: 2
 watchers: 3
 stars: 3
 started_on: '2023-11-19T05:20:03Z'
