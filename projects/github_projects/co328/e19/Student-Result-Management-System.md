@@ -11,7 +11,7 @@ cover_url: /data/categories/co328/cover_page.jpg
 thumbnail_url: /data/categories/co328/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co328-Student-Result-Management-System
 page_url: blank
-forks: 2
+forks: 3
 watchers: 1
 stars: 1
 started_on: '2024-04-22T16:13:49Z'
