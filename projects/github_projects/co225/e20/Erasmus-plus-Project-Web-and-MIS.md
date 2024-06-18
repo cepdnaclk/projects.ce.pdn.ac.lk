@@ -14,8 +14,8 @@ thumbnail_url: /data/categories/co225/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co225-Erasmus-plus-Project-Web-and-MIS
 page_url: https://cepdnaclk.github.io/e20-co225-Erasmus-plus-Project-Web-and-MIS
 forks: 4
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2024-05-10T16:50:49Z'
 ---
 
