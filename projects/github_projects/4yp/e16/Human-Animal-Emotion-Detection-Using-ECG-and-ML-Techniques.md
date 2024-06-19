@@ -13,8 +13,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-4yp-Human-Animal-Emotion-Detection-Using-ECG-and-ML-Techniques
 page_url: https://cepdnaclk.github.io/e16-4yp-Human-Animal-Emotion-Detection-Using-ECG-and-ML-Techniques
 forks: 6
-watchers: 3
-stars: 3
+watchers: 4
+stars: 4
 started_on: '2022-07-25T07:37:54Z'
 ---
 
