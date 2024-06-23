@@ -1,14 +1,14 @@
 ---
 layout: project_page
-title: Online Shoppers Purchasing Intention
-permalink: /co544/e19/Online-Shoppers-Purchasing-Intention/
+title: Online Shoppers Purchase Prediction
+permalink: /co544/e19/Online-Shoppers-Purchase-Prediction/
 description: ''
 has_children: false
 parent: E19 Machine Learning Projects (CO544)
 grand_parent: Machine Learning Projects (CO544)
 cover_url: /data/categories/co544/cover_page.jpg
 thumbnail_url: /data/categories/co544/thumbnail.jpg
-repo_url: https://github.com/cepdnaclk/e19-CO544-Online-Shoppers-Purchasing-Intention
+repo_url: https://github.com/cepdnaclk/e19-CO544-Online-Shoppers-Purchase-Prediction
 page_url: blank
 forks: 1
 watchers: 0
