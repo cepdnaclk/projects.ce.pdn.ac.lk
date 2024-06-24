@@ -11,9 +11,9 @@ cover_url: /data/categories/co502/cover_page.jpg
 thumbnail_url: /data/categories/co502/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-Co502-SuperScalar-CPU-With-Dynamic-Sheduling
 page_url: blank
-forks: 2
-watchers: 0
-stars: 0
+forks: 3
+watchers: 1
+stars: 1
 started_on: '2021-10-20T09:22:56Z'
 ---
 
