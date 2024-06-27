@@ -12,8 +12,8 @@ thumbnail_url: /data/categories/co544/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co544-Demand-Location-Prediction-For-Taxis
 page_url: https://cepdnaclk.github.io/e19-co544-Demand-Location-Prediction-For-Taxis
 forks: 2
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: '2024-04-25T20:01:02Z'
 ---
 
