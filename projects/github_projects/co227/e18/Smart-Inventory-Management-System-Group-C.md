@@ -10,7 +10,7 @@ cover_url: /data/categories/co227/cover_page.jpg
 thumbnail_url: /data/categories/co227/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-co227-Smart-Inventory-Management-System-Group-C
 page_url: https://cepdnaclk.github.io/e18-co227-Smart-Inventory-Management-System-Group-C
-forks: 2
+forks: 3
 watchers: 0
 stars: 0
 started_on: '2022-06-07T04:23:17Z'
