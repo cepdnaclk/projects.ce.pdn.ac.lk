@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: Multimodal Emotion Prediction Using Reinforcement Learning
-permalink: /4yp/e18/Multimodal-Emotion-Prediction-Using-Reinforcement-Learning/
+title: Personalized Multimodal Emotion Prediction
+permalink: /4yp/e18/Personalized-Multimodal-Emotion-Prediction/
 description: Our aim is to build an ensemble model that is  based on reinforcement
   learning, and capable of capturing the user specific  weight of each modality (visual,audio,text)
   in the emotional status.
@@ -10,8 +10,8 @@ parent: E18 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
 cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
-repo_url: https://github.com/cepdnaclk/e18-4yp-Multimodal-Emotion-Prediction-Using-Reinforcement-Learning
-page_url: https://cepdnaclk.github.io/e18-4yp-Multimodal-Emotion-Prediction-Using-Reinforcement-Learning
+repo_url: https://github.com/cepdnaclk/e18-4yp-Personalized-Multimodal-Emotion-Prediction
+page_url: https://cepdnaclk.github.io/e18-4yp-Personalized-Multimodal-Emotion-Prediction
 forks: 3
 watchers: 3
 stars: 3
