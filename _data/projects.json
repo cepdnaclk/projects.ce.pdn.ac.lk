@@ -4219,7 +4219,7 @@
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
         "created_at": "2021-03-05T09:40:09Z",
         "updated_at": "2021-11-15T17:39:30Z",
-        "forks_count": 1,
+        "forks_count": 2,
         "stars_count": 0,
         "watchers_count": 0,
         "language": "Python",
@@ -17474,7 +17474,7 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e18-4yp-Automated-Medical-Image-Annotation-for-Dataset-Building",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
         "created_at": "2024-02-01T03:36:41Z",
-        "updated_at": "2024-07-12T15:27:55Z",
+        "updated_at": "2024-09-13T17:06:44Z",
         "forks_count": 4,
         "stars_count": 1,
         "watchers_count": 1,
@@ -17732,6 +17732,93 @@
             "Final Year Projects"
         ]
     },
+    "e18-4yp-Dengue-outbreak-prediction-in-Sri-Lanka-using-machine-learning-techniques": {
+        "projName": "Dengue outbreak prediction in Sri Lanka using machine learning techniques",
+        "batch": "E18",
+        "category": {
+            "title": "Undergraduate Research Projects",
+            "code": "4yp",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e18-4yp-Dengue-outbreak-prediction-in-Sri-Lanka-using-machine-learning-techniques",
+        "project_url": "https://projects.ce.pdn.ac.lk/4yp/e18/Dengue-outbreak-prediction-in-Sri-Lanka-using-machine-learning-techniques/",
+        "page_url": "https://cepdnaclk.github.io/e18-4yp-Dengue-outbreak-prediction-in-Sri-Lanka-using-machine-learning-techniques",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e18-4yp-Dengue-outbreak-prediction-in-Sri-Lanka-using-machine-learning-techniques",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+        "created_at": "2024-03-31T06:06:18Z",
+        "updated_at": "2024-09-13T18:50:37Z",
+        "forks_count": 0,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": "Jupyter Notebook",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "",
+        "team": {
+            "E/18/181": {
+                "name": "K.M.S.L.Konara",
+                "email": "e18181@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/181",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18181.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/181/"
+            },
+            "E/18/224": {
+                "name": "G.D.R.Mihiranga",
+                "email": "e18224@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/224",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18224.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/224/"
+            },
+            "E/18/368": {
+                "name": "H.U.Uduwanage",
+                "email": "e18368@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/368",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18368.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/368/"
+            }
+        },
+        "supervisors": {
+            "namal@eng.pdn.ac.lk": {
+                "name": "Dr. Suneth Namal Karunarathna",
+                "email": "namal@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/suneth-namal-karunarathna/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/suneth-namal-karunarathna.png",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/namal",
+                "website": "",
+                "linkedin": "https://lk.linkedin.com/in/suneth-namal-b70b8688",
+                "researchgate": "https://www.researchgate.net/profile/Suneth-Namal",
+                "google_scholar": "https://scholar.google.com/citations?user=G39TP7EAAAAJ&hl=en"
+            },
+            "imeshuek@eng.pdn.ac.lk": {
+                "name": "Imesh Ekanayake",
+                "email": "imeshuek@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk//students/e15/092",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/temporary-academic-staff/imesh.png",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/imeshuek",
+                "website": "#",
+                "linkedin": "#",
+                "researchgate": "#",
+                "google_scholar": "#"
+            }
+        },
+        "tags": [
+            "Final Year Projects"
+        ]
+    },
     "e18-4yp-Detection-And-Repair-Data-Quality-Issues-In-Process-Mining": {
         "projName": "Detection And Repair Data Quality Issues In Process Mining",
         "batch": "E18",
@@ -17774,8 +17861,8 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e18-4yp-Extending-and-Implementing-Process-Mining-Techniques-Prevention-and-Mitigation",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
         "created_at": "2024-02-10T06:26:38Z",
-        "updated_at": "2024-07-09T13:37:03Z",
-        "forks_count": 3,
+        "updated_at": "2024-09-14T14:54:38Z",
+        "forks_count": 4,
         "stars_count": 0,
         "watchers_count": 0,
         "language": "Java",
@@ -17873,6 +17960,104 @@
                 "website": "#",
                 "linkedin": "#",
                 "researchgate": "#",
+                "google_scholar": "#"
+            }
+        },
+        "tags": [
+            "Final Year Projects"
+        ]
+    },
+    "e18-4yp-GPU-Acceleration-for-Deep-Learning-based-Comprehensive-ECG-analysis": {
+        "projName": "GPU Acceleration for Deep Learning based Comprehensive ECG analysis",
+        "batch": "E18",
+        "category": {
+            "title": "Undergraduate Research Projects",
+            "code": "4yp",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e18-4yp-GPU-Acceleration-for-Deep-Learning-based-Comprehensive-ECG-analysis",
+        "project_url": "https://projects.ce.pdn.ac.lk/4yp/e18/GPU-Acceleration-for-Deep-Learning-based-Comprehensive-ECG-analysis/",
+        "page_url": "https://cepdnaclk.github.io/e18-4yp-GPU-Acceleration-for-Deep-Learning-based-Comprehensive-ECG-analysis",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e18-4yp-GPU-Acceleration-for-Deep-Learning-based-Comprehensive-ECG-analysis",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+        "created_at": "2024-01-04T02:30:38Z",
+        "updated_at": "2024-09-13T18:27:43Z",
+        "forks_count": 0,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": "Jupyter Notebook",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "In this project we aim to develop  a GPU accelerated Deep Learning algorithm for ECG analysis which works like the MUSE ECG system",
+        "team": {
+            "E/18/098": {
+                "name": "Fernando K.A.I.",
+                "email": "e18098@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/ishanfdo18098",
+                "linkedin": "https://www.linkedin.com/in/ishanfdo/",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/098",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18098.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/098/"
+            },
+            "E/18/100": {
+                "name": "Fernando K.N.A.",
+                "email": "e18100@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/NipunFernando",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/100",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18100.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/100/"
+            },
+            "E/18/155": {
+                "name": "Jayasundara J.W.K.R.B.",
+                "email": "e18155@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/ridmajayasundara",
+                "linkedin": "https://www.linkedin.com/in/ridma-jayasundara-9471b8213",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/155",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18155.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/155/"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            },
+            "roshanr@eng.pdn.ac.lk": {
+                "name": "Prof. Roshan G. Ragel",
+                "email": "roshanr@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/roshan-ragel.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/roshanr",
+                "website": "http://roshan.ragel.net/",
+                "linkedin": "https://www.linkedin.com/in/roshanragel/",
+                "researchgate": "https://www.researchgate.net/profile/Roshan-Ragel",
+                "google_scholar": "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
+            },
+            "vajira@simula.no": {
+                "name": "Dr. Vajira Thambawita",
+                "email": "vajira@simula.no",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/visiting-research-fellows/",
+                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/fellows/vajira-thambawita.jpg",
+                "api_url": "#",
+                "website": "#",
+                "linkedin": "https://lk.linkedin.com/in/vlbthambawita",
+                "researchgate": "https://www.researchgate.net/profile/Vajira-Thambawita-2",
                 "google_scholar": "#"
             }
         },
@@ -18081,7 +18266,7 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e18-4yp-Multi-Kingdom-Binning-of-Long-Read-Metagenomes",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
         "created_at": "2024-01-13T14:26:37Z",
-        "updated_at": "2024-06-13T19:10:21Z",
+        "updated_at": "2024-09-13T17:07:04Z",
         "forks_count": 0,
         "stars_count": 1,
         "watchers_count": 1,
@@ -18176,7 +18361,7 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e18-4yp-Neuromorphic-NoC-Architecture-for-SNNs",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
         "created_at": "2024-01-07T07:40:55Z",
-        "updated_at": "2024-07-11T09:17:57Z",
+        "updated_at": "2024-09-13T16:38:34Z",
         "forks_count": 3,
         "stars_count": 1,
         "watchers_count": 1,
@@ -18369,14 +18554,18 @@
     "e18-4yp-Personalized-Multimodal-Emotion-Prediction": {
         "projName": "Personalized Multimodal Emotion Prediction",
         "batch": "E18",
-        "category": "Undergraduate Research Projects",
+        "category": {
+            "title": "Undergraduate Research Projects",
+            "code": "4yp",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+        },
         "repo_url": "https://github.com/cepdnaclk/e18-4yp-Personalized-Multimodal-Emotion-Prediction",
-        "project_url": "https://projects.ce.pdn.ac.lk/4yp/e18/Personalized-Multimodal-Emotion-Prediction",
-        "page_url": "https://cepdnaclk.github.io/e18-4yp-Personalized-Multimodal-Emotion-Prediction/",
+        "project_url": "https://projects.ce.pdn.ac.lk/4yp/e18/Personalized-Multimodal-Emotion-Prediction/",
+        "page_url": "https://cepdnaclk.github.io/e18-4yp-Personalized-Multimodal-Emotion-Prediction",
         "api_url": "https://api.github.com/repos/cepdnaclk/e18-4yp-Personalized-Multimodal-Emotion-Prediction",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
         "created_at": "2024-02-05T08:01:55Z",
-        "updated_at": "2024-09-08T16:06:31Z",
+        "updated_at": "2024-09-10T03:04:42Z",
         "forks_count": 3,
         "stars_count": 3,
         "watchers_count": 3,
@@ -18384,7 +18573,70 @@
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
-        "has_pages": true
+        "has_pages": true,
+        "description": "In this research, we introduce a personalized emotion prediction model that focuses on four key emotions: happy, sad, neutral, and angry. What makes this model special is its ability to adapt to each individual user, learning from how they personally express emotions and adjusting the importance of each modality accordingly.",
+        "team": {
+            "E/18/354": {
+                "name": "Ruchira Tharaka",
+                "email": "e18354@eng.pdn.ac.lk",
+                "website": "https://dev-ruchira-tharaka.pantheonsite.io/",
+                "github": "https://github.com/RuchiraTharaka",
+                "linkedin": "https://www.linkedin.com/in/ruchira-tharaka-51423b212/",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/354",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18354.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/354/"
+            },
+            "E/18/318": {
+                "name": "Piyumali Sandunika",
+                "email": "e18318@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/PiyumaliSandunika",
+                "linkedin": "https://www.linkedin.com/in/piyumali-sandunika-08b239203/",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/318",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18318.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/318/"
+            },
+            "E/18/022": {
+                "name": "Didula Induwara",
+                "email": "e18022@eng.pdn.ac.lk",
+                "website": "https://sites.google.com/view/didula-induwara/home",
+                "github": "https://github.com/Didula98",
+                "linkedin": "https://www.linkedin.com/in/didula-induwara-885054243/",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/022",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18022.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/022/"
+            }
+        },
+        "supervisors": {
+            "dharshana.k@sliit.lk": {
+                "name": "Dr. Dharshana Kasthurirathna",
+                "email": "dharshana.k@sliit.lk",
+                "profile_url": "#",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
+                "api_url": "#",
+                "website": "#",
+                "linkedin": "#",
+                "researchgate": "#",
+                "google_scholar": "#"
+            },
+            "yasodhav@eng.pdn.ac.lk": {
+                "name": "Ms. Yasodha Vimukthi",
+                "email": "yasodhav@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/yasodha-vimukthi/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/yasodha-vimukthi.jpeg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/yasodhav",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/yashodha-vimukthi-586378137/",
+                "researchgate": "",
+                "google_scholar": ""
+            }
+        },
+        "tags": [
+            "Final Year Projects"
+        ]
     },
     "e18-4yp-Predicting-Forex-Currency-Exchange-Rate-using-Machine-Learning": {
         "projName": "Predicting Forex Currency Exchange Rate using Machine Learning",
@@ -18861,7 +19113,7 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e18-4yp-Virtual-Patient-Simulator-for-Skill-Training-in-Dentistry",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
         "created_at": "2024-01-06T06:41:11Z",
-        "updated_at": "2024-07-16T13:26:19Z",
+        "updated_at": "2024-09-13T18:54:57Z",
         "forks_count": 3,
         "stars_count": 0,
         "watchers_count": 0,
@@ -18940,9 +19192,9 @@
                 "researchgate": "#",
                 "google_scholar": "#"
             },
-            "titus@eng.pdn.ac.lk": {
-                "name": "Dr. Titus",
-                "email": "titus@eng.pdn.ac.lk",
+            "dgs@ucsc.cmb.ac.lk": {
+                "name": "Dr.  Dilrukshi Gamage",
+                "email": "dgs@ucsc.cmb.ac.lk",
                 "profile_url": "#",
                 "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
                 "api_url": "#",
@@ -26398,7 +26650,7 @@
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co225/thumbnail.jpg",
         "created_at": "2023-05-25T12:00:30Z",
         "updated_at": "2023-06-21T05:02:28Z",
-        "forks_count": 11,
+        "forks_count": 10,
         "stars_count": 0,
         "watchers_count": 0,
         "language": "Java",
@@ -27371,7 +27623,7 @@
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co226/thumbnail.jpg",
         "created_at": "2023-08-22T12:14:36Z",
         "updated_at": "2024-05-29T14:42:50Z",
-        "forks_count": 1,
+        "forks_count": 2,
         "stars_count": 0,
         "watchers_count": 0,
         "language": "JavaScript",
@@ -29769,10 +30021,10 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e19-co227-Training-Management-System",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
         "created_at": "2023-09-01T07:05:15Z",
-        "updated_at": "2023-11-07T20:45:27Z",
+        "updated_at": "2024-09-10T08:57:07Z",
         "forks_count": 4,
-        "stars_count": 1,
-        "watchers_count": 1,
+        "stars_count": 2,
+        "watchers_count": 2,
         "language": "JavaScript",
         "topics": [
             "co227",
@@ -31837,7 +32089,7 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e20-co225-Denture-Design-Studio",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co225/thumbnail.jpg",
         "created_at": "2024-05-12T15:32:37Z",
-        "updated_at": "2024-09-08T09:50:19Z",
+        "updated_at": "2024-09-15T17:15:08Z",
         "forks_count": 4,
         "stars_count": 0,
         "watchers_count": 0,
@@ -31933,7 +32185,7 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e20-co225-Erasmus-plus-Project-Web-and-MIS",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co225/thumbnail.jpg",
         "created_at": "2024-05-10T16:50:49Z",
-        "updated_at": "2024-09-08T15:14:04Z",
+        "updated_at": "2024-09-15T11:49:36Z",
         "forks_count": 4,
         "stars_count": 4,
         "watchers_count": 4,
@@ -32018,11 +32270,11 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e20-co225-Food-Buddy",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co225/thumbnail.jpg",
         "created_at": "2024-08-27T16:30:58Z",
-        "updated_at": "2024-08-28T14:10:37Z",
-        "forks_count": 1,
+        "updated_at": "2024-09-13T10:58:53Z",
+        "forks_count": 4,
         "stars_count": 0,
         "watchers_count": 0,
-        "language": null,
+        "language": "Dart",
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
@@ -32103,11 +32355,11 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e20-co225-Mentormate",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co225/thumbnail.jpg",
         "created_at": "2024-07-04T04:07:20Z",
-        "updated_at": "2024-09-03T06:41:53Z",
+        "updated_at": "2024-09-15T12:03:49Z",
         "forks_count": 4,
         "stars_count": 0,
         "watchers_count": 0,
-        "language": "Python",
+        "language": "JavaScript",
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
