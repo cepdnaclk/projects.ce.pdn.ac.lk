@@ -20,8 +20,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e15-4yp-Real-Time-Emotion-Recognition-using-Electrocardiogram-Analysis
 page_url: https://cepdnaclk.github.io/e15-4yp-Real-Time-Emotion-Recognition-using-Electrocardiogram-Analysis
 forks: 4
-watchers: 3
-stars: 3
+watchers: 4
+stars: 4
 started_on: '2021-03-04T16:48:04Z'
 ---
 
