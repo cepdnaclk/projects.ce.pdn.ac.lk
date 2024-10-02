@@ -14,8 +14,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e15-4yp-Doppelganger-Cartoon
 page_url: https://cepdnaclk.github.io/e15-4yp-Doppelganger-Cartoon
 forks: 0
-watchers: 2
-stars: 2
+watchers: 3
+stars: 3
 started_on: '2021-05-01T07:49:46Z'
 ---
 
