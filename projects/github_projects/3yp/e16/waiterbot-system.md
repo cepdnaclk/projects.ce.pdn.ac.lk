@@ -17,8 +17,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-3yp-waiterbot-system
 page_url: https://cepdnaclk.github.io/e16-3yp-waiterbot-system
 forks: 3
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2020-10-16T18:05:21Z'
 ---
 
