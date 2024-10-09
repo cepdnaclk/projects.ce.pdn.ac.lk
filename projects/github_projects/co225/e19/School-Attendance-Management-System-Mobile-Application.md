@@ -11,8 +11,8 @@ thumbnail_url: /data/categories/co225/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co225-School-Attendance-Management-System-Mobile-Application
 page_url: https://cepdnaclk.github.io/e19-co225-School-Attendance-Management-System-Mobile-Application
 forks: 10
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2023-05-25T12:00:30Z'
 ---
 
