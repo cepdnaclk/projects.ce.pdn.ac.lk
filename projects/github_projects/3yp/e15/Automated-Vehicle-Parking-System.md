@@ -19,8 +19,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e15-3yp-Automated-Vehicle-Parking-System
 page_url: https://cepdnaclk.github.io/e15-3yp-Automated-Vehicle-Parking-System
 forks: 1
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2021-05-18T19:07:43Z'
 ---
 
