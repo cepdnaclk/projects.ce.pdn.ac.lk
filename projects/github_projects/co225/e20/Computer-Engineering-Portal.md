@@ -11,7 +11,7 @@ grand_parent: Software Constructions Projects (CO225)
 cover_url: /data/categories/co225/cover_page.jpg
 thumbnail_url: /data/categories/co225/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co225-Computer-Engineering-Portal
-page_url: blank
+page_url: https://cepdnaclk.github.io/e20-co225-Computer-Engineering-Portal
 forks: 0
 watchers: 0
 stars: 0
