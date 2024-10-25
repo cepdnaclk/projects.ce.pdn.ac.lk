@@ -13,8 +13,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients
 page_url: https://cepdnaclk.github.io/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients
 forks: 10
-watchers: 17
-stars: 17
+watchers: 18
+stars: 18
 started_on: '2022-07-23T18:00:10Z'
 ---
 
