@@ -12,7 +12,7 @@ cover_url: /data/categories/co225/cover_page.jpg
 thumbnail_url: /data/categories/co225/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co225-Computer-Engineering-Portal
 page_url: https://cepdnaclk.github.io/e20-co225-Computer-Engineering-Portal
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: '2024-09-21T15:21:55Z'
