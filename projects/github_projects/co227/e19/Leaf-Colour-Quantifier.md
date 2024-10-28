@@ -11,8 +11,8 @@ thumbnail_url: /data/categories/co227/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co227-Leaf-Colour-Quantifier
 page_url: https://cepdnaclk.github.io/e19-co227-Leaf-Colour-Quantifier
 forks: 2
-watchers: 2
-stars: 2
+watchers: 3
+stars: 3
 started_on: '2023-08-27T11:18:58Z'
 ---
 
