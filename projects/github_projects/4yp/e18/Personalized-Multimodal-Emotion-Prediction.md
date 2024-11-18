@@ -14,8 +14,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-4yp-Personalized-Multimodal-Emotion-Prediction
 page_url: https://cepdnaclk.github.io/e18-4yp-Personalized-Multimodal-Emotion-Prediction
 forks: 3
-watchers: 3
-stars: 3
+watchers: 4
+stars: 4
 started_on: '2024-02-05T08:01:55Z'
 ---
 
