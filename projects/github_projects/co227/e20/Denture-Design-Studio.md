@@ -1,21 +1,21 @@
 ---
 layout: project_page
 title: Denture Design Studio
-permalink: /co225/e20/Denture-Design-Studio/
+permalink: /co227/e20/Denture-Design-Studio/
 description: A graphical platform that provides an opportunity for real-time denture
   designing with features for self evaluation for dental students with guidance from
   assessors
 has_children: false
-parent: E20 Software Constructions Projects (CO225)
-grand_parent: Software Constructions Projects (CO225)
-cover_url: /data/categories/co225/cover_page.jpg
-thumbnail_url: /data/categories/co225/thumbnail.jpg
-repo_url: https://github.com/cepdnaclk/e20-co225-Denture-Design-Studio
-page_url: https://cepdnaclk.github.io/e20-co225-Denture-Design-Studio
-forks: 5
+parent: E20 Software Systems Projects
+grand_parent: Software Systems Projects
+cover_url: /data/categories/co227/cover_page.jpg
+thumbnail_url: /data/categories/co227/thumbnail.jpg
+repo_url: https://github.com/cepdnaclk/e20-co227-Denture-Design-Studio
+page_url: blank
+forks: 0
 watchers: 0
 stars: 0
-started_on: '2024-05-12T15:32:37Z'
+started_on: '2024-11-28T07:04:25Z'
 ---
 
 A graphical platform that provides an opportunity for real-time denture designing with features for self evaluation for dental students with guidance from assessors
