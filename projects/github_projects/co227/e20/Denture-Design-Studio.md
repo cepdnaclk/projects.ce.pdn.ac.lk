@@ -2,9 +2,7 @@
 layout: project_page
 title: Denture Design Studio
 permalink: /co227/e20/Denture-Design-Studio/
-description: A graphical platform that provides an opportunity for real-time denture
-  designing with features for self evaluation for dental students with guidance from
-  assessors
+description: ''
 has_children: false
 parent: E20 Software Systems Projects
 grand_parent: Software Systems Projects
@@ -15,7 +13,6 @@ page_url: blank
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2024-11-28T07:04:25Z'
+started_on: '2024-11-30T17:21:29Z'
 ---
 
-A graphical platform that provides an opportunity for real-time denture designing with features for self evaluation for dental students with guidance from assessors
