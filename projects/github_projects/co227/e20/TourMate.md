@@ -2,7 +2,9 @@
 layout: project_page
 title: TourMate
 permalink: /co227/e20/TourMate/
-description: Tourmate web application to be a e-guide to tourists
+description: TourMate simplifies trip planning by ending the need for endless scrolling.
+  It offers personalized schedules with hotels, attractions, weather updates, and
+  routes for a hassle-free travel experience.
 has_children: false
 parent: E20 Software Systems Projects
 grand_parent: Software Systems Projects
@@ -16,4 +18,4 @@ stars: 0
 started_on: '2024-11-30T06:34:16Z'
 ---
 
-Tourmate web application to be a e-guide to tourists
+TourMate simplifies trip planning by ending the need for endless scrolling. It offers personalized schedules with hotels, attractions, weather updates, and routes for a hassle-free travel experience.
