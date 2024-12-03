@@ -12,8 +12,8 @@ grand_parent: Advanced Computer Architecture (CO502)
 cover_url: /data/categories/co502/cover_page.jpg
 thumbnail_url: /data/categories/co502/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co502-RV32IM-pipeline-implementation-group-2
-page_url: blank
-forks: 0
+page_url: https://cepdnaclk.github.io/e20-co502-RV32IM-pipeline-implementation-group-2
+forks: 1
 watchers: 0
 stars: 0
 started_on: '2024-12-01T18:11:41Z'

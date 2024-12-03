@@ -11,7 +11,7 @@ cover_url: /data/categories/co227/cover_page.jpg
 thumbnail_url: /data/categories/co227/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-co227-Postgraduate-Student-Management-System
 page_url: https://cepdnaclk.github.io/e18-co227-Postgraduate-Student-Management-System
-forks: 3
+forks: 4
 watchers: 0
 stars: 0
 started_on: '2022-06-08T09:15:31Z'

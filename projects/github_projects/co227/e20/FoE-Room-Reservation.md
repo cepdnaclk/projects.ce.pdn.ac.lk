@@ -2,7 +2,9 @@
 layout: project_page
 title: FoE Room Reservation
 permalink: /co227/e20/FoE-Room-Reservation/
-description: It is a web application to book rooms in FoE.
+description: The FoE Room Reservation System enables academic and non academic staff
+  to easily book rooms with a user-friendly interface, drag-and-drop functionality,
+  colour coded bookings, and efficient room and user management.
 has_children: false
 parent: E20 Software Systems Projects
 grand_parent: Software Systems Projects
@@ -16,4 +18,4 @@ stars: 0
 started_on: '2024-12-02T06:15:08Z'
 ---
 
-It is a web application to book rooms in FoE.
+The FoE Room Reservation System enables academic and non academic staff to easily book rooms with a user-friendly interface, drag-and-drop functionality, colour coded bookings, and efficient room and user management.
