@@ -3,7 +3,7 @@ layout: project_page
 title: Computer Engineering Portal
 permalink: /co227/e20/Computer-Engineering-Portal/
 description: Internal and Public web service provider of the Department of Computer
-  Engineering
+  Engineering. This project covering the course management and taxonomies
 has_children: false
 parent: E20 Software Systems Projects
 grand_parent: Software Systems Projects
@@ -17,4 +17,4 @@ stars: 0
 started_on: '2024-10-27T14:38:28Z'
 ---
 
-Internal and Public web service provider of the Department of Computer Engineering
+Internal and Public web service provider of the Department of Computer Engineering. This project covering the course management and taxonomies
