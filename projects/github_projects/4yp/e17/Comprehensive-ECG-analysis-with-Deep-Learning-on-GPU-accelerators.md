@@ -13,8 +13,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-4yp-Comprehensive-ECG-analysis-with-Deep-Learning-on-GPU-accelerators
 page_url: https://cepdnaclk.github.io/e17-4yp-Comprehensive-ECG-analysis-with-Deep-Learning-on-GPU-accelerators
 forks: 5
-watchers: 3
-stars: 3
+watchers: 4
+stars: 4
 started_on: '2023-05-22T06:53:41Z'
 ---
 
