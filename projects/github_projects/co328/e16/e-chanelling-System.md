@@ -11,8 +11,8 @@ thumbnail_url: /data/categories/co328/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-CO328-e-chanelling-System
 page_url: blank
 forks: 3
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: '2021-10-31T10:38:11Z'
 ---
 
