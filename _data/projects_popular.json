@@ -1,195 +1,144 @@
 {
-    "e16-3yp-smart-pharmaceutical-warehousing": {
-        "projName": "smart pharmaceutical warehousing",
-        "batch": "E16",
-        "category": {
-            "title": "Cyber-Physical Systems Projects",
-            "code": "3yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing",
-        "project_url": "/3yp/e16/smart-pharmaceutical-warehousing/",
-        "page_url": "https://cepdnaclk.github.io/e16-3yp-smart-pharmaceutical-warehousing",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-        "created_at": "2020-10-18T04:16:45Z",
-        "updated_at": "2024-04-24T11:12:48Z",
-        "forks_count": 7,
-        "stars_count": 15,
-        "watchers_count": 15,
-        "language": "JavaScript",
-        "topics": [
-            "agv",
-            "robot-arm",
-            "warehouse"
-        ],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "In this project, we are trying to address this issue by developing a fully automated warehouse management that will minimize the drawbacks while improving efficiency and profitability. We are implementing a warehouse management system which consists two types of robots; robots arms to handle loading/unloading of goods, automated guided vehicles to transport goods inside the warehouse. Also, an online shopping portal to make the purchases from the warehouse.",
-        "team": {
-            "E/16/081": {
-                "name": "Praveen Dhananjaya",
-                "email": "e16081@eng.pdn.ac.lk",
-                "website": "https://sites.google.com/view/praveen-dhananjaya",
-                "github": "https://github.com/praveendhananjaya",
-                "linkedin": "https://www.linkedin.com/in/praveen-dhananjaya-55816015a",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/081",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16081.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/081/"
-            },
-            "E/16/068": {
-                "name": "K.R. De Silva",
-                "email": "e16068@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/068",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16068.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/068/"
-            },
-            "E/16/232 ": {
-                "name": "F.S Marzook",
-                "email": "e16232@eng.pdn.ac.lk",
-                "website": "#",
-                "github": "https://github.com/ShamraMarzook",
-                "linkedin": "#",
-                "researchgate": "#",
-                "api_url": "#",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
-                "profile_url": "#"
-            }
-        },
-        "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            },
-            "ziyanm@gmail.com": {
-                "name": "Mr. Ziyan Maraikar",
-                "email": "ziyanm@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/ziyan-maraikar/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/ziyan-maraikar.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/ziyanm",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/ziyan-maraikar-15539818a",
-                "researchgate": "https://www.researchgate.net/profile/Ziyan-Maraikar-2",
-                "google_scholar": "https://scholar.google.com.au/citations?user=5xf_7TAAAAAJ&hl=en"
-            }
-        },
-        "tags": [
-            "Embedded Systems",
-            "robotic automation"
-        ],
-        "name": "e16-3yp-smart-pharmaceutical-warehousing",
-        "popularity_score": 13.4
-    },
-    "e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients": {
-        "projName": "Food Recommendation System Using Machine Learning for Diabetic Patients",
+    "e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices": {
+        "projName": "post quantum cryptographic schemes based on plain lattices",
         "batch": "E16",
         "category": {
             "title": "Undergraduate Research Projects",
             "code": "4yp",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
         },
-        "repo_url": "https://github.com/cepdnaclk/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
-        "project_url": "/4yp/e16/Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients/",
-        "page_url": "https://cepdnaclk.github.io/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
+        "repo_url": "https://github.com/cepdnaclk/e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
+        "project_url": "/4yp/e16/post-quantum-cryptographic-schemes-based-on-plain-lattices/",
+        "page_url": "https://cepdnaclk.github.io/e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2022-07-23T18:00:10Z",
-        "updated_at": "2024-12-08T07:54:37Z",
-        "forks_count": 10,
-        "stars_count": 21,
-        "watchers_count": 21,
-        "language": "Jupyter Notebook",
+        "created_at": "2022-07-25T10:06:29Z",
+        "updated_at": "2024-11-08T09:11:46Z",
+        "forks_count": 6,
+        "stars_count": 8,
+        "watchers_count": 8,
+        "language": "C++",
         "topics": [
-            "diabetes",
-            "food-recommendation",
-            "machine-learning",
-            "nutrients"
+            "cryptography",
+            "lattice-based-crypto",
+            "learning-with-errors",
+            "post-quantum-cryptography",
+            "public-key-cryptography",
+            "random-oracle-model"
         ],
         "has_projects": true,
         "has_wiki": true,
         "has_pages": true,
-        "description": "Recommend proper foods for diabetic patients in the context of nutrition and food characteristics by developing a machine learning based intelligent mobile application",
+        "description": "This project proposes the use of plain lattices with learning with errors problem to implement a cryptographic scheme which can run on classical computers and provides security against quantum based attacks. We are proposing key sizes for efficient operations and implement a lattice trapdoor function. Also we will improve current random oracle based model in to a standard model.",
         "team": {
-            "E/16/083": {
-                "name": "Dhanushka S.M.V.",
-                "email": "e16083@eng.pdn.ac.lk",
-                "website": "https://studentambassadors.microsoft.com/en-US/profile/154961",
-                "github": "https://github.com/viradhanus",
-                "linkedin": "https://www.linkedin.com/in/viradhanus/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/083",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16083.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/083/"
-            },
-            "E/16/394": {
-                "name": "Wijayasinghe S.D.D.D.",
-                "email": "e16394@eng.pdn.ac.lk",
+            "E/16/049": {
+                "name": "Harshana Bandara",
+                "email": "e16049@eng.pdn.ac.lk",
                 "website": "",
                 "github": "",
                 "linkedin": "",
                 "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/394",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16394.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/394/"
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/049",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16049.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/049/"
             },
-            "E/16/396": {
-                "name": "Wijekoon W.M.T.S.",
-                "email": "e16396@eng.pdn.ac.lk",
+            "E/16/134": {
+                "name": "Yasitha Herath",
+                "email": "e16134@eng.pdn.ac.lk",
                 "website": "",
                 "github": "",
                 "linkedin": "",
                 "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/396",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16396.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/396/"
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/134",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16134.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/134/"
+            },
+            "E/16/388": {
+                "name": "Thushara Weerasundara",
+                "email": "e16388@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/388",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16388.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/388/"
             }
         },
         "supervisors": {
-            "sampath@eng.pdn.ac.lk": {
-                "name": "Dr. Eng. Sampath Deegalla",
-                "email": "sampath@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/sampath-deegalla/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/sampath-deegalla.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/sampath",
-                "website": "https://www.sites.google.com/site/dsdeegalla/",
-                "linkedin": "https://www.linkedin.com/in/dsdeegalla",
-                "researchgate": "https://www.researchgate.net/profile/Sampath-Deegalla-2",
-                "google_scholar": "https://scholar.google.com/citations?user=QDoeGtYAAAAJ&hl=en"
+            "qinyi.li@griffith.edu.au": {
+                "name": "Dr. Qinyi Li",
+                "email": "qinyi.li@griffith.edu.au",
+                "profile_url": "#",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
+                "api_url": "#",
+                "website": "#",
+                "linkedin": "#",
+                "researchgate": "#",
+                "google_scholar": "#"
             },
-            "nadeeshaa@eng.pdn.ac.lk": {
-                "name": "Mrs. Nadeesha Adikari",
-                "email": "nadeeshaa@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/nadeesha-adikari/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/nadeesha-adikari.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/nadeeshaa",
+            "alawatugoda@eng.pdn.ac.lk": {
+                "name": "Dr. Janaka Alawatugoda",
+                "email": "alawatugoda@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/janaka-alawatugoda/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/janaka-alawatugoda.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/alawatugoda",
                 "website": "",
-                "linkedin": "https://www.linkedin.com/in/nadeesha-adikari-48864961/",
-                "researchgate": "https://www.researchgate.net/profile/Nadeesha-Adikari",
-                "google_scholar": ""
+                "linkedin": "https://www.linkedin.com/in/janaka-alawatugoda-53294034/",
+                "researchgate": "https://www.researchgate.net/profile/Janaka-Alawatugoda-2",
+                "google_scholar": "https://scholar.google.com/citations?user=TJWRzj4AAAAJ&hl=en"
+            },
+            "roshanr@eng.pdn.ac.lk": {
+                "name": "Prof. Roshan G. Ragel",
+                "email": "roshanr@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/roshan-ragel.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/roshanr",
+                "website": "http://roshan.ragel.net/",
+                "linkedin": "https://www.linkedin.com/in/roshanragel/",
+                "researchgate": "https://www.researchgate.net/profile/Roshan-Ragel",
+                "google_scholar": "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
             }
         },
         "tags": [
-            "Machine Learning",
-            "Diabetes",
-            "Food Recommendation",
-            "Nutrients",
-            "Final Year Projects"
+            "Cryptography",
+            "Post Quantum Cryptography",
+            "Learning with erros",
+            "Lattice based cryptography",
+            "Plain Lattices"
         ],
-        "name": "e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
-        "popularity_score": 18.8
+        "name": "e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
+        "popularity_score": 7.6
+    },
+    "e17-co326-Smart-Building": {
+        "projName": "Smart Building",
+        "batch": "E17",
+        "category": {
+            "title": "Industrial Automation Projects (CO326)",
+            "code": "co326",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co326/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e17-co326-Smart-Building",
+        "project_url": "/co326/e17/Smart-Building/",
+        "page_url": "https://cepdnaclk.github.io/e17-co326-Smart-Building",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e17-co326-Smart-Building",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
+        "created_at": "2022-06-30T00:12:23Z",
+        "updated_at": "2022-11-06T03:32:35Z",
+        "forks_count": 48,
+        "stars_count": 1,
+        "watchers_count": 1,
+        "language": "Jupyter Notebook",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e17-co326-Smart-Building",
+        "popularity_score": 10.4
     },
     "e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs": {
         "projName": "Neuromorphic NoC Architecture for SNNs",
@@ -302,6 +251,288 @@
         "name": "e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs",
         "popularity_score": 15.0
     },
+    "e16-3yp-smart-vending-machine": {
+        "projName": "smart vending machine",
+        "batch": "E16",
+        "category": {
+            "title": "Cyber-Physical Systems Projects",
+            "code": "3yp",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e16-3yp-smart-vending-machine",
+        "project_url": "/3yp/e16/smart-vending-machine/",
+        "page_url": "https://cepdnaclk.github.io/e16-3yp-smart-vending-machine",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-smart-vending-machine",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+        "created_at": "2020-10-21T10:22:20Z",
+        "updated_at": "2024-07-22T15:20:41Z",
+        "forks_count": 7,
+        "stars_count": 10,
+        "watchers_count": 10,
+        "language": "JavaScript",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "Smart Vending Machine (3rd-year unified project) This is a 3rd-year project Developed by a group of students to address the problems faced in traditional vending and help consumers have a relatively safer and easier to handle and access. This Smart Vending machine is connected to the cloud to make sure every transaction is Live A web application is devoted to helping the consumers see what they want and can order the items they want to buy The web application is very interactive where the users can sign up and make an interactive accounts where they can do changes and track their buying habits",
+        "team": {
+            "E/16/172": {
+                "name": "Karikaran Vettivel",
+                "email": "e16172@eng.pdn.ac.lk",
+                "website": "https://karikaran.herokuapp.com/",
+                "github": "https://github.com/Karikaranvetti",
+                "linkedin": "https://www.linkedin.com/in/karikaranvetti/",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/172",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16172.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/172/"
+            },
+            "E/16/055": {
+                "name": "Bragadeeshan Suppusamy",
+                "email": "e16055@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/Bragadeeshan",
+                "linkedin": "https://www.linkedin.com/in/bragadeeshansuppusamy/",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/055",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16055.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/055/"
+            },
+            "E/16/115": {
+                "name": "Girishikan Selvaratnam",
+                "email": "e16115@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/115",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16115.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/115/"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            },
+            "ziyanm@gmail.com": {
+                "name": "Mr. Ziyan Maraikar",
+                "email": "ziyanm@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/ziyan-maraikar/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/ziyan-maraikar.png",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/ziyanm",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/ziyan-maraikar-15539818a",
+                "researchgate": "https://www.researchgate.net/profile/Ziyan-Maraikar-2",
+                "google_scholar": "https://scholar.google.com.au/citations?user=5xf_7TAAAAAJ&hl=en"
+            }
+        },
+        "tags": [
+            "Web",
+            "Embedded Systems"
+        ],
+        "name": "e16-3yp-smart-vending-machine",
+        "popularity_score": 9.4
+    },
+    "e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients": {
+        "projName": "Food Recommendation System Using Machine Learning for Diabetic Patients",
+        "batch": "E16",
+        "category": {
+            "title": "Undergraduate Research Projects",
+            "code": "4yp",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
+        "project_url": "/4yp/e16/Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients/",
+        "page_url": "https://cepdnaclk.github.io/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+        "created_at": "2022-07-23T18:00:10Z",
+        "updated_at": "2024-12-08T07:54:37Z",
+        "forks_count": 10,
+        "stars_count": 21,
+        "watchers_count": 21,
+        "language": "Jupyter Notebook",
+        "topics": [
+            "diabetes",
+            "food-recommendation",
+            "machine-learning",
+            "nutrients"
+        ],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "Recommend proper foods for diabetic patients in the context of nutrition and food characteristics by developing a machine learning based intelligent mobile application",
+        "team": {
+            "E/16/083": {
+                "name": "Dhanushka S.M.V.",
+                "email": "e16083@eng.pdn.ac.lk",
+                "website": "https://studentambassadors.microsoft.com/en-US/profile/154961",
+                "github": "https://github.com/viradhanus",
+                "linkedin": "https://www.linkedin.com/in/viradhanus/",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/083",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16083.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/083/"
+            },
+            "E/16/394": {
+                "name": "Wijayasinghe S.D.D.D.",
+                "email": "e16394@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/394",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16394.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/394/"
+            },
+            "E/16/396": {
+                "name": "Wijekoon W.M.T.S.",
+                "email": "e16396@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/396",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16396.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/396/"
+            }
+        },
+        "supervisors": {
+            "sampath@eng.pdn.ac.lk": {
+                "name": "Dr. Eng. Sampath Deegalla",
+                "email": "sampath@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/sampath-deegalla/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/sampath-deegalla.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/sampath",
+                "website": "https://www.sites.google.com/site/dsdeegalla/",
+                "linkedin": "https://www.linkedin.com/in/dsdeegalla",
+                "researchgate": "https://www.researchgate.net/profile/Sampath-Deegalla-2",
+                "google_scholar": "https://scholar.google.com/citations?user=QDoeGtYAAAAJ&hl=en"
+            },
+            "nadeeshaa@eng.pdn.ac.lk": {
+                "name": "Mrs. Nadeesha Adikari",
+                "email": "nadeeshaa@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/nadeesha-adikari/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/nadeesha-adikari.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/nadeeshaa",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/nadeesha-adikari-48864961/",
+                "researchgate": "https://www.researchgate.net/profile/Nadeesha-Adikari",
+                "google_scholar": ""
+            }
+        },
+        "tags": [
+            "Machine Learning",
+            "Diabetes",
+            "Food Recommendation",
+            "Nutrients",
+            "Final Year Projects"
+        ],
+        "name": "e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
+        "popularity_score": 18.8
+    },
+    "e16-3yp-smart-pharmaceutical-warehousing": {
+        "projName": "smart pharmaceutical warehousing",
+        "batch": "E16",
+        "category": {
+            "title": "Cyber-Physical Systems Projects",
+            "code": "3yp",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing",
+        "project_url": "/3yp/e16/smart-pharmaceutical-warehousing/",
+        "page_url": "https://cepdnaclk.github.io/e16-3yp-smart-pharmaceutical-warehousing",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+        "created_at": "2020-10-18T04:16:45Z",
+        "updated_at": "2024-12-11T06:33:57Z",
+        "forks_count": 7,
+        "stars_count": 14,
+        "watchers_count": 14,
+        "language": "JavaScript",
+        "topics": [
+            "agv",
+            "robot-arm",
+            "warehouse"
+        ],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "In this project, we are trying to address this issue by developing a fully automated warehouse management that will minimize the drawbacks while improving efficiency and profitability. We are implementing a warehouse management system which consists two types of robots; robots arms to handle loading/unloading of goods, automated guided vehicles to transport goods inside the warehouse. Also, an online shopping portal to make the purchases from the warehouse.",
+        "team": {
+            "E/16/081": {
+                "name": "Praveen Dhananjaya",
+                "email": "e16081@eng.pdn.ac.lk",
+                "website": "https://sites.google.com/view/praveen-dhananjaya",
+                "github": "https://github.com/praveendhananjaya",
+                "linkedin": "https://www.linkedin.com/in/praveen-dhananjaya-55816015a",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/081",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16081.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/081/"
+            },
+            "E/16/068": {
+                "name": "K.R. De Silva",
+                "email": "e16068@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/068",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16068.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/068/"
+            },
+            "E/16/232 ": {
+                "name": "F.S Marzook",
+                "email": "e16232@eng.pdn.ac.lk",
+                "website": "#",
+                "github": "https://github.com/ShamraMarzook",
+                "linkedin": "#",
+                "researchgate": "#",
+                "api_url": "#",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
+                "profile_url": "#"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            },
+            "ziyanm@gmail.com": {
+                "name": "Mr. Ziyan Maraikar",
+                "email": "ziyanm@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/ziyan-maraikar/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/ziyan-maraikar.png",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/ziyanm",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/ziyan-maraikar-15539818a",
+                "researchgate": "https://www.researchgate.net/profile/Ziyan-Maraikar-2",
+                "google_scholar": "https://scholar.google.com.au/citations?user=5xf_7TAAAAAJ&hl=en"
+            }
+        },
+        "tags": [
+            "Embedded Systems",
+            "robotic automation"
+        ],
+        "name": "e16-3yp-smart-pharmaceutical-warehousing",
+        "popularity_score": 12.6
+    },
     "e16-co502-RV32IM-pipeline-implementation-group1": {
         "projName": "RV32IM pipeline implementation group1",
         "batch": "E16",
@@ -399,237 +630,6 @@
         "name": "e16-co502-RV32IM-pipeline-implementation-group1",
         "popularity_score": 18.4
     },
-    "e17-co326-Smart-Building": {
-        "projName": "Smart Building",
-        "batch": "E17",
-        "category": {
-            "title": "Industrial Automation Projects (CO326)",
-            "code": "co326",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co326/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e17-co326-Smart-Building",
-        "project_url": "/co326/e17/Smart-Building/",
-        "page_url": "https://cepdnaclk.github.io/e17-co326-Smart-Building",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e17-co326-Smart-Building",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
-        "created_at": "2022-06-30T00:12:23Z",
-        "updated_at": "2022-11-06T03:32:35Z",
-        "forks_count": 48,
-        "stars_count": 1,
-        "watchers_count": 1,
-        "language": "Jupyter Notebook",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "",
-        "team": {},
-        "supervisors": {},
-        "tags": {},
-        "name": "e17-co326-Smart-Building",
-        "popularity_score": 10.4
-    },
-    "e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices": {
-        "projName": "post quantum cryptographic schemes based on plain lattices",
-        "batch": "E16",
-        "category": {
-            "title": "Undergraduate Research Projects",
-            "code": "4yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
-        "project_url": "/4yp/e16/post-quantum-cryptographic-schemes-based-on-plain-lattices/",
-        "page_url": "https://cepdnaclk.github.io/e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2022-07-25T10:06:29Z",
-        "updated_at": "2024-11-08T09:11:46Z",
-        "forks_count": 6,
-        "stars_count": 8,
-        "watchers_count": 8,
-        "language": "C++",
-        "topics": [
-            "cryptography",
-            "lattice-based-crypto",
-            "learning-with-errors",
-            "post-quantum-cryptography",
-            "public-key-cryptography",
-            "random-oracle-model"
-        ],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "This project proposes the use of plain lattices with learning with errors problem to implement a cryptographic scheme which can run on classical computers and provides security against quantum based attacks. We are proposing key sizes for efficient operations and implement a lattice trapdoor function. Also we will improve current random oracle based model in to a standard model.",
-        "team": {
-            "E/16/049": {
-                "name": "Harshana Bandara",
-                "email": "e16049@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/049",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16049.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/049/"
-            },
-            "E/16/134": {
-                "name": "Yasitha Herath",
-                "email": "e16134@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/134",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16134.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/134/"
-            },
-            "E/16/388": {
-                "name": "Thushara Weerasundara",
-                "email": "e16388@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/388",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16388.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/388/"
-            }
-        },
-        "supervisors": {
-            "qinyi.li@griffith.edu.au": {
-                "name": "Dr. Qinyi Li",
-                "email": "qinyi.li@griffith.edu.au",
-                "profile_url": "#",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
-                "api_url": "#",
-                "website": "#",
-                "linkedin": "#",
-                "researchgate": "#",
-                "google_scholar": "#"
-            },
-            "alawatugoda@eng.pdn.ac.lk": {
-                "name": "Dr. Janaka Alawatugoda",
-                "email": "alawatugoda@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/janaka-alawatugoda/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/janaka-alawatugoda.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/alawatugoda",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/janaka-alawatugoda-53294034/",
-                "researchgate": "https://www.researchgate.net/profile/Janaka-Alawatugoda-2",
-                "google_scholar": "https://scholar.google.com/citations?user=TJWRzj4AAAAJ&hl=en"
-            },
-            "roshanr@eng.pdn.ac.lk": {
-                "name": "Prof. Roshan G. Ragel",
-                "email": "roshanr@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/roshan-ragel.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/roshanr",
-                "website": "http://roshan.ragel.net/",
-                "linkedin": "https://www.linkedin.com/in/roshanragel/",
-                "researchgate": "https://www.researchgate.net/profile/Roshan-Ragel",
-                "google_scholar": "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
-            }
-        },
-        "tags": [
-            "Cryptography",
-            "Post Quantum Cryptography",
-            "Learning with erros",
-            "Lattice based cryptography",
-            "Plain Lattices"
-        ],
-        "name": "e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
-        "popularity_score": 7.6
-    },
-    "e16-3yp-smart-vending-machine": {
-        "projName": "smart vending machine",
-        "batch": "E16",
-        "category": {
-            "title": "Cyber-Physical Systems Projects",
-            "code": "3yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e16-3yp-smart-vending-machine",
-        "project_url": "/3yp/e16/smart-vending-machine/",
-        "page_url": "https://cepdnaclk.github.io/e16-3yp-smart-vending-machine",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-smart-vending-machine",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-        "created_at": "2020-10-21T10:22:20Z",
-        "updated_at": "2024-07-22T15:20:41Z",
-        "forks_count": 7,
-        "stars_count": 10,
-        "watchers_count": 10,
-        "language": "JavaScript",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "Smart Vending Machine (3rd-year unified project) This is a 3rd-year project Developed by a group of students to address the problems faced in traditional vending and help consumers have a relatively safer and easier to handle and access. This Smart Vending machine is connected to the cloud to make sure every transaction is Live A web application is devoted to helping the consumers see what they want and can order the items they want to buy The web application is very interactive where the users can sign up and make an interactive accounts where they can do changes and track their buying habits",
-        "team": {
-            "E/16/172": {
-                "name": "Karikaran Vettivel",
-                "email": "e16172@eng.pdn.ac.lk",
-                "website": "https://karikaran.herokuapp.com/",
-                "github": "https://github.com/Karikaranvetti",
-                "linkedin": "https://www.linkedin.com/in/karikaranvetti/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/172",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16172.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/172/"
-            },
-            "E/16/055": {
-                "name": "Bragadeeshan Suppusamy",
-                "email": "e16055@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/Bragadeeshan",
-                "linkedin": "https://www.linkedin.com/in/bragadeeshansuppusamy/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/055",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16055.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/055/"
-            },
-            "E/16/115": {
-                "name": "Girishikan Selvaratnam",
-                "email": "e16115@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/115",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16115.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/115/"
-            }
-        },
-        "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            },
-            "ziyanm@gmail.com": {
-                "name": "Mr. Ziyan Maraikar",
-                "email": "ziyanm@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/ziyan-maraikar/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/ziyan-maraikar.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/ziyanm",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/ziyan-maraikar-15539818a",
-                "researchgate": "https://www.researchgate.net/profile/Ziyan-Maraikar-2",
-                "google_scholar": "https://scholar.google.com.au/citations?user=5xf_7TAAAAAJ&hl=en"
-            }
-        },
-        "tags": [
-            "Web",
-            "Embedded Systems"
-        ],
-        "name": "e16-3yp-smart-vending-machine",
-        "popularity_score": 9.4
-    },
     "e15-4yp-sports-action-recognition": {
         "projName": "sports action recognition",
         "batch": "E15",
@@ -644,10 +644,10 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e15-4yp-sports-action-recognition",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
         "created_at": "2021-03-02T04:00:38Z",
-        "updated_at": "2024-06-16T13:22:54Z",
+        "updated_at": "2024-12-11T17:04:35Z",
         "forks_count": 2,
-        "stars_count": 8,
-        "watchers_count": 8,
+        "stars_count": 9,
+        "watchers_count": 9,
         "language": null,
         "topics": [
             "action-quality-assessment",
@@ -717,6 +717,6 @@
             "Action Quality Assessment"
         ],
         "name": "e15-4yp-sports-action-recognition",
-        "popularity_score": 6.8
+        "popularity_score": 7.6
     }
 }
