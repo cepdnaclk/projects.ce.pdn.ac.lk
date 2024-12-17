@@ -11,8 +11,8 @@ grand_parent: Image Processing Projects (CO543)
 cover_url: /data/categories/co543/cover_page.jpg
 thumbnail_url: /data/categories/co543/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co543-Low-Light-Image-Enhancement
-page_url: blank
-forks: 1
+page_url: https://cepdnaclk.github.io/e20-co543-Low-Light-Image-Enhancement
+forks: 2
 watchers: 0
 stars: 0
 started_on: '2024-12-16T09:32:24Z'
