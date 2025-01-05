@@ -1,4 +1,101 @@
 {
+    "e16-co502-RV32IM-pipeline-implementation-group1": {
+        "projName": "RV32IM pipeline implementation group1",
+        "batch": "E16",
+        "category": {
+            "title": "Advanced Computer Architecture (CO502)",
+            "code": "co502",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co502/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e16-co502-RV32IM-pipeline-implementation-group1",
+        "project_url": "/co502/e16/RV32IM-pipeline-implementation-group1/",
+        "page_url": "https://cepdnaclk.github.io/e16-co502-RV32IM-pipeline-implementation-group1",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-co502-RV32IM-pipeline-implementation-group1",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
+        "created_at": "2021-06-30T16:54:58Z",
+        "updated_at": "2024-11-15T08:58:30Z",
+        "forks_count": 4,
+        "stars_count": 22,
+        "watchers_count": 22,
+        "language": "Verilog",
+        "topics": [
+            "computer-architecture",
+            "pipeline",
+            "risc-v",
+            "rv32im",
+            "verilog"
+        ],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "The objective of this project was to design and implement a 5 stage pipeline CPU to support the RISC-V instruction architecture. This pipeline CPU supports the entire RV32IM ISA which contains 45 instructions. The designed pipeline CPU was implemented using behavioral modeling in verilogHDL and icarus Verilog was used compile and simulate. gtkWave was used to observe the behavior.",
+        "team": {
+            "E/16/276": {
+                "name": "Buddhi Perera",
+                "email": "e16276@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/276",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16276.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/276/"
+            },
+            "E/16/069": {
+                "name": "Damsy De Silva",
+                "email": "e16069@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/069",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16069.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/069/"
+            },
+            "E/16/094": {
+                "name": "Shirly Ekanayake",
+                "email": "e16094@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/094",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16094.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/094/"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            },
+            "mahanamaw@eng.pdn.ac.lk": {
+                "name": "Dr. Mahanama Wickramasinghe",
+                "email": "mahanamaw@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/mahanama-wickramasinghe/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/mahanama",
+                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
+            }
+        },
+        "tags": [
+            "Computer Architecture",
+            "RISC-V",
+            "RV32IM"
+        ],
+        "name": "e16-co502-RV32IM-pipeline-implementation-group1",
+        "popularity_score": 18.4
+    },
     "e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices": {
         "projName": "post quantum cryptographic schemes based on plain lattices",
         "batch": "E16",
@@ -109,6 +206,206 @@
         ],
         "name": "e16-4yp-post-quantum-cryptographic-schemes-based-on-plain-lattices",
         "popularity_score": 7.6
+    },
+    "e15-4yp-sports-action-recognition": {
+        "projName": "sports action recognition",
+        "batch": "E15",
+        "category": {
+            "title": "Undergraduate Research Projects",
+            "code": "4yp",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e15-4yp-sports-action-recognition",
+        "project_url": "/4yp/e15/sports-action-recognition/",
+        "page_url": "https://cepdnaclk.github.io/e15-4yp-sports-action-recognition",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e15-4yp-sports-action-recognition",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+        "created_at": "2021-03-02T04:00:38Z",
+        "updated_at": "2024-12-11T17:04:35Z",
+        "forks_count": 2,
+        "stars_count": 9,
+        "watchers_count": 9,
+        "language": null,
+        "topics": [
+            "action-quality-assessment",
+            "computer-vision",
+            "final-year-project",
+            "human-action-recognition",
+            "openpose",
+            "vision"
+        ],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "This includes a novel method to measure the quality of the actions performed in Olympic weightlifting using human action recognition in videos. Human action recognition is a well-studied problem in computer vision and on the other hand action quality assessment is researched and experimented comparatively low. This is due to the lack of datasets that can be used to assess the quality of actions. In this research, we introduce a method to assess player techniques in weightlifting by using skeleton-based human action recognition. Furthermore, we introduce a new video dataset for action recognition in weightlifting which is annotated to frame level. We intended to develop a viable automated scoring system through action recognition that would be beneficial in the sports industry.",
+        "team": {
+            "E/15/154": {
+                "name": "Chamin Jayasooriya",
+                "email": "e15154@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/chamin96",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E15/154",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15154.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/154/"
+            },
+            "E/15/179": {
+                "name": "Anandi Karunaratne",
+                "email": "e15179@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/AnandiKarunaratne",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E15/179",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15179.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/179/"
+            }
+        },
+        "supervisors": {
+            "rajithae03@gmail.com": {
+                "name": "Dr. Rajitha Navarathna",
+                "email": "rajithae03@gmail.com",
+                "profile_url": "#",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
+                "api_url": "#",
+                "website": "#",
+                "linkedin": "#",
+                "researchgate": "#",
+                "google_scholar": "#"
+            },
+            "sampath@eng.pdn.ac.lk": {
+                "name": "Dr. Eng. Sampath Deegalla",
+                "email": "sampath@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/sampath-deegalla/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/sampath-deegalla.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/sampath",
+                "website": "https://www.sites.google.com/site/dsdeegalla/",
+                "linkedin": "https://www.linkedin.com/in/dsdeegalla",
+                "researchgate": "https://www.researchgate.net/profile/Sampath-Deegalla-2",
+                "google_scholar": "https://scholar.google.com/citations?user=QDoeGtYAAAAJ&hl=en"
+            }
+        },
+        "tags": [
+            "Final Year Projects",
+            "Human Action Recognition",
+            "Computer Vision",
+            "Openpose",
+            "Action Quality Assessment"
+        ],
+        "name": "e15-4yp-sports-action-recognition",
+        "popularity_score": 7.6
+    },
+    "e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs": {
+        "projName": "Neuromorphic NoC Architecture for SNNs",
+        "batch": "E17",
+        "category": {
+            "title": "Undergraduate Research Projects",
+            "code": "4yp",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs",
+        "project_url": "/4yp/e17/Neuromorphic-NoC-Architecture-for-SNNs/",
+        "page_url": "https://cepdnaclk.github.io/e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+        "created_at": "2023-05-19T16:39:40Z",
+        "updated_at": "2025-01-03T11:07:10Z",
+        "forks_count": 7,
+        "stars_count": 19,
+        "watchers_count": 19,
+        "language": "Verilog",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "This project aims to develop a novel neuromorphic NoC architecture based on RISC-V ISA to support spiking neural network applications, and test it on FPGA.",
+        "team": {
+            "E/17/018": {
+                "name": "Imesh Balasuriya",
+                "email": "e17018@eng.pdn.ac.lk",
+                "website": "https://www.imesh.tech",
+                "github": "https://github.com/ImeshBalasuriya/",
+                "linkedin": "https://www.linkedin.com/in/imesh-balasuriya/",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/018",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17018.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/018/"
+            },
+            "E/17/154": {
+                "name": "Akila Karunanayake",
+                "email": "e17154@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/Akilax0",
+                "linkedin": "https://www.linkedin.com/in/akila-karunanayake-978bba211/",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/154",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17154.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/154/"
+            },
+            "E/17/286": {
+                "name": "Tharindu Rathnayake",
+                "email": "e17286@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/286",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17286.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/286/"
+            }
+        },
+        "supervisors": {
+            "isurunawinne@eng.pdn.ac.lk": {
+                "name": "Dr. Isuru Nawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            },
+            "mahanamaw@eng.pdn.ac.lk": {
+                "name": "Dr. Mahanama Wickramasinghe",
+                "email": "mahanamaw@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/mahanama-wickramasinghe/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/mahanama",
+                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
+            },
+            "roshanr@eng.pdn.ac.lk": {
+                "name": "Prof. Roshan G. Ragel",
+                "email": "roshanr@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/roshan-ragel.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/roshanr",
+                "website": "http://roshan.ragel.net/",
+                "linkedin": "https://www.linkedin.com/in/roshanragel/",
+                "researchgate": "https://www.researchgate.net/profile/Roshan-Ragel",
+                "google_scholar": "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
+            },
+            "isurud@ee.pdn.ac.lk": {
+                "name": "Dr. Isuru Dasanayake",
+                "email": "isurud@ee.pdn.ac.lk",
+                "profile_url": "#",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
+                "api_url": "#",
+                "website": "#",
+                "linkedin": "#",
+                "researchgate": "#",
+                "google_scholar": "#"
+            }
+        },
+        "tags": [
+            "Final Year Projects"
+        ],
+        "name": "e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs",
+        "popularity_score": 16.6
     },
     "e16-3yp-smart-vending-machine": {
         "projName": "smart vending machine",
@@ -294,102 +591,35 @@
         "name": "e16-3yp-smart-pharmaceutical-warehousing",
         "popularity_score": 12.6
     },
-    "e16-co502-RV32IM-pipeline-implementation-group1": {
-        "projName": "RV32IM pipeline implementation group1",
-        "batch": "E16",
+    "e17-co326-Smart-Building": {
+        "projName": "Smart Building",
+        "batch": "E17",
         "category": {
-            "title": "Advanced Computer Architecture (CO502)",
-            "code": "co502",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co502/"
+            "title": "Industrial Automation Projects (CO326)",
+            "code": "co326",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co326/"
         },
-        "repo_url": "https://github.com/cepdnaclk/e16-co502-RV32IM-pipeline-implementation-group1",
-        "project_url": "/co502/e16/RV32IM-pipeline-implementation-group1/",
-        "page_url": "https://cepdnaclk.github.io/e16-co502-RV32IM-pipeline-implementation-group1",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e16-co502-RV32IM-pipeline-implementation-group1",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
-        "created_at": "2021-06-30T16:54:58Z",
-        "updated_at": "2024-11-15T08:58:30Z",
-        "forks_count": 4,
-        "stars_count": 22,
-        "watchers_count": 22,
-        "language": "Verilog",
-        "topics": [
-            "computer-architecture",
-            "pipeline",
-            "risc-v",
-            "rv32im",
-            "verilog"
-        ],
+        "repo_url": "https://github.com/cepdnaclk/e17-co326-Smart-Building",
+        "project_url": "/co326/e17/Smart-Building/",
+        "page_url": "https://cepdnaclk.github.io/e17-co326-Smart-Building",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e17-co326-Smart-Building",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
+        "created_at": "2022-06-30T00:12:23Z",
+        "updated_at": "2022-11-06T03:32:35Z",
+        "forks_count": 48,
+        "stars_count": 1,
+        "watchers_count": 1,
+        "language": "Jupyter Notebook",
+        "topics": [],
         "has_projects": true,
         "has_wiki": true,
         "has_pages": true,
-        "description": "The objective of this project was to design and implement a 5 stage pipeline CPU to support the RISC-V instruction architecture. This pipeline CPU supports the entire RV32IM ISA which contains 45 instructions. The designed pipeline CPU was implemented using behavioral modeling in verilogHDL and icarus Verilog was used compile and simulate. gtkWave was used to observe the behavior.",
-        "team": {
-            "E/16/276": {
-                "name": "Buddhi Perera",
-                "email": "e16276@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/276",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16276.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/276/"
-            },
-            "E/16/069": {
-                "name": "Damsy De Silva",
-                "email": "e16069@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/069",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16069.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/069/"
-            },
-            "E/16/094": {
-                "name": "Shirly Ekanayake",
-                "email": "e16094@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/094",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16094.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/094/"
-            }
-        },
-        "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            },
-            "mahanamaw@eng.pdn.ac.lk": {
-                "name": "Dr. Mahanama Wickramasinghe",
-                "email": "mahanamaw@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/mahanama-wickramasinghe/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/mahanama",
-                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
-            }
-        },
-        "tags": [
-            "Computer Architecture",
-            "RISC-V",
-            "RV32IM"
-        ],
-        "name": "e16-co502-RV32IM-pipeline-implementation-group1",
-        "popularity_score": 18.4
+        "description": "",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e17-co326-Smart-Building",
+        "popularity_score": 10.4
     },
     "e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients": {
         "projName": "Food Recommendation System Using Machine Learning for Diabetic Patients",
@@ -488,235 +718,5 @@
         ],
         "name": "e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
         "popularity_score": 18.8
-    },
-    "e17-co326-Smart-Building": {
-        "projName": "Smart Building",
-        "batch": "E17",
-        "category": {
-            "title": "Industrial Automation Projects (CO326)",
-            "code": "co326",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co326/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e17-co326-Smart-Building",
-        "project_url": "/co326/e17/Smart-Building/",
-        "page_url": "https://cepdnaclk.github.io/e17-co326-Smart-Building",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e17-co326-Smart-Building",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
-        "created_at": "2022-06-30T00:12:23Z",
-        "updated_at": "2022-11-06T03:32:35Z",
-        "forks_count": 48,
-        "stars_count": 1,
-        "watchers_count": 1,
-        "language": "Jupyter Notebook",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "",
-        "team": {},
-        "supervisors": {},
-        "tags": {},
-        "name": "e17-co326-Smart-Building",
-        "popularity_score": 10.4
-    },
-    "e15-4yp-sports-action-recognition": {
-        "projName": "sports action recognition",
-        "batch": "E15",
-        "category": {
-            "title": "Undergraduate Research Projects",
-            "code": "4yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e15-4yp-sports-action-recognition",
-        "project_url": "/4yp/e15/sports-action-recognition/",
-        "page_url": "https://cepdnaclk.github.io/e15-4yp-sports-action-recognition",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e15-4yp-sports-action-recognition",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2021-03-02T04:00:38Z",
-        "updated_at": "2024-12-11T17:04:35Z",
-        "forks_count": 2,
-        "stars_count": 9,
-        "watchers_count": 9,
-        "language": null,
-        "topics": [
-            "action-quality-assessment",
-            "computer-vision",
-            "final-year-project",
-            "human-action-recognition",
-            "openpose",
-            "vision"
-        ],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "This includes a novel method to measure the quality of the actions performed in Olympic weightlifting using human action recognition in videos. Human action recognition is a well-studied problem in computer vision and on the other hand action quality assessment is researched and experimented comparatively low. This is due to the lack of datasets that can be used to assess the quality of actions. In this research, we introduce a method to assess player techniques in weightlifting by using skeleton-based human action recognition. Furthermore, we introduce a new video dataset for action recognition in weightlifting which is annotated to frame level. We intended to develop a viable automated scoring system through action recognition that would be beneficial in the sports industry.",
-        "team": {
-            "E/15/154": {
-                "name": "Chamin Jayasooriya",
-                "email": "e15154@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/chamin96",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E15/154",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15154.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/154/"
-            },
-            "E/15/179": {
-                "name": "Anandi Karunaratne",
-                "email": "e15179@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/AnandiKarunaratne",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E15/179",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15179.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/179/"
-            }
-        },
-        "supervisors": {
-            "rajithae03@gmail.com": {
-                "name": "Dr. Rajitha Navarathna",
-                "email": "rajithae03@gmail.com",
-                "profile_url": "#",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
-                "api_url": "#",
-                "website": "#",
-                "linkedin": "#",
-                "researchgate": "#",
-                "google_scholar": "#"
-            },
-            "sampath@eng.pdn.ac.lk": {
-                "name": "Dr. Eng. Sampath Deegalla",
-                "email": "sampath@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/sampath-deegalla/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/sampath-deegalla.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/sampath",
-                "website": "https://www.sites.google.com/site/dsdeegalla/",
-                "linkedin": "https://www.linkedin.com/in/dsdeegalla",
-                "researchgate": "https://www.researchgate.net/profile/Sampath-Deegalla-2",
-                "google_scholar": "https://scholar.google.com/citations?user=QDoeGtYAAAAJ&hl=en"
-            }
-        },
-        "tags": [
-            "Final Year Projects",
-            "Human Action Recognition",
-            "Computer Vision",
-            "Openpose",
-            "Action Quality Assessment"
-        ],
-        "name": "e15-4yp-sports-action-recognition",
-        "popularity_score": 7.6
-    },
-    "e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs": {
-        "projName": "Neuromorphic NoC Architecture for SNNs",
-        "batch": "E17",
-        "category": {
-            "title": "Undergraduate Research Projects",
-            "code": "4yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs",
-        "project_url": "/4yp/e17/Neuromorphic-NoC-Architecture-for-SNNs/",
-        "page_url": "https://cepdnaclk.github.io/e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2023-05-19T16:39:40Z",
-        "updated_at": "2024-11-26T13:29:12Z",
-        "forks_count": 7,
-        "stars_count": 17,
-        "watchers_count": 17,
-        "language": "Verilog",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "This project aims to develop a novel neuromorphic NoC architecture based on RISC-V ISA to support spiking neural network applications, and test it on FPGA.",
-        "team": {
-            "E/17/018": {
-                "name": "Imesh Balasuriya",
-                "email": "e17018@eng.pdn.ac.lk",
-                "website": "https://www.imesh.tech",
-                "github": "https://github.com/ImeshBalasuriya/",
-                "linkedin": "https://www.linkedin.com/in/imesh-balasuriya/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/018",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17018.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/018/"
-            },
-            "E/17/154": {
-                "name": "Akila Karunanayake",
-                "email": "e17154@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/Akilax0",
-                "linkedin": "https://www.linkedin.com/in/akila-karunanayake-978bba211/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/154",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17154.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/154/"
-            },
-            "E/17/286": {
-                "name": "Tharindu Rathnayake",
-                "email": "e17286@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E17/286",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e17/e17286.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e17/286/"
-            }
-        },
-        "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            },
-            "mahanamaw@eng.pdn.ac.lk": {
-                "name": "Dr. Mahanama Wickramasinghe",
-                "email": "mahanamaw@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/mahanama-wickramasinghe/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/mahanama",
-                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
-            },
-            "roshanr@eng.pdn.ac.lk": {
-                "name": "Prof. Roshan G. Ragel",
-                "email": "roshanr@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/roshan-ragel.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/roshanr",
-                "website": "http://roshan.ragel.net/",
-                "linkedin": "https://www.linkedin.com/in/roshanragel/",
-                "researchgate": "https://www.researchgate.net/profile/Roshan-Ragel",
-                "google_scholar": "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
-            },
-            "isurud@ee.pdn.ac.lk": {
-                "name": "Dr. Isuru Dasanayake",
-                "email": "isurud@ee.pdn.ac.lk",
-                "profile_url": "#",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
-                "api_url": "#",
-                "website": "#",
-                "linkedin": "#",
-                "researchgate": "#",
-                "google_scholar": "#"
-            }
-        },
-        "tags": [
-            "Final Year Projects"
-        ],
-        "name": "e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs",
-        "popularity_score": 15.0
     }
 }
