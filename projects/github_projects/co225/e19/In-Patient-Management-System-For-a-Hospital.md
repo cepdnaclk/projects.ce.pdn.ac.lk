@@ -11,8 +11,8 @@ thumbnail_url: /data/categories/co225/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co225-In-Patient-Management-System-For-a-Hospital
 page_url: https://cepdnaclk.github.io/e19-co225-In-Patient-Management-System-For-a-Hospital
 forks: 7
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: '2023-05-26T06:50:51Z'
 ---
 
