@@ -14,8 +14,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-3yp-Automated-grass-cutter
 page_url: https://cepdnaclk.github.io/e19-3yp-Automated-grass-cutter
 forks: 5
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2023-11-19T04:52:15Z'
 ---
 

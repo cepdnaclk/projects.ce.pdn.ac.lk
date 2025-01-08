@@ -15,8 +15,8 @@ thumbnail_url: /data/categories/co227/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co227-MONA-Dashboard
 page_url: https://cepdnaclk.github.io/e20-co227-MONA-Dashboard
 forks: 1
-watchers: 3
-stars: 3
+watchers: 4
+stars: 4
 started_on: '2024-06-17T09:42:22Z'
 ---
 
