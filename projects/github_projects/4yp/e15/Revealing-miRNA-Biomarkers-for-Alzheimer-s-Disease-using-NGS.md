@@ -24,8 +24,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e15-4yp-Revealing-miRNA-Biomarkers-for-Alzheimer-s-Disease-using-NGS
 page_url: https://cepdnaclk.github.io/e15-4yp-Revealing-miRNA-Biomarkers-for-Alzheimer-s-Disease-using-NGS
 forks: 1
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: '2021-03-04T16:46:37Z'
 ---
 
