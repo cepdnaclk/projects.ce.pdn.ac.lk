@@ -44,6 +44,21 @@
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/6sp/E18/3D-Model-Construction-for-a-target-class-using-XAI-Group16/"
         }
     ],
+    "3yp": [
+        {
+            "title": "SafePlus",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/SafePlus/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-SafePlus",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-SafePlus",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/SafePlus/"
+        }
+    ],
     "6yp": [
         {
             "title": "Document Tag Generator",
@@ -639,6 +654,21 @@
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/E17/Comparative-Analysis-of-2nd-and-3rd-Generation-Sequencing/"
         }
     ],
+    "Biomedical": [
+        {
+            "title": "Vascueye",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/Vascueye/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-Vascueye",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-Vascueye",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/Vascueye/"
+        }
+    ],
     "Blockchain": [
         {
             "title": "AI as a Microservice for Smart Edge of Things",
@@ -968,17 +998,17 @@
     ],
     "Colorization": [
         {
-            "title": "Colorization of Grayscale Images Using Classical Image Processing Techniques",
+            "title": "Colorization of Grayscale Images Using Image Processing Techniques",
             "category": {
                 "code": "co543",
                 "title": "Image Processing Projects (CO543)",
                 "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co543/"
             },
-            "project_url": "https://projects.ce.pdn.ac.lk/co543/e20/Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques/",
-            "repo_url": "https://github.com/cepdnaclk/e20-co543-Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques",
-            "page_url": "https://cepdnaclk.github.io/e20-co543-Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques",
+            "project_url": "https://projects.ce.pdn.ac.lk/co543/e20/Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques/",
+            "repo_url": "https://github.com/cepdnaclk/e20-co543-Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques",
+            "page_url": "https://cepdnaclk.github.io/e20-co543-Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co543/thumbnail.jpg",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co543/E20/Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques/"
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co543/E20/Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques/"
         }
     ],
     "Comparative Analysis": [
@@ -1290,17 +1320,17 @@
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/E17/S2TPVFormer/"
         },
         {
-            "title": "Colorization of Grayscale Images Using Classical Image Processing Techniques",
+            "title": "Colorization of Grayscale Images Using Image Processing Techniques",
             "category": {
                 "code": "co543",
                 "title": "Image Processing Projects (CO543)",
                 "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co543/"
             },
-            "project_url": "https://projects.ce.pdn.ac.lk/co543/e20/Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques/",
-            "repo_url": "https://github.com/cepdnaclk/e20-co543-Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques",
-            "page_url": "https://cepdnaclk.github.io/e20-co543-Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques",
+            "project_url": "https://projects.ce.pdn.ac.lk/co543/e20/Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques/",
+            "repo_url": "https://github.com/cepdnaclk/e20-co543-Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques",
+            "page_url": "https://cepdnaclk.github.io/e20-co543-Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co543/thumbnail.jpg",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co543/E20/Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques/"
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co543/E20/Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques/"
         }
     ],
     "Computer and Network Security": [
@@ -1675,17 +1705,17 @@
     ],
     "Digital Restoration": [
         {
-            "title": "Colorization of Grayscale Images Using Classical Image Processing Techniques",
+            "title": "Colorization of Grayscale Images Using Image Processing Techniques",
             "category": {
                 "code": "co543",
                 "title": "Image Processing Projects (CO543)",
                 "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co543/"
             },
-            "project_url": "https://projects.ce.pdn.ac.lk/co543/e20/Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques/",
-            "repo_url": "https://github.com/cepdnaclk/e20-co543-Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques",
-            "page_url": "https://cepdnaclk.github.io/e20-co543-Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques",
+            "project_url": "https://projects.ce.pdn.ac.lk/co543/e20/Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques/",
+            "repo_url": "https://github.com/cepdnaclk/e20-co543-Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques",
+            "page_url": "https://cepdnaclk.github.io/e20-co543-Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co543/thumbnail.jpg",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co543/E20/Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques/"
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co543/E20/Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques/"
         }
     ],
     "Digital Twin": [
@@ -2710,6 +2740,32 @@
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/Cattle-Management-System/"
         },
         {
+            "title": "MediFlow",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/MediFlow/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-MediFlow",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-MediFlow",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/MediFlow/"
+        },
+        {
+            "title": "Monitoring and controlling soilless agricultural plantations",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/Monitoring-and-controlling-soilless-agricultural-plantations/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-Monitoring-and-controlling-soilless-agricultural-plantations",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-Monitoring-and-controlling-soilless-agricultural-plantations",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/Monitoring-and-controlling-soilless-agricultural-plantations/"
+        },
+        {
             "title": "OceanEyes",
             "category": {
                 "code": "3yp",
@@ -2799,6 +2855,58 @@
             "page_url": "https://cepdnaclk.github.io/e20-3yp-Smart-Locker-System",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/Smart-Locker-System/"
+        },
+        {
+            "title": "Smart Shopping Cart",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/Smart-Shopping-Cart/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-Smart-Shopping-Cart",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-Smart-Shopping-Cart",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/Smart-Shopping-Cart/"
+        },
+        {
+            "title": "Smart Vehicle Tracking and Management System",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/Smart-Vehicle-Tracking-and-Management-System/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-Smart-Vehicle-Tracking-and-Management-System",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-Smart-Vehicle-Tracking-and-Management-System",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/Smart-Vehicle-Tracking-and-Management-System/"
+        },
+        {
+            "title": "Smart Waste Management System",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/Smart-Waste-Management-System/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-Smart-Waste-Management-System",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-Smart-Waste-Management-System",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/Smart-Waste-Management-System/"
+        },
+        {
+            "title": "Vascueye",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/Vascueye/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-Vascueye",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-Vascueye",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/Vascueye/"
         },
         {
             "title": "Covid Tracer",
@@ -3345,6 +3453,21 @@
             "page_url": "https://cepdnaclk.github.io/e17-co543-SL-Number-Plate-Detection-Group-A",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co543/thumbnail.jpg",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co543/E17/SL-Number-Plate-Detection-Group-A/"
+        }
+    ],
+    "Embeded System": [
+        {
+            "title": "SafePlus",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/SafePlus/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-SafePlus",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-SafePlus",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/SafePlus/"
         }
     ],
     "Explainable Machine Learning": [
@@ -4518,17 +4641,17 @@
     ],
     "Grayscale Images": [
         {
-            "title": "Colorization of Grayscale Images Using Classical Image Processing Techniques",
+            "title": "Colorization of Grayscale Images Using Image Processing Techniques",
             "category": {
                 "code": "co543",
                 "title": "Image Processing Projects (CO543)",
                 "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co543/"
             },
-            "project_url": "https://projects.ce.pdn.ac.lk/co543/e20/Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques/",
-            "repo_url": "https://github.com/cepdnaclk/e20-co543-Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques",
-            "page_url": "https://cepdnaclk.github.io/e20-co543-Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques",
+            "project_url": "https://projects.ce.pdn.ac.lk/co543/e20/Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques/",
+            "repo_url": "https://github.com/cepdnaclk/e20-co543-Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques",
+            "page_url": "https://cepdnaclk.github.io/e20-co543-Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co543/thumbnail.jpg",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co543/E20/Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques/"
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co543/E20/Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques/"
         }
     ],
     "Green House Automation": [
@@ -4606,6 +4729,21 @@
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/E16/Configurable-ECU-Emulator/"
         }
     ],
+    "Hardwere": [
+        {
+            "title": "SafePlus",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/SafePlus/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-SafePlus",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-SafePlus",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/SafePlus/"
+        }
+    ],
     "Hash Proof Systems": [
         {
             "title": "constructing quantum safe leakage resilient public key encryption scheme",
@@ -4619,6 +4757,21 @@
             "page_url": "https://cepdnaclk.github.io/e16-4yp-constructing-quantum-safe-leakage-resilient-public-key-encryption-scheme",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/E16/constructing-quantum-safe-leakage-resilient-public-key-encryption-scheme/"
+        }
+    ],
+    "Helmart": [
+        {
+            "title": "SafePlus",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/SafePlus/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-SafePlus",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-SafePlus",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/SafePlus/"
         }
     ],
     "Help Desk": [
@@ -4681,6 +4834,21 @@
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/E19/Automatic-IC-Testing-Application-Using-FPGA/"
         }
     ],
+    "IOT": [
+        {
+            "title": "Smart Shopping Cart",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/Smart-Shopping-Cart/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-Smart-Shopping-Cart",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-Smart-Shopping-Cart",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/Smart-Shopping-Cart/"
+        }
+    ],
     "Image Data Handling": [
         {
             "title": "Image Data Handling System for Research Group A",
@@ -4737,17 +4905,17 @@
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/E15/nearIR-spectroscopy/"
         },
         {
-            "title": "Colorization of Grayscale Images Using Classical Image Processing Techniques",
+            "title": "Colorization of Grayscale Images Using Image Processing Techniques",
             "category": {
                 "code": "co543",
                 "title": "Image Processing Projects (CO543)",
                 "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co543/"
             },
-            "project_url": "https://projects.ce.pdn.ac.lk/co543/e20/Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques/",
-            "repo_url": "https://github.com/cepdnaclk/e20-co543-Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques",
-            "page_url": "https://cepdnaclk.github.io/e20-co543-Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques",
+            "project_url": "https://projects.ce.pdn.ac.lk/co543/e20/Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques/",
+            "repo_url": "https://github.com/cepdnaclk/e20-co543-Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques",
+            "page_url": "https://cepdnaclk.github.io/e20-co543-Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co543/thumbnail.jpg",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co543/E20/Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques/"
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co543/E20/Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques/"
         },
         {
             "title": "SkinVision",
@@ -6276,6 +6444,21 @@
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/E18/SnaT-Meal-Tracking-App-Group-B/"
         }
     ],
+    "MobileApp": [
+        {
+            "title": "SafePlus",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/SafePlus/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-SafePlus",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-SafePlus",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/SafePlus/"
+        }
+    ],
     "Mobility": [
         {
             "title": "Enhancement of Efficiency of Vehicular Communication using SDN",
@@ -7654,6 +7837,21 @@
             "page_url": "https://cepdnaclk.github.io/e16-4yp-AI-as-a-Microservice-for-Smart-Edge-of-Things",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/E16/AI-as-a-Microservice-for-Smart-Edge-of-Things/"
+        }
+    ],
+    "Smart Helmart": [
+        {
+            "title": "SafePlus",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/SafePlus/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-SafePlus",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-SafePlus",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/SafePlus/"
         }
     ],
     "Smart Inventory": [
@@ -9125,6 +9323,32 @@
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/Cattle-Management-System/"
         },
         {
+            "title": "MediFlow",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/MediFlow/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-MediFlow",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-MediFlow",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/MediFlow/"
+        },
+        {
+            "title": "Monitoring and controlling soilless agricultural plantations",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/Monitoring-and-controlling-soilless-agricultural-plantations/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-Monitoring-and-controlling-soilless-agricultural-plantations",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-Monitoring-and-controlling-soilless-agricultural-plantations",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/Monitoring-and-controlling-soilless-agricultural-plantations/"
+        },
+        {
             "title": "OceanEyes",
             "category": {
                 "code": "3yp",
@@ -9149,6 +9373,19 @@
             "page_url": "https://cepdnaclk.github.io/e20-3yp-Remote-Gait-Analysis",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/Remote-Gait-Analysis/"
+        },
+        {
+            "title": "SafePlus",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/SafePlus/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-SafePlus",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-SafePlus",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/SafePlus/"
         },
         {
             "title": "SkyT",
@@ -9214,6 +9451,58 @@
             "page_url": "https://cepdnaclk.github.io/e20-3yp-Smart-Locker-System",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/Smart-Locker-System/"
+        },
+        {
+            "title": "Smart Shopping Cart",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/Smart-Shopping-Cart/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-Smart-Shopping-Cart",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-Smart-Shopping-Cart",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/Smart-Shopping-Cart/"
+        },
+        {
+            "title": "Smart Vehicle Tracking and Management System",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/Smart-Vehicle-Tracking-and-Management-System/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-Smart-Vehicle-Tracking-and-Management-System",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-Smart-Vehicle-Tracking-and-Management-System",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/Smart-Vehicle-Tracking-and-Management-System/"
+        },
+        {
+            "title": "Smart Waste Management System",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/Smart-Waste-Management-System/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-Smart-Waste-Management-System",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-Smart-Waste-Management-System",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/Smart-Waste-Management-System/"
+        },
+        {
+            "title": "Vascueye",
+            "category": {
+                "code": "3yp",
+                "title": "Cyber-Physical Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e20/Vascueye/",
+            "repo_url": "https://github.com/cepdnaclk/e20-3yp-Vascueye",
+            "page_url": "https://cepdnaclk.github.io/e20-3yp-Vascueye",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E20/Vascueye/"
         },
         {
             "title": "Covid Tracer",
@@ -9695,6 +9984,19 @@
             "page_url": "https://cepdnaclk.github.io/e20-co227-Postgraduate-Student-Management-System",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/E20/Postgraduate-Student-Management-System/"
+        },
+        {
+            "title": "Village Management System",
+            "category": {
+                "code": "co227",
+                "title": "Software Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/co227/e20/Village-Management-System/",
+            "repo_url": "https://github.com/cepdnaclk/e20-co227-Village-Management-System",
+            "page_url": "https://cepdnaclk.github.io/e20-co227-Village-Management-System",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/E20/Village-Management-System/"
         },
         {
             "title": "Augmented Reality Guidance System",
