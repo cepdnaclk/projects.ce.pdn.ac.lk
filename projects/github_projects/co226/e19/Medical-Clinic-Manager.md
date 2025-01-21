@@ -13,7 +13,7 @@ cover_url: /data/categories/co226/cover_page.jpg
 thumbnail_url: /data/categories/co226/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co226-Medical-Clinic-Manager
 page_url: https://cepdnaclk.github.io/e19-co226-Medical-Clinic-Manager
-forks: 3
+forks: 4
 watchers: 3
 stars: 3
 started_on: '2023-07-25T16:16:36Z'
