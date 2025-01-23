@@ -13,8 +13,8 @@ thumbnail_url: /data/categories/co544/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co544-cricket-analytics-and-prediction
 page_url: https://cepdnaclk.github.io/e19-co544-cricket-analytics-and-prediction
 forks: 4
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2024-04-07T05:57:20Z'
 ---
 
