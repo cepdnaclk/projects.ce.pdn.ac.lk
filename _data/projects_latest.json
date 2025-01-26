@@ -1,15 +1,48 @@
 {
-    "e19-4yp-Quality-Assessment-of-Final-Root-Canal-Treatment-Using-Intra-Oral-Periapical-Radiographs": {
-        "projName": "Quality Assessment of Final Root Canal Treatment Using Intra Oral Periapical Radiographs",
-        "batch": "E19",
-        "category": "Undergraduate Research Projects",
-        "repo_url": "https://github.com/cepdnaclk/e19-4yp-Quality-Assessment-of-Final-Root-Canal-Treatment-Using-Intra-Oral-Periapical-Radiographs",
-        "project_url": "/4yp/e19/Quality-Assessment-of-Final-Root-Canal-Treatment-Using-Intra-Oral-Periapical-Radiographs",
-        "page_url": null,
-        "api_url": "https://api.github.com/repos/cepdnaclk/e19-4yp-Quality-Assessment-of-Final-Root-Canal-Treatment-Using-Intra-Oral-Periapical-Radiographs",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2025-01-19T06:55:22Z",
-        "updated_at": "2025-01-19T07:43:13Z",
+    "e20-3yp-Smart-IOT-Indoor-Lighting-System": {
+        "projName": "Smart IOT Indoor Lighting System",
+        "batch": "E20",
+        "category": {
+            "title": "Cyber-Physical Systems Projects",
+            "code": "3yp",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e20-3yp-Smart-IOT-Indoor-Lighting-System",
+        "project_url": "/3yp/e20/Smart-IOT-Indoor-Lighting-System/",
+        "page_url": "#",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e20-3yp-Smart-IOT-Indoor-Lighting-System",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+        "created_at": "2024-12-11T06:08:14Z",
+        "updated_at": "2025-01-26T18:30:46Z",
+        "forks_count": 0,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "description": "This Smart IoT Lighting System is designed for indoor lighting, integrating hardware with cloud connectivity for seamless control. Users can conveniently configure preferences and manage settings via a secure mobile app with voice command support, ensuring personalized and efficient lighting experiences, ease of use, and robust data security.",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e20-3yp-Smart-IOT-Indoor-Lighting-System"
+    },
+    "e20-co227-Cardiac-Patient-Data-Management-System": {
+        "projName": "Cardiac Patient Data Management System",
+        "batch": "E20",
+        "category": {
+            "title": "Software Systems Projects",
+            "code": "co227",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e20-co227-Cardiac-Patient-Data-Management-System",
+        "project_url": "/co227/e20/Cardiac-Patient-Data-Management-System/",
+        "page_url": "https://cepdnaclk.github.io/e20-co227-Cardiac-Patient-Data-Management-System",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e20-co227-Cardiac-Patient-Data-Management-System",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
+        "created_at": "2024-10-28T14:34:21Z",
+        "updated_at": "2025-01-26T18:07:24Z",
         "forks_count": 2,
         "stars_count": 0,
         "watchers_count": 0,
@@ -17,92 +50,161 @@
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
-        "has_pages": false,
-        "name": "e19-4yp-Quality-Assessment-of-Final-Root-Canal-Treatment-Using-Intra-Oral-Periapical-Radiographs"
-    },
-    "e19-3yp-beehive-monitoring-system": {
-        "projName": "beehive monitoring system",
-        "batch": "E19",
-        "category": {
-            "title": "Cyber-Physical Systems Projects",
-            "code": "3yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+        "has_pages": true,
+        "description": "CardioGuard is a cardiac patient management system with machine learning, providing doctors and patients an overview of medical states. Doctors and administrators can access patient data for easier care, while patients can view some of their information from their initial admission into the medicalfacility.",
+        "team": {
+            "E/20/266": {
+                "name": "Nilupul D.R.P",
+                "email": "e20266@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/pradeep512",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/266",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20266.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/266/"
+            },
+            "E/20/262": {
+                "name": "Nanayakkara A.T.L",
+                "email": "e20262@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/e20262",
+                "linkedin": "https://www.linkedin.com/in/tharindu-nanayakkara-2a96b7292/",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/262",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20262.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/262/"
+            },
+            "E/20/084": {
+                "name": "Dissanayake P.D",
+                "email": "e20084@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/PathumDilharaDissanayake",
+                "linkedin": "https://www.linkedin.com/in/pathum-dissanayaka-60364817a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/084",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20084.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/084/"
+            },
+            "E/20/254": {
+                "name": "Methpura S.K.P",
+                "email": "e20254@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/KavinduMethpura",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/254",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20254.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/254/"
+            },
+            "E/20/397": {
+                "name": "Thilakarathne P.D",
+                "email": "e20397@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/dimantha00",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/397",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20397.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/397/"
+            }
         },
-        "repo_url": "https://github.com/cepdnaclk/e19-3yp-beehive-monitoring-system",
-        "project_url": "/3yp/e19/beehive-monitoring-system/",
-        "page_url": "https://cepdnaclk.github.io/e19-3yp-beehive-monitoring-system",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e19-3yp-beehive-monitoring-system",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-        "created_at": "2023-11-16T08:48:44Z",
-        "updated_at": "2025-01-19T03:29:16Z",
-        "forks_count": 5,
-        "stars_count": 1,
-        "watchers_count": 1,
-        "language": "JavaScript",
+        "supervisors": {
+            "damayanthiherath@eng.pdn.ac.lk": {
+                "name": "Dr. Damayanthi Herath",
+                "email": "damayanthiherath@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/damayanthi-herath/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/damayanthi-herath.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/damayanthiherath",
+                "website": "https://damayanthiherath.wordpress.com/",
+                "linkedin": "https://www.linkedin.com/in/damayanthi-herath/",
+                "researchgate": "https://www.researchgate.net/profile/Damayanthi-Herath",
+                "google_scholar": "https://scholar.google.com/citations?user=G2jUV5IAAAAJ&hl=en"
+            },
+            "upuljm@eng.pdn.ac.lk": {
+                "name": "Dr. Upul Jayasinghe",
+                "email": "upuljm@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/upul/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/upul-jayasinghe.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/upuljm",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/upuljm/",
+                "researchgate": "https://www.researchgate.net/profile/Upul-Jayasinghe",
+                "google_scholar": "https://scholar.google.ch/citations?user=9nBn4b0AAAAJ"
+            }
+        },
+        "tags": [
+            "Web",
+            "Machine Learning",
+            "JavaScpript",
+            "CSS",
+            "Java"
+        ],
+        "name": "e20-co227-Cardiac-Patient-Data-Management-System"
+    },
+    "e16-co502-RV32IM-pipeline-implementation-group1": {
+        "projName": "RV32IM pipeline implementation group1",
+        "batch": "E16",
+        "category": {
+            "title": "Advanced Computer Architecture (CO502)",
+            "code": "co502",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co502/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e16-co502-RV32IM-pipeline-implementation-group1",
+        "project_url": "/co502/e16/RV32IM-pipeline-implementation-group1/",
+        "page_url": "https://cepdnaclk.github.io/e16-co502-RV32IM-pipeline-implementation-group1",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e16-co502-RV32IM-pipeline-implementation-group1",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
+        "created_at": "2021-06-30T16:54:58Z",
+        "updated_at": "2025-01-26T18:00:02Z",
+        "forks_count": 4,
+        "stars_count": 23,
+        "watchers_count": 23,
+        "language": "Verilog",
         "topics": [
-            "3yp",
-            "beehive",
-            "e19"
+            "computer-architecture",
+            "pipeline",
+            "risc-v",
+            "rv32im",
+            "verilog"
         ],
         "has_projects": true,
         "has_wiki": true,
         "has_pages": true,
-        "description": "A beehive monitoring system using high quality camera and some sensors to detect bee absconding.",
+        "description": "The objective of this project was to design and implement a 5 stage pipeline CPU to support the RISC-V instruction architecture. This pipeline CPU supports the entire RV32IM ISA which contains 45 instructions. The designed pipeline CPU was implemented using behavioral modeling in verilogHDL and icarus Verilog was used compile and simulate. gtkWave was used to observe the behavior.",
         "team": {
-            "E/19/008": {
-                "name": "R.A.J.C. Adhikari",
-                "email": "e19008@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/chandula00",
-                "linkedin": "https://www.linkedin.com/in/janith-chandula-adhikari-5543a5223",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/008",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19008.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/008/"
-            },
-            "E/19/009": {
-                "name": "A.M.K.M. Adikari",
-                "email": "e19009@eng.pdn.ac.lk",
+            "E/16/276": {
+                "name": "Buddhi Perera",
+                "email": "e16276@eng.pdn.ac.lk",
                 "website": "",
                 "github": "",
                 "linkedin": "",
                 "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/009",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19009.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/009/"
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/276",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16276.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/276/"
             },
-            "E/19/063": {
-                "name": "D.M.G.S. Dassanayake",
-                "email": "e19063@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/G5andeepD",
-                "linkedin": "https://www.linkedin.com/in/sandeep-dassanayake-37b940244/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/063",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19063.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/063/"
-            },
-            "E/19/074": {
-                "name": "B.A.M.I.E Dharamarathne",
-                "email": "e19074@eng.pdn.ac.lk",
+            "E/16/069": {
+                "name": "Damsy De Silva",
+                "email": "e16069@eng.pdn.ac.lk",
                 "website": "",
                 "github": "",
                 "linkedin": "",
                 "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/074",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19074.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/074/"
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/069",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16069.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/069/"
             },
-            "E/19/324": {
-                "name": "R.M.B.D.K Rathnayake",
-                "email": "e19324@eng.pdn.ac.lk",
+            "E/16/094": {
+                "name": "Shirly Ekanayake",
+                "email": "e16094@eng.pdn.ac.lk",
                 "website": "",
-                "github": "https://github.com/Bimbara28",
-                "linkedin": "https://www.linkedin.com/in/bimbara-ratnayake-1ab0771b5/",
+                "github": "",
+                "linkedin": "",
                 "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/324",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19324.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/324/"
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/094",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16094.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e16/094/"
             }
         },
         "supervisors": {
@@ -116,102 +218,57 @@
                 "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
                 "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
                 "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+            },
+            "mahanamaw@eng.pdn.ac.lk": {
+                "name": "Dr. Mahanama Wickramasinghe",
+                "email": "mahanamaw@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/mahanama-wickramasinghe/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/mahanama",
+                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
+                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
             }
         },
         "tags": [
-            "Web",
-            "Embedded Systems"
+            "Computer Architecture",
+            "RISC-V",
+            "RV32IM"
         ],
-        "name": "e19-3yp-beehive-monitoring-system"
+        "name": "e16-co502-RV32IM-pipeline-implementation-group1"
     },
-    "e20-3yp-Smart-Locker-System": {
-        "projName": "Smart Locker System",
+    "e20-3yp-Monitoring-and-controlling-soilless-agricultural-plantations": {
+        "projName": "Monitoring and controlling soilless agricultural plantations",
         "batch": "E20",
         "category": {
             "title": "Cyber-Physical Systems Projects",
             "code": "3yp",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
         },
-        "repo_url": "https://github.com/cepdnaclk/e20-3yp-Smart-Locker-System",
-        "project_url": "/3yp/e20/Smart-Locker-System/",
-        "page_url": "https://cepdnaclk.github.io/e20-3yp-Smart-Locker-System",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e20-3yp-Smart-Locker-System",
+        "repo_url": "https://github.com/cepdnaclk/e20-3yp-Monitoring-and-controlling-soilless-agricultural-plantations",
+        "project_url": "/3yp/e20/Monitoring-and-controlling-soilless-agricultural-plantations/",
+        "page_url": "https://cepdnaclk.github.io/e20-3yp-Monitoring-and-controlling-soilless-agricultural-plantations",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e20-3yp-Monitoring-and-controlling-soilless-agricultural-plantations",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-        "created_at": "2025-01-04T06:45:22Z",
-        "updated_at": "2025-01-18T17:00:49Z",
-        "forks_count": 1,
-        "stars_count": 1,
-        "watchers_count": 1,
+        "created_at": "2025-01-05T08:17:50Z",
+        "updated_at": "2025-01-26T17:11:29Z",
+        "forks_count": 0,
+        "stars_count": 0,
+        "watchers_count": 0,
         "language": null,
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
         "has_pages": true,
-        "description": "The SmartSecure Locker System is an IoT-based solution for secure storage in shared spaces like universities, gyms, and offices. It features real-time locker availability, biometric access, and alternative location suggestions when lockers are full. Users can manage lockers via a mobile app, ensuring convenience and security.",
-        "team": {
-            "E/20/036": {
-                "name": "Bandara K.G.R.I.",
-                "email": "e20036@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/induwara23630",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/036",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20036.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/036/"
-            },
-            "E/20/212": {
-                "name": "Kumarasinghe R.M.S.H.",
-                "email": "e20212@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/sameera-87",
-                "linkedin": "https://www.linkedin.com/in/sameera-kumarasinghe-98b70526a/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/212",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20212.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/212/"
-            },
-            "E/20/350": {
-                "name": "Sandamali J.P.D.N.",
-                "email": "e20350@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "https://www.linkedin.com/in/dharani-navodya-833641213",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/350",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20350.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/350/"
-            },
-            "E/20/377": {
-                "name": "Sidantha V.P.H",
-                "email": "e20377@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/sidantha0377",
-                "linkedin": "https://www.linkedin.com/in/heshan-sidantha-5b9925296/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/377",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20377.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/377/"
-            }
-        },
-        "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            }
-        },
+        "description": "",
+        "team": {},
+        "supervisors": {},
         "tags": [
             "Web",
             "Embedded Systems"
         ],
-        "name": "e20-3yp-Smart-Locker-System"
+        "name": "e20-3yp-Monitoring-and-controlling-soilless-agricultural-plantations"
     },
     "e20-3yp-Smart-Vehicle-Tracking-and-Management-System": {
         "projName": "Smart Vehicle Tracking and Management System",
@@ -227,7 +284,7 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e20-3yp-Smart-Vehicle-Tracking-and-Management-System",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
         "created_at": "2025-01-11T18:51:30Z",
-        "updated_at": "2025-01-17T15:49:52Z",
+        "updated_at": "2025-01-26T15:07:46Z",
         "forks_count": 0,
         "stars_count": 0,
         "watchers_count": 0,
@@ -291,194 +348,131 @@
         ],
         "name": "e20-3yp-Smart-Vehicle-Tracking-and-Management-System"
     },
-    "e18-3yp-non-invaisve-glucose-meter": {
-        "projName": "non invaisve glucose meter",
-        "batch": "E18",
+    "e20-co543-Low-Light-Image-Enhancement": {
+        "projName": "Low Light Image Enhancement",
+        "batch": "E20",
         "category": {
-            "title": "Cyber-Physical Systems Projects",
-            "code": "3yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+            "title": "Image Processing Projects (CO543)",
+            "code": "co543",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co543/"
         },
-        "repo_url": "https://github.com/cepdnaclk/e18-3yp-non-invaisve-glucose-meter",
-        "project_url": "/3yp/e18/non-invaisve-glucose-meter/",
-        "page_url": "https://cepdnaclk.github.io/e18-3yp-non-invaisve-glucose-meter",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e18-3yp-non-invaisve-glucose-meter",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-        "created_at": "2022-10-29T15:21:48Z",
-        "updated_at": "2025-01-16T18:07:18Z",
-        "forks_count": 1,
-        "stars_count": 3,
-        "watchers_count": 3,
-        "language": "JavaScript",
+        "repo_url": "https://github.com/cepdnaclk/e20-co543-Low-Light-Image-Enhancement",
+        "project_url": "/co543/e20/Low-Light-Image-Enhancement/",
+        "page_url": "https://cepdnaclk.github.io/e20-co543-Low-Light-Image-Enhancement",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e20-co543-Low-Light-Image-Enhancement",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co543/thumbnail.jpg",
+        "created_at": "2024-12-16T09:32:24Z",
+        "updated_at": "2025-01-26T15:04:34Z",
+        "forks_count": 5,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": "Jupyter Notebook",
         "topics": [],
         "has_projects": true,
         "has_wiki": true,
         "has_pages": true,
-        "description": "This project contains an embedded system designed to monitor blood glucose levels non-invasively.",
+        "description": "Low-light image enhancement focuses on improving the quality of images captured in poorly lit conditions, addressing issues like low visibility, noise, and poor contrast.",
         "team": {
-            "E/18/170": {
-                "name": "Karunarathna W.K.",
-                "email": "e18170@eng.pdn.ac.lk",
+            "E/20/316": {
+                "name": "Wethmi Ranasinghe",
+                "email": "e20316@eng.pdn.ac.lk",
                 "website": "",
-                "github": "https://github.com/kavindax",
-                "linkedin": "https://www.linkedin.com/in/kavinda-karunarathna-a090b3179/",
+                "github": "https://github.com/wethmiranasinghe",
+                "linkedin": "https://www.linkedin.com/in/rawl-ranasinghe/",
                 "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/170",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18170.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/170/"
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/316",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20316.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/316/"
             },
-            "E/18/282": {
-                "name": "Ranasinghe R.A.N.S",
-                "email": "e18282@eng.pdn.ac.lk",
+            "E/20/178": {
+                "name": "Dulanga Jayawardena",
+                "email": "e20178@eng.pdn.ac.lk",
                 "website": "",
-                "github": "",
+                "github": "https://github.com/e20178dulanga",
                 "linkedin": "",
                 "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/282",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18282.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/282/"
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/178",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20178.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/178/"
             },
-            "E/18/382": {
-                "name": "Weerarathne L.D.",
-                "email": "e18382@eng.pdn.ac.lk",
+            "E/20/148": {
+                "name": "Kasundie Hewawasam",
+                "email": "e20148@eng.pdn.ac.lk",
                 "website": "",
-                "github": "",
+                "github": "https://github.com/kasundie",
                 "linkedin": "",
                 "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/382",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18382.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/382/"
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/148",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20148.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/148/"
+            },
+            "E/20/122": {
+                "name": "Rashmi Gunathilake",
+                "email": "e20122@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/rash0621",
+                "linkedin": "https://lk.linkedin.com/in/rashmi-gunathilake-1330b7219",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/122",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20122.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/122/"
+            },
+            "E/20/285": {
+                "name": "Methmi Perera",
+                "email": "e20285@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/methmi06",
+                "linkedin": "https://www.linkedin.com/in/perera-methmi-17a97b293/",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/285",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20285.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/285/"
             }
         },
         "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+            "upuljm@eng.pdn.ac.lk": {
+                "name": "Dr. Upul Jayasinghe",
+                "email": "upuljm@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/upul/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/upul-jayasinghe.jpg",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/upuljm",
                 "website": "",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            },
-            "mahanamaw@eng.pdn.ac.lk": {
-                "name": "Dr. Mahanama Wickramasinghe",
-                "email": "mahanamaw@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/mahanama-wickramasinghe/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/mahanama",
-                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
+                "linkedin": "https://www.linkedin.com/in/upuljm/",
+                "researchgate": "https://www.researchgate.net/profile/Upul-Jayasinghe",
+                "google_scholar": "https://scholar.google.ch/citations?user=9nBn4b0AAAAJ"
             }
         },
-        "tags": [
-            "Web",
-            "Embedded Systems",
-            "Non-Invasive Glucometer"
-        ],
-        "name": "e18-3yp-non-invaisve-glucose-meter"
+        "tags": {},
+        "name": "e20-co543-Low-Light-Image-Enhancement"
     },
-    "e18-3yp-smart-safety-helmet": {
-        "projName": "smart safety helmet",
-        "batch": "E18",
+    "e20-3yp-FlickNest": {
+        "projName": "FlickNest",
+        "batch": "E20",
         "category": {
             "title": "Cyber-Physical Systems Projects",
             "code": "3yp",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
         },
-        "repo_url": "https://github.com/cepdnaclk/e18-3yp-smart-safety-helmet",
-        "project_url": "/3yp/e18/smart-safety-helmet/",
-        "page_url": "https://cepdnaclk.github.io/e18-3yp-smart-safety-helmet",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e18-3yp-smart-safety-helmet",
+        "repo_url": "https://github.com/cepdnaclk/e20-3yp-FlickNest",
+        "project_url": "/3yp/e20/FlickNest/",
+        "page_url": "https://cepdnaclk.github.io/e20-3yp-FlickNest",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e20-3yp-FlickNest",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-        "created_at": "2022-10-30T18:13:40Z",
-        "updated_at": "2025-01-16T09:38:13Z",
-        "forks_count": 4,
-        "stars_count": 5,
-        "watchers_count": 5,
-        "language": "JavaScript",
-        "topics": [
-            "gas-sensor",
-            "helmet",
-            "monitor",
-            "noise",
-            "safety",
-            "smart",
-            "smartsafe",
-            "temperature",
-            "vibration-sensor"
-        ],
+        "created_at": "2024-12-09T06:05:23Z",
+        "updated_at": "2025-01-26T14:28:37Z",
+        "forks_count": 0,
+        "stars_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "topics": [],
         "has_projects": true,
         "has_wiki": true,
         "has_pages": true,
-        "description": "Smart safety helmet for large scale construction sites",
-        "team": {
-            "E/18/028": {
-                "name": "Jeewanth Udeshika",
-                "email": "e18028@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/JeewanthaUdeshika",
-                "linkedin": "https://www.linkedin.com/in/jeewantha-udeshika-89a1b1197/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/028",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18028.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/028/"
-            },
-            "E/18/173": {
-                "name": "Ishan Kasthuripitiya",
-                "email": "e18173@eng.pdn.ac.lk",
-                "website": "https://ishanmk.github.io/",
-                "github": "https://github.com/IshanMK",
-                "linkedin": "https://www.linkedin.com/in/ishan-maduranga/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/173",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18173.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/173/"
-            },
-            "E/18/285": {
-                "name": "Tharindu Ranasinghe",
-                "email": "e18285@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/TharinduChamod",
-                "linkedin": "https://www.linkedin.com/in/tharindu-chamod-49712a1a0/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E18/285",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e18/e18285.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e18/285/"
-            }
-        },
-        "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            },
-            "mahanamaw@eng.pdn.ac.lk": {
-                "name": "Dr. Mahanama Wickramasinghe",
-                "email": "mahanamaw@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/mahanama-wickramasinghe/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/mahanamaw",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/mahanama",
-                "researchgate": "https://www.researchgate.net/profile/Mahanama-Wickramsinghe",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=kuoZpZEAAAAJ"
-            }
-        },
-        "tags": [
-            "Web",
-            "Embedded Systems"
-        ],
-        "name": "e18-3yp-smart-safety-helmet"
+        "description": "FlickNest is an innovative smart automation system that allows you to control your electronic devices effortlessly through hand gestures. Powered by the advanced FlickNest Smart Bracelet, it transforms your gestures into seamless commands, enabling intuitive and hands-free management of your home environment.",
+        "team": {},
+        "supervisors": {},
+        "tags": {},
+        "name": "e20-3yp-FlickNest"
     },
     "e20-co502-RV32IM_Pipelined_Processor_Group-06": {
         "projName": "RV32IM_Pipelined_Processor_Group 06",
@@ -494,7 +488,7 @@
         "api_url": "https://api.github.com/repos/cepdnaclk/e20-co502-RV32IM_Pipelined_Processor_Group-06",
         "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
         "created_at": "2024-12-11T04:15:20Z",
-        "updated_at": "2025-01-15T19:19:32Z",
+        "updated_at": "2025-01-26T13:26:21Z",
         "forks_count": 0,
         "stars_count": 0,
         "watchers_count": 0,
@@ -561,87 +555,5 @@
             "Advanced Architecture"
         ],
         "name": "e20-co502-RV32IM_Pipelined_Processor_Group-06"
-    },
-    "e20-co502-RV32IM_Pipelined_Processor_Group-05": {
-        "projName": "RV32IM_Pipelined_Processor_Group 05",
-        "batch": "E20",
-        "category": {
-            "title": "Advanced Computer Architecture (CO502)",
-            "code": "co502",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co502/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e20-co502-RV32IM_Pipelined_Processor_Group-05",
-        "project_url": "/co502/e20/RV32IM_Pipelined_Processor_Group-05/",
-        "page_url": "https://cepdnaclk.github.io/e20-co502-RV32IM_Pipelined_Processor_Group-05",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e20-co502-RV32IM_Pipelined_Processor_Group-05",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
-        "created_at": "2024-12-14T03:03:49Z",
-        "updated_at": "2025-01-15T09:29:41Z",
-        "forks_count": 1,
-        "stars_count": 0,
-        "watchers_count": 0,
-        "language": "Verilog",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "The RV32IM pipeline processor project designs a 32-bit RISC-V processor with 5 stages: IF, ID, EX, MEM, WB. It supports RV32I base and M-extension (MUL/DIV), using forwarding, stalling, and branch prediction to manage hazards. Implemented in Verilog, it is simulated, tested with RISC-V tools, and optimized for performance.",
-        "team": {
-            "E/20/024": {
-                "name": "Buddhika Ariyarathna",
-                "email": "e20024@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/AriyarathnaDBS",
-                "linkedin": "https://www.linkedin.com/in/buddhika-ariyarathna-7b6a86227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/024",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20024.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/024/"
-            },
-            "E/20/366": {
-                "name": "Bhagya Senavirathna",
-                "email": "e20366@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/bhagyaseela",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/366",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20366.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/366/"
-            },
-            "E/20/242": {
-                "name": "Imesha Malinga",
-                "email": "e20242@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/242",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20242.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/242/"
-            }
-        },
-        "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-                "website": "",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            }
-        },
-        "tags": [
-            "RV32IM",
-            "RISC-V",
-            "CO502",
-            "Advanced Computer Architecture",
-            "Pipelined Processor",
-            "Verilog"
-        ],
-        "name": "e20-co502-RV32IM_Pipelined_Processor_Group-05"
     }
 }
