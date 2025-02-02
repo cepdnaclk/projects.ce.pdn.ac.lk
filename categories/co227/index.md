@@ -5,7 +5,7 @@ nav_order: '5'
 permalink: /co227/
 has_children: true
 code: co227
-type: COURSE
+type: GENERAL
 parent: Home
 has_toc: true
 search_exclude: true

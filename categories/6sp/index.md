@@ -5,7 +5,7 @@ nav_order: '2'
 permalink: /6sp/
 has_children: true
 code: 6sp
-type: GENERAL
+type: COURSE
 parent: Home
 has_toc: true
 search_exclude: true
