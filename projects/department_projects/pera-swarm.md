@@ -34,3 +34,9 @@ As for now, the project comes up with several milestones, including
 And we are looking for volunteers and researchers to expand the robot swarm with more hardware robots with newer functionalities and software-based solutions to address the Swarm Robotics related problems.
 
 For the details, feel free to contact [Dr. Isuru Nawinne](https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/){:target="_blank"} and [Prof. Roshan Ragel](https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/){:target="_blank"}.
+
+## Smorphi
+
+Smorphi is a versatile, reconfigurable robot designed to adapt its shape for various applications. Developed by the Singapore University of Technology and Design (SUTD), Smorphi can transform into seven different configurations, such as L, O, J, S, Z, I, and T shapes, enabling it to navigate through narrow spaces and perform tasks in confined environments. Each module of Smorphi is equipped with Mecanum wheels, allowing omnidirectional movement and enhanced maneuverability. Its adaptability makes it suitable for diverse industries, including manufacturing and healthcare, where automation and efficiency are paramount.
+
+<img src="{{ '/assets/images/peraswam.png' | relative_url }}" alt="Smorphi Robot" class="img-fluid">
