@@ -14,8 +14,8 @@ publications:
     - https://doi.org/10.1371/journal.pone.0278440
 
 projects:
-    - https://projects.ce.pdn.ac.lk/co328/e17/Greenhouse-Monitoring-System/
-    - https://projects.ce.pdn.ac.lk/co328/e17/Greenhouse-monitoring-and-controlling-based-on-IOT-sensor-data/
+    - https://projects.ce.pdn.ac.lk/6sp/e17/Greenhouse-Monitoring-System/
+    - https://projects.ce.pdn.ac.lk/6sp/e17/Greenhouse-monitoring-and-controlling-based-on-IOT-sensor-data/
     - https://projects.ce.pdn.ac.lk/co227/e18/Logging-Microservice-for-IoT-based-Smart-Agriculture-Project/
     - https://nuwanjaliyagoda.com/projects/greenhouse-automation/
 
@@ -23,9 +23,9 @@ links:
     - { title: 'Agricultural Biotechnology Center, University of Peradeniya', url: 'http://agri.pdn.ac.lk/agbc'}
 ---
 
-The main objective of this project is to collect the environmental data from plant houses while controlling the environmental conditions and improving the quality and quantity of the plants with the use of IoT, Machine Learning and other Computer Engineering technologies.
+The main objective of this project is to collect environmental data from plant houses while controlling the environmental conditions and improving the quality and quantity of the plants with the use of IoT, Machine Learning, and other Computer Engineering technologies.
 
-This is a multi-disciplinary project by the Department of Computer Engineering in collobaration with the [Agricultural Biotechnology Center](http://agri.pdn.ac.lk/agbc/), University of Peradeniya.
+This is a multi-disciplinary project by the Department of Computer Engineering in collaboration with the [Agricultural Biotechnology Center](http://agri.pdn.ac.lk/agbc/), University of Peradeniya.
 
 For the details, feel free to contact [Dr. Asitha Bandaranayaka](https://people.ce.pdn.ac.lk/staff/academic/asitha-bandaranayake/){:target="_blank"}.
 
