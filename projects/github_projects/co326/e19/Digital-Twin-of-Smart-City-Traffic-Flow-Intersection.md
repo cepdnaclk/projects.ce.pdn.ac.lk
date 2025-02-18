@@ -11,8 +11,8 @@ thumbnail_url: /data/categories/co326/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co326-Digital-Twin-of-Smart-City-Traffic-Flow-Intersection
 page_url: blank
 forks: 8
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: '2024-04-20T18:57:47Z'
 ---
 
