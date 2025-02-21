@@ -11,8 +11,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-3yp-Remote-Gait-Analysis
 page_url: https://cepdnaclk.github.io/e20-3yp-Remote-Gait-Analysis
 forks: 4
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2024-12-20T13:42:17Z'
 ---
 

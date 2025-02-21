@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: HDL Code Generation Using LLMs
-permalink: /4yp/e19/HDL-Code-Generation-Using-LLMs/
+title: Verilog Code Generation With Variations Fine Tuned Large Languag Models
+permalink: /4yp/e19/Verilog-Code-Generation-With-Variations-Fine-Tuned-Large-Languag-Models/
 description: This research focuses on automating the generation of Verilog code (a
   hardware description language) using Large Language Models (LLMs). The motivation
   behind this project is to simplify and accelerate hardware design processes by leveraging
@@ -11,8 +11,8 @@ parent: E19 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
 cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
-repo_url: https://github.com/cepdnaclk/e19-4yp-HDL-Code-Generation-Using-LLMs
-page_url: https://cepdnaclk.github.io/e19-4yp-HDL-Code-Generation-Using-LLMs
+repo_url: https://github.com/cepdnaclk/e19-4yp-Verilog-Code-Generation-With-Variations-Fine-Tuned-Large-Languag-Models
+page_url: https://cepdnaclk.github.io/e19-4yp-Verilog-Code-Generation-With-Variations-Fine-Tuned-Large-Languag-Models
 forks: 0
 watchers: 1
 stars: 1
