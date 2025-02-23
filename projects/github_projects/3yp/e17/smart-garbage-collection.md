@@ -17,8 +17,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-3yp-smart-garbage-collection
 page_url: https://cepdnaclk.github.io/e17-3yp-smart-garbage-collection
 forks: 3
-watchers: 2
-stars: 2
+watchers: 3
+stars: 3
 started_on: '2021-06-23T19:36:57Z'
 ---
 
