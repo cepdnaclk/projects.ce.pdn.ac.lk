@@ -2,7 +2,7 @@
 layout: project_page
 title: Smart Vehicle Tracking and Management System
 permalink: /3yp/e20/Smart-Vehicle-Tracking-and-Management-System/
-description: ''
+description: e20-3yp-Smart-Vehicle-Tracking-and-Management-System
 has_children: false
 parent: E20 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
@@ -16,3 +16,4 @@ stars: 0
 started_on: '2025-01-11T18:51:30Z'
 ---
 
+e20-3yp-Smart-Vehicle-Tracking-and-Management-System
