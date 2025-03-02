@@ -2,10 +2,11 @@
 layout: project_page
 title: S2TPVFormer
 permalink: /4yp/e17/S2TPVFormer/
-description: Accurate and comprehensive 3D scene understanding and reasoning are pivotal
-  for the development of robotic and autonomous driving systems. The study focuses
-  on advancing 3D scene understanding in the scope of 3D Semantic Occupancy Prediction,
-  emphasizing spatial and temporal reasoning as key components.
+description: '[AAAI Workshop 2025] Accurate and comprehensive 3D scene understanding
+  and reasoning are pivotal for the development of robotic and autonomous driving
+  systems. The study focuses on advancing 3D scene understanding in the scope of 3D
+  Semantic Occupancy Prediction, emphasizing spatial and temporal reasoning as key
+  components.'
 has_children: false
 parent: E17 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -19,4 +20,4 @@ stars: 2
 started_on: '2023-05-18T07:26:12Z'
 ---
 
-Accurate and comprehensive 3D scene understanding and reasoning are pivotal for the development of robotic and autonomous driving systems. The study focuses on advancing 3D scene understanding in the scope of 3D Semantic Occupancy Prediction, emphasizing spatial and temporal reasoning as key components.
+[AAAI Workshop 2025] Accurate and comprehensive 3D scene understanding and reasoning are pivotal for the development of robotic and autonomous driving systems. The study focuses on advancing 3D scene understanding in the scope of 3D Semantic Occupancy Prediction, emphasizing spatial and temporal reasoning as key components.
