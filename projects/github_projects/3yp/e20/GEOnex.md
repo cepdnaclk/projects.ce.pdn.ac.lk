@@ -11,7 +11,7 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-3yp-GEOnex
 page_url: https://cepdnaclk.github.io/e20-3yp-GEOnex
-forks: 2
+forks: 3
 watchers: 0
 stars: 0
 started_on: '2024-12-27T08:09:43Z'
