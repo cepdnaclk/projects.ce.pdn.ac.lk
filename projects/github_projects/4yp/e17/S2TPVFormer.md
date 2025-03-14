@@ -12,8 +12,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-4yp-S2TPVFormer
 page_url: https://cepdnaclk.github.io/e17-4yp-S2TPVFormer
 forks: 1
-watchers: 2
-stars: 2
+watchers: 3
+stars: 3
 started_on: '2023-05-18T07:26:12Z'
 ---
 
