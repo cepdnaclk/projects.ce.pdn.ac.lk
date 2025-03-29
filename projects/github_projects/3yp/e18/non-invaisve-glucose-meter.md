@@ -11,7 +11,7 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-3yp-non-invaisve-glucose-meter
 page_url: https://cepdnaclk.github.io/e18-3yp-non-invaisve-glucose-meter
-forks: 1
+forks: 2
 watchers: 4
 stars: 4
 started_on: '2022-10-29T15:21:48Z'
