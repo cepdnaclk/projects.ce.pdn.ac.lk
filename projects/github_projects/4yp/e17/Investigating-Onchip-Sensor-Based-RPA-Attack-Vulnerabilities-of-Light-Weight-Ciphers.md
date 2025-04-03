@@ -15,8 +15,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-4yp-Investigating-Onchip-Sensor-Based-RPA-Attack-Vulnerabilities-of-Light-Weight-Ciphers
 page_url: https://cepdnaclk.github.io/e17-4yp-Investigating-Onchip-Sensor-Based-RPA-Attack-Vulnerabilities-of-Light-Weight-Ciphers
 forks: 3
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2023-05-20T18:02:12Z'
 ---
 
