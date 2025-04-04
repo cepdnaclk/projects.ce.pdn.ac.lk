@@ -2,7 +2,8 @@
 layout: project_page
 title: stock price prediction
 permalink: /co542/e20/stock-price-prediction/
-description: https://cepdnaclk.github.io/e20-co542-stock-price-prediction Public
+description: A hybrid stock prediction model combines historical data analysis and
+  news sentiment analysis for better accuracy.
 has_children: false
 parent: E20 Neural Networks Projects (CO542)
 grand_parent: Neural Networks Projects (CO542)
@@ -16,4 +17,4 @@ stars: 0
 started_on: '2025-04-03T13:21:28Z'
 ---
 
-https://cepdnaclk.github.io/e20-co542-stock-price-prediction Public
+A hybrid stock prediction model combines historical data analysis and news sentiment analysis for better accuracy.
