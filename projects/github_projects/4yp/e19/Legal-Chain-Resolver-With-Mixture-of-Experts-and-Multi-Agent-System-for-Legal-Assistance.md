@@ -15,8 +15,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-4yp-Legal-Chain-Resolver-With-Mixture-of-Experts-and-Multi-Agent-System-for-Legal-Assistance
 page_url: https://cepdnaclk.github.io/e19-4yp-Legal-Chain-Resolver-With-Mixture-of-Experts-and-Multi-Agent-System-for-Legal-Assistance
 forks: 0
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2025-02-01T12:31:35Z'
 ---
 
