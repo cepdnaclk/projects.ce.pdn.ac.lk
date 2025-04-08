@@ -10,7 +10,7 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-3yp-SkyT
 page_url: https://cepdnaclk.github.io/e20-3yp-SkyT
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: '2024-12-09T05:25:32Z'
