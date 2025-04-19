@@ -11,8 +11,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-3yp-smart-safety-helmet
 page_url: https://cepdnaclk.github.io/e18-3yp-smart-safety-helmet
 forks: 4
-watchers: 5
-stars: 5
+watchers: 6
+stars: 6
 started_on: '2022-10-30T18:13:40Z'
 ---
 
