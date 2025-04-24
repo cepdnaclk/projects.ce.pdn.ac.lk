@@ -11,8 +11,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-3yp-agribot
 page_url: https://cepdnaclk.github.io/e16-3yp-agribot
 forks: 6
-watchers: 4
-stars: 4
+watchers: 5
+stars: 5
 started_on: '2020-10-17T05:26:03Z'
 ---
 
