@@ -2,9 +2,11 @@
 layout: project_page
 title: VR Multiplayer Golf Game
 permalink: /3yp/e20/VR-Multiplayer-Golf-Game/
-description: VR-Multiplayer-Golf-Game allows multiple users to play golf in VR environment.
-  The game features a virtual environment which allows a user to have an immersive
-  experience.
+description: Immerse yourself in our VR multiplayer golf game, where players can connect,
+  communicate, and compete in stunning virtual courses. Designed to enhance social
+  interaction, the game combines realistic physics with intuitive VR controls, offering
+  a seamless, engaging experience. Perfect for friends, families, and social gaming
+  communities.
 has_children: false
 parent: E20 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
@@ -15,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e20-3yp-VR-Multiplayer-Golf-Game
 forks: 2
 watchers: 0
 stars: 0
-started_on: '2024-12-09T05:13:05Z'
+started_on: '2025-05-10T08:07:49Z'
 ---
 
-VR-Multiplayer-Golf-Game allows multiple users to play golf in VR environment. The game features a virtual environment which allows a user to have an immersive experience.
+Immerse yourself in our VR multiplayer golf game, where players can connect, communicate, and compete in stunning virtual courses. Designed to enhance social interaction, the game combines realistic physics with intuitive VR controls, offering a seamless, engaging experience. Perfect for friends, families, and social gaming communities.
