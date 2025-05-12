@@ -15,8 +15,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-3yp-VR-Multiplayer-Golf-Game
 page_url: https://cepdnaclk.github.io/e20-3yp-VR-Multiplayer-Golf-Game
 forks: 2
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2025-05-10T08:07:49Z'
 ---
 
