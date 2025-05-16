@@ -12,8 +12,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-3yp-Patient-Monitoring-System-for-Ambulances
 page_url: https://cepdnaclk.github.io/e18-3yp-Patient-Monitoring-System-for-Ambulances
 forks: 3
-watchers: 5
-stars: 5
+watchers: 6
+stars: 6
 started_on: '2022-11-02T05:14:38Z'
 ---
 
