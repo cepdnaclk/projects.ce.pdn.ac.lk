@@ -14,8 +14,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-4yp-RISC-V-SoC-With-Neuromorphic-Accelerator-for-SNNs
 page_url: https://cepdnaclk.github.io/e19-4yp-RISC-V-SoC-With-Neuromorphic-Accelerator-for-SNNs
 forks: 5
-watchers: 8
-stars: 8
+watchers: 9
+stars: 9
 started_on: '2025-02-02T15:31:03Z'
 ---
 
