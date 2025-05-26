@@ -13,8 +13,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-4yp-Putting-Privacy-into-Practice
 page_url: https://cepdnaclk.github.io/e19-4yp-Putting-Privacy-into-Practice
 forks: 0
-watchers: 0
-stars: 0
+watchers: 2
+stars: 2
 started_on: '2025-01-31T09:29:29Z'
 ---
 
