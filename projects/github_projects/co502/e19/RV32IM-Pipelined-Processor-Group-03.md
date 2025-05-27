@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: RV32IM_Pipelined_Processor_Group 03
-permalink: /co502/e19/RV32IM_Pipelined_Processor_Group-03/
+title: RV32IM Pipelined Processor Group 03
+permalink: /co502/e19/RV32IM-Pipelined-Processor-Group-03/
 description: This Git repository contains the implementation of a RISC32IM processor
   pipeline using Verilog. The pipeline includes stages for instruction fetch, decode,
   execute, memory access, and write-back. The implementation includes a testbench
@@ -11,7 +11,7 @@ parent: E19 Advanced Computer Architecture (CO502)
 grand_parent: Advanced Computer Architecture (CO502)
 cover_url: /data/categories/co502/cover_page.jpg
 thumbnail_url: /data/categories/co502/thumbnail.jpg
-repo_url: https://github.com/cepdnaclk/e19-co502-RV32IM_Pipelined_Processor_Group-03
+repo_url: https://github.com/cepdnaclk/e19-co502-RV32IM-Pipelined-Processor-Group-03
 page_url: blank
 forks: 0
 watchers: 0
