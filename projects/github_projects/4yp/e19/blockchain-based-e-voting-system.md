@@ -2,7 +2,9 @@
 layout: project_page
 title: blockchain based e voting system
 permalink: /4yp/e19/blockchain-based-e-voting-system/
-description: ''
+description: This project explores the development of a secure, transparent, and verifiable
+  blockchain-based electronic voting (e-voting) system aimed at addressing the challenges
+  of traditional paper-based and centralized electronic voting systems.
 has_children: false
 parent: E19 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -16,3 +18,4 @@ stars: 0
 started_on: '2025-02-02T14:45:57Z'
 ---
 
+This project explores the development of a secure, transparent, and verifiable blockchain-based electronic voting (e-voting) system aimed at addressing the challenges of traditional paper-based and centralized electronic voting systems.

@@ -2,7 +2,7 @@
 layout: project_page
 title: Solve Issues In Large Code Repositories
 permalink: /4yp/e19/Solve-Issues-In-Large-Code-Repositories/
-description: ''
+description: https://cepdnaclk.github.io/e19-4yp-Solve-Issues-In-Large-Code-Repositories/
 has_children: false
 parent: E19 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -16,3 +16,4 @@ stars: 0
 started_on: '2025-02-02T14:41:15Z'
 ---
 
+https://cepdnaclk.github.io/e19-4yp-Solve-Issues-In-Large-Code-Repositories/

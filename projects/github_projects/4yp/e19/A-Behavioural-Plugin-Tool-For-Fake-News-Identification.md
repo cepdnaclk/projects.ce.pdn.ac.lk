@@ -2,7 +2,9 @@
 layout: project_page
 title: A Behavioural Plugin Tool For Fake News Identification
 permalink: /4yp/e19/A-Behavioural-Plugin-Tool-For-Fake-News-Identification/
-description: ''
+description: Explore the advanced capabilities of our fake news detection plugin designed
+  for real-time analysis and trust scoring. Built using cutting-edge technology and
+  behavioural insights.
 has_children: false
 parent: E19 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -16,3 +18,4 @@ stars: 1
 started_on: '2025-02-03T15:09:25Z'
 ---
 
+Explore the advanced capabilities of our fake news detection plugin designed for real-time analysis and trust scoring. Built using cutting-edge technology and behavioural insights.
