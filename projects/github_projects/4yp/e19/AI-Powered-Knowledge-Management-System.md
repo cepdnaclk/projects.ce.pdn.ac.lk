@@ -10,7 +10,7 @@ grand_parent: Undergraduate Research Projects
 cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-4yp-AI-Powered-Knowledge-Management-System
-page_url: blank
+page_url: https://cepdnaclk.github.io/e19-4yp-AI-Powered-Knowledge-Management-System
 forks: 1
 watchers: 0
 stars: 0
