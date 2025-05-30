@@ -14,8 +14,8 @@ thumbnail_url: /data/categories/co227/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co227-Empowering-Counselors-and-Students-through-Interactive-Web-and-Mobile-App
 page_url: https://cepdnaclk.github.io/e19-co227-Empowering-Counselors-and-Students-through-Interactive-Web-and-Mobile-App
 forks: 4
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: '2023-08-22T02:20:46Z'
 ---
 
