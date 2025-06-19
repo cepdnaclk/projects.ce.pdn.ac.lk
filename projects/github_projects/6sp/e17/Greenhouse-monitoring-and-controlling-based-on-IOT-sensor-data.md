@@ -25,8 +25,8 @@ thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-6sp-Greenhouse-monitoring-and-controlling-based-on-IOT-sensor-data
 page_url: https://cepdnaclk.github.io/e17-6sp-Greenhouse-monitoring-and-controlling-based-on-IOT-sensor-data
 forks: 4
-watchers: 2
-stars: 2
+watchers: 1
+stars: 1
 started_on: '2022-03-02T08:19:19Z'
 ---
 
