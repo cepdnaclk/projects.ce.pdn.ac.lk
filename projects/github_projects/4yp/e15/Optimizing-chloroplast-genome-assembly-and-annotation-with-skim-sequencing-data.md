@@ -27,8 +27,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e15-4yp-Optimizing-chloroplast-genome-assembly-and-annotation-with-skim-sequencing-data
 page_url: https://cepdnaclk.github.io/e15-4yp-Optimizing-chloroplast-genome-assembly-and-annotation-with-skim-sequencing-data
 forks: 2
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2021-03-04T18:14:26Z'
 ---
 
