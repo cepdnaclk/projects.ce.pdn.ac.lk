@@ -14,8 +14,8 @@ thumbnail_url: /data/categories/co544/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co544-Bitcoin-Cost-Forecast-System
 page_url: https://cepdnaclk.github.io/e19-co544-Bitcoin-Cost-Forecast-System
 forks: 5
-watchers: 3
-stars: 3
+watchers: 4
+stars: 4
 started_on: '2024-04-17T12:15:05Z'
 ---
 
