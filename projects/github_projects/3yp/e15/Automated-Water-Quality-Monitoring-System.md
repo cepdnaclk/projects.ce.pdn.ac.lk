@@ -17,7 +17,7 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e15-3yp-Automated-Water-Quality-Monitoring-System
 page_url: https://cepdnaclk.github.io/e15-3yp-Automated-Water-Quality-Monitoring-System
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: '2021-05-22T18:55:03Z'
