@@ -12,7 +12,7 @@ grand_parent: Advanced Computer Architecture (CO502)
 cover_url: /data/categories/co502/cover_page.jpg
 thumbnail_url: /data/categories/co502/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co502-RV32IM-Pipelined-Processor-Group-03
-page_url: blank
+page_url: https://cepdnaclk.github.io/e19-co502-RV32IM-Pipelined-Processor-Group-03
 forks: 0
 watchers: 0
 stars: 0
