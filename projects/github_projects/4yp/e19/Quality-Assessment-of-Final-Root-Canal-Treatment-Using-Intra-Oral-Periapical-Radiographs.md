@@ -15,8 +15,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-4yp-Quality-Assessment-of-Final-Root-Canal-Treatment-Using-Intra-Oral-Periapical-Radiographs
 page_url: https://cepdnaclk.github.io/e19-4yp-Quality-Assessment-of-Final-Root-Canal-Treatment-Using-Intra-Oral-Periapical-Radiographs
 forks: 3
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: '2025-01-19T06:55:22Z'
 ---
 
