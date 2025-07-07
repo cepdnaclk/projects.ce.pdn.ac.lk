@@ -18,8 +18,8 @@ thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-6sp-NGS-Data-AnalysingToolkit
 page_url: https://cepdnaclk.github.io/e17-6sp-NGS-Data-AnalysingToolkit
 forks: 4
-watchers: 4
-stars: 4
+watchers: 5
+stars: 5
 started_on: '2022-03-02T10:32:45Z'
 ---
 
