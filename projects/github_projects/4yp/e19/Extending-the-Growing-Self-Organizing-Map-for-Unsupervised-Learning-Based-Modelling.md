@@ -3,7 +3,8 @@ layout: project_page
 title: Extending the Growing Self Organizing Map for Unsupervised Learning Based Modelling
 permalink: /4yp/e19/Extending-the-Growing-Self-Organizing-Map-for-Unsupervised-Learning-Based-Modelling/
 description: This research aims to expand the capabilities of the Growing Self-Organizing
-  Map (GSOM) by focusing on its applications in data analytics and knowledge discovery
+  Map (GSOM) by focusing on its applications in data analytics and idionomic feature
+  representation.
 has_children: false
 parent: E19 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -17,4 +18,4 @@ stars: 1
 started_on: '2025-01-31T05:47:07Z'
 ---
 
-This research aims to expand the capabilities of the Growing Self-Organizing Map (GSOM) by focusing on its applications in data analytics and knowledge discovery
+This research aims to expand the capabilities of the Growing Self-Organizing Map (GSOM) by focusing on its applications in data analytics and idionomic feature representation.
