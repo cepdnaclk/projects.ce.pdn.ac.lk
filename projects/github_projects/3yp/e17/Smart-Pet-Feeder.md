@@ -15,8 +15,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-3yp-Smart-Pet-Feeder
 page_url: https://cepdnaclk.github.io/e17-3yp-Smart-Pet-Feeder
 forks: 5
-watchers: 2
-stars: 2
+watchers: 3
+stars: 3
 started_on: '2021-06-26T09:08:07Z'
 ---
 
