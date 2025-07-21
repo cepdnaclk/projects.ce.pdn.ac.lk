@@ -13,7 +13,7 @@ cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-4yp-Voluntary-Computing-Operating-System
 page_url: https://cepdnaclk.github.io/e19-4yp-Voluntary-Computing-Operating-System
-forks: 1
+forks: 2
 watchers: 1
 stars: 1
 started_on: '2025-02-02T13:39:21Z'
