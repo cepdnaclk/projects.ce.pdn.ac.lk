@@ -11,8 +11,8 @@ thumbnail_url: /data/categories/co326/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co326-air-quality-management-system
 page_url: https://cepdnaclk.github.io/e19-co326-air-quality-management-system
 forks: 7
-watchers: 2
-stars: 2
+watchers: 3
+stars: 3
 started_on: '2024-04-05T02:46:47Z'
 ---
 
