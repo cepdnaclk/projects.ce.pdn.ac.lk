@@ -15,8 +15,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-4yp-AI-Driven-Decision-Making-Models-for-Corporate-Applications
 page_url: https://cepdnaclk.github.io/e19-4yp-AI-Driven-Decision-Making-Models-for-Corporate-Applications
 forks: 0
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2025-02-02T16:55:03Z'
 ---
 
