@@ -10,7 +10,7 @@ cover_url: /data/categories/co328/cover_page.jpg
 thumbnail_url: /data/categories/co328/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co328-Ecommerce-Auction-Website
 page_url: blank
-forks: 7
+forks: 6
 watchers: 0
 stars: 0
 started_on: '2024-04-29T13:42:39Z'
