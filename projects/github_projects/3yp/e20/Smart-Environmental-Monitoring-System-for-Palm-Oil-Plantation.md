@@ -13,9 +13,9 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-3yp-Smart-Environmental-Monitoring-System-for-Palm-Oil-Plantation
 page_url: https://cepdnaclk.github.io/e20-3yp-Smart-Environmental-Monitoring-System-for-Palm-Oil-Plantation
-forks: 1
-watchers: 0
-stars: 0
+forks: 2
+watchers: 1
+stars: 1
 started_on: '2024-12-12T18:10:56Z'
 ---
 
