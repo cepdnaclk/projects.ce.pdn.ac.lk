@@ -13,8 +13,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-3yp-smart-infared-shooting-sport
 page_url: https://cepdnaclk.github.io/e16-3yp-smart-infared-shooting-sport
 forks: 3
-watchers: 4
-stars: 4
+watchers: 5
+stars: 5
 started_on: '2020-10-19T06:16:06Z'
 ---
 
