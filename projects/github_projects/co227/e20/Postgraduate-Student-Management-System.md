@@ -13,8 +13,8 @@ thumbnail_url: /data/categories/co227/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co227-Postgraduate-Student-Management-System
 page_url: https://cepdnaclk.github.io/e20-co227-Postgraduate-Student-Management-System
 forks: 0
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2024-09-19T06:29:47Z'
 ---
 
