@@ -1,4 +1,92 @@
 {
+    "e20-co227-Postgraduate-Student-Management-System": {
+        "projName": "Postgraduate Student Management System",
+        "batch": "E20",
+        "category": {
+            "title": "Software Systems Projects",
+            "code": "co227",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/"
+        },
+        "repo_url": "https://github.com/cepdnaclk/e20-co227-Postgraduate-Student-Management-System",
+        "project_url": "/co227/e20/Postgraduate-Student-Management-System/",
+        "page_url": "https://cepdnaclk.github.io/e20-co227-Postgraduate-Student-Management-System",
+        "api_url": "https://api.github.com/repos/cepdnaclk/e20-co227-Postgraduate-Student-Management-System",
+        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
+        "created_at": "2024-09-19T06:29:47Z",
+        "updated_at": "2025-08-12T05:05:23Z",
+        "forks_count": 0,
+        "stars_count": 1,
+        "watchers_count": 1,
+        "language": "TypeScript",
+        "topics": [],
+        "has_projects": true,
+        "has_wiki": true,
+        "has_pages": true,
+        "description": "The Post Graduate Students management system is an effort to enhance the administrative efficiency and academic tracking within the Department of Computer Engineering at University of Peradeniya.",
+        "team": {
+            "E/20/197": {
+                "name": "A.H.D. Kawya",
+                "email": "e20197@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/dasunikawya2001",
+                "linkedin": "https://www.linkedin.com/in/dasuni-kawya-1a72b72a0/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BmH7G6PCCQlyUYV7wiGhOkg%3D%3D",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/197",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20197.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/197/"
+            },
+            "E/20/211": {
+                "name": "K.W.I.T. Kumarasinghe",
+                "email": "e20211@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/ishann211",
+                "linkedin": "https://www.linkedin.com/in/ishan-kumarasinghe",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/211",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20211.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/211/"
+            },
+            "E/20/212": {
+                "name": "R.M.S.H. Kumarasinghe",
+                "email": "e20212@eng.pdn.ac.lk",
+                "website": "",
+                "github": "https://github.com/sameera-87",
+                "linkedin": "https://www.linkedin.com/in/sameera-kumarasinghe-98b70526a/",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/212",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20212.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/212/"
+            },
+            "E/20/242": {
+                "name": "G.A.I. Malinga",
+                "email": "e20242@eng.pdn.ac.lk",
+                "website": "",
+                "github": "",
+                "linkedin": "",
+                "researchgate": "",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/242",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20242.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/242/"
+            }
+        },
+        "supervisors": {
+            "upuljm@eng.pdn.ac.lk": {
+                "name": "Dr. Upul Jayasinghe",
+                "email": "upuljm@eng.pdn.ac.lk",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/upul/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/upul-jayasinghe.png",
+                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/upuljm",
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/upuljm/",
+                "researchgate": "https://www.researchgate.net/profile/Upul-Jayasinghe",
+                "google_scholar": "https://scholar.google.ch/citations?user=9nBn4b0AAAAJ"
+            }
+        },
+        "tags": [
+            "Web"
+        ],
+        "name": "e20-co227-Postgraduate-Student-Management-System"
+    },
     "e16-3yp-smart-infared-shooting-sport": {
         "projName": "smart infared shooting sport",
         "batch": "E16",
@@ -604,83 +692,5 @@
             "Final Year Projects"
         ],
         "name": "e17-4yp-Comprehensive-ECG-analysis-with-Deep-Learning-on-GPU-accelerators"
-    },
-    "e19-co502-RV32IM-Pipeline-Implementation-Group1": {
-        "projName": "RV32IM Pipeline Implementation Group1",
-        "batch": "E19",
-        "category": {
-            "title": "Advanced Computer Architecture (CO502)",
-            "code": "co502",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co502/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e19-co502-RV32IM-Pipeline-Implementation-Group1",
-        "project_url": "/co502/e19/RV32IM-Pipeline-Implementation-Group1/",
-        "page_url": "https://cepdnaclk.github.io/e19-co502-RV32IM-Pipeline-Implementation-Group1",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e19-co502-RV32IM-Pipeline-Implementation-Group1",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
-        "created_at": "2025-02-02T14:54:06Z",
-        "updated_at": "2025-07-31T14:17:22Z",
-        "forks_count": 2,
-        "stars_count": 1,
-        "watchers_count": 1,
-        "language": "Verilog",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "This repository contains an implementation of a RISC-V RV32IM processor with a 5-stage pipeline architecture. The design includes instruction fetch, decode, execute, memory access, and write-back. It supports integer operations, multiplication, and memory access as defined in the RV32IM instruction set.",
-        "team": {
-            "E/19/129": {
-                "name": "Gunawardana K.H.",
-                "email": "e19129@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/KATTA-00",
-                "linkedin": "https://www.linkedin.com/in/kanishka-gunawardana-285aa4201",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/129",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19129.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/129/"
-            },
-            "E/19/275": {
-                "name": "Peeris M.S.",
-                "email": "e19275@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/sanka-p",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/275",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19275.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/275/"
-            },
-            "E/19/309": {
-                "name": "Rambukwella H.M.W.K.G.",
-                "email": "e19309@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/Kavishkagaya",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/309",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19309.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e19/309/"
-            }
-        },
-        "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-                "website": "https://docs.google.com/document/d/1pRfjzSI_ETSkAGm6bX7Qubv0Zkjz1YD8OJ8fvdqSsys/edit?usp=sharing",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            }
-        },
-        "tags": [
-            "RISC-V",
-            "RV32IM"
-        ],
-        "name": "e19-co502-RV32IM-Pipeline-Implementation-Group1"
     }
 }
