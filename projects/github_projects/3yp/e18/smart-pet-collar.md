@@ -11,9 +11,9 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-3yp-smart-pet-collar
 page_url: https://cepdnaclk.github.io/e18-3yp-smart-pet-collar
-forks: 5
-watchers: 6
-stars: 6
+forks: 6
+watchers: 7
+stars: 7
 started_on: '2022-10-29T17:43:00Z'
 ---
 
