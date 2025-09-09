@@ -2,7 +2,8 @@
 layout: project_page
 title: handwritten character recognition
 permalink: /co542/e20/handwritten-character-recognition/
-description: ''
+description: "Deep learning\u2013based system for handwritten character recognition\
+  \ using PyTorch & TensorFlow."
 has_children: false
 parent: E20 Neural Networks Projects (CO542)
 grand_parent: Neural Networks Projects (CO542)
@@ -16,3 +17,4 @@ stars: 0
 started_on: '2025-04-29T18:13:28Z'
 ---
 
+Deep learning–based system for handwritten character recognition using PyTorch & TensorFlow.
