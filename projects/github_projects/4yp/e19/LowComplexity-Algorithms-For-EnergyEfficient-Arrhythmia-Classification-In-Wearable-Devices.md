@@ -14,8 +14,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-4yp-LowComplexity-Algorithms-For-EnergyEfficient-Arrhythmia-Classification-In-Wearable-Devices
 page_url: https://cepdnaclk.github.io/e19-4yp-LowComplexity-Algorithms-For-EnergyEfficient-Arrhythmia-Classification-In-Wearable-Devices
 forks: 3
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2025-02-02T18:21:52Z'
 ---
 
