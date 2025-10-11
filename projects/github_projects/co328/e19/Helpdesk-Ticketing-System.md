@@ -12,8 +12,8 @@ thumbnail_url: /data/categories/co328/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co328-Helpdesk-Ticketing-System
 page_url: https://cepdnaclk.github.io/e19-co328-Helpdesk-Ticketing-System
 forks: 4
-watchers: 1
-stars: 1
+watchers: 0
+stars: 0
 started_on: '2024-05-21T19:31:26Z'
 ---
 
