@@ -11,8 +11,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-3yp-Cattle-Management-System
 page_url: https://cepdnaclk.github.io/e20-3yp-Cattle-Management-System
 forks: 5
-watchers: 3
-stars: 3
+watchers: 4
+stars: 4
 started_on: '2024-12-09T05:05:17Z'
 ---
 
