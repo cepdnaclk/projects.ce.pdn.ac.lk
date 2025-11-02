@@ -987,6 +987,19 @@
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/E20/MONA-Dashboard/"
         },
         {
+            "title": "Neuromorphic Web Site",
+            "category": {
+                "code": "co227",
+                "title": "Software Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/co227/e21/Neuromorphic-Web-Site/",
+            "repo_url": "https://github.com/cepdnaclk/e21-CO227-Neuromorphic-Web-Site",
+            "page_url": "https://cepdnaclk.github.io/e21-CO227-Neuromorphic-Web-Site",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/E21/Neuromorphic-Web-Site/"
+        },
+        {
             "title": "Banking Management System",
             "category": {
                 "code": "co328",
@@ -1285,19 +1298,6 @@
             "page_url": "https://cepdnaclk.github.io/e18-6sp-Stock-Mentor",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/6sp/thumbnail.jpg",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/6sp/E18/Stock-Mentor/"
-        },
-        {
-            "title": "Patient monitoring system",
-            "category": {
-                "code": "co326",
-                "title": "Industrial Automation Projects (CO326)",
-                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co326/"
-            },
-            "project_url": "https://projects.ce.pdn.ac.lk/co326/e18/Patient-monitoring-system/",
-            "repo_url": "https://github.com/cepdnaclk/e18-co326-Patient-monitoring-system",
-            "page_url": "https://cepdnaclk.github.io/e18-co326-Patient-monitoring-system",
-            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co326/E18/Patient-monitoring-system/"
         },
         {
             "title": "Smart Energy Meter",
@@ -3573,19 +3573,6 @@
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E16/smart-vending-machine/"
         },
         {
-            "title": "waiterbot system",
-            "category": {
-                "code": "3yp",
-                "title": "Cyber-Physical Systems Projects",
-                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
-            },
-            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e16/waiterbot-system/",
-            "repo_url": "https://github.com/cepdnaclk/e16-3yp-waiterbot-system",
-            "page_url": "https://cepdnaclk.github.io/e16-3yp-waiterbot-system",
-            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E16/waiterbot-system/"
-        },
-        {
             "title": "water quality monitoring and usage monitoring system",
             "category": {
                 "code": "3yp",
@@ -5608,6 +5595,21 @@
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/E19/TecHub-help-desk-ticketing-system/"
         }
     ],
+    "Html": [
+        {
+            "title": "Neuromorphic Web Site",
+            "category": {
+                "code": "co227",
+                "title": "Software Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/co227/e21/Neuromorphic-Web-Site/",
+            "repo_url": "https://github.com/cepdnaclk/e21-CO227-Neuromorphic-Web-Site",
+            "page_url": "https://cepdnaclk.github.io/e21-CO227-Neuromorphic-Web-Site",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/E21/Neuromorphic-Web-Site/"
+        }
+    ],
     "Human Action Recognition": [
         {
             "title": "sports action recognition",
@@ -5804,19 +5806,6 @@
             "page_url": "https://cepdnaclk.github.io/e18-6sp-Stock-Mentor",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/6sp/thumbnail.jpg",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/6sp/E18/Stock-Mentor/"
-        },
-        {
-            "title": "Patient monitoring system",
-            "category": {
-                "code": "co326",
-                "title": "Industrial Automation Projects (CO326)",
-                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co326/"
-            },
-            "project_url": "https://projects.ce.pdn.ac.lk/co326/e18/Patient-monitoring-system/",
-            "repo_url": "https://github.com/cepdnaclk/e18-co326-Patient-monitoring-system",
-            "page_url": "https://cepdnaclk.github.io/e18-co326-Patient-monitoring-system",
-            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co326/thumbnail.jpg",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co326/E18/Patient-monitoring-system/"
         },
         {
             "title": "Smart Energy Meter",
@@ -6147,6 +6136,21 @@
             "page_url": "https://cepdnaclk.github.io/e19-co225-School-Attendance-Management-System-Mobile-Application",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co225/thumbnail.jpg",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co225/E19/School-Attendance-Management-System-Mobile-Application/"
+        }
+    ],
+    "Java Script": [
+        {
+            "title": "Neuromorphic Web Site",
+            "category": {
+                "code": "co227",
+                "title": "Software Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/co227/e21/Neuromorphic-Web-Site/",
+            "repo_url": "https://github.com/cepdnaclk/e21-CO227-Neuromorphic-Web-Site",
+            "page_url": "https://cepdnaclk.github.io/e21-CO227-Neuromorphic-Web-Site",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/E21/Neuromorphic-Web-Site/"
         }
     ],
     "JavaFX": [
@@ -7823,6 +7827,19 @@
             "page_url": "https://cepdnaclk.github.io/e19-3yp-Smart-Waste-Management-System",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E19/Smart-Waste-Management-System/"
+        },
+        {
+            "title": "Neuromorphic Web Site",
+            "category": {
+                "code": "co227",
+                "title": "Software Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/co227/e21/Neuromorphic-Web-Site/",
+            "repo_url": "https://github.com/cepdnaclk/e21-CO227-Neuromorphic-Web-Site",
+            "page_url": "https://cepdnaclk.github.io/e21-CO227-Neuromorphic-Web-Site",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/E21/Neuromorphic-Web-Site/"
         }
     ],
     "NodeRED": [
@@ -11191,19 +11208,6 @@
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E16/smart-vending-machine/"
         },
         {
-            "title": "waiterbot system",
-            "category": {
-                "code": "3yp",
-                "title": "Cyber-Physical Systems Projects",
-                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
-            },
-            "project_url": "https://projects.ce.pdn.ac.lk/3yp/e16/waiterbot-system/",
-            "repo_url": "https://github.com/cepdnaclk/e16-3yp-waiterbot-system",
-            "page_url": "https://cepdnaclk.github.io/e16-3yp-waiterbot-system",
-            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/E16/waiterbot-system/"
-        },
-        {
             "title": "water quality monitoring and usage monitoring system",
             "category": {
                 "code": "3yp",
@@ -11514,6 +11518,19 @@
             "page_url": "https://cepdnaclk.github.io/e18-co227-SnaT-Meal-Tracking-App-Group-B",
             "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
             "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/E18/SnaT-Meal-Tracking-App-Group-B/"
+        },
+        {
+            "title": "Neuromorphic Web Site",
+            "category": {
+                "code": "co227",
+                "title": "Software Systems Projects",
+                "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/"
+            },
+            "project_url": "https://projects.ce.pdn.ac.lk/co227/e21/Neuromorphic-Web-Site/",
+            "repo_url": "https://github.com/cepdnaclk/e21-CO227-Neuromorphic-Web-Site",
+            "page_url": "https://cepdnaclk.github.io/e21-CO227-Neuromorphic-Web-Site",
+            "thumbnail_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
+            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co227/E21/Neuromorphic-Web-Site/"
         },
         {
             "title": "Pera Knowledge Portal",
