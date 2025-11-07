@@ -11,8 +11,8 @@ thumbnail_url: /data/categories/co227/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co227-voice-based-attendance-management-system
 page_url: https://cepdnaclk.github.io/e19-co227-voice-based-attendance-management-system
 forks: 6
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2023-08-31T11:22:50Z'
 ---
 
