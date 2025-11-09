@@ -172,9 +172,9 @@ for k in repo_dict:
             filename = "-".join(r_name[2:])
             count += 1
 
-            print(f">> {cat} > {batch} > {title} ")
+            print(f">> {cat} > {batch} > {title}")
 
-            # Check about whether the project belong to any allowed prohect category
+            # Check about whether the project belong to any allowed project category
             if cat in CATEGORIES:
                 cat_name = CATEGORIES[cat]["title"]
                 cat_cover = CATEGORIES[cat]["images"]["cover"]
@@ -230,7 +230,7 @@ for k in repo_dict:
                 print(f">> Error: Not belonged to a category | {r['name']}")
 
     except (KeyError, ValueError, OSError, requests.RequestException) as e:
-        errorMsg = f"Repository processing failed for {r.get('name', '<unknown>')}: {type(e).__name__}"
+        errorMsg = f"Repository processing failed for {r.get('name', '<unknown>')}: {type(e).__name__}: {e}"
         print(">> Error:", errorMsg, e)
         notify.warning(errorMsg, str(e))
 
