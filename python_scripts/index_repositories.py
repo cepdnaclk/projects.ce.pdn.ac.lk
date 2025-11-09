@@ -33,25 +33,46 @@ print("START")
 
 
 def get_custom_media(default_cover, default_thumb, gh_page):
+    """
+    Fast existence check for custom cover and thumbnail using HEAD (falls back to GET if needed).
+    """
     cover_url = default_cover
     thumbnail_url = default_thumb
 
-    if gh_page != "blank":
-        # Cover
-        try_cover_url = f"{gh_page}/data/cover_page.jpg"
-        print("Trying cover URL:", try_cover_url)
+    if gh_page == "blank":
+        return cover_url, thumbnail_url
 
-        response_cover = requests.get(try_cover_url)
-        if response_cover.status_code == 200:
-            cover_url = try_cover_url
+    session = requests.Session()
+    session.headers.update({"User-Agent": "RepoIndexer/MediaCheck"})
 
-        # Thumbnail
-        try_thumbnail_url = f"{gh_page}/data/thumbnail.jpg"
-        print("Trying thumbnail URL:", try_thumbnail_url)
+    # Quick reachability test for the GH Pages site
+    try:
+        root_resp = session.head(gh_page, timeout=3, allow_redirects=True)
+        if root_resp.status_code >= 400:
+            return cover_url, thumbnail_url
+    except requests.RequestException:
+        return cover_url, thumbnail_url
 
-        response_thumbnail = requests.get(try_thumbnail_url)
-        if response_thumbnail.status_code == 200:
-            thumbnail_url = try_thumbnail_url
+    def exists(url):
+        try:
+            resp = session.head(url, timeout=3, allow_redirects=True)
+            if resp.status_code == 200:
+                return True
+            if resp.status_code in (403, 405):  # HEAD not allowed; try lightweight GET
+                get_resp = session.get(url, timeout=5, stream=True)
+                get_resp.close()
+                return get_resp.status_code == 200
+        except requests.RequestException:
+            return False
+        return False
+
+    cover_candidate = f"{gh_page}/data/cover_page.jpg"
+    if exists(cover_candidate):
+        cover_url = cover_candidate
+
+    thumb_candidate = f"{gh_page}/data/thumbnail.jpg"
+    if exists(thumb_candidate):
+        thumbnail_url = thumb_candidate
 
     return cover_url, thumbnail_url
 
