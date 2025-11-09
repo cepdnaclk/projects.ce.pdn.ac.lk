@@ -63,7 +63,7 @@ with open(url, "r") as f:
     category_data = json.load(f)
 
 for i in category_data:
-    with open("../data/categories/{}/index.json".format(i), "r") as f:
+    with open(f"../data/categories/{i}/index.json", "r") as f:
         CATEGORIES[i] = json.load(f)
 
     BATCHES[category_data[i]["link"]] = set()
@@ -88,8 +88,9 @@ except OSError as e:
 # Download the repository data
 repo_dict = {}
 for p in range(1, 1000):
-    url = "https://api.github.com/orgs/{}/repos?per_page={}&page={}".format(
-        ORGANIZATION, RESULTS_PER_PAGE, p
+    url = (
+        f"https://api.github.com/orgs/{ORGANIZATION}/repos?"
+        f"per_page={RESULTS_PER_PAGE}&page={p}"
     )
     response = requests.get(url)
 
@@ -103,9 +104,7 @@ for p in range(1, 1000):
 
     else:
         # TODO: Test
-        errorMsg = "An exception occurred while getting data from GitHub: {}".format(
-            response.status_code
-        )
+        errorMsg = f"An exception occurred while getting data from GitHub: {response.status_code}"
         print(">> Error:", errorMsg)
         notify.warning(errorMsg)
 
@@ -136,7 +135,7 @@ for k in repo_dict:
 
         # Exclude duplicated / self-forked repositories
         if str(r_name[-1]).isdigit() and "-".join(r_name[:-1]) in repo_dict:
-            print(">> Error: Duplicate repository | {}".format(r["name"]))
+            print(f">> Error: Duplicate repository | {r['name']}")
             isExcludedRepo = True
 
         # General eligibility check to be a Student Project
@@ -146,11 +145,13 @@ for k in repo_dict:
             and len(r_name) > 2
             and not isExcludedRepo
         ):
-            batch = "e{:02}".format(int(r_name[0][1:]))
+            batch = f"e{int(r_name[0][1:]):02d}"
             cat = r_name[1].lower()
             title = " ".join(r_name[2:])
             filename = "-".join(r_name[2:])
             count += 1
+
+            print(f">> {cat} > {batch} > {title} ")
 
             # Check about whether the project belong to any allowed prohect category
             if cat in CATEGORIES:
@@ -159,7 +160,7 @@ for k in repo_dict:
                 cat_thumb = CATEGORIES[cat]["images"]["thumbnail"]
 
                 gh_page = (
-                    "https://cepdnaclk.github.io/{}".format(r["name"])
+                    f"https://cepdnaclk.github.io/{r['name']}"
                     if r["has_pages"]
                     else "blank"
                 )
@@ -177,10 +178,10 @@ for k in repo_dict:
                 data = {
                     "layout": "project_page",
                     "title": title,
-                    "permalink": "/{}/{}/{}/".format(cat, batch, filename),
+                    "permalink": f"/{cat}/{batch}/{filename}/",
                     "description": str(desc),
                     "has_children": False,
-                    "parent": "{} {}".format(batch.upper(), cat_name),
+                    "parent": f"{batch.upper()} {cat_name}",
                     "grand_parent": cat_name,
                     "cover_url": cover_url,
                     "thumbnail_url": thumbnail_url,
@@ -194,9 +195,7 @@ for k in repo_dict:
                 description = desc.replace('"', "'")
 
                 # Write the project file
-                path = "../projects/github_projects/{}/{}/{}.md".format(
-                    cat, batch, filename
-                )
+                path = f"../projects/github_projects/{cat}/{batch}/{filename}.md"
                 os.makedirs(os.path.dirname(path), exist_ok=True)
                 with open(path, "w+", encoding="utf-8") as f:
                     f.write("---\n")
@@ -207,15 +206,14 @@ for k in repo_dict:
                 BATCHES[cat].add(batch)
 
             else:
-                print(">> Error: Not belonged to a category | {}".format(r["name"]))
+                print(f">> Error: Not belonged to a category | {r['name']}")
 
-    except Exception as e:
-        # TODO: Test
-        errorMsg = "An exception occurred with {} :".format(r["name"])
+    except (KeyError, ValueError, OSError, requests.RequestException) as e:
+        errorMsg = f"Repository processing failed for {r.get('name', '<unknown>')}: {type(e).__name__}"
         print(">> Error:", errorMsg, e)
         notify.warning(errorMsg, str(e))
 
-print(">> Created {} repositories".format(count))
+print(f">> Created {count} repositories")
 
 # -----------------------------------------------------------------------------------
 # Generate the index files
@@ -229,7 +227,7 @@ for cat in sorted(BATCHES):
         "layout": "project_cat",
         "title": cat_data["title"],
         "nav_order": str(id),
-        "permalink": "/{}/".format(cat),
+        "permalink": f"/{cat}/",
         "has_children": True,
         "code": cat,
         "type": cat_data["type"],
@@ -237,9 +235,7 @@ for cat in sorted(BATCHES):
         "has_toc": True,
         "search_exclude": True,
         "readmore": readmore_link,
-        "default_thumb_image": "/data/categories/{}/{}".format(
-            cat, cat_data["images"]["thumbnail"]
-        ),
+        "default_thumb_image": f"/data/categories/{cat}/{cat_data['images']['thumbnail']}",
         "description": cat_data["description"],
     }
     id += 1
@@ -255,7 +251,7 @@ for cat in sorted(BATCHES):
             f.write("---\n")
 
     except Exception as e:
-        errorMsg = "An exception occurred while writing index file for {}".format(cat)
+        errorMsg = f"An exception occurred while writing index file for {cat}"
         print(">> Error:", errorMsg, str(e))
         notify.warning(errorMsg, str(e))
 
@@ -263,22 +259,20 @@ for cat in sorted(BATCHES):
     for batch in BATCHES[cat]:
         batch_file = {
             "layout": "project_batch",
-            "title": "E{} {}".format(batch[1:], cat_data["title"]),
-            "permalink": "/{}/{}/".format(cat, batch),
+            "title": f"E{batch[1:]} {cat_data['title']}",
+            "permalink": f"/{cat}/{batch}/",
             "has_children": True,
             "parent": cat_data["title"],
             "batch": batch,
             "code": str(cat),
             "readmore": readmore_link,
             "search_exclude": True,
-            "default_thumb_image": "/data/categories/{}/{}".format(
-                cat, cat_data["images"]["thumbnail"]
-            ),
+            "default_thumb_image": f"/data/categories/{cat}/{cat_data['images']['thumbnail']}",
             "description": cat_data["description"],
         }
 
         try:
-            path = "../categories/{}/{}.md".format(cat_data["code"], batch)
+            path = f"../categories/{cat_data['code']}/{batch}.md"
             os.makedirs(os.path.dirname(path), exist_ok=True)
             with open(path, "w") as f2:
                 f2.write("---\n")
@@ -287,13 +281,11 @@ for cat in sorted(BATCHES):
 
         except Exception as e:
             errorMsg = (
-                "An exception occurred while writing index file for {}/{}".format(
-                    cat, batch
-                )
+                f"An exception occurred while writing index file for {cat}/{batch}"
             )
             print(">> Error:", errorMsg, str(e))
             notify.warning(errorMsg, str(e))
 
-print(">> Created {} categories".format(id))
+print(f">> Created {id} categories")
 
 print("END")
