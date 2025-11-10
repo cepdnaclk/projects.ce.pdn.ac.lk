@@ -10,9 +10,9 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-3yp-Cattle-Management-System
 page_url: https://cepdnaclk.github.io/e20-3yp-Cattle-Management-System
-forks: 5
-watchers: 4
-stars: 4
+forks: 6
+watchers: 5
+stars: 5
 started_on: '2024-12-09T05:05:17Z'
 ---
 
