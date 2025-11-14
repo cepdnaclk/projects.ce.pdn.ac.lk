@@ -1,0 +1,49 @@
+---
+layout: project_page
+title: RFID Event Tracking System
+permalink: /co227/e21/RFID Event Tracking System/
+description: A complete RFID-based visitor tracking and engagement system for EngEx 2025. Powered by LF RFID + ESP-01 hardware, MQTT messaging, a Node.js backend, PostgreSQL database, and React dashboards, it delivers live analytics, scoring, and robust multi-booth tracking under heavy event traffic.
+has_children: false
+parent: E21 Software Systems Projects
+grand_parent: Software Systems Projects
+cover_url: /data/categories/co227/cover_page.jpg
+thumbnail_url: /data/categories/co227/thumbnail.jpg
+repo_url: https://github.com/cepdnaclk/e21-co227-RFID-Hardware-and-Tag-Lifecycle
+page_url: https://cepdnaclk.github.io/e21-co227-RFID-Hardware-and-Tag-Lifecycle
+forks: 0
+watchers: 1
+stars: 1
+started_on: '2025-10-30T13:18:07Z'
+---
+
+A complete RFID-based visitor tracking and engagement system for **EngEx 2025**. Powered by RDM6300 + ESP-01 hardware, MQTT messaging, Node.js backend, PostgreSQL database, and React dashboards, delivering live analytics, scoring, and robust multi-booth tracking under heavy event traffic.
+
+## Key Features
+
+- **Real-time Visitor Tracking**: FIFO queue management for fair card processing and live status monitoring
+- **Interactive Gaming**: Team scoring system with live leaderboards and achievement tracking
+- **Live Analytics Dashboard**: Real-time crowd metrics, venue occupancy, and visitor flow analysis
+- **Multi-Zone Support**: Scalable deployment across multiple exhibition areas and booths
+- **Admin Control Panel**: Complete system configuration, monitoring, and management tools
+- **IoT Integration**: Production-ready ESP8266 firmware with automatic WiFi reconnection
+- **Mobile Responsive**: Cross-platform web interface optimized for tablets and smartphones
+
+## Technology Stack
+
+**Hardware:** ESP8266 (ESP-01), RDM6300 125kHz RFID Reader
+**Backend:** Node.js, Express.js, PostgreSQL, MQTT (Mosquitto)
+**Frontend:** React.js, Vite, TailwindCSS, Responsive Design
+**Testing:** Jest, Vitest (99.9% backend, 100% frontend coverage)
+
+## Team
+
+- **E/21/148** - S. Ganathipan - [e21148@eng.pdn.ac.lk](mailto:e21148@eng.pdn.ac.lk)
+- **E/21/152** - V.G. Amirsha - [e21152@eng.pdn.ac.lk](mailto:e21152@eng.pdn.ac.lk)
+- **E/21/214** - K. Kartheepan - [e21214@eng.pdn.ac.lk](mailto:e21214@eng.pdn.ac.lk)
+- **E/21/220** - S. Kavishanthan - [e21220@eng.pdn.ac.lk](mailto:e21220@eng.pdn.ac.lk)
+
+**Supervisor:** Ms. Yasodha Vimukthi - [yasodhav@eng.pdn.ac.lk](mailto:yasodhav@eng.pdn.ac.lk)
+
+---
+
+*Developed for CO227 Computer Engineering Project, University of Peradeniya*
