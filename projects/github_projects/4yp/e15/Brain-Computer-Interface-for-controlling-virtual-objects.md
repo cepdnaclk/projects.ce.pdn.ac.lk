@@ -14,8 +14,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e15-4yp-Brain-Computer-Interface-for-controlling-virtual-objects
 page_url: https://cepdnaclk.github.io/e15-4yp-Brain-Computer-Interface-for-controlling-virtual-objects
 forks: 1
-watchers: 2
-stars: 2
+watchers: 3
+stars: 3
 started_on: '2021-03-04T21:20:49Z'
 ---
 
