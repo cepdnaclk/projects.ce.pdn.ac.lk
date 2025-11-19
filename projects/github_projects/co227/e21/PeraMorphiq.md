@@ -2,8 +2,8 @@
 layout: project_page
 title: PeraMorphiq
 permalink: /co227/e21/PeraMorphiq/
-description: Full-stack web platform for neuromorphic research management with Node.js,
-  MongoDB, JWT auth, and admin dashboard at University of Peradeniya.
+description: Group 17 - Full-stack web platform for neuromorphic research management
+  with Node.js, MongoDB, JWT auth, and admin dashboard at University of Peradeniya.
 has_children: false
 parent: E21 Software Systems Projects
 grand_parent: Software Systems Projects
@@ -17,4 +17,4 @@ stars: 1
 started_on: '2025-10-30T13:18:07Z'
 ---
 
-Full-stack web platform for neuromorphic research management with Node.js, MongoDB, JWT auth, and admin dashboard at University of Peradeniya.
+Group 17 - Full-stack web platform for neuromorphic research management with Node.js, MongoDB, JWT auth, and admin dashboard at University of Peradeniya.
