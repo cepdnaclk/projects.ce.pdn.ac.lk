@@ -11,10 +11,10 @@ grand_parent: Software Systems Projects
 cover_url: /data/categories/co227/cover_page.jpg
 thumbnail_url: /data/categories/co227/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e21-co227-Smart-Crowd-Monitoring-System-Using-Yolo-And-Deepsort
-page_url: blank
+page_url: https://cepdnaclk.github.io/e21-co227-Smart-Crowd-Monitoring-System-Using-Yolo-And-Deepsort
 forks: 0
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2025-11-18T16:56:15Z'
 ---
 
