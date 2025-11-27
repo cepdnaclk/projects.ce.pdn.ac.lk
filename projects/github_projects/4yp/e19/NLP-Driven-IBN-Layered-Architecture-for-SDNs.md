@@ -14,8 +14,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-4yp-NLP-Driven-IBN-Layered-Architecture-for-SDNs
 page_url: https://cepdnaclk.github.io/e19-4yp-NLP-Driven-IBN-Layered-Architecture-for-SDNs
 forks: 0
-watchers: 4
-stars: 4
+watchers: 5
+stars: 5
 started_on: '2025-02-02T13:17:32Z'
 ---
 

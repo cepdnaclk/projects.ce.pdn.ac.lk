@@ -15,8 +15,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-4yp-Classification-of-Motor-Imagery-EEG-based-Tasks-for-Brain-Computer-Interfacing-Applications
 page_url: https://cepdnaclk.github.io/e19-4yp-Classification-of-Motor-Imagery-EEG-based-Tasks-for-Brain-Computer-Interfacing-Applications
 forks: 0
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: '2025-01-31T12:59:19Z'
 ---
 

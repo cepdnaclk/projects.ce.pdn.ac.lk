@@ -7,8 +7,8 @@ description: An intelligent aquarium system that automates water quality monitor
 has_children: false
 parent: E20 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
-cover_url: /data/categories/3yp/cover_page.jpg
-thumbnail_url: /data/categories/3yp/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/e20-3yp-Smart-Aquarium/data/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/e20-3yp-Smart-Aquarium/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-3yp-Smart-Aquarium
 page_url: https://cepdnaclk.github.io/e20-3yp-Smart-Aquarium
 forks: 4
