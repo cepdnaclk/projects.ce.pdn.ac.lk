@@ -13,7 +13,7 @@ cover_url: /data/categories/co226/cover_page.jpg
 thumbnail_url: /data/categories/co226/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co226-Online-Shopping-System
 page_url: https://cepdnaclk.github.io/e19-co226-Online-Shopping-System
-forks: 2
+forks: 3
 watchers: 2
 stars: 2
 started_on: '2023-08-03T11:56:54Z'
