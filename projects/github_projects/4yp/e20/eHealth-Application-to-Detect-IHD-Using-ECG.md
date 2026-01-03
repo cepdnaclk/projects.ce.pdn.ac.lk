@@ -10,9 +10,9 @@ cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-4yp-eHealth-Application-to-Detect-IHD-Using-ECG
 page_url: blank
-forks: 0
-watchers: 0
-stars: 0
+forks: 1
+watchers: 1
+stars: 1
 started_on: '2025-12-29T10:15:45Z'
 ---
 
