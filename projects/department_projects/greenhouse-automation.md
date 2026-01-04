@@ -8,28 +8,29 @@ gh_page: "projects/department_projects/greenhouse-automation.md"
 thumb_image: "https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/assets/11540782/7f6f4fec-2f9b-43d7-8140-642d9917e5bc"
 
 repositories:
-   -  https://github.com/cepdnaclk/Smart-Agriculture-a-low-cost-IoT-system-for-polytunnels
+  - https://github.com/cepdnaclk/Smart-Agriculture-a-low-cost-IoT-system-for-polytunnels
 
 publications:
-    - https://doi.org/10.1371/journal.pone.0278440
+  - https://doi.org/10.1371/journal.pone.0278440
 
 projects:
-    - https://projects.ce.pdn.ac.lk/6sp/e17/Greenhouse-Monitoring-System/
-    - https://projects.ce.pdn.ac.lk/6sp/e17/Greenhouse-monitoring-and-controlling-based-on-IOT-sensor-data/
-    - https://projects.ce.pdn.ac.lk/co227/e18/Logging-Microservice-for-IoT-based-Smart-Agriculture-Project/
-    - https://nuwanjaliyagoda.com/projects/greenhouse-automation/
+  - https://projects.ce.pdn.ac.lk/6sp/e17/Greenhouse-Monitoring-System/
+  - https://projects.ce.pdn.ac.lk/6sp/e17/Greenhouse-monitoring-and-controlling-based-on-IOT-sensor-data/
+  - https://projects.ce.pdn.ac.lk/co227/e18/Logging-Microservice-for-IoT-based-Smart-Agriculture-Project/
+  - https://nuwanjaliyagoda.com/projects/greenhouse-automation/
 
 links:
-    - { title: 'Agricultural Biotechnology Center, University of Peradeniya', url: 'http://agri.pdn.ac.lk/agbc'}
+  - {
+      title: "Agricultural Biotechnology Center, University of Peradeniya",
+      url: "http://agri.pdn.ac.lk/agbc",
+    }
 ---
 
 The main objective of this project is to collect environmental data from plant houses while controlling the environmental conditions and improving the quality and quantity of the plants with the use of IoT, Machine Learning, and other Computer Engineering technologies.
 
 This is a multi-disciplinary project by the Department of Computer Engineering in collaboration with the [Agricultural Biotechnology Center](http://agri.pdn.ac.lk/agbc/), University of Peradeniya.
 
-For the details, feel free to contact [Dr. Asitha Bandaranayaka](https://people.ce.pdn.ac.lk/staff/academic/asitha-bandaranayake/){:target="_blank"}.
-
-
+For the details, feel free to contact [Dr. Asitha Bandaranayaka](https://people.ce.pdn.ac.lk/staff/academic/asitha-bandaranayake/){:target="\_blank"}.
 
 <!-- TODO: Replace with the publications widget -->
 <div class="container pt-4">

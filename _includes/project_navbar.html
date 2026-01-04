@@ -1,33 +1,42 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-    <div class="container px-3 d-flex">
-        {% if page.title != "Home" %}
-        <a class="navbar-brand d-sm-block d-md-none" href="{{ '/' | relative_url }}">
-            Student Projects
-        </a>
-        <a class="navbar-brand d-none d-sm-none d-md-block" href="{{ '/' | relative_url }}">
-            Student Projects - <span class="small">Department of Computer Engineering, UoP</span>
-        </a>
-        {%- endif -%}
+  <div class="container px-3 d-flex">
+    {% if page.title != "Home" %}
+    <a class="navbar-brand d-sm-block d-md-none" href="{{ '/' | relative_url }}">
+      Student Projects
+    </a>
+    <a class="navbar-brand d-none d-sm-none d-md-block" href="{{ '/' | relative_url }}">
+      Student Projects -
+      <span class="small">Department of Computer Engineering, UoP</span>
+    </a>
+    {%- endif -%}
 
-        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <button
+      class="navbar-toggler ms-auto"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#main_nav"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="main_nav">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end w-100">
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ '/search' | relative_url }}">Search</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ '/about' | relative_url }}">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ '/docs' | relative_url }}">Documentation</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ '/contact' | relative_url }}">Contact</a>
-                </li>
-            </ul>
-        </div>
+    <div class="collapse navbar-collapse" id="main_nav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end w-100">
+        <li class="nav-item">
+          <a class="nav-link" href="{{ '/search' | relative_url }}">Search</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ '/about' | relative_url }}">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ '/docs' | relative_url }}">Documentation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ '/contact' | relative_url }}">Contact</a>
+        </li>
+      </ul>
     </div>
+  </div>
 </nav>

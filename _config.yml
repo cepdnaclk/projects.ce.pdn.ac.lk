@@ -8,7 +8,6 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-
 title: CE Projects - UoP
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -33,7 +32,7 @@ exclude:
     "graphic_templates",
     "*.py",
     "*.sh",
-    "*.yml"
+    "*.yml",
   ]
 
 # Set a path/url to a logo that will be displayed instead of the title

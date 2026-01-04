@@ -1,16 +1,7 @@
-{% if site.just_the_docs.collections %}
-{% assign collections_size = site.just_the_docs.collections | size %}
-{% for collection_entry in site.just_the_docs.collections %}
-{% assign collection_key = collection_entry[0] %}
-{% assign collection_value = collection_entry[1] %}
-{% assign collection = site[collection_key] %}
-{% if collection_value.nav_exclude != true %}
-{% if collections_size > 1 %}
+{% if site.just_the_docs.collections %} {% assign collections_size = site.just_the_docs.collections
+| size %} {% for collection_entry in site.just_the_docs.collections %} {% assign collection_key =
+collection_entry[0] %} {% assign collection_value = collection_entry[1] %} {% assign collection =
+site[collection_key] %} {% if collection_value.nav_exclude != true %} {% if collections_size > 1 %}
 <div class="nav-category">{{ collection_value.name }}</div>
-{% endif %}
-{% include nav.html pages=collection %}
-{% endif %}
-{% endfor %}
-{% else %}
-{% include nav.html pages=site.html_pages %}
-{% endif %}
+{% endif %} {% include nav.html pages=collection %} {% endif %} {% endfor %} {% else %} {% include
+nav.html pages=site.html_pages %} {% endif %}

@@ -2,27 +2,26 @@
 layout: table_wrappers
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 
 <html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    {% include meta.html %} {% include head.html %} {% if site.ga_tracking != nil -%} {%- include
+    analytics.html -%} {% endif -%}
+  </head>
 
-<head>
-    {% include meta.html %}
-
-    {% include head.html %}
-
-    {% if site.ga_tracking != nil -%}
-    {%- include analytics.html -%}
-    {% endif -%}
-</head>
-
-<body>
+  <body>
     <div id="app">
-        <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top cd-top--fade-out bottomButtons" data-abc="true" style="display: none;"></a>
+      <a
+        href="#"
+        id="toTopBtn"
+        class="cd-top text-replace js-cd-top cd-top cd-top--fade-out bottomButtons"
+        data-abc="true"
+        style="display: none"
+      ></a>
 
-        <!-- <a href="#" id="toTopBtn" style="display: none;"></a> -->
-        {{ content }}
-        {% include footer.html %}
+      <!-- <a href="#" id="toTopBtn" style="display: none;"></a> -->
+      {{ content }} {% include footer.html %}
     </div>
-</body>
+  </body>
 </html>

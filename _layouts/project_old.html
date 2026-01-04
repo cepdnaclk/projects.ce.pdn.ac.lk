@@ -2,93 +2,85 @@
 layout: default
 ---
 
-{% include project_navbar.html %}
-{% include page_tree_builder.html pages=site.html_pages %}
+{% include project_navbar.html %} {% include page_tree_builder.html pages=site.html_pages %}
 
 <main class="py-1 p-1">
-    <div class="container-fluid py-2 px-2">
-        <div class="row">
-            <div class="container px-3 pb-3">
-                <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav" >
-                    <ol class="breadcrumb p-0 m-0">
-                        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
-                        <li class="breadcrumb-item"><a href="../">{{ page.grand_parent }}</a></li>
-                        <li class="breadcrumb-item"><a href="./">{{ page.parent | slice:0,3 }}</a></li>
-                        <li class="breadcrumb-item"><span>{{ page.title }}</span></li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
+  <div class="container-fluid py-2 px-2">
+    <div class="row">
+      <div class="container px-3 pb-3">
+        <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav">
+          <ol class="breadcrumb p-0 m-0">
+            <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li class="breadcrumb-item"><a href="../">{{ page.grand_parent }}</a></li>
+            <li class="breadcrumb-item"><a href="./">{{ page.parent | slice:0,3 }}</a></li>
+            <li class="breadcrumb-item"><span>{{ page.title }}</span></li>
+          </ol>
+        </nav>
+      </div>
     </div>
-    <div class="container-fluid py-2 px-5">
-        <div class="row">
-            <div class="col-md-1 col-lg-1">&nbsp;</div>
+  </div>
+  <div class="container-fluid py-2 px-5">
+    <div class="row">
+      <div class="col-md-1 col-lg-1">&nbsp;</div>
 
-            <div class="col-md-10 col-lg-10">
-                <div class="container px-3">
-                    {% if page.title %}
-                    <h1 class="mt-2">{{ page.title }}</h1>
-                    {% endif %}
-                </div>
-
-                <!-- Cover Image -->
-                <div class="pb-2">
-                    <img style="padding: 10px 50px;" class="img-fluid w-100" src="{{ page.cover_url }}" alt="">
-                </div>
-            </div>
-
-            <div class="col-md-1 col-lg-1">&nbsp;</div>
+      <div class="col-md-10 col-lg-10">
+        <div class="container px-3">
+          {% if page.title %}
+          <h1 class="mt-2">{{ page.title }}</h1>
+          {% endif %}
         </div>
 
-        <div class="row">
-            <div class="col-md-2 col-lg-2">&nbsp;</div>
-            <div class="col-md-8 col-lg-8">
-                <!-- Post Content Column -->
-                <!-- Post Content -->
-                <p class="lead">{{ page.description }}</p>
-
-                {% if page.team.size > 0 %}
-                <h3 class="pt-3">Team</h3>
-                <ul>
-                    {% for member in page.team %}
-                    <li>{{ member }}</li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
-
-                {% if page.supervisors.size > 0 %}
-                <h3 class="pt-3">Supervisors</h3>
-                <ul>
-                    {% for member in page.supervisors %}
-                    <li>{{ member }}</li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
-
-                {% if content.size > 10 %}
-                <h3 class="pt-3">Description</h3>
-                <div class="px-3">
-                    {{ content }}
-                </div>
-                {% endif %}
-
-                {% if page.has_publication %}
-                <h3 class="pt-3">Publications:</h3>
-                <div class="px-3">
-                    {{ page.publication}}
-                </div>
-                {% endif %}
-
-                {% if page.tags.size > 0 %}
-                <div class="container remoteData pt-5">
-                    <span class="font-weight-bold">Tags:</span>
-                    {% for tag in page.tags %}
-                    <span class='tag'>{{ tag }}</span>
-                    {% endfor %}
-                </div>
-                {% endif %}
-            </div>
-            <div class="col-md-2 col-lg-2">&nbsp;</div>
+        <!-- Cover Image -->
+        <div class="pb-2">
+          <img
+            style="padding: 10px 50px"
+            class="img-fluid w-100"
+            src="{{ page.cover_url }}"
+            alt=""
+          />
         </div>
+      </div>
+
+      <div class="col-md-1 col-lg-1">&nbsp;</div>
     </div>
+
+    <div class="row">
+      <div class="col-md-2 col-lg-2">&nbsp;</div>
+      <div class="col-md-8 col-lg-8">
+        <!-- Post Content Column -->
+        <!-- Post Content -->
+        <p class="lead">{{ page.description }}</p>
+
+        {% if page.team.size > 0 %}
+        <h3 class="pt-3">Team</h3>
+        <ul>
+          {% for member in page.team %}
+          <li>{{ member }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %} {% if page.supervisors.size > 0 %}
+        <h3 class="pt-3">Supervisors</h3>
+        <ul>
+          {% for member in page.supervisors %}
+          <li>{{ member }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %} {% if content.size > 10 %}
+        <h3 class="pt-3">Description</h3>
+        <div class="px-3">{{ content }}</div>
+        {% endif %} {% if page.has_publication %}
+        <h3 class="pt-3">Publications:</h3>
+        <div class="px-3">{{ page.publication}}</div>
+        {% endif %} {% if page.tags.size > 0 %}
+        <div class="container remoteData pt-5">
+          <span class="font-weight-bold">Tags:</span>
+          {% for tag in page.tags %}
+          <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      <div class="col-md-2 col-lg-2">&nbsp;</div>
+    </div>
+  </div>
 </main>
