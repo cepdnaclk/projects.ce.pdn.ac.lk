@@ -16,7 +16,7 @@ page_url: blank
 forks: 4
 watchers: 2
 stars: 2
-started_on: '2023-05-27T18:33:42Z'
+started_on: "2023-05-27T18:33:42Z"
 ---
 
 This is an IoT-based Irrigation System using ESP8266 NodeMCU Module, Soil moisture sensor, and DHT11 Sensor. The System will consist of a water pump which will be used to sprinkle water on the land depending upon the land's environmental conditions such as Moisture, Temperature, and Humidity.

@@ -4,67 +4,70 @@ layout: default
 
 {% include project_navbar.html %} {% include page_tree_builder.html pages=site.html_pages %}
 
-<main class="py-1 p-1" style="min-height: 80vh;">
-    <div class="container-fluid py-2 px-2">
-        <div class="row">
-            <div class="container px-3 pb-3">
-                <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav">
-                    <ol class="breadcrumb p-0 m-0">
-                        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
-                        <li class="breadcrumb-item">
-                            <a href="../">{{ page.parent }}</a>
-                        </li>
-                        <li class="breadcrumb-item">
-                            <span>{{ page.title | slice:0,3 }}</span>
-                        </li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
+<main class="py-1 p-1" style="min-height: 80vh">
+  <div class="container-fluid py-2 px-2">
+    <div class="row">
+      <div class="container px-3 pb-3">
+        <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav">
+          <ol class="breadcrumb p-0 m-0">
+            <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li class="breadcrumb-item">
+              <a href="../">{{ page.parent }}</a>
+            </li>
+            <li class="breadcrumb-item">
+              <span>{{ page.title | slice:0,3 }}</span>
+            </li>
+          </ol>
+        </nav>
+      </div>
     </div>
-    <div class="container-fluid py-2 px-5">
-        <div class="row">
-            <div class="col-md-3">
-                <h3>{{ page.title }}</h3>
-                <p>{{ page.description }}</p>
+  </div>
+  <div class="container-fluid py-2 px-5">
+    <div class="row">
+      <div class="col-md-3">
+        <h3>{{ page.title }}</h3>
+        <p>{{ page.description }}</p>
 
-                {%- if page.readmore != "#" -%}
-                <p class="text-start"><a target="_blank" href="{{ page.readmore }}">Read more</a></p>
-                {%- endif -%}
+        {%- if page.readmore != "#" -%}
+        <p class="text-start"><a target="_blank" href="{{ page.readmore }}">Read more</a></p>
+        {%- endif -%}
 
-                <br /><br />
-            </div>
+        <br />
+        <br />
+      </div>
 
-            <div class="col-md-9" style="min-height: 60vh;">
-                {% if page.has_children == true and page.has_toc != false %}
-                {%- assign children_list = pages_list | where: "parent", page.title | where: "grand_parent", page.parent
-                -%} {%- assign proj_list = children_list | sort: "title" -%}
+      <div class="col-md-9" style="min-height: 60vh">
+        {% if page.has_children == true and page.has_toc != false %} {%- assign children_list =
+        pages_list | where: "parent", page.title | where: "grand_parent", page.parent -%} {%- assign
+        proj_list = children_list | sort: "title" -%}
 
-                <div class="container p-0 mw-100">
-                    <div class="row">
-                        {% for child in proj_list %}
-                        <div class="col-lg-3 col-md-6 col-sm-6 d-flex m-0 img-hover-zoom-card" style="padding: 10px 0;">
-                            <a class="btn m-0" href="{{ child.url | realtive_url | prepend: site.baseurl }}">
-                                <div class="card h-100 m-0">
-                                    <div class="img-hover-zoom">
-                                        <img class="card-img-top"
-                                            src="{{ child.thumbnail_url | realtive_url | prepend: site.baseurl }}"
-                                            alt="" />
-                                    </div>
-                                    <div class="card-body p-1 m-0">
-                                        <p class="card-title project-card-title">
-                                            {{ child.title }}
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        {% endfor %}
-                    </div>
+        <div class="container p-0 mw-100">
+          <div class="row">
+            {% for child in proj_list %}
+            <div
+              class="col-lg-3 col-md-6 col-sm-6 d-flex m-0 img-hover-zoom-card"
+              style="padding: 10px 0"
+            >
+              <a class="btn m-0" href="{{ child.url | realtive_url | prepend: site.baseurl }}">
+                <div class="card h-100 m-0">
+                  <div class="img-hover-zoom">
+                    <img
+                      class="card-img-top"
+                      src="{{ child.thumbnail_url | realtive_url | prepend: site.baseurl }}"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card-body p-1 m-0">
+                    <p class="card-title project-card-title">{{ child.title }}</p>
+                  </div>
                 </div>
-                {% endif %}
-                {{ content }}
+              </a>
             </div>
+            {% endfor %}
+          </div>
         </div>
+        {% endif %} {{ content }}
+      </div>
     </div>
+  </div>
 </main>

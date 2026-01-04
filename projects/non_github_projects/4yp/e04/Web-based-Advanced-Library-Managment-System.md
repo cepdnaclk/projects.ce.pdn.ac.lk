@@ -11,7 +11,7 @@ cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
 team: [A.P.D.Krishnajith (E/04/153), K.A.R.S.Wimalarathne (E/04/339)]
-supervisors: [ Dr. Dr Manjula Sandirigama ]
+supervisors: [Dr. Dr Manjula Sandirigama]
 
 has_publication: false
 publication: ""

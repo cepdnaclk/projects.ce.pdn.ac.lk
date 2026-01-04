@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e20-4yp-Federated-Agentic-Defense-For-Zero
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2025-12-30T14:50:38Z'
+started_on: "2025-12-30T14:50:38Z"
 ---
 
 Implementation of a Federated Agentic Framework for real-time, privacy-preserving mitigation of zero-day cyberattacks using distributed intelligence

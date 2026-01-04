@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e19-co227-Online-Retail-System
 forks: 2
 watchers: 2
 stars: 2
-started_on: '2023-08-22T07:04:51Z'
+started_on: "2023-08-22T07:04:51Z"
 ---
 
 This is a Online retail system . Users can act as Customers or Store Owners. Customers can add and remove items from their cart and simulate payment. Store Owners can add and remove items.

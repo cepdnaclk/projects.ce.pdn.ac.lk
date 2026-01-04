@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e17-co543-SL-Number-Plate-Detection-Group-
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2022-03-05T04:52:29Z'
+started_on: "2022-03-05T04:52:29Z"
 ---
 
 An automated number plate recognition solution for Sri Lankan number plate images.

@@ -2,7 +2,7 @@
 layout: project_page
 title: School Attendance Management System Mobile Application
 permalink: /co225/e19/School-Attendance-Management-System-Mobile-Application/
-description: ''
+description: ""
 has_children: false
 parent: E19 Software Constructions Projects (CO225)
 grand_parent: Software Constructions Projects (CO225)
@@ -13,6 +13,5 @@ page_url: https://cepdnaclk.github.io/e19-co225-School-Attendance-Management-Sys
 forks: 11
 watchers: 2
 stars: 2
-started_on: '2023-05-25T12:00:30Z'
+started_on: "2023-05-25T12:00:30Z"
 ---
-

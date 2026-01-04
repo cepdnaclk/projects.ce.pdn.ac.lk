@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e19-co226-Online-Learning-Platform
 forks: 3
 watchers: 1
 stars: 1
-started_on: '2023-07-23T09:28:19Z'
+started_on: "2023-07-23T09:28:19Z"
 ---
 
-LearnEdge is an innovative Online Learning Platform, empowering learners worldwide and connecting educational institutions globally.  https://lakshithakaveen.github.io/frontend/
+LearnEdge is an innovative Online Learning Platform, empowering learners worldwide and connecting educational institutions globally. https://lakshithakaveen.github.io/frontend/

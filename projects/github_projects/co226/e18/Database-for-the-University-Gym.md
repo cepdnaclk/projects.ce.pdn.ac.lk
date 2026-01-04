@@ -2,7 +2,7 @@
 layout: project_page
 title: Database for the University Gym
 permalink: /co226/e18/Database-for-the-University-Gym/
-description: ''
+description: ""
 has_children: false
 parent: E18 Database Projects (CO226)
 grand_parent: Database Projects (CO226)
@@ -13,6 +13,5 @@ page_url: blank
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2023-05-20T09:34:11Z'
+started_on: "2023-05-20T09:34:11Z"
 ---
-

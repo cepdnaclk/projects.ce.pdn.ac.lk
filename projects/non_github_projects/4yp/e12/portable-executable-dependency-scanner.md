@@ -10,9 +10,9 @@ grand_parent: Undergraduate Research Projects
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
-tags: [	 ]
-team: [ B.I.I. Nugawela, R. Keerthana, S.S.E. Vanderputt ]
-supervisors: [ Prof. Roshan G. Ragel ]
+tags: []
+team: [B.I.I. Nugawela, R. Keerthana, S.S.E. Vanderputt]
+supervisors: [Prof. Roshan G. Ragel]
 
 has_publication: no
 publication: ""

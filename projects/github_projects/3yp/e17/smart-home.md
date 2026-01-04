@@ -2,7 +2,7 @@
 layout: project_page
 title: smart home
 permalink: /3yp/e17/smart-home/
-description: ''
+description: ""
 has_children: false
 parent: E17 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
@@ -13,6 +13,5 @@ page_url: https://cepdnaclk.github.io/e17-3yp-smart-home
 forks: 3
 watchers: 5
 stars: 5
-started_on: '2021-07-02T15:17:34Z'
+started_on: "2021-07-02T15:17:34Z"
 ---
-

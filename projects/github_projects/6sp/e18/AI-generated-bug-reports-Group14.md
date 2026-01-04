@@ -14,7 +14,7 @@ page_url: blank
 forks: 1
 watchers: 1
 stars: 1
-started_on: '2023-06-07T14:20:14Z'
+started_on: "2023-06-07T14:20:14Z"
 ---
 
 This repo contains ML project uses machine learning to automatically generate bug reports for software applications, improving efficiency and accuracy.

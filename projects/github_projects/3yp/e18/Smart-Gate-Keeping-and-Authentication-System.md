@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e18-3yp-Smart-Gate-Keeping-and-Authenticat
 forks: 3
 watchers: 2
 stars: 2
-started_on: '2022-10-30T18:37:29Z'
+started_on: "2022-10-30T18:37:29Z"
 ---
 
-This is a system that controls the access of persons to various premises.   It has a highly accurate attendance recording system and a data management system connected that is connected the hardware system.
+This is a system that controls the access of persons to various premises. It has a highly accurate attendance recording system and a data management system connected that is connected the hardware system.

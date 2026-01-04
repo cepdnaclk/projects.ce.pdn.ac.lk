@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e19-3yp-Project-Smart-Water-Tank
 forks: 6
 watchers: 2
 stars: 2
-started_on: '2023-11-08T16:36:15Z'
+started_on: "2023-11-08T16:36:15Z"
 ---
 
 This project provides a complete solution for efficient water management. It consists of a Smart Water Tank with level monitoring and a Smart Tap Control System. Users can control their water usage through a web app and mobile app. The system aims to save water and reduce wastage while offering real-time insights into water consumption.

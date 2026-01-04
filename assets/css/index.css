@@ -5,224 +5,224 @@
 /*--------------------------------*/
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    transition: all 3s;
+  transition: all 3s;
 }
 
 p,
 ul {
-    font-size: 12pt;
+  font-size: 12pt;
 }
 
 .card {
-    border: 1px solid #d0d0d0 !important;
+  border: 1px solid #d0d0d0 !important;
 }
 
 .img-hover-zoom-card {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .img-hover-zoom {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .img-hover-zoom-card img {
-    transition: transform .5s ease;
+  transition: transform 0.5s ease;
 }
 
 .img-hover-zoom-card:hover img {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .icon-box {
-    padding-left: 5px !important;
-    padding-right: 5px !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
 }
 
 .project-card-title {
-    /* text-transform: capitalize; */
-    font-size: 10pt;
+  /* text-transform: capitalize; */
+  font-size: 10pt;
 }
 
 .title-case {
-    /* text-transform: capitalize; */
+  /* text-transform: capitalize; */
 }
 
 .title-overflow {
-    text-overflow: ellipsis !important;
-    overflow: hidden;
+  text-overflow: ellipsis !important;
+  overflow: hidden;
 }
 
 .title-overflow:hover {
-    overflow: visible;
+  overflow: visible;
 }
 
 .btn-card:hover {
-    font-size: 10pt !important;
+  font-size: 10pt !important;
 }
 
 .btn-card:hover {
-    background: #dfdfdf !important;
+  background: #dfdfdf !important;
 }
 
 .video-container {
-    overflow: hidden;
-    position: relative;
-    width: 95%;
+  overflow: hidden;
+  position: relative;
+  width: 95%;
 }
 
 .video-container::after {
-    padding-top: 56.25%;
-    display: block;
-    content: '';
+  padding-top: 56.25%;
+  display: block;
+  content: "";
 }
 
 .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .highlighter-rouge {
-    border: 1px solid gray;
-    margin: 20px;
-    padding: 10px;
+  border: 1px solid gray;
+  margin: 20px;
+  padding: 10px;
 }
 
 /* width */
 ::-webkit-scrollbar {
-    width: 12px;
+  width: 12px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+  background: #f1f1f1;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #888;
+  background: #888;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+  background: #555;
 }
 
 .tag {
-    padding: 2px 15px;
-    background-color: #c4c4c4;
-    margin: 3px 5px !important;
-    font-size: 12pt;
-    border-radius: 2px;
-    /* border: 1px solid gray; */
+  padding: 2px 15px;
+  background-color: #c4c4c4;
+  margin: 3px 5px !important;
+  font-size: 12pt;
+  border-radius: 2px;
+  /* border: 1px solid gray; */
 }
 
 .vh-50 {
-    min-height: 50vh !important;
+  min-height: 50vh !important;
 }
 
 .vh-75 {
-    min-height: 75vh !important;
+  min-height: 75vh !important;
 }
 
 .breadcrumb-nav {
-    background-color: #e9ecef !important;
+  background-color: #e9ecef !important;
 }
 
 .breadcrumb-item a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 .breadcrumb-item a:hover {
-    text-decoration: underline !important;
+  text-decoration: underline !important;
 }
 
 .nav-item {
-    padding: 1px 16px;
+  padding: 1px 16px;
 }
 
 .profile-title {
-    font-size: 0.9em !important;
+  font-size: 0.9em !important;
 }
 
 .profile-text {
-    font-size: 1em !important;
+  font-size: 1em !important;
 }
 
 /*--------------------------------*/
 .scroll {
-    color: #fff;
-    margin-top: 100px;
+  color: #fff;
+  margin-top: 100px;
 }
 
-
 .footer-link {
-    color: #6c757d !important;
-    transition: all 0.2s ease-in;
+  color: #6c757d !important;
+  transition: all 0.2s ease-in;
 }
 
 .footer-link:hover {
-    color: #0d6efd !important;
+  color: #0d6efd !important;
 }
 
-
 #toTopBtn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 97;
-    padding: 21px;
-    background-color: #0d6efd !important;
-    background: url('https://projects.ce.pdn.ac.lk/assets/images/cd-top-arrow.svg') no-repeat center 50%;
-    background-color: hsla(5, 76%, 62%, 0.8);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 97;
+  padding: 21px;
+  background-color: #0d6efd !important;
+  background: url("https://projects.ce.pdn.ac.lk/assets/images/cd-top-arrow.svg") no-repeat center
+    50%;
+  background-color: hsla(5, 76%, 62%, 0.8);
 }
 
 #editBtn {
-    position: fixed;
-    bottom: 20px;
-    right: 70px;
-    z-index: 98;
-    padding: 21px;
-    background-color: #0dfc5e !important;
-    background: url('https://projects.ce.pdn.ac.lk/assets/images/cd-top-edit.svg') no-repeat center 50%;
-    background-color: hsla(5, 76%, 62%, 0.8);
+  position: fixed;
+  bottom: 20px;
+  right: 70px;
+  z-index: 98;
+  padding: 21px;
+  background-color: #0dfc5e !important;
+  background: url("https://projects.ce.pdn.ac.lk/assets/images/cd-top-edit.svg") no-repeat center
+    50%;
+  background-color: hsla(5, 76%, 62%, 0.8);
 }
 
 .js .cd-top--fade-out {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .js .cd-top--is-visible {
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 
 .js .cd-top {
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.3s, visibility 0.3s, background-color 0.3s;
+  visibility: hidden;
+  opacity: 0;
+  transition:
+    opacity 0.3s,
+    visibility 0.3s,
+    background-color 0.3s;
 }
 
 .cd-top {
-    position: fixed;
-    bottom: 20px;
-    bottom: var(--cd-back-to-top-margin);
-    right: 20px;
-    right: var(--cd-back-to-top-margin);
-    display: inline-block;
-    height: 40px;
-    height: var(--cd-back-to-top-size);
-    width: 40px;
-    width: var(--cd-back-to-top-size);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05) !important;
-    background-color: hsla(var(--cd-color-3-h),
-            var(--cd-color-3-s),
-            var(--cd-color-3-l),
-            0.8);
+  position: fixed;
+  bottom: 20px;
+  bottom: var(--cd-back-to-top-margin);
+  right: 20px;
+  right: var(--cd-back-to-top-margin);
+  display: inline-block;
+  height: 40px;
+  height: var(--cd-back-to-top-size);
+  width: 40px;
+  width: var(--cd-back-to-top-size);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05) !important;
+  background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8);
 }

@@ -6,50 +6,63 @@ has_children: false
 ---
 
 <main class="py-1 p-1">
-    <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top cd-top--fade-out" data-abc="true"
-    style="display: none;"></a>
+  <a
+    href="#"
+    id="toTopBtn"
+    class="cd-top text-replace js-cd-top cd-top cd-top--fade-out"
+    data-abc="true"
+    style="display: none"
+  ></a>
 
-    <div class="container-fluid py-2 px-2">
-        <div class="row">
-            <div class="container px-3 pb-3">
-                <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav" >
-                    <ol class="breadcrumb p-0 m-0">
-                        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
-                        <li class="breadcrumb-item"><span>Department Projects</span></li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
+  <div class="container-fluid py-2 px-2">
+    <div class="row">
+      <div class="container px-3 pb-3">
+        <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav">
+          <ol class="breadcrumb p-0 m-0">
+            <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li class="breadcrumb-item"><span>Department Projects</span></li>
+          </ol>
+        </nav>
+      </div>
     </div>
+  </div>
 
-    <div class="container py-2 px-5">
-        <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top cd-top--fade-out" data-abc="true"
-        style="display: none;"></a>
+  <div class="container py-2 px-5">
+    <a
+      href="#"
+      id="toTopBtn"
+      class="cd-top text-replace js-cd-top cd-top cd-top--fade-out"
+      data-abc="true"
+      style="display: none"
+    ></a>
 
-        <div class="container" style="min-height: 80vh">
-            <div class="row pt-4">
-                {% include page_tree_builder.html pages=site.html_pages -%}
-                {%- assign projects = pages_list | where: "layout", "project_page_dept" -%}
-                {%- for proj in projects -%}
-                {%- if proj.title != "Dummy Project" -%}
+    <div class="container" style="min-height: 80vh">
+      <div class="row pt-4">
+        {% include page_tree_builder.html pages=site.html_pages -%} {%- assign projects = pages_list
+        | where: "layout", "project_page_dept" -%} {%- for proj in projects -%} {%- if proj.title !=
+        "Dummy Project" -%}
 
-                <div class="col-lg-4 col-md-6 col-sm-6 d-flex m-0 img-hover-zoom-card" style="padding: 10px 0;">
-                    <a class="btn m-0" href="{{ proj.permalink | realtive_url | prepend: site.baseurl }}">
-                        <div class="card h-100 m-0">
-                            <div class="img-hover-zoom">
-                                <img class="card-img-top app-thumb-img" src="{{ proj.thumb_image | realtive_url | prepend: site.baseurl }}" alt="" />
-                            </div>
-                            <div class="card-body p-1 m-0">
-                                <p class="card-title project-card-title fs-5">
-                                    {{ proj.title }}
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                {%- endif -%}
-                {% endfor -%}
+        <div
+          class="col-lg-4 col-md-6 col-sm-6 d-flex m-0 img-hover-zoom-card"
+          style="padding: 10px 0"
+        >
+          <a class="btn m-0" href="{{ proj.permalink | realtive_url | prepend: site.baseurl }}">
+            <div class="card h-100 m-0">
+              <div class="img-hover-zoom">
+                <img
+                  class="card-img-top app-thumb-img"
+                  src="{{ proj.thumb_image | realtive_url | prepend: site.baseurl }}"
+                  alt=""
+                />
+              </div>
+              <div class="card-body p-1 m-0">
+                <p class="card-title project-card-title fs-5">{{ proj.title }}</p>
+              </div>
             </div>
+          </a>
         </div>
+        {%- endif -%} {% endfor -%}
+      </div>
     </div>
+  </div>
 </main>

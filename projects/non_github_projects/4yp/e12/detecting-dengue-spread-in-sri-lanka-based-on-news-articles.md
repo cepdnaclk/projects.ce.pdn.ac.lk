@@ -10,9 +10,9 @@ grand_parent: Undergraduate Research Projects
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
-tags: [	Machine learning and Data Mining ]
-team: [ Nishara Kavindi, Peshali Randika, Prabashi Meddegoda ]
-supervisors: [ Mr. D.S. Deegalla ]
+tags: [Machine learning and Data Mining]
+team: [Nishara Kavindi, Peshali Randika, Prabashi Meddegoda]
+supervisors: [Mr. D.S. Deegalla]
 
 has_publication: false
 publication: ""

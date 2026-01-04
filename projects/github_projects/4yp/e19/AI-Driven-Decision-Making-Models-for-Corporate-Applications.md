@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e19-4yp-AI-Driven-Decision-Making-Models-f
 forks: 0
 watchers: 1
 stars: 1
-started_on: '2025-02-02T16:55:03Z'
+started_on: "2025-02-02T16:55:03Z"
 ---
 
 This project explores the development of AI-powered decision-making models to optimize corporate workflows, enhance strategic planning, and improve operational efficiency. By leveraging machine learning and natural language processing, the system will analyze corporate data including HR, finance, and operations to generate data-driven insights

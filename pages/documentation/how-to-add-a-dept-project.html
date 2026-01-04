@@ -9,28 +9,37 @@ search_exclude: true
 ---
 
 <div class="row">
-    <div class="container px-3 pb-3">
-        <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav" >
-            <ol class="breadcrumb p-0 m-0">
-                <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
-                <li class="breadcrumb-item"><a href="{{ '/docs' | relative_url }}">Documentation</a></li>
-                <li class="breadcrumb-item">
-                    How to add a Department Project
-                </li>
-            </ol>
-        </nav>
-    </div>
+  <div class="container px-3 pb-3">
+    <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav">
+      <ol class="breadcrumb p-0 m-0">
+        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li class="breadcrumb-item"><a href="{{ '/docs' | relative_url }}">Documentation</a></li>
+        <li class="breadcrumb-item">How to add a Department Project</li>
+      </ol>
+    </nav>
+  </div>
 </div>
 
 <div class="row px-5">
-    <div class="container pt-4">
-        <h3 id="how-to-add-a-project-">How to add a Department Project ?</h3>
+  <div class="container pt-4">
+    <h3 id="how-to-add-a-project-">How to add a Department Project ?</h3>
 
-        <p>To add a department project, you need to create a new file ( extension must be <i>.md</i> ) in <a href="https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/new/main/projects/department_projects" target="_blank">here</a> using the below template</p>
+    <p>
+      To add a department project, you need to create a new file ( extension must be
+      <i>.md</i>
+      ) in
+      <a
+        href="https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/new/main/projects/department_projects"
+        target="_blank"
+      >
+        here
+      </a>
+      using the below template
+    </p>
 
-        <h4>File Template</h4>
-        <div class="container">
-            <pre><code class="json dracula">
+    <h4>File Template</h4>
+    <div class="container">
+      <pre><code class="json dracula">
 ---
 layout: project_page_dept
 title: "{title of the project}"
@@ -57,43 +66,72 @@ links:
 { project description }
 
             </code></pre>
-        </div>
-
-        <p>Here are several conditions you need to consider:</p>
-        <ul>
-            <li>permalink: Please make sure this URL isn't used before</li>
-            <li>gh_page: Filename in this field must be the file name that you are creating </li>
-            <li>project thumbnail: the link should be publically accessible; <a href="http://localhost:4000/docs/faq/how-to-add-an-image/">here</a> are some tricks; Option 3 is the best</li>
-            <li>project description: You can use <i>Markdown syntax</i> to write a short description about the project in here</li>
-        </ul>
-
-        For the reference, you can see how the files must be created using following 2 files:
-        <ul>
-            <li> <a href="https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/blob/main/projects/department_projects/pera-swarm.md" target="_blank">pera-swarm.md</a> </li>
-
-            <li> <a href="https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/blob/main/projects/department_projects/pera-ride.md" target="_blank">pera-ride</a> </li>
-        </ul>
     </div>
+
+    <p>Here are several conditions you need to consider:</p>
+    <ul>
+      <li>permalink: Please make sure this URL isn't used before</li>
+      <li>gh_page: Filename in this field must be the file name that you are creating</li>
+      <li>
+        project thumbnail: the link should be publically accessible;
+        <a href="http://localhost:4000/docs/faq/how-to-add-an-image/">here</a>
+        are some tricks; Option 3 is the best
+      </li>
+      <li>
+        project description: You can use
+        <i>Markdown syntax</i>
+        to write a short description about the project in here
+      </li>
+    </ul>
+
+    For the reference, you can see how the files must be created using following 2 files:
+    <ul>
+      <li>
+        <a
+          href="https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/blob/main/projects/department_projects/pera-swarm.md"
+          target="_blank"
+        >
+          pera-swarm.md
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/blob/main/projects/department_projects/pera-ride.md"
+          target="_blank"
+        >
+          pera-ride
+        </a>
+      </li>
+    </ul>
+  </div>
 </div>
 
 <style>
-    table {
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        /* width: 75%; */
-    }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    /* width: 75%; */
+  }
 
-    td, th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 8px;
-    }
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
 
-    h3, h4{
-        padding-top: 12px!important;
-    }
+  h3,
+  h4 {
+    padding-top: 12px !important;
+  }
 </style>
 
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/default.min.css">
+<link
+  rel="stylesheet"
+  href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/default.min.css"
+/>
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>

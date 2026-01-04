@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e19-co226-Database-for-Bank-Management-Sys
 forks: 0
 watchers: 1
 stars: 1
-started_on: '2023-08-15T02:06:55Z'
+started_on: "2023-08-15T02:06:55Z"
 ---
 
 The purpose of this database is to store, manage, and retrieve information about banking transactions, account holders, and financial statistics.

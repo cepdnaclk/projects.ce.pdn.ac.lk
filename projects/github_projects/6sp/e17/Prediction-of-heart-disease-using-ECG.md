@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e17-6sp-Prediction-of-heart-disease-using-
 forks: 4
 watchers: 1
 stars: 1
-started_on: '2022-03-04T16:06:17Z'
+started_on: "2022-03-04T16:06:17Z"
 ---
 
 A software application for predicting potential heart diseases using ECG data

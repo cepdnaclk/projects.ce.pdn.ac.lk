@@ -10,9 +10,9 @@ grand_parent: Undergraduate Research Projects
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
-tags: [	Computer and Network Security ]
-team: [ Rosen Silva, Asela Rukmal, Nadith Malinda ]
-supervisors: [ Dr. Asitha Bandaranayake, Prof. Roshan G. Ragel ]
+tags: [Computer and Network Security]
+team: [Rosen Silva, Asela Rukmal, Nadith Malinda]
+supervisors: [Dr. Asitha Bandaranayake, Prof. Roshan G. Ragel]
 
 has_publication: false
 publication: ""

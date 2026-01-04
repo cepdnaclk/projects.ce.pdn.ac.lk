@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e19-3yp-Attendance-Monitoring-and-Access-A
 forks: 2
 watchers: 0
 stars: 0
-started_on: '2023-11-15T08:14:50Z'
+started_on: "2023-11-15T08:14:50Z"
 ---
 
 Automate attendance and enhance security with Face Recognition. Streamline monitoring, strengthen access control for a precise and secure solution.

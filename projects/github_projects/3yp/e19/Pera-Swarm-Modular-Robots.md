@@ -2,7 +2,7 @@
 layout: project_page
 title: Pera Swarm Modular Robots
 permalink: /3yp/e19/Pera-Swarm-Modular-Robots/
-description: ''
+description: ""
 has_children: false
 parent: E19 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
@@ -13,6 +13,5 @@ page_url: https://cepdnaclk.github.io/e19-3yp-Pera-Swarm-Modular-Robots
 forks: 2
 watchers: 2
 stars: 2
-started_on: '2023-11-08T11:04:56Z'
+started_on: "2023-11-08T11:04:56Z"
 ---
-

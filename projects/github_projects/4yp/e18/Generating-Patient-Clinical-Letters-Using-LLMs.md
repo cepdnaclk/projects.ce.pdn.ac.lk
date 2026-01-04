@@ -2,7 +2,7 @@
 layout: project_page
 title: Generating Patient Clinical Letters Using LLMs
 permalink: /4yp/e18/Generating-Patient-Clinical-Letters-Using-LLMs/
-description: ''
+description: ""
 has_children: false
 parent: E18 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -13,6 +13,5 @@ page_url: https://cepdnaclk.github.io/e18-4yp-Generating-Patient-Clinical-Letter
 forks: 2
 watchers: 0
 stars: 0
-started_on: '2024-02-12T01:14:33Z'
+started_on: "2024-02-12T01:14:33Z"
 ---
-

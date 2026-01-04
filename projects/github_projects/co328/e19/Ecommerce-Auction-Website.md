@@ -2,7 +2,7 @@
 layout: project_page
 title: Ecommerce Auction Website
 permalink: /co328/e19/Ecommerce-Auction-Website/
-description: ''
+description: ""
 has_children: false
 parent: E19 Software Engineering Projects (CO328)
 grand_parent: Software Engineering Projects (CO328)
@@ -13,6 +13,5 @@ page_url: blank
 forks: 6
 watchers: 0
 stars: 0
-started_on: '2024-04-29T13:42:39Z'
+started_on: "2024-04-29T13:42:39Z"
 ---
-

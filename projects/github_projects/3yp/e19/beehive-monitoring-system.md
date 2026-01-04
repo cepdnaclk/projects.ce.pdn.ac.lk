@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e19-3yp-beehive-monitoring-system
 forks: 6
 watchers: 3
 stars: 3
-started_on: '2023-11-16T08:48:44Z'
+started_on: "2023-11-16T08:48:44Z"
 ---
 
 A beehive monitoring system using high quality camera and some sensors to detect bee absconding.

@@ -10,9 +10,9 @@ grand_parent: Undergraduate Research Projects
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
-tags: [	Software and Systems ]
-team: [ Thilini Dahanayaka, Rajitha Ramanayake ]
-supervisors: [ Dr. Dhammika Elkaduwe, Dr. Isuru Nawinne ]
+tags: [Software and Systems]
+team: [Thilini Dahanayaka, Rajitha Ramanayake]
+supervisors: [Dr. Dhammika Elkaduwe, Dr. Isuru Nawinne]
 
 has_publication: false
 publication: ""

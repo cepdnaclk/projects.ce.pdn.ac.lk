@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e20-CO227-TourMate
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2024-11-30T06:34:16Z'
+started_on: "2024-11-30T06:34:16Z"
 ---
 
 TourMate simplifies trip planning by ending the need for endless scrolling. It offers personalized schedules with hotels, attractions, weather updates, and routes for a hassle-free travel experience.

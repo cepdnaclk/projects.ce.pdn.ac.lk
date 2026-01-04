@@ -1,46 +1,48 @@
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    {% unless site.plugins contains "jekyll-seo-tag" %}
-    {% if page.description %}
-    <meta name="Description" content="{{ page.description }}">
-    {% endif %}
-    {% endunless %}
+  {% unless site.plugins contains "jekyll-seo-tag" %} {% if page.description %}
+  <meta name="Description" content="{{ page.description }}" />
+  {% endif %} {% endunless %} {% if page.page_title %}
+  <title>{{ page.page_title }}</title>
+  {% else %}
+  <title>{{ page.title }}</title>
+  {% endif %}
 
-    {% if page.page_title %}
-    <title>{{ page.page_title }}</title>
-    {% else %}
-    <title>{{ page.title }}</title>
-    {% endif %}
+  <link
+    rel="shortcut icon"
+    href="{{ '/assets/images/favicon.ico' | relative_url }}"
+    type="image/x-icon"
+  />
 
-    <link rel="shortcut icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" type="image/x-icon">
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{ '/assets/css/app.css' | relative_url }}" />
+  <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" />
 
-    <!-- Styles -->
-    <link rel="stylesheet" href="{{ '/assets/css/app.css' | relative_url }}">
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  {% seo %} {% if site.ga_tracking != nil %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-    {% seo %}
+    gtag('config', '{{ site.ga_tracking }}'{% unless site.ga_tracking_anonymize_ip == nil %}, { 'anonymize_ip': true }{% endunless %});
+  </script>
+  {% endif %} {% if site.search_enabled != false %}
+  <script
+    type="text/javascript"
+    src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"
+  ></script>
+  {% endif %}
 
-    {% if site.ga_tracking != nil %}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', '{{ site.ga_tracking }}'{% unless site.ga_tracking_anonymize_ip == nil %}, { 'anonymize_ip': true }{% endunless %});
-    </script>
-    {% endif %}
-
-    {% if site.search_enabled != false %}
-    <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
-    {% endif %}
-
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    crossorigin="anonymous"
+  ></script>
 </head>

@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e20-co227-Cardiac-Patient-Data-Management-
 forks: 3
 watchers: 0
 stars: 0
-started_on: '2024-10-28T14:34:21Z'
+started_on: "2024-10-28T14:34:21Z"
 ---
 
 CardioGuard is a cardiac patient management system with machine learning, providing doctors and patients an overview of medical states. Doctors and administrators can access patient data for easier care, while patients can view some of their information from their initial admission into the medical facility.

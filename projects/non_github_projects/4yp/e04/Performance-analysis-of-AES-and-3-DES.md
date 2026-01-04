@@ -11,7 +11,7 @@ cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
 team: [T.M.S Buddika (E/04/047), R.N.B Herath (E/04/111]
-supervisors: [ Dr. Roshan G. Ragel, Mr. Chanaka Munasinghe]
+supervisors: [Dr. Roshan G. Ragel, Mr. Chanaka Munasinghe]
 
 has_publication: false
 publication: ""

@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e16-co502-RISCV-pipeline-cpu-implementatio
 forks: 1
 watchers: 2
 stars: 2
-started_on: '2021-07-01T04:01:43Z'
+started_on: "2021-07-01T04:01:43Z"
 ---
 
 This is Advance Computer Architecture project of implementing Piplined Proccesor according to the RISC-V Instruction set

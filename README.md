@@ -1,4 +1,3 @@
-
 # projects.ce.pdn.ac.lk
 
 This is the repository contains the source code for [https://projects.ce.pdn.ac.lk](https://projects.ce.pdn.ac.lk). The site is built by Jekyll Builder and hosted on GitHub pages.
@@ -15,18 +14,20 @@ python3 stat_script.py
 
 ## Build Instructions
 
-Currently, the site is built by GitHub itself once there is a pull request to the *main* branch.
+Currently, the site is built by GitHub itself once there is a pull request to the _main_ branch.
 
-If you are interested in build the site in a local environment, info on how to build can be found in [projects.ce.pdn.ac.lk/docs/deployment](https://projects.ce.pdn.ac.lk/docs/deployment). You can also use *setup.sh* and *run.sh* bash scripts in the folder, */scripts*.
+If you are interested in build the site in a local environment, info on how to build can be found in [projects.ce.pdn.ac.lk/docs/deployment](https://projects.ce.pdn.ac.lk/docs/deployment). You can also use _setup.sh_ and _run.sh_ bash scripts in the folder, _/scripts_.
 
 ## Contact Info
 
 If you have any doubt about implementation or need to report a bug or a suggestion, please feel free to contact one of them.
 
 ### Coordinator
+
 - Prof. Roshan Ragel (<a href="mailto:roshanr@eng.pdn.ac.lk ">roshanr@eng.pdn.ac.lk </a>)
 
 ### Developers
+
 - Nuwan Jaliyagoda (<a href="mailto:nuwanjaliyagoda@eng.pdn.ac.lk">nuwanjaliyagoda@eng.pdn.ac.lk</a> <a href="https://github.com/NuwanJ" target="_blank">GitHub: @NuwanJ</a> )
 - Akila Karunanayake (<a href="mailto:e17154@eng.pdn.ac.lk">e17154@eng.pdn.ac.lk</a> | <a href="https://github.com/Akilax0" target="_blank">GitHub: @Akilax0</a> ) </li>
 

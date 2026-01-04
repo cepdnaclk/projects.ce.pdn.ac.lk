@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e20-co542-stock-price-prediction
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2025-04-03T13:21:28Z'
+started_on: "2025-04-03T13:21:28Z"
 ---
 
 A hybrid stock prediction model combines historical data analysis and news sentiment analysis for better accuracy.

@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e18-6sp-Handwritten-Essay-Marking-Software
 forks: 3
 watchers: 2
 stars: 2
-started_on: '2023-06-04T14:51:01Z'
+started_on: "2023-06-04T14:51:01Z"
 ---
 
 Design and develop a web interface to automate the process of grading handwritten essays by leveraging machine learning algorithms while ensuring fairness and consistency in evaluations

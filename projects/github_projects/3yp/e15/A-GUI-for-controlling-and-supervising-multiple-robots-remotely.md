@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e15-3yp-A-GUI-for-controlling-and-supervis
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2020-12-12T05:11:30Z'
+started_on: "2020-12-12T05:11:30Z"
 ---
 
 The idea is to create a GUI platform where a user can give commands which is to be followed by some ground units in a remote location. The server can identify the starting locations of the robots and manipulate them to do the task in the most efficient way as possible.

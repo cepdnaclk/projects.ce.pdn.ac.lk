@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e15-4yp-Accelerating-Adaptive-Banded-Event
 forks: 3
 watchers: 0
 stars: 0
-started_on: '2021-03-04T15:44:28Z'
+started_on: "2021-03-04T15:44:28Z"
 ---
 
 Effective utilization of OpenCL to map the Adaptive Banded Event Alignment(ABEA) algorithm to run eﬃciently on an FPGA.

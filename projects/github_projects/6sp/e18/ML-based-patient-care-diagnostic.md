@@ -2,7 +2,7 @@
 layout: project_page
 title: ML based patient care diagnostic
 permalink: /6sp/e18/ML-based-patient-care-diagnostic/
-description: ''
+description: ""
 has_children: false
 parent: E18 Sixth Semester Projects
 grand_parent: Sixth Semester Projects
@@ -13,6 +13,5 @@ page_url: https://cepdnaclk.github.io/e18-6sp-ML-based-patient-care-diagnostic
 forks: 3
 watchers: 1
 stars: 1
-started_on: '2023-06-03T12:02:57Z'
+started_on: "2023-06-03T12:02:57Z"
 ---
-
