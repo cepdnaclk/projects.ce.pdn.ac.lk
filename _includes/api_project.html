@@ -9,8 +9,8 @@
     "batch": "{{ cat[0] }}",
     "category": "{{ project.grand_parent }}",
     "project_url": "{{ site.url }}{{ project.permalink }}",
-    "cover_url": "{{ site.url }}{{ project.cover_url }}",
-    "thumbnail_url": "{{ site.url }}{{ project.thumbnail_url }}",
+    "cover_url": "{{ project.cover_url | absolute_url }}",
+    "thumbnail_url": "{{ project.thumbnail_url | absolute_url }}",
     "repo_url": "{{ project.repo_url }}",
     {%- if project.page_url != "blank" -%}
     "page_url": "{{ project.page_url }}",
