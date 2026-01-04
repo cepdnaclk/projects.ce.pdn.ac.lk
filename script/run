@@ -1,4 +1,4 @@
 #!/bin/sh
 
-rm _site/* -r --force
+rm ./_site/* -rf
 bundle exec jekyll serve --increment
