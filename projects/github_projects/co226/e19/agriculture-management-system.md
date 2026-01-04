@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e19-co226-agriculture-management-system
 forks: 8
 watchers: 6
 stars: 6
-started_on: '2023-08-22T18:05:16Z'
+started_on: "2023-08-22T18:05:16Z"
 ---
 
 Crop Master is an Agriculture Management System designed to streamline and optimize various farming processes. It offers a user-friendly interface for farmers and landowners to manage their farms, crops, machinery, and more.

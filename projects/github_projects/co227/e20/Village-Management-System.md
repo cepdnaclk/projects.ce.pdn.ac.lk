@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e20-co227-Village-Management-System
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2024-12-04T11:28:55Z'
+started_on: "2024-12-04T11:28:55Z"
 ---
 
 A simple Village Management System built with Spring Boot, designed for managing villages in Sri Lanka. Each village has its own database and admin, with a super admin to oversee everything. The system handles lands, persons, and households, supporting Grama Niladhari requirements.

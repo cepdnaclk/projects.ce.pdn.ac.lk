@@ -11,7 +11,7 @@ cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
 team: [M.M.M Arsath (E/03/025), W.B.Sanjeewa (E/03/249)]
-supervisors: [ Dr. Devapriya Dewasurendra ]
+supervisors: [Dr. Devapriya Dewasurendra]
 
 has_publication: false
 publication: ""

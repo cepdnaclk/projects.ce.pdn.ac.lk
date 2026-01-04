@@ -10,9 +10,9 @@ grand_parent: Undergraduate Research Projects
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
-tags: [	Machine learning and Data Mining ]
-team: [ Vimukthi Perera, Ching Shi, Brian Udugama, Titus Nanda Kumara ]
-supervisors: [ Prof. Roshan G. Ragel, Dr. Isuru Nawinne ]
+tags: [Machine learning and Data Mining]
+team: [Vimukthi Perera, Ching Shi, Brian Udugama, Titus Nanda Kumara]
+supervisors: [Prof. Roshan G. Ragel, Dr. Isuru Nawinne]
 
 has_publication: false
 publication: ""

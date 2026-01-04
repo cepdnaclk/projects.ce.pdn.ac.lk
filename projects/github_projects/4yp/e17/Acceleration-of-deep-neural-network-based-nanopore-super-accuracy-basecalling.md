@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e17-4yp-Acceleration-of-deep-neural-networ
 forks: 3
 watchers: 0
 stars: 0
-started_on: '2023-05-21T14:48:12Z'
+started_on: "2023-05-21T14:48:12Z"
 ---
 
 Implementing suitable acceleration to speed up nanopore super accuracy basecalling process.

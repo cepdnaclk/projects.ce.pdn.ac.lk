@@ -2,7 +2,7 @@
 layout: project_page
 title: AI Driven Renal Care Management for Hospitals in Sri Lanka
 permalink: /4yp/e19/AI-Driven-Renal-Care-Management-for-Hospitals-in-Sri-Lanka/
-description: 'FYP: AI-Driven Renal Care Management for Hospitals in Sri Lanka'
+description: "FYP: AI-Driven Renal Care Management for Hospitals in Sri Lanka"
 has_children: false
 parent: E19 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e19-4yp-AI-Driven-Renal-Care-Management-fo
 forks: 3
 watchers: 0
 stars: 0
-started_on: '2025-01-31T07:19:01Z'
+started_on: "2025-01-31T07:19:01Z"
 ---
 
 FYP: AI-Driven Renal Care Management for Hospitals in Sri Lanka

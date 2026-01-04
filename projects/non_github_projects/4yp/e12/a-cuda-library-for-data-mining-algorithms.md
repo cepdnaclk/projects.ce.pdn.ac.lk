@@ -10,9 +10,9 @@ grand_parent: Undergraduate Research Projects
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
-tags: [	GPU Computing ]
-team: [ Lakshitha Madushan, Pahan Madusha, Darshi Dineshika, Hasindu Gamaarachchi ]
-supervisors: [ Prof. Roshan G. Ragel ]
+tags: [GPU Computing]
+team: [Lakshitha Madushan, Pahan Madusha, Darshi Dineshika, Hasindu Gamaarachchi]
+supervisors: [Prof. Roshan G. Ragel]
 
 has_publication: false
 publication: ""

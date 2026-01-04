@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e21-co227-RFID-Hardware-and-Tag-Lifecycle
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2025-11-14T20:33:19Z'
+started_on: "2025-11-14T20:33:19Z"
 ---
 
 A complete RFID-based visitor tracking and engagement system for EngEx 2025. Powered by LF RFID + ESP-01 hardware, MQTT messaging, a Node.js backend, PostgreSQL database, and React dashboards, it delivers live analytics, scoring, and robust multi-booth tracking under heavy event traffic.

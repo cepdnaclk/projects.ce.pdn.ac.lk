@@ -10,9 +10,9 @@ grand_parent: Undergraduate Research Projects
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
-tags: [	Computer and Network Security ]
-team: [ Rangana De Silva, Iranga Navaratna, Malitha Kumarasiri ]
-supervisors: [ Dr. Janaka Alawatugoda ]
+tags: [Computer and Network Security]
+team: [Rangana De Silva, Iranga Navaratna, Malitha Kumarasiri]
+supervisors: [Dr. Janaka Alawatugoda]
 
 has_publication: yes
 publication: "Chuah, Chai Wen & Alawatugoda, Janaka & Kumarasiri, Malitha & Navaratna, Iranga & Silva, Rangana. (2019). On Power Analysis Attacks against Hardware Stream Ciphers. International Journal of Information and Computer Security. 11. 1. 10.1504/IJICS.2019.10023739. "

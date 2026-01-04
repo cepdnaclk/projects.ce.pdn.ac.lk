@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e19-3yp-Automated-grass-cutter
 forks: 5
 watchers: 1
 stars: 1
-started_on: '2023-11-19T04:52:15Z'
+started_on: "2023-11-19T04:52:15Z"
 ---
 
 In a world where automation is becoming increasingly prevalent, our project introduces a cutting-edge solution for maintaining lush and well-manicured lawns. The Automated Grass Cutter combines innovative technology with the age-old task of grass cutting, bringing forth a new era in lawn maintenance.

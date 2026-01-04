@@ -2,7 +2,8 @@
 layout: project_page
 title: multi arm bandit python library
 permalink: /co227/e14/multi-arm-bandit-python-library/
-description: A python based library which includes multi_arm_bandit and Bayesian_optimization_algorithms.
+description:
+  A python based library which includes multi_arm_bandit and Bayesian_optimization_algorithms.
   The PYPI repository  can be found as mabandit 1.3
 has_children: false
 parent: E14 Software Systems Projects
@@ -14,7 +15,7 @@ page_url: blank
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2020-05-14T18:43:15Z'
+started_on: "2020-05-14T18:43:15Z"
 ---
 
-A python based library which includes multi_arm_bandit and Bayesian_optimization_algorithms. The PYPI repository  can be found as mabandit 1.3
+A python based library which includes multi_arm_bandit and Bayesian_optimization_algorithms. The PYPI repository can be found as mabandit 1.3

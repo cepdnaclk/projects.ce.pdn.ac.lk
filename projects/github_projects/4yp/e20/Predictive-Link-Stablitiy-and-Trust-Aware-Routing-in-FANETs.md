@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e20-4yp-Predictive-Link-Stablitiy-and-Trus
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2025-10-15T02:14:36Z'
+started_on: "2025-10-15T02:14:36Z"
 ---
 
 This is a final year research on Improving Link Stability of Flying Ad-hoc Networks

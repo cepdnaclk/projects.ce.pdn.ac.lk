@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e18-3yp-smart-pet-collar
 forks: 8
 watchers: 7
 stars: 7
-started_on: '2022-10-29T17:43:00Z'
+started_on: "2022-10-29T17:43:00Z"
 ---
 
 Smart Pet Collar - 3rd Year Project (Department of Computer Engineering, University of Peradeniya, LK)

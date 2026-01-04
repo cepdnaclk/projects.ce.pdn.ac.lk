@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e19-4yp-AI-Dirven-Latency-Constrained-Reso
 forks: 3
 watchers: 1
 stars: 1
-started_on: '2025-01-31T07:21:02Z'
+started_on: "2025-01-31T07:21:02Z"
 ---
 
 This repo focuses on latency-aware resource optimization for Kubernetes

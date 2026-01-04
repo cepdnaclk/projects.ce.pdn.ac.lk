@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e18-co227-Development-of-an-Image-Capturin
 forks: 3
 watchers: 0
 stars: 0
-started_on: '2022-06-02T17:30:20Z'
+started_on: "2022-06-02T17:30:20Z"
 ---
 
 A software to capture and transmit images to a remote location https://github.com/cepdnaclk/e18-co227-Development-of-an-Image-Capturing-Unit-for-Remote-Monitoring

@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e19-co227-Plants-disease-dataset-collectio
 forks: 3
 watchers: 1
 stars: 1
-started_on: '2023-08-25T15:46:48Z'
+started_on: "2023-08-25T15:46:48Z"
 ---
 
 Let's work together to make plant disease information more accessible and contribute to healthier crops and ecosystems!

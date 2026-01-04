@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e14-3yp-River-water-level-and-speed-monito
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2021-05-30T15:28:16Z'
+started_on: "2021-05-30T15:28:16Z"
 ---
 
 This is a system that will monitor the water levels of a river/lake/stream and predicts the occurrence of a flood and generate an alert accordingly. This system would not only measure the water level but also the water velocity in order to give a better prediction of the risky situations.

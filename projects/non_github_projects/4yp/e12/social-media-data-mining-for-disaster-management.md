@@ -10,9 +10,9 @@ grand_parent: Undergraduate Research Projects
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
-tags: [	Machine learning and Data Mining ]
-team: [ Prageeth Wanigasekara, Subhani Munasinghe, Pavinaa Thavapalan, Malintha Adikari ]
-supervisors: [ Mr. DS Deegalla ]
+tags: [Machine learning and Data Mining]
+team: [Prageeth Wanigasekara, Subhani Munasinghe, Pavinaa Thavapalan, Malintha Adikari]
+supervisors: [Mr. DS Deegalla]
 
 has_publication: false
 publication: ""

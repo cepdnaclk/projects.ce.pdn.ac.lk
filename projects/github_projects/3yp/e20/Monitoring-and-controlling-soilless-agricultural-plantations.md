@@ -2,7 +2,7 @@
 layout: project_page
 title: Monitoring and controlling soilless agricultural plantations
 permalink: /3yp/e20/Monitoring-and-controlling-soilless-agricultural-plantations/
-description: ''
+description: ""
 has_children: false
 parent: E20 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
@@ -13,6 +13,5 @@ page_url: https://cepdnaclk.github.io/e20-3yp-Monitoring-and-controlling-soilles
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2025-01-05T08:17:50Z'
+started_on: "2025-01-05T08:17:50Z"
 ---
-

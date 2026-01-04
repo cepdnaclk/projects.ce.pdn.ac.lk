@@ -14,7 +14,7 @@ page_url: blank
 forks: 2
 watchers: 1
 stars: 1
-started_on: '2025-05-23T03:47:51Z'
+started_on: "2025-05-23T03:47:51Z"
 ---
 
 In this project, we designed a processor to implement RISCV 32 bit ISA. Here we implemented RV32I and RV32M instructions

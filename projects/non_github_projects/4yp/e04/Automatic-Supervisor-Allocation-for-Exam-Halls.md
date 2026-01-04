@@ -11,7 +11,7 @@ cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
 team: [K. Pemarathne (E/04/204)]
-supervisors: [ Prof. Roshan G. Ragel]
+supervisors: [Prof. Roshan G. Ragel]
 
 has_publication: false
 publication: ""

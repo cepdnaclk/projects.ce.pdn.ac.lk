@@ -2,7 +2,7 @@
 layout: project_page
 title: OASIS Teledentistry Mobile Application
 permalink: /co227/e20/OASIS-Teledentistry-Mobile-Application/
-description: ''
+description: ""
 has_children: false
 parent: E20 Software Systems Projects
 grand_parent: Software Systems Projects
@@ -13,6 +13,5 @@ page_url: https://cepdnaclk.github.io/e20-co227-OASIS-Teledentistry-Mobile-Appli
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2024-06-02T07:52:21Z'
+started_on: "2024-06-02T07:52:21Z"
 ---
-

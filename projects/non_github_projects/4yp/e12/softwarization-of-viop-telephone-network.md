@@ -10,9 +10,9 @@ grand_parent: Undergraduate Research Projects
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
-tags: [	Computer Networks ]
-team: [ Deepthi Gunasekara, Senani Dananjali, Chandima Jayawickrama ]
-supervisors: [ Dr. Asitha Bandaranayake ]
+tags: [Computer Networks]
+team: [Deepthi Gunasekara, Senani Dananjali, Chandima Jayawickrama]
+supervisors: [Dr. Asitha Bandaranayake]
 
 has_publication: no
 publication: ""

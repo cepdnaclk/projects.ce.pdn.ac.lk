@@ -10,9 +10,9 @@ grand_parent: Undergraduate Research Projects
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
-tags: [	 ]
-team: [ Ananda N.W.M.T.D.L , Chandana K.G.D , Jayasundara R.M.S.D ]
-supervisors: [ Dr. Eng. Kamalanath Samarakoon ]
+tags: []
+team: [Ananda N.W.M.T.D.L, Chandana K.G.D, Jayasundara R.M.S.D]
+supervisors: [Dr. Eng. Kamalanath Samarakoon]
 
 has_publication: no
 publication: ""

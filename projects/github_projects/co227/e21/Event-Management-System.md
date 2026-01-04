@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e21-co227-Event-Management-System
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2025-11-14T16:32:10Z'
+started_on: "2025-11-14T16:32:10Z"
 ---
 
 Users browse event listings and receive personalized recommendations based on saved interests. They can manage interests to refine suggestions. Admins authenticate to an admin dashboard to review and control which events appear to users. It can serve as a starter for community calendars, campus activities, or internal company events.

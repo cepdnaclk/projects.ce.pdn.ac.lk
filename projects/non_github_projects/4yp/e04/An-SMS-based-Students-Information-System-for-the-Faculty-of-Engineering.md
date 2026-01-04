@@ -11,9 +11,10 @@ cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
 team: [D.R.Lunugalage (E/04/171), K.V.N.M.Singaghosha (E/04/277)]
-supervisors: [ Prof. Roshan G. Ragel ]
+supervisors: [Prof. Roshan G. Ragel]
 
 has_publication: false
 publication: ""
 ---
+
 SMS Vehicle Sharing System is a SMS based software system which provides a cost efficient and convenient way for passengers to book and share a vehicle to reach their destinations of a particular journey.

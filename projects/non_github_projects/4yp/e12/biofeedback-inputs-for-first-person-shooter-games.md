@@ -10,9 +10,9 @@ grand_parent: Undergraduate Research Projects
 cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
-tags: [	Human Computer Interaction ]
-team: [ Sanjeewa Kumara, Chamini Prashakthi, Sasitha Rajapaksha, Titus Nandakumara ]
-supervisors: [ Dr. Isuru Nawinne, Prof. Roshan G. Ragel ]
+tags: [Human Computer Interaction]
+team: [Sanjeewa Kumara, Chamini Prashakthi, Sasitha Rajapaksha, Titus Nandakumara]
+supervisors: [Dr. Isuru Nawinne, Prof. Roshan G. Ragel]
 
 has_publication: false
 publication: ""

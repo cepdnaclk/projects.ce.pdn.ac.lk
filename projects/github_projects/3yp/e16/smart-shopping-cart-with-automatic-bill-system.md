@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e16-3yp-smart-shopping-cart-with-automatic
 forks: 4
 watchers: 6
 stars: 6
-started_on: '2020-10-16T19:16:02Z'
+started_on: "2020-10-16T19:16:02Z"
 ---
 
-This project is about smart shopping system.The overall project comprises of a smart shopping cart which is capable of automatic billing.To manage the carts inside the shopping area  we introduce a desktop app for the supermarket management .We also introduced a mobile app and a web app which synchronises with the shopping cart  makes the shopping experience smarter.
+This project is about smart shopping system.The overall project comprises of a smart shopping cart which is capable of automatic billing.To manage the carts inside the shopping area we introduce a desktop app for the supermarket management .We also introduced a mobile app and a web app which synchronises with the shopping cart makes the shopping experience smarter.

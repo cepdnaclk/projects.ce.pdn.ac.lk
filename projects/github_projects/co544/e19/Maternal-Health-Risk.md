@@ -17,7 +17,7 @@ page_url: blank
 forks: 3
 watchers: 1
 stars: 1
-started_on: '2024-04-24T16:42:05Z'
+started_on: "2024-04-24T16:42:05Z"
 ---
 
 Using advanced machine learning techniques, our project predicts maternal health risks during pregnancy and childbirth. By analyzing various factors like medical history and prenatal care data, our model offers timely insights to healthcare providers, enabling proactive interventions and better outcomes for mothers and babies.

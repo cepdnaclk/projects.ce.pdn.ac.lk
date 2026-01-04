@@ -11,7 +11,7 @@ cover_url: https://cepdnaclk.github.io/projects.ce.pdn.ac.lk/data/categories/4yp
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 
 team: [A.P.D. Krishnajith (E/04/153), R.D.I.P. Devinda (E/04/065)]
-supervisors: [ Prof. Roshan G. Ragel]
+supervisors: [Prof. Roshan G. Ragel]
 
 has_publication: false
 publication: ""

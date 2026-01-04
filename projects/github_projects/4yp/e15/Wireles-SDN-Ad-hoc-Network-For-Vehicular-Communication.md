@@ -2,7 +2,7 @@
 layout: project_page
 title: Wireles SDN Ad hoc Network For Vehicular Communication
 permalink: /4yp/e15/Wireles-SDN-Ad-hoc-Network-For-Vehicular-Communication/
-description: ''
+description: ""
 has_children: false
 parent: E15 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -13,6 +13,5 @@ page_url: blank
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2021-03-04T16:36:26Z'
+started_on: "2021-03-04T16:36:26Z"
 ---
-
