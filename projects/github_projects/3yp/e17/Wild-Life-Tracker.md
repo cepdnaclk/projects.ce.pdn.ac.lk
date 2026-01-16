@@ -12,8 +12,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-3yp-Wild-Life-Tracker
 page_url: https://cepdnaclk.github.io/e17-3yp-Wild-Life-Tracker
 forks: 3
-watchers: 2
-stars: 2
+watchers: 3
+stars: 3
 started_on: "2021-06-24T10:01:57Z"
 ---
 

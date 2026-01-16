@@ -11,7 +11,7 @@ cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-4yp-voice-enabled-llm-agentic-construction-scheduler
 page_url: https://cepdnaclk.github.io/e20-4yp-voice-enabled-llm-agentic-construction-scheduler
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: "2026-01-02T05:02:52Z"
