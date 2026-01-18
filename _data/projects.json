@@ -26293,7 +26293,7 @@
     "api_url": "https://api.github.com/repos/cepdnaclk/e19-4yp-Out-of-domain-generalization-in-Computer-Vision",
     "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
     "created_at": "2025-02-02T12:52:48Z",
-    "updated_at": "2026-01-14T17:57:40Z",
+    "updated_at": "2026-01-18T11:33:31Z",
     "forks_count": 0,
     "stars_count": 0,
     "watchers_count": 0,
@@ -34665,7 +34665,7 @@
     "api_url": "https://api.github.com/repos/cepdnaclk/e20-3yp-Smart-Aquarium",
     "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
     "created_at": "2024-12-16T07:24:28Z",
-    "updated_at": "2025-12-02T06:27:30Z",
+    "updated_at": "2026-01-17T04:41:17Z",
     "forks_count": 4,
     "stars_count": 1,
     "watchers_count": 1,
@@ -35547,10 +35547,14 @@
   "e20-4yp-A-Hierarchical-Hybrid-Framework-for-Intrusion-Detection-in-Network-and-Application-Layers": {
     "projName": "A Hierarchical Hybrid Framework for Intrusion Detection in Network and Application Layers",
     "batch": "E20",
-    "category": "Undergraduate Research Projects",
+    "category": {
+      "title": "Undergraduate Research Projects",
+      "code": "4yp",
+      "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+    },
     "repo_url": "https://github.com/cepdnaclk/e20-4yp-A-Hierarchical-Hybrid-Framework-for-Intrusion-Detection-in-Network-and-Application-Layers",
-    "project_url": "https://projects.ce.pdn.ac.lk/4yp/e20/A-Hierarchical-Hybrid-Framework-for-Intrusion-Detection-in-Network-and-Application-Layers",
-    "page_url": null,
+    "project_url": "https://projects.ce.pdn.ac.lk/4yp/e20/A-Hierarchical-Hybrid-Framework-for-Intrusion-Detection-in-Network-and-Application-Layers/",
+    "page_url": "https://cepdnaclk.github.io/e20-4yp-A-Hierarchical-Hybrid-Framework-for-Intrusion-Detection-in-Network-and-Application-Layers",
     "api_url": "https://api.github.com/repos/cepdnaclk/e20-4yp-A-Hierarchical-Hybrid-Framework-for-Intrusion-Detection-in-Network-and-Application-Layers",
     "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
     "created_at": "2026-01-07T04:02:17Z",
@@ -35562,39 +35566,158 @@
     "topics": [],
     "has_projects": true,
     "has_wiki": true,
-    "has_pages": true
+    "has_pages": true,
+    "description": "This a repository for the 4YP project on A Hierarchical Hybrid Framework for Intrusion  Detection in Network and Application Layers which is ML-based IDS",
+    "team": {
+      "E/20/416": {
+        "name": "Vithushan E.T.L.",
+        "email": "e20416@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/Vithustennysan8",
+        "linkedin": "https://www.linkedin.com/in/vithushan-e-t-l-265a072a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/416",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20416.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/416/"
+      },
+      "E/20/099": {
+        "name": "T.Eniyavan",
+        "email": "e20099@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/dranzercruz/dranzercruz.git",
+        "linkedin": "https://www.linkedin.com/in/t-eniyavan-195537291",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/099",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20099.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/099/"
+      },
+      "E/19/174": {
+        "name": "Jegatheesan S.",
+        "email": "e19174@eng.pdn.ac.lk",
+        "website": "",
+        "github": "",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E19/174",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e19/e19174.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e19/174/"
+      }
+    },
+    "supervisors": {
+      "biswajithd@eng.pdn.ac.lk": {
+        "name": "Mr. Biswajith Dissanayake",
+        "email": "biswajithd@eng.pdn.ac.lk",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/biswajith-dissanayake/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/biswajith-dissanayake.jpg",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/biswajithd",
+        "website": "#",
+        "linkedin": "https://www.linkedin.com/in/bak-dissanayake94718162555/",
+        "researchgate": "#",
+        "google_scholar": "#"
+      }
+    },
+    "tags": ["Machine Learning", "Security", "IDS"]
   },
   "e20-4yp-AI-Enabled-Digital-Twin-for-Crack-Evolution-in-Concrete-Beams-": {
     "projName": "AI Enabled Digital Twin for Crack Evolution in Concrete Beams ",
     "batch": "E20",
-    "category": "Undergraduate Research Projects",
+    "category": {
+      "title": "Undergraduate Research Projects",
+      "code": "4yp",
+      "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+    },
     "repo_url": "https://github.com/cepdnaclk/e20-4yp-AI-Enabled-Digital-Twin-for-Crack-Evolution-in-Concrete-Beams-",
-    "project_url": "https://projects.ce.pdn.ac.lk/4yp/e20/AI-Enabled-Digital-Twin-for-Crack-Evolution-in-Concrete-Beams-",
-    "page_url": null,
+    "project_url": "https://projects.ce.pdn.ac.lk/4yp/e20/AI-Enabled-Digital-Twin-for-Crack-Evolution-in-Concrete-Beams-/",
+    "page_url": "https://cepdnaclk.github.io/e20-4yp-AI-Enabled-Digital-Twin-for-Crack-Evolution-in-Concrete-Beams-",
     "api_url": "https://api.github.com/repos/cepdnaclk/e20-4yp-AI-Enabled-Digital-Twin-for-Crack-Evolution-in-Concrete-Beams-",
     "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
     "created_at": "2026-01-14T04:30:48Z",
     "updated_at": "2026-01-14T04:59:29Z",
-    "forks_count": 2,
+    "forks_count": 3,
     "stars_count": 0,
     "watchers_count": 0,
     "language": null,
     "topics": [],
     "has_projects": true,
     "has_wiki": true,
-    "has_pages": true
+    "has_pages": true,
+    "description": "This research presents a Digital Twin framework overcoming SHM limitations. We developed a surrogate deep learning model trained on FEA simulations with Concrete Damaged Plasticity parameters. It captures complex behaviors like cracking and yielding, revealing internal degradation missed by sensors.",
+    "team": {
+      "E/20/231": {
+        "name": "Madhura T.W.K.J.",
+        "email": "e20231@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/JanithMadhura",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/231",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20231.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/231/"
+      },
+      "E/20/016": {
+        "name": "Amarakeerthi H.K.K.G",
+        "email": "e20016@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/kavindu016",
+        "linkedin": "https://www.linkedin.com/in/Kavindu Gajendra/",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/016",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20016.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/016/"
+      },
+      "E/20/404": {
+        "name": "Ukwaththa U.A.N.T.",
+        "email": "e20404@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/NethminE20",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/404",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20404.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/404/"
+      }
+    },
+    "supervisors": {
+      "upuljm@eng.pdn.ac.lk": {
+        "name": "Dr. Upul Jayasinghe",
+        "email": "upuljm@eng.pdn.ac.lk",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/upul-jayasinghe/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/upul-jayasinghe.jpg",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/upuljm",
+        "website": "#",
+        "linkedin": "https://www.linkedin.com/in/upuljm/",
+        "researchgate": "https://www.researchgate.net/profile/Upul-Jayasinghe",
+        "google_scholar": "https://scholar.google.ch/citations?user=9nBn4b0AAAAJ"
+      },
+      "supunj@eng.pdn.ac.lk": {
+        "name": "Dr. J.A.S.C.Jayasinghe",
+        "email": "supunj@eng.pdn.ac.lk",
+        "profile_url": "#",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
+        "api_url": "#",
+        "website": "#",
+        "linkedin": "#",
+        "researchgate": "#",
+        "google_scholar": "#"
+      }
+    },
+    "tags": ["Final Year Projects"]
   },
   "e20-4yp-Explainable-AI-Driven-Zero-Trust-Anomaly-Detection-for-Encrypted-Traffic": {
     "projName": "Explainable AI Driven Zero Trust Anomaly Detection for Encrypted Traffic",
     "batch": "E20",
-    "category": "Undergraduate Research Projects",
+    "category": {
+      "title": "Undergraduate Research Projects",
+      "code": "4yp",
+      "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+    },
     "repo_url": "https://github.com/cepdnaclk/e20-4yp-Explainable-AI-Driven-Zero-Trust-Anomaly-Detection-for-Encrypted-Traffic",
-    "project_url": "https://projects.ce.pdn.ac.lk/4yp/e20/Explainable-AI-Driven-Zero-Trust-Anomaly-Detection-for-Encrypted-Traffic",
-    "page_url": null,
+    "project_url": "https://projects.ce.pdn.ac.lk/4yp/e20/Explainable-AI-Driven-Zero-Trust-Anomaly-Detection-for-Encrypted-Traffic/",
+    "page_url": "https://cepdnaclk.github.io/e20-4yp-Explainable-AI-Driven-Zero-Trust-Anomaly-Detection-for-Encrypted-Traffic",
     "api_url": "https://api.github.com/repos/cepdnaclk/e20-4yp-Explainable-AI-Driven-Zero-Trust-Anomaly-Detection-for-Encrypted-Traffic",
     "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
     "created_at": "2025-12-22T07:53:16Z",
-    "updated_at": "2026-01-13T17:11:44Z",
+    "updated_at": "2026-01-18T11:20:43Z",
     "forks_count": 0,
     "stars_count": 0,
     "watchers_count": 0,
@@ -35602,7 +35725,68 @@
     "topics": [],
     "has_projects": true,
     "has_wiki": true,
-    "has_pages": true
+    "has_pages": true,
+    "description": "The aim of this project is to develop an AI-driven anomaly detection system for encrypted traffic in Zero Trust Architecture (ZTA) with explainable AI (XAI) for transparency.",
+    "team": {
+      "E/20/288": {
+        "name": "Chalaka Perera",
+        "email": "e20288@eng.pdn.ac.lk",
+        "website": "",
+        "github": "",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/288",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20288.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/288/"
+      },
+      "E/20/420": {
+        "name": "Janith Wanasinghe",
+        "email": "e20420@eng.pdn.ac.lk",
+        "website": "https://janithkw.github.io/",
+        "github": "https://github.com/janithkw",
+        "linkedin": "https://www.linkedin.com/in/janithwanasinghe/",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/420",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20420.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/420/"
+      },
+      "E/20/449": {
+        "name": "Sandaru Wijewardhana",
+        "email": "e20449@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/sandaruwijewardhana",
+        "linkedin": "https://www.linkedin.com/in/sandaru-sanchitha-wijewardhana-8b7009244/",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/449",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20449.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/449/"
+      }
+    },
+    "supervisors": {
+      "namal@eng.pdn.ac.lk": {
+        "name": "Dr. Suneth Namal Karunarathna",
+        "email": "namal@eng.pdn.ac.lk",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/suneth-namal-karunarathna/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/suneth-namal-karunarathna.png",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/namal",
+        "website": "#",
+        "linkedin": "https://lk.linkedin.com/in/suneth-namal-b70b8688",
+        "researchgate": "https://www.researchgate.net/profile/Suneth-Namal",
+        "google_scholar": "https://scholar.google.com/citations?user=G39TP7EAAAAJ&hl=en"
+      },
+      "upuljm@eng.pdn.ac.lk": {
+        "name": "Dr. Upul Jayasinghe",
+        "email": "upuljm@eng.pdn.ac.lk",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/upul-jayasinghe/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/upul-jayasinghe.jpg",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/upuljm",
+        "website": "#",
+        "linkedin": "https://www.linkedin.com/in/upuljm/",
+        "researchgate": "https://www.researchgate.net/profile/Upul-Jayasinghe",
+        "google_scholar": "https://scholar.google.ch/citations?user=9nBn4b0AAAAJ"
+      }
+    },
+    "tags": ["XAI", "Cyber", "ZTA"]
   },
   "e20-4yp-Federated-Agentic-Defense-For-Zero-Day-Attacks": {
     "projName": "Federated Agentic Defense For Zero Day Attacks",
@@ -35618,10 +35802,10 @@
     "api_url": "https://api.github.com/repos/cepdnaclk/e20-4yp-Federated-Agentic-Defense-For-Zero-Day-Attacks",
     "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
     "created_at": "2025-12-30T14:50:38Z",
-    "updated_at": "2026-01-10T04:19:18Z",
-    "forks_count": 2,
-    "stars_count": 0,
-    "watchers_count": 0,
+    "updated_at": "2026-01-18T12:46:01Z",
+    "forks_count": 3,
+    "stars_count": 1,
+    "watchers_count": 1,
     "language": "Jupyter Notebook",
     "topics": [],
     "has_projects": true,
@@ -35692,10 +35876,14 @@
   "e20-4yp-Lightweight-Deep-Learning-Models-for-Detection-of-Neurological-Disorders-Using-EEG-Signals": {
     "projName": "Lightweight Deep Learning Models for Detection of Neurological Disorders Using EEG Signals",
     "batch": "E20",
-    "category": "Undergraduate Research Projects",
+    "category": {
+      "title": "Undergraduate Research Projects",
+      "code": "4yp",
+      "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+    },
     "repo_url": "https://github.com/cepdnaclk/e20-4yp-Lightweight-Deep-Learning-Models-for-Detection-of-Neurological-Disorders-Using-EEG-Signals",
-    "project_url": "https://projects.ce.pdn.ac.lk/4yp/e20/Lightweight-Deep-Learning-Models-for-Detection-of-Neurological-Disorders-Using-EEG-Signals",
-    "page_url": "",
+    "project_url": "https://projects.ce.pdn.ac.lk/4yp/e20/Lightweight-Deep-Learning-Models-for-Detection-of-Neurological-Disorders-Using-EEG-Signals/",
+    "page_url": "#",
     "api_url": "https://api.github.com/repos/cepdnaclk/e20-4yp-Lightweight-Deep-Learning-Models-for-Detection-of-Neurological-Disorders-Using-EEG-Signals",
     "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
     "created_at": "2026-01-05T10:48:44Z",
@@ -35707,7 +35895,11 @@
     "topics": [],
     "has_projects": true,
     "has_wiki": true,
-    "has_pages": false
+    "has_pages": false,
+    "description": "Development of a lightweight deep learning framework for EEG-based detection of neurological disorders, optimized for edge deployment, focusing on Alzheimer's disease, Parkinson's disease, and epilepsy using efficient model architectures and real-time inference constraints.",
+    "team": {},
+    "supervisors": {},
+    "tags": {}
   },
   "e20-4yp-Optimizing-Communication-Efficiency-and-Latency-in-Blockchain-Enabled-FL-Systems": {
     "projName": "Optimizing Communication Efficiency and Latency in Blockchain Enabled FL Systems",
@@ -35882,10 +36074,14 @@
   "e20-4yp-SinhSafe": {
     "projName": "SinhSafe",
     "batch": "E20",
-    "category": "Undergraduate Research Projects",
+    "category": {
+      "title": "Undergraduate Research Projects",
+      "code": "4yp",
+      "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+    },
     "repo_url": "https://github.com/cepdnaclk/e20-4yp-SinhSafe",
-    "project_url": "https://projects.ce.pdn.ac.lk/4yp/e20/SinhSafe",
-    "page_url": null,
+    "project_url": "https://projects.ce.pdn.ac.lk/4yp/e20/SinhSafe/",
+    "page_url": "https://cepdnaclk.github.io/e20-4yp-SinhSafe",
     "api_url": "https://api.github.com/repos/cepdnaclk/e20-4yp-SinhSafe",
     "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
     "created_at": "2026-01-14T20:12:04Z",
@@ -35897,7 +36093,35 @@
     "topics": [],
     "has_projects": true,
     "has_wiki": true,
-    "has_pages": true
+    "has_pages": true,
+    "description": "SinhSafe benchmarks XLM-R, SinBERT, and SinhLlama to identify the best model for Sinhala/Singlish cyberbullying detection. Our core contribution is a large pseudo-labeled dataset with fine-grained labels (Normal, Offensive, Bullying), processed via a hybrid transliteration pipeline to advance low-resource NLP safety tools.",
+    "team": {
+      "E/20/397": {
+        "name": "Thilakasiri P.D.",
+        "email": "e20397@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/dimantha00",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/397",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20397.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/397/"
+      }
+    },
+    "supervisors": {
+      "sampath@eng.pdn.ac.lk": {
+        "name": "Dr. Eng. Sampath Deegalla",
+        "email": "sampath@eng.pdn.ac.lk",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/sampath-deegalla/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/sampath-deegalla.jpg",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/sampath",
+        "website": "#",
+        "linkedin": "https://www.linkedin.com/in/dsdeegalla",
+        "researchgate": "https://www.researchgate.net/profile/Sampath-Deegalla-2",
+        "google_scholar": "https://scholar.google.com/citations?user=QDoeGtYAAAAJ&hl=en"
+      }
+    },
+    "tags": ["Cyberbullying Detection", "NLP", "Deep Learning", "Sinhala", "Code-Mixing"]
   },
   "e20-4yp-backdoor-resilient-federated-nids": {
     "projName": "backdoor resilient federated nids",
@@ -35913,7 +36137,7 @@
     "api_url": "https://api.github.com/repos/cepdnaclk/e20-4yp-backdoor-resilient-federated-nids",
     "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
     "created_at": "2025-10-17T14:49:32Z",
-    "updated_at": "2026-01-16T09:00:02Z",
+    "updated_at": "2026-01-17T03:58:42Z",
     "forks_count": 1,
     "stars_count": 0,
     "watchers_count": 0,
@@ -36139,10 +36363,14 @@
   "e20-4yp-wifi-7-backoff-security-testing-and-threat-prediction": {
     "projName": "wifi 7 backoff security testing and threat prediction",
     "batch": "E20",
-    "category": "Undergraduate Research Projects",
+    "category": {
+      "title": "Undergraduate Research Projects",
+      "code": "4yp",
+      "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+    },
     "repo_url": "https://github.com/cepdnaclk/e20-4yp-wifi-7-backoff-security-testing-and-threat-prediction",
-    "project_url": "https://projects.ce.pdn.ac.lk/4yp/e20/wifi-7-backoff-security-testing-and-threat-prediction",
-    "page_url": null,
+    "project_url": "https://projects.ce.pdn.ac.lk/4yp/e20/wifi-7-backoff-security-testing-and-threat-prediction/",
+    "page_url": "#",
     "api_url": "https://api.github.com/repos/cepdnaclk/e20-4yp-wifi-7-backoff-security-testing-and-threat-prediction",
     "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
     "created_at": "2025-10-22T11:39:34Z",
@@ -36154,7 +36382,11 @@
     "topics": [],
     "has_projects": true,
     "has_wiki": false,
-    "has_pages": false
+    "has_pages": false,
+    "description": "wifi 7 security testing and threat prediction using digital twins",
+    "team": {},
+    "supervisors": {},
+    "tags": {}
   },
   "e20-co225-Computer-Engineering-Portal": {
     "projName": "Computer Engineering Portal",
@@ -37933,7 +38165,7 @@
     "api_url": "https://api.github.com/repos/cepdnaclk/e20-co227-Village-Management-System",
     "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co227/thumbnail.jpg",
     "created_at": "2024-12-04T11:28:55Z",
-    "updated_at": "2025-09-26T17:29:50Z",
+    "updated_at": "2026-01-18T04:47:26Z",
     "forks_count": 1,
     "stars_count": 0,
     "watchers_count": 0,
@@ -38103,10 +38335,10 @@
     "api_url": "https://api.github.com/repos/cepdnaclk/e20-co502-RV32IM-pipeline-implementation-group-2",
     "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co502/thumbnail.jpg",
     "created_at": "2024-12-01T18:11:41Z",
-    "updated_at": "2026-01-15T09:56:31Z",
+    "updated_at": "2026-01-17T04:12:46Z",
     "forks_count": 1,
-    "stars_count": 2,
-    "watchers_count": 2,
+    "stars_count": 3,
+    "watchers_count": 3,
     "language": "Verilog",
     "topics": [],
     "has_projects": true,
@@ -39984,10 +40216,14 @@
   "e21-3yp-Smart-IV": {
     "projName": "Smart IV",
     "batch": "E21",
-    "category": "Cyber-Physical Systems Projects",
+    "category": {
+      "title": "Cyber-Physical Systems Projects",
+      "code": "3yp",
+      "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+    },
     "repo_url": "https://github.com/cepdnaclk/e21-3yp-Smart-IV",
-    "project_url": "https://projects.ce.pdn.ac.lk/3yp/e21/Smart-IV",
-    "page_url": null,
+    "project_url": "https://projects.ce.pdn.ac.lk/3yp/e21/Smart-IV/",
+    "page_url": "https://cepdnaclk.github.io/e21-3yp-Smart-IV",
     "api_url": "https://api.github.com/repos/cepdnaclk/e21-3yp-Smart-IV",
     "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
     "created_at": "2026-01-05T05:48:00Z",
@@ -39999,7 +40235,79 @@
     "topics": [],
     "has_projects": true,
     "has_wiki": true,
-    "has_pages": true
+    "has_pages": true,
+    "description": "Automates standard gravity IVs with precise closed-loop stepper motor control. Features real-time drop counting, predictive volume estimation, and IoT connectivity for affordable, high-safety infusion monitoring.",
+    "team": {
+      "E/21/206": {
+        "name": "Paarkavi Jeyatheeswaran",
+        "email": "e21206@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/Paarkavi29",
+        "linkedin": "https://www.linkedin.com/in/paarkavi-jeyatheeswaran-ab8541321/",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E21/206",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e21/e21206.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e21/206/"
+      },
+      "E/21/283": {
+        "name": "Pavindran Velalagan",
+        "email": "e21283@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/pavindranvelalagan",
+        "linkedin": "https://www.linkedin.com/in/pavindran-velalagan-404646214",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E21/283",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e21/e21283.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e21/283/"
+      },
+      "E/21/375": {
+        "name": "Shagiththiah Kirupakaran",
+        "email": "e21375@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/Shagiththiah",
+        "linkedin": "www.linkedin.com/in/shagiththiah-kirupakaran-608457254",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E21/375",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e21/e21375.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e21/375/"
+      },
+      "E/21/395": {
+        "name": "Suthail A.L.M.",
+        "email": "e21395@eng.pdn.ac.lk",
+        "website": "",
+        "github": "",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E21/395",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e21/e21395.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e21/395/"
+      }
+    },
+    "supervisors": {
+      "yasodhav@eng.pdn.ac.lk": {
+        "name": "Ms. Yasodha Vimukthi",
+        "email": "yasodhav@eng.pdn.ac.lk",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/yasodha-vimukthi/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/yasodha-vimukthi.jpeg",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/yasodhav",
+        "website": "#",
+        "linkedin": "https://www.linkedin.com/in/yashodha-vimukthi-586378137/",
+        "researchgate": "#",
+        "google_scholar": "#"
+      },
+      "isurunawinne@eng.pdn.ac.lk": {
+        "name": "Dr. Isuru Nawinne",
+        "email": "isurunawinne@eng.pdn.ac.lk",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/isuru-nawinne.png",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+        "website": "#",
+        "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+        "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+        "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+      }
+    },
+    "tags": ["Web", "Embedded Systems"]
   },
   "e21-co227-Crowd-Balance-Mobile-App": {
     "projName": "Crowd Balance Mobile App",
