@@ -14,8 +14,8 @@ thumbnail_url: https://cepdnaclk.github.io/e20-3yp-Smart-Locker-System/data/thum
 repo_url: https://github.com/cepdnaclk/e20-3yp-Smart-Locker-System
 page_url: https://cepdnaclk.github.io/e20-3yp-Smart-Locker-System
 forks: 4
-watchers: 3
-stars: 3
+watchers: 4
+stars: 4
 started_on: "2025-01-04T06:45:22Z"
 ---
 

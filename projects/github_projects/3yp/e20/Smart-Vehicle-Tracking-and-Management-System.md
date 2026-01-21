@@ -10,7 +10,7 @@ cover_url: https://cepdnaclk.github.io/e20-3yp-Smart-Vehicle-Tracking-and-Manage
 thumbnail_url: https://cepdnaclk.github.io/e20-3yp-Smart-Vehicle-Tracking-and-Management-System/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-3yp-Smart-Vehicle-Tracking-and-Management-System
 page_url: https://cepdnaclk.github.io/e20-3yp-Smart-Vehicle-Tracking-and-Management-System
-forks: 1
+forks: 2
 watchers: 1
 stars: 1
 started_on: "2025-01-11T18:51:30Z"
