@@ -13,8 +13,8 @@ thumbnail_url: /data/categories/co226/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co226-agriculture-management-system
 page_url: https://cepdnaclk.github.io/e19-co226-agriculture-management-system
 forks: 8
-watchers: 6
-stars: 6
+watchers: 7
+stars: 7
 started_on: "2023-08-22T18:05:16Z"
 ---
 
