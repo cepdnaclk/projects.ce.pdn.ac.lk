@@ -15,8 +15,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-3yp-Smart-Waste-Management-System
 page_url: https://cepdnaclk.github.io/e19-3yp-Smart-Waste-Management-System
 forks: 6
-watchers: 12
-stars: 12
+watchers: 13
+stars: 13
 started_on: "2023-11-15T12:26:56Z"
 ---
 
