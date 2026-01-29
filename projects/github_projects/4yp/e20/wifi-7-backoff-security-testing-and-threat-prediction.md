@@ -9,7 +9,7 @@ grand_parent: Undergraduate Research Projects
 cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-4yp-wifi-7-backoff-security-testing-and-threat-prediction
-page_url: blank
+page_url: https://cepdnaclk.github.io/e20-4yp-wifi-7-backoff-security-testing-and-threat-prediction
 forks: 1
 watchers: 0
 stars: 0

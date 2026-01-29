@@ -8,8 +8,8 @@ description: TourMate simplifies trip planning by ending the need for endless sc
 has_children: false
 parent: E20 Software Systems Projects
 grand_parent: Software Systems Projects
-cover_url: /data/categories/co227/cover_page.jpg
-thumbnail_url: /data/categories/co227/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/e20-CO227-TourMate/data/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/e20-CO227-TourMate/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-CO227-TourMate
 page_url: https://cepdnaclk.github.io/e20-CO227-TourMate
 forks: 0
