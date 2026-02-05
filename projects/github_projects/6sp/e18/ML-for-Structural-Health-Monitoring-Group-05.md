@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e18-6sp-ML-for-Structural-Health-Monitorin
 forks: 3
 watchers: 0
 stars: 0
-started_on: '2023-06-09T04:02:52Z'
+started_on: "2023-06-09T04:02:52Z"
 ---
 
 Prediction of Drag Force Coefficient for Single Column Supported Billboard Structures using ML methods

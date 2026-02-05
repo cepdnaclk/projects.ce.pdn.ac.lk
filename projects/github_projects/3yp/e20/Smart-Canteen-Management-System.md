@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e20-3yp-Smart-Canteen-Management-System
 forks: 2
 watchers: 1
 stars: 1
-started_on: '2024-12-13T16:49:38Z'
+started_on: "2024-12-13T16:49:38Z"
 ---
 
 Smart canteen management system is a system designed to increase the efficiency of cafeterias in different working environments and to provide more user friendly functions such as smart pay, an app to keep track of user activities, digital touch screen for the menu item selection,congestion alert system.

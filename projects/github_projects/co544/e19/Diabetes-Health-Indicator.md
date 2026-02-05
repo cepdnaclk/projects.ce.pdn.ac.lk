@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e19-co544-Diabetes-Health-Indicator
 forks: 2
 watchers: 1
 stars: 1
-started_on: '2024-04-26T00:41:49Z'
+started_on: "2024-04-26T00:41:49Z"
 ---
 
 The main focus is on predicting diabetes and cardiovascular disease using machine learning models. It aims to identify at-risk patients using survey data and laboratory results, and to find key variables contributing to these diseases.

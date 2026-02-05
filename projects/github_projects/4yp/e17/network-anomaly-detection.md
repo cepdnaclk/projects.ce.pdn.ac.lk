@@ -2,7 +2,7 @@
 layout: project_page
 title: network anomaly detection
 permalink: /4yp/e17/network-anomaly-detection/
-description: ''
+description: ""
 has_children: false
 parent: E17 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -13,6 +13,5 @@ page_url: https://cepdnaclk.github.io/e17-4yp-network-anomaly-detection
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2023-05-22T16:59:52Z'
+started_on: "2023-05-22T16:59:52Z"
 ---
-

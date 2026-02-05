@@ -18,7 +18,7 @@ page_url: https://cepdnaclk.github.io/e14-3yp-Automated-Monitoring-of-Hospital-P
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2021-05-29T20:53:40Z'
+started_on: "2021-05-29T20:53:40Z"
 ---
 
 This study develops a remote monitoring diagnostic framework to detect condition of patients in real-time which helps avoiding potential diseases.This system will be basically used in hospitals and medical centers. The proposed system has an embedded micro controller connected to a set of medical sensors (the sensors would differ according to the condition of the patient) and a wireless communication module (Bluetooth) .

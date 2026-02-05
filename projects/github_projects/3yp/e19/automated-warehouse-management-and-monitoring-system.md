@@ -2,7 +2,7 @@
 layout: project_page
 title: automated warehouse management and monitoring system
 permalink: /3yp/e19/automated-warehouse-management-and-monitoring-system/
-description: ''
+description: ""
 has_children: false
 parent: E19 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
@@ -13,6 +13,5 @@ page_url: https://cepdnaclk.github.io/e19-3yp-automated-warehouse-management-and
 forks: 7
 watchers: 1
 stars: 1
-started_on: '2023-11-19T12:10:16Z'
+started_on: "2023-11-19T12:10:16Z"
 ---
-

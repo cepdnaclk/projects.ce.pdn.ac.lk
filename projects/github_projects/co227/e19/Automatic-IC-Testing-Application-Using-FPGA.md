@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e19-co227-Automatic-IC-Testing-Application
 forks: 0
 watchers: 1
 stars: 1
-started_on: '2023-08-28T04:36:51Z'
+started_on: "2023-08-28T04:36:51Z"
 ---
 
 Welcome to the Automated IC Testing Application repository! This project aims to provide a comprehensive solution for automated testing of integrated circuits (ICs) using Field-Programmable Gate Arrays (FPGAs).

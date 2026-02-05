@@ -2,7 +2,7 @@
 layout: project_page
 title: Temporal Attention Based MARL
 permalink: /4yp/e14/Temporal-Attention-Based-MARL/
-description: ''
+description: ""
 has_children: false
 parent: E14 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -13,6 +13,5 @@ page_url: blank
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2020-10-20T05:58:26Z'
+started_on: "2020-10-20T05:58:26Z"
 ---
-

@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e20-4yp-wifi-7-backoff-security-testing-an
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2025-10-22T11:39:34Z'
+started_on: "2025-10-22T11:39:34Z"
 ---
 
 wifi 7 security testing and threat prediction using digital twins

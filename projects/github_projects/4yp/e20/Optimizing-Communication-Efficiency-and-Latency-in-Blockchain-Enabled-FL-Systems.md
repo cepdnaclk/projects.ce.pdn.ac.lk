@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e20-4yp-Optimizing-Communication-Efficienc
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2025-09-04T14:29:33Z'
+started_on: "2025-09-04T14:29:33Z"
 ---
 
 A blockchain-enabled federated learning framework that enhances the original LiteChain architecture by minimizing communication overhead and reducing end-to-end latency.

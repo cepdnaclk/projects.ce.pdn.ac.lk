@@ -14,7 +14,7 @@ page_url: blank
 forks: 3
 watchers: 2
 stars: 2
-started_on: '2024-04-25T18:20:39Z'
+started_on: "2024-04-25T18:20:39Z"
 ---
 
 Using Machine Learning to provide data based recommendations for students to select a field (department) after 1st year results, and to choose technical electives.

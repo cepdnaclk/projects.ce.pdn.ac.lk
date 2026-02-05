@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e16-co328-Project-Publication-Platform
 forks: 3
 watchers: 0
 stars: 0
-started_on: '2021-10-31T08:38:39Z'
+started_on: "2021-10-31T08:38:39Z"
 ---
 
 Website based platform for inventors and students to publish their projects and attract investment to continue their projects to the production stage.

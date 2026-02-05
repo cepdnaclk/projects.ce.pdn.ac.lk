@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e19-3yp-smart-supermarket-navigation-syste
 forks: 3
 watchers: 1
 stars: 1
-started_on: '2023-11-18T07:17:29Z'
+started_on: "2023-11-18T07:17:29Z"
 ---
 
 Development of an indoor navigation system for supermarkets aimed at enhancing the shopping experience

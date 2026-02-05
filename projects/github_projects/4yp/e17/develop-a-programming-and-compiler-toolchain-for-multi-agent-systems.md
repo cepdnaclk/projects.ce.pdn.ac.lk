@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e17-4yp-develop-a-programming-and-compiler
 forks: 6
 watchers: 0
 stars: 0
-started_on: '2023-05-20T09:47:28Z'
+started_on: "2023-05-20T09:47:28Z"
 ---
 
 The aim is to design an Integrated Development Environment to build software for multi-agent systems. The IDE shall provide facilities to compose algorithms at a high-level (ideally in a visual manner), and compile them over multiple stages into binaries and program the hardware over-the-air (OTA).

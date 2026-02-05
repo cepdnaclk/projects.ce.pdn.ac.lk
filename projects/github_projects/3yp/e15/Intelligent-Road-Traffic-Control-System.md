@@ -18,7 +18,7 @@ page_url: https://cepdnaclk.github.io/e15-3yp-Intelligent-Road-Traffic-Control-S
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2021-05-20T06:21:46Z'
+started_on: "2021-05-20T06:21:46Z"
 ---
 
 Vehicle travel across the world is increasing, especially in larger urban areas. It is a serious problem in traffic congestions in many major cities around the world and in these cities, it has become a nightmare for travelers. Intelligent control of traffic in the future will become a very important issue. Therefore, to better accommodation of this increasing demand, traffic control algorithms need to be simulated and optimized.

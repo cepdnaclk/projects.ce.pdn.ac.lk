@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e16-4yp-Automated-Protein-Function-Predict
 forks: 3
 watchers: 0
 stars: 0
-started_on: '2022-07-19T06:29:16Z'
+started_on: "2022-07-19T06:29:16Z"
 ---
 
 Automated protein function prediction is critical for the annotation of uncharacterized protein sequences, where accurate prediction methods are still required.we expect to create an accurate prediction model that assigns the best sub-graph of the gene ontology to each new protein and output a prediction score for this sub-graph and/or each predicted term .

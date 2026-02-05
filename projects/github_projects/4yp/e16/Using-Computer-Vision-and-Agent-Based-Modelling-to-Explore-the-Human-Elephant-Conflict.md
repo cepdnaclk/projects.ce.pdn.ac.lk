@@ -18,7 +18,7 @@ page_url: https://cepdnaclk.github.io/e16-4yp-Using-Computer-Vision-and-Agent-Ba
 forks: 4
 watchers: 0
 stars: 0
-started_on: '2022-07-20T14:26:58Z'
+started_on: "2022-07-20T14:26:58Z"
 ---
 
 The initial stage of this work focuses on creating a segmented image from a given satellite image with different classes. In the second stage, these images should be converted to an ABM-friendly format. At the final stage, they can be used to simulate the real-world environment with related agents using a suitable Agent-based model.

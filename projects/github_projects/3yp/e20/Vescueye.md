@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e20-3yp-Vescueye
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2025-01-06T07:43:41Z'
+started_on: "2025-01-06T07:43:41Z"
 ---
 
 This project develops a near-infrared (NIR) device for real-time artery detection and blood flow assessment in microvascular surgeries, especially oral and reconstructive. Featuring a cloud server and a UI, it enhances precision, monitors perfusion, and improves outcomes post-surgery.
