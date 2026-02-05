@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e16-4yp-ABM-for-Micro-Mobility-in-Sri-Lank
 forks: 2
 watchers: 0
 stars: 0
-started_on: "2022-07-25T16:09:21Z"
+started_on: '2022-07-25T16:09:21Z'
 ---
 
 Agent Based Model for Micro mobility in Sri Lankan cities

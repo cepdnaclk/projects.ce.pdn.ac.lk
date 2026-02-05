@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e19-co226-database-management-system-for-a
 forks: 4
 watchers: 3
 stars: 3
-started_on: "2023-07-23T14:37:54Z"
+started_on: '2023-07-23T14:37:54Z'
 ---
 
 A restaurant database system to simplify customer data management, enhancing service and personalization. It tracks menu inventory, staff schedules, and reservations seamlessly, revolutionizing restaurant operations. Elevate the customer experience with our comprehensive solution.

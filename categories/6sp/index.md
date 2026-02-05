@@ -1,7 +1,7 @@
 ---
 layout: project_cat
 title: Sixth Semester Projects
-nav_order: "2"
+nav_order: '2'
 permalink: /6sp/
 has_children: true
 code: 6sp

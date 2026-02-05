@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e19-3yp-Automated-Hydroponic-System
 forks: 5
 watchers: 11
 stars: 11
-started_on: "2023-11-13T17:18:22Z"
+started_on: '2023-11-13T17:18:22Z'
 ---
 
 The project 'IoT-Based Automated Hydroponic System' aims to develop a modern and sustainable approach to hydroponic farming that maximizes efficiency by using technology to monitor and control growth conditions, reducing resource consumption, and enabling users to make data-driven decisions for better crop management.

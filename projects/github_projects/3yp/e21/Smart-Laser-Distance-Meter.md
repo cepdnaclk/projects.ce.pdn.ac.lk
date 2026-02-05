@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e21-3yp-Smart-Laser-Distance-Meter
 forks: 0
 watchers: 1
 stars: 1
-started_on: "2026-01-25T16:47:52Z"
+started_on: '2026-01-25T16:47:52Z'
 ---
 
 A smart laser distance meter that combines LiDAR and IMU sensing to provide high-accuracy measurements, automatic area and volume calculations, and real-time 2D floor plan generation. The system uses an ESP32 and a mobile app for visualization, storage, and export.

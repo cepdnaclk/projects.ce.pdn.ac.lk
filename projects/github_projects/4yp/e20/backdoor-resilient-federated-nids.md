@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e20-4yp-backdoor-resilient-federated-nids
 forks: 1
 watchers: 0
 stars: 0
-started_on: "2025-10-17T14:49:32Z"
+started_on: '2025-10-17T14:49:32Z'
 ---
 
 Backdoor-Resilient Federated Learning for Network Intrusion Detection Systems

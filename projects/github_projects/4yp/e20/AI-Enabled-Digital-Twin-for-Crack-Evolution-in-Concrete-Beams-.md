@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: "AI Enabled Digital Twin for Crack Evolution in Concrete Beams "
+title: 'AI Enabled Digital Twin for Crack Evolution in Concrete Beams '
 permalink: /4yp/e20/AI-Enabled-Digital-Twin-for-Crack-Evolution-in-Concrete-Beams-/
 description: This research presents a Digital Twin framework overcoming SHM limitations.
   We developed a surrogate deep learning model trained on FEA simulations with Concrete
@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e20-4yp-AI-Enabled-Digital-Twin-for-Crack-
 forks: 3
 watchers: 0
 stars: 0
-started_on: "2026-01-14T04:30:48Z"
+started_on: '2026-01-14T04:30:48Z'
 ---
 
 This research presents a Digital Twin framework overcoming SHM limitations. We developed a surrogate deep learning model trained on FEA simulations with Concrete Damaged Plasticity parameters. It captures complex behaviors like cracking and yielding, revealing internal degradation missed by sensors.

@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e17-4yp-OCR-and-Translation-from-Sinhala-t
 forks: 2
 watchers: 0
 stars: 0
-started_on: "2023-05-24T06:40:36Z"
+started_on: '2023-05-24T06:40:36Z'
 ---
 
 The project aims to create an OCR-based software that recognizes printed Sinhala text, converts it to editable format, and then translates it to Tamil. This application utilizes OCR technology for text conversion and employs machine translation algorithms for Sinhala-to-Tamil translation.

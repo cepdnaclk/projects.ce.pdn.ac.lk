@@ -20,7 +20,7 @@ page_url: https://cepdnaclk.github.io/e16-3yp-smart-door-lock
 forks: 6
 watchers: 6
 stars: 6
-started_on: "2020-10-17T06:59:56Z"
+started_on: '2020-10-17T06:59:56Z'
 ---
 
 This is a solution which can be used by the advanced security system users at their entrances. This Smart door lock consists of three main security features, RFID sensor, Fingerprint sensor and Face recognition. The collected data is sent to a database and the updated unlocking records will be displayed at the door. In addition, two IR sensors are placed on either side of the door to check the entrance of only one person at a time. All the records of authorized/unauthorized data will be available on the web application and three different admin roles are introduced to manage the web application.

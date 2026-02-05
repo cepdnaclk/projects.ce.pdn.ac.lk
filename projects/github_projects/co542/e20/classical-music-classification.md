@@ -14,7 +14,7 @@ page_url: blank
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2025-03-06T12:24:46Z"
+started_on: '2025-03-06T12:24:46Z'
 ---
 
 Neural network-based classical music classification using MusicNet and GTZAN datasets with MFCC feature extraction.

@@ -2,7 +2,7 @@
 layout: project_page
 title: Road Accident Detection And Notification System
 permalink: /3yp/e18/Road-Accident-Detection-And-Notification-System/
-description: ""
+description: ''
 has_children: false
 parent: E18 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e18-3yp-Road-Accident-Detection-And-Notifi
 forks: 3
 watchers: 2
 stars: 2
-started_on: "2022-10-30T14:55:54Z"
+started_on: '2022-10-30T14:55:54Z'
 ---
+

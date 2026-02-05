@@ -3,7 +3,7 @@ layout: project_page
 title: Active bionic antennas for object detection and 3D localization with ego motion
   cancellation
 permalink: /4yp/e19/Active-bionic-antennas-for-object-detection-and-3D-localization-with-ego-motion-cancellation/
-description: ""
+description: ''
 has_children: false
 parent: E19 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -14,5 +14,6 @@ page_url: https://cepdnaclk.github.io/e19-4yp-Active-bionic-antennas-for-object-
 forks: 2
 watchers: 0
 stars: 0
-started_on: "2025-02-02T14:15:19Z"
+started_on: '2025-02-02T14:15:19Z'
 ---
+

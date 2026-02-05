@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e19-co544-Heart-Disease-Prediction-System
 forks: 3
 watchers: 1
 stars: 1
-started_on: "2024-04-25T13:15:38Z"
+started_on: '2024-04-25T13:15:38Z'
 ---
 
 A machine learning-based diagnostic model for early detection and accurate classification of heart disease in patients.

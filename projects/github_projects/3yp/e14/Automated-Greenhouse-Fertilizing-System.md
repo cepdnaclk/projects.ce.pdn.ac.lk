@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e14-3yp-Automated-Greenhouse-Fertilizing-S
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2021-05-30T19:15:32Z"
+started_on: '2021-05-30T19:15:32Z'
 ---
 
 This project aims to calculate the component(N , K , P) levels which are responsible for the growth of the plant in a real time basis and maintain the component level which is required for the relevant plant. Using this system we can increase the lifetime of a plant and can get the maximum harvest out of the plant.

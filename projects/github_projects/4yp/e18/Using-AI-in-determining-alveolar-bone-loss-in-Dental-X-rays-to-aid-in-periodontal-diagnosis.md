@@ -3,7 +3,7 @@ layout: project_page
 title: Using AI in determining alveolar bone loss in Dental X rays to aid in periodontal
   diagnosis
 permalink: /4yp/e18/Using-AI-in-determining-alveolar-bone-loss-in-Dental-X-rays-to-aid-in-periodontal-diagnosis/
-description: ""
+description: ''
 has_children: false
 parent: E18 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -14,5 +14,6 @@ page_url: https://cepdnaclk.github.io/e18-4yp-Using-AI-in-determining-alveolar-b
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2024-09-07T15:48:02Z"
+started_on: '2024-09-07T15:48:02Z'
 ---
+

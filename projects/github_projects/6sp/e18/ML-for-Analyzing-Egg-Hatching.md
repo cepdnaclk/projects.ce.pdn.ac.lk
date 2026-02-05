@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e18-6sp-ML-for-Analyzing-Egg-Hatching
 forks: 3
 watchers: 2
 stars: 2
-started_on: "2023-05-20T19:42:08Z"
+started_on: '2023-05-20T19:42:08Z'
 ---
 
 Using machine learning algorithms and data analysis techniques to predict the number of hatching eggs, optimize egg hatching conditions, predict optimal incubation parameters, and improve hatch rates.

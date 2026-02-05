@@ -15,7 +15,7 @@ page_url: blank
 forks: 1
 watchers: 1
 stars: 1
-started_on: "2021-03-04T15:53:50Z"
+started_on: '2021-03-04T15:53:50Z'
 ---
 
 To facilitate AI,ML computations and to enable real time processing at the edge,a novel approach is proposed base on computation distribution, vectorization, computation offloading, parallelization and federated learning techniques.

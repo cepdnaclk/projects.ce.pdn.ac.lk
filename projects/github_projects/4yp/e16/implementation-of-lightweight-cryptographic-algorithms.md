@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e16-4yp-implementation-of-lightweight-cryp
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2022-07-23T09:10:42Z"
+started_on: '2022-07-23T09:10:42Z'
 ---
 
 This project aims to implement and analyse NIST Lightweight cryptography competition finalist algorithms. Lightweight cryptographic algorithms are designed to be run on resource-constrained IoT devices.

@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e19-co225-Library-Management-System-Web-Ap
 forks: 4
 watchers: 1
 stars: 1
-started_on: "2023-05-26T05:24:17Z"
+started_on: '2023-05-26T05:24:17Z'
 ---
 
 A library management system is a software application designed to automate and streamline the operations and processes involved in managing a library. It serves as a centralized platform for librarians and library staff to efficiently handle various tasks related to book cataloging, circulation, member management, and more.

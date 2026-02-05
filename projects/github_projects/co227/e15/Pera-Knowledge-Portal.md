@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e15-co227-Pera-Knowledge-Portal
 forks: 1
 watchers: 0
 stars: 0
-started_on: "2020-12-27T14:04:03Z"
+started_on: '2020-12-27T14:04:03Z'
 ---
 
 Pera Knowledge Portal is a web site that will allow visitors to do a full-text search on student project reports and thesis, developed using PHP and ElasticSearch

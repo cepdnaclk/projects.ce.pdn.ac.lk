@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e21-co227-EventStack-Event-Management-Syst
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2025-11-20T08:27:11Z"
+started_on: '2025-11-20T08:27:11Z'
 ---
 
 A complete event management platform with event discovery, organizer tools, expense dashboards, and admin controls - powered by React, Node.js, and PostgreSQL.

@@ -2,7 +2,7 @@
 layout: project_page
 title: Cattle Management System
 permalink: /3yp/e20/Cattle-Management-System/
-description: ""
+description: ''
 has_children: false
 parent: E20 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e20-3yp-Cattle-Management-System
 forks: 7
 watchers: 9
 stars: 9
-started_on: "2024-12-09T05:05:17Z"
+started_on: '2024-12-09T05:05:17Z'
 ---
+

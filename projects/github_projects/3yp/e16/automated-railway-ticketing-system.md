@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e16-3yp-automated-railway-ticketing-system
 forks: 3
 watchers: 1
 stars: 1
-started_on: "2020-10-17T06:48:34Z"
+started_on: '2020-10-17T06:48:34Z'
 ---
 
 The project is to replace currently available manual methods by an 'Automated Method'. To check the entrance & exit, an automatic gate & a swipe card has introduced. Class will be updated using introduced 'Handheld Device'.

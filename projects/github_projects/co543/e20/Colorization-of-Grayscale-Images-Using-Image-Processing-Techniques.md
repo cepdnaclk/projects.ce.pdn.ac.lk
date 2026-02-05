@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e20-co543-Colorization-of-Grayscale-Images
 forks: 0
 watchers: 1
 stars: 1
-started_on: "2025-01-03T08:48:28Z"
+started_on: '2025-01-03T08:48:28Z'
 ---
 
 This repository implements grayscale-to-color conversion using classical image processing techniques. It explores spatial and frequency domain methods for colorization, ideal for restoring historical photos and enhancing medical images.

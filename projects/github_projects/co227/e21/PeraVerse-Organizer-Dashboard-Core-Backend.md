@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e21-co227-PeraVerse-Organizer-Dashboard-Co
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2025-11-17T09:08:23Z"
+started_on: '2025-11-17T09:08:23Z'
 ---
 
 Full-stack Organizer Dashboard ( Core Backend ) for the 75Exhibition system, combining a modern web UI with microservices for Auth, Event, Alert, Building, and Organizer Management

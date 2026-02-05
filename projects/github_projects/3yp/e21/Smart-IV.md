@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e21-3yp-Smart-IV
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2026-01-05T05:48:00Z"
+started_on: '2026-01-05T05:48:00Z'
 ---
 
 Automates standard gravity IVs with precise closed-loop stepper motor control. Features real-time drop counting, predictive volume estimation, and IoT connectivity for affordable, high-safety infusion monitoring.

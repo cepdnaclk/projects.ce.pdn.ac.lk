@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e17-6sp-Oral-Cavity-Region-Detection
 forks: 7
 watchers: 3
 stars: 3
-started_on: "2022-02-25T17:45:14Z"
+started_on: '2022-02-25T17:45:14Z'
 ---
 
 This project contains a web-based application that can be used to upload images of the oral cavity and identify the known regions which are normal.

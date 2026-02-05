@@ -19,7 +19,7 @@ page_url: https://cepdnaclk.github.io/e15-4yp-Adaptive-people-movement-and-actio
 forks: 2
 watchers: 0
 stars: 0
-started_on: "2021-04-18T17:49:43Z"
+started_on: '2021-04-18T17:49:43Z'
 ---
 
 In a domestic environment, people's behavior is often routine. They move place to place in a house while activating different domestic appliances and lights. On the other hand, CCTV is becoming a common surveillance system installed in many houses and buildings. A correctly trained adaptive system can predict the behavior and perform control actions automatically. In this research project, it is intended to develop an adaptive training system using CCTV video streams for controlling appliances.

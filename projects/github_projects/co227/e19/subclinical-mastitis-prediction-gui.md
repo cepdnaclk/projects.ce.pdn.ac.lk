@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e19-co227-subclinical-mastitis-prediction-
 forks: 0
 watchers: 1
 stars: 1
-started_on: "2023-08-23T12:48:23Z"
+started_on: '2023-08-23T12:48:23Z'
 ---
 
 A user-friendly GUI for subclinical mastitis prediction model in dairy cows, assisting dairy farm owners in effective farm management.

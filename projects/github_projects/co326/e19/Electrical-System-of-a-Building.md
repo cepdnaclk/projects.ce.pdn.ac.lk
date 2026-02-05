@@ -13,7 +13,7 @@ page_url: blank
 forks: 2
 watchers: 0
 stars: 0
-started_on: "2024-05-11T17:25:27Z"
+started_on: '2024-05-11T17:25:27Z'
 ---
 
-Creating a Digital Twin for Electrical System of a Building
+Creating a Digital Twin for  Electrical System of a Building

@@ -2,7 +2,7 @@
 layout: project_page
 title: An Empirical Study On Prompt Injection Attacks And Defences
 permalink: /4yp/e18/An-Empirical-Study-On-Prompt-Injection-Attacks-And-Defences/
-description: ""
+description: ''
 has_children: false
 parent: E18 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e18-4yp-An-Empirical-Study-On-Prompt-Injec
 forks: 3
 watchers: 0
 stars: 0
-started_on: "2024-02-09T07:50:19Z"
+started_on: '2024-02-09T07:50:19Z'
 ---
+

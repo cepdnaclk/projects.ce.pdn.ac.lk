@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e20-co227-ACES-fund-and-inventory-manageme
 forks: 5
 watchers: 0
 stars: 0
-started_on: "2024-10-31T13:29:50Z"
+started_on: '2024-10-31T13:29:50Z'
 ---
 
 Our system is designed to streamline fund and inventory management for aces, making it easier for students and staff to request resources and for administrators to efficiently manage approvals.

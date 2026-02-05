@@ -2,7 +2,7 @@
 layout: project_page
 title: Handwritten Mathematical Equation Recognition Using CNN
 permalink: /co542/e20/Handwritten-Mathematical-Equation-Recognition-Using-CNN/
-description: ""
+description: ''
 has_children: false
 parent: E20 Neural Networks Projects (CO542)
 grand_parent: Neural Networks Projects (CO542)
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e20-co542-Handwritten-Mathematical-Equatio
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2025-12-19T18:39:08Z"
+started_on: '2025-12-19T18:39:08Z'
 ---
+
