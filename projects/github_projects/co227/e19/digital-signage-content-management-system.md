@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e19-co227-digital-signage-content-manageme
 forks: 0
 watchers: 2
 stars: 2
-started_on: "2023-08-22T14:10:11Z"
+started_on: '2023-08-22T14:10:11Z'
 ---
 
 Modern Digital Signage Content Management System for the IT Center of University of Peradeniya

@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e18-6sp-Digital-Twin
 forks: 3
 watchers: 0
 stars: 0
-started_on: "2023-05-22T10:11:10Z"
+started_on: '2023-05-22T10:11:10Z'
 ---
 
 Create a simulated environment replicating all the features of a real-world setting, designed for discovering answers to ambiguous inquiries.

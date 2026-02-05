@@ -17,7 +17,7 @@ page_url: blank
 forks: 0
 watchers: 1
 stars: 1
-started_on: "2026-01-05T10:48:44Z"
+started_on: '2026-01-05T10:48:44Z'
 ---
 
 Development of a lightweight deep learning framework for EEG-based detection of neurological disorders, optimized for edge deployment, focusing on Alzheimer’s disease, Parkinson’s disease, and epilepsy using efficient model architectures and real-time inference constraints.

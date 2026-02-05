@@ -2,7 +2,7 @@
 layout: project_page
 title: Low Complexity Algorithm for Arrhythmia Detection
 permalink: /4yp/e17/Low-Complexity-Algorithm-for-Arrhythmia-Detection/
-description: ""
+description: ''
 has_children: false
 parent: E17 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e17-4yp-Low-Complexity-Algorithm-for-Arrhy
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2023-05-26T05:34:31Z"
+started_on: '2023-05-26T05:34:31Z'
 ---
+

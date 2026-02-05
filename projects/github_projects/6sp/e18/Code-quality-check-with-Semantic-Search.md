@@ -2,7 +2,7 @@
 layout: project_page
 title: Code quality check with Semantic Search
 permalink: /6sp/e18/Code-quality-check-with-Semantic-Search/
-description: ""
+description: ''
 has_children: false
 parent: E18 Sixth Semester Projects
 grand_parent: Sixth Semester Projects
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e18-6sp-Code-quality-check-with-Semantic-S
 forks: 3
 watchers: 0
 stars: 0
-started_on: "2023-06-04T13:24:51Z"
+started_on: '2023-06-04T13:24:51Z'
 ---
+

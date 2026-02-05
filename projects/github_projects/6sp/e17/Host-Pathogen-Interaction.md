@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e17-6sp-Host-Pathogen-Interaction
 forks: 5
 watchers: 0
 stars: 0
-started_on: "2022-02-23T13:11:14Z"
+started_on: '2022-02-23T13:11:14Z'
 ---
 
-Building the software for analyzing the microbiome data using machine learning technics. the application provides the GUI for the user they can easily analyze the data without any other programming knowledge developed by @piriyaraj @varnaraj @thanujan @rilwan292
+Building the software for analyzing the microbiome data using machine learning technics. the application provides the GUI for the user they can easily analyze the data without any other programming knowledge developed by  @piriyaraj @varnaraj @thanujan @rilwan292

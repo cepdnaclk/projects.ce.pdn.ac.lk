@@ -1,6 +1,6 @@
 ---
 layout: project_page
-title: " Neuromorphic Smart Sensor for Autonomous Underwater Vehicles"
+title: ' Neuromorphic Smart Sensor for Autonomous Underwater Vehicles'
 permalink: /4yp/e20/-Neuromorphic-Smart-Sensor-for-Autonomous-Underwater-Vehicles/
 description: This paper proposes an integrated system that combines neuromorphic smart
   sensors, spiking neural networks (SNNs) on embedded GPU platforms (NVIDIA Jetson),
@@ -16,7 +16,7 @@ page_url: blank
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2026-01-22T02:31:52Z"
+started_on: '2026-01-22T02:31:52Z'
 ---
 
 This paper proposes an integrated system that combines neuromorphic smart sensors, spiking neural networks (SNNs) on embedded GPU platforms (NVIDIA Jetson), and CORS/RTK-based surface buoy positioning to address important challenges in autonomous underwater vehicle (AUV) operations.

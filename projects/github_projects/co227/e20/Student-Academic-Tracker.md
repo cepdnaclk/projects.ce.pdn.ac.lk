@@ -2,7 +2,7 @@
 layout: project_page
 title: Student Academic Tracker
 permalink: /co227/e20/Student-Academic-Tracker/
-description: ""
+description: ''
 has_children: false
 parent: E20 Software Systems Projects
 grand_parent: Software Systems Projects
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e20-co227-Student-Academic-Tracker
 forks: 2
 watchers: 0
 stars: 0
-started_on: "2024-10-28T17:25:24Z"
+started_on: '2024-10-28T17:25:24Z'
 ---
+

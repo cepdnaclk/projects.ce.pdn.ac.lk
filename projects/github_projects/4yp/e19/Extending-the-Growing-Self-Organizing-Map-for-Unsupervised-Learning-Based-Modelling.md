@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e19-4yp-Extending-the-Growing-Self-Organiz
 forks: 2
 watchers: 1
 stars: 1
-started_on: "2025-01-31T05:47:07Z"
+started_on: '2025-01-31T05:47:07Z'
 ---
 
 This research aims to expand the capabilities of the Growing Self-Organizing Map (GSOM) by focusing on its applications in data analytics and idionomic feature representation.

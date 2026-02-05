@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e16-4yp-constructing-quantum-safe-leakage-
 forks: 1
 watchers: 0
 stars: 0
-started_on: "2022-07-25T11:39:06Z"
+started_on: '2022-07-25T11:39:06Z'
 ---
 
 This project investigates the leakage resilience in the setting of hash proof systems based on lattices and construct a quantum-safe leakage-resilient public-key encryption scheme.

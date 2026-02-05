@@ -21,7 +21,7 @@ page_url: https://cepdnaclk.github.io/e16-3yp-computerized-timetabling-and-atten
 forks: 5
 watchers: 4
 stars: 4
-started_on: "2020-10-18T03:40:36Z"
+started_on: '2020-10-18T03:40:36Z'
 ---
 
-This project is about creating a modern attendance marking system that is suitable for today's world. In parallel with the attendance marking system, a fully-fledged timetable managing and lecture reminding system is developed. The system consists of a website, hardware device, and mobile app. The website is for the students, lecturers, and administration. Key features of the website are timetable management, attendance, course registration, and registration. The hardware device is used to mark the attendance with fingerprint and RFID cards and setting the lecture room. The mobile app is used by the students to see lecture reminding and attendance marking notifications, timetable, and attendance.
+This project is about creating a modern attendance marking system that is suitable for today's world. In parallel with the attendance marking system, a fully-fledged timetable managing and lecture reminding system is developed. The system consists of a website, hardware device, and mobile app. The website is for the students, lecturers, and administration. Key features of the website are timetable management, attendance, course registration, and registration.  The hardware device is used to mark the attendance with fingerprint and RFID cards and setting the lecture room. The mobile app is used by the students to see lecture reminding and attendance marking notifications, timetable, and attendance.

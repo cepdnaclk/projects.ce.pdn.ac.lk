@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e17-6sp-Sobriety-Detection-Using-Mobile-Ph
 forks: 3
 watchers: 1
 stars: 1
-started_on: "2022-02-24T11:34:23Z"
+started_on: '2022-02-24T11:34:23Z'
 ---
 
 An intelligent API which is capable of passively tracking gyroscopic data to classify sobriety level in real-time that will help minimize risks of drunk-riding accidents for e-scooter sharing systems.

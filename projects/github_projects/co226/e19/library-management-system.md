@@ -2,7 +2,7 @@
 layout: project_page
 title: library management system
 permalink: /co226/e19/library-management-system/
-description: ""
+description: ''
 has_children: false
 parent: E19 Database Projects (CO226)
 grand_parent: Database Projects (CO226)
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e19-co226-library-management-system
 forks: 1
 watchers: 0
 stars: 0
-started_on: "2023-06-08T02:44:49Z"
+started_on: '2023-06-08T02:44:49Z'
 ---
+

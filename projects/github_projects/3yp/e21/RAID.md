@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e21-3yp-RAID
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2026-01-25T18:51:50Z"
+started_on: '2026-01-25T18:51:50Z'
 ---
 
 This autonomous IoT robot modernizes railway safety by detecting track cracks in real-time. Equipped with IR and ultrasonic sensors, it identifies defects and captures GPS-tagged images via an onboard camera. Alerts are instantly sent to a cloud dashboard, enabling proactive, risk-free maintenance.

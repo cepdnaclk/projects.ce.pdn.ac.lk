@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e19-4yp-LowComplexity-Algorithms-For-Energ
 forks: 3
 watchers: 1
 stars: 1
-started_on: "2025-02-02T18:21:52Z"
+started_on: '2025-02-02T18:21:52Z'
 ---
 
 In this project, we aim to develop a low-complex arrhythmia classification algorithm that consumes a minimum amount of power and memory and can be implemented in a resource-constrained environment like wearable devices.

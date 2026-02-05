@@ -2,7 +2,7 @@
 layout: project_page
 title: Database project Hospital Management System
 permalink: /co226/e19/Database-project-Hospital-Management-System/
-description: ""
+description: ''
 has_children: false
 parent: E19 Database Projects (CO226)
 grand_parent: Database Projects (CO226)
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e19-co226-Database-project-Hospital-Manage
 forks: 2
 watchers: 2
 stars: 2
-started_on: "2023-08-04T06:25:41Z"
+started_on: '2023-08-04T06:25:41Z'
 ---
+

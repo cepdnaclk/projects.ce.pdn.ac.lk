@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e20-3yp-Smart-Aquarium
 forks: 4
 watchers: 1
 stars: 1
-started_on: "2024-12-16T07:24:28Z"
+started_on: '2024-12-16T07:24:28Z'
 ---
 
 An intelligent aquarium system that automates water quality monitoring, fish behaviour and feeding. Key features include pH and temperature measure.

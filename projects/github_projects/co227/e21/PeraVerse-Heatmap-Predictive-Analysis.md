@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e21-co227-PeraVerse-Heatmap-Predictive-Ana
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2025-11-21T09:55:48Z"
+started_on: '2025-11-21T09:55:48Z'
 ---
 
 PeraVerse Crowd Management is a smart real-time visitor tracking system that shows crowd density with heatmaps and uses predictive analysis to forecast movement trends. It helps organizers plan resources, enhance safety, and improve the overall exhibition experience.

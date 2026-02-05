@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e20-3yp-SkyT
 forks: 1
 watchers: 0
 stars: 0
-started_on: "2024-12-09T05:25:32Z"
+started_on: '2024-12-09T05:25:32Z'
 ---
 
 Drone based smart crop management system

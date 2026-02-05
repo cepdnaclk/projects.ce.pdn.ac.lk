@@ -2,7 +2,7 @@
 layout: project_page
 title: Interactive Exhibition Map Peraverse
 permalink: /co227/e21/Interactive-Exhibition-Map-Peraverse/
-description: ""
+description: ''
 has_children: false
 parent: E21 Software Systems Projects
 grand_parent: Software Systems Projects
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e21-co227-Interactive-Exhibition-Map-Perav
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2025-11-21T14:33:58Z"
+started_on: '2025-11-21T14:33:58Z'
 ---
+

@@ -14,7 +14,7 @@ page_url: blank
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2021-02-07T07:20:33Z"
+started_on: '2021-02-07T07:20:33Z'
 ---
 
-localization of robots, identifying the boundary of arena and distance calculation with image processing(openCV python)
+localization of robots, identifying  the boundary of arena and distance calculation with image processing(openCV python)

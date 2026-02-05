@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e18-co326-Automated-Smart-Lighting-System
 forks: 4
 watchers: 3
 stars: 3
-started_on: "2023-06-12T19:15:34Z"
+started_on: '2023-06-12T19:15:34Z'
 ---
 
-An automated smart lighting system is a network of interconnected lighting fixtures that can be controlled remotely using advanced technologies. This system will offer various benefits, including energy efficiency and convenience.
+An automated smart lighting system is a network of interconnected lighting fixtures that can be controlled remotely using advanced technologies.  This system will offer various benefits, including energy efficiency and convenience.

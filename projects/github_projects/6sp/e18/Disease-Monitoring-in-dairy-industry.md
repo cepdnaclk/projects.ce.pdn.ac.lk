@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e18-6sp-Disease-Monitoring-in-dairy-indust
 forks: 3
 watchers: 7
 stars: 7
-started_on: "2023-06-04T12:42:39Z"
+started_on: '2023-06-04T12:42:39Z'
 ---
 
 Automated Dairy Disease Monitoring using machine learning to predict Subclinical Mastitis (SCM) positivity based on milk quality data. Web application for easy data input and analysis. Improve herd management and cow health.

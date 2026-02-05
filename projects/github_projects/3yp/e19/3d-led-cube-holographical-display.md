@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e19-3yp-3d-led-cube-holographical-display
 forks: 5
 watchers: 0
 stars: 0
-started_on: "2023-11-20T03:25:22Z"
+started_on: '2023-11-20T03:25:22Z'
 ---
 
 e19-3yp-3d-led-cube-holographical-display

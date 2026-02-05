@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e21-3yp-group-16
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2026-01-27T14:13:39Z"
+started_on: '2026-01-27T14:13:39Z'
 ---
 
 Firmware and hardware design for the Smart-Metrolac, a handheld rubber latex quality profiler. Includes algorithms for static gravimetric density measurement, multi-sensor fraud detection and digitized chart interpolation for lab grade field analysis.

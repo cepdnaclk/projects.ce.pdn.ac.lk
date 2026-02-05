@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e17-6sp-Skim-Sequencing-Analysis
 forks: 3
 watchers: 3
 stars: 3
-started_on: "2022-02-23T16:46:06Z"
+started_on: '2022-02-23T16:46:06Z'
 ---
 
 An Analytical Software for Next Generation Skim Sequencing Data.

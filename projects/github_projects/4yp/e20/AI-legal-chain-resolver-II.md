@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e20-4yp-AI-legal-chain-resolver-II
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2026-01-26T02:25:38Z"
+started_on: '2026-01-26T02:25:38Z'
 ---
 
 This project is an AI based legal reasoning system specifically designed for Sri Lankan law in the Sinhala language. It integrates Sinhala focused Retrieval-Augmented Generation (RAG), a Knowledge Graph , and a Multi Agent System to process laws, court judgments, and legal documents written in Sinhala.

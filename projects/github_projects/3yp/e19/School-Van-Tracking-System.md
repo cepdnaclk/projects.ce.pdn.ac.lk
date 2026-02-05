@@ -2,7 +2,7 @@
 layout: project_page
 title: School Van Tracking System
 permalink: /3yp/e19/School-Van-Tracking-System/
-description: ""
+description: ''
 has_children: false
 parent: E19 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e19-3yp-School-Van-Tracking-System
 forks: 5
 watchers: 0
 stars: 0
-started_on: "2023-11-19T03:08:26Z"
+started_on: '2023-11-19T03:08:26Z'
 ---
+

@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e19-co226-Warehouse-Management-System
 forks: 2
 watchers: 0
 stars: 0
-started_on: "2023-08-01T17:01:14Z"
+started_on: '2023-08-01T17:01:14Z'
 ---
 
 A Database System to manage a warehouse/inventory.

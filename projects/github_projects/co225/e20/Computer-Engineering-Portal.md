@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e20-co225-Computer-Engineering-Portal
 forks: 1
 watchers: 0
 stars: 0
-started_on: "2024-09-21T15:21:55Z"
+started_on: '2024-09-21T15:21:55Z'
 ---
 
 The Computer Engineering Portal serves as both the internal and public web service platform for the Department of Computer Engineering. This project includes implementations for managing news and events.

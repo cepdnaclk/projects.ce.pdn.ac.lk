@@ -2,7 +2,7 @@
 layout: project_page
 title: Automated Medical Image Annotation for Dataset Building
 permalink: /4yp/e18/Automated-Medical-Image-Annotation-for-Dataset-Building/
-description: ""
+description: ''
 has_children: false
 parent: E18 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e18-4yp-Automated-Medical-Image-Annotation
 forks: 4
 watchers: 1
 stars: 1
-started_on: "2024-02-01T03:36:41Z"
+started_on: '2024-02-01T03:36:41Z'
 ---
+

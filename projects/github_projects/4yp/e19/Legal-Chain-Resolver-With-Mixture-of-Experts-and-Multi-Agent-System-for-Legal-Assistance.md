@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e19-4yp-Legal-Chain-Resolver-With-Mixture-
 forks: 1
 watchers: 3
 stars: 3
-started_on: "2025-02-01T12:31:35Z"
+started_on: '2025-02-01T12:31:35Z'
 ---
 
 This research aims to develop an AI Legal Chain Resolver using Mixture-of-Experts and a multi-agent system to provide tailored legal guidance. It simplifies legal navigation across statutes, precedents, and regulations while offering legal assistance through a conversational system to enhance accessibility and understanding.

@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e20-co543-Historical-Image-Restoration
 forks: 2
 watchers: 1
 stars: 1
-started_on: "2025-01-27T10:52:08Z"
+started_on: '2025-01-27T10:52:08Z'
 ---
 
 Historical Image Restoration using Image In-painting

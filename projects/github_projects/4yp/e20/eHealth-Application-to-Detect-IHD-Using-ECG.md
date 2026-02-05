@@ -13,7 +13,7 @@ page_url: blank
 forks: 1
 watchers: 1
 stars: 1
-started_on: "2025-12-29T10:15:45Z"
+started_on: '2025-12-29T10:15:45Z'
 ---
 
 eHealth Application to detect Ischemic Heart Diseases using ECGs

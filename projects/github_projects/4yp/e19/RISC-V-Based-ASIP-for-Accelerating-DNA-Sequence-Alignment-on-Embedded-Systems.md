@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e19-4yp-RISC-V-Based-ASIP-for-Accelerating
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2025-02-02T10:23:47Z"
+started_on: '2025-02-02T10:23:47Z'
 ---
 
 RISC-V based application-specific instruction set processor (ASIP) for Minimap2

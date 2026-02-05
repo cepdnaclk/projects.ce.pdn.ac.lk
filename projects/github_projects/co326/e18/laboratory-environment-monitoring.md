@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e18-co326-laboratory-environment-monitorin
 forks: 3
 watchers: 0
 stars: 0
-started_on: "2023-04-08T16:30:39Z"
+started_on: '2023-04-08T16:30:39Z'
 ---
 
 The box can be used in a laboratory setting to monitor the temperature and humidity levels, and adjust the fan to maintain a stable environment for experiments and sensitive equipment.

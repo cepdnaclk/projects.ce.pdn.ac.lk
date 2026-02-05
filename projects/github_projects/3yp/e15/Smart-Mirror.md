@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e15-3yp-Smart-Mirror
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2021-05-20T17:55:57Z"
+started_on: '2021-05-20T17:55:57Z'
 ---
 
 This is an automated mirror which will identify a user and the display the to-do list of that relevant user. Further more this mirror can display the weather and the news too....
