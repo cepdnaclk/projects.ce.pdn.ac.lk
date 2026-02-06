@@ -14,8 +14,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-4YP--Neuromorphic-Smart-Sensor-for-Autonomous-Underwater-Vehicles
 page_url: blank
 forks: 0
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: "2026-01-22T02:31:52Z"
 ---
 
