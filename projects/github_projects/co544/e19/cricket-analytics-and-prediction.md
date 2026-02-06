@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e19-co544-cricket-analytics-and-prediction
 forks: 4
 watchers: 1
 stars: 1
-started_on: '2024-04-07T05:57:20Z'
+started_on: "2024-04-07T05:57:20Z"
 ---
 
 CricVision: Unlocking cricket insights through machine learning! Analyze Sri Lanka’s international matches, predict player impact, and gain valuable insights for teams and fans. 🏏🔍

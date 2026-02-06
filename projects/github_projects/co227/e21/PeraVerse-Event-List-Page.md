@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e21-co227-PeraVerse-Event-List-Page
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2025-11-20T11:53:35Z'
+started_on: "2025-11-20T11:53:35Z"
 ---
 
-A full-stack Event Management Dashboard where users can browse events, filter by category,  mark attendance, rate events, and leave comments.
+A full-stack Event Management Dashboard where users can browse events, filter by category, mark attendance, rate events, and leave comments.

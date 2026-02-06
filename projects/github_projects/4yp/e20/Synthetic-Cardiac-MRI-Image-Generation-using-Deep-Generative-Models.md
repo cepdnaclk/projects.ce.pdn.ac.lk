@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e20-4yp-Synthetic-Cardiac-MRI-Image-Genera
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2026-01-19T11:46:55Z'
+started_on: "2026-01-19T11:46:55Z"
 ---
 
 Synthetic Cardiac MRI Image Generation using Deep Generative Models

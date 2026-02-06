@@ -13,7 +13,7 @@ page_url: blank
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2020-10-25T05:35:13Z'
+started_on: "2020-10-25T05:35:13Z"
 ---
 
 The A to Z of Building a Testbed for Power Analysis Attacks

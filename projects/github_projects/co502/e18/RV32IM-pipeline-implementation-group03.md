@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e18-co502-RV32IM-pipeline-implementation-g
 forks: 3
 watchers: 0
 stars: 0
-started_on: '2023-03-30T08:26:06Z'
+started_on: "2023-03-30T08:26:06Z"
 ---
 
 RV32IM Pipeline Processor

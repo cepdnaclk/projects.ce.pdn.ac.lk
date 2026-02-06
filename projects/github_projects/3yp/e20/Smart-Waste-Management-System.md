@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e20-3yp-Smart-Waste-Management-System
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2025-01-05T14:03:47Z'
+started_on: "2025-01-05T14:03:47Z"
 ---
 
 A Smart Garbage Sorting System using IoT to automate waste sorting, monitor bin statuses, and optimize garbage collection routes. The system uses sensors, GPS, and real-time alerts to improve efficiency, reduce costs, and promote sustainable waste management practices.

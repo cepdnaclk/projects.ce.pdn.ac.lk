@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e18-co326-Water-Quality-Monitoring-System
 forks: 4
 watchers: 0
 stars: 0
-started_on: '2023-06-18T04:07:47Z'
+started_on: "2023-06-18T04:07:47Z"
 ---
 
 A water quality monitoring system using an ESP8266 microcontroller, which will continuously monitor the temperature and turbidity of the water. The system will then process this data and compare it with predetermined acceptable limits. After comparing the values, our system will indicate whether the quality of water is good or bad using LEDs.

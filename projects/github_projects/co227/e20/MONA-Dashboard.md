@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e20-co227-MONA-Dashboard
 forks: 2
 watchers: 4
 stars: 4
-started_on: '2024-06-17T09:42:22Z'
+started_on: "2024-06-17T09:42:22Z"
 ---
 
 Our project involves creating an advanced real-time monitoring dashboard for production environments. This dashboard enhances efficiency and reliability with critical insights and timely alerts. Designed for user-friendliness, it ensures operators and managers can easily access and interpret the data needed for optimal production performance.

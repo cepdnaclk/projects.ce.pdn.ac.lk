@@ -1,7 +1,7 @@
 ---
 layout: project_cat
 title: Database Projects (CO226)
-nav_order: '5'
+nav_order: "5"
 permalink: /co226/
 has_children: true
 code: co226
@@ -9,7 +9,7 @@ type: COURSE
 parent: Home
 has_toc: true
 search_exclude: true
-readmore: '#'
+readmore: "#"
 default_thumb_image: /data/categories/co226/thumbnail.jpg
 description: This section contains projects conducted as a partial requirement to
   complete the course CO226 - Database Systems. Usually, these projects are conducted

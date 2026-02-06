@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e19-co225-student-results-management-syste
 forks: 0
 watchers: 3
 stars: 3
-started_on: '2023-05-26T04:10:11Z'
+started_on: "2023-05-26T04:10:11Z"
 ---
 
 Academetrix is a powerful web application designed to manage and analyze undergraduate students' marks. It provides a comprehensive set of features to streamline the result management process and empower students and administrators.

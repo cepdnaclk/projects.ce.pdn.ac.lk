@@ -2,7 +2,7 @@
 layout: project_page
 title: Microservice Based Edge Computing Architecture
 permalink: /4yp/e15/Microservice-Based-Edge-Computing-Architecture/
-description: ''
+description: ""
 has_children: false
 parent: E15 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -13,6 +13,5 @@ page_url: https://cepdnaclk.github.io/e15-4yp-Microservice-Based-Edge-Computing-
 forks: 2
 watchers: 0
 stars: 0
-started_on: '2021-03-05T09:40:09Z'
+started_on: "2021-03-05T09:40:09Z"
 ---
-

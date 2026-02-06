@@ -14,7 +14,7 @@ page_url: blank
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2020-09-10T08:26:31Z'
+started_on: "2020-09-10T08:26:31Z"
 ---
 
 Genopo a.k.a. F5N - A nanopore sequencing analysis toolkit for Android smartphones https://nanoporetech.com

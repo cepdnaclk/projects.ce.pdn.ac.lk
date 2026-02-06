@@ -2,7 +2,7 @@
 layout: project_page
 title: RV32IM_Pipelined_Processor_Group 05
 permalink: /co502/e19/RV32IM_Pipelined_Processor_Group-05/
-description: ''
+description: ""
 has_children: false
 parent: E19 Advanced Computer Architecture (CO502)
 grand_parent: Advanced Computer Architecture (CO502)
@@ -13,6 +13,5 @@ page_url: blank
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2025-05-02T03:18:53Z'
+started_on: "2025-05-02T03:18:53Z"
 ---
-

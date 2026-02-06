@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e18-6sp-Optical-Character-Recognition-and-
 forks: 4
 watchers: 1
 stars: 1
-started_on: '2023-05-22T12:08:20Z'
+started_on: "2023-05-22T12:08:20Z"
 ---
 
 Developing software to recognize printed Sinhala text, convert it to editable text, and translate it to Tamil.

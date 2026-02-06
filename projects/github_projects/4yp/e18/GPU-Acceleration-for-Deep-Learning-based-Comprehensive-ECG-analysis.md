@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e18-4yp-GPU-Acceleration-for-Deep-Learning
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2024-01-04T02:30:38Z'
+started_on: "2024-01-04T02:30:38Z"
 ---
 
-In this project we aim to develop  a GPU accelerated Deep Learning algorithm for ECG analysis which works like the MUSE ECG system
+In this project we aim to develop a GPU accelerated Deep Learning algorithm for ECG analysis which works like the MUSE ECG system
