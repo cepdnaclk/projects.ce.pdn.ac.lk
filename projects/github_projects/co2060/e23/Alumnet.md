@@ -2,7 +2,9 @@
 layout: project_page
 title: Alumnet
 permalink: /co2060/e23/Alumnet/
-description: "Alumnet is a university-focused alumni\u2013student engagement platform."
+description: A scalable, role-based platform for streamlining alumni-student mentorship
+  and university event management. Built with React, Node.js and PostgreSQL for the
+  CO2060 Software System Design Project.
 has_children: false
 parent: E23 Software Systems Design Project (CO2060)
 grand_parent: Software Systems Design Project (CO2060)
@@ -16,4 +18,4 @@ stars: 0
 started_on: "2026-02-06T14:54:45Z"
 ---
 
-Alumnet is a university-focused alumni–student engagement platform.
+A scalable, role-based platform for streamlining alumni-student mentorship and university event management. Built with React, Node.js and PostgreSQL for the CO2060 Software System Design Project.
