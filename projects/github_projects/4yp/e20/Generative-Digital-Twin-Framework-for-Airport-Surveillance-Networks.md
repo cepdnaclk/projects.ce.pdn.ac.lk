@@ -12,7 +12,7 @@ cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-4yp-Generative-Digital-Twin-Framework-for-Airport-Surveillance-Networks
 page_url: https://cepdnaclk.github.io/e20-4yp-Generative-Digital-Twin-Framework-for-Airport-Surveillance-Networks
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: "2026-02-07T17:44:07Z"
