@@ -16,6 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       webhook_url: ${{ secrets.NOTIFICATION_WEBHOOK_URL }}
+      webhook_url_google: ${{ secrets.GOOGLE_CHAT_WEBHOOK_URL }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4

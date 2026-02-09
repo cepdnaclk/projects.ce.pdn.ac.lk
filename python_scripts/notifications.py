@@ -1,45 +1,30 @@
-'''
+"""
 REQUIREMENTS:
     pip install requests
 
 AUTHORS:
     Nuwan Jaliyagoda
-'''
+"""
 
-import requests
 import json
 import os
 from datetime import datetime
-import pytz
 
-tz_LK = pytz.timezone('Asia/Colombo')
+import pytz
+import requests
+
+tz_LK = pytz.timezone("Asia/Colombo")
 
 notification_type = {
-    "warning": {
-        "color": 15258703,
-        "icon": ":warning:"
-    },
-    "error": {
-        "color": 16056320,
-        "icon": ":smiling_imp:"
-    },
-    "debug": {
-        "color": 8355711,
-        "icon": ":lady_beetle:"
-    },
-    "info": {
-        "color": 62830,
-        "icon": ":information_source:"
-    },
-    "log": {
-        "color": 62830,
-        "icon": ":information_source:"
-    }
+    "warning": {"color": 15258703, "icon": ":warning:"},
+    "error": {"color": 16056320, "icon": ":smiling_imp:"},
+    "debug": {"color": 8355711, "icon": ":lady_beetle:"},
+    "info": {"color": 62830, "icon": ":information_source:"},
+    "log": {"color": 62830, "icon": ":information_source:"},
 }
 
 
 class Notifications:
-
     def __init__(self, author, workflow, url="#"):
         self.author = author
         self.workflow = workflow
@@ -49,66 +34,87 @@ class Notifications:
         self.datetime = now.strftime("%Y/%m/%d %H:%M:%S")
 
     def get_webhook_url(self):
-        return os.environ['webhook_url']
+        return os.environ["webhook_url"]
 
     def post_discord_message(self, data):
-        headers = {
-            'Content-Type': 'application/json'
-        }
+        headers = {"Content-Type": "application/json"}
         # print(json.dumps(data, indent=4))
         response = requests.post(
-            self.get_webhook_url(), headers=headers, data=json.dumps(data))
+            self.get_webhook_url(), headers=headers, data=json.dumps(data)
+        )
         if response.status_code == 204:
             print("Message sent successfully!")
         else:
             print("Error sending message. Response:")
             print(response.reason)
 
+    def get_webhook_url_google_chat(self):
+        return os.environ["webhook_url_google"]
+
+    def post_google_chat_message(self, data):
+        headers = {"Content-Type": "application/json; charset=UTF-8"}
+        response = requests.post(
+            self.get_webhook_url_google_chat(), headers=headers, json=data, timeout=10
+        )
+        if response.status_code == 200:
+            print("Message sent successfully!")
+        else:
+            print("Error sending message. Response:")
+            print(response.reason)
+            if response.text:
+                print(response.text)
+
     def send(self, log_level, author, workflow, msg, description):
         level = log_level if log_level in notification_type else "info"
+        msg_title = "{0} `[{1}]` {2}.{3}".format(
+            notification_type[level]["icon"],
+            self.datetime,
+            workflow,
+            log_level.upper(),
+        )
+
         data = {
             "username": "GitHub Actions",
             "author": {
                 "name": self.author,
                 "url": self.url,
-                "icon_url": "https://cepdnaclk.github.io/assets/images/crest.png"
+                "icon_url": "https://cepdnaclk.github.io/assets/images/crest.png",
             },
             "embeds": [
                 {
-                    "title": "{0} `[{1}]` {2}.{3}".format(notification_type[level]["icon"], self.datetime, workflow, log_level.upper()),
+                    "title": msg_title,
                     "url": "",
                     "color": notification_type[level]["color"],
-                    "fields":[
+                    "fields": [
                         {
                             "name": "by `{0}`".format(author),
                             "value": msg,
-                            "inline": False
+                            "inline": False,
                         }
-                    ]
+                    ],
                 }
-            ]
+            ],
         }
 
         if description != "":
-            data['embeds'][0]['fields'].append({
-                "name": "Description: ",
-                "value": description,
-                "inline": False
-            })
+            data["embeds"][0]["fields"].append(
+                {"name": "Description: ", "value": description, "inline": False}
+            )
 
         self.post_discord_message(data)
+        self.post_google_chat_message(data={"text": msg_title})
 
-    def log(self, msg, description=''):
+    def log(self, msg, description=""):
         self.send("log", self.author, self.workflow, msg, description)
 
-    def warning(self, msg, description=''):
+    def warning(self, msg, description=""):
         self.send("warning", self.author, self.workflow, msg, description)
 
-    def error(self, msg, description=''):
+    def error(self, msg, description=""):
         self.send("error", self.author, self.workflow, msg, description)
 
-    def debug(self, msg, description=''):
+    def debug(self, msg, description=""):
         self.send("debug", self.author, self.workflow, msg, description)
 
-    def info(self, msg, description=''):
+    def info(self, msg, description=""):
         self.send("info", self.author, self.workflow, msg, description)
