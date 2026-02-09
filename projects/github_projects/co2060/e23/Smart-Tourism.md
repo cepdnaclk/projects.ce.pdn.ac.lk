@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: smart tourism
-permalink: /co2060/e23/smart-tourism/
+title: Smart Tourism
+permalink: /co2060/e23/Smart-Tourism/
 description: "The Smart Tourism Management System reduces information fragmentation\
   \ and trust issues in Sri Lanka\u2019s tourism industry through a centralized, user-controlled\
   \ platform. Using a Human-in-the-Loop design with itinerary planning, verified guides,\
@@ -11,7 +11,7 @@ parent: E23 Software Systems Design Project (CO2060)
 grand_parent: Software Systems Design Project (CO2060)
 cover_url: /data/categories/co2060/cover_page.jpg
 thumbnail_url: /data/categories/co2060/thumbnail.jpg
-repo_url: https://github.com/cepdnaclk/e23-co2060-smart-tourism
+repo_url: https://github.com/cepdnaclk/e23-co2060-Smart-Tourism
 page_url: blank
 forks: 0
 watchers: 0
