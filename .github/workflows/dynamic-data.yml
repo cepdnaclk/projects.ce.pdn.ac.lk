@@ -2,8 +2,8 @@ name: Collect Dynamic Data
 
 on:
   schedule:
-    # # At 18:30 UTC on Sunday (12.00 mid night in Sri Lanka)
-    - cron: "30 18 * * 0"
+    # # At 18:30 UTC on Sunday (12.30 mid night in Sri Lanka)
+    - cron: "00 19 * * 0"
 
     # # At 18:30 UTC on everyday (12.00 mid night in Sri Lanka)
     # - cron: "0 0 * * *"
