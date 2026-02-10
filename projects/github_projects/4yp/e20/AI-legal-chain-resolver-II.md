@@ -13,7 +13,7 @@ cover_url: https://cepdnaclk.github.io/e20-4yp-AI-legal-chain-resolver-II/data/c
 thumbnail_url: https://cepdnaclk.github.io/e20-4yp-AI-legal-chain-resolver-II/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-4yp-AI-legal-chain-resolver-II
 page_url: https://cepdnaclk.github.io/e20-4yp-AI-legal-chain-resolver-II
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: "2026-01-26T02:25:38Z"

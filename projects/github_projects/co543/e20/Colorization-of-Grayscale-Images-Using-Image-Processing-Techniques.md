@@ -12,7 +12,7 @@ cover_url: /data/categories/co543/cover_page.jpg
 thumbnail_url: /data/categories/co543/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co543-Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques
 page_url: https://cepdnaclk.github.io/e20-co543-Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques
-forks: 0
+forks: 1
 watchers: 1
 stars: 1
 started_on: "2025-01-03T08:48:28Z"
