@@ -108,93 +108,6 @@
     "name": "e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs",
     "popularity_score": 19.4
   },
-  "e16-3yp-smart-vending-machine": {
-    "projName": "smart vending machine",
-    "batch": "E16",
-    "category": {
-      "title": "Cyber-Physical Systems Projects",
-      "code": "3yp",
-      "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
-    },
-    "repo_url": "https://github.com/cepdnaclk/e16-3yp-smart-vending-machine",
-    "project_url": "/3yp/e16/smart-vending-machine/",
-    "page_url": "https://cepdnaclk.github.io/e16-3yp-smart-vending-machine",
-    "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-smart-vending-machine",
-    "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-    "created_at": "2020-10-21T10:22:20Z",
-    "updated_at": "2025-08-26T04:38:20Z",
-    "forks_count": 10,
-    "stars_count": 13,
-    "watchers_count": 13,
-    "language": "JavaScript",
-    "topics": [],
-    "has_projects": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "description": "Smart Vending Machine (3rd-year unified project) This is a 3rd-year project Developed by a group of students to address the problems faced in traditional vending and help consumers have a relatively safer and easier to handle and access. This Smart Vending machine is connected to the cloud to make sure every transaction is Live A web application is devoted to helping the consumers see what they want and can order the items they want to buy The web application is very interactive where the users can sign up and make an interactive accounts where they can do changes and track their buying habits",
-    "team": {
-      "E/16/172": {
-        "name": "Karikaran Vettivel",
-        "email": "e16172@eng.pdn.ac.lk",
-        "website": "https://karikaran.herokuapp.com/",
-        "github": "https://github.com/Karikaranvetti",
-        "linkedin": "https://www.linkedin.com/in/karikaranvetti/",
-        "researchgate": "",
-        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/172",
-        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16172.jpg",
-        "profile_url": "https://people.ce.pdn.ac.lk/students/e16/172/"
-      },
-      "E/16/055": {
-        "name": "Bragadeeshan Suppusamy",
-        "email": "e16055@eng.pdn.ac.lk",
-        "website": "",
-        "github": "https://github.com/Bragadeeshan",
-        "linkedin": "https://www.linkedin.com/in/bragadeeshansuppusamy/",
-        "researchgate": "",
-        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/055",
-        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16055.jpg",
-        "profile_url": "https://people.ce.pdn.ac.lk/students/e16/055/"
-      },
-      "E/16/115": {
-        "name": "Girishikan Selvaratnam",
-        "email": "e16115@eng.pdn.ac.lk",
-        "website": "",
-        "github": "",
-        "linkedin": "",
-        "researchgate": "",
-        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/115",
-        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16115.jpg",
-        "profile_url": "https://people.ce.pdn.ac.lk/students/e16/115/"
-      }
-    },
-    "supervisors": {
-      "isurunawinne@eng.pdn.ac.lk": {
-        "name": "Dr. Isuru Nawinne",
-        "email": "isurunawinne@eng.pdn.ac.lk",
-        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
-        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/isuru-nawinne.png",
-        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-        "website": "#",
-        "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-        "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-        "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-      },
-      "ziyanm@gmail.com": {
-        "name": "Mr. Ziyan Maraikar",
-        "email": "ziyanm@eng.pdn.ac.lk",
-        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/ziyan-maraikar/",
-        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/ziyan-maraikar.png",
-        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/ziyanm",
-        "website": "#",
-        "linkedin": "https://www.linkedin.com/in/ziyan-maraikar-15539818a",
-        "researchgate": "https://www.researchgate.net/profile/Ziyan-Maraikar-2",
-        "google_scholar": "https://scholar.google.com.au/citations?user=5xf_7TAAAAAJ&hl=en"
-      }
-    },
-    "tags": ["Web", "Embedded Systems"],
-    "name": "e16-3yp-smart-vending-machine",
-    "popularity_score": 12.4
-  },
   "e16-co502-RV32IM-pipeline-implementation-group1": {
     "projName": "RV32IM pipeline implementation group1",
     "batch": "E16",
@@ -281,6 +194,93 @@
     "tags": ["Computer Architecture", "RISC-V", "RV32IM"],
     "name": "e16-co502-RV32IM-pipeline-implementation-group1",
     "popularity_score": 21.6
+  },
+  "e16-3yp-smart-pharmaceutical-warehousing": {
+    "projName": "smart pharmaceutical warehousing",
+    "batch": "E16",
+    "category": {
+      "title": "Cyber-Physical Systems Projects",
+      "code": "3yp",
+      "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+    },
+    "repo_url": "https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing",
+    "project_url": "/3yp/e16/smart-pharmaceutical-warehousing/",
+    "page_url": "https://cepdnaclk.github.io/e16-3yp-smart-pharmaceutical-warehousing",
+    "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing",
+    "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+    "created_at": "2020-10-18T04:16:45Z",
+    "updated_at": "2026-01-06T11:34:45Z",
+    "forks_count": 9,
+    "stars_count": 15,
+    "watchers_count": 15,
+    "language": "JavaScript",
+    "topics": ["agv", "robot-arm", "warehouse"],
+    "has_projects": true,
+    "has_wiki": true,
+    "has_pages": true,
+    "description": "In this project, we are trying to address this issue by developing a fully automated warehouse management that will minimize the drawbacks while improving efficiency and profitability. We are implementing a warehouse management system which consists two types of robots; robots arms to handle loading/unloading of goods, automated guided vehicles to transport goods inside the warehouse. Also, an online shopping portal to make the purchases from the warehouse.",
+    "team": {
+      "E/16/081": {
+        "name": "Praveen Dhananjaya",
+        "email": "e16081@eng.pdn.ac.lk",
+        "website": "https://sites.google.com/view/praveen-dhananjaya",
+        "github": "https://github.com/praveendhananjaya",
+        "linkedin": "https://www.linkedin.com/in/praveen-dhananjaya-55816015a",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/081",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16081.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e16/081/"
+      },
+      "E/16/068": {
+        "name": "K.R. De Silva",
+        "email": "e16068@eng.pdn.ac.lk",
+        "website": "",
+        "github": "",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/068",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16068.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e16/068/"
+      },
+      "E/16/232 ": {
+        "name": "F.S Marzook",
+        "email": "e16232@eng.pdn.ac.lk",
+        "website": "#",
+        "github": "https://github.com/ShamraMarzook",
+        "linkedin": "#",
+        "researchgate": "#",
+        "api_url": "#",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
+        "profile_url": "#"
+      }
+    },
+    "supervisors": {
+      "isurunawinne@eng.pdn.ac.lk": {
+        "name": "Dr. Isuru Nawinne",
+        "email": "isurunawinne@eng.pdn.ac.lk",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/isuru-nawinne.png",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+        "website": "#",
+        "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+        "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+        "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+      },
+      "ziyanm@gmail.com": {
+        "name": "Mr. Ziyan Maraikar",
+        "email": "ziyanm@eng.pdn.ac.lk",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/ziyan-maraikar/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/ziyan-maraikar.png",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/ziyanm",
+        "website": "#",
+        "linkedin": "https://www.linkedin.com/in/ziyan-maraikar-15539818a",
+        "researchgate": "https://www.researchgate.net/profile/Ziyan-Maraikar-2",
+        "google_scholar": "https://scholar.google.com.au/citations?user=5xf_7TAAAAAJ&hl=en"
+      }
+    },
+    "tags": ["Embedded Systems", "robotic automation"],
+    "name": "e16-3yp-smart-pharmaceutical-warehousing",
+    "popularity_score": 13.8
   },
   "e19-3yp-Smart-Waste-Management-System": {
     "projName": "Smart Waste Management System",
@@ -420,63 +420,63 @@
     "name": "e17-co326-Smart-Building",
     "popularity_score": 10.4
   },
-  "e16-3yp-smart-pharmaceutical-warehousing": {
-    "projName": "smart pharmaceutical warehousing",
+  "e16-3yp-smart-vending-machine": {
+    "projName": "smart vending machine",
     "batch": "E16",
     "category": {
       "title": "Cyber-Physical Systems Projects",
       "code": "3yp",
       "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
     },
-    "repo_url": "https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing",
-    "project_url": "/3yp/e16/smart-pharmaceutical-warehousing/",
-    "page_url": "https://cepdnaclk.github.io/e16-3yp-smart-pharmaceutical-warehousing",
-    "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing",
+    "repo_url": "https://github.com/cepdnaclk/e16-3yp-smart-vending-machine",
+    "project_url": "/3yp/e16/smart-vending-machine/",
+    "page_url": "https://cepdnaclk.github.io/e16-3yp-smart-vending-machine",
+    "api_url": "https://api.github.com/repos/cepdnaclk/e16-3yp-smart-vending-machine",
     "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-    "created_at": "2020-10-18T04:16:45Z",
-    "updated_at": "2026-01-06T11:34:45Z",
-    "forks_count": 9,
-    "stars_count": 15,
-    "watchers_count": 15,
+    "created_at": "2020-10-21T10:22:20Z",
+    "updated_at": "2025-08-26T04:38:20Z",
+    "forks_count": 10,
+    "stars_count": 13,
+    "watchers_count": 13,
     "language": "JavaScript",
-    "topics": ["agv", "robot-arm", "warehouse"],
+    "topics": [],
     "has_projects": true,
     "has_wiki": true,
     "has_pages": true,
-    "description": "In this project, we are trying to address this issue by developing a fully automated warehouse management that will minimize the drawbacks while improving efficiency and profitability. We are implementing a warehouse management system which consists two types of robots; robots arms to handle loading/unloading of goods, automated guided vehicles to transport goods inside the warehouse. Also, an online shopping portal to make the purchases from the warehouse.",
+    "description": "Smart Vending Machine (3rd-year unified project) This is a 3rd-year project Developed by a group of students to address the problems faced in traditional vending and help consumers have a relatively safer and easier to handle and access. This Smart Vending machine is connected to the cloud to make sure every transaction is Live A web application is devoted to helping the consumers see what they want and can order the items they want to buy The web application is very interactive where the users can sign up and make an interactive accounts where they can do changes and track their buying habits",
     "team": {
-      "E/16/081": {
-        "name": "Praveen Dhananjaya",
-        "email": "e16081@eng.pdn.ac.lk",
-        "website": "https://sites.google.com/view/praveen-dhananjaya",
-        "github": "https://github.com/praveendhananjaya",
-        "linkedin": "https://www.linkedin.com/in/praveen-dhananjaya-55816015a",
+      "E/16/172": {
+        "name": "Karikaran Vettivel",
+        "email": "e16172@eng.pdn.ac.lk",
+        "website": "https://karikaran.herokuapp.com/",
+        "github": "https://github.com/Karikaranvetti",
+        "linkedin": "https://www.linkedin.com/in/karikaranvetti/",
         "researchgate": "",
-        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/081",
-        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16081.jpg",
-        "profile_url": "https://people.ce.pdn.ac.lk/students/e16/081/"
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/172",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16172.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e16/172/"
       },
-      "E/16/068": {
-        "name": "K.R. De Silva",
-        "email": "e16068@eng.pdn.ac.lk",
+      "E/16/055": {
+        "name": "Bragadeeshan Suppusamy",
+        "email": "e16055@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/Bragadeeshan",
+        "linkedin": "https://www.linkedin.com/in/bragadeeshansuppusamy/",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/055",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16055.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e16/055/"
+      },
+      "E/16/115": {
+        "name": "Girishikan Selvaratnam",
+        "email": "e16115@eng.pdn.ac.lk",
         "website": "",
         "github": "",
         "linkedin": "",
         "researchgate": "",
-        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/068",
-        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16068.jpg",
-        "profile_url": "https://people.ce.pdn.ac.lk/students/e16/068/"
-      },
-      "E/16/232 ": {
-        "name": "F.S Marzook",
-        "email": "e16232@eng.pdn.ac.lk",
-        "website": "#",
-        "github": "https://github.com/ShamraMarzook",
-        "linkedin": "#",
-        "researchgate": "#",
-        "api_url": "#",
-        "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
-        "profile_url": "#"
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/115",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16115.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e16/115/"
       }
     },
     "supervisors": {
@@ -503,102 +503,9 @@
         "google_scholar": "https://scholar.google.com.au/citations?user=5xf_7TAAAAAJ&hl=en"
       }
     },
-    "tags": ["Embedded Systems", "robotic automation"],
-    "name": "e16-3yp-smart-pharmaceutical-warehousing",
-    "popularity_score": 13.8
-  },
-  "e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients": {
-    "projName": "Food Recommendation System Using Machine Learning for Diabetic Patients",
-    "batch": "E16",
-    "category": {
-      "title": "Undergraduate Research Projects",
-      "code": "4yp",
-      "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
-    },
-    "repo_url": "https://github.com/cepdnaclk/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
-    "project_url": "/4yp/e16/Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients/",
-    "page_url": "https://cepdnaclk.github.io/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
-    "api_url": "https://api.github.com/repos/cepdnaclk/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
-    "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-    "created_at": "2022-07-23T18:00:10Z",
-    "updated_at": "2025-08-06T11:23:49Z",
-    "forks_count": 13,
-    "stars_count": 27,
-    "watchers_count": 27,
-    "language": "Jupyter Notebook",
-    "topics": ["diabetes", "food-recommendation", "machine-learning", "nutrients"],
-    "has_projects": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "description": "Recommend proper foods for diabetic patients in the context of nutrition and food characteristics by developing a machine learning based intelligent mobile application",
-    "team": {
-      "E/16/083": {
-        "name": "Dhanushka S.M.V.",
-        "email": "e16083@eng.pdn.ac.lk",
-        "website": "https://studentambassadors.microsoft.com/en-US/profile/154961",
-        "github": "https://github.com/viradhanus",
-        "linkedin": "https://www.linkedin.com/in/viradhanus/",
-        "researchgate": "",
-        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/083",
-        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16083.jpg",
-        "profile_url": "https://people.ce.pdn.ac.lk/students/e16/083/"
-      },
-      "E/16/394": {
-        "name": "Wijayasinghe S.D.D.D.",
-        "email": "e16394@eng.pdn.ac.lk",
-        "website": "",
-        "github": "",
-        "linkedin": "",
-        "researchgate": "",
-        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/394",
-        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16394.jpg",
-        "profile_url": "https://people.ce.pdn.ac.lk/students/e16/394/"
-      },
-      "E/16/396": {
-        "name": "Wijekoon W.M.T.S.",
-        "email": "e16396@eng.pdn.ac.lk",
-        "website": "",
-        "github": "",
-        "linkedin": "",
-        "researchgate": "",
-        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/396",
-        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16396.jpg",
-        "profile_url": "https://people.ce.pdn.ac.lk/students/e16/396/"
-      }
-    },
-    "supervisors": {
-      "sampath@eng.pdn.ac.lk": {
-        "name": "Dr. Eng. Sampath Deegalla",
-        "email": "sampath@eng.pdn.ac.lk",
-        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/sampath-deegalla/",
-        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/sampath-deegalla.jpg",
-        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/sampath",
-        "website": "#",
-        "linkedin": "https://www.linkedin.com/in/dsdeegalla",
-        "researchgate": "https://www.researchgate.net/profile/Sampath-Deegalla-2",
-        "google_scholar": "https://scholar.google.com/citations?user=QDoeGtYAAAAJ&hl=en"
-      },
-      "nadeeshaa@eng.pdn.ac.lk": {
-        "name": "Mrs. Nadeesha Adikari",
-        "email": "nadeeshaa@eng.pdn.ac.lk",
-        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/nadeesha-adikari/",
-        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/nadeesha-adikari.jpg",
-        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/nadeeshaa",
-        "website": "#",
-        "linkedin": "https://www.linkedin.com/in/nadeesha-adikari-48864961/",
-        "researchgate": "https://www.researchgate.net/profile/Nadeesha-Adikari",
-        "google_scholar": "#"
-      }
-    },
-    "tags": [
-      "Machine Learning",
-      "Diabetes",
-      "Food Recommendation",
-      "Nutrients",
-      "Final Year Projects"
-    ],
-    "name": "e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
-    "popularity_score": 24.2
+    "tags": ["Web", "Embedded Systems"],
+    "name": "e16-3yp-smart-vending-machine",
+    "popularity_score": 12.4
   },
   "e19-3yp-Automated-Hydroponic-System": {
     "projName": "Automated Hydroponic System",
@@ -709,5 +616,98 @@
     "tags": ["Web Application Development", "Embedded Systems", "Cyber Security"],
     "name": "e19-3yp-Automated-Hydroponic-System",
     "popularity_score": 9.8
+  },
+  "e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients": {
+    "projName": "Food Recommendation System Using Machine Learning for Diabetic Patients",
+    "batch": "E16",
+    "category": {
+      "title": "Undergraduate Research Projects",
+      "code": "4yp",
+      "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+    },
+    "repo_url": "https://github.com/cepdnaclk/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
+    "project_url": "/4yp/e16/Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients/",
+    "page_url": "https://cepdnaclk.github.io/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
+    "api_url": "https://api.github.com/repos/cepdnaclk/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
+    "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+    "created_at": "2022-07-23T18:00:10Z",
+    "updated_at": "2025-08-06T11:23:49Z",
+    "forks_count": 13,
+    "stars_count": 27,
+    "watchers_count": 27,
+    "language": "Jupyter Notebook",
+    "topics": ["diabetes", "food-recommendation", "machine-learning", "nutrients"],
+    "has_projects": true,
+    "has_wiki": true,
+    "has_pages": true,
+    "description": "Recommend proper foods for diabetic patients in the context of nutrition and food characteristics by developing a machine learning based intelligent mobile application",
+    "team": {
+      "E/16/083": {
+        "name": "Dhanushka S.M.V.",
+        "email": "e16083@eng.pdn.ac.lk",
+        "website": "https://studentambassadors.microsoft.com/en-US/profile/154961",
+        "github": "https://github.com/viradhanus",
+        "linkedin": "https://www.linkedin.com/in/viradhanus/",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/083",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16083.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e16/083/"
+      },
+      "E/16/394": {
+        "name": "Wijayasinghe S.D.D.D.",
+        "email": "e16394@eng.pdn.ac.lk",
+        "website": "",
+        "github": "",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/394",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16394.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e16/394/"
+      },
+      "E/16/396": {
+        "name": "Wijekoon W.M.T.S.",
+        "email": "e16396@eng.pdn.ac.lk",
+        "website": "",
+        "github": "",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E16/396",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e16/e16396.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e16/396/"
+      }
+    },
+    "supervisors": {
+      "sampath@eng.pdn.ac.lk": {
+        "name": "Dr. Eng. Sampath Deegalla",
+        "email": "sampath@eng.pdn.ac.lk",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/sampath-deegalla/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/sampath-deegalla.jpg",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/sampath",
+        "website": "#",
+        "linkedin": "https://www.linkedin.com/in/dsdeegalla",
+        "researchgate": "https://www.researchgate.net/profile/Sampath-Deegalla-2",
+        "google_scholar": "https://scholar.google.com/citations?user=QDoeGtYAAAAJ&hl=en"
+      },
+      "nadeeshaa@eng.pdn.ac.lk": {
+        "name": "Mrs. Nadeesha Adikari",
+        "email": "nadeeshaa@eng.pdn.ac.lk",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/nadeesha-adikari/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/nadeesha-adikari.jpg",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/nadeeshaa",
+        "website": "#",
+        "linkedin": "https://www.linkedin.com/in/nadeesha-adikari-48864961/",
+        "researchgate": "https://www.researchgate.net/profile/Nadeesha-Adikari",
+        "google_scholar": "#"
+      }
+    },
+    "tags": [
+      "Machine Learning",
+      "Diabetes",
+      "Food Recommendation",
+      "Nutrients",
+      "Final Year Projects"
+    ],
+    "name": "e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
+    "popularity_score": 24.2
   }
 }
