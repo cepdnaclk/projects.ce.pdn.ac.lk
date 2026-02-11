@@ -38,8 +38,8 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Run the Python script
+        working-directory: ./python_scripts
         run: |
-          cd ./python_scripts/
           python dynamic_data.py
           python projects_latest.py
           python projects_popular.py

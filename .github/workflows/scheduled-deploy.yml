@@ -40,8 +40,8 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Run the Python script
+        working-directory: ./python_scripts
         run: |
-          cd ./python_scripts/
           python index_repositories.py
 
       - name: Format files
