@@ -1,5 +1,6 @@
 [![Build and Deploy - Daily](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/actions/workflows/daily-build.yml/badge.svg?branch=main)](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/actions/workflows/daily-build.yml)
 [![Build and Deploy - Weekly](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/actions/workflows/weekly-build.yml/badge.svg?branch=main)](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/actions/workflows/weekly-build.yml)
+[![GitHub Pages](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/actions/workflows/pages/pages-build-deployment)
 
 # projects.ce.pdn.ac.lk
 
