@@ -102,7 +102,11 @@ class Notifications:
             )
 
         self.post_discord_message(data)
-        self.post_google_chat_message(data={"text": msg_title})
+        self.post_google_chat_message(
+            data={
+                "text": f"*[{log_level.upper()}*] {self.datetime}\n_{workflow} by {self.author}_\n\n{description}"
+            }
+        )
 
     def log(self, msg, description=""):
         self.send("log", self.author, self.workflow, msg, description)
