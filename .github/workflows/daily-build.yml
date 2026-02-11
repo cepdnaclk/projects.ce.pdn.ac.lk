@@ -1,12 +1,12 @@
-name: Collect Dynamic Data
+name: "Build and Deploy - Daily"
 
 on:
   schedule:
-    # # At 18:30 UTC on Sunday (12.30 mid night in Sri Lanka)
-    - cron: "00 19 * * 0"
+    # # At 18:30 UTC on Sunday (12.00 mid night in Sri Lanka)
+    # - cron: "30 18 * * 0"
 
     # # At 18:30 UTC on everyday (12.00 mid night in Sri Lanka)
-    # - cron: "0 0 * * *"
+    - cron: "30 18 * * *"
 
   # Enables a button on Actions tab
   workflow_dispatch:
@@ -14,12 +14,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      webhook_url: ${{ secrets.NOTIFICATION_WEBHOOK_URL }}
+      webhook_url_google: ${{ secrets.GOOGLE_CHAT_WEBHOOK_URL }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: main
 
       - name: Set up Node.js
         uses: actions/setup-node@v5
@@ -40,9 +42,7 @@ jobs:
       - name: Run the Python script
         working-directory: ./python_scripts
         run: |
-          python dynamic_data.py
-          python projects_latest.py
-          python projects_popular.py
+          python index_repositories.py
 
       - name: Format files
         run: |
@@ -53,8 +53,9 @@ jobs:
 
       - name: Commit and push into the main branch
         run: |
+
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add --all
-          git commit -m "Dynamic data updated" || echo "No changes to commit"
+          git commit -m "site build using GitHub Actions" || echo "No changes to commit"
           git push
