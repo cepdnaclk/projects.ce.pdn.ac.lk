@@ -1,15 +1,34 @@
+[![Build and Deploy - Daily](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/actions/workflows/daily-build.yml/badge.svg?branch=main)](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/actions/workflows/daily-build.yml)
+[![Build and Deploy - Weekly](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/actions/workflows/weekly-build.yml/badge.svg?branch=main)](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/actions/workflows/weekly-build.yml)
+
 # projects.ce.pdn.ac.lk
 
-This is the repository contains the source code for [https://projects.ce.pdn.ac.lk](https://projects.ce.pdn.ac.lk). The site is built by Jekyll Builder and hosted on GitHub pages.
+This is the repository contains the source code for [https://projects.ce.pdn.ac.lk](https://projects.ce.pdn.ac.lk). The site is built by Jekyll Builder and hosted on GitHub pages
 
 ## Update the site
 
 Student projects on [github.com/cepdnaclk](https://github.com/cepdnaclk) can be added to this site using the python script found in the root folder. Run following instructions to run the script and make a pull request to the repository.
 
-```
+```bash
+# Create a virtual environment and install the required dependencies
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Install the required dependencies and run the script
 pip install requests
+
+# Move into the python scripts folder
 cd ./python_scripts/
-python3 stat_script.py
+
+# Re-index the repositories and update the site
+python index_repositories.py
+
+# Build and aggregate the Projects index
+python dynamic_data.py
+
+# Update the latest and popular projects sections
+python projects_latest.py
+python projects_popular.py
 ```
 
 ## Build Instructions
