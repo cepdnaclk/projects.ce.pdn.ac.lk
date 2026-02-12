@@ -13,7 +13,7 @@ cover_url: https://cepdnaclk.github.io/e22-co2060-Project-KNOT/data/cover_page.j
 thumbnail_url: https://cepdnaclk.github.io/e22-co2060-Project-KNOT/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-co2060-Project-KNOT
 page_url: https://cepdnaclk.github.io/e22-co2060-Project-KNOT
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: "2026-02-07T10:58:06Z"

@@ -11,7 +11,7 @@ cover_url: /data/categories/co542/cover_page.jpg
 thumbnail_url: /data/categories/co542/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co542-classical-music-classification
 page_url: blank
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: "2025-03-06T12:24:46Z"
