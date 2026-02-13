@@ -11,7 +11,7 @@ cover_url: https://cepdnaclk.github.io/e20-3yp-Smart-Aquarium/data/cover_page.jp
 thumbnail_url: https://cepdnaclk.github.io/e20-3yp-Smart-Aquarium/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-3yp-Smart-Aquarium
 page_url: https://cepdnaclk.github.io/e20-3yp-Smart-Aquarium
-forks: 4
+forks: 5
 watchers: 1
 stars: 1
 started_on: "2024-12-16T07:24:28Z"
