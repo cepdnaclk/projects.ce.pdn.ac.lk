@@ -14,7 +14,7 @@ cover_url: https://cepdnaclk.github.io/e23-co2060-FindIT/data/cover_page.jpg
 thumbnail_url: /data/categories/co2060/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e23-co2060-FindIT
 page_url: https://cepdnaclk.github.io/e23-co2060-FindIT
-forks: 1
+forks: 2
 watchers: 0
 stars: 0
 started_on: "2026-02-06T13:16:09Z"

@@ -11,7 +11,7 @@ parent: E20 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
 cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
-repo_url: https://github.com/cepdnaclk/e20-4YP-Neuromorphic-Smart-Sensor-for-Autonomous-Underwater-Vehicles
+repo_url: https://github.com/cepdnaclk/e20-4yp-Neuromorphic-Smart-Sensor-for-Autonomous-Underwater-Vehicles
 page_url: blank
 forks: 1
 watchers: 1
