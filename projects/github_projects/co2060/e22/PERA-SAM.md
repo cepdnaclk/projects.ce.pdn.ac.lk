@@ -8,7 +8,7 @@ description: "A ML-powered Sound Analysis Manger platform | Team: Invictus | Dep
 has_children: false
 parent: E22 Software Systems Design Project (CO2060)
 grand_parent: Software Systems Design Project (CO2060)
-cover_url: /data/categories/co2060/cover_page.jpg
+cover_url: https://cepdnaclk.github.io/e22-co2060-PERA-SAM/data/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/e22-co2060-PERA-SAM/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-co2060-PERA-SAM
 page_url: https://cepdnaclk.github.io/e22-co2060-PERA-SAM

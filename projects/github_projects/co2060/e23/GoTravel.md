@@ -7,7 +7,7 @@ description: GoTravel is a web platform to explore destinations, learn history, 
 has_children: false
 parent: E23 Software Systems Design Project (CO2060)
 grand_parent: Software Systems Design Project (CO2060)
-cover_url: https://cepdnaclk.github.io/e23-co2060-GoTravel/data/cover_page.jpg
+cover_url: /data/categories/co2060/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/e23-co2060-GoTravel/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e23-co2060-GoTravel
 page_url: https://cepdnaclk.github.io/e23-co2060-GoTravel

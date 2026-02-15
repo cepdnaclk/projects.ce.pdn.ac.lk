@@ -13,7 +13,7 @@ cover_url: https://cepdnaclk.github.io/e20-3yp-Vescueye/data/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/e20-3yp-Vescueye/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-3yp-Vescueye
 page_url: https://cepdnaclk.github.io/e20-3yp-Vescueye
-forks: 1
+forks: 2
 watchers: 0
 stars: 0
 started_on: "2025-01-06T07:43:41Z"
