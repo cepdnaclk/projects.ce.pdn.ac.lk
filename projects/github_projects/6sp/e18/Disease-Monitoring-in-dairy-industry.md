@@ -13,8 +13,8 @@ thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-6sp-Disease-Monitoring-in-dairy-industry
 page_url: https://cepdnaclk.github.io/e18-6sp-Disease-Monitoring-in-dairy-industry
 forks: 3
-watchers: 7
-stars: 7
+watchers: 8
+stars: 8
 started_on: "2023-06-04T12:42:39Z"
 ---
 
