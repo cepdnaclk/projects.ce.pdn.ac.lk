@@ -12,7 +12,7 @@ cover_url: https://cepdnaclk.github.io/e22-co2060-PERA-SAM/data/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/e22-co2060-PERA-SAM/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-co2060-PERA-SAM
 page_url: https://cepdnaclk.github.io/e22-co2060-PERA-SAM
-forks: 2
+forks: 3
 watchers: 1
 stars: 1
 started_on: "2026-02-06T22:21:51Z"
