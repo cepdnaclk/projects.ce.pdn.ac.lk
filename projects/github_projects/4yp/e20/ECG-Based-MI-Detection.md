@@ -1,14 +1,14 @@
 ---
 layout: project_page
-title: eHealth Application to Detect IHD Using ECG
-permalink: /4yp/e20/eHealth-Application-to-Detect-IHD-Using-ECG/
+title: ECG Based MI Detection
+permalink: /4yp/e20/ECG-Based-MI-Detection/
 description: eHealth Application to detect Ischemic Heart Diseases using ECGs
 has_children: false
 parent: E20 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
 cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
-repo_url: https://github.com/cepdnaclk/e20-4yp-eHealth-Application-to-Detect-IHD-Using-ECG
+repo_url: https://github.com/cepdnaclk/e20-4yp-ECG-Based-MI-Detection
 page_url: blank
 forks: 1
 watchers: 1
