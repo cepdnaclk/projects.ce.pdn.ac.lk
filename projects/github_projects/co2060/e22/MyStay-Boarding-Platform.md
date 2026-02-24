@@ -13,7 +13,7 @@ cover_url: /data/categories/co2060/cover_page.jpg
 thumbnail_url: /data/categories/co2060/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-co2060-MyStay-Boarding-Platform
 page_url: https://cepdnaclk.github.io/e22-co2060-MyStay-Boarding-Platform
-forks: 1
+forks: 2
 watchers: 0
 stars: 0
 started_on: "2026-02-06T05:15:45Z"
