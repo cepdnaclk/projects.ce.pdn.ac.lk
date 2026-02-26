@@ -12,7 +12,7 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e21-3yp-PathFinder
 page_url: https://cepdnaclk.github.io/e21-3yp-PathFinder
-forks: 0
+forks: 4
 watchers: 0
 stars: 0
 started_on: "2026-02-08T16:21:52Z"
