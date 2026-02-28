@@ -11,7 +11,7 @@ thumbnail_url: /data/categories/co2060/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-co2060-Blood-Bank-management-System-web-app
 page_url: blank
 forks: 1
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: "2026-02-09T17:44:30Z"
 ---
