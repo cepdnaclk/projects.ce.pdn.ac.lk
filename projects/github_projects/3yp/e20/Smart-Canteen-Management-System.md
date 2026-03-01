@@ -13,9 +13,9 @@ cover_url: https://cepdnaclk.github.io/e20-3yp-Smart-Canteen-Management-System/d
 thumbnail_url: https://cepdnaclk.github.io/e20-3yp-Smart-Canteen-Management-System/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-3yp-Smart-Canteen-Management-System
 page_url: https://cepdnaclk.github.io/e20-3yp-Smart-Canteen-Management-System
-forks: 2
-watchers: 1
-stars: 1
+forks: 3
+watchers: 2
+stars: 2
 started_on: "2024-12-13T16:49:38Z"
 ---
 
