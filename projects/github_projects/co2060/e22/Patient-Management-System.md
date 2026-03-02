@@ -13,8 +13,8 @@ thumbnail_url: /data/categories/co2060/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-co2060-Patient-Management-System
 page_url: https://cepdnaclk.github.io/e22-co2060-Patient-Management-System
 forks: 1
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: "2026-02-07T10:56:34Z"
 ---
 

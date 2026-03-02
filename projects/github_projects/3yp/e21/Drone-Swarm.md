@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: "Drone Swarm "
-permalink: /3yp/e21/Drone-Swarm-/
+title: Drone Swarm
+permalink: /3yp/e21/Drone-Swarm/
 description: Programmable indoor drone swarm testbed using low-cost ESP32 mini drones
   for real-world networking and collision-avoidance research. Drones use UWB for localization,
   ESP-NOW for peer communication, and decentralized control. A hub handles configuration,
@@ -11,8 +11,8 @@ parent: E21 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
 cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
-repo_url: https://github.com/cepdnaclk/e21-3yp-Drone-Swarm-
-page_url: https://cepdnaclk.github.io/e21-3yp-Drone-Swarm-
+repo_url: https://github.com/cepdnaclk/e21-3yp-Drone-Swarm
+page_url: https://cepdnaclk.github.io/e21-3yp-Drone-Swarm
 forks: 0
 watchers: 0
 stars: 0

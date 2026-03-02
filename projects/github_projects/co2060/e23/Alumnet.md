@@ -13,8 +13,8 @@ thumbnail_url: /data/categories/co2060/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e23-co2060-Alumnet
 page_url: https://cepdnaclk.github.io/e23-co2060-Alumnet
 forks: 1
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: "2026-02-06T14:54:45Z"
 ---
 
