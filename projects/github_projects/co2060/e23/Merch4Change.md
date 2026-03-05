@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: antigravity
-permalink: /co2060/e23/antigravity/
+title: Merch4Change
+permalink: /co2060/e23/Merch4Change/
 description: This project develops a scalable and secure e-commerce web application
   featuring product browsing, cart management, secure payments, and an admin dashboard.
   It focuses on performance, usability, and reliability using modern software design
@@ -11,8 +11,8 @@ parent: E23 Software Systems Design Project (CO2060)
 grand_parent: Software Systems Design Project (CO2060)
 cover_url: /data/categories/co2060/cover_page.jpg
 thumbnail_url: /data/categories/co2060/thumbnail.jpg
-repo_url: https://github.com/cepdnaclk/e23-co2060-antigravity
-page_url: https://cepdnaclk.github.io/e23-co2060-antigravity
+repo_url: https://github.com/cepdnaclk/e23-co2060-Merch4Change
+page_url: https://cepdnaclk.github.io/e23-co2060-Merch4Change
 forks: 0
 watchers: 0
 stars: 0
