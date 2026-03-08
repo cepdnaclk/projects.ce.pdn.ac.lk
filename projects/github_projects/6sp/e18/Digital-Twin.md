@@ -11,7 +11,7 @@ cover_url: /data/categories/6sp/cover_page.jpg
 thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-6sp-Digital-Twin
 page_url: https://cepdnaclk.github.io/e18-6sp-Digital-Twin
-forks: 3
+forks: 4
 watchers: 0
 stars: 0
 started_on: "2023-05-22T10:11:10Z"
