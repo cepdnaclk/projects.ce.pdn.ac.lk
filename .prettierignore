@@ -7,6 +7,7 @@ _layouts/vendor/**
 .venv/**
 **/*.min.css
 **/*.min.js
+
 # Ignored files as Jekyll is includes
 _layouts/table_wrappers.html
 _includes/vendor/

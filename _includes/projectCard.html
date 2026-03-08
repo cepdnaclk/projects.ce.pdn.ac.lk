@@ -2,11 +2,13 @@
   <a class="btn m-0" href="{{ include.proj.url | realtive_url | prepend: site.baseurl }}">
     <div class="card h-100 m-0">
       <div class="img-hover-zoom">
-        <img
-          class="card-img-top app-thumb-img"
-          src="{{ include.proj.thumb | realtive_url | prepend: site.baseurl }}"
-          alt=""
-        />
+        <div class="img-container">
+          <img
+            class="card-img-top app-thumb-img"
+            src="{{ include.proj.thumbnail_url | relative_url | prepend: site.baseurl }}"
+            alt="{{ include.proj.title }} Thumbnail"
+          />
+        </div>
       </div>
       <div class="card-body p-1 m-0">
         <p class="card-title project-card-title">
