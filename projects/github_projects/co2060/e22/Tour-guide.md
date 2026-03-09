@@ -14,8 +14,8 @@ thumbnail_url: https://cepdnaclk.github.io/e22-co2060-Tour-guide/data/thumbnail.
 repo_url: https://github.com/cepdnaclk/e22-co2060-Tour-guide
 page_url: https://cepdnaclk.github.io/e22-co2060-Tour-guide
 forks: 0
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: "2026-02-10T17:03:08Z"
 ---
 

@@ -14,7 +14,7 @@ cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-4yp-VLM-Guided-Phenotyping-of-KOA
 page_url: blank
-forks: 2
+forks: 3
 watchers: 0
 stars: 0
 started_on: "2026-03-06T04:22:51Z"
