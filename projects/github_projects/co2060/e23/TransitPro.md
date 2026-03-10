@@ -14,7 +14,7 @@ cover_url: /data/categories/co2060/cover_page.jpg
 thumbnail_url: /data/categories/co2060/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e23-co2060-TransitPro
 page_url: https://cepdnaclk.github.io/e23-co2060-TransitPro
-forks: 2
+forks: 3
 watchers: 0
 stars: 0
 started_on: "2026-02-06T12:07:01Z"
