@@ -2,8 +2,10 @@
 layout: project_page
 title: CluckNet
 permalink: /3yp/e21/CluckNet/
-description: The project aims to create a high-immersion, remote-controlled 4x4 vehicle
-  that mimics a real-life driving experience for a user operating it via a laptop
+description: A Smart IoT-Based Chicken Farm System uses sensors and an ESP32 to monitor
+  temperature, humidity, and harmful gases. It automatically controls the environment
+  and shows real-time data on a dashboard, helping farmers improve poultry health
+  and productivity
 has_children: false
 parent: E21 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
@@ -17,4 +19,4 @@ stars: 0
 started_on: "2026-02-08T04:14:29Z"
 ---
 
-The project aims to create a high-immersion, remote-controlled 4x4 vehicle that mimics a real-life driving experience for a user operating it via a laptop
+A Smart IoT-Based Chicken Farm System uses sensors and an ESP32 to monitor temperature, humidity, and harmful gases. It automatically controls the environment and shows real-time data on a dashboard, helping farmers improve poultry health and productivity

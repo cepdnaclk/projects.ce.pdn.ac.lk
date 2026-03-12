@@ -13,7 +13,7 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e21-3yp-Smart-Laser-Distance-Meter
 page_url: https://cepdnaclk.github.io/e21-3yp-Smart-Laser-Distance-Meter
-forks: 0
+forks: 1
 watchers: 1
 stars: 1
 started_on: "2026-01-25T16:47:52Z"
