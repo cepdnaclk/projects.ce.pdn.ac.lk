@@ -10,7 +10,7 @@ cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-4yp-onchip-offline-neuromorphic-computing
 page_url: blank
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: "2025-12-26T18:29:45Z"
