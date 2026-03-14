@@ -9,7 +9,7 @@ grand_parent: Undergraduate Research Projects
 cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-4yp-ECG-Based-MI-Detection
-page_url: blank
+page_url: https://cepdnaclk.github.io/e20-4yp-ECG-Based-MI-Detection
 forks: 1
 watchers: 1
 stars: 1
