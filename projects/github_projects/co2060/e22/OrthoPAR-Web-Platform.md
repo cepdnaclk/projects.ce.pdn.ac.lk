@@ -12,8 +12,8 @@ thumbnail_url: /data/categories/co2060/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-co2060-OrthoPAR-Web-Platform
 page_url: https://cepdnaclk.github.io/e22-co2060-OrthoPAR-Web-Platform
 forks: 0
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: "2026-02-06T15:55:00Z"
 ---
 
