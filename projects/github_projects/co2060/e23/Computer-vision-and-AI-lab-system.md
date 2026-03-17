@@ -13,8 +13,8 @@ thumbnail_url: /data/categories/co2060/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e23-co2060-Computer-vision-and-AI-lab-system
 page_url: https://cepdnaclk.github.io/e23-co2060-Computer-vision-and-AI-lab-system
 forks: 2
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: "2026-02-04T09:05:28Z"
 ---
 
