@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e20-co227-Artery-Resolver
 forks: 1
 watchers: 0
 stars: 0
-started_on: "2024-11-27T14:10:34Z"
+started_on: '2024-11-27T14:10:34Z'
 ---
 
 Artery Resolver provides automated tools for accurately assessing arterial function by measuring changes in vessel diameter and blood velocity in response to blood flow changes. This project was completed in collaboration with the Medical Faculty of University of Peradeniya. Special thanks goes to Dr. Damsara Nandadeva and Dr. Sumudu Jayawardana.

@@ -2,7 +2,7 @@
 layout: project_page
 title: stock tank smart valve controller
 permalink: /co326/e18/stock-tank-smart-valve-controller/
-description: ""
+description: ''
 has_children: false
 parent: E18 Industrial Automation Projects (CO326)
 grand_parent: Industrial Automation Projects (CO326)
@@ -13,5 +13,6 @@ page_url: blank
 forks: 3
 watchers: 0
 stars: 0
-started_on: "2023-06-28T14:58:43Z"
+started_on: '2023-06-28T14:58:43Z'
 ---
+

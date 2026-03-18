@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e20-4yp-A-Hierarchical-Hybrid-Framework-fo
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2026-01-07T04:02:17Z"
+started_on: '2026-01-07T04:02:17Z'
 ---
 
-This a repository for the 4YP project on A Hierarchical Hybrid Framework for Intrusion Detection in Network and Application Layers which is ML-based IDS
+This a repository for the 4YP project on A Hierarchical Hybrid Framework for Intrusion  Detection in Network and Application Layers which is ML-based IDS

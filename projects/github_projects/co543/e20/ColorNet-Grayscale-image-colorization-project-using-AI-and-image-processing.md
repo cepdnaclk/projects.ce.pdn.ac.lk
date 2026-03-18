@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e20-co543-ColorNet-Grayscale-image-coloriz
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2025-02-01T09:21:17Z"
+started_on: '2025-02-01T09:21:17Z'
 ---
 
-This image colorizer is spesifically design to colourze ww2 images using convolutional nural networks. this software use same method as Zhang AI cnn base aproach. it can predict and restore realistic coloures to historical ww2 images.
+This image colorizer is spesifically design to colourze ww2 images using convolutional nural networks. this software use same method as Zhang AI cnn base aproach.  it can predict and restore realistic coloures to historical ww2 images.

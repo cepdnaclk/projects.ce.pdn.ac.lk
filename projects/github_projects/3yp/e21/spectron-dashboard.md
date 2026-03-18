@@ -13,7 +13,7 @@ page_url: blank
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2026-01-23T18:43:46Z"
+started_on: '2026-01-23T18:43:46Z'
 ---
 
 Standardized modular IoT adapter kit based...

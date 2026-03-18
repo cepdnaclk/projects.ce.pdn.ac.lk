@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e19-4yp-Using-LMs-to-Write-Patient-Clinica
 forks: 2
 watchers: 1
 stars: 1
-started_on: "2025-01-31T06:45:51Z"
+started_on: '2025-01-31T06:45:51Z'
 ---
 
 This research project aims to explore the potential of language models (LMs) in automating the writing of patient clinical letters.

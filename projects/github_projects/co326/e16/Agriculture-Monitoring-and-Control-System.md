@@ -2,7 +2,7 @@
 layout: project_page
 title: Agriculture Monitoring and Control System
 permalink: /co326/e16/Agriculture-Monitoring-and-Control-System/
-description: ""
+description: ''
 has_children: false
 parent: E16 Industrial Automation Projects (CO326)
 grand_parent: Industrial Automation Projects (CO326)
@@ -13,5 +13,6 @@ page_url: blank
 forks: 28
 watchers: 1
 stars: 1
-started_on: "2021-10-20T08:45:54Z"
+started_on: '2021-10-20T08:45:54Z'
 ---
+

@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e20-co227-Erasmus-plus-Project-Web-and-MIS
 forks: 4
 watchers: 4
 stars: 4
-started_on: "2024-05-10T16:50:49Z"
+started_on: '2024-05-10T16:50:49Z'
 ---
 
 A comprehensive software solution designed to support the management and coordination of Erasmus+ projects.

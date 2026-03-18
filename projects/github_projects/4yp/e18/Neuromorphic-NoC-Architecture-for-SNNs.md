@@ -2,7 +2,7 @@
 layout: project_page
 title: Neuromorphic NoC Architecture for SNNs
 permalink: /4yp/e18/Neuromorphic-NoC-Architecture-for-SNNs/
-description: ""
+description: ''
 has_children: false
 parent: E18 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e18-4yp-Neuromorphic-NoC-Architecture-for-
 forks: 5
 watchers: 7
 stars: 7
-started_on: "2024-01-07T07:40:55Z"
+started_on: '2024-01-07T07:40:55Z'
 ---
+

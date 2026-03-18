@@ -2,7 +2,7 @@
 layout: project_page
 title: Library Managment System
 permalink: /co226/e19/Library-Managment-System/
-description: ""
+description: ''
 has_children: false
 parent: E19 Database Projects (CO226)
 grand_parent: Database Projects (CO226)
@@ -13,5 +13,6 @@ page_url: blank
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2023-08-28T11:30:27Z"
+started_on: '2023-08-28T11:30:27Z'
 ---
+

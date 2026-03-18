@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e20-co227-e-Conductor
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2024-10-31T11:38:05Z"
+started_on: '2024-10-31T11:38:05Z'
 ---
 
 e-Conductor is an online bus ticketing platform for passengers, bus owners, and transport authorities. It includes a mobile app for ticket booking, schedules, and real-time updates, plus an admin web portal for bus tracking, schedule, and revenue management. e-Conductor streamlines operations, improving convenience and efficiency.

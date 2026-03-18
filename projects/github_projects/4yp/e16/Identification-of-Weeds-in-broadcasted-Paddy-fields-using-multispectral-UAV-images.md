@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e16-4yp-Identification-of-Weeds-in-broadca
 forks: 3
 watchers: 10
 stars: 10
-started_on: "2022-07-24T18:51:00Z"
+started_on: '2022-07-24T18:51:00Z'
 ---
 
 Develop a model to Identify paddy crops and weeds by images taken from UAV (unmanned aerial vehicle) and develop a desktop application as user interface

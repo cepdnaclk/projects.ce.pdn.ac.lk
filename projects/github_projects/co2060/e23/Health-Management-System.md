@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e23-co2060-Health-Management-System
 forks: 3
 watchers: 0
 stars: 0
-started_on: "2026-02-08T12:06:23Z"
+started_on: '2026-02-08T12:06:23Z'
 ---
 
 A MERN-based Health Management System for managing patients, doctors, labs, and admins. It supports appointments, medical records, and lab results with role-based access control. An AI support feature assists doctors with suggestions while final decisions remain human-made.

@@ -2,7 +2,7 @@
 layout: project_page
 title: PeraVerse Organizer Dashboard Core Frontend
 permalink: /co227/e21/PeraVerse-Organizer-Dashboard-Core-Frontend/
-description: ""
+description: ''
 has_children: false
 parent: E21 Software Systems Projects
 grand_parent: Software Systems Projects
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e21-co227-PeraVerse-Organizer-Dashboard-Co
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2025-11-20T11:21:30Z"
+started_on: '2025-11-20T11:21:30Z'
 ---
+

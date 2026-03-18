@@ -2,7 +2,7 @@
 layout: project_page
 title: Concentration Difficulty Prediction Model
 permalink: /co544/e19/Concentration-Difficulty-Prediction-Model/
-description: ""
+description: ''
 has_children: false
 parent: E19 Machine Learning Projects (CO544)
 grand_parent: Machine Learning Projects (CO544)
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e19-co544-Concentration-Difficulty-Predict
 forks: 4
 watchers: 0
 stars: 0
-started_on: "2024-04-25T14:47:16Z"
+started_on: '2024-04-25T14:47:16Z'
 ---
+

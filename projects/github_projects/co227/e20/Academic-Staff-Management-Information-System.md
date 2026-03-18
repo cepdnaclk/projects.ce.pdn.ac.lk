@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e20-co227-Academic-Staff-Management-Inform
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2024-11-27T17:26:18Z"
+started_on: '2024-11-27T17:26:18Z'
 ---
 
 This project is a Management Information System (MIS) built to streamline processes in the Academic Establishment Division of University of Peradeniya, including vacancy management, application submission, staff increments, study leaves, and probationary leaves.

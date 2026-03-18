@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e18-6sp-3D-Model-Construction-for-a-target
 forks: 3
 watchers: 0
 stars: 0
-started_on: "2023-05-25T06:51:59Z"
+started_on: '2023-05-25T06:51:59Z'
 ---
 
-We try to create a general 3d skeleton for a target object through a process which uses a model that understands the unique and real features of the target object using XAI
+We try to create a general 3d skeleton for a target object through a process which uses a model that understands  the unique and real features of the target object using XAI

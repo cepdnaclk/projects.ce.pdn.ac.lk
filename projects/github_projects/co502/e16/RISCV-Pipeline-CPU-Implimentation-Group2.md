@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e16-co502-RISCV-Pipeline-CPU-Implimentatio
 forks: 3
 watchers: 3
 stars: 3
-started_on: "2021-07-01T12:26:38Z"
+started_on: '2021-07-01T12:26:38Z'
 ---
 
 This is the RISC-V ISA implementation by Group 2

@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e18-3yp-smart-glove
 forks: 4
 watchers: 4
 stars: 4
-started_on: "2022-10-31T05:28:19Z"
+started_on: '2022-10-31T05:28:19Z'
 ---
 
 This project is basically targeting the differently abled people like mute people because most of the people in the community cannot understand the sign language. Smart glove can be used to convert sign language into text. Those converted messages can be seen through a mobile app and vice versa voice messages can be converted to sign images.

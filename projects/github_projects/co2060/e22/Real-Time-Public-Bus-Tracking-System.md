@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e22-co2060-Real-Time-Public-Bus-Tracking-S
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2026-02-07T14:34:12Z"
+started_on: '2026-02-07T14:34:12Z'
 ---
 
 A mobile-based system that displays real-time public bus locations on a map. Users can search buses by route number to check whether a bus is near or far. The project aims to improve transparency and reduce uncertainty in public transportation.

@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e22-co2060-DMS
 forks: 0
 watchers: 1
 stars: 1
-started_on: "2026-02-07T17:54:46Z"
+started_on: '2026-02-07T17:54:46Z'
 ---
 
 A comprehensive Debate Management System (DMS) designed to streamline competition organization, scoring, and team management.

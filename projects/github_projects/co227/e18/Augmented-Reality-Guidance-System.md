@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e18-co227-Augmented-Reality-Guidance-Syste
 forks: 3
 watchers: 2
 stars: 2
-started_on: "2022-06-05T05:54:02Z"
+started_on: '2022-06-05T05:54:02Z'
 ---
 
 A web based Augmented Reality Guidance system for Department of Computer Engineering

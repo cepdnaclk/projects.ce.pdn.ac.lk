@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e15-4yp-Optimizing-Mitochondria-Genome-Ass
 forks: 2
 watchers: 0
 stars: 0
-started_on: "2021-03-04T19:07:44Z"
+started_on: '2021-03-04T19:07:44Z'
 ---
 
 This assembly is to find an efficient procedure to identify the optimal set of mitochondria genome data from skim sequencing data and assemble, annotate those data to form a complete mitochondria genome.

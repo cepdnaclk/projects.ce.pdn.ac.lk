@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e18-3yp-Automated-Poultry-Farming
 forks: 3
 watchers: 2
 stars: 2
-started_on: "2022-10-31T05:38:01Z"
+started_on: '2022-10-31T05:38:01Z'
 ---
 
 This is about our automated poultry feeding system which mimics the roll of real life poultry farmer

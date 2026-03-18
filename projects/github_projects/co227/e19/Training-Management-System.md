@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e19-co227-Training-Management-System
 forks: 4
 watchers: 3
 stars: 3
-started_on: "2023-09-01T07:05:15Z"
+started_on: '2023-09-01T07:05:15Z'
 ---
 
 A Training Management System for Staff Development Centre, University of Peradeniya

@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e21-3yp-AURA
 forks: 4
 watchers: 1
 stars: 1
-started_on: "2026-02-08T07:27:12Z"
+started_on: '2026-02-08T07:27:12Z'
 ---
 
 AURA is an IoT-based robotic system developed by Group 17 to modernize the smart café experience. It addresses common dining pain points—such as ordering delays, language barriers, and staff burnout—by serving as a digital concierge at every table

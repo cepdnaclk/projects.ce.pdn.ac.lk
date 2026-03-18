@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e22-co2060-PearlPath
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2026-02-06T11:05:09Z"
+started_on: '2026-02-06T11:05:09Z'
 ---
 
 A centralized platform connecting hotels across Sri Lanka. Users can search hotels, view locations on interactive maps, explore nearby attractions, book stays, and hire local tour guides. Built using React.js, Node.js/Django, MySQL/MongoDB, and Google Maps API.

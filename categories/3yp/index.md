@@ -1,7 +1,7 @@
 ---
 layout: project_cat
 title: Cyber-Physical Systems Projects
-nav_order: "0"
+nav_order: '0'
 permalink: /3yp/
 has_children: true
 code: 3yp

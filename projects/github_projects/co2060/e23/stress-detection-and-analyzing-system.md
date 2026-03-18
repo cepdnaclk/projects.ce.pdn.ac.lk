@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e23-co2060-stress-detection-and-analyzing-
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2026-02-07T12:05:19Z"
+started_on: '2026-02-07T12:05:19Z'
 ---
 
 Our app detects and categorizes stress for undergraduates and early workers using the DASS questionnaire. Users are classified as normal, mild, moderate, or severe. Normal users receive an AI based daily routine, mild users receive tools like music and journaling, while moderate and severe users are guided to professional mental health resources.

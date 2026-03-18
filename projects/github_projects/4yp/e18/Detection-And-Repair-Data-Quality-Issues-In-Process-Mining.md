@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e18-4yp-Detection-And-Repair-Data-Quality-
 forks: 2
 watchers: 0
 stars: 0
-started_on: "2024-03-01T12:07:08Z"
+started_on: '2024-03-01T12:07:08Z'
 ---
 
 This research project is aimed at developing an algorithm for the detection and repair of one or a few of the identified imperfection patterns in process mining event logs. Our goal is to create a plugin for Praeclarus, a PDQ (Process Data Quality) framework that addresses imperfections, enhancing the accuracy and reliability of process analysis.

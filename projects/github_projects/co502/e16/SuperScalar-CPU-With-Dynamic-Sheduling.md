@@ -14,7 +14,7 @@ page_url: blank
 forks: 8
 watchers: 1
 stars: 1
-started_on: "2021-10-20T09:22:56Z"
+started_on: '2021-10-20T09:22:56Z'
 ---
 
 Implementation of a Superscalar CPU with Dynamic Scheduling which support RISC-V standard ISA with standard 'M' Extention

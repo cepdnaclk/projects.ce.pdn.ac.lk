@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e20-co227-MLink-A-Pharmacy-Linking-Platfor
 forks: 1
 watchers: 0
 stars: 0
-started_on: "2024-10-28T16:12:12Z"
+started_on: '2024-10-28T16:12:12Z'
 ---
 
 MLink is an innovative pharmacy-linking platform designed to bridge the gap between access to medicine and equitable distribution across the country. With MLink, customers can seamlessly connect with a network of pharmacies, ensuring timely access to medications while upholding essential regulatory standards and verifications.

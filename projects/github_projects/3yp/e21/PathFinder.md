@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e21-3yp-PathFinder
 forks: 4
 watchers: 0
 stars: 0
-started_on: "2026-02-08T16:21:52Z"
+started_on: '2026-02-08T16:21:52Z'
 ---
 
 An intelligent wearable navigation system that provides context-aware audio guidance and emergency assistance for visually impaired users using edge computing and sensor fusion.

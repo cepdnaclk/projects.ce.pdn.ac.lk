@@ -19,7 +19,7 @@ page_url: https://cepdnaclk.github.io/e15-co328-Zero-Trash
 forks: 1
 watchers: 0
 stars: 0
-started_on: "2020-12-26T12:08:09Z"
+started_on: '2020-12-26T12:08:09Z'
 ---
 
 Zero Trash provides a communication platform between its users and garbage collectors which did not exist (at least not successfully) in Sri Lanka. This could have huge implications for both lessening the cost of collecting garbage and aiding in the recycling process, as well as ensuring that materials that would otherwise end up in a landfill are transported to the appropriate recycling centers. This will increase the income for garbage collectors while providing householders with an additional income.

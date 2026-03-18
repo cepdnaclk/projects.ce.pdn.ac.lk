@@ -2,9 +2,9 @@
 layout: project_page
 title: Bloomi counselling platform
 permalink: /co328/e19/Bloomi-counselling-platform/
-description: "Introducing Bloomi: Your all-in-one app for seamless counselee-counselor
+description: 'Introducing Bloomi: Your all-in-one app for seamless counselee-counselor
   communication. Easily schedule appointments, access resources, and join workshops.
-  Counselors can efficiently manage appointments and track progress."
+  Counselors can efficiently manage appointments and track progress.'
 has_children: false
 parent: E19 Software Engineering Projects (CO328)
 grand_parent: Software Engineering Projects (CO328)
@@ -15,7 +15,7 @@ page_url: blank
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2024-06-24T17:53:39Z"
+started_on: '2024-06-24T17:53:39Z'
 ---
 
 Introducing Bloomi: Your all-in-one app for seamless counselee-counselor communication. Easily schedule appointments, access resources, and join workshops. Counselors can efficiently manage appointments and track progress.

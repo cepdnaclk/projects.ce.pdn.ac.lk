@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e18-4yp-Multi-Kingdom-Binning-of-Long-Read
 forks: 0
 watchers: 1
 stars: 1
-started_on: "2024-01-13T14:26:37Z"
+started_on: '2024-01-13T14:26:37Z'
 ---
 
-A tool for refining long-reads binning using kingdom level information
+A tool for refining long-reads binning  using kingdom level information

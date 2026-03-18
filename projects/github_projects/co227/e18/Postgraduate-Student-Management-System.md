@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e18-co227-Postgraduate-Student-Management-
 forks: 4
 watchers: 0
 stars: 0
-started_on: "2022-06-08T09:15:31Z"
+started_on: '2022-06-08T09:15:31Z'
 ---
 
 The aim of this project is to design and deployment of a student management system for PG students in the Department of Computer Engineering.

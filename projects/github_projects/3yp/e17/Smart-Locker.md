@@ -2,7 +2,7 @@
 layout: project_page
 title: Smart Locker
 permalink: /3yp/e17/Smart-Locker/
-description: ""
+description: ''
 has_children: false
 parent: E17 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e17-3yp-Smart-Locker
 forks: 5
 watchers: 4
 stars: 4
-started_on: "2021-07-04T05:00:19Z"
+started_on: '2021-07-04T05:00:19Z'
 ---
+

@@ -17,7 +17,7 @@ page_url: blank
 forks: 3
 watchers: 0
 stars: 0
-started_on: "2026-03-06T04:22:51Z"
+started_on: '2026-03-06T04:22:51Z'
 ---
 
 An automated, interpretable, and data-driven multimodal framework to identify OA phenotypes early which uses a Vision-Language Model (VLM) that combines X-rays, clinical data, and text into one shared representation, allowing it to learn the hidden relationships between structural damage and a patient’s clinical profile.

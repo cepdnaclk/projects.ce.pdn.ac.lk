@@ -13,7 +13,7 @@ page_url: blank
 forks: 2
 watchers: 0
 stars: 0
-started_on: "2022-03-05T07:48:52Z"
+started_on: '2022-03-05T07:48:52Z'
 ---
 
 A License / Number Plate Recognition (NPR) system using OpenCV and Python.

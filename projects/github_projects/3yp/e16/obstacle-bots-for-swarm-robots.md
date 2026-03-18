@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e16-3yp-obstacle-bots-for-swarm-robots
 forks: 4
 watchers: 2
 stars: 2
-started_on: "2020-10-16T14:08:11Z"
+started_on: '2020-10-16T14:08:11Z'
 ---
 
-Obstacle bots for the existing swarm research project of the Department of Computer Engineering, University of Peradeniya. Robots are localized with an overhead camera set up in order to create very challenging patterns using movements in a self-created potential surface with collision-avoiding algorithms on optimized stochastic gradient descent and particle repulsion theory.
+Obstacle bots for the existing swarm research project of the  Department of Computer Engineering, University of Peradeniya. Robots are localized with an overhead camera set up in order to create very challenging patterns using movements in a self-created potential surface with collision-avoiding algorithms on optimized stochastic gradient descent and particle repulsion theory.
