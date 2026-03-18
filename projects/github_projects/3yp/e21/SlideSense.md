@@ -2,7 +2,7 @@
 layout: project_page
 title: SlideSense
 permalink: /3yp/e21/SlideSense/
-description: ''
+description: ""
 has_children: false
 parent: E21 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
@@ -13,6 +13,5 @@ page_url: https://cepdnaclk.github.io/e21-3yp-SlideSense
 forks: 2
 watchers: 2
 stars: 2
-started_on: '2026-02-04T09:54:39Z'
+started_on: "2026-02-04T09:54:39Z"
 ---
-

@@ -23,7 +23,7 @@ page_url: https://cepdnaclk.github.io/e16-4yp-an-artificial-intelligence-inspire
 forks: 3
 watchers: 2
 stars: 2
-started_on: '2022-07-21T15:20:06Z'
+started_on: "2022-07-21T15:20:06Z"
 ---
 
-When moving from web 2.0 to web 3.0, decentralized network architecture became an essential network architecture with a large set of important use cases such as IOT edge environments, decentralized applications (DApps) and decentralized transaction systems. Because of this decentality, the ability of dividing devices into two sets (internal and external) went away and introduced a new set of  security vulnerabilities because of their fuzzy network boundary. To address these vulnerabilities, Zero Trust Architecture (ZTA), “Never trust, always verify” is introduced. In this research project, our goal is to develop a dynamic authentication/ authorization security solution for a decentralized edge environment with the help of machine learning techniques.
+When moving from web 2.0 to web 3.0, decentralized network architecture became an essential network architecture with a large set of important use cases such as IOT edge environments, decentralized applications (DApps) and decentralized transaction systems. Because of this decentality, the ability of dividing devices into two sets (internal and external) went away and introduced a new set of security vulnerabilities because of their fuzzy network boundary. To address these vulnerabilities, Zero Trust Architecture (ZTA), “Never trust, always verify” is introduced. In this research project, our goal is to develop a dynamic authentication/ authorization security solution for a decentralized edge environment with the help of machine learning techniques.

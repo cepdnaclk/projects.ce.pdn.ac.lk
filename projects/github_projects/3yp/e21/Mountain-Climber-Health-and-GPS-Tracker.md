@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e21-3yp-Mountain-Climber-Health-and-GPS-Tr
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2026-02-10T03:16:23Z'
+started_on: "2026-02-10T03:16:23Z"
 ---
 
 An IoT safety device for mountaineers that monitors heart rate, temperature, and GPS location in real-time. Powered by an Atmega controller, it utilizes WiFi for live dashboard tracking and GSM for instant SMS alerts during critical health events. This system automates distress signals with precise coordinates to ensure rapid search and rescue.

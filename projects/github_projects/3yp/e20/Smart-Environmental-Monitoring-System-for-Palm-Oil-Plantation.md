@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e20-3yp-Smart-Environmental-Monitoring-Sys
 forks: 2
 watchers: 1
 stars: 1
-started_on: '2024-12-12T18:10:56Z'
+started_on: "2024-12-12T18:10:56Z"
 ---
 
 The Smart Environmental Monitoring system will not only simplify and streamline plantation management operations but also enhance efficiency and promote sustainability. By offering real-time data collection and actionable insights, our solution will empower decision-making and optimize resource usage.

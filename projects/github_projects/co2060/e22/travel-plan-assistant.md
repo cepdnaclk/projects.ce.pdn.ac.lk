@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e22-co2060-travel-plan-assistant
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2026-02-07T18:33:30Z'
+started_on: "2026-02-07T18:33:30Z"
 ---
 
 The Travel Assistant is an all-in-one digital companion designed to streamline trip planning. Developed as a Software Systems Design Project, it integrates itinerary management, real-time budget tracking, and route optimization into a single interface to eliminate the need for multiple apps.

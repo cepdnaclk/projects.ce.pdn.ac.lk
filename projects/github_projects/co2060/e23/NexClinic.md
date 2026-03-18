@@ -15,7 +15,7 @@ page_url: blank
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2026-02-07T01:58:44Z'
+started_on: "2026-02-07T01:58:44Z"
 ---
 
 An AI based healthcare application that connects patients and doctors allowing secure login appointment management medical reminders and future AI assisted health support

@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e19-3yp-automated-sun-tracking-solar-pv-po
 forks: 0
 watchers: 1
 stars: 1
-started_on: '2023-11-14T15:00:44Z'
+started_on: "2023-11-14T15:00:44Z"
 ---
 
 A solar panel utility for tracking sun placement and get optimum power and analyse power gain.

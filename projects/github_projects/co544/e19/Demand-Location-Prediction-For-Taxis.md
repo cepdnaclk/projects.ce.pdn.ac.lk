@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e19-co544-Demand-Location-Prediction-For-T
 forks: 2
 watchers: 3
 stars: 3
-started_on: '2024-04-25T20:01:02Z'
+started_on: "2024-04-25T20:01:02Z"
 ---
 
 A highest demand Location prediction system for taxi drivers ,enhancing efficiency by accurately forecasting the most sought-after destinations.

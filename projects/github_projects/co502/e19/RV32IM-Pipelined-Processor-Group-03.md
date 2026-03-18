@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e19-co502-RV32IM-Pipelined-Processor-Group
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2025-04-25T03:35:31Z'
+started_on: "2025-04-25T03:35:31Z"
 ---
 
 This Git repository contains the implementation of a RISC32IM processor pipeline using Verilog. The pipeline includes stages for instruction fetch, decode, execute, memory access, and write-back. The implementation includes a testbench for verification.

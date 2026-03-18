@@ -1,7 +1,7 @@
 ---
 layout: project_cat
 title: Undergraduate Research Projects
-nav_order: '1'
+nav_order: "1"
 permalink: /4yp/
 has_children: true
 code: 4yp

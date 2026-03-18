@@ -2,7 +2,7 @@
 layout: project_page
 title: symbolic music generation with xLSTM
 permalink: /4yp/e20/symbolic-music-generation-with-xLSTM/
-description: ''
+description: ""
 has_children: false
 parent: E20 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -13,6 +13,5 @@ page_url: https://cepdnaclk.github.io/e20-4yp-symbolic-music-generation-with-xLS
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2025-12-22T15:01:35Z'
+started_on: "2025-12-22T15:01:35Z"
 ---
-

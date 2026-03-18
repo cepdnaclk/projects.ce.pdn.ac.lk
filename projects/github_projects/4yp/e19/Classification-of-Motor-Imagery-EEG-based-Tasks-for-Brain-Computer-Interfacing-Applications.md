@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e19-4yp-Classification-of-Motor-Imagery-EE
 forks: 0
 watchers: 1
 stars: 1
-started_on: '2025-01-31T12:59:19Z'
+started_on: "2025-01-31T12:59:19Z"
 ---
 
 This project focuses on classifying single-joint motor imagery (MI) EEG signals for applications in Brain-Computer-Interfacing(BCI). By leveraging deep learning models—including CNNs, Transformers, and hybrid architectures—we aim to improve the usability of MI-based single-joint classification.

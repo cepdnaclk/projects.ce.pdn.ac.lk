@@ -2,7 +2,7 @@
 layout: project_page
 title: Detect AI vs Human Generated Images
 permalink: /co542/e20/Detect-AI-vs-Human-Generated-Images/
-description: ''
+description: ""
 has_children: false
 parent: E20 Neural Networks Projects (CO542)
 grand_parent: Neural Networks Projects (CO542)
@@ -13,6 +13,5 @@ page_url: https://cepdnaclk.github.io/e20-co542-Detect-AI-vs-Human-Generated-Ima
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2025-02-22T10:30:00Z'
+started_on: "2025-02-22T10:30:00Z"
 ---
-

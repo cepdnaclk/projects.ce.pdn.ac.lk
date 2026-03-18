@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e23-co2060-FindIT
 forks: 2
 watchers: 0
 stars: 0
-started_on: '2026-02-06T13:16:09Z'
+started_on: "2026-02-06T13:16:09Z"
 ---
 
 Losing valuables like keys, wallets, or laptops is stressful on a busy campus. The Lost and Found Information System is a smart, privacy-first platform that connects people who’ve lost items with those who’ve found them using structured reports, intelligent matching, and secure gradual disclosure to prevent fraud and protect privacy.

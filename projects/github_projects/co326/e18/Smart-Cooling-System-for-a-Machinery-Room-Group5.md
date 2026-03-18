@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e18-co326-Smart-Cooling-System-for-a-Machi
 forks: 3
 watchers: 0
 stars: 0
-started_on: '2023-05-25T06:25:47Z'
+started_on: "2023-05-25T06:25:47Z"
 ---
 
 The aim of this project is to design a cooling system which is automatically controlled according to the temperature of a particular room. It also includes an alert system to notify if the temperature exceeds safe limits

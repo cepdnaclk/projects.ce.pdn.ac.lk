@@ -17,7 +17,7 @@ page_url: blank
 forks: 3
 watchers: 1
 stars: 1
-started_on: '2023-06-16T01:48:40Z'
+started_on: "2023-06-16T01:48:40Z"
 ---
 
-This helmet device is with sensors that has MQ9 gas sensor, thermistor, and KY-037 sound detection sensor.  LED and Piezo Buzzer are used as actuators. If there is any harmful noise or harmful temperature, these actuators notify that to the user.  Sensors and actuators are controlled by ESP32 module. This is connected to server through MQTT broker.
+This helmet device is with sensors that has MQ9 gas sensor, thermistor, and KY-037 sound detection sensor. LED and Piezo Buzzer are used as actuators. If there is any harmful noise or harmful temperature, these actuators notify that to the user. Sensors and actuators are controlled by ESP32 module. This is connected to server through MQTT broker.

@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e23-co2060-Hotel-Management-System
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2026-02-07T09:48:18Z'
+started_on: "2026-02-07T09:48:18Z"
 ---
 
 TourismHub LK is a mobile-responsive smart hotel and tourism management system for Sri Lanka, built with React, Node.js, Express and MySQL.

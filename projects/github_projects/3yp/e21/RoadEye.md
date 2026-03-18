@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e21-3yp-RoadEye
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2026-02-06T17:48:39Z'
+started_on: "2026-02-06T17:48:39Z"
 ---
 
 Smart Motorcycle Helmet – A safety-focused helmet system that enhances rider awareness using sensor fusion, real-time hazard detection, and hands-free feedback (haptics, audio, minimal HUD). Designed to deliver context-aware alerts while keeping riders focused on the road, reducing accident risk, and creating a safer riding experience.

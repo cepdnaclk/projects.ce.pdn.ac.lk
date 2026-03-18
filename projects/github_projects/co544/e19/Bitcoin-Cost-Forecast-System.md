@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e19-co544-Bitcoin-Cost-Forecast-System
 forks: 5
 watchers: 4
 stars: 4
-started_on: '2024-04-17T12:15:05Z'
+started_on: "2024-04-17T12:15:05Z"
 ---
 
 BitPredictor - A cutting-edge machine learning-based solution for predicting cryptocurrency prices. Harnessing the power of advanced algorithms and data analysis techniques, this system aims to provide accurate and timely forecasts for Bitcoin and other cryptocurrencies.

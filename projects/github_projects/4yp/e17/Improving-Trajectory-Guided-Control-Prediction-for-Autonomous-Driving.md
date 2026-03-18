@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e17-4yp-Improving-Trajectory-Guided-Contro
 forks: 1
 watchers: 2
 stars: 2
-started_on: '2023-05-16T11:40:57Z'
+started_on: "2023-05-16T11:40:57Z"
 ---
 
 In this project we first are trying to identify the issues in the TCP architecture and to improve its accuracy. Carla Simulator will be used to test the accuracy of our models.

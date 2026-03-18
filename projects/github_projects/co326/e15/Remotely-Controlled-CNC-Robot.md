@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e15-co326-Remotely-Controlled-CNC-Robot
 forks: 7
 watchers: 0
 stars: 0
-started_on: '2020-10-20T06:21:59Z'
+started_on: "2020-10-20T06:21:59Z"
 ---
 
 In this project, we developed a CNC (Computer Numerical Control) based pick and place arm, which will help to try different wiring arrangements in a PLC rig and try experiments on it remotely.

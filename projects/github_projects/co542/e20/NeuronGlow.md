@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e20-co542-NeuronGlow
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2025-01-29T19:16:25Z'
+started_on: "2025-01-29T19:16:25Z"
 ---
 
 A tangible, hardware-based visualization tool that demonstrates how a perceptron updates its weights and makes decisions.

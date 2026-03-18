@@ -2,7 +2,7 @@
 layout: project_page
 title: personalised promotion system
 permalink: /co544/e19/personalised-promotion-system/
-description: ''
+description: ""
 has_children: false
 parent: E19 Machine Learning Projects (CO544)
 grand_parent: Machine Learning Projects (CO544)
@@ -13,6 +13,5 @@ page_url: https://cepdnaclk.github.io/e19-co544-personalised-promotion-system
 forks: 5
 watchers: 0
 stars: 0
-started_on: '2024-04-20T05:14:39Z'
+started_on: "2024-04-20T05:14:39Z"
 ---
-

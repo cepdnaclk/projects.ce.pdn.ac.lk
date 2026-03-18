@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e23-co2060-Computer-vision-and-AI-lab-syst
 forks: 2
 watchers: 1
 stars: 1
-started_on: '2026-02-04T09:05:28Z'
+started_on: "2026-02-04T09:05:28Z"
 ---
 
 A unified web platform designed for the Computer Vision & AI Lab, integrating a public research portfolio with a robust internal management system for streamlining equipment bookings and GPU resource scheduling.

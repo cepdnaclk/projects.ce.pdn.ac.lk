@@ -2,7 +2,7 @@
 layout: project_page
 title: Rainfall Prediction System
 permalink: /co544/e19/Rainfall-Prediction-System/
-description: ''
+description: ""
 has_children: false
 parent: E19 Machine Learning Projects (CO544)
 grand_parent: Machine Learning Projects (CO544)
@@ -13,6 +13,5 @@ page_url: https://cepdnaclk.github.io/e19-co544-Rainfall-Prediction-System
 forks: 2
 watchers: 2
 stars: 2
-started_on: '2024-04-20T08:51:44Z'
+started_on: "2024-04-20T08:51:44Z"
 ---
-

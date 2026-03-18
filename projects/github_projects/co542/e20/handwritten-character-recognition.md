@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e20-co542-handwritten-character-recognitio
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2025-04-29T18:13:28Z'
+started_on: "2025-04-29T18:13:28Z"
 ---
 
 Deep learning–based system for handwritten character recognition using PyTorch & TensorFlow.

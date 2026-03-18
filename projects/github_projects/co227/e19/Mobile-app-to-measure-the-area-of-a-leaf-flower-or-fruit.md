@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e19-co227-Mobile-app-to-measure-the-area-o
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2023-08-31T11:15:39Z'
+started_on: "2023-08-31T11:15:39Z"
 ---
 
 Short semester project.

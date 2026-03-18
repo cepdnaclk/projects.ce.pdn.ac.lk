@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e19-4yp-blockchain-based-e-voting-system
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2025-02-02T14:45:57Z'
+started_on: "2025-02-02T14:45:57Z"
 ---
 
 This project explores the development of a secure, transparent, and verifiable blockchain-based electronic voting (e-voting) system aimed at addressing the challenges of traditional paper-based and centralized electronic voting systems.

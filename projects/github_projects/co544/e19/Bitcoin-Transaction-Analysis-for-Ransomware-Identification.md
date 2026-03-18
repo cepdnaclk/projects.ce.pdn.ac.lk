@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e19-co544-Bitcoin-Transaction-Analysis-for
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2024-04-24T06:18:44Z'
+started_on: "2024-04-24T06:18:44Z"
 ---
 
 This machine learning project is dedicated to identifying ransomware-related activity within the Bitcoin network. Leveraging advanced algorithms, the project aims to uncover patterns indicative of ransomware behavior, enhancing security and transparency in cryptocurrency transactions.

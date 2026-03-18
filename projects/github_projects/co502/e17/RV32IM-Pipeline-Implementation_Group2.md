@@ -2,7 +2,7 @@
 layout: project_page
 title: RV32IM Pipeline Implementation_Group2
 permalink: /co502/e17/RV32IM-Pipeline-Implementation_Group2/
-description: ''
+description: ""
 has_children: false
 parent: E17 Advanced Computer Architecture (CO502)
 grand_parent: Advanced Computer Architecture (CO502)
@@ -13,6 +13,5 @@ page_url: https://cepdnaclk.github.io/e17-co502-RV32IM-Pipeline-Implementation_G
 forks: 2
 watchers: 0
 stars: 0
-started_on: '2023-08-29T05:28:13Z'
+started_on: "2023-08-29T05:28:13Z"
 ---
-

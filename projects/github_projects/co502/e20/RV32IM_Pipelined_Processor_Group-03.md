@@ -2,7 +2,7 @@
 layout: project_page
 title: RV32IM_Pipelined_Processor_Group 03
 permalink: /co502/e20/RV32IM_Pipelined_Processor_Group-03/
-description: ''
+description: ""
 has_children: false
 parent: E20 Advanced Computer Architecture (CO502)
 grand_parent: Advanced Computer Architecture (CO502)
@@ -13,6 +13,5 @@ page_url: https://cepdnaclk.github.io/e20-co502-RV32IM_Pipelined_Processor_Group
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2024-12-03T13:56:44Z'
+started_on: "2024-12-03T13:56:44Z"
 ---
-

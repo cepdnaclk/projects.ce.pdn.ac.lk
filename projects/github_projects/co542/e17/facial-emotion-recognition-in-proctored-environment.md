@@ -15,7 +15,7 @@ page_url: blank
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2023-11-01T05:37:04Z'
+started_on: "2023-11-01T05:37:04Z"
 ---
 
 The project is about implementing a facial emotion recognition (FER) model to reduce the recency bias in feedbacks given by users after a survey, online exam kinda scenarios. We provide a user interface to experiment the functionality.

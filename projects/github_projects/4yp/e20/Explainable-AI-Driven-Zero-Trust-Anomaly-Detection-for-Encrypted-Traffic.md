@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e20-4yp-Explainable-AI-Driven-Zero-Trust-A
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2025-12-22T07:53:16Z'
+started_on: "2025-12-22T07:53:16Z"
 ---
 
 The aim of this project is to develop an AI-driven anomaly detection system for encrypted traffic in Zero Trust Architecture (ZTA) with explainable AI (XAI) for transparency.

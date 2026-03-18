@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e22-co2060-hydro-risk-management
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2026-02-07T18:07:08Z'
+started_on: "2026-02-07T18:07:08Z"
 ---
 
 Integrated Hydrology Risk-Management System for the Mahaweli River basin. Features secure MQTT/HTTPS sensor ingestion, time-series storage, and a decision support dashboard. Includes APIs for AI water-level forecasting, real-time flood alerts, and automated reporting for disaster management.

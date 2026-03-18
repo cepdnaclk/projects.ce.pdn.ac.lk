@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e20-4yp-voice-enabled-llm-agentic-construc
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2026-01-02T05:02:52Z'
+started_on: "2026-01-02T05:02:52Z"
 ---
 
 An LLM-based system that allows users to describe a construction project using voice input and automatically generates a construction schedule.

@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e19-co226-Online-Shopping-System
 forks: 3
 watchers: 2
 stars: 2
-started_on: '2023-08-03T11:56:54Z'
+started_on: "2023-08-03T11:56:54Z"
 ---
 
 The Online Shopping Database Management System (OSDMS) streamlines e-commerce operations with real-time product updates, automated inventory tracking, and secure payment integration. It simplifies order processing, enhances customer satisfaction, and offers valuable data analytics for informed decision-making.

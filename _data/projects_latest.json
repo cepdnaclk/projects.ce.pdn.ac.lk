@@ -1,625 +1,606 @@
 {
-    "e23-co2060-Orthodontics-Workflow-Automation-System": {
-        "projName": "Orthodontics Workflow Automation System",
-        "batch": "E23",
-        "category": {
-            "title": "Software Systems Design Project (CO2060)",
-            "code": "co2060",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co2060/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e23-co2060-Orthodontics-Workflow-Automation-System",
-        "project_url": "/co2060/e23/Orthodontics-Workflow-Automation-System/",
-        "page_url": "https://cepdnaclk.github.io/e23-co2060-Orthodontics-Workflow-Automation-System",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e23-co2060-Orthodontics-Workflow-Automation-System",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co2060/thumbnail.jpg",
-        "created_at": "2026-02-07T05:43:29Z",
-        "updated_at": "2026-03-18T04:02:50Z",
-        "forks_count": 2,
-        "stars_count": 0,
-        "watchers_count": 0,
-        "language": "TypeScript",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "The Orthodontics Workflow Automation System (OWAS) is a web-based platform that replaces manual dental records with a secure digital hub. By centralizing patient history and images, it enables instant data retrieval and faster care. Its modular, scalable architecture ensures future-readiness for integration across the entire Dental Hospital.",
-        "team": {
-            "E/23/182": {
-                "name": "R.K. Kulasooriya",
-                "email": "e23182@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/rahul-kenula",
-                "linkedin": "https://www.linkedin.com/in/rahul-kulasooriya-981681366/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E23/182",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e23/e23182.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e23/182/"
-            },
-            "E/23/292": {
-                "name": "K.S. Rambukkanage",
-                "email": "e23292@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/sadhaks",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E23/292",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e23/e23292.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e23/292/"
-            },
-            "E/23/299": {
-                "name": "R.D.K.D. Ranasinghe",
-                "email": "e23299@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E23/299",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e23/e23299.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e23/299/"
-            },
-            "E/23/302": {
-                "name": "T.G.D. Randeep",
-                "email": "e23302@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/randeep302",
-                "linkedin": "linkedin.com/in/dilshan-gamage-ab519b364",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E23/302",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e23/e23302.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e23/302/"
-            }
-        },
-        "supervisors": {
-            "asithab@eng.pdn.ac.lk": {
-                "name": "Dr. Asitha Bandaranayake",
-                "email": "asithab@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/asitha-bandaranayake/",
-                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/asitha-bandaranayake.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/asithab",
-                "website": "#",
-                "linkedin": "https://www.linkedin.com/in/asithab/",
-                "researchgate": "https://www.researchgate.net/profile/Asitha-Bandaranayake-3",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=sf6MaF4AAAAJ"
-            },
-            "ksandamala2002@dental.pdn.ac.lk": {
-                "name": "Dr. H.S.K. Ratnatilake",
-                "email": "ksandamala2002@dental.pdn.ac.lk",
-                "profile_url": "#",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
-                "api_url": "#",
-                "website": "#",
-                "linkedin": "#",
-                "researchgate": "#",
-                "google_scholar": "#"
-            },
-            "dinakad@dental.pdn.ac.lk": {
-                "name": "Dr. D.D. Vithanachchi",
-                "email": "dinakad@dental.pdn.ac.lk",
-                "profile_url": "#",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
-                "api_url": "#",
-                "website": "#",
-                "linkedin": "#",
-                "researchgate": "#",
-                "google_scholar": "#"
-            }
-        },
-        "tags": [
-            "Web",
-            "Software Systems",
-            "CO2060"
-        ],
-        "name": "e23-co2060-Orthodontics-Workflow-Automation-System"
+  "e23-co2060-Orthodontics-Workflow-Automation-System": {
+    "projName": "Orthodontics Workflow Automation System",
+    "batch": "E23",
+    "category": {
+      "title": "Software Systems Design Project (CO2060)",
+      "code": "co2060",
+      "api_url": "https://api.ce.pdn.ac.lk/projects/v1/co2060/"
     },
-    "e20-4yp-symbolic-music-generation-with-xLSTM": {
-        "projName": "symbolic music generation with xLSTM",
-        "batch": "E20",
-        "category": {
-            "title": "Undergraduate Research Projects",
-            "code": "4yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e20-4yp-symbolic-music-generation-with-xLSTM",
-        "project_url": "/4yp/e20/symbolic-music-generation-with-xLSTM/",
-        "page_url": "https://cepdnaclk.github.io/e20-4yp-symbolic-music-generation-with-xLSTM",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e20-4yp-symbolic-music-generation-with-xLSTM",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2025-12-22T15:01:35Z",
-        "updated_at": "2026-03-18T03:30:14Z",
-        "forks_count": 1,
-        "stars_count": 0,
-        "watchers_count": 0,
-        "language": "Jupyter Notebook",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "",
-        "team": {},
-        "supervisors": {},
-        "tags": [
-            "Final Year Projects"
-        ],
-        "name": "e20-4yp-symbolic-music-generation-with-xLSTM"
+    "repo_url": "https://github.com/cepdnaclk/e23-co2060-Orthodontics-Workflow-Automation-System",
+    "project_url": "/co2060/e23/Orthodontics-Workflow-Automation-System/",
+    "page_url": "https://cepdnaclk.github.io/e23-co2060-Orthodontics-Workflow-Automation-System",
+    "api_url": "https://api.github.com/repos/cepdnaclk/e23-co2060-Orthodontics-Workflow-Automation-System",
+    "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/co2060/thumbnail.jpg",
+    "created_at": "2026-02-07T05:43:29Z",
+    "updated_at": "2026-03-18T04:02:50Z",
+    "forks_count": 2,
+    "stars_count": 0,
+    "watchers_count": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "has_projects": true,
+    "has_wiki": true,
+    "has_pages": true,
+    "description": "The Orthodontics Workflow Automation System (OWAS) is a web-based platform that replaces manual dental records with a secure digital hub. By centralizing patient history and images, it enables instant data retrieval and faster care. Its modular, scalable architecture ensures future-readiness for integration across the entire Dental Hospital.",
+    "team": {
+      "E/23/182": {
+        "name": "R.K. Kulasooriya",
+        "email": "e23182@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/rahul-kenula",
+        "linkedin": "https://www.linkedin.com/in/rahul-kulasooriya-981681366/",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E23/182",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e23/e23182.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e23/182/"
+      },
+      "E/23/292": {
+        "name": "K.S. Rambukkanage",
+        "email": "e23292@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/sadhaks",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E23/292",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e23/e23292.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e23/292/"
+      },
+      "E/23/299": {
+        "name": "R.D.K.D. Ranasinghe",
+        "email": "e23299@eng.pdn.ac.lk",
+        "website": "",
+        "github": "",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E23/299",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e23/e23299.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e23/299/"
+      },
+      "E/23/302": {
+        "name": "T.G.D. Randeep",
+        "email": "e23302@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/randeep302",
+        "linkedin": "linkedin.com/in/dilshan-gamage-ab519b364",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E23/302",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e23/e23302.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e23/302/"
+      }
     },
-    "e20-4yp-Predictive-Link-Stablitiy-and-Trust-Aware-Routing-in-FANETs": {
-        "projName": "Predictive Link Stablitiy and Trust Aware Routing in FANETs",
-        "batch": "E20",
-        "category": {
-            "title": "Undergraduate Research Projects",
-            "code": "4yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e20-4yp-Predictive-Link-Stablitiy-and-Trust-Aware-Routing-in-FANETs",
-        "project_url": "/4yp/e20/Predictive-Link-Stablitiy-and-Trust-Aware-Routing-in-FANETs/",
-        "page_url": "https://cepdnaclk.github.io/e20-4yp-Predictive-Link-Stablitiy-and-Trust-Aware-Routing-in-FANETs",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e20-4yp-Predictive-Link-Stablitiy-and-Trust-Aware-Routing-in-FANETs",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2025-10-15T02:14:36Z",
-        "updated_at": "2026-03-18T02:27:41Z",
-        "forks_count": 1,
-        "stars_count": 1,
-        "watchers_count": 1,
-        "language": "C++",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "This is a final year research on Improving Link Stability of Flying Ad-hoc Networks",
-        "team": {
-            "E/20/035": {
-                "name": "K.C.H.N.A.W.M.R.C.J.N. Bandara",
-                "email": "e20035@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/ChamudithaNawarathna",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/035",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20035.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/035/"
-            },
-            "E/20/173": {
-                "name": "P.A.S.V. Jayasooriya",
-                "email": "e20173@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "https://www.linkedin.com/in/sarani-vinodya-23072001/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/173",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20173.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/173/"
-            },
-            "E/20/178": {
-                "name": "N.K.D.P. Jayawardena",
-                "email": "e20178@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/e20178dulanga",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/178",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20178.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/178/"
-            }
-        },
-        "supervisors": {
-            "namal@eng.pdn.ac.lk": {
-                "name": "Dr. Suneth Namal Karunarathna",
-                "email": "namal@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/suneth-namal-karunarathna/",
-                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/suneth-namal-karunarathna.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/namal",
-                "website": "#",
-                "linkedin": "https://lk.linkedin.com/in/suneth-namal-b70b8688",
-                "researchgate": "https://www.researchgate.net/profile/Suneth-Namal",
-                "google_scholar": "https://scholar.google.com/citations?user=G39TP7EAAAAJ&hl=en"
-            },
-            "upuljm@eng.pdn.ac.lk": {
-                "name": "Dr. Upul Jayasinghe",
-                "email": "upuljm@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/upul-jayasinghe/",
-                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/upul-jayasinghe.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/upuljm",
-                "website": "#",
-                "linkedin": "https://www.linkedin.com/in/upuljm/",
-                "researchgate": "https://www.researchgate.net/profile/Upul-Jayasinghe",
-                "google_scholar": "https://scholar.google.ch/citations?user=9nBn4b0AAAAJ"
-            }
-        },
-        "tags": [
-            "Final Year Projects"
-        ],
-        "name": "e20-4yp-Predictive-Link-Stablitiy-and-Trust-Aware-Routing-in-FANETs"
+    "supervisors": {
+      "asithab@eng.pdn.ac.lk": {
+        "name": "Dr. Asitha Bandaranayake",
+        "email": "asithab@eng.pdn.ac.lk",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/asitha-bandaranayake/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/asitha-bandaranayake.jpg",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/asithab",
+        "website": "#",
+        "linkedin": "https://www.linkedin.com/in/asithab/",
+        "researchgate": "https://www.researchgate.net/profile/Asitha-Bandaranayake-3",
+        "google_scholar": "https://scholar.google.com/citations?hl=en&user=sf6MaF4AAAAJ"
+      },
+      "ksandamala2002@dental.pdn.ac.lk": {
+        "name": "Dr. H.S.K. Ratnatilake",
+        "email": "ksandamala2002@dental.pdn.ac.lk",
+        "profile_url": "#",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
+        "api_url": "#",
+        "website": "#",
+        "linkedin": "#",
+        "researchgate": "#",
+        "google_scholar": "#"
+      },
+      "dinakad@dental.pdn.ac.lk": {
+        "name": "Dr. D.D. Vithanachchi",
+        "email": "dinakad@dental.pdn.ac.lk",
+        "profile_url": "#",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
+        "api_url": "#",
+        "website": "#",
+        "linkedin": "#",
+        "researchgate": "#",
+        "google_scholar": "#"
+      }
     },
-    "e20-4yp-ai-atrial-fib-detection": {
-        "projName": "ai atrial fib detection",
-        "batch": "E20",
-        "category": {
-            "title": "Undergraduate Research Projects",
-            "code": "4yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e20-4yp-ai-atrial-fib-detection",
-        "project_url": "/4yp/e20/ai-atrial-fib-detection/",
-        "page_url": "https://cepdnaclk.github.io/e20-4yp-ai-atrial-fib-detection",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e20-4yp-ai-atrial-fib-detection",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2026-01-26T10:26:53Z",
-        "updated_at": "2026-03-18T02:00:04Z",
-        "forks_count": 0,
-        "stars_count": 0,
-        "watchers_count": 0,
-        "language": "Jupyter Notebook",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "Interactive Explainable AI framework for AFib detection using counterfactual ECG generation. Combines CNN-BiLSTM classifiers with VAE and diffusion models to simulate what-if cardiac scenarios, bridging clinical trust through realistic, interpretable ECG explanations.",
-        "team": {
-            "E/20/069": {
-                "name": "Tharaka Dilshan",
-                "email": "e20069@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/tharakadilshandmt",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/069",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20069.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/069/"
-            },
-            "E/20/189": {
-                "name": "Nethmini Karunarathne",
-                "email": "e20189@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/KasunikaKarunarathne",
-                "linkedin": "https://www.linkedin.com/in/nethmini-karunarathne-b20460206/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/189",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20189.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/189/"
-            }
-        },
-        "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-                "website": "#",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            },
-            "roshanr@eng.pdn.ac.lk": {
-                "name": "Prof. Roshan G. Ragel",
-                "email": "roshanr@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
-                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/roshan-ragel.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/roshanr",
-                "website": "#",
-                "linkedin": "https://www.linkedin.com/in/roshanragel/",
-                "researchgate": "https://www.researchgate.net/profile/Roshan-Ragel",
-                "google_scholar": "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
-            }
-        },
-        "tags": {},
-        "name": "e20-4yp-ai-atrial-fib-detection"
+    "tags": ["Web", "Software Systems", "CO2060"],
+    "name": "e23-co2060-Orthodontics-Workflow-Automation-System"
+  },
+  "e20-4yp-symbolic-music-generation-with-xLSTM": {
+    "projName": "symbolic music generation with xLSTM",
+    "batch": "E20",
+    "category": {
+      "title": "Undergraduate Research Projects",
+      "code": "4yp",
+      "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
     },
-    "e20-4yp-SinhSafe": {
-        "projName": "SinhSafe",
-        "batch": "E20",
-        "category": {
-            "title": "Undergraduate Research Projects",
-            "code": "4yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e20-4yp-SinhSafe",
-        "project_url": "/4yp/e20/SinhSafe/",
-        "page_url": "https://cepdnaclk.github.io/e20-4yp-SinhSafe",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e20-4yp-SinhSafe",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2026-01-14T20:12:04Z",
-        "updated_at": "2026-03-17T22:45:54Z",
-        "forks_count": 1,
-        "stars_count": 0,
-        "watchers_count": 0,
-        "language": "Python",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "SinhSafe benchmarks XLM-R, SinBERT, and SinhLlama to identify the best model for Sinhala/Singlish cyberbullying detection. Our core contribution is a large pseudo-labeled dataset with fine-grained labels (Normal, Offensive, Bullying), processed via a hybrid transliteration pipeline to advance low-resource NLP safety tools.",
-        "team": {
-            "E/20/397": {
-                "name": "Thilakasiri P.D.",
-                "email": "e20397@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/dimantha00",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/397",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20397.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/397/"
-            }
-        },
-        "supervisors": {
-            "sampath@eng.pdn.ac.lk": {
-                "name": "Dr. Sampath Deegalla",
-                "email": "sampath@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/sampath-deegalla/",
-                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/sampath-deegalla.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/sampath",
-                "website": "#",
-                "linkedin": "https://www.linkedin.com/in/dsdeegalla",
-                "researchgate": "https://www.researchgate.net/profile/Sampath-Deegalla-2",
-                "google_scholar": "https://scholar.google.com/citations?user=QDoeGtYAAAAJ&hl=en"
-            }
-        },
-        "tags": [
-            "Cyberbullying Detection",
-            "NLP",
-            "Deep Learning",
-            "Sinhala",
-            "Code-Mixing"
-        ],
-        "name": "e20-4yp-SinhSafe"
+    "repo_url": "https://github.com/cepdnaclk/e20-4yp-symbolic-music-generation-with-xLSTM",
+    "project_url": "/4yp/e20/symbolic-music-generation-with-xLSTM/",
+    "page_url": "https://cepdnaclk.github.io/e20-4yp-symbolic-music-generation-with-xLSTM",
+    "api_url": "https://api.github.com/repos/cepdnaclk/e20-4yp-symbolic-music-generation-with-xLSTM",
+    "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+    "created_at": "2025-12-22T15:01:35Z",
+    "updated_at": "2026-03-18T03:30:14Z",
+    "forks_count": 1,
+    "stars_count": 0,
+    "watchers_count": 0,
+    "language": "Jupyter Notebook",
+    "topics": [],
+    "has_projects": true,
+    "has_wiki": true,
+    "has_pages": true,
+    "description": "",
+    "team": {},
+    "supervisors": {},
+    "tags": ["Final Year Projects"],
+    "name": "e20-4yp-symbolic-music-generation-with-xLSTM"
+  },
+  "e20-4yp-Predictive-Link-Stablitiy-and-Trust-Aware-Routing-in-FANETs": {
+    "projName": "Predictive Link Stablitiy and Trust Aware Routing in FANETs",
+    "batch": "E20",
+    "category": {
+      "title": "Undergraduate Research Projects",
+      "code": "4yp",
+      "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
     },
-    "e20-4yp-metagenomics": {
-        "projName": "metagenomics",
-        "batch": "E20",
-        "category": {
-            "title": "Undergraduate Research Projects",
-            "code": "4yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e20-4yp-metagenomics",
-        "project_url": "/4yp/e20/metagenomics/",
-        "page_url": "https://cepdnaclk.github.io/e20-4yp-metagenomics",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e20-4yp-metagenomics",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2025-12-14T10:41:04Z",
-        "updated_at": "2026-03-17T20:50:50Z",
-        "forks_count": 0,
-        "stars_count": 0,
-        "watchers_count": 0,
-        "language": "Python",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "Comparative evaluation of 8 DR methods (PCA, PCoA, MDS, t-SNE, UMAP, PaCMAP, PHATE, SONG) and graph neural network clustering across human, soil, and marine metagenomic datasets. Addresses key challenges: 90-99% sparsity, compositionality, phylogenetic structure preservation.",
-        "team": {
-            "E/20/158": {
-                "name": "Jananga T.G.C.",
-                "email": "e20158@eng.pdn.ac.lk",
-                "website": "https://www.thecn.com/EJ456",
-                "github": "https://github.com/tgcjananga",
-                "linkedin": "https://www.linkedin.com/in/chamuditha-jananga-18bb2a277",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/158",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20158.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/158/"
-            },
-            "E/20/300": {
-                "name": "Prasadinie H.A.M.T",
-                "email": "e20300@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "https://www.linkedin.com/in/h-a-m-t-prasadinie-29a13a261?trk=blended-typeahead",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/300",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20300.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/300/"
-            },
-            "E/20/244": {
-                "name": "Malshan P.G.P.",
-                "email": "e20244@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/244",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20244.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/244/"
-            }
-        },
-        "supervisors": {
-            "damayanthiherath@eng.pdn.ac.lk": {
-                "name": "Dr. Damayanthi Herath",
-                "email": "damayanthiherath@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/damayanthi-herath/",
-                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/damayanthi-herath.jpg",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/damayanthiherath",
-                "website": "#",
-                "linkedin": "https://www.linkedin.com/in/damayanthi-herath/",
-                "researchgate": "https://www.researchgate.net/profile/Damayanthi-Herath",
-                "google_scholar": "https://scholar.google.com/citations?user=G2jUV5IAAAAJ&hl=en"
-            },
-            "rajith.v@unimelb.edu.au": {
-                "name": "Dr. Rajith Vidanaarachchi",
-                "email": "rajith.v@unimelb.edu.au",
-                "profile_url": "#",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
-                "api_url": "#",
-                "website": "#",
-                "linkedin": "#",
-                "researchgate": "#",
-                "google_scholar": "#"
-            },
-            "vijini.mallawaarachchi@flinders.edu.au": {
-                "name": "Dr. Vijini Mallawaarachchi",
-                "email": "vijini.mallawaarachchi@flinders.edu.au",
-                "profile_url": "#",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
-                "api_url": "#",
-                "website": "#",
-                "linkedin": "#",
-                "researchgate": "#",
-                "google_scholar": "#"
-            }
-        },
-        "tags": [
-            "Final Year Projects",
-            "Metagenomics",
-            "Machine Learning",
-            "Dimensionality Reduction",
-            "Graph Neural Networks",
-            "Bioinformatics"
-        ],
-        "name": "e20-4yp-metagenomics"
+    "repo_url": "https://github.com/cepdnaclk/e20-4yp-Predictive-Link-Stablitiy-and-Trust-Aware-Routing-in-FANETs",
+    "project_url": "/4yp/e20/Predictive-Link-Stablitiy-and-Trust-Aware-Routing-in-FANETs/",
+    "page_url": "https://cepdnaclk.github.io/e20-4yp-Predictive-Link-Stablitiy-and-Trust-Aware-Routing-in-FANETs",
+    "api_url": "https://api.github.com/repos/cepdnaclk/e20-4yp-Predictive-Link-Stablitiy-and-Trust-Aware-Routing-in-FANETs",
+    "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+    "created_at": "2025-10-15T02:14:36Z",
+    "updated_at": "2026-03-18T02:27:41Z",
+    "forks_count": 1,
+    "stars_count": 1,
+    "watchers_count": 1,
+    "language": "C++",
+    "topics": [],
+    "has_projects": true,
+    "has_wiki": true,
+    "has_pages": true,
+    "description": "This is a final year research on Improving Link Stability of Flying Ad-hoc Networks",
+    "team": {
+      "E/20/035": {
+        "name": "K.C.H.N.A.W.M.R.C.J.N. Bandara",
+        "email": "e20035@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/ChamudithaNawarathna",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/035",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20035.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/035/"
+      },
+      "E/20/173": {
+        "name": "P.A.S.V. Jayasooriya",
+        "email": "e20173@eng.pdn.ac.lk",
+        "website": "",
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/sarani-vinodya-23072001/",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/173",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20173.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/173/"
+      },
+      "E/20/178": {
+        "name": "N.K.D.P. Jayawardena",
+        "email": "e20178@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/e20178dulanga",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/178",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20178.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/178/"
+      }
     },
-    "e21-3yp-ReflectStudio": {
-        "projName": "ReflectStudio",
-        "batch": "E21",
-        "category": {
-            "title": "Cyber-Physical Systems Projects",
-            "code": "3yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e21-3yp-ReflectStudio",
-        "project_url": "/3yp/e21/ReflectStudio/",
-        "page_url": "https://cepdnaclk.github.io/e21-3yp-ReflectStudio",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e21-3yp-ReflectStudio",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
-        "created_at": "2026-02-08T04:36:41Z",
-        "updated_at": "2026-03-17T18:42:14Z",
-        "forks_count": 0,
-        "stars_count": 0,
-        "watchers_count": 0,
-        "language": "Python",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "ReflectOS is a hybrid IoT smart mirror ecosystem for remote caregiving. Built with Flutter, Supabase, and Raspberry Pi, it features remote biometric enrollment, autonomous climate control, and real-time environmental monitoring, bridging the gap between passive displays and active home safety.",
-        "team": {
-            "E/21/287": {
-                "name": "Sithum Perera",
-                "email": "e21287@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E21/287",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e21/e21287.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e21/287/"
-            },
-            "E/21/229": {
-                "name": "Anna kurera",
-                "email": "e21229@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E21/229",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e21/e21229.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e21/229/"
-            },
-            "E/21/055": {
-                "name": "Kasun Lakshan",
-                "email": "e21055@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E21/055",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e21/e21055.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e21/055/"
-            },
-            "E/21/253": {
-                "name": "Thenuka Ravindu",
-                "email": "e21253@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E21/253",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e21/e21253.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e21/253/"
-            }
-        },
-        "supervisors": {},
-        "tags": [
-            "Web",
-            "Embedded Systems"
-        ],
-        "name": "e21-3yp-ReflectStudio"
+    "supervisors": {
+      "namal@eng.pdn.ac.lk": {
+        "name": "Dr. Suneth Namal Karunarathna",
+        "email": "namal@eng.pdn.ac.lk",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/suneth-namal-karunarathna/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/suneth-namal-karunarathna.png",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/namal",
+        "website": "#",
+        "linkedin": "https://lk.linkedin.com/in/suneth-namal-b70b8688",
+        "researchgate": "https://www.researchgate.net/profile/Suneth-Namal",
+        "google_scholar": "https://scholar.google.com/citations?user=G39TP7EAAAAJ&hl=en"
+      },
+      "upuljm@eng.pdn.ac.lk": {
+        "name": "Dr. Upul Jayasinghe",
+        "email": "upuljm@eng.pdn.ac.lk",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/upul-jayasinghe/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/upul-jayasinghe.jpg",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/upuljm",
+        "website": "#",
+        "linkedin": "https://www.linkedin.com/in/upuljm/",
+        "researchgate": "https://www.researchgate.net/profile/Upul-Jayasinghe",
+        "google_scholar": "https://scholar.google.ch/citations?user=9nBn4b0AAAAJ"
+      }
     },
-    "e20-4yp-ECG-Based-MI-Detection": {
-        "projName": "ECG Based MI Detection",
-        "batch": "E20",
-        "category": {
-            "title": "Undergraduate Research Projects",
-            "code": "4yp",
-            "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
-        },
-        "repo_url": "https://github.com/cepdnaclk/e20-4yp-ECG-Based-MI-Detection",
-        "project_url": "/4yp/e20/ECG-Based-MI-Detection/",
-        "page_url": "https://cepdnaclk.github.io/e20-4yp-ECG-Based-MI-Detection",
-        "api_url": "https://api.github.com/repos/cepdnaclk/e20-4yp-ECG-Based-MI-Detection",
-        "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
-        "created_at": "2025-12-29T10:15:45Z",
-        "updated_at": "2026-03-17T16:39:49Z",
-        "forks_count": 1,
-        "stars_count": 2,
-        "watchers_count": 2,
-        "language": "Jupyter Notebook",
-        "topics": [],
-        "has_projects": true,
-        "has_wiki": true,
-        "has_pages": true,
-        "description": "eHealth Application to detect Ischemic Heart Diseases using ECGs",
-        "team": {
-            "E/20/054": {
-                "name": "M.L De Croos",
-                "email": "e20054@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/Mineth054",
-                "linkedin": "https://www.linkedin.com/in/mineth-de-croos-baa285219/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/054",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20054.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/054/"
-            },
-            "E/20/276": {
-                "name": "S.M.N.N Padeniya",
-                "email": "e20276@eng.pdn.ac.lk",
-                "website": "",
-                "github": "",
-                "linkedin": "",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/276",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20276.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/276/"
-            },
-            "E/20/342": {
-                "name": "C.A Rupasinghe",
-                "email": "e20342@eng.pdn.ac.lk",
-                "website": "",
-                "github": "https://github.com/Chama28228",
-                "linkedin": "https://www.linkedin.com/in/chamath-rupasinghe-760632224/",
-                "researchgate": "",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/342",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20342.jpg",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e20/342/"
-            }
-        },
-        "supervisors": {
-            "isurunawinne@eng.pdn.ac.lk": {
-                "name": "Dr. Isuru Nawinne",
-                "email": "isurunawinne@eng.pdn.ac.lk",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
-                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/isuru-nawinne.png",
-                "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
-                "website": "#",
-                "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
-                "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
-                "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
-            }
-        },
-        "tags": [
-            "Final Year Projects"
-        ],
-        "name": "e20-4yp-ECG-Based-MI-Detection"
-    }
+    "tags": ["Final Year Projects"],
+    "name": "e20-4yp-Predictive-Link-Stablitiy-and-Trust-Aware-Routing-in-FANETs"
+  },
+  "e20-4yp-ai-atrial-fib-detection": {
+    "projName": "ai atrial fib detection",
+    "batch": "E20",
+    "category": {
+      "title": "Undergraduate Research Projects",
+      "code": "4yp",
+      "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+    },
+    "repo_url": "https://github.com/cepdnaclk/e20-4yp-ai-atrial-fib-detection",
+    "project_url": "/4yp/e20/ai-atrial-fib-detection/",
+    "page_url": "https://cepdnaclk.github.io/e20-4yp-ai-atrial-fib-detection",
+    "api_url": "https://api.github.com/repos/cepdnaclk/e20-4yp-ai-atrial-fib-detection",
+    "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+    "created_at": "2026-01-26T10:26:53Z",
+    "updated_at": "2026-03-18T02:00:04Z",
+    "forks_count": 0,
+    "stars_count": 0,
+    "watchers_count": 0,
+    "language": "Jupyter Notebook",
+    "topics": [],
+    "has_projects": true,
+    "has_wiki": true,
+    "has_pages": true,
+    "description": "Interactive Explainable AI framework for AFib detection using counterfactual ECG generation. Combines CNN-BiLSTM classifiers with VAE and diffusion models to simulate what-if cardiac scenarios, bridging clinical trust through realistic, interpretable ECG explanations.",
+    "team": {
+      "E/20/069": {
+        "name": "Tharaka Dilshan",
+        "email": "e20069@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/tharakadilshandmt",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/069",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20069.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/069/"
+      },
+      "E/20/189": {
+        "name": "Nethmini Karunarathne",
+        "email": "e20189@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/KasunikaKarunarathne",
+        "linkedin": "https://www.linkedin.com/in/nethmini-karunarathne-b20460206/",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/189",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20189.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/189/"
+      }
+    },
+    "supervisors": {
+      "isurunawinne@eng.pdn.ac.lk": {
+        "name": "Dr. Isuru Nawinne",
+        "email": "isurunawinne@eng.pdn.ac.lk",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/isuru-nawinne.png",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+        "website": "#",
+        "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+        "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+        "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+      },
+      "roshanr@eng.pdn.ac.lk": {
+        "name": "Prof. Roshan G. Ragel",
+        "email": "roshanr@eng.pdn.ac.lk",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/roshan-ragel.jpg",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/roshanr",
+        "website": "#",
+        "linkedin": "https://www.linkedin.com/in/roshanragel/",
+        "researchgate": "https://www.researchgate.net/profile/Roshan-Ragel",
+        "google_scholar": "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
+      }
+    },
+    "tags": {},
+    "name": "e20-4yp-ai-atrial-fib-detection"
+  },
+  "e20-4yp-SinhSafe": {
+    "projName": "SinhSafe",
+    "batch": "E20",
+    "category": {
+      "title": "Undergraduate Research Projects",
+      "code": "4yp",
+      "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+    },
+    "repo_url": "https://github.com/cepdnaclk/e20-4yp-SinhSafe",
+    "project_url": "/4yp/e20/SinhSafe/",
+    "page_url": "https://cepdnaclk.github.io/e20-4yp-SinhSafe",
+    "api_url": "https://api.github.com/repos/cepdnaclk/e20-4yp-SinhSafe",
+    "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+    "created_at": "2026-01-14T20:12:04Z",
+    "updated_at": "2026-03-17T22:45:54Z",
+    "forks_count": 1,
+    "stars_count": 0,
+    "watchers_count": 0,
+    "language": "Python",
+    "topics": [],
+    "has_projects": true,
+    "has_wiki": true,
+    "has_pages": true,
+    "description": "SinhSafe benchmarks XLM-R, SinBERT, and SinhLlama to identify the best model for Sinhala/Singlish cyberbullying detection. Our core contribution is a large pseudo-labeled dataset with fine-grained labels (Normal, Offensive, Bullying), processed via a hybrid transliteration pipeline to advance low-resource NLP safety tools.",
+    "team": {
+      "E/20/397": {
+        "name": "Thilakasiri P.D.",
+        "email": "e20397@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/dimantha00",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/397",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20397.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/397/"
+      }
+    },
+    "supervisors": {
+      "sampath@eng.pdn.ac.lk": {
+        "name": "Dr. Sampath Deegalla",
+        "email": "sampath@eng.pdn.ac.lk",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/sampath-deegalla/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/sampath-deegalla.jpg",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/sampath",
+        "website": "#",
+        "linkedin": "https://www.linkedin.com/in/dsdeegalla",
+        "researchgate": "https://www.researchgate.net/profile/Sampath-Deegalla-2",
+        "google_scholar": "https://scholar.google.com/citations?user=QDoeGtYAAAAJ&hl=en"
+      }
+    },
+    "tags": ["Cyberbullying Detection", "NLP", "Deep Learning", "Sinhala", "Code-Mixing"],
+    "name": "e20-4yp-SinhSafe"
+  },
+  "e20-4yp-metagenomics": {
+    "projName": "metagenomics",
+    "batch": "E20",
+    "category": {
+      "title": "Undergraduate Research Projects",
+      "code": "4yp",
+      "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+    },
+    "repo_url": "https://github.com/cepdnaclk/e20-4yp-metagenomics",
+    "project_url": "/4yp/e20/metagenomics/",
+    "page_url": "https://cepdnaclk.github.io/e20-4yp-metagenomics",
+    "api_url": "https://api.github.com/repos/cepdnaclk/e20-4yp-metagenomics",
+    "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+    "created_at": "2025-12-14T10:41:04Z",
+    "updated_at": "2026-03-17T20:50:50Z",
+    "forks_count": 0,
+    "stars_count": 0,
+    "watchers_count": 0,
+    "language": "Python",
+    "topics": [],
+    "has_projects": true,
+    "has_wiki": true,
+    "has_pages": true,
+    "description": "Comparative evaluation of 8 DR methods (PCA, PCoA, MDS, t-SNE, UMAP, PaCMAP, PHATE, SONG) and graph neural network clustering across human, soil, and marine metagenomic datasets. Addresses key challenges: 90-99% sparsity, compositionality, phylogenetic structure preservation.",
+    "team": {
+      "E/20/158": {
+        "name": "Jananga T.G.C.",
+        "email": "e20158@eng.pdn.ac.lk",
+        "website": "https://www.thecn.com/EJ456",
+        "github": "https://github.com/tgcjananga",
+        "linkedin": "https://www.linkedin.com/in/chamuditha-jananga-18bb2a277",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/158",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20158.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/158/"
+      },
+      "E/20/300": {
+        "name": "Prasadinie H.A.M.T",
+        "email": "e20300@eng.pdn.ac.lk",
+        "website": "",
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/h-a-m-t-prasadinie-29a13a261?trk=blended-typeahead",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/300",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20300.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/300/"
+      },
+      "E/20/244": {
+        "name": "Malshan P.G.P.",
+        "email": "e20244@eng.pdn.ac.lk",
+        "website": "",
+        "github": "",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/244",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20244.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/244/"
+      }
+    },
+    "supervisors": {
+      "damayanthiherath@eng.pdn.ac.lk": {
+        "name": "Dr. Damayanthi Herath",
+        "email": "damayanthiherath@eng.pdn.ac.lk",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/damayanthi-herath/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/damayanthi-herath.jpg",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/damayanthiherath",
+        "website": "#",
+        "linkedin": "https://www.linkedin.com/in/damayanthi-herath/",
+        "researchgate": "https://www.researchgate.net/profile/Damayanthi-Herath",
+        "google_scholar": "https://scholar.google.com/citations?user=G2jUV5IAAAAJ&hl=en"
+      },
+      "rajith.v@unimelb.edu.au": {
+        "name": "Dr. Rajith Vidanaarachchi",
+        "email": "rajith.v@unimelb.edu.au",
+        "profile_url": "#",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
+        "api_url": "#",
+        "website": "#",
+        "linkedin": "#",
+        "researchgate": "#",
+        "google_scholar": "#"
+      },
+      "vijini.mallawaarachchi@flinders.edu.au": {
+        "name": "Dr. Vijini Mallawaarachchi",
+        "email": "vijini.mallawaarachchi@flinders.edu.au",
+        "profile_url": "#",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/default.jpg",
+        "api_url": "#",
+        "website": "#",
+        "linkedin": "#",
+        "researchgate": "#",
+        "google_scholar": "#"
+      }
+    },
+    "tags": [
+      "Final Year Projects",
+      "Metagenomics",
+      "Machine Learning",
+      "Dimensionality Reduction",
+      "Graph Neural Networks",
+      "Bioinformatics"
+    ],
+    "name": "e20-4yp-metagenomics"
+  },
+  "e21-3yp-ReflectStudio": {
+    "projName": "ReflectStudio",
+    "batch": "E21",
+    "category": {
+      "title": "Cyber-Physical Systems Projects",
+      "code": "3yp",
+      "api_url": "https://api.ce.pdn.ac.lk/projects/v1/3yp/"
+    },
+    "repo_url": "https://github.com/cepdnaclk/e21-3yp-ReflectStudio",
+    "project_url": "/3yp/e21/ReflectStudio/",
+    "page_url": "https://cepdnaclk.github.io/e21-3yp-ReflectStudio",
+    "api_url": "https://api.github.com/repos/cepdnaclk/e21-3yp-ReflectStudio",
+    "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/3yp/thumbnail.jpg",
+    "created_at": "2026-02-08T04:36:41Z",
+    "updated_at": "2026-03-17T18:42:14Z",
+    "forks_count": 0,
+    "stars_count": 0,
+    "watchers_count": 0,
+    "language": "Python",
+    "topics": [],
+    "has_projects": true,
+    "has_wiki": true,
+    "has_pages": true,
+    "description": "ReflectOS is a hybrid IoT smart mirror ecosystem for remote caregiving. Built with Flutter, Supabase, and Raspberry Pi, it features remote biometric enrollment, autonomous climate control, and real-time environmental monitoring, bridging the gap between passive displays and active home safety.",
+    "team": {
+      "E/21/287": {
+        "name": "Sithum Perera",
+        "email": "e21287@eng.pdn.ac.lk",
+        "website": "",
+        "github": "",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E21/287",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e21/e21287.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e21/287/"
+      },
+      "E/21/229": {
+        "name": "Anna kurera",
+        "email": "e21229@eng.pdn.ac.lk",
+        "website": "",
+        "github": "",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E21/229",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e21/e21229.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e21/229/"
+      },
+      "E/21/055": {
+        "name": "Kasun Lakshan",
+        "email": "e21055@eng.pdn.ac.lk",
+        "website": "",
+        "github": "",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E21/055",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e21/e21055.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e21/055/"
+      },
+      "E/21/253": {
+        "name": "Thenuka Ravindu",
+        "email": "e21253@eng.pdn.ac.lk",
+        "website": "",
+        "github": "",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E21/253",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e21/e21253.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e21/253/"
+      }
+    },
+    "supervisors": {},
+    "tags": ["Web", "Embedded Systems"],
+    "name": "e21-3yp-ReflectStudio"
+  },
+  "e20-4yp-ECG-Based-MI-Detection": {
+    "projName": "ECG Based MI Detection",
+    "batch": "E20",
+    "category": {
+      "title": "Undergraduate Research Projects",
+      "code": "4yp",
+      "api_url": "https://api.ce.pdn.ac.lk/projects/v1/4yp/"
+    },
+    "repo_url": "https://github.com/cepdnaclk/e20-4yp-ECG-Based-MI-Detection",
+    "project_url": "/4yp/e20/ECG-Based-MI-Detection/",
+    "page_url": "https://cepdnaclk.github.io/e20-4yp-ECG-Based-MI-Detection",
+    "api_url": "https://api.github.com/repos/cepdnaclk/e20-4yp-ECG-Based-MI-Detection",
+    "thumb_url": "https://projects.ce.pdn.ac.lk/data/categories/4yp/thumbnail.jpg",
+    "created_at": "2025-12-29T10:15:45Z",
+    "updated_at": "2026-03-17T16:39:49Z",
+    "forks_count": 1,
+    "stars_count": 2,
+    "watchers_count": 2,
+    "language": "Jupyter Notebook",
+    "topics": [],
+    "has_projects": true,
+    "has_wiki": true,
+    "has_pages": true,
+    "description": "eHealth Application to detect Ischemic Heart Diseases using ECGs",
+    "team": {
+      "E/20/054": {
+        "name": "M.L De Croos",
+        "email": "e20054@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/Mineth054",
+        "linkedin": "https://www.linkedin.com/in/mineth-de-croos-baa285219/",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/054",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20054.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/054/"
+      },
+      "E/20/276": {
+        "name": "S.M.N.N Padeniya",
+        "email": "e20276@eng.pdn.ac.lk",
+        "website": "",
+        "github": "",
+        "linkedin": "",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/276",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20276.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/276/"
+      },
+      "E/20/342": {
+        "name": "C.A Rupasinghe",
+        "email": "e20342@eng.pdn.ac.lk",
+        "website": "",
+        "github": "https://github.com/Chama28228",
+        "linkedin": "https://www.linkedin.com/in/chamath-rupasinghe-760632224/",
+        "researchgate": "",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/students/E20/342",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e20/e20342.jpg",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e20/342/"
+      }
+    },
+    "supervisors": {
+      "isurunawinne@eng.pdn.ac.lk": {
+        "name": "Dr. Isuru Nawinne",
+        "email": "isurunawinne@eng.pdn.ac.lk",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/isuru-nawinne.png",
+        "api_url": "https://api.ce.pdn.ac.lk/people/v1/staff/isurunawinne",
+        "website": "#",
+        "linkedin": "https://www.linkedin.com/in/isuru-nawinne-73302833/",
+        "researchgate": "https://www.researchgate.net/profile/Isuru-Nawinne",
+        "google_scholar": "https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ"
+      }
+    },
+    "tags": ["Final Year Projects"],
+    "name": "e20-4yp-ECG-Based-MI-Detection"
+  }
 }

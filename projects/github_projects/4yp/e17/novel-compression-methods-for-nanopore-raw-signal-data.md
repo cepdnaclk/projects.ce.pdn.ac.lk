@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e17-4yp-novel-compression-methods-for-nano
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2023-05-22T10:51:11Z'
+started_on: "2023-05-22T10:51:11Z"
 ---
 
 Novel Compression Methods for Nanopore Raw Compression Data

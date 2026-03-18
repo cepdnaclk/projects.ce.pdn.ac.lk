@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e20-co542-Air-Quality-Analyser
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2025-02-16T04:07:57Z'
+started_on: "2025-02-16T04:07:57Z"
 ---
 
 Air pollution is a growing concern worldwide and affects human health, ecosystems, and climate. Air quality prediction is an efficient tool for mitigating risks and decision-making. This project is going to design a hybrid approach for better air quality forecasting.

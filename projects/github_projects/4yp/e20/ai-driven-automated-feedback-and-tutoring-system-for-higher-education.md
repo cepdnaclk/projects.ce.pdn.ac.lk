@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e20-4yp-ai-driven-automated-feedback-and-t
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2026-02-15T19:19:49Z'
+started_on: "2026-02-15T19:19:49Z"
 ---
 
 AI-Driven Automated Feedback System integrated with Moodle. Features deadline-aware grading, multi-agent LLM-based evaluation, vector-based plagiarism detection, concept-level personalization, and full end-to-end automation from submission ingestion to structured feedback generation and grade return.

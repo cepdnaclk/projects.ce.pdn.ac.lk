@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e18-co227-Logging-Microservice-for-IoT-bas
 forks: 3
 watchers: 0
 stars: 0
-started_on: '2022-06-02T12:08:33Z'
+started_on: "2022-06-02T12:08:33Z"
 ---
 
 Logging Microservice for IoT based Smart Agriculture Project

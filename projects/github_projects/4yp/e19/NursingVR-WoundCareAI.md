@@ -2,8 +2,8 @@
 layout: project_page
 title: NursingVR WoundCareAI
 permalink: /4yp/e19/NursingVR-WoundCareAI/
-description: 'Immersive AI-Driven Nursing Education: A Multimodal Integration of VR
-  Simulations and Conversational Language  Models for Advanced Wound Care Training'
+description: "Immersive AI-Driven Nursing Education: A Multimodal Integration of VR
+  Simulations and Conversational Language  Models for Advanced Wound Care Training"
 has_children: false
 parent: E19 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e19-4yp-NursingVR-WoundCareAI
 forks: 1
 watchers: 1
 stars: 1
-started_on: '2025-02-02T18:24:04Z'
+started_on: "2025-02-02T18:24:04Z"
 ---
 
-Immersive AI-Driven Nursing Education: A Multimodal Integration of VR Simulations and Conversational Language  Models for Advanced Wound Care Training
+Immersive AI-Driven Nursing Education: A Multimodal Integration of VR Simulations and Conversational Language Models for Advanced Wound Care Training

@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e20-3yp-Smart-Vehicle-Tracking-and-Managem
 forks: 2
 watchers: 1
 stars: 1
-started_on: '2025-01-11T18:51:30Z'
+started_on: "2025-01-11T18:51:30Z"
 ---
 
 An end-to-end IoT solution for real-time vehicle and cargo monitoring, featuring a web-based admin dashboard and a driver mobile app, powered by cloud services and sensor-based data collection.

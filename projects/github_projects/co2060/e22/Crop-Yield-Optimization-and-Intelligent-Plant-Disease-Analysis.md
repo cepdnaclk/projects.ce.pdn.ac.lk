@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e22-co2060-Crop-Yield-Optimization-and-Int
 forks: 2
 watchers: 0
 stars: 0
-started_on: '2026-02-06T18:22:01Z'
+started_on: "2026-02-06T18:22:01Z"
 ---
 
 This project is an integrated agricultural solution and platform consisting of an agricultural subsidy management system based on crop yield and an AI-driven plant disease scanner.

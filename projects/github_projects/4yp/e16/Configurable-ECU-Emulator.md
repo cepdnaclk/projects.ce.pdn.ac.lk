@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e16-4yp-Configurable-ECU-Emulator
 forks: 3
 watchers: 3
 stars: 3
-started_on: '2022-07-22T16:08:39Z'
+started_on: "2022-07-22T16:08:39Z"
 ---
 
 The Project aims to develop a Fast instruction set simulator for Infinion tricore ISA to emulate an actual ECU for car manufacturing industry.

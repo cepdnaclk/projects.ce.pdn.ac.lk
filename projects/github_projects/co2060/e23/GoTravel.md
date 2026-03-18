@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e23-co2060-GoTravel
 forks: 0
 watchers: 1
 stars: 1
-started_on: '2026-02-08T08:04:04Z'
+started_on: "2026-02-08T08:04:04Z"
 ---
 
 GoTravel is a web platform to explore destinations, learn history, and book buses, trains, and hotels in one place.

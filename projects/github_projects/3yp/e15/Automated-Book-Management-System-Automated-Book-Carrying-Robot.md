@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e15-3yp-Automated-Book-Management-System-A
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2021-05-19T22:23:03Z'
+started_on: "2021-05-19T22:23:03Z"
 ---
 
 In libraries, We have planned to implement a book carrying robot to help the workers. Our embedded system will have Arduino, IR sensors, DC motors, power batteries and voltage regulator etc.

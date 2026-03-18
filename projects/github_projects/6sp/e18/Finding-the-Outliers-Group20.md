@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e18-6sp-Finding-the-Outliers-Group20
 forks: 3
 watchers: 0
 stars: 0
-started_on: '2023-05-25T17:11:09Z'
+started_on: "2023-05-25T17:11:09Z"
 ---
 
 Finding a methodology to identify which stock will not follow the crowd during the same trading session

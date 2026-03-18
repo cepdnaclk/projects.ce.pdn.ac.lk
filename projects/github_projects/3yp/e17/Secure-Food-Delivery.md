@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e17-3yp-Secure-Food-Delivery
 forks: 4
 watchers: 1
 stars: 1
-started_on: '2021-06-24T17:54:52Z'
+started_on: "2021-06-24T17:54:52Z"
 ---
 
 Secure Food Delivery is a system that will help users to get delivered their ordered foods securely. Also, it will privilege for sellers to gain their success by growing the trust in users' minds.

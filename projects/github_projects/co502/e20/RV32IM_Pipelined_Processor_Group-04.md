@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e20-co502-RV32IM_Pipelined_Processor_Group
 forks: 1
 watchers: 1
 stars: 1
-started_on: '2024-11-27T03:48:44Z'
+started_on: "2024-11-27T03:48:44Z"
 ---
 
 Design and implementation of a 32-bit RISC-V processor supporting the RV32IM instruction set, developed as part of the Advanced Computer Architecture course (CO502)

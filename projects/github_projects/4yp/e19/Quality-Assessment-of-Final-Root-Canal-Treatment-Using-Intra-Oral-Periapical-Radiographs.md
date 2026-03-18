@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e19-4yp-Quality-Assessment-of-Final-Root-C
 forks: 3
 watchers: 2
 stars: 2
-started_on: '2025-01-19T06:55:22Z'
+started_on: "2025-01-19T06:55:22Z"
 ---
 
 This study addresses dental practice's challenge of evaluating root canal treatment quality. Current evaluation depends on subjective dentist judgment, lacking standardized criteria. here we developing an AI-based method using deep learning to automate and standardize the evaluation process.

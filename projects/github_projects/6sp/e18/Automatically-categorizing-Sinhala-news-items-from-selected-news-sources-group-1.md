@@ -3,7 +3,7 @@ layout: project_page
 title: Automatically categorizing Sinhala news items from selected news sources group
   1
 permalink: /6sp/e18/Automatically-categorizing-Sinhala-news-items-from-selected-news-sources-group-1/
-description: ''
+description: ""
 has_children: false
 parent: E18 Sixth Semester Projects
 grand_parent: Sixth Semester Projects
@@ -14,6 +14,5 @@ page_url: blank
 forks: 2
 watchers: 0
 stars: 0
-started_on: '2023-06-12T13:44:14Z'
+started_on: "2023-06-12T13:44:14Z"
 ---
-

@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e18-6sp-Stock-Mentor
 forks: 2
 watchers: 0
 stars: 0
-started_on: '2023-05-20T11:29:06Z'
+started_on: "2023-05-20T11:29:06Z"
 ---
 
 This is a web application that will provide recommendations to investors regarding whether they should buy, sell, or hold stocks for various companies on a daily basis.

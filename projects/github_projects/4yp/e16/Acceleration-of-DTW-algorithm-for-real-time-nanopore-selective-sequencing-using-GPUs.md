@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e16-4yp-Acceleration-of-DTW-algorithm-for-
 forks: 1
 watchers: 1
 stars: 1
-started_on: '2022-07-22T21:46:14Z'
+started_on: "2022-07-22T21:46:14Z"
 ---
 
 The project aims to optimize the Dynamic Time Warping (DTW) algorithm and accelerate it using Graphics Processing Units (GPUs), So that algorithm can be executed in a GPU-equipped laptop or a GPU-equipped embedded device like NVIDIA Jetson, rather than connecting to a massive server.

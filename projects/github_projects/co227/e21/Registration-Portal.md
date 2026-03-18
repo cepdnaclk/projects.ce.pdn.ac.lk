@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e21-co227-Registration-Portal
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2025-11-21T14:56:38Z'
+started_on: "2025-11-21T14:56:38Z"
 ---
 
 RFID-based visitor registration system using React, Node.js, and PostgreSQL. Supports secure login, portal selection, individual & batch registration, real-time tag linking, automated EXITOUT release, and an admin dashboard with analytics. Built for fast, reliable event management.

@@ -2,10 +2,10 @@
 layout: project_page
 title: Event Attendance Management System
 permalink: /3yp/e19/Event-Attendance-Management-System/
-description: '''Welcome to the Event Attendance Management repository! Streamline
+description: "'Welcome to the Event Attendance Management repository! Streamline
   attendance tracking for conferences, workshops, and events. Our user-friendly platform
   simplifies registration and empowers organizers to efficiently manage and monitor
-  participant engagement.'''
+  participant engagement.'"
 has_children: false
 parent: E19 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e19-3yp-Event-Attendance-Management-System
 forks: 2
 watchers: 2
 stars: 2
-started_on: '2023-11-10T17:24:30Z'
+started_on: "2023-11-10T17:24:30Z"
 ---
 
 'Welcome to the Event Attendance Management repository! Streamline attendance tracking for conferences, workshops, and events. Our user-friendly platform simplifies registration and empowers organizers to efficiently manage and monitor participant engagement.'

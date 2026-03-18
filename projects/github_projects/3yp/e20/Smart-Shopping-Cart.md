@@ -2,7 +2,7 @@
 layout: project_page
 title: Smart Shopping Cart
 permalink: /3yp/e20/Smart-Shopping-Cart/
-description: ''
+description: ""
 has_children: false
 parent: E20 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
@@ -13,6 +13,5 @@ page_url: https://cepdnaclk.github.io/e20-3yp-Smart-Shopping-Cart
 forks: 1
 watchers: 1
 stars: 1
-started_on: '2025-01-06T07:54:30Z'
+started_on: "2025-01-06T07:54:30Z"
 ---
-

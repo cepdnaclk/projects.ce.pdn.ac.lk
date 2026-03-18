@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e18-4yp-PeraSwarm-Simultaneous-Localizatio
 forks: 5
 watchers: 2
 stars: 2
-started_on: '2024-01-06T16:54:45Z'
+started_on: "2024-01-06T16:54:45Z"
 ---
 
 The objective of this project is to use swarm robots to efficiently map and navigate complex environments. These autonomous robots work together in a coordinated fashion, leveraging swarm intelligence to create detailed maps, contributing to advancements in autonomous exploration and mapping technology.

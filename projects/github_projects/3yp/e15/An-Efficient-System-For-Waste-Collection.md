@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e15-3yp-An-Efficient-System-For-Waste-Coll
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2021-05-21T21:04:31Z'
+started_on: "2021-05-21T21:04:31Z"
 ---
 
-This Project aims to implement an Efficient Waste  Collection System in urban areas. Its is a very well known fact to the public that the waste collection in our country is done in a very primitive manner.
+This Project aims to implement an Efficient Waste Collection System in urban areas. Its is a very well known fact to the public that the waste collection in our country is done in a very primitive manner.

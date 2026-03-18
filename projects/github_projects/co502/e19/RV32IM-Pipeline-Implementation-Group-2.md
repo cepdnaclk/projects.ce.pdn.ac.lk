@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e19-co502-RV32IM-Pipeline-Implementation-G
 forks: 2
 watchers: 0
 stars: 0
-started_on: '2025-04-25T03:32:04Z'
+started_on: "2025-04-25T03:32:04Z"
 ---
 
 This repository holds a 5-stage pipeline build of a RISC-V RV32IM processor. The system encompasses Instruction Fetch, Decode, Execute, Memory Access, and Write-back. It features support for integer math, multiplication tasks, and memory access operations as dictated by the RV32IM instruction set.

@@ -2,7 +2,7 @@
 layout: project_page
 title: MediTriage
 permalink: /co2060/e22/MediTriage/
-description: ''
+description: ""
 has_children: false
 parent: E22 Software Systems Design Project (CO2060)
 grand_parent: Software Systems Design Project (CO2060)
@@ -13,6 +13,5 @@ page_url: https://cepdnaclk.github.io/e22-co2060-MediTriage
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2026-02-04T12:03:21Z'
+started_on: "2026-02-04T12:03:21Z"
 ---
-

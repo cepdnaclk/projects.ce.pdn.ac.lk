@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e17-4yp-Applying-deep-learning-on-histolog
 forks: 3
 watchers: 0
 stars: 0
-started_on: '2023-05-21T09:56:28Z'
+started_on: "2023-05-21T09:56:28Z"
 ---
 
 Automated LN image analysis project aims to alleviate the demand on histologists, leading to earlier cancer detection and saving lives.

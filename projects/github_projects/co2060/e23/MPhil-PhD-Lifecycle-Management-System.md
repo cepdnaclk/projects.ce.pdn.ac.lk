@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e23-co2060-MPhil-PhD-Lifecycle-Management-
 forks: 0
 watchers: 1
 stars: 1
-started_on: '2026-02-04T11:20:29Z'
+started_on: "2026-02-04T11:20:29Z"
 ---
 
 The MPhil & PhD Lifecycle Management System is a centralized web platform to track postgraduate students from registration to thesis submission. It supports supervision, progress reviews, ethics approvals, document management, dashboards, and automated reminders, improving transparency, compliance, and administrative efficiency at faculty level.

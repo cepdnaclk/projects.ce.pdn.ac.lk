@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e20-co543-real-time-shadow-removal-from-im
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2025-01-09T17:08:24Z'
+started_on: "2025-01-09T17:08:24Z"
 ---
 
 Real-time image processing system for detecting and removing shadow regions under varying illumination, featuring a Flask-based web interface for image upload and visualization.

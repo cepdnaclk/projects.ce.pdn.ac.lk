@@ -2,7 +2,7 @@
 layout: project_page
 title: MarkdownPreviewer
 permalink: /co528/e20/MarkdownPreviewer/
-description: ''
+description: ""
 has_children: false
 parent: E20 Applied Software Architecture Projects (CO528)
 grand_parent: Applied Software Architecture Projects (CO528)
@@ -13,6 +13,5 @@ page_url: blank
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2026-01-23T08:13:46Z'
+started_on: "2026-01-23T08:13:46Z"
 ---
-

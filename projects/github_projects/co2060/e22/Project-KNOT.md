@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e22-co2060-Project-KNOT
 forks: 4
 watchers: 0
 stars: 0
-started_on: '2026-02-07T10:58:06Z'
+started_on: "2026-02-07T10:58:06Z"
 ---
 
 Project KNOT is a university resource and maintenance management system focused on lecture hall and lab booking. It helps manage club events, shared facilities, and campus issue reporting while improving scheduling, approvals, and maintenance tracking through a centralized platform.

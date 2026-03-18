@@ -2,7 +2,7 @@
 layout: project_page
 title: Database for e commerce site
 permalink: /co226/e18/Database-for-e-commerce-site/
-description: ''
+description: ""
 has_children: false
 parent: E18 Database Projects (CO226)
 grand_parent: Database Projects (CO226)
@@ -13,6 +13,5 @@ page_url: blank
 forks: 2
 watchers: 0
 stars: 0
-started_on: '2023-06-04T13:39:31Z'
+started_on: "2023-06-04T13:39:31Z"
 ---
-

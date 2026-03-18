@@ -16,7 +16,7 @@ page_url: blank
 forks: 3
 watchers: 0
 stars: 0
-started_on: '2023-05-23T06:59:44Z'
+started_on: "2023-05-23T06:59:44Z"
 ---
 
 The Thief Detection System is a security solution designed to detect intrusions using a PIR (Passive Infrared) sensor and an ESP32-CAM module. The system captures images and sends them to subscribed users and a database using MQTT (Message Queuing Telemetry Transport) protocol with a Mosquitto broker

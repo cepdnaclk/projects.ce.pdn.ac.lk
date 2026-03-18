@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e18-6sp-Handwritten_Essay_Marking_Software
 forks: 3
 watchers: 0
 stars: 0
-started_on: '2023-06-08T05:48:58Z'
+started_on: "2023-06-08T05:48:58Z"
 ---
 
 Handwritten Essay Marking Software is a powerful Tool to grade students’ handwritten essays by providing more consistent and objective grading. Automates manual grading by using Optical Character Recognition (OCR), Natural Language Processing (NLP), Machine Learning Model.

@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e23-co2060-Maathacare
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2026-02-07T05:48:49Z'
+started_on: "2026-02-07T05:48:49Z"
 ---
 
 MaathaCare is a smart digital pregnancy support system designed to enhance Sri Lanka’s public maternal healthcare services through technology. While the existing healthcare framework is strong, many processes remain manual and paper-based. This often results in missed clinic visits, irregular use of supplements and tracking high risk pregnancies.

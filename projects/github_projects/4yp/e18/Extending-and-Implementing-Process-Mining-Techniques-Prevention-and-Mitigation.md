@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e18-4yp-Extending-and-Implementing-Process
 forks: 4
 watchers: 0
 stars: 0
-started_on: '2024-02-10T06:26:38Z'
+started_on: "2024-02-10T06:26:38Z"
 ---
 
-Addressing data quality concerns  is crucial since it plays a significant role in process mining. Nevertheless, the current strategy frequently targets symptoms rather than underlying issues.  So, here presents prevention and mitigation of the data quality issues in event logs.
+Addressing data quality concerns is crucial since it plays a significant role in process mining. Nevertheless, the current strategy frequently targets symptoms rather than underlying issues. So, here presents prevention and mitigation of the data quality issues in event logs.

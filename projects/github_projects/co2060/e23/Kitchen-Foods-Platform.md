@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e23-co2060-Kitchen-Foods-Platform
 forks: 1
 watchers: 1
 stars: 1
-started_on: '2026-02-07T03:18:14Z'
+started_on: "2026-02-07T03:18:14Z"
 ---
 
 Kitchen Foods is a hyper-local digital food platform designed to connect verified home chefs with customers such as tourists, office workers, and nearby residents. The system aims to provide access to healthy, affordable, and authentic homemade meals while empowering skilled women by creating income-generating opportunities from their homes.

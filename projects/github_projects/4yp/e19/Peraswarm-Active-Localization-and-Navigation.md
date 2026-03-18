@@ -2,7 +2,7 @@
 layout: project_page
 title: Peraswarm Active Localization and Navigation
 permalink: /4yp/e19/Peraswarm-Active-Localization-and-Navigation/
-description: ''
+description: ""
 has_children: false
 parent: E19 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -13,6 +13,5 @@ page_url: https://cepdnaclk.github.io/e19-4YP-Peraswarm-Active-Localization-and-
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2025-02-02T10:56:12Z'
+started_on: "2025-02-02T10:56:12Z"
 ---
-

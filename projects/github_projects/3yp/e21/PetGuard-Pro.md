@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e21-3yp-PetGuard-Pro
 forks: 0
 watchers: 1
 stars: 1
-started_on: '2026-02-08T16:53:09Z'
+started_on: "2026-02-08T16:53:09Z"
 ---
 
 Smart pet collar system for real-time tracking, geo-fencing alerts, and health monitoring using IoT, a mobile app, and an AWS-based backend.

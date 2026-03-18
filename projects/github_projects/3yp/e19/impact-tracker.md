@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e19-3yp-impact-tracker
 forks: 3
 watchers: 3
 stars: 3
-started_on: '2023-11-19T05:20:03Z'
+started_on: "2023-11-19T05:20:03Z"
 ---
 
 Explore our repository for an innovative impact response system designed to enhance athlete safety and performance. Our technology utilizes advanced sensors and algorithms to measure and analyze impact forces in real time, revolutionizing athlete safety across various sports.

@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e19-4yp-Verilog-Code-Generation-With-Varia
 forks: 1
 watchers: 1
 stars: 1
-started_on: '2025-02-02T11:41:19Z'
+started_on: "2025-02-02T11:41:19Z"
 ---
 
 This research focuses on automating the generation of Verilog code (a hardware description language) using Large Language Models (LLMs). The motivation behind this project is to simplify and accelerate hardware design processes by leveraging AI-based tools.

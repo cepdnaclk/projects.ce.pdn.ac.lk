@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e23-co2060-RoadAid
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2026-02-07T11:43:06Z'
+started_on: "2026-02-07T11:43:06Z"
 ---
 
 RoadAid is a smart roadside assistance platform designed to provide fast and reliable help during vehicle-related emergencies. RoadAid supports multiple types of roadside issues, including vehicle breakdowns, tire punchers and out of fuel situations, all through a single unified platform.

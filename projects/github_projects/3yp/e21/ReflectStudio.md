@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e21-3yp-ReflectStudio
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2026-02-08T04:36:41Z'
+started_on: "2026-02-08T04:36:41Z"
 ---
 
 ReflectOS is a hybrid IoT smart mirror ecosystem for remote caregiving. Built with Flutter, Supabase, and Raspberry Pi, it features remote biometric enrollment, autonomous climate control, and real-time environmental monitoring, bridging the gap between passive displays and active home safety.

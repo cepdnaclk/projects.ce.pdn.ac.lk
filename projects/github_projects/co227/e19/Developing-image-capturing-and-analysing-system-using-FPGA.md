@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e19-co227-Developing-image-capturing-and-a
 forks: 3
 watchers: 2
 stars: 2
-started_on: '2023-08-23T07:07:58Z'
+started_on: "2023-08-23T07:07:58Z"
 ---
 
-Developing a simple FPGA image processing application to high speed image  capturing and analysis.
+Developing a simple FPGA image processing application to high speed image capturing and analysis.

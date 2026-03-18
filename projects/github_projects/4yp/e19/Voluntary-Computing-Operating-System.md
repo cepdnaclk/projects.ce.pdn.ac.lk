@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e19-4yp-Voluntary-Computing-Operating-Syst
 forks: 2
 watchers: 2
 stars: 2
-started_on: '2025-02-02T13:39:21Z'
+started_on: "2025-02-02T13:39:21Z"
 ---
 
 A lightweight operating system design for voluntary computing across peer-to-peer (P2P) devices connected via local network, enabling efficient resource pooling and sharing, fault tolerance, and scalability. The proposed DOS will allow devices within a local network to share excess computational resources dynamically.

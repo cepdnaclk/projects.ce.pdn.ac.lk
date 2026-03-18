@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e16-4yp-Human-Animal-Emotion-Detection-Usi
 forks: 6
 watchers: 8
 stars: 8
-started_on: '2022-07-25T07:37:54Z'
+started_on: "2022-07-25T07:37:54Z"
 ---
 
 This project aims to improve the current machine learning technique of detecting human emotion by building a comprehensive electrocardiogram (ECG) dataset and exploring the world of animal emotion detection using similar techniques.

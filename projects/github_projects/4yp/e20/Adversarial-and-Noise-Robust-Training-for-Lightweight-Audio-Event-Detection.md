@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e20-4yp-Adversarial-and-Noise-Robust-Train
 forks: 1
 watchers: 1
 stars: 1
-started_on: '2026-03-12T03:41:04Z'
+started_on: "2026-03-12T03:41:04Z"
 ---
 
 This project focuses on detecting respiratory diseases using medical acoustic signals. It applies lightweight Audio Event Detection (AED) models trained with adversarial and noise-robust techniques to identify coughs, wheezes, and breathing anomalies.Enabling accurate and reliable respiratory sound classification

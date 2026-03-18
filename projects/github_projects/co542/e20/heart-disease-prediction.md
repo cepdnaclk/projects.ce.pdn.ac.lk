@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e20-co542-heart-disease-prediction
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2026-03-07T02:08:09Z'
+started_on: "2026-03-07T02:08:09Z"
 ---
 
 Heart disease prediction system

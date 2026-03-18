@@ -16,7 +16,7 @@ page_url: blank
 forks: 0
 watchers: 0
 stars: 0
-started_on: '2026-02-06T16:48:17Z'
+started_on: "2026-02-06T16:48:17Z"
 ---
 
 The Smart Tourism Management System reduces information fragmentation and trust issues in Sri Lanka’s tourism industry through a centralized, user-controlled platform. Using a Human-in-the-Loop design with itinerary planning, verified guides, and community reviews, it ensures reliable and transparent travel planning.

@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e18-co227-Smart-Inventory-Management-Syste
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2022-06-02T16:57:54Z'
+started_on: "2022-06-02T16:57:54Z"
 ---
 
 A scheduled reminder for technical officers(#76) and resource scheduling(#78) for the Department MakerSpace Lab

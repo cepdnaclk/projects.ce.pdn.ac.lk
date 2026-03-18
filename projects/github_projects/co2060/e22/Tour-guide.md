@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e22-co2060-Tour-guide
 forks: 0
 watchers: 1
 stars: 1
-started_on: '2026-02-10T17:03:08Z'
+started_on: "2026-02-10T17:03:08Z"
 ---
 
 The Travel Guide Web Application is a full-stack web platform that helps users discover destinations, attractions, and plan trips in one place. It targets tourists, students, and local travelers, delivering a usable and secure MVP as part of the CO2060 Software Engineering Project.

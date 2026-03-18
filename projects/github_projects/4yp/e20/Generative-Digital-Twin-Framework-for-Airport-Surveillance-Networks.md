@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e20-4yp-Generative-Digital-Twin-Framework-
 forks: 1
 watchers: 0
 stars: 0
-started_on: '2026-02-07T17:44:07Z'
+started_on: "2026-02-07T17:44:07Z"
 ---
 
 A Generative Digital Twin framework leveraging Large Language Models to enable intent-driven video analytics and autonomous monitoring within airport terminal network environments.

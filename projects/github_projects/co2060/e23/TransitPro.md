@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e23-co2060-TransitPro
 forks: 3
 watchers: 0
 stars: 0
-started_on: '2026-02-06T12:07:01Z'
+started_on: "2026-02-06T12:07:01Z"
 ---
 
 TransitPro is a web-based transport and rental vehicle management system that improves travel planning and booking convenience. Users can view daily schedules, check routes, and book or rent vehicles based on real-time availability, seating capacity, and comfort options. An admin panel manages vehicles, routes, schedules, and bookings efficiently.

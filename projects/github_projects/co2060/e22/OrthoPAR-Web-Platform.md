@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e22-co2060-OrthoPAR-Web-Platform
 forks: 0
 watchers: 2
 stars: 2
-started_on: '2026-02-06T15:55:00Z'
+started_on: "2026-02-06T15:55:00Z"
 ---
 
 A clinician friendly web system for automated PAR Index calculation with integrated MLOps and secure patient data handling
