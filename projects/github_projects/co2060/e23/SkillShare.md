@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e23-co2060-SkillShare
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2026-02-07T14:04:03Z"
+started_on: '2026-02-07T14:04:03Z'
 ---
 
 Skill-Share is a platform where the university students can share not only their academic knowledge but maily also their soft skills with their collegues for another skill which they interested in learning in return. This platform match the user interested skills with others' interests and find a common free slot for the meetup.

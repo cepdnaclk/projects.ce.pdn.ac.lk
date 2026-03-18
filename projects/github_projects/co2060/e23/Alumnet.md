@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e23-co2060-Alumnet
 forks: 1
 watchers: 1
 stars: 1
-started_on: "2026-02-06T14:54:45Z"
+started_on: '2026-02-06T14:54:45Z'
 ---
 
 A scalable, role-based platform for streamlining alumni-student mentorship and university event management. Built with React, Node.js and PostgreSQL for the CO2060 Software System Design Project.

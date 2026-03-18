@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e20-4yp-ECG-Based-MI-Detection
 forks: 1
 watchers: 2
 stars: 2
-started_on: "2025-12-29T10:15:45Z"
+started_on: '2025-12-29T10:15:45Z'
 ---
 
 eHealth Application to detect Ischemic Heart Diseases using ECGs

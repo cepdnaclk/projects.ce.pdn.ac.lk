@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e17-6sp-Analysis-Tool-for-Industrial-Image
 forks: 7
 watchers: 2
 stars: 2
-started_on: "2022-02-23T07:09:01Z"
+started_on: '2022-02-23T07:09:01Z'
 ---
 
 An analysis tool for increasing the performance of an injection mold maintenance device which uses image processing techniques to identify stuck plastic particles on molds.

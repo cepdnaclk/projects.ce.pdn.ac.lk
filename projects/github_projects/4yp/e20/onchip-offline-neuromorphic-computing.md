@@ -2,7 +2,7 @@
 layout: project_page
 title: onchip offline neuromorphic computing
 permalink: /4yp/e20/onchip-offline-neuromorphic-computing/
-description: ""
+description: ''
 has_children: false
 parent: E20 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -13,5 +13,6 @@ page_url: blank
 forks: 1
 watchers: 0
 stars: 0
-started_on: "2025-12-26T18:29:45Z"
+started_on: '2025-12-26T18:29:45Z'
 ---
+

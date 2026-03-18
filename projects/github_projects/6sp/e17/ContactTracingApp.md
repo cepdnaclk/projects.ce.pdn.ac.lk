@@ -2,7 +2,7 @@
 layout: project_page
 title: ContactTracingApp
 permalink: /6sp/e17/ContactTracingApp/
-description: ""
+description: ''
 has_children: false
 parent: E17 Sixth Semester Projects
 grand_parent: Sixth Semester Projects
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e17-6sp-ContactTracingApp
 forks: 4
 watchers: 2
 stars: 2
-started_on: "2022-03-03T04:29:25Z"
+started_on: '2022-03-03T04:29:25Z'
 ---
+

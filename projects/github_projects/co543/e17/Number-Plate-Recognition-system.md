@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e17-co543-Number-Plate-Recognition-system
 forks: 4
 watchers: 0
 stars: 0
-started_on: "2022-03-10T16:45:23Z"
+started_on: '2022-03-10T16:45:23Z'
 ---
 
 Number Plate Recognition (NPR) system to detect Sri Lankan number plate images

@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e22-co2060-AI-Integrated-Ecommerce-Platfor
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2026-02-07T12:21:22Z"
+started_on: '2026-02-07T12:21:22Z'
 ---
 
 This project proposes an intelligent e-commerce platform that dynamically identifies and promotes trending electronic products by analyzing real-time online data. The system integrates AI-based trend analysis with automated workflows to improve product visibility and reduce manual effort in content management and marketing.

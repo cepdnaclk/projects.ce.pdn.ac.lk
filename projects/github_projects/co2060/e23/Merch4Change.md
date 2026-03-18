@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e23-co2060-Merch4Change
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2026-02-07T17:35:47Z"
+started_on: '2026-02-07T17:35:47Z'
 ---
 
 This project develops a scalable and secure e-commerce web application featuring product browsing, cart management, secure payments, and an admin dashboard. It focuses on performance, usability, and reliability using modern software design principles.

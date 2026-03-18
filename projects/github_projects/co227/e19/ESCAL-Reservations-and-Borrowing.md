@@ -2,7 +2,7 @@
 layout: project_page
 title: ESCAL Reservations and Borrowing
 permalink: /co227/e19/ESCAL-Reservations-and-Borrowing/
-description: ""
+description: ''
 has_children: false
 parent: E19 Software Systems Projects
 grand_parent: Software Systems Projects
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e19-co227-ESCAL-Reservations-and-Borrowing
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2023-08-28T15:52:26Z"
+started_on: '2023-08-28T15:52:26Z'
 ---
+

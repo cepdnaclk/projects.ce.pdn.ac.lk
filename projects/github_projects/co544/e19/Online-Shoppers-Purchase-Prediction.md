@@ -2,7 +2,7 @@
 layout: project_page
 title: Online Shoppers Purchase Prediction
 permalink: /co544/e19/Online-Shoppers-Purchase-Prediction/
-description: ""
+description: ''
 has_children: false
 parent: E19 Machine Learning Projects (CO544)
 grand_parent: Machine Learning Projects (CO544)
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e19-CO544-Online-Shoppers-Purchase-Predict
 forks: 2
 watchers: 0
 stars: 0
-started_on: "2024-04-25T13:09:38Z"
+started_on: '2024-04-25T13:09:38Z'
 ---
+

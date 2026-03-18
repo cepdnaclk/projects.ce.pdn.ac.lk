@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e21-3yp-LOX
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2026-02-07T06:13:43Z"
+started_on: '2026-02-07T06:13:43Z'
 ---
 
 This project proposes a Smart Locker System integrated with a Mobile Application, allowing users to reserve, access, and manage lockers remotely.

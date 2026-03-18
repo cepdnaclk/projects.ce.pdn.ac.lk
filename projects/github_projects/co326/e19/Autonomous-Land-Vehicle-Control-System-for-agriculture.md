@@ -2,7 +2,7 @@
 layout: project_page
 title: Autonomous Land Vehicle Control System for agriculture
 permalink: /co326/e19/Autonomous-Land-Vehicle-Control-System-for-agriculture/
-description: ""
+description: ''
 has_children: false
 parent: E19 Industrial Automation Projects (CO326)
 grand_parent: Industrial Automation Projects (CO326)
@@ -13,5 +13,6 @@ page_url: blank
 forks: 5
 watchers: 0
 stars: 0
-started_on: "2024-04-04T16:58:11Z"
+started_on: '2024-04-04T16:58:11Z'
 ---
+

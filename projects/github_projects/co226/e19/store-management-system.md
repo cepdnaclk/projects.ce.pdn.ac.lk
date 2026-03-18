@@ -13,7 +13,7 @@ page_url: blank
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2023-08-04T09:56:13Z"
+started_on: '2023-08-04T09:56:13Z'
 ---
 
 A store management system for a company

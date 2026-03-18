@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e18-co502-RV32IM-Pipeline-Implementation-G
 forks: 3
 watchers: 1
 stars: 1
-started_on: "2023-03-30T07:47:12Z"
+started_on: '2023-03-30T07:47:12Z'
 ---
 
 Single-cycle MIPS-like processor with a memory subsystem including a cache.

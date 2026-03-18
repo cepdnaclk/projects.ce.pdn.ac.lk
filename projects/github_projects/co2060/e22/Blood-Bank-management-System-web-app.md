@@ -2,7 +2,7 @@
 layout: project_page
 title: Blood Bank management System web app
 permalink: /co2060/e22/Blood-Bank-management-System-web-app/
-description: ""
+description: ''
 has_children: false
 parent: E22 Software Systems Design Project (CO2060)
 grand_parent: Software Systems Design Project (CO2060)
@@ -13,5 +13,6 @@ page_url: blank
 forks: 2
 watchers: 1
 stars: 1
-started_on: "2026-02-09T17:44:30Z"
+started_on: '2026-02-09T17:44:30Z'
 ---
+

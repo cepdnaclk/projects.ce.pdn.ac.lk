@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e21-co227-ExpoEvent-Task1-C-Bookmark-and-N
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2025-11-20T13:37:07Z"
+started_on: '2025-11-20T13:37:07Z'
 ---
 
 A web application enabling users to bookmark events at exhibitions and receive timely notifications about their saved events. Users can easily manage their interests by selecting specific exhibitions or activities, ensuring they never miss important happenings through automated reminders and personalized alerts.

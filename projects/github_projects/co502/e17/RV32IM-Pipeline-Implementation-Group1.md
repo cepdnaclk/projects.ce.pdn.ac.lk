@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e17-co502-RV32IM-Pipeline-Implementation-G
 forks: 3
 watchers: 1
 stars: 1
-started_on: "2023-08-17T16:34:18Z"
+started_on: '2023-08-17T16:34:18Z'
 ---
 
 An in-order 5-stage pipelined RISC-V CPU implementation consisting of the RV32I base ISA and the M-extension for multiplication/division operations.

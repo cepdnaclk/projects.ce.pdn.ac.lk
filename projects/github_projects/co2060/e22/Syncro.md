@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e22-co2060-Syncro
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2026-02-07T18:32:44Z"
+started_on: '2026-02-07T18:32:44Z'
 ---
 
 Syncro is a universal reverse-auction marketplace that connects buyers and sellers efficiently. Clients post structured requests, and verified sellers compete with transparent bids in real time. The platform supports dual-role users and focuses on smart matching, reduced search effort, and fair pricing.

@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e17-4yp-Neuromorphic-NoC-Architecture-for-
 forks: 9
 watchers: 22
 stars: 22
-started_on: "2023-05-19T16:39:40Z"
+started_on: '2023-05-19T16:39:40Z'
 ---
 
 This project aims to develop a novel neuromorphic NoC architecture based on RISC-V ISA to support spiking neural network applications, and test it on FPGA.

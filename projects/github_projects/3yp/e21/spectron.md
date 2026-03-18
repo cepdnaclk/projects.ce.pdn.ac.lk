@@ -2,7 +2,7 @@
 layout: project_page
 title: spectron
 permalink: /3yp/e21/spectron/
-description: ""
+description: ''
 has_children: false
 parent: E21 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e21-3yp-spectron
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2026-02-08T16:59:58Z"
+started_on: '2026-02-08T16:59:58Z'
 ---
+

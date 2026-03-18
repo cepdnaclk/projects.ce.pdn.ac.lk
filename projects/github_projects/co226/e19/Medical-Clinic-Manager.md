@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e19-co226-Medical-Clinic-Manager
 forks: 4
 watchers: 3
 stars: 3
-started_on: "2023-07-25T16:16:36Z"
+started_on: '2023-07-25T16:16:36Z'
 ---
 
 Lifecare WebApp is an intuitive and user-friendly medical clinic management application designed to streamline administrative tasks and enhance patient care. With Lifecare, medical professionals and staff can efficiently manage patient appointments, securely store medical records.

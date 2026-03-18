@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e23-co2060-GiftBox-Customization-Marketpla
 forks: 0
 watchers: 1
 stars: 1
-started_on: "2026-02-07T05:52:08Z"
+started_on: '2026-02-07T05:52:08Z'
 ---
 
 A scalable multi-vendor marketplace where users mix products from different sellers to create custom gift boxes. Includes personalization, vendor management, and seamless ordering for a flexible gifting experience.

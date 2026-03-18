@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e20-3yp-GEOnex
 forks: 4
 watchers: 1
 stars: 1
-started_on: "2024-12-27T08:09:43Z"
+started_on: '2024-12-27T08:09:43Z'
 ---
 
 A Smart Land Surveying Device to transform traditional surveying. The Site Printing Rover is designed to automate the stakeout process in land surveying.

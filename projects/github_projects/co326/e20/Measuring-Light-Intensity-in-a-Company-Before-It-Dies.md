@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e20-co326-Measuring-Light-Intensity-in-a-C
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2026-02-27T03:17:31Z"
+started_on: '2026-02-27T03:17:31Z'
 ---
 
 To measure the intensity of lights in the company and predict the point at which they are about to fail (before they completely go dead).

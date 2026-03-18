@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e19-co227-Leaf-Colour-Quantifier
 forks: 2
 watchers: 3
 stars: 3
-started_on: "2023-08-27T11:18:58Z"
+started_on: '2023-08-27T11:18:58Z'
 ---
 
 A simple field technique to detect/quantify the colour of a plant leaf.

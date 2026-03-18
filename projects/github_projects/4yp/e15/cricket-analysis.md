@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e15-4yp-cricket-analysis
 forks: 4
 watchers: 0
 stars: 0
-started_on: "2021-03-05T07:10:35Z"
+started_on: '2021-03-05T07:10:35Z'
 ---
 
 Data Mining System for Selecting a Winning ODI Cricket Team. This analysis on cricket includes analysis of the individual performance of players, the combined performance of players, frequent winning combinations, and outcome prediction of an ODI match.

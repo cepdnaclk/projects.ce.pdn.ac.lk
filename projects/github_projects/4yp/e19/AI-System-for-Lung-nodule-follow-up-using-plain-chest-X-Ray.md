@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e19-4yp-AI-System-for-Lung-nodule-follow-u
 forks: 3
 watchers: 0
 stars: 0
-started_on: "2025-01-31T08:44:57Z"
+started_on: '2025-01-31T08:44:57Z'
 ---
 
 This research focuses on developing an AI-driven framework to detect and monitor lung nodules using chest X-rays.

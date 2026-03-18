@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e15-3yp-Personal-Physical-Trainer-PPT
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2021-05-20T20:33:57Z"
+started_on: '2021-05-20T20:33:57Z'
 ---
 
-Personal Physical Trainer is an innovation for physiotherapy. It creates an environment where the patients would be more willing to engage in physiotherapy as well as it makes sure that patient would do the correct movements. This also allows the therapist to monitor the progress of his/hers patient and whether the patient carries out the necessary exercises.
+Personal Physical Trainer is an innovation for physiotherapy. It creates an environment where the patients would be more willing to engage in physiotherapy   as well as it makes sure that patient would do the correct movements. This also allows the therapist to monitor the progress of his/hers patient and whether the patient carries out the necessary exercises.

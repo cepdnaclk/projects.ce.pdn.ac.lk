@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e19-co227-Remote-Controlled-PLC-Training-K
 forks: 4
 watchers: 0
 stars: 0
-started_on: "2023-08-23T15:06:39Z"
+started_on: '2023-08-23T15:06:39Z'
 ---
 
 Convert department's PLC training kit into remote lab using relays for accessible and practical learning of industrial scenarios and PLC skills.

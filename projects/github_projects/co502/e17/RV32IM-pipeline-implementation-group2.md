@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e17-co502-RV32IM-pipeline-implementation-g
 forks: 0
 watchers: 1
 stars: 1
-started_on: "2023-03-30T09:03:37Z"
+started_on: '2023-03-30T09:03:37Z'
 ---
 
 This project is about implementing a RISC-V CPU with a RV32IM pipeline implementation using VERILOG_HDL.

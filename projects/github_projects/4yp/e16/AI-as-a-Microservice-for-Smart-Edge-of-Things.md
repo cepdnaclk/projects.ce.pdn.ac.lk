@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e16-4yp-AI-as-a-Microservice-for-Smart-Edg
 forks: 4
 watchers: 1
 stars: 1
-started_on: "2022-07-23T06:32:15Z"
+started_on: '2022-07-23T06:32:15Z'
 ---
 
 An intelligent, autonomous edge application that addresses issues of bandwidth, data privacy and latency in comparison to typical IoT solutions. This includes processing AI on edge devices using real-time services in a distributed manner, as opposed to cloud-based models.

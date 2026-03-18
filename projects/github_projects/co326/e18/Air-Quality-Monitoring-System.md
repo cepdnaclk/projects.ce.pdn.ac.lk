@@ -13,7 +13,7 @@ page_url: blank
 forks: 3
 watchers: 0
 stars: 0
-started_on: "2023-06-13T05:37:36Z"
+started_on: '2023-06-13T05:37:36Z'
 ---
 
 Industrial System for monitoring the air quality

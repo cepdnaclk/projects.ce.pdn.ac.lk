@@ -2,7 +2,7 @@
 layout: project_page
 title: Monitoring and Tracking System for Transportation of Pharmaceuticals
 permalink: /3yp/e15/Monitoring-and-Tracking-System-for-Transportation-of-Pharmaceuticals/
-description: ""
+description: ''
 has_children: false
 parent: E15 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e15-3yp-Monitoring-and-Tracking-System-for
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2021-05-23T09:05:22Z"
+started_on: '2021-05-23T09:05:22Z'
 ---
+

@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e20-4yp-Impact-of-Hybrid-Structured-Random
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2026-01-14T15:18:25Z"
+started_on: '2026-01-14T15:18:25Z'
 ---
 
 Developing a novel “Structured Hybrid” Random Projection algorithm to address thread-load imbalance in large-scale graph embeddings.

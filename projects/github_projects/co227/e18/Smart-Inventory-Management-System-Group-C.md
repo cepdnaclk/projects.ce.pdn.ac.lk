@@ -13,7 +13,7 @@ page_url: https://cepdnaclk.github.io/e18-co227-Smart-Inventory-Management-Syste
 forks: 3
 watchers: 0
 stars: 0
-started_on: "2022-06-07T04:23:17Z"
+started_on: '2022-06-07T04:23:17Z'
 ---
 
 Component ordering in Smart Inventory Management System

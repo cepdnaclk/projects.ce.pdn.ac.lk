@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e18-4yp-Analyzing-and-predicting-the-volat
 forks: 2
 watchers: 0
 stars: 0
-started_on: "2024-02-10T20:56:47Z"
+started_on: '2024-02-10T20:56:47Z'
 ---
 
 Analyzing and predicting the volatile market patterns for trading in share markets & bet systems using a Digital Twin

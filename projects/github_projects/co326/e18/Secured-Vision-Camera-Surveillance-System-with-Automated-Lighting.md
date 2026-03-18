@@ -2,7 +2,7 @@
 layout: project_page
 title: Secured Vision Camera Surveillance System with Automated Lighting
 permalink: /co326/e18/Secured-Vision-Camera-Surveillance-System-with-Automated-Lighting/
-description: ""
+description: ''
 has_children: false
 parent: E18 Industrial Automation Projects (CO326)
 grand_parent: Industrial Automation Projects (CO326)
@@ -13,5 +13,6 @@ page_url: blank
 forks: 2
 watchers: 0
 stars: 0
-started_on: "2023-05-01T04:59:29Z"
+started_on: '2023-05-01T04:59:29Z'
 ---
+

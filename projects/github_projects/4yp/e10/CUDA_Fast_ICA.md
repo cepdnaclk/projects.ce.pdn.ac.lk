@@ -13,7 +13,7 @@ page_url: blank
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2020-09-10T08:24:03Z"
+started_on: '2020-09-10T08:24:03Z'
 ---
 
 CUDA implementation of Fast-ICA in C++

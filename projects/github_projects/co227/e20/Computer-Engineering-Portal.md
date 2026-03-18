@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e20-co227-Computer-Engineering-Portal
 forks: 2
 watchers: 0
 stars: 0
-started_on: "2024-10-27T14:38:28Z"
+started_on: '2024-10-27T14:38:28Z'
 ---
 
 Internal and Public web service provider of the Department of Computer Engineering. This project covering the course management and taxonomies

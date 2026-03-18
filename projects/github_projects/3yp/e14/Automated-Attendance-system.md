@@ -18,7 +18,7 @@ page_url: https://cepdnaclk.github.io/e14-3yp-Automated-Attendance-system
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2021-05-30T20:26:33Z"
+started_on: '2021-05-30T20:26:33Z'
 ---
 
 This project aims to automate the attendance procedure of an educational System using biometric technology. This replaces the traditional attendance marking methods to a fool Proof method.This will reduce the time spent in a lecture for attendance marking and increases the accuracy of the process.This will be a hand held device which is passed in the class while the lecture is going on. The students can simply place the finger over the sensor to mark the presence in their class.

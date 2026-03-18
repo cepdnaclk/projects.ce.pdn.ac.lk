@@ -15,7 +15,7 @@ page_url: https://cepdnaclk.github.io/e14-3yp-Networked-and-Automated-Weather-Mo
 forks: 1
 watchers: 0
 stars: 0
-started_on: "2021-05-30T14:57:08Z"
+started_on: '2021-05-30T14:57:08Z'
 ---
 
 In this unified project we develop a system that can be used to collect information from much many places allover Sri Lanka using an embedded system kept in those locations.

@@ -2,7 +2,7 @@
 layout: project_page
 title: stock market price prediction
 permalink: /co542/e20/stock-market-price-prediction/
-description: ""
+description: ''
 has_children: false
 parent: E20 Neural Networks Projects (CO542)
 grand_parent: Neural Networks Projects (CO542)
@@ -13,5 +13,6 @@ page_url: blank
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2025-02-23T14:43:07Z"
+started_on: '2025-02-23T14:43:07Z'
 ---
+

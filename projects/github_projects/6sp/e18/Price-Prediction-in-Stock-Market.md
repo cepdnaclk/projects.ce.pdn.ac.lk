@@ -17,7 +17,7 @@ page_url: https://cepdnaclk.github.io/e18-6sp-Price-Prediction-in-Stock-Market
 forks: 4
 watchers: 1
 stars: 1
-started_on: "2023-05-24T18:14:40Z"
+started_on: '2023-05-24T18:14:40Z'
 ---
 
 The purpose of this project is to develop a machine learning and AI-based solution for predicting the high, low, and close values of stocks or indices in the next trading day. We leverage the power of LSTM (Long Short-Term Memory) models to analyze sequential data and provide accurate predictions. Our application can be applied to various stocks an

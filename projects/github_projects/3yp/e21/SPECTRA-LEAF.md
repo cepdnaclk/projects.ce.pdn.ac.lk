@@ -16,7 +16,7 @@ page_url: https://cepdnaclk.github.io/e21-3yp-SPECTRA-LEAF
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2026-02-08T14:14:55Z"
+started_on: '2026-02-08T14:14:55Z'
 ---
 
 SPECTRA LEAF is an IoT system automating tea fermentation. Using ESP32, gas, and color sensors, it tracks the shift from grassy to floral aromas. By saving digital profiles based on 'Good Leaf %,' it enables factories to replicate premium batches scientifically, replacing subjective smell with data-driven consistency.

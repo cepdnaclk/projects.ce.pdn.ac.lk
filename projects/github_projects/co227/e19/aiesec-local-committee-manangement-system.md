@@ -2,7 +2,7 @@
 layout: project_page
 title: aiesec local committee manangement system
 permalink: /co227/e19/aiesec-local-committee-manangement-system/
-description: ""
+description: ''
 has_children: false
 parent: E19 Software Systems Projects
 grand_parent: Software Systems Projects
@@ -13,5 +13,6 @@ page_url: https://cepdnaclk.github.io/e19-co227-aiesec-local-committee-manangeme
 forks: 2
 watchers: 1
 stars: 1
-started_on: "2023-06-06T06:26:06Z"
+started_on: '2023-06-06T06:26:06Z'
 ---
+

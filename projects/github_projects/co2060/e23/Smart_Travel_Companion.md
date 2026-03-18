@@ -14,7 +14,7 @@ page_url: https://cepdnaclk.github.io/e23-CO2060-Smart_Travel_Companion
 forks: 0
 watchers: 0
 stars: 0
-started_on: "2026-02-07T14:59:14Z"
+started_on: '2026-02-07T14:59:14Z'
 ---
 
 A mobile app that helps tourists plan trips in Sri Lanka with itineraries, attractions, transport, and accommodation guidance.
