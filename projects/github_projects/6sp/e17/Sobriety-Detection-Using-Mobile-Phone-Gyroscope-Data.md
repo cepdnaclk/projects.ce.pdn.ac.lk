@@ -13,8 +13,8 @@ thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-6sp-Sobriety-Detection-Using-Mobile-Phone-Gyroscope-Data
 page_url: https://cepdnaclk.github.io/e17-6sp-Sobriety-Detection-Using-Mobile-Phone-Gyroscope-Data
 forks: 3
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: "2022-02-24T11:34:23Z"
 ---
 

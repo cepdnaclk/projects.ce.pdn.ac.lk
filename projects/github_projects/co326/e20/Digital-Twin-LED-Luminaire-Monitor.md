@@ -1,7 +1,7 @@
 ---
 layout: project_page
-title: digital twin led luminaire monitor
-permalink: /co326/e20/digital-twin-led-luminaire-monitor/
+title: Digital Twin LED Luminaire Monitor
+permalink: /co326/e20/Digital-Twin-LED-Luminaire-Monitor/
 description: To measure the intensity of lights in the company and predict the point
   at which they are about to fail (before they completely go dead).
 has_children: false
@@ -9,8 +9,8 @@ parent: E20 Industrial Automation Projects (CO326)
 grand_parent: Industrial Automation Projects (CO326)
 cover_url: /data/categories/co326/cover_page.jpg
 thumbnail_url: /data/categories/co326/thumbnail.jpg
-repo_url: https://github.com/cepdnaclk/e20-co326-digital-twin-led-luminaire-monitor
-page_url: https://cepdnaclk.github.io/e20-co326-digital-twin-led-luminaire-monitor
+repo_url: https://github.com/cepdnaclk/e20-co326-Digital-Twin-LED-Luminaire-Monitor
+page_url: https://cepdnaclk.github.io/e20-co326-Digital-Twin-LED-Luminaire-Monitor
 forks: 0
 watchers: 0
 stars: 0
