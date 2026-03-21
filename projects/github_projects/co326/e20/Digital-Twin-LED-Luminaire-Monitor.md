@@ -7,8 +7,8 @@ description: To measure the intensity of lights in the company and predict the p
 has_children: false
 parent: E20 Industrial Automation Projects (CO326)
 grand_parent: Industrial Automation Projects (CO326)
-cover_url: /data/categories/co326/cover_page.jpg
-thumbnail_url: /data/categories/co326/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/e20-co326-Digital-Twin-LED-Luminaire-Monitor/data/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/e20-co326-Digital-Twin-LED-Luminaire-Monitor/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co326-Digital-Twin-LED-Luminaire-Monitor
 page_url: https://cepdnaclk.github.io/e20-co326-Digital-Twin-LED-Luminaire-Monitor
 forks: 0
