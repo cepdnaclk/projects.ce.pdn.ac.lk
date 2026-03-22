@@ -58,26 +58,16 @@ search_exclude: true
     </header>
 
     <div class="container pb-5">
-      <form action="{{'/search/' | relative_url}}" method="get">
-        <div class="row">
-          <div class="col-md-10 mx-auto">
-            <div class="input-group">
-              <input
-                type="search"
-                id="search-box"
-                class="form-control form-control-lg"
-                placeholder="Search projects..."
-                name="query"
-                required
-              />
-              <button id="search-button" type="submit" class="btn btn-primary px-3 form-control-lg">
-                <i class="fas fa-search"></i>
-              </button>
-            </div>
-          </div>
+      <div class="row">
+        <div class="col-md-10 mx-auto">
+          {% include search_form.html %}
+          <p class="small text-muted mt-3 mb-0">
+            Search across live project metadata indexed from <code>api.ce.pdn.ac.lk</code>.
+          </p>
         </div>
-      </form>
+      </div>
     </div>
+    {% include search_modal.html %}
 
     <hr />
     <div>

@@ -11,34 +11,14 @@ nav_exclude: true
 search_exclude: true
 ---
 
-<form action="{{'/search/' | relative_url}}" method="get">
-  <div class="row">
-    <div class="col-md-10 mx-auto">
-      <div class="input-group">
-        <input
-          type="search"
-          id="search-box"
-          class="form-control form-control-lg"
-          placeholder="Search"
-          placeholder="Search projects..."
-          name="query"
-          required
-        />
-        <button id="search-button" type="submit" class="btn btn-primary form-control-lg px-3">
-          <i class="fas fa-search"></i>
-        </button>
-      </div>
-
-      <div class="container pt-2">
-        <p id="search-count"></p>
-      </div>
-    </div>
+<div class="row">
+  <div class="col-md-10 mx-auto">
+    {% include search_form.html %}
+    <p class="text-muted mt-3 mb-0">
+      Results open in an Algolia-backed search dialog and link directly to project pages, repositories,
+      or project sites.
+    </p>
   </div>
-</form>
+</div>
 
-<hr />
-
-<div class="container" id="search-results" style="min-height: 60vh"></div>
-
-<script src="{{'/assets/js/lunr.min.js' | relative_url }}"></script>
-<script src="{{'/assets/js/search.js' | relative_url}}"></script>
+{% include search_modal.html %}

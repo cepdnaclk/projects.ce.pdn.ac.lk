@@ -1,5 +1,6 @@
 [![Build and Deploy - Daily](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/actions/workflows/daily-build.yml/badge.svg?branch=main)](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/actions/workflows/daily-build.yml)
 [![Build and Deploy - Weekly](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/actions/workflows/weekly-build.yml/badge.svg?branch=main)](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/actions/workflows/weekly-build.yml)
+[![Algolia Search Index](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/actions/workflows/algolia-index.yml/badge.svg?branch=main)](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/actions/workflows/algolia-index.yml)
 [![GitHub Pages](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/cepdnaclk/projects.ce.pdn.ac.lk/actions/workflows/pages/pages-build-deployment)
 
 # projects.ce.pdn.ac.lk
@@ -37,6 +38,43 @@ python projects_popular.py
 Currently, the site is built by GitHub itself once there is a pull request to the _main_ branch.
 
 If you are interested in build the site in a local environment, info on how to build can be found in [projects.ce.pdn.ac.lk/docs/deployment](https://projects.ce.pdn.ac.lk/docs/deployment). You can also use _setup.sh_ and _run.sh_ bash scripts in the folder, _/scripts_.
+
+## Algolia Search
+
+The site search now uses Algolia instead of the old static Lunr JSON flow.
+
+### Required configuration
+
+Configure these values before enabling the search UI or running the indexer:
+
+```bash
+ALGOLIA_APP_ID=<algolia-application-id>
+ALGOLIA_SEARCH_API_KEY=<algolia-search-only-api-key>
+ALGOLIA_ADMIN_API_KEY=<algolia-admin-api-key>
+```
+
+GitHub Actions configuration:
+
+- Add `ALGOLIA_APP_ID` as a repository variable.
+- Add `ALGOLIA_ADMIN_API_KEY` as a repository secret.
+- If your Pages build injects environment variables, also provide `ALGOLIA_SEARCH_API_KEY`.
+
+For the current branch-based GitHub Pages build, replace the placeholder values in `_config.yml`
+with the public search-only values. Do not place the admin API key in the repository.
+
+### Local indexing and tests
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python -m unittest discover -s tests -v
+cd python_scripts
+python algolia_index.py
+```
+
+The indexer fetches `https://api.ce.pdn.ac.lk/projects/v1/all/`, validates the payload, logs fetch,
+transform, diff, upsert, delete, and failure stages, then syncs the configured Algolia index.
 
 ## Contact Info
 
