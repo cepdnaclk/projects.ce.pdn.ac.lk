@@ -11,8 +11,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-4yp-wifi-7-backoff-security-testing-and-threat-prediction
 page_url: https://cepdnaclk.github.io/e20-4yp-wifi-7-backoff-security-testing-and-threat-prediction
 forks: 1
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: "2025-10-22T11:39:34Z"
 ---
 
