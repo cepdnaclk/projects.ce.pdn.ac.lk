@@ -1,15 +1,15 @@
 ---
 layout: project_page
-title: Motor Health Monitoring Digital Twin with Edge Anomaly Detection
-permalink: /co326/e20/Motor-Health-Monitoring-Digital-Twin-with-Edge-Anomaly-Detection/
+title: Motor Thermal Monitoring Digital Twin
+permalink: /co326/e20/Motor-Thermal-Monitoring-Digital-Twin/
 description: Detect abnormal motor behavior early and allow safe operator intervention.
 has_children: false
 parent: E20 Industrial Automation Projects (CO326)
 grand_parent: Industrial Automation Projects (CO326)
 cover_url: /data/categories/co326/cover_page.jpg
 thumbnail_url: /data/categories/co326/thumbnail.jpg
-repo_url: https://github.com/cepdnaclk/e20-co326-Motor-Health-Monitoring-Digital-Twin-with-Edge-Anomaly-Detection
-page_url: https://cepdnaclk.github.io/e20-co326-Motor-Health-Monitoring-Digital-Twin-with-Edge-Anomaly-Detection
+repo_url: https://github.com/cepdnaclk/e20-co326-Motor-Thermal-Monitoring-Digital-Twin
+page_url: https://cepdnaclk.github.io/e20-co326-Motor-Thermal-Monitoring-Digital-Twin
 forks: 0
 watchers: 0
 stars: 0
