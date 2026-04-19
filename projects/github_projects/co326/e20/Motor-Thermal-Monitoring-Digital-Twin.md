@@ -10,7 +10,7 @@ cover_url: /data/categories/co326/cover_page.jpg
 thumbnail_url: /data/categories/co326/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co326-Motor-Thermal-Monitoring-Digital-Twin
 page_url: https://cepdnaclk.github.io/e20-co326-Motor-Thermal-Monitoring-Digital-Twin
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: "2026-04-08T07:11:20Z"
