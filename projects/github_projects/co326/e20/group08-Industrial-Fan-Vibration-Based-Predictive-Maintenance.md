@@ -1,14 +1,14 @@
 ---
 layout: project_page
-title: Industrial Fan Vibration Based Predictive Maintenance
-permalink: /co326/e20/Industrial-Fan-Vibration-Based-Predictive-Maintenance/
+title: group08 Industrial Fan Vibration Based Predictive Maintenance
+permalink: /co326/e20/group08-Industrial-Fan-Vibration-Based-Predictive-Maintenance/
 description: ""
 has_children: false
 parent: E20 Industrial Automation Projects (CO326)
 grand_parent: Industrial Automation Projects (CO326)
 cover_url: /data/categories/co326/cover_page.jpg
 thumbnail_url: /data/categories/co326/thumbnail.jpg
-repo_url: https://github.com/cepdnaclk/e20-co326-Industrial-Fan-Vibration-Based-Predictive-Maintenance
+repo_url: https://github.com/cepdnaclk/e20-co326-group08-Industrial-Fan-Vibration-Based-Predictive-Maintenance
 page_url: blank
 forks: 0
 watchers: 0
