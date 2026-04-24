@@ -2,7 +2,8 @@
 layout: project_page
 title: Reducing Context Switching Latency in RTES Using RFP
 permalink: /4yp/e20/Reducing-Context-Switching-Latency-in-RTES-Using-RFP/
-description: FYP - Reducing context switching latency in RTES
+description: Reducing context switching overhead in real-time embedded systems using
+  a dynamically partitioned register file along with a modified FreeRTOS kernel
 has_children: false
 parent: E20 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -16,4 +17,4 @@ stars: 0
 started_on: "2026-01-03T09:07:12Z"
 ---
 
-FYP - Reducing context switching latency in RTES
+Reducing context switching overhead in real-time embedded systems using a dynamically partitioned register file along with a modified FreeRTOS kernel
