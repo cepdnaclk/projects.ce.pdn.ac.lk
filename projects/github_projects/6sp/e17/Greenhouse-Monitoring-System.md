@@ -16,8 +16,8 @@ thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-6sp-Greenhouse-Monitoring-System
 page_url: https://cepdnaclk.github.io/e17-6sp-Greenhouse-Monitoring-System
 forks: 5
-watchers: 3
-stars: 3
+watchers: 4
+stars: 4
 started_on: "2022-02-22T10:59:18Z"
 ---
 
