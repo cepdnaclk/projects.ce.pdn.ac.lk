@@ -13,7 +13,7 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e21-3yp-SPECTRA-LEAF
 page_url: https://cepdnaclk.github.io/e21-3yp-SPECTRA-LEAF
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: "2026-02-08T14:14:55Z"
