@@ -10,8 +10,8 @@ description: Dia-Smart is an IoT ecosystem automating diabetes compliance. It co
 has_children: false
 parent: E21 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
-cover_url: https://cepdnaclk.github.io/e21-3yp-dia-smart/data/cover_page.jpg
-thumbnail_url: https://cepdnaclk.github.io/e21-3yp-dia-smart/data/thumbnail.jpg
+cover_url: /data/categories/3yp/cover_page.jpg
+thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e21-3yp-dia-smart
 page_url: https://cepdnaclk.github.io/e21-3yp-dia-smart
 forks: 0
