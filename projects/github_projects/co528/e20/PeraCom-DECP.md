@@ -10,7 +10,7 @@ cover_url: /data/categories/co528/cover_page.jpg
 thumbnail_url: /data/categories/co528/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co528-PeraCom-DECP
 page_url: https://cepdnaclk.github.io/e20-co528-PeraCom-DECP
-forks: 1
+forks: 2
 watchers: 1
 stars: 1
 started_on: "2026-02-18T17:56:18Z"
