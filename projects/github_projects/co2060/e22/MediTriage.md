@@ -6,8 +6,8 @@ description: ""
 has_children: false
 parent: E22 Software Systems Design Project (CO2060)
 grand_parent: Software Systems Design Project (CO2060)
-cover_url: /data/categories/co2060/cover_page.jpg
-thumbnail_url: /data/categories/co2060/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/e22-co2060-MediTriage/data/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/e22-co2060-MediTriage/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-co2060-MediTriage
 page_url: https://cepdnaclk.github.io/e22-co2060-MediTriage
 forks: 0
