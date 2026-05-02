@@ -12,8 +12,8 @@ grand_parent: Software Systems Design Project (CO2060)
 cover_url: /data/categories/co2060/cover_page.jpg
 thumbnail_url: /data/categories/co2060/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-co2060-Web_Based_PAR_Index_System
-page_url: blank
-forks: 1
+page_url: https://cepdnaclk.github.io/e22-co2060-Web_Based_PAR_Index_System
+forks: 2
 watchers: 1
 stars: 1
 started_on: "2026-02-06T09:20:49Z"

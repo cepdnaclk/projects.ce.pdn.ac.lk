@@ -11,7 +11,7 @@ cover_url: https://cepdnaclk.github.io/e20-co326-Digital-Twin-LED-Luminaire-Moni
 thumbnail_url: https://cepdnaclk.github.io/e20-co326-Digital-Twin-LED-Luminaire-Monitor/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co326-Digital-Twin-LED-Luminaire-Monitor
 page_url: https://cepdnaclk.github.io/e20-co326-Digital-Twin-LED-Luminaire-Monitor
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: "2026-02-27T03:17:31Z"

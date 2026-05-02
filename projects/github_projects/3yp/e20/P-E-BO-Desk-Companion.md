@@ -14,8 +14,8 @@ thumbnail_url: https://cepdnaclk.github.io/e20-3yp-P-E-BO-Desk-Companion/data/th
 repo_url: https://github.com/cepdnaclk/e20-3yp-P-E-BO-Desk-Companion
 page_url: https://cepdnaclk.github.io/e20-3yp-P-E-BO-Desk-Companion
 forks: 2
-watchers: 2
-stars: 2
+watchers: 3
+stars: 3
 started_on: "2024-12-07T08:55:56Z"
 ---
 
