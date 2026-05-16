@@ -10,127 +10,50 @@ AUTHORS:
 
 import json
 import os
-import shutil
 
 import requests
 import yaml
 from notifications import Notifications
+from util.helpers import (
+    delete_category_index,
+    delete_project_index,
+    get_custom_media,
+    load_category_data,
+)
 
 notify = Notifications("projects.ce.pdn.ac.lk", "Daily_Site_Builder")
 
-CATEGORIES = {}
-BATCHES = {}
-ORGANIZATION = "cepdnaclk"
-RESULTS_PER_PAGE = 100
+
 excludedReposList = [
     "e03-final-year-projects",
     "e04-final-year-projects",
     "e05-final-year-projects",
 ]
-projects = []
 
 print("START")
 
-
-def get_custom_media(default_cover, default_thumb, gh_page):
-    """
-    Fast existence check for custom cover and thumbnail using HEAD (falls back to GET if needed).
-    """
-    cover_url = default_cover
-    thumbnail_url = default_thumb
-
-    if gh_page == "blank":
-        return cover_url, thumbnail_url
-
-    session = requests.Session()
-    session.headers.update({"User-Agent": "RepoIndexer/MediaCheck"})
-
-    # Quick reachability test for the GH Pages site
-    try:
-        root_resp = session.head(gh_page, timeout=3, allow_redirects=True)
-        if root_resp.status_code >= 400:
-            return cover_url, thumbnail_url
-    except requests.RequestException:
-        return cover_url, thumbnail_url
-
-    def exists(url):
-        try:
-            resp = session.head(url, timeout=3, allow_redirects=True)
-            if resp.status_code == 200:
-                return True
-            if resp.status_code in (403, 405):  # HEAD not allowed; try lightweight GET
-                get_resp = session.get(url, timeout=5, stream=True)
-                get_resp.close()
-                return get_resp.status_code == 200
-        except requests.RequestException:
-            return False
-        return False
-
-    cover_candidate = f"{gh_page}/data/cover_page.jpg"
-    if exists(cover_candidate):
-        cover_url = cover_candidate
-
-    thumb_candidate = f"{gh_page}/data/thumbnail.jpg"
-    if exists(thumb_candidate):
-        thumbnail_url = thumb_candidate
-
-    return cover_url, thumbnail_url
-
+projects = []
 
 # -----------------------------------------------------------------------------------
 # Load Category data
-url = "../data/categories/index.json"
-with open(url, "r") as f:
-    category_data = json.load(f)
-
-for i in category_data:
-    with open(f"../data/categories/{i}/index.json", "r") as f:
-        CATEGORIES[i] = json.load(f)
-
-    BATCHES[category_data[i]["link"]] = set()
-
+CATEGORIES, BATCHES = load_category_data()
 
 # -----------------------------------------------------------------------------------
-# Delete category index files
-dir_path = "../categories/"
-try:
-    shutil.rmtree(dir_path)
-except OSError as e:
-    print("Error: %s : %s" % (dir_path, e.strerror))
-
-# Delete project files
-dir_path = "../projects/github_projects/"
-try:
-    shutil.rmtree(dir_path)
-except OSError as e:
-    print("Error: %s : %s" % (dir_path, e.strerror))
+# Delete category/project index files
+delete_category_index()
+delete_project_index()
 
 # -----------------------------------------------------------------------------------
-# Download the repository data
-repo_dict = {}
-for p in range(1, 1000):
-    url = (
-        f"https://api.github.com/orgs/{ORGANIZATION}/repos?"
-        f"per_page={RESULTS_PER_PAGE}&page={p}"
-    )
-    response = requests.get(url)
+# # Download the repository data
+# try:
+#     repo_dict = download_repository_data()
+# except requests.RequestException:
+#     ERROR_MSG = "An exception occurred while getting data from GitHub: "
+#     print(">> Error:", ERROR_MSG)
+#     notify.warning(ERROR_MSG)
 
-    if response.status_code == 200:
-        jsonData = response.json()
-        if len(jsonData) == 0:
-            break
-
-        for repo in jsonData:
-            repo_dict[repo["name"]] = repo
-
-    else:
-        # TODO: Test
-        errorMsg = f"An exception occurred while getting data from GitHub: {response.status_code}"
-        print(">> Error:", errorMsg)
-        notify.warning(errorMsg)
-
-# -----------------------------------------------------------------------------------
-# Write the repository data to a local source
+# # -----------------------------------------------------------------------------------
+# # Write the repository data to a local source
 # cache_file_path = "./__cache/repos.json"
 # os.makedirs(os.path.dirname(cache_file_path), exist_ok=True)
 # with open(cache_file_path, "w") as f:
@@ -138,111 +61,110 @@ for p in range(1, 1000):
 
 # -----------------------------------------------------------------------------------
 # Read the repository data from a local source
-# with open('./__cache/repos.json', 'r') as f:
-#     repo_dict = json.load(f)
+with open("./__cache/repos.json", "r") as f:
+    repo_dict = json.load(f)
 
 
 # -----------------------------------------------------------------------------------
 # Iterate through the repositories in the GitHub
 count = 0
-for k in repo_dict:
-    r = repo_dict[k]
-
+for k, r in repo_dict.items():
     try:
         r_name = r["name"].strip().split("-")
 
         # Exclude the repository by definition
-        isExcludedRepo = r["name"] in excludedReposList
+        IS_EXCLUDED_REPO = r["name"] in excludedReposList
 
         # Exclude duplicated / self-forked repositories
         if str(r_name[-1]).isdigit() and "-".join(r_name[:-1]) in repo_dict:
             print(f">> Error: Duplicate repository | {r['name']}")
-            isExcludedRepo = True
+            IS_EXCLUDED_REPO = True
 
         # General eligibility check to be a Student Project
-        if (
-            r_name[0][0] == "e"
-            and r_name[0][1:].isdigit()
-            and len(r_name) > 2
-            and not isExcludedRepo
+        if all(
+            (
+                r_name[0][0] == "e",
+                r_name[0][1:].isdigit(),
+                len(r_name) > 2,
+                not IS_EXCLUDED_REPO,
+            )
         ):
             batch = f"e{int(r_name[0][1:]):02d}"
             cat = r_name[1].lower()
-            title = " ".join(r_name[2:])
-            filename = "-".join(r_name[2:])
-            count += 1
 
-            print(f">> {cat} > {batch} > {title}")
+            TITLE = " ".join(r_name[2:])
+            FILENAME = "-".join(r_name[2:])
+
+            count += 1
+            print(f">> {cat} > {batch} > {TITLE}")
 
             # Check about whether the project belong to any allowed project category
-            if cat in CATEGORIES:
-                cat_name = CATEGORIES[cat]["title"]
-                cat_cover = CATEGORIES[cat]["images"]["cover"]
-                cat_thumb = CATEGORIES[cat]["images"]["thumbnail"]
-
-                gh_page = (
-                    f"https://cepdnaclk.github.io/{r['name']}"
-                    if r["has_pages"]
-                    else "blank"
-                )
-                desc = (
-                    r["description"].strip().replace('"', "'")
-                    if r["description"]
-                    else ""
-                )
-                cover_url, thumbnail_url = get_custom_media(
-                    default_cover=f"/data/categories/{cat}/{cat_cover}",
-                    default_thumb=f"/data/categories/{cat}/{cat_thumb}",
-                    gh_page=gh_page,
-                )
-
-                data = {
-                    "layout": "project_page",
-                    "title": title,
-                    "permalink": f"/{cat}/{batch}/{filename}/",
-                    "description": str(desc),
-                    "has_children": False,
-                    "parent": f"{batch.upper()} {cat_name}",
-                    "grand_parent": cat_name,
-                    "cover_url": cover_url,
-                    "thumbnail_url": thumbnail_url,
-                    "repo_url": r["html_url"],
-                    "page_url": gh_page,
-                    "forks": r["forks_count"],
-                    "watchers": r["watchers_count"],
-                    "stars": r["stargazers_count"],
-                    "started_on": r["created_at"],
-                }
-                description = desc.replace('"', "'")
-
-                # Write the project file
-                path = f"../projects/github_projects/{cat}/{batch}/{filename}.md"
-                os.makedirs(os.path.dirname(path), exist_ok=True)
-                with open(path, "w+", encoding="utf-8") as f:
-                    f.write("---\n")
-                    f.write(yaml.dump(data, sort_keys=False))
-                    f.write("---\n\n")
-                    f.write(description)
-
-                BATCHES[cat].add(batch)
-
-            else:
+            if cat not in CATEGORIES:
                 print(f">> Error: Not belonged to a category | {r['name']}")
+                continue
+
+            cat_name = CATEGORIES[cat]["title"]
+            cat_cover = CATEGORIES[cat]["images"]["cover"]
+            cat_thumb = CATEGORIES[cat]["images"]["thumbnail"]
+
+            GH_PAGE = (
+                f"https://cepdnaclk.github.io/{r['name']}" if r["has_pages"] else None
+            )
+            desc = (
+                r["description"].strip().replace('"', "'") if r["description"] else ""
+            )
+            cover_url, thumbnail_url = get_custom_media(
+                default_cover=f"/data/categories/{cat}/{cat_cover}",
+                default_thumb=f"/data/categories/{cat}/{cat_thumb}",
+                gh_page=GH_PAGE,
+            )
+
+            data = {
+                "layout": "project_page",
+                "title": TITLE,
+                "permalink": f"/{cat}/{batch}/{FILENAME}/",
+                "description": str(desc),
+                "has_children": False,
+                "parent": f"{batch.upper()} {cat_name}",
+                "grand_parent": cat_name,
+                "cover_url": cover_url,
+                "thumbnail_url": thumbnail_url,
+                "repo_url": r["html_url"],
+                "page_url": GH_PAGE,
+                "forks": r["forks_count"],
+                "watchers": r["watchers_count"],
+                "stars": r["stargazers_count"],
+                "started_on": r["created_at"],
+            }
+            description = desc.replace('"', "'")
+
+            # Write the project file
+            PATH = f"../projects/github_projects/{cat}/{batch}/{FILENAME}.md"
+            os.makedirs(os.path.dirname(PATH), exist_ok=True)
+            with open(PATH, "w+", encoding="utf-8") as f:
+                f.write("---\n")
+                f.write(yaml.dump(data, sort_keys=False))
+                f.write("---\n\n")
+                f.write(description)
+
+            BATCHES[cat].add(batch)
 
     except (KeyError, ValueError, OSError, requests.RequestException) as e:
-        errorMsg = f"Repository processing failed for {r.get('name', '<unknown>')}: {type(e).__name__}: {e}"
-        print(">> Error:", errorMsg, e)
-        notify.warning(errorMsg, str(e))
+        ERROR_MSG = (
+            f"Repository processing failed for {r.get('name', '<unknown>')}: "
+            f"{type(e).__name__}: {e}"
+        )
+        print(">> Error:", ERROR_MSG, e)
+        notify.warning(ERROR_MSG, str(e))
 
-print(f">> Created {count} repositories")
+print(f">> Evaluated {count} project repositories")
 
 # -----------------------------------------------------------------------------------
 # Generate the index files
 
-id = 0
-for cat in sorted(BATCHES):
+for id, cat in enumerate(sorted(BATCHES)):
     cat_data = CATEGORIES[cat]
-    readmore_link = cat_data["readmore"] if ("readmore" in cat_data) else "#"
+    read_more_link = cat_data["read_more"] if ("read_more" in cat_data) else "#"
 
     index_file = {
         "layout": "project_cat",
@@ -255,26 +177,25 @@ for cat in sorted(BATCHES):
         "parent": "Home",
         "has_toc": True,
         "search_exclude": True,
-        "readmore": readmore_link,
+        "read_more": read_more_link,
         "default_thumb_image": f"/data/categories/{cat}/{cat_data['images']['thumbnail']}",
         "description": cat_data["description"],
     }
-    id += 1
 
     # Write the category index file
     try:
         print(">> Write category index for", cat)
-        path = "../categories/" + str(cat) + "/index.md"
-        os.makedirs(os.path.dirname(path), exist_ok=True)
-        with open(path, "w") as f:
+        PATH = "../categories/" + str(cat) + "/index.md"
+        os.makedirs(os.path.dirname(PATH), exist_ok=True)
+        with open(PATH, "w") as f:
             f.write("---\n")
             f.write(yaml.dump(index_file, sort_keys=False))
             f.write("---\n")
 
     except Exception as e:
-        errorMsg = f"An exception occurred while writing index file for {cat}"
-        print(">> Error:", errorMsg, str(e))
-        notify.warning(errorMsg, str(e))
+        ERROR_MSG = f"An exception occurred while writing index file for {cat}"
+        print(">> Error:", ERROR_MSG, str(e))
+        notify.warning(ERROR_MSG, str(e))
 
     # Write batch index files for each batch under the category
     for batch in BATCHES[cat]:
@@ -286,26 +207,26 @@ for cat in sorted(BATCHES):
             "parent": cat_data["title"],
             "batch": batch,
             "code": str(cat),
-            "readmore": readmore_link,
+            "read_more": read_more_link,
             "search_exclude": True,
             "default_thumb_image": f"/data/categories/{cat}/{cat_data['images']['thumbnail']}",
             "description": cat_data["description"],
         }
 
         try:
-            path = f"../categories/{cat_data['code']}/{batch}.md"
-            os.makedirs(os.path.dirname(path), exist_ok=True)
-            with open(path, "w") as f2:
+            PATH = f"../categories/{cat_data['code']}/{batch}.md"
+            os.makedirs(os.path.dirname(PATH), exist_ok=True)
+            with open(PATH, "w") as f2:
                 f2.write("---\n")
                 f2.write(yaml.dump(batch_file, sort_keys=False))
                 f2.write("---\n")
 
         except Exception as e:
-            errorMsg = (
+            ERROR_MSG = (
                 f"An exception occurred while writing index file for {cat}/{batch}"
             )
-            print(">> Error:", errorMsg, str(e))
-            notify.warning(errorMsg, str(e))
+            print(">> Error:", ERROR_MSG, str(e))
+            notify.warning(ERROR_MSG, str(e))
 
 print(f">> Created {id} categories")
 

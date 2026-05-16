@@ -9,7 +9,7 @@ type: COURSE
 parent: Home
 has_toc: true
 search_exclude: true
-readmore: "#"
+read_more: "#"
 default_thumb_image: /data/categories/co225/thumbnail.jpg
 description: "This section contains projects conducted as a partial requirement to
   complete the course CO225 - Software Constructions. There are primarily two types

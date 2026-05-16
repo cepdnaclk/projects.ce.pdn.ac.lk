@@ -34,5 +34,11 @@
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // File Exclusions ---------------------------------------------------------------------------
+  "files.exclude": {
+    "**/*.egg-info": true,
+    "**/*_cache": true,
+    "**/__pycache__": true
   }
 }

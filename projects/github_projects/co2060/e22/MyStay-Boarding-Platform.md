@@ -10,7 +10,7 @@ has_children: false
 parent: E22 Software Systems Design Project (CO2060)
 grand_parent: Software Systems Design Project (CO2060)
 cover_url: /data/categories/co2060/cover_page.jpg
-thumbnail_url: /data/categories/co2060/thumbnail.jpg
+thumbnail_url: https://cepdnaclk.github.io/e22-co2060-MyStay-Boarding-Platform/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-co2060-MyStay-Boarding-Platform
 page_url: https://cepdnaclk.github.io/e22-co2060-MyStay-Boarding-Platform
 forks: 2
