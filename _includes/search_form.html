@@ -1,0 +1,26 @@
+{% assign suffix_raw = include.id_suffix | default: '' | strip %} {% if suffix_raw != '' %} {%
+capture suffix %}-{{ suffix_raw | replace: ' ', '-' }}{% endcapture %} {% else %} {% assign suffix
+= '' %} {% endif %}
+
+<div class="project-search-form w-100">
+  <form id="algolia-search-form{{ suffix }}" role="search" data-algolia-search-form="true">
+    <div class="input-group input-group-lg">
+      <input
+        type="search"
+        class="form-control"
+        id="algolia-search-input{{ suffix }}"
+        name="query"
+        placeholder="Search projects, tags, supervisors, or categories..."
+        aria-label="Search projects"
+        autocomplete="off"
+        data-algolia-search-input="true"
+      />
+      <div class="input-group-append">
+        <button class="btn btn-primary px-4" type="submit" aria-label="Run search">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+    </div>
+  </form>
+  <div class="small text-muted mt-2 d-none" data-algolia-search-help="true"></div>
+</div>
