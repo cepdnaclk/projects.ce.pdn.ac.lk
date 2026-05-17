@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% include project_navbar.html %} {% include page_tree_builder.html pages=site.html_pages %}
+{% include project_navbar.html %}
 
 <main class="py-1 p-1" style="min-height: 80vh">
   <div class="container-fluid py-2 px-2">
@@ -11,16 +11,16 @@ layout: default
         <nav aria-label="breadcrumb" class="w-100 mt-2 px-4 py-2 border rounded-3 breadcrumb-nav">
           <ol class="breadcrumb p-0 m-0">
             {% if page.grand_parent %}
-            <li class="breadcrumb-item">
-              <a href="../../">{{ page.grand_parent }}</a>
-            </li>
-            <li class="breadcrumb-item">
-              <a href="../">{{ page.parent }}</a>
-            </li>
+              <li class="breadcrumb-item">
+                <a href="../../">{{ page.grand_parent }}</a>
+              </li>
+              <li class="breadcrumb-item">
+                <a href="../">{{ page.parent }}</a>
+              </li>
             {% else %}
-            <li class="breadcrumb-item">
-              <a href="../">{{ page.parent }}</a>
-            </li>
+              <li class="breadcrumb-item">
+                <a href="../">{{ page.parent }}</a>
+              </li>
             {% endif %}
             <li class="breadcrumb-item"><span>{{ page.title }}</span></li>
           </ol>
@@ -36,7 +36,7 @@ layout: default
         <p>{{ page.description }}</p>
 
         {%- if page.read_more != "#" -%}
-        <p class="text-end"><a target="_blank" href="{{ page.read_more }}">Read more &gt;</a></p>
+          <p class="text-end"><a target="_blank" href="{{ page.read_more }}">Read more &gt;</a></p>
         {%- endif -%}
 
         <hr />
@@ -44,20 +44,23 @@ layout: default
           Filter Projects by:
 
           <ul class="list-group">
-            {%- assign batch_array = pages_list | where: "parent", page.title | reverse -%} {% for
-            item in batch_array %} {% if item.nav_exclude!= true %} {%- assign batch_projects =
-            pages_list | where: "parent", item.title -%} {% if batch_projects.size > 0 %}
-
-            <li class="list-group-item p-1 align-items-center">
-              <a
-                href="{{ item.permalink | prepend: site.baseurl }}"
-                class="d-flex justify-content-between text-decoration-none"
-              >
-                <span class="mx-2">{{ item.title | slice:0,3 }} Batch</span>
-                <span class="mx-2">{{ batch_projects.size }}</span>
-              </a>
-            </li>
-            {% endif %} {% endif %} {% endfor %}
+            {%- assign batch_array = site.html_pages | where: "layout", "project_batch" | where: "parent", page.title | reverse -%}
+            {% for item in batch_array %}
+              {% if item.nav_exclude!= true %}
+                {%- assign batch_projects = site.html_pages | where: "layout", "project_page" | where: "parent", item.title -%}
+                {% if batch_projects.size > 0 %}
+                  <li class="list-group-item p-1 align-items-center">
+                    <a
+                      href="{{ item.permalink | prepend: site.baseurl }}"
+                      class="d-flex justify-content-between text-decoration-none"
+                    >
+                      <span class="mx-2">{{ item.title | slice:0,3 }} Batch</span>
+                      <span class="mx-2">{{ batch_projects.size }}</span>
+                    </a>
+                  </li>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
           </ul>
         </div>
         <br />
@@ -67,14 +70,16 @@ layout: default
       <div class="col-md-9" style="min-height: 60vh">
         <div class="container p-0 mw-100">
           <div class="row">
-            {% if page.has_children == true and page.has_toc != false %} {%- assign batch_list =
-            pages_list | where: "parent", page.title | reverse -%} {% for batch in batch_list %} {%-
-            assign proj_list = pages_list | where: "parent", batch.title -%} {% for child in
-            proj_list %}
-            <!-- -->
-            {% for child in proj_list %} {% include projectCard.html proj=child %} {% endfor %}
-            <!-- -->
-            {% endfor %} {% endfor %} {% endif %}
+            {% if page.has_children == true and page.has_toc != false %}
+              {%- assign batch_list = site.html_pages | where: "layout", "project_batch" | where: "parent", page.title | reverse -%}
+
+              {% for batch in batch_list %}
+                {%- assign proj_list = site.html_pages | where: "layout", "project_page" | where: "parent", batch.title -%}
+                {% for child in proj_list %}
+                    {% include projectCard.html proj=child %}
+                {% endfor %}
+              {% endfor %}
+          {% endif %}
           </div>
         </div>
         {{ content }}
