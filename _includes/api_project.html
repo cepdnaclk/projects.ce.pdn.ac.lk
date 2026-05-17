@@ -10,7 +10,7 @@
   "cover_url": "{{ project.cover_url | absolute_url }}",
   "thumbnail_url": "{{ project.thumbnail_url | absolute_url }}",
   "repo_url": "{{ project.repo_url }}",
-  {%- if project.page_url != "blank" -%}
+  {%- if project.page_url and project.page_url != "blank" -%}
     "page_url": "{{ project.page_url }}",
     "data_url": "{{ project.page_url }}/data/index.json",
   {%- else -%}
