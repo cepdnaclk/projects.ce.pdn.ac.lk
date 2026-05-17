@@ -8,11 +8,16 @@
     "source.fixAll": "always"
   },
   "files.associations": {
-    "*.html": "jekyll"
+    "*.html": "liquid",
+    "*.liquid": "liquid"
   },
   "prettier.configPath": ".prettierrc",
   "[/api/*]": {
     "editor.formatOnSave": false
+  },
+  "[liquid]": {
+    "editor.defaultFormatter": "sissel.shopify-liquid",
+    "editor.formatOnSave": true
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -34,5 +39,11 @@
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // File Exclusions ---------------------------------------------------------------------------
+  "files.exclude": {
+    "**/*.egg-info": true,
+    "**/*_cache": true,
+    "**/__pycache__": true
   }
 }

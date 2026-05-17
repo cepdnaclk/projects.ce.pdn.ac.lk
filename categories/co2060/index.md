@@ -9,7 +9,7 @@ type: COURSE
 parent: Home
 has_toc: true
 search_exclude: true
-readmore: "#"
+read_more: "#"
 default_thumb_image: /data/categories/co2060/thumbnail.jpg
 description: Software Systems Design Project is a structured project experience that
   enables students to design and develop a complete software system. It emphasizes

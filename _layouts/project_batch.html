@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% include project_navbar.html %} {% include page_tree_builder.html pages=site.html_pages %}
+{% include project_navbar.html %}
 
 <main class="py-1 p-1" style="min-height: 80vh">
   <div class="container-fluid py-2 px-2">
@@ -28,8 +28,8 @@ layout: default
         <h3>{{ page.title }}</h3>
         <p>{{ page.description }}</p>
 
-        {%- if page.readmore != "#" -%}
-        <p class="text-start"><a target="_blank" href="{{ page.readmore }}">Read more</a></p>
+        {%- if page.read_more != "#" -%}
+          <p class="text-start"><a target="_blank" href="{{ page.read_more }}">Read more</a></p>
         {%- endif -%}
 
         <br />
@@ -37,18 +37,19 @@ layout: default
       </div>
 
       <div class="col-md-9" style="min-height: 60vh">
-        {% if page.has_children == true and page.has_toc != false %} {%- assign children_list =
-        pages_list | where: "parent", page.title | where: "grand_parent", page.parent -%} {%- assign
-        proj_list = children_list | sort: "title" -%}
+        {% if page.has_children == true and page.has_toc != false %}
+          {%- assign children_list = site.html_pages | where: "layout", "project_page" | where: "parent", page.title | where: "grand_parent", page.parent -%}
+          {%- assign proj_list = children_list | sort: "title" -%}
 
-        <div class="container p-0 mw-100">
-          <div class="row">
-            <!-- -->
-            {% for child in proj_list %} {% include projectCard.html proj=child %} {% endfor %}
-            <!-- -->
+          <div class="container p-0 mw-100">
+            <div class="row">
+              {% for child in proj_list %}
+                {% include projectCard.html proj=child %}
+              {% endfor %}
+            </div>
           </div>
-        </div>
-        {% endif %} {{ content }}
+        {% endif %}
+        {{ content }}
       </div>
     </div>
   </div>
