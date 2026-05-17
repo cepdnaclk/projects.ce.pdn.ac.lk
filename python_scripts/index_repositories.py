@@ -54,14 +54,14 @@ delete_project_index()
 
 # # -----------------------------------------------------------------------------------
 # # Write the repository data to a local source
-# cache_file_path = "./__cache/repos.json"
+# cache_file_path = "./__cache__/repos.json"
 # os.makedirs(os.path.dirname(cache_file_path), exist_ok=True)
 # with open(cache_file_path, "w") as f:
 #     json.dump(repo_dict, f, indent=4)
 
 # -----------------------------------------------------------------------------------
 # Read the repository data from a local source
-with open("./__cache/repos.json", "r") as f:
+with open("./__cache__/repos.json", "r") as f:
     repo_dict = json.load(f)
 
 
