@@ -2,7 +2,9 @@
 layout: project_page
 title: RouteLK
 permalink: /3yp/e21/RouteLK/
-description: Smart Bus Tracking & Passenger Assistance App. https://cepdnaclk.github.io/e21-3yp-RouteLK
+description: RouteLK is a smart bus tracking and passenger assistance system that
+  provides real-time bus locations, crowd levels, ETAs, emergency alerts, and seat
+  booking features to improve the public transport experience for passengers and drivers.
 has_children: false
 parent: E21 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
@@ -16,4 +18,4 @@ stars: 0
 started_on: "2026-01-26T05:40:33Z"
 ---
 
-Smart Bus Tracking & Passenger Assistance App. https://cepdnaclk.github.io/e21-3yp-RouteLK
+RouteLK is a smart bus tracking and passenger assistance system that provides real-time bus locations, crowd levels, ETAs, emergency alerts, and seat booking features to improve the public transport experience for passengers and drivers.
