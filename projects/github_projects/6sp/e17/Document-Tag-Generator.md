@@ -17,8 +17,8 @@ thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-6sp-Document-Tag-Generator
 page_url: https://cepdnaclk.github.io/e17-6sp-Document-Tag-Generator
 forks: 5
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: "2022-02-26T12:44:35Z"
 ---
 
