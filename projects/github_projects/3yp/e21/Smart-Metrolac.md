@@ -14,7 +14,7 @@ cover_url: https://cepdnaclk.github.io/e21-3yp-Smart-Metrolac/data/cover_page.jp
 thumbnail_url: https://cepdnaclk.github.io/e21-3yp-Smart-Metrolac/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e21-3yp-Smart-Metrolac
 page_url: https://cepdnaclk.github.io/e21-3yp-Smart-Metrolac
-forks: 2
+forks: 3
 watchers: 1
 stars: 1
 started_on: "2026-01-27T14:13:39Z"
