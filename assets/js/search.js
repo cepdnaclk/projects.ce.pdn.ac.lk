@@ -1,95 +1,380 @@
----
-permalink: /assets/js/search.js
----
+(function ($, algoliasearch, bootstrap) {
+  "use strict";
 
-(function() {
-    function displaySearchResults(results, store) {
-        var searchResults = document.getElementById('search-results');
-        var searchCounter = document.getElementById('search-count');
+  var config = window.ALGOLIA_CONFIG || {};
+  var placeholderRegex = /PLACEHOLDER/i;
+  var hasValidConfig =
+    config.appId &&
+    config.searchApiKey &&
+    !placeholderRegex.test(config.appId) &&
+    !placeholderRegex.test(config.searchApiKey);
 
-        if (results.length) {
-            var appendString = '';
-            for (var i = 0; i < results.length; i++) {
-                var item = store[results[i].ref];
-                console.log(item, item.content.length);
+  var SELECTORS = {
+    form: "[data-algolia-search-form]",
+    input: "[data-algolia-search-input]",
+    clear: "[data-algolia-search-clear]",
+    help: "[data-algolia-search-help]",
+  };
 
-                var content = item.content.substring(0, 120);
-                if (item.content.length > 120) content += "..."
+  function getForms() {
+    return $(SELECTORS.form);
+  }
 
-                appendString += `
-                <div class="row d-flex">
-                    <div class="col-12 col-sm-4 col-md-3 d-flex align-items-center p-2">
-                        <img class="m-1 img-fluid img-thumbnail align-self-center serach-img mx-auto my-auto" src="{{ site.baseurl }}${item.thumb}" alt="Result Item Image">
-                    </div>
-                    <div class="col-12 col-sm-8 col-md-9 d-flex align-items-center">
-                        <div class="container">
-                            <a href="${item.url}" class="text-decoration-none">
-                                <h5>${item.title}</h5>
-                            </a>
-                            <p>
-                                ${content}
-                                <a href="${item.url}" class="text-decoration-none text-link me-2">Read More  &rarr;</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            `;
+  function getInputs() {
+    return $(SELECTORS.input);
+  }
 
+  function getClearButtons() {
+    return $(SELECTORS.clear);
+  }
+
+  function getHelpers() {
+    return $(SELECTORS.help);
+  }
+
+  var $results = $("#algolia-search-results");
+  var $status = $("#algolia-search-status");
+  var $count = $("#algolia-search-count");
+  var $loader = $("#algolia-search-loader");
+  var $paginationWrapper = $("#algolia-search-pagination");
+  var $paginationList = $paginationWrapper.find("ul");
+  var modalElement = document.getElementById("algoliaSearchModal");
+  var searchModal =
+    modalElement && bootstrap && bootstrap.Modal ? new bootstrap.Modal(modalElement) : null;
+
+  function trimText(value, maxLength) {
+    return value.length > maxLength ? `${value.substring(0, maxLength)}...` : value;
+  }
+
+  function escapeHtml(value) {
+    return String(value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  const TEXT_TRIM_LEN = 48;
+  const HITS_PER_PAGE = 8;
+  var allHits = [];
+  var currentPage = 0;
+  var currentQuery = "";
+  var client =
+    hasValidConfig && algoliasearch ? algoliasearch(config.appId, config.searchApiKey) : null;
+
+  function disableSearch(reason) {
+    var $helpers = getHelpers();
+    if ($helpers.length) {
+      $helpers.text(reason).removeClass("d-none");
+    }
+    getForms().addClass("disabled");
+    getInputs().prop("disabled", true);
+    getClearButtons().addClass("d-none");
+  }
+
+  function findClearButtonForInput($input) {
+    return $input.closest("form").find(SELECTORS.clear).first();
+  }
+
+  function toggleClearButtonForInput($input) {
+    var hasValue = Boolean(($input.val() || "").trim());
+    var $clearButton = findClearButtonForInput($input);
+    if ($clearButton.length) {
+      $clearButton.toggleClass("d-none", !hasValue);
+    }
+  }
+
+  function refreshClearButtons() {
+    getInputs().each(function () {
+      toggleClearButtonForInput($(this));
+    });
+  }
+
+  function setQueryForAllInputs(query) {
+    getInputs().val(query);
+    refreshClearButtons();
+  }
+
+  function setLoading(isLoading) {
+    if (isLoading) {
+      $loader.removeClass("d-none");
+      $results.empty();
+      $paginationWrapper.addClass("d-none");
+      $count.text("");
+    } else {
+      $loader.addClass("d-none");
+    }
+  }
+
+  function updateStatus(message, isError) {
+    if (!$status.length) {
+      return;
+    }
+    $status.toggleClass("text-danger", Boolean(isError));
+    $status.text(message);
+  }
+
+  function buildHitHtml(hit) {
+    console.log(">> hit", hit)
+
+    const url = hit.project_url
+
+    var highlight = hit._highlightResult || {};
+    const title = highlight.title?.value || hit.title
+    const subtitle = `<span class="badge rounded-pill ms-1 bg-success text-truncate small">${hit.category_title || ""}</span>`
+    const description = highlight.description?.value || hit.description || "";
+
+    let tagsString = '';
+    if (hit.tags){
+        tagsString += hit.tags.map(tag => {
+          return `<span class="badge rounded-pill ms-1 bg-info">${tag}</span>`
+        }).join("")
+      }
+
+    return `
+      <a class="list-group-item list-group-item-action theme-bg-light" href="${escapeHtml(url)}">
+      <h6 class="mb-1">${title} ${subtitle}</h6>
+      <p class="small text-truncate">${description}</p>
+      ${tagsString}
+      </a>
+    `;
+  }
+
+  function renderPage(pageIndex) {
+    currentPage = pageIndex;
+    var start = pageIndex * HITS_PER_PAGE;
+    var end = start + HITS_PER_PAGE;
+    var pageHits = allHits.slice(start, end);
+    $results.html(pageHits.map(buildHitHtml).join(""));
+
+    var totalResults = allHits.length;
+    if (totalResults === 0) {
+      updateStatus("No results found");
+      $paginationWrapper.addClass("d-none");
+      $count.text("");
+      return;
+    }
+
+    updateStatus(
+      "Showing " + pageHits.length + " of " + totalResults + ' results for "' + currentQuery + '".'
+    );
+    $count.text("Page " + (pageIndex + 1) + " of " + Math.ceil(totalResults / HITS_PER_PAGE));
+
+    renderPagination(totalResults, pageIndex);
+  }
+
+  function renderPagination(totalResults, pageIndex) {
+    var totalPages = Math.ceil(totalResults / HITS_PER_PAGE);
+    if (totalPages <= 1) {
+      $paginationWrapper.addClass("d-none");
+      $paginationList.empty();
+      return;
+    }
+
+    var items = [];
+
+    function addPageButton(label, page, disabled, active) {
+      var classes = ["page-item"];
+      if (disabled) {
+        classes.push("disabled");
+      }
+      if (active) {
+        classes.push("active");
+      }
+      items.push(`
+        <li class="${classes.join(" ")}">
+          <button class="page-link" type="button" data-page="${page}">${label}</button>
+        </li>
+      `);
+    }
+
+    function addEllipsis() {
+      items.push('<li class="page-item disabled"><span class="page-link">...</span></li>');
+    }
+
+    addPageButton("Prev", Math.max(pageIndex - 1, 0), pageIndex === 0, false);
+
+    var totalVisible = 5;
+    var start = Math.max(pageIndex - 2, 0);
+    var end = Math.min(start + totalVisible - 1, totalPages - 1);
+    if (end - start + 1 < totalVisible) {
+      start = Math.max(end - totalVisible + 1, 0);
+    }
+
+    if (start > 0) {
+      addPageButton(1, 0, false, pageIndex === 0);
+      if (start > 1) {
+        addEllipsis();
+      }
+    }
+
+    for (var i = start; i <= end; i += 1) {
+      addPageButton(i + 1, i, false, i === pageIndex);
+    }
+
+    if (end < totalPages - 1) {
+      if (end < totalPages - 2) {
+        addEllipsis();
+      }
+      addPageButton(totalPages, totalPages - 1, false, pageIndex === totalPages - 1);
+    }
+
+    addPageButton(
+      "Next",
+      Math.min(pageIndex + 1, totalPages - 1),
+      pageIndex === totalPages - 1,
+      false
+    );
+
+    $paginationList.html(items.join(""));
+    $paginationWrapper.removeClass("d-none");
+  }
+
+  function handlePaginationClick(event) {
+    var target = $(event.target);
+    var page = parseInt(target.data("page"), 10);
+    if (Number.isNaN(page)) {
+      return;
+    }
+    event.preventDefault();
+    if (page === currentPage) {
+      return;
+    }
+    renderPage(page);
+  }
+
+  function performSearch(query) {
+    if (!hasValidConfig || !client) {
+      return;
+    }
+    currentQuery = query;
+    setQueryForAllInputs(query);
+    setLoading(true);
+    updateStatus('Searching for "' + query + '"...');
+    if (searchModal) {
+      searchModal.show();
+    }
+
+    var baseParams = {
+      hitsPerPage: 100,
+      highlightPreTag: "<mark>",
+      highlightPostTag: "</mark>",
+      getRankingInfo: true,
+    };
+
+    var queries = buildSearchQueries(query, baseParams);
+    if (!queries.length) {
+      setLoading(false);
+      updateStatus("Search is not configured for this page.", true);
+      return;
+    }
+
+    client
+      .search(queries)
+      .then(function (response) {
+        var combined = [];
+        if (response && response.results) {
+          response.results.forEach(function (result) {
+            var hits = Array.isArray(result.hits) ? result.hits : [];
+            // Ensure unique hits by 'pageId'
+            if (!combined._seenTargets) {
+              combined._seenTargets = new Set();
             }
-            searchResults.innerHTML = appendString;
-            searchCounter.innerHTML = `About ${results.length} results`;
+
+            hits.forEach(function (hit) {
+              var pageId = hit.url;
+              if (pageId && combined._seenTargets.has(pageId)) {
+                return; // Skip duplicate
+              }
+
+              if (pageId) {
+                combined._seenTargets.add(pageId);
+              }
+
+              hit.__indexName = result.index;
+              combined.push(hit);
+            });
+          });
+        }
+        allHits = combined;
+
+        setLoading(false);
+        if (!allHits.length) {
+          $results.empty();
+          updateStatus('No results found for "' + query + '".');
+          $count.text("");
+          $paginationWrapper.addClass("d-none");
+          return;
+        }
+        renderPage(0);
+      })
+      .catch(function (error) {
+        setLoading(false);
+        updateStatus("Search failed. Please try again later.", true);
+        console.error("Algolia search error", error);
+      });
+  }
+
+  if (!hasValidConfig) {
+    disableSearch("Search is currently unavailable. Configure Algolia credentials to enable it.");
+    return;
+  }
+
+  if (!getForms().length || !algoliasearch || !bootstrap) {
+    return;
+  }
+
+  function buildSearchQueries(query, params) {
+    var queries = [];
+    queries.push({ indexName: "project_index", query: query, params: params });
+
+    return queries;
+  }
+
+  $(document).on("input", SELECTORS.input, function () {
+    toggleClearButtonForInput($(this));
+  });
+
+  $(document).on("click", SELECTORS.clear, function (event) {
+    event.preventDefault();
+    var $button = $(this);
+    var $form = $button.closest("form");
+    var $input = $form.find(SELECTORS.input).first();
+    $input.val("");
+    toggleClearButtonForInput($input);
+    $input.trigger("focus");
+  });
+
+  $(document).on("submit", SELECTORS.form, function (event) {
+    event.preventDefault();
+    var $form = $(this);
+    var $input = $form.find(SELECTORS.input).first();
+    var query = ($input.val() || "").trim();
+    if (!query) {
+      updateStatus("Enter a search term to begin.");
+      return;
+    }
+    performSearch(query);
+  });
+
+  $paginationWrapper.on("click", "button.page-link", handlePaginationClick);
+
+  if (modalElement) {
+    modalElement.addEventListener("shown.bs.modal", function (event) {
+      if (event.target === modalElement) {
+        var $modalInput = $(modalElement).find(SELECTORS.input).first();
+        if ($modalInput.length) {
+          $modalInput.trigger("focus");
         } else {
-            searchResults.innerHTML = '&nbsp;';
-            searchCounter.innerHTML = 'No results found';
+          var $firstInput = getInputs().first();
+          if ($firstInput.length) {
+            $firstInput.trigger("focus");
+          }
         }
-    }
+      }
+    });
+  }
 
-    function getQueryVariable(variable) {
-        var query = window.location.search.substring(1);
-        var vars = query.split('&');
-
-        for (var i = 0; i < vars.length; i++) {
-            var pair = vars[i].split('=');
-            if (pair[0] === variable) {
-                return decodeURIComponent(pair[1].replace(/\+/g, '%20'));
-            }
-        }
-    }
-
-    var searchTerm = getQueryVariable('query');
-    if (searchTerm) {
-        document.getElementById('search-box').setAttribute("value", searchTerm.trim());
-
-        // Initalize lunr with the fields it will be searching on. I've given title
-        // a boost of 10 to indicate matches on this field are more important.
-        var idx = lunr(function () {
-            this.field('id');
-            this.field('title', { boost: 10 });
-            this.field('tags', { boost: 5 });
-            this.field('team', { boost: 5 });
-            this.field('supervisors', { boost: 5 });
-            this.field('content');
-        });
-
-        const url = '{{ site.baseurl}}/assets/js/search-data.json';
-        $.getJSON(url, function(data) {
-
-            console.log(data);
-
-            for (var key in data) { // Add the data to lunr
-                idx.add({
-                    'id': key,
-                    'title': data[key].title,
-                    'content': data[key].content,
-                    'team': data[key].team || '',
-                    'supervisors': data[key].supervisors || '',
-                });
-
-                var results = idx.search(searchTerm); // Get lunr to perform a search
-                displaySearchResults(results, data); // We'll write this in the next section
-            }
-        });
-
-
-    }
-})();
+  refreshClearButtons();
+})(window.jQuery, window.algoliasearch, window.bootstrap);

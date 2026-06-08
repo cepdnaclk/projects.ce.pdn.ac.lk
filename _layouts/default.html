@@ -6,8 +6,8 @@ layout: table_wrappers
 
 <html lang="{{ site.lang | default: 'en-US' }}">
   <head>
-    {% include meta.html %} {% include head.html %} {% if site.ga_tracking != nil -%} {%- include
-    analytics.html -%} {% endif -%}
+    {% include meta.html %}
+    {% include head.html %}
   </head>
 
   <body>
@@ -20,8 +20,9 @@ layout: table_wrappers
         style="display: none"
       ></a>
 
-      <!-- <a href="#" id="toTopBtn" style="display: none;"></a> -->
-      {{ content }} {% include footer.html %}
+      {{ content }}
+
+      {% include footer.html %}
     </div>
   </body>
 </html>
