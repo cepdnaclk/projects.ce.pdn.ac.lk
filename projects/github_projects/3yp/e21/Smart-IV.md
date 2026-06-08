@@ -9,12 +9,12 @@ has_children: false
 parent: E21 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
 cover_url: /data/categories/3yp/cover_page.jpg
-thumbnail_url: /data/categories/3yp/thumbnail.jpg
+thumbnail_url: https://cepdnaclk.github.io/e21-3yp-Smart-IV/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e21-3yp-Smart-IV
 page_url: https://cepdnaclk.github.io/e21-3yp-Smart-IV
 forks: 0
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: "2026-01-05T05:48:00Z"
 ---
 

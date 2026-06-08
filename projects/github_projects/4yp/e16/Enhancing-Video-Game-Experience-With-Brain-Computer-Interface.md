@@ -12,8 +12,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-4yp-Enhancing-Video-Game-Experience-With-Brain-Computer-Interface
 page_url: https://cepdnaclk.github.io/e16-4yp-Enhancing-Video-Game-Experience-With-Brain-Computer-Interface
 forks: 2
-watchers: 4
-stars: 4
+watchers: 5
+stars: 5
 started_on: "2022-07-23T19:18:08Z"
 ---
 

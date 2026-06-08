@@ -13,8 +13,6 @@ has_children: true
 search_exclude: true
 ---
 
-{%- include page_tree_builder.html pages=site.html_pages -%}
-
 <!-- Jumbotron Header -->
 <header class="blog-header py-3 px-3">
   <div class="row flex-nowrap justify-content-between align-items-center">
@@ -45,6 +43,7 @@ search_exclude: true
     </div>
   </div>
 </header>
+
 {% include project_navbar.html %}
 
 <main class="py-2 p-1">
@@ -73,11 +72,11 @@ search_exclude: true
     <div>
       <div class="row text-center my-2">
         {%- if page.has_children == true and page.has_toc != false -%} {%- assign children_list =
-        pages_list | where: "parent", page.title -%}
+        site.html_pages | where: "parent", page.title | where: "type", "GENERAL" | sort: "code" -%}
 
         <div class="container p-0 mw-100">
           <div class="row">
-            {%- for child in children_list -%} {%- if child.type == "GENERAL" -%}
+            {%- for child in children_list -%}
             <div
               class="col-lg-4 col-md-6 mb-1 icon-box d-flex {{ child.type }} img-hover-zoom-card"
             >
@@ -96,7 +95,7 @@ search_exclude: true
                 </div>
               </a>
             </div>
-            {%- endif -%} {%- endfor -%}
+            {%- endfor -%}
           </div>
         </div>
         {%- endif -%}
@@ -106,11 +105,11 @@ search_exclude: true
       <h3 class="pt-3 pb-1">Course-Specific Projects</h3>
       <div class="row text-center my-2">
         {%- if page.has_children == true and page.has_toc != false -%} {%- assign children_list =
-        pages_list | where: "parent", page.title | sort: "code" -%}
+        site.html_pages | where: "parent", page.title | where: "type", "COURSE" | sort: "code" -%}
 
         <div class="container p-0 mw-100">
           <div class="row">
-            {%- for child in children_list -%} {%- if child.type == "COURSE" -%}
+            {%- for child in children_list -%}
             <div class="col-lg-3 col-md-6 mb-1 d-flex {{ child.type }} img-hover-zoom-card">
               <a class="btn" href="{{ child.permalink  | prepend: site.baseurl}}">
                 <div class="card h-100">
@@ -127,7 +126,7 @@ search_exclude: true
                 </div>
               </a>
             </div>
-            {%- endif -%} {%- endfor -%}
+            {%- endfor -%}
           </div>
         </div>
         {%- endif -%}
@@ -137,8 +136,7 @@ search_exclude: true
       <h3 class="pt-3 pb-1">Other Department Projects</h3>
       <div class="row text-center my-2">
         {%- if page.has_children == true and page.has_toc != false -%} {%- assign dept_projects =
-        pages_list | where: "layout", "project_page_dept" -%}
-
+        site.html_pages | where: "layout", "project_page_dept" | sort: "nav_order" -%}
         <div class="container p-0 mw-100">
           <div class="row">
             {%- for child in dept_projects -%}

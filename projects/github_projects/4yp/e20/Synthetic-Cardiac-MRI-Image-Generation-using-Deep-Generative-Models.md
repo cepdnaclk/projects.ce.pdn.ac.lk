@@ -6,8 +6,8 @@ description: Synthetic Cardiac MRI Image Generation using Deep Generative Models
 has_children: false
 parent: E20 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
-cover_url: /data/categories/4yp/cover_page.jpg
-thumbnail_url: /data/categories/4yp/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/e20-4yp-Synthetic-Cardiac-MRI-Image-Generation-using-Deep-Generative-Models/data/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/e20-4yp-Synthetic-Cardiac-MRI-Image-Generation-using-Deep-Generative-Models/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-4yp-Synthetic-Cardiac-MRI-Image-Generation-using-Deep-Generative-Models
 page_url: https://cepdnaclk.github.io/e20-4yp-Synthetic-Cardiac-MRI-Image-Generation-using-Deep-Generative-Models
 forks: 0

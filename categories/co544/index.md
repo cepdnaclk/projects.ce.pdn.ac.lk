@@ -9,7 +9,7 @@ type: COURSE
 parent: Home
 has_toc: true
 search_exclude: true
-readmore: "#"
+read_more: "#"
 default_thumb_image: /data/categories/co544/thumbnail.jpg
 description: ""
 ---

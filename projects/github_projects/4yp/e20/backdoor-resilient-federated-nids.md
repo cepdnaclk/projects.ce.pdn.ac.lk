@@ -12,8 +12,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-4yp-backdoor-resilient-federated-nids
 page_url: https://cepdnaclk.github.io/e20-4yp-backdoor-resilient-federated-nids
 forks: 3
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: "2025-10-17T14:49:32Z"
 ---
 

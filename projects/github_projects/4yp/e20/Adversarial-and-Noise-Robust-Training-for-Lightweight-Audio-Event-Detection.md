@@ -14,8 +14,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-4yp-Adversarial-and-Noise-Robust-Training-for-Lightweight-Audio-Event-Detection
 page_url: https://cepdnaclk.github.io/e20-4yp-Adversarial-and-Noise-Robust-Training-for-Lightweight-Audio-Event-Detection
 forks: 1
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: "2026-03-12T03:41:04Z"
 ---
 

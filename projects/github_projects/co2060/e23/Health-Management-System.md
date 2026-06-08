@@ -14,8 +14,8 @@ thumbnail_url: https://cepdnaclk.github.io/e23-co2060-Health-Management-System/d
 repo_url: https://github.com/cepdnaclk/e23-co2060-Health-Management-System
 page_url: https://cepdnaclk.github.io/e23-co2060-Health-Management-System
 forks: 3
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: "2026-02-08T12:06:23Z"
 ---
 

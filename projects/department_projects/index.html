@@ -38,10 +38,8 @@ has_children: false
 
     <div class="container" style="min-height: 80vh">
       <div class="row pt-4">
-        {% include page_tree_builder.html pages=site.html_pages -%} {%- assign projects = pages_list
-        | where: "layout", "project_page_dept" -%} {%- for proj in projects -%} {%- if proj.title !=
-        "Dummy Project" -%}
-
+        {%- assign projects = site.html_pages | where: "layout", "project_page_dept" | sort:
+        "nav_order" -%} {%- for proj in projects -%} {%- if proj.title != "Dummy Project" -%}
         <div
           class="col-lg-4 col-md-6 col-sm-6 d-flex m-0 img-hover-zoom-card"
           style="padding: 10px 0"

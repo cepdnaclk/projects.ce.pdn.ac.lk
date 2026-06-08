@@ -12,7 +12,7 @@ cover_url: https://cepdnaclk.github.io/e23-co2060-GiftBox-Customization-Marketpl
 thumbnail_url: https://cepdnaclk.github.io/e23-co2060-GiftBox-Customization-Marketplace/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e23-co2060-GiftBox-Customization-Marketplace
 page_url: https://cepdnaclk.github.io/e23-co2060-GiftBox-Customization-Marketplace
-forks: 0
+forks: 1
 watchers: 1
 stars: 1
 started_on: "2026-02-07T05:52:08Z"
