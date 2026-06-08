@@ -3,13 +3,12 @@
 from __future__ import annotations
 
 import sys
-import time
 from typing import Any
 
 import requests
-from util.algolia_projects import diff_records, transform_projects_payload
+from algoliasearch.search_client import SearchClient
 from util.configs import PROJECTS_IDX_SETTINGS
-from util.helpers import chunked, init_env, load_env_var, log_event
+from util.helpers import init_env, load_env_var, log_event, transform_projects_payload
 
 PROJECTS_API_URL = "https://api.ce.pdn.ac.lk/projects/v1/all/"
 ALGOLIA_PROJECTS_INDEX_NAME = "project_index"
@@ -74,114 +73,61 @@ def fetch_projects_payload(api_url: str) -> dict[str, Any]:
     return payload
 
 
-def browse_index(app_id: str, admin_key: str, index_name: str) -> list[dict[str, Any]]:
-    headers = algolia_headers(app_id, admin_key)
-    url = f"{algolia_base_url(app_id)}/{index_name}/browse"
+def sync(index, records, settings):
+    MAX_CONTENT = 1000
+    if not isinstance(settings, dict):
+        raise TypeError("Algolia index settings must be a dictionary")
 
-    all_hits: list[dict[str, Any]] = []
-    cursor: str | None = None
+    # Truncate large content fields
+    updated_records = []
 
-    while True:
-        body = {"cursor": cursor} if cursor else {"params": "hitsPerPage=1000"}
-        try:
-            page = request_json("POST", url, headers=headers, json_body=body)
-        except IndexingError as exc:
-            if "status 404" in str(exc):
-                log_event(
-                    "diff",
-                    "Algolia index does not exist yet. Treating existing dataset as empty.",
-                    level="WARNING",
-                    index_name=index_name,
-                )
-                return []
-            raise
-        hits = page.get("hits")
-        if not isinstance(hits, list):
-            raise IndexingError("Algolia browse response did not include a hits array")
-        all_hits.extend(hits)
-        cursor = page.get("cursor")
-        if not cursor:
-            break
+    for rec in records:
+        # No longer chunking content - just truncate to max length
 
-    log_event("diff", "Fetched existing Algolia records", record_count=len(all_hits))
-    return all_hits
+        # content = rec.get("content")
+        # if isinstance(content, str) and len(content) > MAX_CONTENT:
+        #     # Split oversized content into multiple chunked records
+        #     start = 0
+        #     chunk_idx = 1
+        #     while start < len(content):
+        #         chunk_content = content[start : start + MAX_CONTENT]
+        #         new_rec = rec.copy()
+        #         new_rec["content"] = chunk_content
+        #         new_rec["chunk"] = chunk_idx
+        #         if "objectID" in rec:
+        #             new_rec["objectID"] = f"{rec['objectID']}#c{chunk_idx}"
+        #         updated_records.append(new_rec)
+        #         start += MAX_CONTENT
+        #         chunk_idx += 1
+        #     continue
 
+        if rec.get("description"):
+            rec["description"] = rec.get("description").strip()[:MAX_CONTENT]
 
-def wait_for_task(
-    app_id: str, admin_key: str, index_name: str, task_id: int | None
-) -> None:
-    if task_id is None:
-        return
+        updated_records.append(rec)
 
-    headers = algolia_headers(app_id, admin_key)
-    url = f"{algolia_base_url(app_id)}/{index_name}/task/{task_id}"
-    for _ in range(60):
-        response = request_json("GET", url, headers=headers)
-        if response.get("status") == "published":
-            return
-        time.sleep(1)
-    raise IndexingError(f"Timed out waiting for Algolia task {task_id}")
-
-
-def apply_settings(app_id: str, admin_key: str, index_name: str) -> None:
-    headers = algolia_headers(app_id, admin_key)
-    url = f"{algolia_base_url(app_id)}/{index_name}/settings"
-    log_event("settings", "Applying Algolia index settings", index_name=index_name)
-    response = request_json(
-        "PUT", url, headers=headers, json_body=PROJECTS_IDX_SETTINGS
+    print(
+        f"Uploading {len(records)} records to '{index.name}' via {len(updated_records)} chunks"
     )
-    wait_for_task(app_id, admin_key, index_name, response.get("taskID"))
 
-
-def upsert_records(
-    app_id: str, admin_key: str, index_name: str, records: list[dict[str, Any]]
-) -> None:
-    if not records:
-        log_event("upsert", "No records to upsert")
-        return
-
-    headers = algolia_headers(app_id, admin_key)
-    base_url = algolia_base_url(app_id)
-    last_task_id: int | None = None
-
-    for batch in chunked(records, ALGOLIA_BATCH_SIZE):
-        for record in batch:
-            object_id = record["objectID"]
-            url = f"{base_url}/{index_name}/{object_id}"
-            response = request_json("PUT", url, headers=headers, json_body=record)
-            last_task_id = response.get("taskID", last_task_id)
-
-    wait_for_task(app_id, admin_key, index_name, last_task_id)
-    log_event("upsert", "Upserted Algolia records", record_count=len(records))
-
-
-def delete_records(
-    app_id: str, admin_key: str, index_name: str, object_ids: list[str]
-) -> None:
-    if not object_ids:
-        log_event("delete", "No stale records to delete")
-        return
-
-    headers = algolia_headers(app_id, admin_key)
-    base_url = algolia_base_url(app_id)
-    last_task_id: int | None = None
-
-    for batch in chunked(object_ids, ALGOLIA_BATCH_SIZE):
-        for object_id in batch:
-            url = f"{base_url}/{index_name}/{object_id}"
-            response = request_json("DELETE", url, headers=headers)
-            last_task_id = response.get("taskID", last_task_id)
-
-    wait_for_task(app_id, admin_key, index_name, last_task_id)
-    log_event("delete", "Deleted stale Algolia records", record_count=len(object_ids))
+    r = index.replace_all_objects(updated_records)
+    if isinstance(r, dict) and "taskID" in r:
+        index.wait_task(r["taskID"])
+    r = index.set_settings(settings)
+    if isinstance(r, dict) and "taskID" in r:
+        index.wait_task(r["taskID"])
+    print(f"Completed '{index.name}'")
 
 
 def main() -> int:
-    try:
+    # try:
+    if True:
         init_env()
-        app_id = load_env_var("ALGOLIA_APP_ID")
-        admin_key = load_env_var("ALGOLIA_ADMIN_API_KEY")
-        index_name = ALGOLIA_PROJECTS_INDEX_NAME
+
+        client = SearchClient.create(
+            app_id=load_env_var("ALGOLIA_APP_ID"),
+            api_key=load_env_var("ALGOLIA_ADMIN_API_KEY"),
+        )
 
         payload = fetch_projects_payload(PROJECTS_API_URL)
         records, record_errors = transform_projects_payload(payload)
@@ -191,6 +137,7 @@ def main() -> int:
             record_count=len(records),
             skipped_count=len(record_errors),
         )
+
         if record_errors:
             log_event(
                 "transform",
@@ -199,29 +146,35 @@ def main() -> int:
                 skipped=record_errors[:10],
             )
 
-        existing_records = browse_index(app_id, admin_key, index_name)
-        upsert_records_list, delete_records_list = diff_records(
-            existing_records, records
+        project_records = records.copy()
+        sync(
+            client.init_index(ALGOLIA_PROJECTS_INDEX_NAME),
+            project_records,
+            PROJECTS_IDX_SETTINGS,
         )
-        log_event(
-            "diff",
-            "Computed Algolia delta",
-            fetched_count=len(records),
-            existing_count=len(existing_records),
-            upsert_count=len(upsert_records_list),
-            delete_count=len(delete_records_list),
-        )
+        # existing_records = browse_index(app_id, admin_key, index_name)
+        # upsert_records_list, delete_records_list = diff_records(
+        #     existing_records, records
+        # )
+        # log_event(
+        #     "diff",
+        #     "Computed Algolia delta",
+        #     fetched_count=len(records),
+        #     existing_count=len(existing_records),
+        #     upsert_count=len(upsert_records_list),
+        #     delete_count=len(delete_records_list),
+        # )
 
-        apply_settings(app_id, admin_key, index_name)
-        upsert_records(app_id, admin_key, index_name, upsert_records_list)
-        delete_records(app_id, admin_key, index_name, delete_records_list)
-        log_event(
-            "complete", "Algolia indexing completed successfully", index_name=index_name
-        )
+        # apply_settings(app_id, admin_key, index_name)
+        # upsert_records(app_id, admin_key, index_name, upsert_records_list)
+        # delete_records(app_id, admin_key, index_name, delete_records_list)
+        # log_event(
+        #     "complete", "Algolia indexing completed successfully", index_name=index_name
+        # )
         return 0
-    except Exception as exc:
-        log_event("failure", "Algolia indexing failed", level="ERROR", error=str(exc))
-        return 1
+    # except Exception as exc:
+    #     log_event("failure", "Algolia indexing failed", level="ERROR", error=str(exc))
+    #     return 1
 
 
 if __name__ == "__main__":

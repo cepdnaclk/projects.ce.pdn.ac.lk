@@ -7,11 +7,11 @@ capture suffix %}-{{ suffix_raw | replace: ' ', '-' }}{% endcapture %} {% else %
     <div class="input-group input-group-lg">
       <input
         type="search"
-        class="form-control"
+        class="form-control py-0 px-2"
         id="algolia-search-input{{ suffix }}"
         name="query"
-        placeholder="Search projects, tags, supervisors, or categories..."
-        aria-label="Search projects"
+        placeholder="Search projects by name, tag, supervisor, ..."
+        aria-label="Search Projects"
         autocomplete="off"
         data-algolia-search-input="true"
       />

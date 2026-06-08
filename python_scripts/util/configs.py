@@ -50,6 +50,7 @@ PROJECTS_IDX_SETTINGS = {
     "attributesToRetrieve": [
         "objectID",
         "title",
+        "url",
         "description",
         "category_title",
         "category_code",
@@ -60,9 +61,6 @@ PROJECTS_IDX_SETTINGS = {
         "thumbnail_url",
         "tags",
         "team",
-        "supervisors",
-        "team_names",
-        "supervisor_names",
         "result_url",
     ],
     "disableTypoToleranceOnAttributes": ["objectID", "category_code"],

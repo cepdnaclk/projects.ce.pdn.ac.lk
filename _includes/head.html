@@ -6,6 +6,20 @@
 
 <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}" />
 
+<!-- Algolia Search -->
+<script>
+  window.ALGOLIA_CONFIG = {
+    appId:
+      "{{ site.env.ALGOLIA_APP_ID | default: site.algolia.application_id | default: '' | escape }}",
+    searchApiKey:
+      "{{ site.env.ALGOLIA_SEARCH_API_KEY | default: site.algolia.search_api_key | default: '' | escape }}",
+  };
+</script>
+
+{% if site.ga_tracking != nil -%}
+  {%- include analytics.html -%}
+{% endif -%}
+
 <!-- Stylesheets -->
 <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" />
 <link

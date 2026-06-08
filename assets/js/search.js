@@ -1,92 +1,49 @@
----
-permalink: /assets/js/search.js
----
-
-(function (window, document) {
+(function ($, algoliasearch, bootstrap) {
   "use strict";
 
-  document.addEventListener("DOMContentLoaded", function () {
-    var config = window.ALGOLIA_CONFIG || {};
-    var placeholderRegex = /PLACEHOLDER/i;
-    var hasValidConfig =
-      config.appId &&
-      config.searchApiKey &&
-      config.indexName &&
-      !placeholderRegex.test(config.appId) &&
-      !placeholderRegex.test(config.searchApiKey) &&
-      !placeholderRegex.test(config.indexName);
+  var config = window.ALGOLIA_CONFIG || {};
+  var placeholderRegex = /PLACEHOLDER/i;
+  var hasValidConfig =
+    config.appId &&
+    config.searchApiKey &&
+    !placeholderRegex.test(config.appId) &&
+    !placeholderRegex.test(config.searchApiKey);
 
-    var selectors = {
-      form: "[data-algolia-search-form]",
-      input: "[data-algolia-search-input]",
-      help: "[data-algolia-search-help]",
-    };
+  var SELECTORS = {
+    form: "[data-algolia-search-form]",
+    input: "[data-algolia-search-input]",
+    clear: "[data-algolia-search-clear]",
+    help: "[data-algolia-search-help]",
+  };
 
-    var resultsElement = document.getElementById("algolia-search-results");
-    var statusElement = document.getElementById("algolia-search-status");
-    var loaderElement = document.getElementById("algolia-search-loader");
-    var countElement = document.getElementById("algolia-search-count");
-    var paginationWrapper = document.getElementById("algolia-search-pagination");
-    var paginationList = paginationWrapper ? paginationWrapper.querySelector("ul") : null;
-    var modalElement = document.getElementById("algoliaSearchModal");
-    var queryParam = new URLSearchParams(window.location.search).get("query");
-    var hitsPerPage = 8;
-    var allHits = [];
-    var currentPage = 0;
-    var currentQuery = "";
-
-    function getForms() {
-      return Array.prototype.slice.call(document.querySelectorAll(selectors.form));
-    }
-
-    function getInputs() {
-      return Array.prototype.slice.call(document.querySelectorAll(selectors.input));
-    }
-
-    function getHelpers() {
-      return Array.prototype.slice.call(document.querySelectorAll(selectors.help));
-    }
-
-  function setHelpers(message, isError) {
-    getHelpers().forEach(function (element) {
-      element.classList.remove("d-none");
-      element.classList.toggle("text-danger", Boolean(isError));
-      element.textContent = message;
-    });
+  function getForms() {
+    return $(SELECTORS.form);
   }
 
-  function clearHelpers() {
-    getHelpers().forEach(function (element) {
-      element.classList.add("d-none");
-      element.classList.remove("text-danger");
-      element.textContent = "";
-    });
+  function getInputs() {
+    return $(SELECTORS.input);
   }
 
-  function setQueryForAllInputs(query) {
-    getInputs().forEach(function (input) {
-      input.value = query;
-    });
+  function getClearButtons() {
+    return $(SELECTORS.clear);
   }
 
-  function setLoading(isLoading) {
-    if (!loaderElement) {
-      return;
-    }
-
-    loaderElement.classList.toggle("d-none", !isLoading);
-    if (isLoading && resultsElement) {
-      resultsElement.innerHTML = "";
-    }
+  function getHelpers() {
+    return $(SELECTORS.help);
   }
 
-  function updateStatus(message, isError) {
-    if (!statusElement) {
-      return;
-    }
+  var $results = $("#algolia-search-results");
+  var $status = $("#algolia-search-status");
+  var $count = $("#algolia-search-count");
+  var $loader = $("#algolia-search-loader");
+  var $paginationWrapper = $("#algolia-search-pagination");
+  var $paginationList = $paginationWrapper.find("ul");
+  var modalElement = document.getElementById("algoliaSearchModal");
+  var searchModal =
+    modalElement && bootstrap && bootstrap.Modal ? new bootstrap.Modal(modalElement) : null;
 
-    statusElement.classList.toggle("text-danger", Boolean(isError));
-    statusElement.textContent = message;
+  function trimText(value, maxLength) {
+    return value.length > maxLength ? `${value.substring(0, maxLength)}...` : value;
   }
 
   function escapeHtml(value) {
@@ -98,283 +55,326 @@ permalink: /assets/js/search.js
       .replace(/'/g, "&#39;");
   }
 
-  function validUrl(value) {
-    if (!value || value === "#") {
-      return "";
+  const TEXT_TRIM_LEN = 48;
+  const HITS_PER_PAGE = 8;
+  var allHits = [];
+  var currentPage = 0;
+  var currentQuery = "";
+  var client =
+    hasValidConfig && algoliasearch ? algoliasearch(config.appId, config.searchApiKey) : null;
+
+  function disableSearch(reason) {
+    var $helpers = getHelpers();
+    if ($helpers.length) {
+      $helpers.text(reason).removeClass("d-none");
     }
-    return value;
+    getForms().addClass("disabled");
+    getInputs().prop("disabled", true);
+    getClearButtons().addClass("d-none");
   }
 
-  function chooseDescription(hit) {
-    var snippet =
-      hit._snippetResult &&
-      hit._snippetResult.description &&
-      hit._snippetResult.description.value;
-    return snippet || escapeHtml(hit.description || "No description available.");
+  function findClearButtonForInput($input) {
+    return $input.closest("form").find(SELECTORS.clear).first();
   }
 
-  function resultBadge(text, className) {
-    return '<span class="badge ' + className + '">' + escapeHtml(text) + "</span>";
+  function toggleClearButtonForInput($input) {
+    var hasValue = Boolean(($input.val() || "").trim());
+    var $clearButton = findClearButtonForInput($input);
+    if ($clearButton.length) {
+      $clearButton.toggleClass("d-none", !hasValue);
+    }
   }
 
-  function buildBadges(hit) {
-    var badges = [];
-    if (hit.category_title) {
-      badges.push(resultBadge(hit.category_title, "badge-primary"));
-    }
-    if (hit.category_code) {
-      badges.push(resultBadge(hit.category_code.toUpperCase(), "badge-dark"));
-    }
-
-    (hit.tags || []).slice(0, 4).forEach(function (tag) {
-      badges.push(resultBadge(tag, "badge-secondary"));
+  function refreshClearButtons() {
+    getInputs().each(function () {
+      toggleClearButtonForInput($(this));
     });
-
-    return badges.length
-      ? '<div class="algolia-result-badges mb-2">' + badges.join("") + "</div>"
-      : "";
   }
 
-  function buildPeopleSummary(label, people) {
-    if (!people || !people.length) {
-      return "";
+  function setQueryForAllInputs(query) {
+    getInputs().val(query);
+    refreshClearButtons();
+  }
+
+  function setLoading(isLoading) {
+    if (isLoading) {
+      $loader.removeClass("d-none");
+      $results.empty();
+      $paginationWrapper.addClass("d-none");
+      $count.text("");
+    } else {
+      $loader.addClass("d-none");
     }
-    return (
-      '<p class="small text-muted mb-2"><strong>' +
-      escapeHtml(label) +
-      ":</strong> " +
-      escapeHtml(people.slice(0, 4).join(", ")) +
-      "</p>"
-    );
   }
 
-  function buildActionButtons(hit) {
-    var actions = [];
-    var actionMap = [
-      { label: "Project", url: validUrl(hit.project_url), className: "btn-primary" },
-      { label: "Page", url: validUrl(hit.page_url), className: "btn-outline-primary" },
-      { label: "Repository", url: validUrl(hit.repo_url), className: "btn-outline-secondary" },
-      { label: "API", url: validUrl(hit.api_url), className: "btn-outline-dark" },
-    ];
-
-    actionMap.forEach(function (action) {
-      if (!action.url) {
-        return;
-      }
-      actions.push(
-        '<a class="btn btn-sm ' +
-          action.className +
-          '" href="' +
-          escapeHtml(action.url) +
-          '">' +
-          escapeHtml(action.label) +
-          "</a>"
-      );
-    });
-
-    return actions.length
-      ? '<div class="algolia-result-actions mt-3">' + actions.join("") + "</div>"
-      : "";
+  function updateStatus(message, isError) {
+    if (!$status.length) {
+      return;
+    }
+    $status.toggleClass("text-danger", Boolean(isError));
+    $status.text(message);
   }
 
   function buildHitHtml(hit) {
-    var title =
-      (hit._highlightResult && hit._highlightResult.title && hit._highlightResult.title.value) ||
-      escapeHtml(hit.title || "Untitled project");
-    var resultUrl =
-      validUrl(hit.result_url || hit.project_url || hit.page_url || hit.repo_url || hit.api_url) ||
-      "#";
-    var image = validUrl(hit.thumbnail_url) || "{{ '/assets/images/crest.png' | relative_url }}";
+    console.log(">> hit", hit)
 
-    return (
-      '<div class="list-group-item">' +
-      '<div class="d-flex algolia-result-card">' +
-      '<img class="algolia-result-thumb" src="' +
-      escapeHtml(image) +
-      '" alt="' +
-      escapeHtml(hit.title || "Project result") +
-      '">' +
-      '<div class="flex-grow-1">' +
-      '<a class="text-decoration-none" href="' +
-      escapeHtml(resultUrl) +
-      '"><h5 class="mb-2">' +
-      title +
-      "</h5></a>" +
-      buildBadges(hit) +
-      '<p class="mb-2">' +
-      chooseDescription(hit) +
-      "</p>" +
-      buildPeopleSummary("Team", hit.team_names || []) +
-      buildPeopleSummary("Supervisors", hit.supervisor_names || []) +
-      buildActionButtons(hit) +
-      "</div></div></div>"
-    );
+    const url = hit.project_url
+
+    var highlight = hit._highlightResult || {};
+    const title = highlight.title?.value || hit.title
+    const subtitle = `<span class="badge rounded-pill ms-1 bg-success text-truncate small">${hit.category_title || ""}</span>`
+    const description = highlight.description?.value || hit.description || "";
+
+    let tagsString = '';
+    if (hit.tags){
+        tagsString += hit.tags.map(tag => {
+          return `<span class="badge rounded-pill ms-1 bg-info">${tag}</span>`
+        }).join("")
+      }
+
+    return `
+      <a class="list-group-item list-group-item-action theme-bg-light" href="${escapeHtml(url)}">
+      <h6 class="mb-1">${title} ${subtitle}</h6>
+      <p class="small text-truncate">${description}</p>
+      ${tagsString}
+      </a>
+    `;
   }
 
-  function renderPagination(totalResults, pageIndex) {
-    if (!paginationWrapper || !paginationList) {
+  function renderPage(pageIndex) {
+    currentPage = pageIndex;
+    var start = pageIndex * HITS_PER_PAGE;
+    var end = start + HITS_PER_PAGE;
+    var pageHits = allHits.slice(start, end);
+    $results.html(pageHits.map(buildHitHtml).join(""));
+
+    var totalResults = allHits.length;
+    if (totalResults === 0) {
+      updateStatus("No results found");
+      $paginationWrapper.addClass("d-none");
+      $count.text("");
       return;
     }
 
-    var totalPages = Math.ceil(totalResults / hitsPerPage);
+    updateStatus(
+      "Showing " + pageHits.length + " of " + totalResults + ' results for "' + currentQuery + '".'
+    );
+    $count.text("Page " + (pageIndex + 1) + " of " + Math.ceil(totalResults / HITS_PER_PAGE));
+
+    renderPagination(totalResults, pageIndex);
+  }
+
+  function renderPagination(totalResults, pageIndex) {
+    var totalPages = Math.ceil(totalResults / HITS_PER_PAGE);
     if (totalPages <= 1) {
-      paginationWrapper.classList.add("d-none");
-      paginationList.innerHTML = "";
+      $paginationWrapper.addClass("d-none");
+      $paginationList.empty();
       return;
     }
 
     var items = [];
 
-    function addButton(label, page, disabled, active) {
-      var classNames = ["page-item"];
+    function addPageButton(label, page, disabled, active) {
+      var classes = ["page-item"];
       if (disabled) {
-        classNames.push("disabled");
+        classes.push("disabled");
       }
       if (active) {
-        classNames.push("active");
+        classes.push("active");
       }
-      items.push(
-        '<li class="' +
-          classNames.join(" ") +
-          '"><button class="page-link" type="button" data-page="' +
-          page +
-          '">' +
-          label +
-          "</button></li>"
-      );
+      items.push(`
+        <li class="${classes.join(" ")}">
+          <button class="page-link" type="button" data-page="${page}">${label}</button>
+        </li>
+      `);
     }
 
-    addButton("Prev", Math.max(pageIndex - 1, 0), pageIndex === 0, false);
-    for (var index = 0; index < totalPages; index += 1) {
-      addButton(String(index + 1), index, false, index === pageIndex);
-    }
-    addButton("Next", Math.min(pageIndex + 1, totalPages - 1), pageIndex === totalPages - 1, false);
-
-    paginationList.innerHTML = items.join("");
-    paginationWrapper.classList.remove("d-none");
-  }
-
-  function renderPage(pageIndex) {
-    if (!resultsElement) {
-      return;
+    function addEllipsis() {
+      items.push('<li class="page-item disabled"><span class="page-link">...</span></li>');
     }
 
-    currentPage = pageIndex;
-    var start = pageIndex * hitsPerPage;
-    var pageHits = allHits.slice(start, start + hitsPerPage);
-    resultsElement.innerHTML = pageHits.map(buildHitHtml).join("");
+    addPageButton("Prev", Math.max(pageIndex - 1, 0), pageIndex === 0, false);
 
-    if (!pageHits.length) {
-      updateStatus('No results found for "' + currentQuery + '".');
-      if (countElement) {
-        countElement.textContent = "";
+    var totalVisible = 5;
+    var start = Math.max(pageIndex - 2, 0);
+    var end = Math.min(start + totalVisible - 1, totalPages - 1);
+    if (end - start + 1 < totalVisible) {
+      start = Math.max(end - totalVisible + 1, 0);
+    }
+
+    if (start > 0) {
+      addPageButton(1, 0, false, pageIndex === 0);
+      if (start > 1) {
+        addEllipsis();
       }
-      if (paginationWrapper) {
-        paginationWrapper.classList.add("d-none");
-      }
-      return;
     }
 
-    updateStatus(
-      'Showing ' +
-        pageHits.length +
-        " of " +
-        allHits.length +
-        ' results for "' +
-        currentQuery +
-        '".'
+    for (var i = start; i <= end; i += 1) {
+      addPageButton(i + 1, i, false, i === pageIndex);
+    }
+
+    if (end < totalPages - 1) {
+      if (end < totalPages - 2) {
+        addEllipsis();
+      }
+      addPageButton(totalPages, totalPages - 1, false, pageIndex === totalPages - 1);
+    }
+
+    addPageButton(
+      "Next",
+      Math.min(pageIndex + 1, totalPages - 1),
+      pageIndex === totalPages - 1,
+      false
     );
-    if (countElement) {
-      countElement.textContent =
-        "Page " + (pageIndex + 1) + " of " + Math.ceil(allHits.length / hitsPerPage);
-    }
-    renderPagination(allHits.length, pageIndex);
+
+    $paginationList.html(items.join(""));
+    $paginationWrapper.removeClass("d-none");
   }
 
-  function showModal() {
-    if (window.jQuery && modalElement) {
-      window.jQuery(modalElement).modal("show");
+  function handlePaginationClick(event) {
+    var target = $(event.target);
+    var page = parseInt(target.data("page"), 10);
+    if (Number.isNaN(page)) {
+      return;
     }
+    event.preventDefault();
+    if (page === currentPage) {
+      return;
+    }
+    renderPage(page);
   }
 
   function performSearch(query) {
-    if (!hasValidConfig || !window.algoliasearch) {
+    if (!hasValidConfig || !client) {
       return;
     }
-
-    var client = window.algoliasearch(config.appId, config.searchApiKey);
-    var index = client.initIndex(config.indexName);
     currentQuery = query;
-    clearHelpers();
     setQueryForAllInputs(query);
     setLoading(true);
     updateStatus('Searching for "' + query + '"...');
-    showModal();
+    if (searchModal) {
+      searchModal.show();
+    }
 
-    index
-      .search(query, {
-        hitsPerPage: 100,
-        attributesToSnippet: ["description:20"],
-        highlightPreTag: "<mark>",
-        highlightPostTag: "</mark>",
-      })
+    var baseParams = {
+      hitsPerPage: 100,
+      highlightPreTag: "<mark>",
+      highlightPostTag: "</mark>",
+      getRankingInfo: true,
+    };
+
+    var queries = buildSearchQueries(query, baseParams);
+    if (!queries.length) {
+      setLoading(false);
+      updateStatus("Search is not configured for this page.", true);
+      return;
+    }
+
+    client
+      .search(queries)
       .then(function (response) {
-        allHits = Array.isArray(response.hits) ? response.hits : [];
+        var combined = [];
+        if (response && response.results) {
+          response.results.forEach(function (result) {
+            var hits = Array.isArray(result.hits) ? result.hits : [];
+            // Ensure unique hits by 'pageId'
+            if (!combined._seenTargets) {
+              combined._seenTargets = new Set();
+            }
+
+            hits.forEach(function (hit) {
+              var pageId = hit.url;
+              if (pageId && combined._seenTargets.has(pageId)) {
+                return; // Skip duplicate
+              }
+
+              if (pageId) {
+                combined._seenTargets.add(pageId);
+              }
+
+              hit.__indexName = result.index;
+              combined.push(hit);
+            });
+          });
+        }
+        allHits = combined;
+
         setLoading(false);
+        if (!allHits.length) {
+          $results.empty();
+          updateStatus('No results found for "' + query + '".');
+          $count.text("");
+          $paginationWrapper.addClass("d-none");
+          return;
+        }
         renderPage(0);
       })
       .catch(function (error) {
         setLoading(false);
         updateStatus("Search failed. Please try again later.", true);
-        if (window.console) {
-          console.error("Algolia search error", error);
-        }
+        console.error("Algolia search error", error);
       });
   }
 
-    if (!getForms().length) {
-      return;
-    }
+  if (!hasValidConfig) {
+    disableSearch("Search is currently unavailable. Configure Algolia credentials to enable it.");
+    return;
+  }
 
-    if (!hasValidConfig) {
-      setHelpers(
-        "Search is currently unavailable. Configure ALGOLIA_APP_ID and ALGOLIA_SEARCH_API_KEY to enable it.",
-        true
-      );
-      return;
-    }
+  if (!getForms().length || !algoliasearch || !bootstrap) {
+    return;
+  }
 
-    getForms().forEach(function (form) {
-      form.addEventListener("submit", function (event) {
-        event.preventDefault();
-        var input = form.querySelector(selectors.input);
-        var query = input ? input.value.trim() : "";
-        if (!query) {
-          updateStatus("Enter a search term to begin.");
-          return;
-        }
-        performSearch(query);
-      });
-    });
+  function buildSearchQueries(query, params) {
+    var queries = [];
+    queries.push({ indexName: "project_index", query: query, params: params });
 
-    if (paginationList) {
-      paginationList.addEventListener("click", function (event) {
-        var button = event.target.closest("button[data-page]");
-        if (!button) {
-          return;
-        }
+    return queries;
+  }
 
-        var page = Number(button.getAttribute("data-page"));
-        if (Number.isNaN(page) || page === currentPage) {
-          return;
-        }
-        renderPage(page);
-      });
-    }
-
-    if (queryParam) {
-      setQueryForAllInputs(queryParam);
-      performSearch(queryParam);
-    }
+  $(document).on("input", SELECTORS.input, function () {
+    toggleClearButtonForInput($(this));
   });
-})(window, document);
+
+  $(document).on("click", SELECTORS.clear, function (event) {
+    event.preventDefault();
+    var $button = $(this);
+    var $form = $button.closest("form");
+    var $input = $form.find(SELECTORS.input).first();
+    $input.val("");
+    toggleClearButtonForInput($input);
+    $input.trigger("focus");
+  });
+
+  $(document).on("submit", SELECTORS.form, function (event) {
+    event.preventDefault();
+    var $form = $(this);
+    var $input = $form.find(SELECTORS.input).first();
+    var query = ($input.val() || "").trim();
+    if (!query) {
+      updateStatus("Enter a search term to begin.");
+      return;
+    }
+    performSearch(query);
+  });
+
+  $paginationWrapper.on("click", "button.page-link", handlePaginationClick);
+
+  if (modalElement) {
+    modalElement.addEventListener("shown.bs.modal", function (event) {
+      if (event.target === modalElement) {
+        var $modalInput = $(modalElement).find(SELECTORS.input).first();
+        if ($modalInput.length) {
+          $modalInput.trigger("focus");
+        } else {
+          var $firstInput = getInputs().first();
+          if ($firstInput.length) {
+            $firstInput.trigger("focus");
+          }
+        }
+      }
+    });
+  }
+
+  refreshClearButtons();
+})(window.jQuery, window.algoliasearch, window.bootstrap);
