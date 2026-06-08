@@ -81,8 +81,8 @@ search_exclude: true
     <hr />
     <div>
       <div class="row text-center my-2">
-        {%- if page.has_children == true and page.has_toc != false -%}
-          {%- assign children_list = site.html_pages | where: "parent", page.title | where: "type", "GENERAL" | sort: "code" -%}
+        {%- if page.has_children == true and page.has_toc != false -%} {%- assign children_list =
+        site.html_pages | where: "parent", page.title | where: "type", "GENERAL" | sort: "code" -%}
 
         <div class="container p-0 mw-100">
           <div class="row">
