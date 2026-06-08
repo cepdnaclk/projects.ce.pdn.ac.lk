@@ -9,6 +9,16 @@ node_modules
 .jekyll-metadata
 .idea
 docs/uncategorized/*
-python_scripts/__cache/
-python_scripts/__pycache__/
 .DS_Store
+
+# Python temporary files
+*$py.class
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+python_scripts/__cache__/

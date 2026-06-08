@@ -1,7 +1,7 @@
 {% if page.page_title -%}
-<title>{{ page.page_title }}</title>
+  <title>{{ page.page_title }}</title>
 {% else -%}
-<title>{{ page.title }}</title>
+  <title>{{ page.title }}</title>
 {% endif -%}
 
 <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}" />
@@ -18,7 +18,7 @@
 <link href="{{ '/assets/css/index.css' | relative_url }}" rel="stylesheet" />
 
 {% if page.title == "Home" %}
-<link href="{{ '/assets/css/home.css' | prepend: site.baseurl }}" rel="stylesheet" />
+  <link href="{{ '/assets/css/home.css' | prepend: site.baseurl }}" rel="stylesheet" />
 {%- endif -%}
 
 <!-- Load brand icons -->

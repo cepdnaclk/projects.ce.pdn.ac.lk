@@ -10,7 +10,9 @@ _layouts/vendor/**
 
 # Ignored files as Jekyll is includes
 _layouts/table_wrappers.html
-_includes/vendor/
+_layouts/project_batch.html
+_layouts/project_cat.html
+_includes/
 api/**
 assets/js/search-data.json
 assets/js/search.js
