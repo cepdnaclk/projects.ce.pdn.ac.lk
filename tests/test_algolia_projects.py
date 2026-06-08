@@ -1,8 +1,7 @@
 import unittest
 
-from python_scripts.util.algolia_projects import (
+from python_scripts.util.helpers import (
     build_project_record,
-    diff_records,
     sanitize_url,
     transform_projects_payload,
 )
@@ -67,21 +66,6 @@ class TestAlgoliaProjects(unittest.TestCase):
 
         self.assertEqual(len(records), 1)
         self.assertEqual(len(errors), 2)
-
-    def test_diff_records_returns_upserts_and_deletes(self) -> None:
-        existing = [
-            {"objectID": "same", "title": "Same"},
-            {"objectID": "old", "title": "Old"},
-        ]
-        target = [
-            {"objectID": "same", "title": "Same"},
-            {"objectID": "new", "title": "New"},
-        ]
-
-        to_upsert, to_delete = diff_records(existing, target)
-        self.assertEqual([record["objectID"] for record in to_upsert], ["new"])
-        self.assertEqual(to_delete, ["old"])
-
 
 if __name__ == "__main__":
     unittest.main()
