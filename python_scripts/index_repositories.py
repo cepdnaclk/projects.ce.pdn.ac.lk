@@ -8,7 +8,6 @@ AUTHORS:
     Akila Karunanayake
 """
 
-import json
 import os
 
 import requests
@@ -17,6 +16,7 @@ from notifications import Notifications
 from util.helpers import (
     delete_category_index,
     delete_project_index,
+    download_repository_data,
     get_custom_media,
     load_category_data,
 )
@@ -44,13 +44,13 @@ delete_category_index()
 delete_project_index()
 
 # -----------------------------------------------------------------------------------
-# # Download the repository data
-# try:
-#     repo_dict = download_repository_data()
-# except requests.RequestException:
-#     ERROR_MSG = "An exception occurred while getting data from GitHub: "
-#     print(">> Error:", ERROR_MSG)
-#     notify.warning(ERROR_MSG)
+# Download the repository data
+try:
+    repo_dict = download_repository_data()
+except requests.RequestException:
+    ERROR_MSG = "An exception occurred while getting data from GitHub: "
+    print(">> Error:", ERROR_MSG)
+    notify.warning(ERROR_MSG)
 
 # # -----------------------------------------------------------------------------------
 # # Write the repository data to a local source
@@ -61,8 +61,8 @@ delete_project_index()
 
 # -----------------------------------------------------------------------------------
 # Read the repository data from a local source
-with open("./__cache__/repos.json", "r") as f:
-    repo_dict = json.load(f)
+# with open("./__cache__/repos.json", "r") as f:
+#     repo_dict = json.load(f)
 
 
 # -----------------------------------------------------------------------------------
