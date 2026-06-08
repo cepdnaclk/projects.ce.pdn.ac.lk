@@ -13,8 +13,8 @@ thumbnail_url: /data/categories/co225/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co225-student-results-management-system-webapp
 page_url: https://cepdnaclk.github.io/e19-co225-student-results-management-system-webapp
 forks: 0
-watchers: 4
-stars: 4
+watchers: 3
+stars: 3
 started_on: "2023-05-26T04:10:11Z"
 ---
 
