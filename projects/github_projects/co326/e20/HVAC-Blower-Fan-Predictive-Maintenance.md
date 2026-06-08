@@ -11,7 +11,7 @@ grand_parent: Industrial Automation Projects (CO326)
 cover_url: /data/categories/co326/cover_page.jpg
 thumbnail_url: /data/categories/co326/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co326-HVAC-Blower-Fan-Predictive-Maintenance
-page_url: blank
+page_url: null
 forks: 0
 watchers: 1
 stars: 1

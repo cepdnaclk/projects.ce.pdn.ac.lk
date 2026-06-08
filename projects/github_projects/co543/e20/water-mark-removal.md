@@ -9,7 +9,7 @@ grand_parent: Image Processing Projects (CO543)
 cover_url: /data/categories/co543/cover_page.jpg
 thumbnail_url: /data/categories/co543/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co543-water-mark-removal
-page_url: blank
+page_url: null
 forks: 0
 watchers: 0
 stars: 0

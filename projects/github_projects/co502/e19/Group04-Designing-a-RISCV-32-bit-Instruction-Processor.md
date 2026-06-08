@@ -10,7 +10,7 @@ grand_parent: Advanced Computer Architecture (CO502)
 cover_url: /data/categories/co502/cover_page.jpg
 thumbnail_url: /data/categories/co502/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-CO502-Group04-Designing-a-RISCV-32-bit-Instruction-Processor
-page_url: blank
+page_url: null
 forks: 2
 watchers: 1
 stars: 1

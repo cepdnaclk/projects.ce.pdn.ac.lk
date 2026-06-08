@@ -10,7 +10,7 @@ grand_parent: Image Processing Projects (CO543)
 cover_url: /data/categories/co543/cover_page.jpg
 thumbnail_url: /data/categories/co543/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e15-co543-Swarm-Robot-Monitoring-System-group-C
-page_url: blank
+page_url: null
 forks: 0
 watchers: 0
 stars: 0

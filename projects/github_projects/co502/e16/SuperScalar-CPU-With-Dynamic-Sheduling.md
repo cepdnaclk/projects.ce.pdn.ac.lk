@@ -10,7 +10,7 @@ grand_parent: Advanced Computer Architecture (CO502)
 cover_url: /data/categories/co502/cover_page.jpg
 thumbnail_url: /data/categories/co502/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-Co502-SuperScalar-CPU-With-Dynamic-Sheduling
-page_url: blank
+page_url: null
 forks: 8
 watchers: 1
 stars: 1

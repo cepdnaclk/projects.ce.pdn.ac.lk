@@ -9,7 +9,7 @@ grand_parent: Applied Software Architecture Projects (CO528)
 cover_url: /data/categories/co528/cover_page.jpg
 thumbnail_url: /data/categories/co528/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co528-MarkdownPreviewer
-page_url: blank
+page_url: null
 forks: 1
 watchers: 0
 stars: 0

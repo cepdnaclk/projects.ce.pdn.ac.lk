@@ -9,7 +9,7 @@ grand_parent: Industrial Automation Projects (CO326)
 cover_url: /data/categories/co326/cover_page.jpg
 thumbnail_url: /data/categories/co326/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-co326-Agriculture-Monitoring-and-Control-System
-page_url: blank
+page_url: null
 forks: 28
 watchers: 1
 stars: 1

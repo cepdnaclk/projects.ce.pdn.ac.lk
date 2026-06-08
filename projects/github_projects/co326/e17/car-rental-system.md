@@ -9,7 +9,7 @@ grand_parent: Industrial Automation Projects (CO326)
 cover_url: /data/categories/co326/cover_page.jpg
 thumbnail_url: /data/categories/co326/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-co326-car-rental-system
-page_url: blank
+page_url: null
 forks: 1
 watchers: 0
 stars: 0
