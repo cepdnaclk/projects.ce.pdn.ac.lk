@@ -14,8 +14,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e21-3yp-RAID
 page_url: https://cepdnaclk.github.io/e21-3yp-RAID
 forks: 3
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: "2026-01-25T18:51:50Z"
 ---
 
