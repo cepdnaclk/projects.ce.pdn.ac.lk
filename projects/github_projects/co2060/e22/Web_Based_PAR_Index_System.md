@@ -9,7 +9,7 @@ description: The Peer Assessment Rating (PAR) Index quantifies malocclusion seve
 has_children: false
 parent: E22 Software Systems Design Project (CO2060)
 grand_parent: Software Systems Design Project (CO2060)
-cover_url: https://cepdnaclk.github.io/e22-co2060-Web_Based_PAR_Index_System/data/cover_page.jpg
+cover_url: /data/categories/co2060/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/e22-co2060-Web_Based_PAR_Index_System/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-co2060-Web_Based_PAR_Index_System
 page_url: https://cepdnaclk.github.io/e22-co2060-Web_Based_PAR_Index_System
