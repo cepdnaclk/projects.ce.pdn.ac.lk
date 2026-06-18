@@ -12,7 +12,7 @@ grand_parent: Cyber-Physical Systems Projects
 cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e21-3yp-AURA
-page_url: null
+page_url: https://cepdnaclk.github.io/e21-3yp-AURA
 forks: 5
 watchers: 1
 stars: 1
