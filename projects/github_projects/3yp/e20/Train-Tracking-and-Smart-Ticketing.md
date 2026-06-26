@@ -6,7 +6,7 @@ description: ""
 has_children: false
 parent: E20 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
-cover_url: /data/categories/3yp/cover_page.jpg
+cover_url: https://cepdnaclk.github.io/e20-3yp-Train-Tracking-and-Smart-Ticketing/data/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/e20-3yp-Train-Tracking-and-Smart-Ticketing/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-3yp-Train-Tracking-and-Smart-Ticketing
 page_url: https://cepdnaclk.github.io/e20-3yp-Train-Tracking-and-Smart-Ticketing
