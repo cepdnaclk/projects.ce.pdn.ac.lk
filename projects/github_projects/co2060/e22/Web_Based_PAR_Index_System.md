@@ -13,7 +13,7 @@ cover_url: /data/categories/co2060/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/e22-co2060-Web_Based_PAR_Index_System/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-co2060-Web_Based_PAR_Index_System
 page_url: https://cepdnaclk.github.io/e22-co2060-Web_Based_PAR_Index_System
-forks: 2
+forks: 1
 watchers: 1
 stars: 1
 started_on: "2026-02-06T09:20:49Z"
