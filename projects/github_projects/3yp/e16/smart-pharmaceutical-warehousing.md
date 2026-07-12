@@ -16,8 +16,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing
 page_url: https://cepdnaclk.github.io/e16-3yp-smart-pharmaceutical-warehousing
 forks: 8
-watchers: 18
-stars: 18
+watchers: 19
+stars: 19
 started_on: "2020-10-18T04:16:45Z"
 ---
 
