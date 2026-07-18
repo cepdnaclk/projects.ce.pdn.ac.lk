@@ -8,8 +8,8 @@ description: "A ML-powered software solution developed to address societal needs
 has_children: false
 parent: E22 Software Systems Design Project (CO2060)
 grand_parent: Software Systems Design Project (CO2060)
-cover_url: https://cepdnaclk.github.io/e22-co2060-PERA-SAM/data/cover_page.jpg
-thumbnail_url: https://cepdnaclk.github.io/e22-co2060-PERA-SAM/data/thumbnail.jpg
+cover_url: /data/categories/co2060/cover_page.jpg
+thumbnail_url: /data/categories/co2060/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-co2060-PERA-SAM
 page_url: https://cepdnaclk.github.io/e22-co2060-PERA-SAM
 forks: 3
