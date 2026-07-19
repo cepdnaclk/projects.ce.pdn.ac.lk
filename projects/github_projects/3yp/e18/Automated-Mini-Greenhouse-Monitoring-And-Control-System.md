@@ -11,8 +11,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-3yp-Automated-Mini-Greenhouse-Monitoring-And-Control-System
 page_url: https://cepdnaclk.github.io/e18-3yp-Automated-Mini-Greenhouse-Monitoring-And-Control-System
 forks: 3
-watchers: 3
-stars: 3
+watchers: 4
+stars: 4
 started_on: "2022-10-31T08:08:01Z"
 ---
 
