@@ -31,18 +31,24 @@
 
     gtag('config', '{{ site.ga_tracking }}'{% unless site.ga_tracking_anonymize_ip == nil %}, { 'anonymize_ip': true }{% endunless %});
   </script>
-  {% endif %} {% if site.search_enabled != false %}
-  <script
-    type="text/javascript"
-    src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"
-  ></script>
   {% endif %}
 
   <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.24.0/dist/algoliasearch-lite.umd.js"></script>
+  <script>
+    window.ALGOLIA_CONFIG = {
+      appId:
+        "{{ site.env.ALGOLIA_APP_ID | default: site.algolia.application_id | default: '' | escape }}",
+      searchApiKey:
+        "{{ site.env.ALGOLIA_SEARCH_API_KEY | default: site.algolia.search_api_key | default: '' | escape }}",
+      indexName: "project_index",
+    };
+  </script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script
     src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     crossorigin="anonymous"
   ></script>
+  <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
 </head>
