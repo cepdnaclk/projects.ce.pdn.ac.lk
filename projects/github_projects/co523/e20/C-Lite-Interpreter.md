@@ -12,9 +12,9 @@ cover_url: https://cepdnaclk.github.io/e20-co523-C-Lite-Interpreter/data/cover_p
 thumbnail_url: https://cepdnaclk.github.io/e20-co523-C-Lite-Interpreter/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co523-C-Lite-Interpreter
 page_url: https://cepdnaclk.github.io/e20-co523-C-Lite-Interpreter
-forks: 0
-watchers: 0
-stars: 0
+forks: 1
+watchers: 1
+stars: 1
 started_on: "2026-03-19T18:25:46Z"
 ---
 
