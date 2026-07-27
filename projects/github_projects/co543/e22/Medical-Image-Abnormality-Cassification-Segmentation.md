@@ -1,14 +1,14 @@
 ---
 layout: project_page
-title: medical image abnormality classification segmentation
-permalink: /co543/e22/medical-image-abnormality-classification-segmentation/
+title: Medical Image Abnormality Cassification Segmentation
+permalink: /co543/e22/Medical-Image-Abnormality-Cassification-Segmentation/
 description: ""
 has_children: false
 parent: E22 Image Processing Projects (CO543)
 grand_parent: Image Processing Projects (CO543)
 cover_url: /data/categories/co543/cover_page.jpg
 thumbnail_url: /data/categories/co543/thumbnail.jpg
-repo_url: https://github.com/cepdnaclk/e22-co543-medical-image-abnormality-classification-segmentation
+repo_url: https://github.com/cepdnaclk/e22-co543-Medical-Image-Abnormality-Cassification-Segmentation
 page_url: null
 forks: 0
 watchers: 0
