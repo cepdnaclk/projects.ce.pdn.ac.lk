@@ -9,7 +9,7 @@ grand_parent: Database Projects (CO226)
 cover_url: /data/categories/co226/cover_page.jpg
 thumbnail_url: /data/categories/co226/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-co226-Forensa-Fronsic-Database-Management-System
-page_url: null
+page_url: https://cepdnaclk.github.io/e22-co226-Forensa-Fronsic-Database-Management-System
 forks: 0
 watchers: 0
 stars: 0
