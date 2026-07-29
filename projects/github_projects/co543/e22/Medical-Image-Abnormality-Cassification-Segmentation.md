@@ -9,7 +9,7 @@ grand_parent: Image Processing Projects (CO543)
 cover_url: /data/categories/co543/cover_page.jpg
 thumbnail_url: /data/categories/co543/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-co543-Medical-Image-Abnormality-Cassification-Segmentation
-page_url: null
+page_url: https://cepdnaclk.github.io/e22-co543-Medical-Image-Abnormality-Cassification-Segmentation
 forks: 0
 watchers: 0
 stars: 0
