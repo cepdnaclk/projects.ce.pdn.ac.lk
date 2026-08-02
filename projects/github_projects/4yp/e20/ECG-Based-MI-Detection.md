@@ -11,8 +11,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-4yp-ECG-Based-MI-Detection
 page_url: https://cepdnaclk.github.io/e20-4yp-ECG-Based-MI-Detection
 forks: 1
-watchers: 2
-stars: 2
+watchers: 3
+stars: 3
 started_on: "2025-12-29T10:15:45Z"
 ---
 
