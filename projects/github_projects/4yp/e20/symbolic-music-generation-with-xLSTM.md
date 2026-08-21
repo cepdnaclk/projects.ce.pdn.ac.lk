@@ -7,7 +7,7 @@ has_children: false
 parent: E20 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
 cover_url: /data/categories/4yp/cover_page.jpg
-thumbnail_url: /data/categories/4yp/thumbnail.jpg
+thumbnail_url: https://cepdnaclk.github.io/e20-4yp-symbolic-music-generation-with-xLSTM/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-4yp-symbolic-music-generation-with-xLSTM
 page_url: https://cepdnaclk.github.io/e20-4yp-symbolic-music-generation-with-xLSTM
 forks: 2
