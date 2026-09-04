@@ -5,7 +5,7 @@ caption: ""
 nav_order: 3
 permalink: /peramorphiq/
 gh_page: "projects/department_projects/peramorphiq.md"
-thumb_image: "https://peramorphiq.ce.pdn.ac.lk/assets/img/title/image3.png"
+thumb_image: "/assets/images/peramorphiq-thumb.png"
 
 repositories:
   - https://github.com/PeraMorphIQ/PeraMorphIQ-SRAM-Compiler
@@ -43,27 +43,27 @@ Our work runs end to end, from simulation frameworks and algorithmic exploration
 
 Four connected threads, from the neuron model up to a deployable system-on-chip.
 
-- **Neuromorphic accelerators** &mdash; Configurable accelerator microarchitectures for spiking networks, designed for the small-scale regime where embedded and edge workloads actually sit.
-- **Spiking neural networks & on-chip learning** &mdash; Hardware-realisable learning rules and the weight-update paths that let a deployed device adapt without a round trip to a host machine.
-- **RISC-V SoC & Network-on-Chip** &mdash; Custom ISA extensions, network interfaces and 2D-mesh interconnect that turn a general-purpose open ISA into a spiking-network substrate.
-- **Edge AI hardware** &mdash; Memory organisation, power optimisation and FPGA-to-ASIC paths that bring real-time inference within the energy budget of an edge device.
+- **Neuromorphic accelerators** - Configurable accelerator microarchitectures for spiking networks, designed for the small-scale regime where embedded and edge workloads actually sit.
+- **Spiking neural networks & on-chip learning** - Hardware-realisable learning rules and the weight-update paths that let a deployed device adapt without a round trip to a host machine.
+- **RISC-V SoC & Network-on-Chip** - Custom ISA extensions, network interfaces and 2D-mesh interconnect that turn a general-purpose open ISA into a spiking-network substrate.
+- **Edge AI hardware** - Memory organisation, power optimisation and FPGA-to-ASIC paths that bring real-time inference within the energy budget of an edge device.
 
 ### Featured projects
 
-- [**SNAP-V: A RISC-V SoC with Configurable Neuromorphic Acceleration for Small-Scale Spiking Neural Networks**](https://peramorphiq.ce.pdn.ac.lk/project.html?id=snap-v-accelerator){:target="\_blank"} (E19 Final Year Project, 2024&ndash;present) &mdash; A RISC-V neuromorphic SoC with two accelerator variants, Cerebra-S (bus-based) and Cerebra-H (NoC-based), optimised for small-scale SNN inference at 1.05 pJ per synaptic operation.
-- [**On-Chip Offline Neuromorphic Computing**](https://peramorphiq.ce.pdn.ac.lk/project.html?id=on-chip-offline-learning){:target="\_blank"} (E20 Final Year Project, 2025&ndash;present) &mdash; A custom RISC-V CPU with a six-instruction ISA extension for on-chip spiking neural network backpropagation training, running without any host PC.
-- [**On-Chip Online Learning for Neuromorphic Hardware**](https://peramorphiq.ce.pdn.ac.lk/project.html?id=on-chip-online-learning){:target="\_blank"} (E20 Final Year Project, 2025&ndash;present) &mdash; Learning rules implemented directly in neuromorphic hardware, so a deployed device can adapt online without a round trip to a host machine.
-- [**PeraMorphIQ SRAM Compiler**](https://github.com/PeraMorphIQ/PeraMorphIQ-SRAM-Compiler){:target="\_blank"} (Open-source tool, 2026&ndash;present) &mdash; A streamlined, automated workflow for generating custom SRAM macros, built on the OpenRAM framework and released publicly for the open-source hardware community.
+- [**SNAP-V: A RISC-V SoC with Configurable Neuromorphic Acceleration for Small-Scale Spiking Neural Networks**](https://peramorphiq.ce.pdn.ac.lk/project.html?id=snap-v-accelerator){:target="\_blank"} (E19 Final Year Project, 2024-present) - A RISC-V neuromorphic SoC with two accelerator variants, Cerebra-S (bus-based) and Cerebra-H (NoC-based), optimised for small-scale SNN inference at 1.05 pJ per synaptic operation.
+- [**On-Chip Offline Neuromorphic Computing**](https://peramorphiq.ce.pdn.ac.lk/project.html?id=on-chip-offline-learning){:target="\_blank"} (E20 Final Year Project, 2025-present) - A custom RISC-V CPU with a six-instruction ISA extension for on-chip spiking neural network backpropagation training, running without any host PC.
+- [**On-Chip Online Learning for Neuromorphic Hardware**](https://peramorphiq.ce.pdn.ac.lk/project.html?id=on-chip-online-learning){:target="\_blank"} (E20 Final Year Project, 2025-present) - Learning rules implemented directly in neuromorphic hardware, so a deployed device can adapt online without a round trip to a host machine.
+- [**PeraMorphIQ SRAM Compiler**](https://github.com/PeraMorphIQ/PeraMorphIQ-SRAM-Compiler){:target="\_blank"} (Open-source tool, 2026-present) - A streamlined, automated workflow for generating custom SRAM macros, built on the OpenRAM framework and released publicly for the open-source hardware community.
 
 ### Selected publications
 
 - **Neuromorphic architectures for edge-oriented spiking neural networks: A review** <br />
   Kanishka Gunawardana, Sanka Peeris, Kavishka Rambukwella, Roshan Ragel, Isuru Nawinne <br />
-  _Journal of Systems Architecture_, 177, 103869 (2026) &middot; Open access (CC BY 4.0) <br />
+  _Journal of Systems Architecture_, 177, 103869 (2026) | Open access (CC BY 4.0) <br />
   doi: [10.1016/j.sysarc.2026.103869](https://doi.org/10.1016/j.sysarc.2026.103869){:target="\_blank"}
 - **SNAP-V: A RISC-V SoC with Configurable Neuromorphic Acceleration for Small-Scale Spiking Neural Networks** <br />
   Kanishka Gunawardana, Sanka Peeris, Kavishka Rambukwella, Thamish Wanduragala, Saadia Jameel, Roshan Ragel, Isuru Nawinne <br />
-  _arXiv_ preprint (2026) &middot; Open access <br />
+  _arXiv_ preprint (2026) | Open access <br />
   doi: [10.48550/arXiv.2603.11939](https://doi.org/10.48550/arXiv.2603.11939){:target="\_blank"}
 - **RV32IMF Five-Stage Pipeline Implementation with Interrupt and Random Number Generation Units** <br />
   Dinindu Thilakarathna, Heshan Dissanayake, Roshan Ragel, Isuru Dasanayake, Mahanama Wickramasinghe <br />
@@ -73,5 +73,7 @@ Four connected threads, from the neuron model up to a deployable system-on-chip.
 ### Work with us
 
 We supervise final-year and graduate projects, and we welcome collaboration with research groups and industry partners working on neuromorphic and edge AI hardware.
+
+Our code, tools and hardware releases are published through the [PeraMorphIQ GitHub organisation](https://github.com/PeraMorphIQ){:target="\_blank"}.
 
 For the details, feel free to contact [Dr. Isuru Nawinne](https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/){:target="\_blank"} and/or [Prof. Roshan Ragel](https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/){:target="\_blank"}, or write to [peramorphiq@eng.pdn.ac.lk](mailto:peramorphiq@eng.pdn.ac.lk).
