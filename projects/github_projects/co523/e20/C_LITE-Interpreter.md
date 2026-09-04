@@ -8,7 +8,7 @@ description: "A Python-based interpreter 'C-Lite' \u2014 a simplified subset of 
 has_children: false
 parent: E20 Programming Languages (CO523)
 grand_parent: Programming Languages (CO523)
-cover_url: https://cepdnaclk.github.io/e20-co523-C_LITE-Interpreter/data/cover_page.jpg
+cover_url: /data/categories/co523/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/e20-co523-C_LITE-Interpreter/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co523-C_LITE-Interpreter
 page_url: https://cepdnaclk.github.io/e20-co523-C_LITE-Interpreter
