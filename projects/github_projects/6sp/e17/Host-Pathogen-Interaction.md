@@ -13,7 +13,7 @@ cover_url: /data/categories/6sp/cover_page.jpg
 thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-6sp-Host-Pathogen-Interaction
 page_url: https://cepdnaclk.github.io/e17-6sp-Host-Pathogen-Interaction
-forks: 5
+forks: 3
 watchers: 0
 stars: 0
 started_on: "2022-02-23T13:11:14Z"

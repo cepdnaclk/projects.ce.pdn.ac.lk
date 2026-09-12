@@ -14,7 +14,7 @@ cover_url: https://cepdnaclk.github.io/e23-co2060-Maathacare/data/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/e23-co2060-Maathacare/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e23-co2060-Maathacare
 page_url: https://cepdnaclk.github.io/e23-co2060-Maathacare
-forks: 0
+forks: 2
 watchers: 0
 stars: 0
 started_on: "2026-02-07T05:48:49Z"

@@ -9,7 +9,7 @@ grand_parent: Industrial Automation Projects (CO326)
 cover_url: /data/categories/co326/cover_page.jpg
 thumbnail_url: /data/categories/co326/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co326-Electrical-System-of-a-Building
-page_url: blank
+page_url: null
 forks: 2
 watchers: 0
 stars: 0

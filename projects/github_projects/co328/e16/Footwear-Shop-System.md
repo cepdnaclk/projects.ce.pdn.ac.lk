@@ -9,7 +9,7 @@ grand_parent: Software Engineering Projects (CO328)
 cover_url: /data/categories/co328/cover_page.jpg
 thumbnail_url: /data/categories/co328/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-co328-Footwear-Shop-System
-page_url: blank
+page_url: null
 forks: 1
 watchers: 0
 stars: 0

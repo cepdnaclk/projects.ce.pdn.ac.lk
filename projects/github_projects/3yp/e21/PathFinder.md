@@ -8,8 +8,8 @@ description: An intelligent wearable navigation system that provides context-awa
 has_children: false
 parent: E21 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
-cover_url: /data/categories/3yp/cover_page.jpg
-thumbnail_url: /data/categories/3yp/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/e21-3yp-PathFinder/data/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/e21-3yp-PathFinder/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e21-3yp-PathFinder
 page_url: https://cepdnaclk.github.io/e21-3yp-PathFinder
 forks: 4

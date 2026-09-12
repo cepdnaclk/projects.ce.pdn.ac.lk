@@ -13,8 +13,8 @@ thumbnail_url: https://cepdnaclk.github.io/e22-co2060-Crop-Yield-Optimization-an
 repo_url: https://github.com/cepdnaclk/e22-co2060-Crop-Yield-Optimization-and-Intelligent-Plant-Disease-Analysis
 page_url: https://cepdnaclk.github.io/e22-co2060-Crop-Yield-Optimization-and-Intelligent-Plant-Disease-Analysis
 forks: 2
-watchers: 2
-stars: 2
+watchers: 3
+stars: 3
 started_on: "2026-02-06T18:22:01Z"
 ---
 

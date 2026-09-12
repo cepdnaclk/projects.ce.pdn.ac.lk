@@ -10,7 +10,7 @@ grand_parent: Sixth Semester Projects
 cover_url: /data/categories/6sp/cover_page.jpg
 thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-6sp-AI-generated-bug-reports-Group14
-page_url: blank
+page_url: null
 forks: 1
 watchers: 1
 stars: 1

@@ -4,8 +4,9 @@ title: SinhSafe
 permalink: /4yp/e20/SinhSafe/
 description: SinhSafe benchmarks XLM-R, SinBERT, and SinhLlama to identify the best
   model for Sinhala/Singlish cyberbullying detection. Our core contribution is a large
-  pseudo-labeled dataset with fine-grained labels (Normal, Offensive, Bullying), processed
-  via a hybrid transliteration pipeline to advance low-resource NLP safety tools.
+  pseudo-labeled dataset with fine-grained labels (Normal, Offensive, Harrassment),
+  processed via a hybrid transliteration pipeline to advance low-resource NLP safety
+  tools.
 has_children: false
 parent: E20 Undergraduate Research Projects
 grand_parent: Undergraduate Research Projects
@@ -19,4 +20,4 @@ stars: 0
 started_on: "2026-01-14T20:12:04Z"
 ---
 
-SinhSafe benchmarks XLM-R, SinBERT, and SinhLlama to identify the best model for Sinhala/Singlish cyberbullying detection. Our core contribution is a large pseudo-labeled dataset with fine-grained labels (Normal, Offensive, Bullying), processed via a hybrid transliteration pipeline to advance low-resource NLP safety tools.
+SinhSafe benchmarks XLM-R, SinBERT, and SinhLlama to identify the best model for Sinhala/Singlish cyberbullying detection. Our core contribution is a large pseudo-labeled dataset with fine-grained labels (Normal, Offensive, Harrassment), processed via a hybrid transliteration pipeline to advance low-resource NLP safety tools.

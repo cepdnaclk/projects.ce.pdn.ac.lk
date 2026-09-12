@@ -10,8 +10,8 @@ description: "Smart Motorcycle Helmet \u2013 A safety-focused helmet system that
 has_children: false
 parent: E21 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
-cover_url: /data/categories/3yp/cover_page.jpg
-thumbnail_url: /data/categories/3yp/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/e21-3yp-RoadEye/data/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/e21-3yp-RoadEye/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e21-3yp-RoadEye
 page_url: https://cepdnaclk.github.io/e21-3yp-RoadEye
 forks: 0

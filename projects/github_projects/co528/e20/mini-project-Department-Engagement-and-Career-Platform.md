@@ -9,7 +9,7 @@ grand_parent: Applied Software Architecture Projects (CO528)
 cover_url: /data/categories/co528/cover_page.jpg
 thumbnail_url: /data/categories/co528/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co528-mini-project-Department-Engagement-and-Career-Platform
-page_url: blank
+page_url: null
 forks: 0
 watchers: 0
 stars: 0

@@ -8,8 +8,8 @@ description: RouteLK is a smart bus tracking and passenger assistance system tha
 has_children: false
 parent: E21 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
-cover_url: /data/categories/3yp/cover_page.jpg
-thumbnail_url: /data/categories/3yp/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/e21-3yp-RouteLK/data/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/e21-3yp-RouteLK/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e21-3yp-RouteLK
 page_url: https://cepdnaclk.github.io/e21-3yp-RouteLK
 forks: 4

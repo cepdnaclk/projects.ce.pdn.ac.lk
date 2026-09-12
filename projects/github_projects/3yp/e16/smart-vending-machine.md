@@ -17,7 +17,7 @@ cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e16-3yp-smart-vending-machine
 page_url: https://cepdnaclk.github.io/e16-3yp-smart-vending-machine
-forks: 10
+forks: 9
 watchers: 13
 stars: 13
 started_on: "2020-10-21T10:22:20Z"

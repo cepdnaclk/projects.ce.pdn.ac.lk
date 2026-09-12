@@ -10,7 +10,7 @@ grand_parent: Sixth Semester Projects
 cover_url: /data/categories/6sp/cover_page.jpg
 thumbnail_url: /data/categories/6sp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-6sp-Automatically-categorizing-Sinhala-news-items-from-selected-news-sources-group-1
-page_url: blank
+page_url: null
 forks: 2
 watchers: 0
 stars: 0

@@ -12,7 +12,7 @@ grand_parent: Software Systems Design Project (CO2060)
 cover_url: /data/categories/co2060/cover_page.jpg
 thumbnail_url: /data/categories/co2060/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-co2060-SmartCare-Healthcare-Management-System
-page_url: blank
+page_url: null
 forks: 0
 watchers: 0
 stars: 0

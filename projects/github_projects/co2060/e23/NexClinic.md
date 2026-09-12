@@ -12,7 +12,7 @@ cover_url: https://cepdnaclk.github.io/e23-co2060-NexClinic/data/cover_page.jpg
 thumbnail_url: https://cepdnaclk.github.io/e23-co2060-NexClinic/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e23-co2060-NexClinic
 page_url: https://cepdnaclk.github.io/e23-co2060-NexClinic
-forks: 0
+forks: 1
 watchers: 1
 stars: 1
 started_on: "2026-02-07T01:58:44Z"

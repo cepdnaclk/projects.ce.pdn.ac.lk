@@ -11,7 +11,7 @@ grand_parent: Neural Networks Projects (CO542)
 cover_url: /data/categories/co542/cover_page.jpg
 thumbnail_url: /data/categories/co542/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-co542-facial-emotion-recognition-in-proctored-environment
-page_url: blank
+page_url: null
 forks: 1
 watchers: 0
 stars: 0

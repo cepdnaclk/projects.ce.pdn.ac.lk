@@ -9,7 +9,7 @@ grand_parent: Database Projects (CO226)
 cover_url: /data/categories/co226/cover_page.jpg
 thumbnail_url: /data/categories/co226/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-co226-Database-Management-System-for-a-Library
-page_url: blank
+page_url: null
 forks: 3
 watchers: 0
 stars: 0

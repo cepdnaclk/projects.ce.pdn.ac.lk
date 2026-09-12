@@ -9,7 +9,7 @@ grand_parent: Undergraduate Research Projects
 cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e10-4yp-building-a-testbed-for-power-analysis-attacks
-page_url: blank
+page_url: null
 forks: 0
 watchers: 0
 stars: 0

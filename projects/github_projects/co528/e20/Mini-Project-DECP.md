@@ -12,8 +12,8 @@ grand_parent: Applied Software Architecture Projects (CO528)
 cover_url: /data/categories/co528/cover_page.jpg
 thumbnail_url: /data/categories/co528/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-CO528-Mini-Project-DECP
-page_url: blank
-forks: 0
+page_url: null
+forks: 1
 watchers: 0
 stars: 0
 started_on: "2026-03-09T20:46:05Z"

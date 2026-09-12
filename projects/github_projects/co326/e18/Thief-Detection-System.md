@@ -12,7 +12,7 @@ grand_parent: Industrial Automation Projects (CO326)
 cover_url: /data/categories/co326/cover_page.jpg
 thumbnail_url: /data/categories/co326/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-co326-Thief-Detection-System
-page_url: blank
+page_url: null
 forks: 3
 watchers: 1
 stars: 1
