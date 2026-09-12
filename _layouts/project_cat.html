@@ -44,7 +44,7 @@ layout: default
           Filter Projects by:
 
           <ul class="list-group">
-            {%- assign batch_array = site.html_pages | where: "layout", "project_batch" | where: "parent", page.title | reverse -%}
+            {%- assign batch_array = site.html_pages | where: "layout", "project_batch" | where: "parent", page.title | sort: "title" | reverse -%}
             {% for item in batch_array %}
               {% if item.nav_exclude!= true %}
                 {%- assign batch_projects = site.html_pages | where: "layout", "project_page" | where: "parent", item.title -%}
@@ -71,7 +71,7 @@ layout: default
         <div class="container p-0 mw-100">
           <div class="row">
             {% if page.has_children == true and page.has_toc != false %}
-              {%- assign batch_list = site.html_pages | where: "layout", "project_batch" | where: "parent", page.title | reverse -%}
+              {%- assign batch_list = site.html_pages | where: "layout", "project_batch" | where: "parent", page.title | sort: "title" | reverse -%}
 
               {% for batch in batch_list %}
                 {%- assign proj_list = site.html_pages | where: "layout", "project_page" | where: "parent", batch.title -%}

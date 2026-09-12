@@ -97,7 +97,7 @@ function readAPIData(url) {
   });
 }
 
-function readRemoteData(basepath, page_url) {
+function readRemoteData(page_url) {
   const url = `${page_url}/data/index.json`;
 
   console.log("Fetch data from the project config,", url);
@@ -113,9 +113,7 @@ function readRemoteData(basepath, page_url) {
       if (data.tags.length > 0) {
         $(".remoteDataTags").removeClass("d-none");
         $.each(data.tags, function (index, tag) {
-          $("#tagList").append(
-            `<a class="text-decoration-none text-dark pb-2" href="${basepath}/search/?query=${tag}"><span class='badge bg-secondary m-1'>${tag}</span></a> `
-          );
+          $("#tagList").append($("<span class='badge bg-secondary m-1'>").text(tag), " ");
         });
       }
 

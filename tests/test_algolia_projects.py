@@ -50,7 +50,7 @@ class TestAlgoliaProjects(unittest.TestCase):
         self.assertEqual(record["tags"], ["AI", "Vision"])
         self.assertEqual(record["team_names"], ["Alice Example"])
         self.assertEqual(record["supervisor_names"], ["Dr. Mentor"])
-        self.assertEqual(record["result_url"], "https://projects.ce.pdn.ac.lk/4yp/e21/demo/")
+        self.assertEqual(record["project_url"], "https://projects.ce.pdn.ac.lk/4yp/e21/demo/")
 
     def test_transform_projects_payload_reports_invalid_records(self) -> None:
         records, errors = transform_projects_payload(

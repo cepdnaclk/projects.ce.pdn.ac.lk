@@ -37,7 +37,7 @@ def get_custom_media(default_cover, default_thumb, gh_page):
     cover_url = default_cover
     thumbnail_url = default_thumb
 
-    if gh_page == "blank":
+    if not gh_page:
         return cover_url, thumbnail_url
 
     session = requests.Session()

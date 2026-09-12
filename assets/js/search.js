@@ -42,10 +42,6 @@
   var searchModal =
     modalElement && bootstrap && bootstrap.Modal ? new bootstrap.Modal(modalElement) : null;
 
-  function trimText(value, maxLength) {
-    return value.length > maxLength ? `${value.substring(0, maxLength)}...` : value;
-  }
-
   function escapeHtml(value) {
     return String(value)
       .replace(/&/g, "&amp;")
@@ -55,11 +51,11 @@
       .replace(/'/g, "&#39;");
   }
 
-  const TEXT_TRIM_LEN = 48;
   const HITS_PER_PAGE = 8;
   var allHits = [];
   var currentPage = 0;
   var currentQuery = "";
+  var searchToken = 0;
   var client =
     hasValidConfig && algoliasearch ? algoliasearch(config.appId, config.searchApiKey) : null;
 
@@ -116,19 +112,23 @@
   }
 
   function buildHitHtml(hit) {
-    const url = hit.project_url
-
+    // ponytail: _highlightResult values are already HTML-escaped by Algolia; raw fields are not
     var highlight = hit._highlightResult || {};
-    const title = highlight.title?.value || hit.title
-    const subtitle = `<span class="badge rounded-pill ms-1 bg-success text-truncate small">${hit.category_title || ""}</span>`
-    const description = trimText(highlight.description?.value || hit.description || "",255);
+    var url = hit.project_url || hit.page_url || hit.repo_url || "#";
+    var title = (highlight.title && highlight.title.value) || escapeHtml(hit.title || "");
+    var description = (highlight.description && highlight.description.value) || escapeHtml(hit.description || "");
 
-    let tagsString = '';
-    if (hit.tags){
-        tagsString += hit.tags.map(tag => {
-          return `<span class="badge rounded-pill ms-1 bg-info">${tag}</span>`
-        }).join("")
-      }
+    var subtitle = hit.category_title
+      ? `<span class="badge rounded-pill ms-1 bg-success text-truncate small">${escapeHtml(
+          hit.category_title
+        )}</span>`
+      : "";
+
+    var tagsString = (hit.tags || [])
+      .map(function (tag) {
+        return `<span class="badge rounded-pill ms-1 bg-info">${escapeHtml(tag)}</span>`;
+      })
+      .join("");
 
     return `
       <a class="list-group-item list-group-item-action theme-bg-light" href="${escapeHtml(url)}">
@@ -246,6 +246,7 @@
     if (!hasValidConfig || !client) {
       return;
     }
+    var token = (searchToken += 1);
     currentQuery = query;
     setQueryForAllInputs(query);
     setLoading(true);
@@ -271,25 +272,21 @@
     client
       .search(queries)
       .then(function (response) {
+        if (token !== searchToken) {
+          return; // stale response, a newer search is in flight
+        }
         var combined = [];
+        var seen = new Set();
         if (response && response.results) {
           response.results.forEach(function (result) {
             var hits = Array.isArray(result.hits) ? result.hits : [];
-            // Ensure unique hits by 'pageId'
-            if (!combined._seenTargets) {
-              combined._seenTargets = new Set();
-            }
-
             hits.forEach(function (hit) {
-              var pageId = hit.url;
-              if (pageId && combined._seenTargets.has(pageId)) {
-                return; // Skip duplicate
+              if (hit.objectID) {
+                if (seen.has(hit.objectID)) {
+                  return;
+                }
+                seen.add(hit.objectID);
               }
-
-              if (pageId) {
-                combined._seenTargets.add(pageId);
-              }
-
               hit.__indexName = result.index;
               combined.push(hit);
             });
@@ -308,6 +305,9 @@
         renderPage(0);
       })
       .catch(function (error) {
+        if (token !== searchToken) {
+          return;
+        }
         setLoading(false);
         updateStatus("Search failed. Please try again later.", true);
         console.error("Algolia search error", error);

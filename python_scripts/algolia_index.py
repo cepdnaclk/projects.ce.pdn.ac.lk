@@ -100,8 +100,8 @@ def main() -> int:
         )
         print("Algolia indexing completed successfully!")
         return 0
-    except Exception:
-        print("Algolia indexing failed")
+    except Exception as exc:
+        print(f"Algolia indexing failed: {type(exc).__name__}: {exc}", file=sys.stderr)
         return 1
 
 
