@@ -116,14 +116,12 @@
   }
 
   function buildHitHtml(hit) {
-    console.log(">> hit", hit)
-
     const url = hit.project_url
 
     var highlight = hit._highlightResult || {};
     const title = highlight.title?.value || hit.title
     const subtitle = `<span class="badge rounded-pill ms-1 bg-success text-truncate small">${hit.category_title || ""}</span>`
-    const description = highlight.description?.value || hit.description || "";
+    const description = trimText(highlight.description?.value || hit.description || "",255);
 
     let tagsString = '';
     if (hit.tags){
