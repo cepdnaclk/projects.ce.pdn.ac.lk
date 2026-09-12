@@ -2,7 +2,7 @@ name: Algolia Search Index
 
 on:
   schedule:
-    - cron: "30 18 * * 0"
+    - cron: "30 18 * * 0,2,5"
 
   workflow_dispatch:
 
