@@ -160,7 +160,7 @@ layout: default
 <script type="text/javascript">
   $(document).ready(function () {
       {% if page.page_url %}
-      readRemoteData('{{ site.baseurl }}', '{{ page.page_url }}');
+      readRemoteData('{{ page.page_url }}');
       {% endif %}
       readAPIData('{{ page.permalink }}');
       readLanguageData('{{ page.repo_url }}');

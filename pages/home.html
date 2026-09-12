@@ -57,26 +57,13 @@ search_exclude: true
     </header>
 
     <div class="container pb-5">
-      <form action="{{'/search/' | relative_url}}" method="get">
-        <div class="row">
-          <div class="col-md-10 mx-auto">
-            <div class="input-group">
-              <input
-                type="search"
-                id="search-box"
-                class="form-control form-control-lg"
-                placeholder="Search projects..."
-                name="query"
-                required
-              />
-              <button id="search-button" type="submit" class="btn btn-primary px-3 form-control-lg">
-                <i class="fas fa-search"></i>
-              </button>
-            </div>
-          </div>
+      <div class="row">
+        <div class="col-md-11 mx-auto">
+          {% include search_form.html %}
         </div>
-      </form>
+      </div>
     </div>
+    {% include search_modal.html %}
 
     <hr />
     <div>

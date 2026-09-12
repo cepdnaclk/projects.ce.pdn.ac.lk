@@ -47,10 +47,11 @@ delete_project_index()
 # Download the repository data
 try:
     repo_dict = download_repository_data()
-except requests.RequestException:
-    ERROR_MSG = "An exception occurred while getting data from GitHub: "
+except requests.RequestException as e:
+    ERROR_MSG = f"An exception occurred while getting data from GitHub: {e}"
     print(">> Error:", ERROR_MSG)
     notify.warning(ERROR_MSG)
+    raise SystemExit(1)
 
 # # -----------------------------------------------------------------------------------
 # # Write the repository data to a local source
@@ -228,6 +229,6 @@ for id, cat in enumerate(sorted(BATCHES)):
             print(">> Error:", ERROR_MSG, str(e))
             notify.warning(ERROR_MSG, str(e))
 
-print(f">> Created {id} categories")
+print(f">> Created {len(BATCHES)} categories")
 
 print("END")
