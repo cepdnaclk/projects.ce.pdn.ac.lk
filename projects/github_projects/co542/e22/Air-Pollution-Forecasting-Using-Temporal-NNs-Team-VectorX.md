@@ -2,7 +2,10 @@
 layout: project_page
 title: Air Pollution Forecasting Using Temporal NNs Team VectorX
 permalink: /co542/e22/Air-Pollution-Forecasting-Using-Temporal-NNs-Team-VectorX/
-description: ""
+description: An end-to-end deep learning and machine learning framework for hourly
+  PM2.5 air pollution forecasting across 12 Beijing monitoring stations, leveraging
+  physics-informed atmospheric feature engineering, deep residual temporal neural
+  networks (ResNet-1D BiLSTM), and SLSQP hybrid ensemble blending.
 has_children: false
 parent: E22 Neural Networks Projects (CO542)
 grand_parent: Neural Networks Projects (CO542)
@@ -15,3 +18,5 @@ watchers: 0
 stars: 0
 started_on: "2026-09-12T03:56:05Z"
 ---
+
+An end-to-end deep learning and machine learning framework for hourly PM2.5 air pollution forecasting across 12 Beijing monitoring stations, leveraging physics-informed atmospheric feature engineering, deep residual temporal neural networks (ResNet-1D BiLSTM), and SLSQP hybrid ensemble blending.
