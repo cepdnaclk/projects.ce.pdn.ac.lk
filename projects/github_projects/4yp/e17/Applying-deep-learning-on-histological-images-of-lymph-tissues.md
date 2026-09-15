@@ -12,8 +12,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-4yp-Applying-deep-learning-on-histological-images-of-lymph-tissues
 page_url: https://cepdnaclk.github.io/e17-4yp-Applying-deep-learning-on-histological-images-of-lymph-tissues
 forks: 2
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: "2023-05-21T09:56:28Z"
 ---
 
