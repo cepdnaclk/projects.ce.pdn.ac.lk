@@ -10,8 +10,8 @@ description: The School Van Management System is a management platform developed
 has_children: false
 parent: E22 Software Systems Design Project (CO2060)
 grand_parent: Software Systems Design Project (CO2060)
-cover_url: /data/categories/co2060/cover_page.jpg
-thumbnail_url: /data/categories/co2060/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/e22-co2060-School-Van-Management-System/data/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/e22-co2060-School-Van-Management-System/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-co2060-School-Van-Management-System
 page_url: https://cepdnaclk.github.io/e22-co2060-School-Van-Management-System
 forks: 1

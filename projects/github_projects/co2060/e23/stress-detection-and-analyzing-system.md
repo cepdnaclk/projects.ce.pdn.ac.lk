@@ -10,7 +10,7 @@ description: Our app detects and categorizes stress for undergraduates and early
 has_children: false
 parent: E23 Software Systems Design Project (CO2060)
 grand_parent: Software Systems Design Project (CO2060)
-cover_url: /data/categories/co2060/cover_page.jpg
+cover_url: https://cepdnaclk.github.io/e23-co2060-stress-detection-and-analyzing-system/data/cover_page.jpg
 thumbnail_url: /data/categories/co2060/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e23-co2060-stress-detection-and-analyzing-system
 page_url: https://cepdnaclk.github.io/e23-co2060-stress-detection-and-analyzing-system
