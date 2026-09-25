@@ -9,10 +9,10 @@ description: "The Smart Tourism Management System reduces information fragmentat
 has_children: false
 parent: E23 Software Systems Design Project (CO2060)
 grand_parent: Software Systems Design Project (CO2060)
-cover_url: /data/categories/co2060/cover_page.jpg
-thumbnail_url: /data/categories/co2060/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/e23-co2060-Smart-Tourism/data/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/e23-co2060-Smart-Tourism/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e23-co2060-Smart-Tourism
-page_url: null
+page_url: https://cepdnaclk.github.io/e23-co2060-Smart-Tourism
 forks: 1
 watchers: 0
 stars: 0

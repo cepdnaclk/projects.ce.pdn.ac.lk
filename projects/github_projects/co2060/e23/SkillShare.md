@@ -10,8 +10,8 @@ description: Skill-Share is a platform where the university students can share n
 has_children: false
 parent: E23 Software Systems Design Project (CO2060)
 grand_parent: Software Systems Design Project (CO2060)
-cover_url: /data/categories/co2060/cover_page.jpg
-thumbnail_url: /data/categories/co2060/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/e23-co2060-SkillShare/data/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/e23-co2060-SkillShare/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e23-co2060-SkillShare
 page_url: https://cepdnaclk.github.io/e23-co2060-SkillShare
 forks: 0
