@@ -12,8 +12,8 @@ thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e19-3yp-smart-supermarket-navigation-system
 page_url: https://cepdnaclk.github.io/e19-3yp-smart-supermarket-navigation-system
 forks: 3
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: "2023-11-18T07:17:29Z"
 ---
 
