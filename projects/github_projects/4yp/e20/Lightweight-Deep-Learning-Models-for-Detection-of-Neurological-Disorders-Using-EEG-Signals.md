@@ -16,8 +16,8 @@ thumbnail_url: https://cepdnaclk.github.io/e20-4yp-Lightweight-Deep-Learning-Mod
 repo_url: https://github.com/cepdnaclk/e20-4yp-Lightweight-Deep-Learning-Models-for-Detection-of-Neurological-Disorders-Using-EEG-Signals
 page_url: https://cepdnaclk.github.io/e20-4yp-Lightweight-Deep-Learning-Models-for-Detection-of-Neurological-Disorders-Using-EEG-Signals
 forks: 0
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: "2026-01-05T10:48:44Z"
 ---
 
