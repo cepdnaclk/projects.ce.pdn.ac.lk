@@ -8,13 +8,13 @@ description: An intelligent computer vision system for automated industrial surf
 has_children: false
 parent: E23 Image Processing Projects (CO543)
 grand_parent: Image Processing Projects (CO543)
-cover_url: /data/categories/co543/cover_page.jpg
-thumbnail_url: /data/categories/co543/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/e23-co543-DefectVision-Intelligent-Surface-Defect-Detection-Using-Deep-Learning/data/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/e23-co543-DefectVision-Intelligent-Surface-Defect-Detection-Using-Deep-Learning/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e23-co543-DefectVision-Intelligent-Surface-Defect-Detection-Using-Deep-Learning
 page_url: https://cepdnaclk.github.io/e23-co543-DefectVision-Intelligent-Surface-Defect-Detection-Using-Deep-Learning
 forks: 0
-watchers: 1
-stars: 1
+watchers: 2
+stars: 2
 started_on: "2026-07-06T10:26:13Z"
 ---
 
