@@ -10,9 +10,9 @@ cover_url: /data/categories/4yp/cover_page.jpg
 thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e18-4yp-Virtual-Patient-Simulator-for-Skill-Training-in-Dentistry
 page_url: https://cepdnaclk.github.io/e18-4yp-Virtual-Patient-Simulator-for-Skill-Training-in-Dentistry
-forks: 4
-watchers: 2
-stars: 2
+forks: 5
+watchers: 3
+stars: 3
 started_on: "2024-01-06T06:41:11Z"
 ---
 
