@@ -12,7 +12,7 @@ cover_url: /data/categories/co326/cover_page.jpg
 thumbnail_url: /data/categories/co326/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co326-HVAC-Blower-Fan-Predictive-Maintenance
 page_url: null
-forks: 0
+forks: 1
 watchers: 1
 stars: 1
 started_on: "2026-04-20T07:59:16Z"

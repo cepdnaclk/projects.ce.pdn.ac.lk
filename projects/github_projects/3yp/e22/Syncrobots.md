@@ -13,7 +13,7 @@ grand_parent: Cyber-Physical Systems Projects
 cover_url: /data/categories/3yp/cover_page.jpg
 thumbnail_url: /data/categories/3yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-3yp-Syncrobots
-page_url: null
+page_url: https://cepdnaclk.github.io/e22-3yp-Syncrobots
 forks: 0
 watchers: 0
 stars: 0
