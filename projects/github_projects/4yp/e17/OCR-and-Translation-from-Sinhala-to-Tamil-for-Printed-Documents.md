@@ -14,8 +14,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e17-4yp-OCR-and-Translation-from-Sinhala-to-Tamil-for-Printed-Documents
 page_url: https://cepdnaclk.github.io/e17-4yp-OCR-and-Translation-from-Sinhala-to-Tamil-for-Printed-Documents
 forks: 2
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: "2023-05-24T06:40:36Z"
 ---
 

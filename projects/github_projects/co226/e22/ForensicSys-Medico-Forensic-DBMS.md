@@ -6,8 +6,8 @@ description: ""
 has_children: false
 parent: E22 Database Projects (CO226)
 grand_parent: Database Projects (CO226)
-cover_url: https://cepdnaclk.github.io/e22-co226-ForensicSys-Medico-Forensic-DBMS/data/cover_page.jpg
-thumbnail_url: https://cepdnaclk.github.io/e22-co226-ForensicSys-Medico-Forensic-DBMS/data/thumbnail.jpg
+cover_url: /data/categories/co226/cover_page.jpg
+thumbnail_url: /data/categories/co226/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-co226-ForensicSys-Medico-Forensic-DBMS
 page_url: https://cepdnaclk.github.io/e22-co226-ForensicSys-Medico-Forensic-DBMS
 forks: 0
