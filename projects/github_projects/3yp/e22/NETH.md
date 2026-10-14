@@ -8,8 +8,8 @@ description: A low-power cyber-physical system for intelligent wildlife monitori
 has_children: false
 parent: E22 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
-cover_url: /data/categories/3yp/cover_page.jpg
-thumbnail_url: /data/categories/3yp/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/e22-3yp-NETH/data/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/e22-3yp-NETH/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-3yp-NETH
 page_url: https://cepdnaclk.github.io/e22-3yp-NETH
 forks: 0
