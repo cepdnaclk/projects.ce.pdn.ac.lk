@@ -10,8 +10,8 @@ description: "Echo \U0001F91F \u2014 Every Gesture Has a Voice. An assistive sma
 has_children: false
 parent: E22 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
-cover_url: /data/categories/3yp/cover_page.jpg
-thumbnail_url: /data/categories/3yp/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/e22-3yp-Echo/data/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/e22-3yp-Echo/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-3yp-Echo
 page_url: https://cepdnaclk.github.io/e22-3yp-Echo
 forks: 0

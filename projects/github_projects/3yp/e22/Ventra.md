@@ -9,8 +9,8 @@ description: Ventra is a low-cost, real-time Bag-Valve-Mask (BVM) ventilation fe
 has_children: false
 parent: E22 Cyber-Physical Systems Projects
 grand_parent: Cyber-Physical Systems Projects
-cover_url: /data/categories/3yp/cover_page.jpg
-thumbnail_url: /data/categories/3yp/thumbnail.jpg
+cover_url: https://cepdnaclk.github.io/e22-3yp-Ventra/data/cover_page.jpg
+thumbnail_url: https://cepdnaclk.github.io/e22-3yp-Ventra/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-3yp-Ventra
 page_url: https://cepdnaclk.github.io/e22-3yp-Ventra
 forks: 0
