@@ -13,8 +13,8 @@ thumbnail_url: https://cepdnaclk.github.io/e22-3yp-NETH/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e22-3yp-NETH
 page_url: https://cepdnaclk.github.io/e22-3yp-NETH
 forks: 1
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: "2026-10-12T20:45:37Z"
 ---
 
