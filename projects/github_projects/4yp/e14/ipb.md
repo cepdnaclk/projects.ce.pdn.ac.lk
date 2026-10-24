@@ -14,8 +14,8 @@ thumbnail_url: /data/categories/4yp/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e14-4yp-ipb
 page_url: https://cepdnaclk.github.io/e14-4yp-ipb
 forks: 1
-watchers: 3
-stars: 3
+watchers: 4
+stars: 4
 started_on: "2021-02-28T07:09:31Z"
 ---
 
