@@ -2,9 +2,10 @@
 layout: project_page
 title: NexClinic
 permalink: /co2060/e23/NexClinic/
-description: An AI based healthcare application that connects patients and doctors
-  allowing secure login appointment management medical reminders and future AI assisted
-  health support
+description: NexClinic is an advanced, full-stack clinic management platform designed
+  to connect patients with doctors through a secure, highly-responsive digital ecosystem.  Built
+  with scalability, security, and user-experience in mind, NexClinic automates the
+  entire appointment lifecycle for modern healthcare facilities.
 has_children: false
 parent: E23 Software Systems Design Project (CO2060)
 grand_parent: Software Systems Design Project (CO2060)
@@ -18,4 +19,4 @@ stars: 2
 started_on: "2026-02-07T01:58:44Z"
 ---
 
-An AI based healthcare application that connects patients and doctors allowing secure login appointment management medical reminders and future AI assisted health support
+NexClinic is an advanced, full-stack clinic management platform designed to connect patients with doctors through a secure, highly-responsive digital ecosystem. Built with scalability, security, and user-experience in mind, NexClinic automates the entire appointment lifecycle for modern healthcare facilities.
