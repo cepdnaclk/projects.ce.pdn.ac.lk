@@ -10,7 +10,7 @@ cover_url: /data/categories/co326/cover_page.jpg
 thumbnail_url: /data/categories/co326/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e20-co326-edge-ai-group15
 page_url: null
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: "2026-04-28T14:12:33Z"
