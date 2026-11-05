@@ -14,8 +14,8 @@ thumbnail_url: https://cepdnaclk.github.io/e21-3yp-Drone-Swarm/data/thumbnail.jp
 repo_url: https://github.com/cepdnaclk/e21-3yp-Drone-Swarm
 page_url: https://cepdnaclk.github.io/e21-3yp-Drone-Swarm
 forks: 0
-watchers: 3
-stars: 3
+watchers: 4
+stars: 4
 started_on: "2026-02-07T14:13:36Z"
 ---
 
