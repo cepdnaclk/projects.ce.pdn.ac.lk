@@ -12,7 +12,7 @@ cover_url: /data/categories/co543/cover_page.jpg
 thumbnail_url: /data/categories/co543/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e23-co543-PCB-Bare-Board-Defect-Detection
 page_url: https://cepdnaclk.github.io/e23-co543-PCB-Bare-Board-Defect-Detection
-forks: 0
+forks: 1
 watchers: 0
 stars: 0
 started_on: "2026-07-06T18:41:58Z"
