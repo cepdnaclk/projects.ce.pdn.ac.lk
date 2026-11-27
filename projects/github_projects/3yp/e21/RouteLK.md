@@ -13,8 +13,8 @@ thumbnail_url: https://cepdnaclk.github.io/e21-3yp-RouteLK/data/thumbnail.jpg
 repo_url: https://github.com/cepdnaclk/e21-3yp-RouteLK
 page_url: https://cepdnaclk.github.io/e21-3yp-RouteLK
 forks: 4
-watchers: 0
-stars: 0
+watchers: 1
+stars: 1
 started_on: "2026-01-26T05:40:33Z"
 ---
 
